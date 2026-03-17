@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 103.83000183105469,
-      "day_change_pct": 3.61,
-      "war_change_pct": 33.56,
+      "current": 103.70999908447266,
+      "day_change_pct": 3.49,
+      "war_change_pct": 33.41,
       "dates": [
         "02/03",
         "02/04",
@@ -66,14 +66,14 @@
         100.46,
         103.14,
         100.21,
-        103.83
+        103.71
       ],
-      "updated": "2026-03-17T06:34:18.901933"
+      "updated": "2026-03-17T06:36:52.305075"
     },
     "wti": {
-      "current": 97.30999755859375,
-      "day_change_pct": 4.07,
-      "war_change_pct": 36.61,
+      "current": 97.25,
+      "day_change_pct": 4.01,
+      "war_change_pct": 36.53,
       "dates": [
         "02/03",
         "02/04",
@@ -136,14 +136,14 @@
         95.73,
         98.71,
         93.5,
-        97.31
+        97.25
       ],
-      "updated": "2026-03-17T06:34:18.948794"
+      "updated": "2026-03-17T06:36:52.415807"
     },
     "gold": {
-      "current": 5010.2001953125,
-      "day_change_pct": 0.32,
-      "war_change_pct": -5.37,
+      "current": 5014.89990234375,
+      "day_change_pct": 0.42,
+      "war_change_pct": -5.28,
       "dates": [
         "02/03",
         "02/04",
@@ -206,14 +206,14 @@
         5115.8,
         5052.5,
         4994.0,
-        5010.2
+        5014.9
       ],
-      "updated": "2026-03-17T06:34:18.995971"
+      "updated": "2026-03-17T06:36:52.582860"
     },
     "usd_cny": {
-      "current": 6.888500213623047,
-      "day_change_pct": 0.29,
-      "war_change_pct": 0.45,
+      "current": 6.888400077819824,
+      "day_change_pct": 0.28,
+      "war_change_pct": 0.44,
       "dates": [
         "02/03",
         "02/04",
@@ -278,7 +278,7 @@
         6.87,
         6.89
       ],
-      "updated": "2026-03-17T06:34:19.048706"
+      "updated": "2026-03-17T06:36:52.720802"
     },
     "nat_gas": {
       "current": 3.0390000343322754,
@@ -348,140 +348,177 @@
         3.02,
         3.04
       ],
-      "updated": "2026-03-17T06:34:19.099829"
+      "updated": "2026-03-17T06:36:52.786227"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 16.54,
+      "change_pct": -1.25,
+      "high": 17.07,
+      "low": 16.5,
+      "volume": 1319195
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 23.3,
+      "change_pct": -1.98,
+      "high": 24.49,
+      "low": 23.23,
+      "volume": 931742
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 4.95,
+      "change_pct": 2.91,
+      "high": 5.14,
+      "low": 4.7,
+      "volume": 5836381
     },
     "600938": {
       "name": "中国海油",
       "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 12.05,
+      "change_pct": 0.5,
+      "high": 12.12,
+      "low": 11.8,
+      "volume": 2491624
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 6.25,
+      "change_pct": -1.26,
+      "high": 6.3,
+      "low": 6.21,
+      "volume": 2934216
     },
     "603619": {
       "name": "中曼石油",
-      "price": 35.86,
-      "change_pct": -3.13,
+      "price": 35.85,
+      "change_pct": -3.16,
       "high": 36.8,
       "low": 35.12,
-      "volume": 366715
+      "volume": 369211
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 7.16,
+      "change_pct": -1.78,
+      "high": 7.36,
+      "low": 6.88,
+      "volume": 5957895
     },
     "601808": {
       "name": "中海油服",
-      "price": 17.66,
-      "change_pct": -0.9,
+      "price": 17.7,
+      "change_pct": -0.67,
       "high": 17.92,
       "low": 17.33,
-      "volume": 351661
+      "volume": 353973
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 100.7,
+      "change_pct": -0.73,
+      "high": 105.5,
+      "low": 100.18,
+      "volume": 193103
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 22.47,
+      "change_pct": -1.36,
+      "high": 23.06,
+      "low": 22.31,
+      "volume": 113955
     },
     "600256": {
       "name": "广汇能源",
       "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600256&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "601919": {
       "name": "中远海控",
-      "price": 16.17,
-      "change_pct": 0.56,
+      "price": 16.15,
+      "change_pct": 0.44,
       "high": 16.41,
       "low": 16.0,
-      "volume": 1021437
+      "volume": 1026653
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 50.48,
+      "change_pct": -1.02,
+      "high": 51.21,
+      "low": 50.32,
+      "volume": 136802
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 54.02,
+      "change_pct": -2.19,
+      "high": 55.72,
+      "low": 53.92,
+      "volume": 213401
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 34.45,
+      "change_pct": -1.32,
+      "high": 35.2,
+      "low": 34.4,
+      "volume": 704344
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 44.59,
+      "change_pct": 1.13,
+      "high": 45.67,
+      "low": 43.99,
+      "volume": 433960
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 40.12,
+      "change_pct": 1.31,
+      "high": 41.2,
+      "low": 39.43,
+      "volume": 464943
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 29.36,
+      "change_pct": -0.03,
+      "high": 30.05,
+      "low": 29.21,
+      "volume": 535374
     },
     "601088": {
       "name": "中国神华",
       "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601088&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": 0.77
     },
     "石油": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -2.05
     },
     "军工": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -0.51
     },
     "黄金": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": 0.73
     }
   },
   "news": [
@@ -661,8 +698,8 @@
     "report_date_cn": "2026年03月17日",
     "war_day": 18,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-17T06:34:49.625738",
-    "generated_at_cn": "2026-03-17 06:34:49"
+    "generated_at": "2026-03-17T06:38:17.676829",
+    "generated_at_cn": "2026-03-17 06:38:17"
   },
   "history": [
     {
@@ -685,6 +722,13 @@
       "wti": 97.30999755859375,
       "gold": 5010.2001953125,
       "usd_cny": 6.888500213623047
+    },
+    {
+      "date": "2026-03-17",
+      "brent": 103.70999908447266,
+      "wti": 97.25,
+      "gold": 5014.89990234375,
+      "usd_cny": 6.888400077819824
     }
   ]
 }
