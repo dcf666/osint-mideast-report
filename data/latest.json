@@ -354,18 +354,27 @@
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 16.82,
+      "change_pct": 0.42,
+      "high": 17.07,
+      "low": 16.62,
+      "volume": 1091784
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 23.66,
+      "change_pct": -0.46,
+      "high": 24.49,
+      "low": 23.4,
+      "volume": 770222
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 4.94,
+      "change_pct": 2.7,
+      "high": 5.14,
+      "low": 4.7,
+      "volume": 4995843
     },
     "600938": {
       "name": "中国海油",
@@ -377,13 +386,19 @@
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 11.83,
+      "change_pct": -1.33,
+      "high": 12.0,
+      "low": 11.8,
+      "volume": 1547587
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 6.22,
+      "change_pct": -1.74,
+      "high": 6.3,
+      "low": 6.21,
+      "volume": 2278153
     },
     "603619": {
       "name": "中曼石油",
@@ -395,18 +410,27 @@
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 6.99,
+      "change_pct": -4.12,
+      "high": 7.33,
+      "low": 6.88,
+      "volume": 4107879
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 17.41,
+      "change_pct": -2.3,
+      "high": 17.71,
+      "low": 17.33,
+      "volume": 243779
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 101.84,
+      "change_pct": 0.39,
+      "high": 105.5,
+      "low": 100.18,
+      "volume": 156756
     },
     "600803": {
       "name": "新奥股份",
@@ -435,23 +459,35 @@
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 34.78,
+      "change_pct": -0.37,
+      "high": 35.2,
+      "low": 34.74,
+      "volume": 480155
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 45.49,
+      "change_pct": 3.18,
+      "high": 45.67,
+      "low": 43.99,
+      "volume": 342470
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 40.6,
+      "change_pct": 2.53,
+      "high": 41.2,
+      "low": 39.43,
+      "volume": 375335
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 29.91,
+      "change_pct": 1.84,
+      "high": 30.05,
+      "low": 29.21,
+      "volume": 405441
     },
     "601088": {
       "name": "中国神华",
@@ -461,8 +497,7 @@
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": 0.87
     },
     "石油": {
       "change_pct": null,
