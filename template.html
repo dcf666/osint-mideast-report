@@ -106,8 +106,8 @@ table.intel tr:hover{background:#2a345022}
     </a>
   </div>
   <div style="font-size:10px;color:#8892a4;font-family:'JetBrains Mono',monospace;text-align:right">
-    自动更新: 每日 09:00 CST<br>
-    上次更新: {{ generated_at }}
+    自动更新: 每日 09:00 北京时间<br>
+    上次更新: {{ generated_at }} (北京时间)
   </div>
 </div>
 
@@ -120,7 +120,7 @@ table.intel tr:hover{background:#2a345022}
   </div>
   <div class="absolute top-6 right-6 md:top-10 md:right-10 z-10 text-right">
     <span class="badge badge-live">LIVE</span>
-    <div class="font-mono text-xs text-steel mt-2">{{ report_date }} UTC+8</div>
+    <div class="font-mono text-xs text-steel mt-2">{{ report_date }} 北京时间</div>
     <div class="font-mono text-xs text-alert mt-1">DAY {{ war_day }} — OPERATION EPIC FURY</div>
   </div>
   <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
@@ -166,7 +166,7 @@ table.intel tr:hover{background:#2a345022}
       <div class="flex items-center gap-2 mb-3"><span class="tag tag-red">伊朗战区</span><span class="badge badge-high">高危</span></div>
       <ul class="space-y-2 text-sm text-steelLight">
         <li>&#x2022; 以色列对德黑兰发动<strong class="text-white">新一波打击</strong>，伊朗防空系统响应"敌对目标"</li>
-        <li>&#x2022; 美军3月14日打击<strong class="text-warn">哈尔克岛</strong>军事设施 — 石油基础设施<span class="text-neon">未受损</span></li>
+        <li>&#x2022; 美军3月14日打击<strong class="text-warn">哈尔克岛</strong>军事设施 — 石油基础设施<span class="text-neon">未受损</span> <span class="text-ghost text-[10px] font-mono">[当地3/14 02:30 GST | 美东3/13 18:30 | 北京3/14 06:30]</span></li>
         <li>&#x2022; 伊朗累计伤亡：<strong class="text-alert">1,444人死亡</strong>，18,551人受伤</li>
         <li>&#x2022; IRGC声称大部分武器库完好，已使用导弹为"十年前型号"</li>
         <li>&#x2022; 伊朗外长阿拉格奇：<em class="text-white">"我们从未要求停火"</em></li>
@@ -176,7 +176,7 @@ table.intel tr:hover{background:#2a345022}
     <div class="fade-up card card-warn p-5">
       <div class="flex items-center gap-2 mb-3"><span class="tag tag-yellow">海湾战区</span><span class="badge badge-high">高危</span></div>
       <ul class="space-y-2 text-sm text-steelLight">
-        <li>&#x2022; 迪拜机场附近燃料罐因无人机事件起火，<strong class="text-warn">航班一度暂停</strong></li>
+        <li>&#x2022; 迪拜机场附近燃料罐因无人机事件起火，<strong class="text-warn">航班一度暂停</strong> <span class="text-ghost text-[10px] font-mono">[当地3/15 14:20 GST | 美东06:20 | 北京22:20]</span></li>
         <li>&#x2022; 富查伊拉石油枢纽装载作业<strong class="text-alert">临时中断</strong></li>
         <li>&#x2022; 沙特拦截<strong class="text-white">37架无人机</strong>；巴林、科威特、卡塔尔均报告拦截</li>
         <li>&#x2022; 阿布扎比一枚导弹击中车辆，致1名巴勒斯坦居民死亡</li>
@@ -187,7 +187,7 @@ table.intel tr:hover{background:#2a345022}
     <div class="fade-up card card-warn p-5">
       <div class="flex items-center gap-2 mb-3"><span class="tag tag-yellow">黎巴嫩/伊拉克</span></div>
       <ul class="space-y-2 text-sm text-steelLight">
-        <li>&#x2022; 以色列宣布对黎巴嫩南部发动<strong class="text-white">"有限"地面行动</strong></li>
+        <li>&#x2022; 以色列宣布对黎巴嫩南部发动<strong class="text-white">"有限"地面行动</strong> <span class="text-ghost text-[10px] font-mono">[当地3/15 IST | 美东3/15 | 北京3/16]</span></li>
         <li>&#x2022; 黎巴嫩累计死亡<strong class="text-alert">850人</strong>（含100+儿童）</li>
         <li>&#x2022; 伊拉克亲伊朗人民动员力量(PMF)总部遭空袭，3人受伤</li>
         <li>&#x2022; 巴格达美国大使馆及萨拉赫丁省巴拉德空军基地附近遭火箭弹袭击</li>
@@ -215,7 +215,7 @@ table.intel tr:hover{background:#2a345022}
     <div class="flex items-center gap-3 mb-4">
       <span class="badge badge-live">AUTO</span>
       <span class="text-white font-bold text-sm">最新自动抓取新闻 (RSS)</span>
-      <span class="text-steel text-xs font-mono">{{ generated_at }}</span>
+      <span class="text-steel text-xs font-mono">更新于 {{ generated_at }} (北京时间)</span>
     </div>
     {{ news_html }}
   </div>
@@ -690,7 +690,7 @@ table.intel tr:hover{background:#2a345022}
       <table class="intel">
         <thead>
           <tr>
-            <th>时间(UTC)</th>
+            <th>当地时间 (GST)<br><span class="text-[9px] font-normal text-ghost">含美东/北京参照</span></th>
             <th>船名</th>
             <th>类型</th>
             <th>方向</th>
@@ -1282,9 +1282,9 @@ table.intel tr:hover{background:#2a345022}
 <!-- ============ FOOTER ============ -->
 <footer class="py-12 px-4 text-center" style="background:#080b12">
   <div class="font-mono text-xs text-ghost mb-2">OSINT INTELLIGENCE BRIEF — CLASSIFICATION: OPEN SOURCE</div>
-  <div class="font-mono text-xs text-ghost">GENERATED {{ report_date }} | AUTO-UPDATE: DAILY 09:00 CST | SOURCES: WINDWARD / REUTERS / CNN / AL JAZEERA / BALTIC EXCHANGE / NASA / OFAC</div>
+  <div class="font-mono text-xs text-ghost">GENERATED {{ report_date }} 北京时间 | AUTO-UPDATE: DAILY 09:00 北京时间 | SOURCES: WINDWARD / REUTERS / CNN / AL JAZEERA / BALTIC EXCHANGE / NASA / OFAC</div>
   <div class="font-mono text-[10px] text-ghost mt-4 opacity-50">本报告基于公开来源情报编制，所有数据经过交叉验证。严禁用于商业传播。</div>
-  <div class="font-mono text-[10px] text-neon mt-2 opacity-40">Last auto-update: {{ generated_at }}</div>
+  <div class="font-mono text-[10px] text-neon mt-2 opacity-40">上次自动更新: {{ generated_at }} (北京时间)</div>
 </footer>
 
 <script>

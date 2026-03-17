@@ -9,7 +9,7 @@ import json
 import os
 import sys
 import traceback
-from datetime import datetime, date, timedelta
+from datetime import datetime, date, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -465,13 +465,16 @@ def compute_meta():
     """Compute metadata: war day, timestamps, etc."""
     today = date.today()
     war_day = (today - WAR_START).days + 1
+    # Always use Beijing time (UTC+8) for functional timestamps
+    bj_tz = timezone(timedelta(hours=8))
+    now_bj = datetime.now(bj_tz)
     return {
         "report_date": today.strftime("%Y.%m.%d"),
         "report_date_cn": today.strftime("%Y年%m月%d日"),
         "war_day": war_day,
         "war_start": WAR_START.isoformat(),
-        "generated_at": datetime.now().isoformat(),
-        "generated_at_cn": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "generated_at": now_bj.isoformat(),
+        "generated_at_cn": now_bj.strftime("%Y-%m-%d %H:%M:%S") + " 北京时间",
     }
 
 

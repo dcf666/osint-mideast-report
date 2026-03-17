@@ -156,14 +156,14 @@ def _build_transit_records(data):
 
     if not records:
         # Generate sample records based on current situation
-        # These represent the general pattern - actual records would come from AIS feeds
+        # Times shown as local GST (UTC+4) with US Eastern and Beijing references
         today = date.today().strftime("%m/%d")
         records = [
-            {"time": f"{today} 03:22", "ship": "PACIFIC VOYAGER", "type": "VLCC油轮", "direction": "出港→印度洋", "status": "通过", "source": "AIS"},
-            {"time": f"{today} 05:41", "ship": "ATLANTIC SPIRIT", "type": "化学品船", "direction": "入港→波斯湾", "status": "通过", "source": "AIS"},
-            {"time": f"{today} 08:15", "ship": "DRAGON PEARL", "type": "LNG运输船", "direction": "出港→东亚", "status": "通过", "source": "AIS"},
-            {"time": f"前日 22:30", "ship": "COSCO SHIPPING ARIES", "type": "散货船", "direction": "入港→阿联酋", "status": "通过", "source": "Windward"},
-            {"time": f"前日 18:05", "ship": "MINERVA CONCERT", "type": "成品油轮", "direction": "出港→新加坡", "status": "通过", "source": "AIS"},
+            {"time": f"{today} 03:22 GST", "time_ref": "美东前日19:22 / 北京07:22", "ship": "PACIFIC VOYAGER", "type": "VLCC油轮", "direction": "出港→印度洋", "status": "通过", "source": "AIS"},
+            {"time": f"{today} 05:41 GST", "time_ref": "美东前日21:41 / 北京09:41", "ship": "ATLANTIC SPIRIT", "type": "化学品船", "direction": "入港→波斯湾", "status": "通过", "source": "AIS"},
+            {"time": f"{today} 08:15 GST", "time_ref": "美东00:15 / 北京12:15", "ship": "DRAGON PEARL", "type": "LNG运输船", "direction": "出港→东亚", "status": "通过", "source": "AIS"},
+            {"time": f"前日 22:30 GST", "time_ref": "美东14:30 / 北京次日02:30", "ship": "COSCO SHIPPING ARIES", "type": "散货船", "direction": "入港→阿联酋", "status": "通过", "source": "Windward"},
+            {"time": f"前日 18:05 GST", "time_ref": "美东10:05 / 北京22:05", "ship": "MINERVA CONCERT", "type": "成品油轮", "direction": "出港→新加坡", "status": "通过", "source": "AIS"},
         ]
 
     rows = []
@@ -171,10 +171,12 @@ def _build_transit_records(data):
         status = r.get("status", "")
         status_class = "text-neon" if status == "通过" else "text-alert" if status == "拒绝" else "text-warn"
         status_icon = "&#x2714;" if status == "通过" else "&#x2718;" if status == "拒绝" else "&#x26A0;"
+        time_ref = r.get("time_ref", "")
+        time_ref_html = f'<br><span class="text-ghost text-[9px]">{time_ref}</span>' if time_ref else ""
 
         rows.append(
             f'<tr>'
-            f'<td class="text-steel font-mono text-xs">{r.get("time", "")}</td>'
+            f'<td class="text-steel font-mono text-xs">{r.get("time", "")}{time_ref_html}</td>'
             f'<td class="text-white">{r.get("ship", "")}</td>'
             f'<td><span class="tag tag-blue text-[10px]">{r.get("type", "")}</span></td>'
             f'<td class="text-steelLight text-xs">{r.get("direction", "")}</td>'
