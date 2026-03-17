@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 104.30999755859375,
-      "day_change_pct": 4.09,
-      "war_change_pct": 34.18,
+      "current": 103.83000183105469,
+      "day_change_pct": 3.61,
+      "war_change_pct": 33.56,
       "dates": [
         "02/03",
         "02/04",
@@ -66,14 +66,14 @@
         100.46,
         103.14,
         100.21,
-        104.31
+        103.83
       ],
-      "updated": "2026-03-17T06:25:45.124349"
+      "updated": "2026-03-17T06:34:18.901933"
     },
     "wti": {
-      "current": 97.9000015258789,
-      "day_change_pct": 4.71,
-      "war_change_pct": 37.44,
+      "current": 97.30999755859375,
+      "day_change_pct": 4.07,
+      "war_change_pct": 36.61,
       "dates": [
         "02/03",
         "02/04",
@@ -136,14 +136,14 @@
         95.73,
         98.71,
         93.5,
-        97.9
+        97.31
       ],
-      "updated": "2026-03-17T06:25:45.177452"
+      "updated": "2026-03-17T06:34:18.948794"
     },
     "gold": {
-      "current": 5016.10009765625,
-      "day_change_pct": 0.44,
-      "war_change_pct": -5.26,
+      "current": 5010.2001953125,
+      "day_change_pct": 0.32,
+      "war_change_pct": -5.37,
       "dates": [
         "02/03",
         "02/04",
@@ -206,9 +206,9 @@
         5115.8,
         5052.5,
         4994.0,
-        5016.1
+        5010.2
       ],
-      "updated": "2026-03-17T06:25:45.222300"
+      "updated": "2026-03-17T06:34:18.995971"
     },
     "usd_cny": {
       "current": 6.888500213623047,
@@ -278,12 +278,12 @@
         6.87,
         6.89
       ],
-      "updated": "2026-03-17T06:25:45.271888"
+      "updated": "2026-03-17T06:34:19.048706"
     },
     "nat_gas": {
-      "current": 3.0329999923706055,
-      "day_change_pct": 0.33,
-      "war_change_pct": 2.47,
+      "current": 3.0390000343322754,
+      "day_change_pct": 0.53,
+      "war_change_pct": 2.67,
       "dates": [
         "02/03",
         "02/04",
@@ -346,91 +346,67 @@
         3.23,
         3.13,
         3.02,
-        3.03
+        3.04
       ],
-      "updated": "2026-03-17T06:25:45.324417"
+      "updated": "2026-03-17T06:34:19.099829"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 16.82,
-      "change_pct": 0.42,
-      "high": 17.07,
-      "low": 16.62,
-      "volume": 1091784
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600026": {
       "name": "中远海能",
-      "price": 23.66,
-      "change_pct": -0.46,
-      "high": 24.49,
-      "low": 23.4,
-      "volume": 770222
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.94,
-      "change_pct": 2.7,
-      "high": 5.14,
-      "low": 4.7,
-      "volume": 4995843
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600938": {
       "name": "中国海油",
-      "price": 40.76,
-      "change_pct": -1.09,
-      "high": 41.36,
-      "low": 39.9,
-      "volume": 722681
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.83,
-      "change_pct": -1.33,
-      "high": 12.0,
-      "low": 11.8,
-      "volume": 1547587
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600028": {
       "name": "中国石化",
-      "price": 6.22,
-      "change_pct": -1.74,
-      "high": 6.3,
-      "low": 6.21,
-      "volume": 2278153
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "603619": {
       "name": "中曼石油",
-      "price": 36.15,
-      "change_pct": -2.35,
+      "price": 35.86,
+      "change_pct": -3.13,
       "high": 36.8,
       "low": 35.12,
-      "volume": 359252
+      "volume": 366715
     },
     "600759": {
       "name": "洲际油气",
-      "price": 6.99,
-      "change_pct": -4.12,
-      "high": 7.33,
-      "low": 6.88,
-      "volume": 4107879
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601808": {
       "name": "中海油服",
-      "price": 17.41,
-      "change_pct": -2.3,
-      "high": 17.71,
+      "price": 17.66,
+      "change_pct": -0.9,
+      "high": 17.92,
       "low": 17.33,
-      "volume": 243779
+      "volume": 351661
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 101.84,
-      "change_pct": 0.39,
-      "high": 105.5,
-      "low": 100.18,
-      "volume": 156756
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600803": {
       "name": "新奥股份",
@@ -444,8 +420,11 @@
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 16.17,
+      "change_pct": 0.56,
+      "high": 16.41,
+      "low": 16.0,
+      "volume": 1021437
     },
     "600760": {
       "name": "中航沈飞",
@@ -459,35 +438,23 @@
     },
     "600150": {
       "name": "中国船舶",
-      "price": 34.78,
-      "change_pct": -0.37,
-      "high": 35.2,
-      "low": 34.74,
-      "volume": 480155
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600547": {
       "name": "山东黄金",
-      "price": 45.49,
-      "change_pct": 3.18,
-      "high": 45.67,
-      "low": 43.99,
-      "volume": 342470
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 40.6,
-      "change_pct": 2.53,
-      "high": 41.2,
-      "low": 39.43,
-      "volume": 375335
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 29.91,
-      "change_pct": 1.84,
-      "high": 30.05,
-      "low": 29.21,
-      "volume": 405441
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601088": {
       "name": "中国神华",
@@ -497,7 +464,8 @@
   },
   "sectors": {
     "航运": {
-      "change_pct": 0.87
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "石油": {
       "change_pct": null,
@@ -517,6 +485,13 @@
     }
   },
   "news": [
+    {
+      "source": "Al Jazeera",
+      "title": "Iran’s neighbours brace for fallout as war threatens new refugee crisis",
+      "link": "https://www.aljazeera.com/news/2026/3/17/irans-neighbours-prepare-for-fallout-as-war-threatens-new-refugee-crisis?traffic_source=rss",
+      "published": "Tue, 17 Mar 2026 06:13:43 +0000",
+      "summary": "As war engulfs Iran, neighbouring states quietly prepare for a potential refugee exodus across already fragile borders."
+    },
     {
       "source": "Al Jazeera",
       "title": "Iran negotiating with FIFA to move World Cup 2026 matches from US to Mexico",
@@ -544,13 +519,6 @@
       "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/south-african-fruit-exports-face-delays-as-iran-war-disrupts-shipping?traffic_source=rss",
       "published": "Tue, 17 Mar 2026 04:20:32 +0000",
       "summary": "South Africa&#039;s fruit exporters face mounting losses and disruption as the US-Israel war on Iran enters its fourth week."
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Cuba faces nationwide blackouts amid US oil blockade",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/cuba-faces-nationwide-blackouts-amid-us-oil-blockade?traffic_source=rss",
-      "published": "Tue, 17 Mar 2026 03:52:10 +0000",
-      "summary": "Cuba’s national power grid has collapsed amid an ongoing US-imposed oil blockade, causing blackouts across the country."
     },
     {
       "source": "BBC World",
@@ -693,8 +661,8 @@
     "report_date_cn": "2026年03月17日",
     "war_day": 18,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-17T06:26:15.287158",
-    "generated_at_cn": "2026-03-17 06:26:15"
+    "generated_at": "2026-03-17T06:34:49.625738",
+    "generated_at_cn": "2026-03-17 06:34:49"
   },
   "history": [
     {
@@ -709,6 +677,13 @@
       "brent": 104.30999755859375,
       "wti": 97.9000015258789,
       "gold": 5016.10009765625,
+      "usd_cny": 6.888500213623047
+    },
+    {
+      "date": "2026-03-17",
+      "brent": 103.83000183105469,
+      "wti": 97.30999755859375,
+      "gold": 5010.2001953125,
       "usd_cny": 6.888500213623047
     }
   ]
