@@ -91,6 +91,24 @@ table.intel tr:hover{background:#2a345022}
 <div class="scan-line"></div>
 <div class="progress-bar" id="progressBar"></div>
 
+<!-- ============ FLOATING MANUAL UPDATE BUTTON ============ -->
+<div id="updatePanel" style="position:fixed;bottom:24px;right:24px;z-index:9997;display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+  <div id="updateToast" style="display:none;background:#1a2235ee;border:1px solid #00ff8844;border-radius:8px;padding:10px 16px;font-size:12px;color:#00ff88;font-family:'JetBrains Mono',monospace;backdrop-filter:blur(10px);max-width:260px">
+    点击后将跳转到 GitHub Actions 页面，点击绿色 "Run workflow" 按钮即可手动触发更新。
+  </div>
+  <div style="display:flex;gap:8px;align-items:center">
+    <button id="updateInfoBtn" onclick="document.getElementById('updateToast').style.display=document.getElementById('updateToast').style.display==='none'?'block':'none'" style="width:36px;height:36px;border-radius:50%;background:#1a2235dd;border:1px solid #2a3450;color:#8892a4;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px)" title="帮助">?</button>
+    <a href="https://github.com/dcf666/osint-mideast-report/actions/workflows/daily-update.yml" target="_blank" rel="noopener" id="updateBtn" style="display:flex;align-items:center;gap:8px;padding:10px 20px;border-radius:8px;background:linear-gradient(135deg,#00ff8822,#00cfff11);border:1px solid #00ff8844;color:#00ff88;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:1px;text-decoration:none;cursor:pointer;backdrop-filter:blur(10px);transition:all .2s" onmouseover="this.style.background='linear-gradient(135deg,#00ff8844,#00cfff22)';this.style.boxShadow='0 0 20px #00ff8822'" onmouseout="this.style.background='linear-gradient(135deg,#00ff8822,#00cfff11)';this.style.boxShadow='none'">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M21 21v-5h-5"/></svg>
+      手动更新
+    </a>
+  </div>
+  <div style="font-size:10px;color:#8892a4;font-family:'JetBrains Mono',monospace;text-align:right">
+    自动更新: 每日 09:00 CST<br>
+    上次更新: 2026-03-17 06:34:49
+  </div>
+</div>
+
 <!-- ============ HERO ============ -->
 <header class="relative min-h-screen flex items-center justify-center overflow-hidden" style="background:radial-gradient(ellipse at 30% 20%,#1a0a0a 0%,#0a0e17 50%,#0a1020 100%)">
   <div class="absolute inset-0 opacity-10" style="background:repeating-linear-gradient(0deg,transparent,transparent 49px,#2a345033 50px),repeating-linear-gradient(90deg,transparent,transparent 49px,#2a345033 50px)"></div>
