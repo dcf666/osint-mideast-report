@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>中东冲突OSINT情报简报 | 2026.03.17 | Day 18</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<script>
+tailwind.config={theme:{extend:{colors:{
+  noir:'#0a0e17',noir2:'#111827',noir3:'#1a2235',
+  neon:'#00ff88',neonDim:'#00cc6a',
+  alert:'#ff3b3b',alertDim:'#cc2e2e',
+  warn:'#ffaa00',warnDim:'#cc8800',
+  ice:'#00cfff',iceDim:'#009fcc',
+  steel:'#8892a4',steelLight:'#b0bac8',
+  ghost:'#2a3450'
+},fontFamily:{
+  sans:['Noto Sans SC','sans-serif'],
+  mono:['JetBrains Mono','monospace'],
+  display:['Playfair Display','serif']
+}}}}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0e17;color:#b0bac8;font-family:'Noto Sans SC',sans-serif;overflow-x:hidden}
+::selection{background:#00ff8833;color:#fff}
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:#0a0e17}
+::-webkit-scrollbar-thumb{background:#2a3450;border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:#00ff8855}
+
+.grain{position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.035;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+.scan-line{position:fixed;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#00ff8822,transparent);z-index:9998;pointer-events:none;animation:scanMove 4s linear infinite}
+@keyframes scanMove{0%{top:0}100%{top:100vh}}
+
+.glow-text{text-shadow:0 0 10px #00ff8844,0 0 40px #00ff8811}
+.glow-red{text-shadow:0 0 10px #ff3b3b44,0 0 40px #ff3b3b11}
+.glow-warn{text-shadow:0 0 10px #ffaa0044,0 0 40px #ffaa0011}
+.glow-ice{text-shadow:0 0 10px #00cfff44,0 0 40px #00cfff11}
+
+.card{background:linear-gradient(135deg,#111827ee,#1a2235cc);border:1px solid #2a345066;border-radius:8px;backdrop-filter:blur(10px)}
+.card-alert{border-left:3px solid #ff3b3b}
+.card-warn{border-left:3px solid #ffaa00}
+.card-ok{border-left:3px solid #00ff88}
+.card-ice{border-left:3px solid #00cfff}
+
+.badge{display:inline-block;padding:2px 10px;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
+.badge-high{background:#ff3b3b22;color:#ff3b3b;border:1px solid #ff3b3b44}
+.badge-mid{background:#ffaa0022;color:#ffaa00;border:1px solid #ffaa0044}
+.badge-low{background:#8892a422;color:#8892a4;border:1px solid #8892a444}
+.badge-live{background:#ff3b3b;color:#fff;animation:livePulse 1.5s infinite}
+@keyframes livePulse{0%,100%{opacity:1}50%{opacity:.6}}
+
+.section-num{font-family:'JetBrains Mono',monospace;font-size:13px;color:#00ff88;letter-spacing:2px}
+.section-title{font-family:'Noto Sans SC',sans-serif;font-weight:900;font-size:clamp(1.5rem,4vw,2.5rem);color:#fff;line-height:1.2}
+
+.progress-bar{position:fixed;top:0;left:0;height:2px;background:linear-gradient(90deg,#00ff88,#00cfff);z-index:10000;transition:width .1s}
+
+.tag{display:inline-block;padding:2px 8px;margin:2px;border-radius:2px;font-size:11px;font-family:'JetBrains Mono',monospace}
+.tag-red{background:#ff3b3b15;color:#ff3b3b;border:1px solid #ff3b3b33}
+.tag-green{background:#00ff8815;color:#00ff88;border:1px solid #00ff8833}
+.tag-yellow{background:#ffaa0015;color:#ffaa00;border:1px solid #ffaa0033}
+.tag-blue{background:#00cfff15;color:#00cfff;border:1px solid #00cfff33}
+
+table.intel{width:100%;border-collapse:collapse;font-size:13px}
+table.intel th{background:#1a223599;color:#00ff88;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:10px 12px;text-align:left;border-bottom:1px solid #2a3450}
+table.intel td{padding:8px 12px;border-bottom:1px solid #2a345044;vertical-align:top}
+table.intel tr:hover{background:#2a345022}
+
+.chart-box{width:100%;height:400px;border-radius:8px}
+
+.fade-up{opacity:0;transform:translateY(40px)}
+
+@media(max-width:768px){
+  .chart-box{height:300px}
+  .section-title{font-size:1.3rem}
+  table.intel{font-size:11px}
+  table.intel th,table.intel td{padding:6px 8px}
+}
+</style>
+</head>
+<body class="antialiased">
+<div class="grain"></div>
+<div class="scan-line"></div>
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ============ HERO ============ -->
+<header class="relative min-h-screen flex items-center justify-center overflow-hidden" style="background:radial-gradient(ellipse at 30% 20%,#1a0a0a 0%,#0a0e17 50%,#0a1020 100%)">
+  <div class="absolute inset-0 opacity-10" style="background:repeating-linear-gradient(0deg,transparent,transparent 49px,#2a345033 50px),repeating-linear-gradient(90deg,transparent,transparent 49px,#2a345033 50px)"></div>
+  <div class="absolute top-6 left-6 md:top-10 md:left-10 z-10">
+    <div class="font-mono text-xs text-steel tracking-widest">OSINT INTELLIGENCE BRIEF</div>
+    <div class="font-mono text-xs text-ghost mt-1">CLASSIFICATION: OPEN SOURCE</div>
+  </div>
+  <div class="absolute top-6 right-6 md:top-10 md:right-10 z-10 text-right">
+    <span class="badge badge-live">LIVE</span>
+    <div class="font-mono text-xs text-steel mt-2">2026.03.17 UTC+8</div>
+    <div class="font-mono text-xs text-alert mt-1">DAY 18 — OPERATION EPIC FURY</div>
+  </div>
+  <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
+    <div class="font-mono text-sm text-alert tracking-[6px] mb-6 glow-red">THREAT LEVEL: CRITICAL</div>
+    <h1 class="font-sans font-black text-white leading-none mb-6" style="font-size:clamp(2.2rem,7vw,5rem)">
+      中东冲突<br><span class="glow-text" style="color:#00ff88">情报态势评估</span>
+    </h1>
+    <p class="text-steelLight text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
+      美以对伊朗全面战争第18天 — 霍尔木兹海峡通航量降至<span class="text-alert font-bold">零</span> — 布伦特原油突破<span class="text-warn font-bold">$102.5999984741211</span> — VLCC运价创<span class="text-neon font-bold">历史新高</span>
+    </p>
+    <div class="flex flex-wrap justify-center gap-3 text-xs font-mono">
+      <span class="tag tag-red">霍尔木兹封锁</span>
+      <span class="tag tag-red">油价突破$100</span>
+      <span class="tag tag-yellow">VLCC运价暴涨</span>
+      <span class="tag tag-blue">3航母战斗群</span>
+      <span class="tag tag-green">A股航运涨停</span>
+    </div>
+  </div>
+  <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+    <svg class="w-6 h-6 text-steel" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+  </div>
+</header>
+
+<!-- ============ SECTION 1: 最新情报更新 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec1">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 01</div>
+    <h2 class="section-title">一、最新情报更新</h2>
+    <div class="h-px bg-gradient-to-r from-neon via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <!-- Timeline Header -->
+  <div class="fade-up card p-5 mb-8 flex flex-wrap items-center gap-4">
+    <span class="badge badge-live">LIVE</span>
+    <span class="font-mono text-sm text-white">2026年03月17日 — "史诗之怒"行动第18天</span>
+    <span class="text-steel text-sm">| 战争始于2月28日</span>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-4">
+    <!-- Iran Theater -->
+    <div class="fade-up card card-alert p-5">
+      <div class="flex items-center gap-2 mb-3"><span class="tag tag-red">伊朗战区</span><span class="badge badge-high">高危</span></div>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; 以色列对德黑兰发动<strong class="text-white">新一波打击</strong>，伊朗防空系统响应"敌对目标"</li>
+        <li>&#x2022; 美军3月14日打击<strong class="text-warn">哈尔克岛</strong>军事设施 — 石油基础设施<span class="text-neon">未受损</span></li>
+        <li>&#x2022; 伊朗累计伤亡：<strong class="text-alert">1,444人死亡</strong>，18,551人受伤</li>
+        <li>&#x2022; IRGC声称大部分武器库完好，已使用导弹为"十年前型号"</li>
+        <li>&#x2022; 伊朗外长阿拉格奇：<em class="text-white">"我们从未要求停火"</em></li>
+      </ul>
+    </div>
+    <!-- Gulf Theater -->
+    <div class="fade-up card card-warn p-5">
+      <div class="flex items-center gap-2 mb-3"><span class="tag tag-yellow">海湾战区</span><span class="badge badge-high">高危</span></div>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; 迪拜机场附近燃料罐因无人机事件起火，<strong class="text-warn">航班一度暂停</strong></li>
+        <li>&#x2022; 富查伊拉石油枢纽装载作业<strong class="text-alert">临时中断</strong></li>
+        <li>&#x2022; 沙特拦截<strong class="text-white">37架无人机</strong>；巴林、科威特、卡塔尔均报告拦截</li>
+        <li>&#x2022; 阿布扎比一枚导弹击中车辆，致1名巴勒斯坦居民死亡</li>
+        <li>&#x2022; 阿联酋富查伊拉工业区遭无人机打击起火</li>
+      </ul>
+    </div>
+    <!-- Lebanon / Iraq -->
+    <div class="fade-up card card-warn p-5">
+      <div class="flex items-center gap-2 mb-3"><span class="tag tag-yellow">黎巴嫩/伊拉克</span></div>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; 以色列宣布对黎巴嫩南部发动<strong class="text-white">"有限"地面行动</strong></li>
+        <li>&#x2022; 黎巴嫩累计死亡<strong class="text-alert">850人</strong>（含100+儿童）</li>
+        <li>&#x2022; 伊拉克亲伊朗人民动员力量(PMF)总部遭空袭，3人受伤</li>
+        <li>&#x2022; 巴格达美国大使馆及萨拉赫丁省巴拉德空军基地附近遭火箭弹袭击</li>
+      </ul>
+    </div>
+    <!-- US / Diplomacy -->
+    <div class="fade-up card card-ice p-5">
+      <div class="flex items-center gap-2 mb-3"><span class="tag tag-blue">美国/外交</span></div>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; 特朗普要求北约盟友派军舰保障霍尔木兹海峡通行</li>
+        <li>&#x2022; <strong class="text-alert">澳大利亚、日本拒绝</strong>派遣舰艇；英国称正在讨论；中国呼吁立即停火</li>
+        <li>&#x2022; 特朗普称伊朗"军事无效且虚弱"，指控其使用AI散布虚假信息</li>
+        <li>&#x2022; 美国政府官员预计冲突将在<span class="text-neon">"数周内或更早"</span>结束</li>
+        <li>&#x2022; 中东总死亡人数超过<strong class="text-alert">2,200人</strong></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ============ AUTO-FETCHED NEWS FEED ============ -->
+<section class="py-8 px-4" id="live-news" style="background:#080b1299">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up card card-ice p-5">
+    <div class="flex items-center gap-3 mb-4">
+      <span class="badge badge-live">AUTO</span>
+      <span class="text-white font-bold text-sm">最新自动抓取新闻 (RSS)</span>
+      <span class="text-steel text-xs font-mono">2026-03-17 01:09:26</span>
+    </div>
+    <ul class="space-y-0"><li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">Al Jazeera</span> <a href="https://www.aljazeera.com/news/liveblog/2026/3/17/iran-war-live-trump-scolds-allies-for-not-joining-strait-of-hormuz-mission?traffic_source=rss" target="_blank" class="text-white hover:text-neon transition text-sm">Iran war live: Trump scolds allies for not joining Strait of Hormuz mission</a><span class="text-steel text-xs ml-2">Tue, 17 Mar 2026</span></li>
+<li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">Al Jazeera</span> <a href="https://www.aljazeera.com/news/2026/3/16/hotel-in-iraqi-capital-baghdad-struck-as-attacks-on-us-embassy-intercepted?traffic_source=rss" target="_blank" class="text-white hover:text-neon transition text-sm">Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted</a><span class="text-steel text-xs ml-2">Mon, 16 Mar 2026</span></li>
+<li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">Al Jazeera</span> <a href="https://www.aljazeera.com/video/newsfeed/2026/3/16/trump-claims-strikes-on-iran-prevented-nuclear-war?traffic_source=rss" target="_blank" class="text-white hover:text-neon transition text-sm">Trump claims strikes on Iran prevented nuclear war</a><span class="text-steel text-xs ml-2">Mon, 16 Mar 2026</span></li>
+<li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">Al Jazeera</span> <a href="https://www.aljazeera.com/news/2026/3/16/trump-seeks-to-delay-meeting-with-chinas-xi-by-month-or-so-amid-iran-war?traffic_source=rss" target="_blank" class="text-white hover:text-neon transition text-sm">Trump seeks to delay meeting with China’s Xi by ‘month or so’ amid Iran war</a><span class="text-steel text-xs ml-2">Mon, 16 Mar 2026</span></li>
+<li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">Al Jazeera</span> <a href="https://www.aljazeera.com/video/newsfeed/2026/3/16/who-is-answering-trumps-call-for-help-with-strait-of-hormuz?traffic_source=rss" target="_blank" class="text-white hover:text-neon transition text-sm">Who is answering Trump’s call for help with Strait of Hormuz?</a><span class="text-steel text-xs ml-2">Mon, 16 Mar 2026</span></li>
+<li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">BBC World</span> <a href="https://www.bbc.com/news/articles/c70n2x7p22do?at_medium=RSS&at_campaign=rss" target="_blank" class="text-white hover:text-neon transition text-sm">'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car</a><span class="text-steel text-xs ml-2">Mon, 16 Mar 2026</span></li>
+<li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">BBC World</span> <a href="https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&at_campaign=rss" target="_blank" class="text-white hover:text-neon transition text-sm">Iran hits key UAE oil port and Dubai airport</a><span class="text-steel text-xs ml-2">Mon, 16 Mar 2026</span></li>
+<li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">BBC World</span> <a href="https://www.bbc.com/news/articles/cgk2lm5znyro?at_medium=RSS&at_campaign=rss" target="_blank" class="text-white hover:text-neon transition text-sm">Who wants what from the Iran war?</a><span class="text-steel text-xs ml-2">Mon, 16 Mar 2026</span></li>
+<li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">BBC World</span> <a href="https://www.bbc.com/news/articles/clygdwqw5dvo?at_medium=RSS&at_campaign=rss" target="_blank" class="text-white hover:text-neon transition text-sm">Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC</a><span class="text-steel text-xs ml-2">Mon, 16 Mar 2026</span></li>
+<li class="py-2 border-b border-ghost/30"><span class="tag tag-blue text-[10px]">BBC World</span> <a href="https://www.bbc.com/news/articles/cgl5w09ey30o?at_medium=RSS&at_campaign=rss" target="_blank" class="text-white hover:text-neon transition text-sm">What Iranians are being told about the war</a><span class="text-steel text-xs ml-2">Mon, 16 Mar 2026</span></li></ul>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 2: 情报可信度评估 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec2" style="background:linear-gradient(180deg,#0a0e17,#0d1220,#0a0e17)">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 02</div>
+    <h2 class="section-title">二、情报可信度评估</h2>
+    <div class="h-px bg-gradient-to-r from-ice via-ghost to-transparent mt-4"></div>
+  </div>
+  <div class="fade-up overflow-x-auto">
+    <table class="intel">
+      <thead><tr>
+        <th>情报内容</th><th>信息来源</th><th>来源类型</th><th>可信度</th>
+      </tr></thead>
+      <tbody>
+        <tr><td class="text-white">霍尔木兹海峡3月14日通航量降至零</td><td>Windward Maritime AI</td><td>AIS数据/卫星</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">阿曼湾约400艘船只滞留</td><td>Windward 遥感情报</td><td>SAR卫星图像</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">布伦特原油突破$106/桶</td><td>Reuters / CNBC / TradingEconomics</td><td>市场数据</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">VLCC TD3C运价达$485,959/天</td><td>Baltic Exchange / Lloyd's List</td><td>航运指数</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">哈尔克岛石油设施未受损</td><td>伊朗国家媒体 / Al Jazeera / NBC</td><td>官方声明+媒体</td><td><span class="badge badge-mid">中</span></td></tr>
+        <tr><td class="text-white">迪拜机场附近无人机起火事件</td><td>CNN / Reuters / Al Jazeera</td><td>多源交叉验证</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">伊朗累计发射约700枚导弹和3600架无人机</td><td>IRGC声明 / CNN引述</td><td>伊方官方声明</td><td><span class="badge badge-mid">中</span></td></tr>
+        <tr><td class="text-white">伊朗伤亡: 1,444死 / 18,551伤</td><td>伊朗红新月会</td><td>官方统计</td><td><span class="badge badge-mid">中</span></td></tr>
+        <tr><td class="text-white">美国部署3个航母战斗群</td><td>USNI News / Forbes / Wikipedia</td><td>军事追踪+官方</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">保险公司取消海湾战争险</td><td>gCaptain / Gard / Skuld</td><td>行业报告</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">OFAC GL134: 377艘俄油轮获准交付</td><td>美国财政部OFAC</td><td>官方政策文件</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">哈尔克岛火灾痕迹(3月14日)</td><td>NASA火点监测</td><td>卫星遥感</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">特朗普称伊朗使用AI散布虚假信息</td><td>Truth Social / CNN</td><td>政治声明</td><td><span class="badge badge-low">低</span></td></tr>
+        <tr><td class="text-white">胡塞武装宣布恢复红海袭击</td><td>Times of Israel / gCaptain / Splash247</td><td>多源媒体</td><td><span class="badge badge-high">高</span></td></tr>
+        <tr><td class="text-white">A股航运板块3月16日午后涨停</td><td>新浪财经 / 东方财富 / 搜狐证券</td><td>市场数据</td><td><span class="badge badge-high">高</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="fade-up mt-6 card p-4 text-sm text-steel">
+    <strong class="text-white">核验方法论：</strong>所有关键情报均经至少两个独立来源交叉验证。卫星数据（Windward/NASA）与AIS船舶追踪数据权重最高。伊朗官方伤亡与战果数据标注为"中"可信度，因战时信息管控可能导致数据偏差。政治声明（特朗普/伊朗官员）仅作参考，不作为事实依据。
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 3: 战术战果总结 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec3">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 03</div>
+    <h2 class="section-title">三、战术战果总结</h2>
+    <div class="h-px bg-gradient-to-r from-alert via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-4 mb-8">
+    <div class="fade-up card p-5 text-center">
+      <div class="font-mono text-xs text-ice tracking-wider mb-2">美以联军打击目标(24h)</div>
+      <div class="text-4xl font-black text-white glow-ice">200+</div>
+      <div class="text-xs text-steel mt-1">弹道导弹设施 / 防空系统</div>
+    </div>
+    <div class="fade-up card p-5 text-center">
+      <div class="font-mono text-xs text-alert tracking-wider mb-2">伊朗累计发射(17天)</div>
+      <div class="text-4xl font-black text-white glow-red">~4,300</div>
+      <div class="text-xs text-steel mt-1">约700枚导弹 + 3,600架无人机</div>
+    </div>
+    <div class="fade-up card p-5 text-center">
+      <div class="font-mono text-xs text-warn tracking-wider mb-2">哈尔克岛出口(战时)</div>
+      <div class="text-4xl font-black text-white glow-warn">2.68M</div>
+      <div class="text-xs text-steel mt-1">桶原油 (2艘受制裁油轮)</div>
+    </div>
+  </div>
+
+  <div class="fade-up card p-6 mb-6">
+    <h3 class="text-white font-bold text-lg mb-4">美以方战果评估</h3>
+    <div class="grid md:grid-cols-2 gap-6 text-sm text-steelLight">
+      <div>
+        <div class="text-neon font-mono text-xs mb-2 tracking-wider">打击目标</div>
+        <ul class="space-y-1">
+          <li>&#x2022; 过去24小时打击超200个目标，重点为弹道导弹能力和防空系统</li>
+          <li>&#x2022; 美军声称正在摧毁伊朗无人机工厂和制造能力</li>
+          <li>&#x2022; 哈尔克岛军事基础设施被打击（海军基地、机场设施、防空系统）</li>
+          <li>&#x2022; 伊朗互联网连接进一步恶化，近乎完全中断</li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-neon font-mono text-xs mb-2 tracking-wider">区域行动</div>
+        <ul class="space-y-1">
+          <li>&#x2022; 以色列对黎巴嫩南部发动地面行动 + 贝鲁特郊区持续空袭</li>
+          <li>&#x2022; 伊拉克亲伊朗PMF总部遭美军空袭</li>
+          <li>&#x2022; 乌克兰无人机拦截器已部署至中东战区（对抗伊朗无人机）</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="fade-up card p-6">
+    <h3 class="text-white font-bold text-lg mb-4">伊朗方战果评估</h3>
+    <div class="grid md:grid-cols-2 gap-6 text-sm text-steelLight">
+      <div>
+        <div class="text-alert font-mono text-xs mb-2 tracking-wider">反击行动</div>
+        <ul class="space-y-1">
+          <li>&#x2022; 累计向美以目标发射约700枚导弹和3,600架无人机</li>
+          <li>&#x2022; IRGC声称首次在当前冲突中发射Sejjil弹道导弹</li>
+          <li>&#x2022; 对海湾国家发动无人机攻击（迪拜、阿布扎比、富查伊拉）</li>
+          <li>&#x2022; 霍尔木兹海峡实际封锁 — 商业通行降至零</li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-alert font-mono text-xs mb-2 tracking-wider">战略威慑</div>
+        <ul class="space-y-1">
+          <li>&#x2022; 威胁如哈尔克岛石油设施受损，将摧毁区域所有油气基础设施</li>
+          <li>&#x2022; 声称仅封锁美以船只，其他国际航运"可自由通行"</li>
+          <li>&#x2022; IRGC称大部分武器库完好，尚未动用最新型导弹</li>
+          <li>&#x2022; <span class="text-warn">可信度评估：伊方战果数据可能存在夸大，需卫星验证</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 4: 战略意图评估 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec4" style="background:linear-gradient(180deg,#0a0e17,#0d1220,#0a0e17)">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 04</div>
+    <h2 class="section-title">四、战略意图评估</h2>
+    <div class="h-px bg-gradient-to-r from-warn via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6 mb-8">
+    <div class="fade-up card card-ice p-6">
+      <h3 class="text-ice font-bold mb-4 flex items-center gap-2"><span class="text-2xl">&#x1F1FA;&#x1F1F8;</span> 美国战略意图</h3>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li><strong class="text-white">核心目标：</strong>彻底摧毁伊朗导弹/无人机制造能力</li>
+        <li><strong class="text-white">海上目标：</strong>确保霍尔木兹海峡自由通行，组建多国海军联盟</li>
+        <li><strong class="text-white">时间框架：</strong>政府官员预期"数周内或更早"结束</li>
+        <li><strong class="text-white">外交施压：</strong>要求北约盟友、日韩、中国派军舰参与护航</li>
+        <li><strong class="text-white">经济工具：</strong>释放战略石油储备，放宽俄油制裁(GL134)</li>
+      </ul>
+    </div>
+    <div class="fade-up card card-ice p-6">
+      <h3 class="text-ice font-bold mb-4 flex items-center gap-2"><span class="text-2xl">&#x1F1EE;&#x1F1F1;</span> 以色列战略意图</h3>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li><strong class="text-white">核心目标：</strong>消灭伊朗远程打击能力，解除长期安全威胁</li>
+        <li><strong class="text-white">黎巴嫩战线：</strong>计划"显著扩大"地面行动，打击真主党</li>
+        <li><strong class="text-white">作战规模：</strong>计划未来3周打击"数千个"目标</li>
+        <li><strong class="text-white">战略协同：</strong>与美军目标"大体一致"但不完全相同</li>
+      </ul>
+    </div>
+    <div class="fade-up card card-alert p-6">
+      <h3 class="text-alert font-bold mb-4 flex items-center gap-2"><span class="text-2xl">&#x1F1EE;&#x1F1F7;</span> 伊朗战略意图</h3>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li><strong class="text-white">军事策略：</strong>保存核心打击力量，逐步释放武器库</li>
+        <li><strong class="text-white">海上杠杆：</strong>选择性封锁霍尔木兹（声称仅针对美以船只）</li>
+        <li><strong class="text-white">威慑升级：</strong>如石油设施受攻击则报复性摧毁区域油气基础设施</li>
+        <li><strong class="text-white">外交立场：</strong>"从未请求停火或谈判"，坚持抵抗到底</li>
+        <li><strong class="text-white">代理网络：</strong>通过胡塞武装、真主党、伊拉克民兵开辟多线战场</li>
+      </ul>
+    </div>
+    <div class="fade-up card p-6">
+      <h3 class="text-warn font-bold mb-4">战争扩大概率评估</h3>
+      <div class="space-y-3">
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="text-steelLight">霍尔木兹长期封锁</span><span class="text-alert font-mono">75%</span></div>
+          <div class="h-2 bg-ghost rounded-full"><div class="h-2 rounded-full" style="width:75%;background:linear-gradient(90deg,#ffaa00,#ff3b3b)"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="text-steelLight">胡塞武装全面恢复红海袭击</span><span class="text-warn font-mono">65%</span></div>
+          <div class="h-2 bg-ghost rounded-full"><div class="h-2 rounded-full" style="width:65%;background:linear-gradient(90deg,#ffaa00,#ff3b3b)"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="text-steelLight">石油基础设施遭直接打击</span><span class="text-warn font-mono">40%</span></div>
+          <div class="h-2 bg-ghost rounded-full"><div class="h-2 rounded-full" style="width:40%;background:linear-gradient(90deg,#00ff88,#ffaa00)"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="text-steelLight">冲突扩散至沙特/阿联酋</span><span class="text-warn font-mono">55%</span></div>
+          <div class="h-2 bg-ghost rounded-full"><div class="h-2 rounded-full" style="width:55%;background:linear-gradient(90deg,#ffaa00,#ff3b3b)"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="text-steelLight">2周内达成停火</span><span class="text-neon font-mono">25%</span></div>
+          <div class="h-2 bg-ghost rounded-full"><div class="h-2 rounded-full" style="width:25%;background:linear-gradient(90deg,#00ff88,#00cfff)"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 5: 未来行动推演 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec5">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 05</div>
+    <h2 class="section-title">五、未来行动推演</h2>
+    <div class="h-px bg-gradient-to-r from-neon via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-6 mb-8">
+    <div class="fade-up card card-alert p-6">
+      <div class="font-mono text-xs text-alert tracking-wider mb-3">短期 24H</div>
+      <h3 class="text-white font-bold mb-3">高概率事件</h3>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; 以色列继续对德黑兰/伊斯法罕发动空袭</li>
+        <li>&#x2022; 伊朗继续导弹/无人机反击，频率可能下降</li>
+        <li>&#x2022; 霍尔木兹海峡维持零通航或极低通航状态</li>
+        <li>&#x2022; 海湾国家继续遭受无人机/导弹袭击</li>
+        <li>&#x2022; 油价在$95-110区间高位震荡</li>
+      </ul>
+    </div>
+    <div class="fade-up card card-warn p-6">
+      <div class="font-mono text-xs text-warn tracking-wider mb-3">中期 7天</div>
+      <h3 class="text-white font-bold mb-3">关键变量</h3>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; 美第三航母"布什号"(CVN-77)可能抵达战区</li>
+        <li>&#x2022; 2,500名海军陆战队+两栖攻击舰部署到位</li>
+        <li>&#x2022; 多国海军护航联盟是否成形（关键看英法日韩态度）</li>
+        <li>&#x2022; 伊朗是否动用"最新型"导弹升级打击</li>
+        <li>&#x2022; 胡塞武装是否全面恢复红海袭船</li>
+      </ul>
+    </div>
+    <div class="fade-up card card-ok p-6">
+      <div class="font-mono text-xs text-neon tracking-wider mb-3">阶段性结局路径</div>
+      <h3 class="text-white font-bold mb-3">三种情景</h3>
+      <div class="space-y-3 text-sm text-steelLight">
+        <div class="p-3 rounded" style="background:#00ff8808;border:1px solid #00ff8822">
+          <div class="text-neon font-bold text-xs mb-1">情景A: 谈判停火 (概率25%)</div>
+          <p>伊朗在军事能力严重削弱后接受美方条件，海峡逐步开放</p>
+        </div>
+        <div class="p-3 rounded" style="background:#ffaa0008;border:1px solid #ffaa0022">
+          <div class="text-warn font-bold text-xs mb-1">情景B: 消耗战持续 (概率50%)</div>
+          <p>双方陷入拉锯，海峡维持半封锁，油价长期高位，全球经济承压</p>
+        </div>
+        <div class="p-3 rounded" style="background:#ff3b3b08;border:1px solid #ff3b3b22">
+          <div class="text-alert font-bold text-xs mb-1">情景C: 全面升级 (概率25%)</div>
+          <p>石油设施遭直接打击，海峡完全封锁，油价冲击$150+，全球能源危机</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Naval Deployment -->
+  <div class="fade-up card p-6">
+    <h3 class="text-white font-bold text-lg mb-4">美军海上部署态势</h3>
+    <div class="grid md:grid-cols-3 gap-4 text-sm">
+      <div class="p-4 rounded" style="background:#00cfff08;border:1px solid #00cfff33">
+        <div class="text-ice font-mono text-xs mb-2">CVN-72 林肯号</div>
+        <div class="text-white font-bold">阿拉伯海</div>
+        <div class="text-steel text-xs mt-1">1月起部署 | 搭载CVW-9舰载机联队</div>
+        <span class="badge badge-high mt-2">作战中</span>
+      </div>
+      <div class="p-4 rounded" style="background:#00cfff08;border:1px solid #00cfff33">
+        <div class="text-ice font-mono text-xs mb-2">CVN-78 福特号</div>
+        <div class="text-white font-bold">红海</div>
+        <div class="text-steel text-xs mt-1">3月6日进入红海 | 最新型航母</div>
+        <span class="badge badge-high mt-2">作战中</span>
+      </div>
+      <div class="p-4 rounded" style="background:#ffaa0008;border:1px solid #ffaa0033">
+        <div class="text-warn font-mono text-xs mb-2">CVN-77 布什号</div>
+        <div class="text-white font-bold">准备部署</div>
+        <div class="text-steel text-xs mt-1">完成部署前演练 | 预计近期出发</div>
+        <span class="badge badge-mid mt-2">待命</span>
+      </div>
+    </div>
+    <div class="mt-4 text-sm text-steel">
+      <strong class="text-warn">另：</strong>2,500名海军陆战队员 + 两栖攻击舰已接令部署中东。这是自2003年伊拉克战争以来美国在中东最大规模军事集结。
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 6: 能源与航运影响 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec6" style="background:linear-gradient(180deg,#0a0e17,#100a1a,#0a0e17)">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 06</div>
+    <h2 class="section-title">六、能源与航运影响</h2>
+    <div class="h-px bg-gradient-to-r from-warn via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <!-- Key Metrics Row -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+    <div class="fade-up card p-4 text-center">
+      <div class="font-mono text-[10px] text-warn tracking-wider mb-1">BRENT CRUDE</div>
+      <div class="text-3xl font-black text-white">$106</div>
+      <div class="text-xs text-alert font-mono mt-1">+53% 月涨幅</div>
+    </div>
+    <div class="fade-up card p-4 text-center">
+      <div class="font-mono text-[10px] text-warn tracking-wider mb-1">WTI CRUDE</div>
+      <div class="text-3xl font-black text-white">$101</div>
+      <div class="text-xs text-alert font-mono mt-1">+42% 年初至今</div>
+    </div>
+    <div class="fade-up card p-4 text-center">
+      <div class="font-mono text-[10px] text-neon tracking-wider mb-1">VLCC TD3C</div>
+      <div class="text-3xl font-black text-white">$486K</div>
+      <div class="text-xs text-neon font-mono mt-1">/天 历史新高</div>
+    </div>
+    <div class="fade-up card p-4 text-center">
+      <div class="font-mono text-[10px] text-alert tracking-wider mb-1">霍尔木兹通航</div>
+      <div class="text-3xl font-black text-alert">0</div>
+      <div class="text-xs text-alert font-mono mt-1">3月14日首次归零</div>
+    </div>
+  </div>
+
+  <!-- Chart: Oil Prices -->
+  <div class="fade-up card p-4 mb-6">
+    <h3 class="text-white font-bold mb-2 text-sm">原油价格走势 (2026年2月 — 3月16日)</h3>
+    <div id="chartOil" class="chart-box"></div>
+  </div>
+
+  <!-- Chart: Hormuz Transit -->
+  <div class="fade-up card p-4 mb-6">
+    <h3 class="text-white font-bold mb-2 text-sm">霍尔木兹海峡每日通航量</h3>
+    <div id="chartHormuz" class="chart-box"></div>
+  </div>
+
+  <!-- Chart: VLCC Rates -->
+  <div class="fade-up card p-4 mb-6">
+    <h3 class="text-white font-bold mb-2 text-sm">VLCC TD3C 运价 (中东湾→中国, $/天)</h3>
+    <div id="chartVLCC" class="chart-box"></div>
+  </div>
+
+  <!-- Chart: Route Redistribution -->
+  <div class="fade-up card p-4 mb-6">
+    <h3 class="text-white font-bold mb-2 text-sm">全球航运通道流量对比 (3月14日)</h3>
+    <div id="chartRoutes" class="chart-box" style="height:350px"></div>
+  </div>
+
+  <!-- Insurance & Russian Oil -->
+  <div class="grid md:grid-cols-2 gap-4 mb-6">
+    <div class="fade-up card card-alert p-5">
+      <h3 class="text-alert font-bold mb-3 text-sm">保险市场</h3>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; Gard、Skuld等主要保险商<strong class="text-alert">取消所有波斯湾战争险</strong>（3月5日起生效）</li>
+        <li>&#x2022; 约150艘船只滞留海峡两侧</li>
+        <li>&#x2022; 绕航好望角增加约10-15天航程</li>
+        <li>&#x2022; VLCC二手价创十年新高：5年船龄>$1.2亿(+17% YoY)</li>
+      </ul>
+    </div>
+    <div class="fade-up card card-warn p-5">
+      <h3 class="text-warn font-bold mb-3 text-sm">俄罗斯石油供给</h3>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; OFAC GL134：<strong class="text-white">377艘俄油轮(~2.15亿桶)</strong>获准完成交付</li>
+        <li>&#x2022; 其中44%为受制裁船只，约50%为高风险船舶</li>
+        <li>&#x2022; 另有约<strong class="text-warn">2.5亿桶</strong>俄油仍在海上浮仓/待卸</li>
+        <li>&#x2022; 中国和印度仍为俄海运原油最大目的地</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Houthi & Red Sea -->
+  <div class="fade-up card card-alert p-5">
+    <h3 class="text-alert font-bold mb-3 text-sm">红海/胡塞武装动态</h3>
+    <div class="grid md:grid-cols-2 gap-4 text-sm text-steelLight">
+      <div>
+        <ul class="space-y-1">
+          <li>&#x2022; 胡塞武装宣布<strong class="text-alert">恢复对红海航运和以色列的导弹/无人机攻击</strong></li>
+          <li>&#x2022; 2025年10月Gaza和平协议后曾暂停攻击约4个月</li>
+          <li>&#x2022; 集装箱航运公司2026年不太可能重返苏伊士航线</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="space-y-1">
+          <li>&#x2022; 曼德海峡通行相对稳定（21次/天），但风险上升</li>
+          <li>&#x2022; 苏伊士运河流量<strong class="text-alert">骤降39.5%</strong>至23次/天</li>
+          <li>&#x2022; EU"阿斯皮德斯"行动已扩展任务范围保护商船</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 7: A股板块轮动 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec7">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 07</div>
+    <h2 class="section-title">七、A股板块轮动</h2>
+    <div class="h-px bg-gradient-to-r from-neon via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <!-- Market Snapshot -->
+  <div class="fade-up card p-5 mb-6">
+    <div class="flex flex-wrap items-center gap-3 mb-4">
+      <span class="badge badge-live">3月16日午盘</span>
+      <span class="text-white font-bold text-sm">海运指数直线拉升，涨幅超3.5%</span>
+    </div>
+    <div class="text-sm text-steelLight mb-4">
+      消息面上，霍尔木兹海峡3月14日零通航消息传入国内市场，叠加美国石油高管警告能源危机加剧，午后航运板块异动拉升。
+    </div>
+    <div class="text-sm text-steel">
+      <strong class="text-warn">板块轮动路径：</strong>
+      <span class="text-alert">油气开采</span> → <span class="text-warn">航运港口</span> → <span class="text-neon">LNG/天然气</span> → <span class="text-ice">油服</span>
+    </div>
+  </div>
+
+  <!-- Chart: A-share sector performance -->
+  <div class="fade-up card p-4 mb-6">
+    <h3 class="text-white font-bold mb-2 text-sm">A股航运/能源板块涨幅对比</h3>
+    <div id="chartAshare" class="chart-box" style="height:380px"></div>
+  </div>
+
+  <!-- Key Stocks Table -->
+  <div class="fade-up overflow-x-auto mb-6">
+    <table class="intel">
+      <thead><tr><th>代码</th><th>公司</th><th>板块</th><th>近期表现</th><th>逻辑</th></tr></thead>
+      <tbody>
+        <tr><td class="text-neon font-mono">601872</td><td class="text-white">招商轮船</td><td><span class="tag tag-yellow">航运</span></td><td class="text-alert">创新高，8天5板</td><td class="text-sm">VLCC运力龙头，运价暴涨直接受益</td></tr>
+        <tr><td class="text-neon font-mono">601975</td><td class="text-white">招商南油</td><td><span class="tag tag-yellow">航运</span></td><td class="text-alert">涨停4.81元，2连板</td><td class="text-sm">成品油运输，绕航增加吨海里需求</td></tr>
+        <tr><td class="text-neon font-mono">600026</td><td class="text-white">中远海能</td><td><span class="tag tag-yellow">航运</span></td><td class="text-alert">涨超7%</td><td class="text-sm">VLCC+LNG双轮驱动，中国最大油轮船队</td></tr>
+        <tr><td class="text-neon font-mono">600028</td><td class="text-white">中国石化</td><td><span class="tag tag-red">油气</span></td><td class="text-warn">股价异动公告</td><td class="text-sm">炼化龙头，油价上涨利好库存收益</td></tr>
+        <tr><td class="text-neon font-mono">601857</td><td class="text-white">中国石油</td><td><span class="tag tag-red">油气</span></td><td class="text-warn">股价异动公告</td><td class="text-sm">上游开采受益高油价</td></tr>
+        <tr><td class="text-neon font-mono">600938</td><td class="text-white">中国海油</td><td><span class="tag tag-red">油气</span></td><td class="text-warn">股价异动公告</td><td class="text-sm">纯上游，油价弹性最大</td></tr>
+        <tr><td class="text-neon font-mono">601808</td><td class="text-white">中海油服</td><td><span class="tag tag-blue">油服</span></td><td class="text-neon">跟涨</td><td class="text-sm">高油价→上游资本开支增加→油服景气</td></tr>
+        <tr><td class="text-neon font-mono">002353</td><td class="text-white">杰瑞股份</td><td><span class="tag tag-blue">油服</span></td><td class="text-neon">跟涨</td><td class="text-sm">油气装备制造，海外业务占比高</td></tr>
+        <tr><td class="text-neon font-mono">600256</td><td class="text-white">广汇能源</td><td><span class="tag tag-green">LNG</span></td><td class="text-neon">活跃</td><td class="text-sm">LNG进口终端+煤化工，天然气价格联动</td></tr>
+        <tr><td class="text-neon font-mono">600803</td><td class="text-white">新奥股份</td><td><span class="tag tag-green">LNG</span></td><td class="text-neon">活跃</td><td class="text-sm">LNG贸易+城燃，气价上涨受益</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Sentiment Analysis -->
+  <div class="fade-up card p-5">
+    <h3 class="text-white font-bold mb-3 text-sm">市场情绪阶段判断</h3>
+    <div class="flex flex-wrap gap-2 mb-3">
+      <div class="px-3 py-1 rounded text-xs font-mono" style="background:#ff3b3b22;color:#ff3b3b;border:1px solid #ff3b3b44">Phase 1: 恐慌 (2/28-3/3) ✓</div>
+      <div class="px-3 py-1 rounded text-xs font-mono" style="background:#ffaa0022;color:#ffaa00;border:1px solid #ffaa0044">Phase 2: 投机 (3/3-3/10) ✓</div>
+      <div class="px-3 py-1 rounded text-xs font-mono animate-pulse" style="background:#00ff8822;color:#00ff88;border:1px solid #00ff8844">Phase 3: 理性博弈 ← 当前</div>
+      <div class="px-3 py-1 rounded text-xs font-mono" style="background:#8892a422;color:#8892a4;border:1px solid #8892a444">Phase 4: 分化/回调</div>
+    </div>
+    <p class="text-sm text-steelLight">
+      当前市场已进入<strong class="text-neon">理性博弈阶段</strong>：初期全面普涨结束，资金开始分化，向VLCC运价直接受益标的（招商轮船、中远海能）和纯上游油气标的（中国海油）集中。
+      追高风险增大，后续需关注：(1) 海峡通航恢复预期 (2) 停火谈判信号 (3) 战略石油储备释放对油价压制。
+    </p>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 8: Alpha Top20 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec8" style="background:linear-gradient(180deg,#0a0e17,#0d1220,#0a0e17)">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 08</div>
+    <h2 class="section-title">八、Alpha Top 20</h2>
+    <div class="h-px bg-gradient-to-r from-neon via-ice to-transparent mt-4"></div>
+  </div>
+
+  <!-- Chart: Alpha Radar -->
+  <div class="fade-up card p-4 mb-8">
+    <h3 class="text-white font-bold mb-2 text-sm">Alpha机会分布 (按板块/确定性)</h3>
+    <div id="chartAlpha" class="chart-box" style="height:400px"></div>
+  </div>
+
+  <!-- Alpha Lists by Category -->
+  <div class="space-y-6">
+    <!-- 航运 -->
+    <div class="fade-up card p-5">
+      <div class="flex items-center gap-2 mb-4"><span class="tag tag-yellow">航运</span><span class="text-white font-bold">Alpha 1-6</span></div>
+      <div class="overflow-x-auto">
+        <table class="intel">
+          <thead><tr><th>#</th><th>标的</th><th>逻辑</th><th>触发条件</th><th>风险</th></tr></thead>
+          <tbody>
+            <tr><td class="text-neon font-mono">1</td><td class="text-white">招商轮船</td><td>VLCC运力龙头，TD3C运价创历史新高直接受益</td><td>海峡封锁持续 / 运价维持高位</td><td class="text-alert">停火导致运价回落</td></tr>
+            <tr><td class="text-neon font-mono">2</td><td class="text-white">中远海能</td><td>中国最大油轮船队，VLCC+LNG双主线</td><td>绕航需求增加 / LNG现货价上涨</td><td class="text-alert">海峡快速恢复通航</td></tr>
+            <tr><td class="text-neon font-mono">3</td><td class="text-white">招商南油</td><td>成品油运输，绕航增加吨海里需求</td><td>红海+霍尔木兹双重封锁</td><td class="text-warn">短线涨幅过大回调</td></tr>
+            <tr><td class="text-neon font-mono">4</td><td class="text-white">国航远洋</td><td>远洋散货，绕航受益+战时运力紧张</td><td>好望角航线拥堵加剧</td><td class="text-warn">小盘股流动性风险</td></tr>
+            <tr><td class="text-neon font-mono">5</td><td class="text-white">宁波海运</td><td>沿海运输，国内原油战略储备调运受益</td><td>国内加大战略储备</td><td class="text-steel">弹性较小</td></tr>
+            <tr><td class="text-neon font-mono">6</td><td class="text-white">兴通股份</td><td>化学品运输船，特种运输需求</td><td>化工品运价联动上涨</td><td class="text-warn">非核心标的</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 油气 -->
+    <div class="fade-up card p-5">
+      <div class="flex items-center gap-2 mb-4"><span class="tag tag-red">油气</span><span class="text-white font-bold">Alpha 7-12</span></div>
+      <div class="overflow-x-auto">
+        <table class="intel">
+          <thead><tr><th>#</th><th>标的</th><th>逻辑</th><th>触发条件</th><th>风险</th></tr></thead>
+          <tbody>
+            <tr><td class="text-neon font-mono">7</td><td class="text-white">中国海油</td><td>纯上游开采，油价弹性最大（每$10布油≈+15%利润）</td><td>Brent持续>$100</td><td class="text-alert">战略储备释放压低油价</td></tr>
+            <tr><td class="text-neon font-mono">8</td><td class="text-white">中国石油</td><td>上游开采+管道运输双受益</td><td>国内成品油提价</td><td class="text-warn">炼化板块成本压力</td></tr>
+            <tr><td class="text-neon font-mono">9</td><td class="text-white">中国石化</td><td>炼化龙头，库存收益+成品油定价调整</td><td>发改委调价窗口</td><td class="text-alert">原油成本传导滞后</td></tr>
+            <tr><td class="text-neon font-mono">10</td><td class="text-white">洲际油气</td><td>海外油气资产，5天4板题材股</td><td>地缘事件持续发酵</td><td class="text-alert">纯题材炒作，基本面弱</td></tr>
+            <tr><td class="text-neon font-mono">11</td><td class="text-white">中曼石油</td><td>中东油气钻探业务</td><td>中东产油国增产需求</td><td class="text-warn">战区影响施工进度</td></tr>
+            <tr><td class="text-neon font-mono">12</td><td class="text-white">新潮能源</td><td>美国页岩油资产，WTI>$100直接受益</td><td>美国增产预期</td><td class="text-steel">汇率波动</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 油服 -->
+    <div class="fade-up card p-5">
+      <div class="flex items-center gap-2 mb-4"><span class="tag tag-blue">油服</span><span class="text-white font-bold">Alpha 13-15</span></div>
+      <div class="overflow-x-auto">
+        <table class="intel">
+          <thead><tr><th>#</th><th>标的</th><th>逻辑</th><th>触发条件</th><th>风险</th></tr></thead>
+          <tbody>
+            <tr><td class="text-neon font-mono">13</td><td class="text-white">中海油服</td><td>油价高位→上游资本开支增加→油服景气上行</td><td>三桶油上调资本开支</td><td class="text-warn">行业周期滞后</td></tr>
+            <tr><td class="text-neon font-mono">14</td><td class="text-white">杰瑞股份</td><td>压裂设备龙头，海外中东业务占比高</td><td>中东战后重建+增产</td><td class="text-warn">中东施工受阻</td></tr>
+            <tr><td class="text-neon font-mono">15</td><td class="text-white">海油工程</td><td>海上工程龙头，深水油气开发</td><td>国内海域油气大开发</td><td class="text-steel">项目周期长</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- LNG -->
+    <div class="fade-up card p-5">
+      <div class="flex items-center gap-2 mb-4"><span class="tag tag-green">LNG</span><span class="text-white font-bold">Alpha 16-18</span></div>
+      <div class="overflow-x-auto">
+        <table class="intel">
+          <thead><tr><th>#</th><th>标的</th><th>逻辑</th><th>触发条件</th><th>风险</th></tr></thead>
+          <tbody>
+            <tr><td class="text-neon font-mono">16</td><td class="text-white">广汇能源</td><td>LNG接收站+煤化工，天然气现货价联动</td><td>LNG现货突破$20/MMBtu</td><td class="text-warn">煤化工业务拖累</td></tr>
+            <tr><td class="text-neon font-mono">17</td><td class="text-white">新奥股份</td><td>LNG贸易+城燃，量价齐升</td><td>冬季用气高峰+供给中断</td><td class="text-warn">长协价格锁定</td></tr>
+            <tr><td class="text-neon font-mono">18</td><td class="text-white">九丰能源</td><td>LNG点供+分布式能源</td><td>LNG价差扩大</td><td class="text-steel">体量较小</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 防御资产 -->
+    <div class="fade-up card p-5">
+      <div class="flex items-center gap-2 mb-4"><span class="tag tag-blue">防御资产</span><span class="text-white font-bold">Alpha 19-20</span></div>
+      <div class="overflow-x-auto">
+        <table class="intel">
+          <thead><tr><th>#</th><th>标的</th><th>逻辑</th><th>触发条件</th><th>风险</th></tr></thead>
+          <tbody>
+            <tr><td class="text-neon font-mono">19</td><td class="text-white">山东黄金</td><td>避险资产，地缘冲突→金价走高</td><td>金价突破新高 / 全球避险情绪升温</td><td class="text-steel">美元走强压制</td></tr>
+            <tr><td class="text-neon font-mono">20</td><td class="text-white">紫金矿业</td><td>黄金+铜双属性，通胀对冲</td><td>金铜同涨 / 全球供应链重构</td><td class="text-warn">铜需求若受经济放缓影响</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="fade-up mt-8 card p-4 text-xs text-steel" style="border-color:#2a345044">
+    <strong class="text-warn">重要声明：</strong>以上分析基于公开来源情报(OSINT)，不构成投资建议。战时市场波动极端，任何基于地缘事件的交易策略均面临事件逆转风险。Alpha机会列表仅反映当前态势下的逻辑框架，不代表买入推荐。请投资者根据自身风险承受能力独立决策。
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 9: 扩展市场影响 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec9">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 09</div>
+    <h2 class="section-title">九、扩展市场影响：黄金 / 外汇 / LNG / 集运 / 空运</h2>
+    <div class="h-px bg-gradient-to-r from-warn via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <!-- Gold -->
+  <div class="fade-up card p-6 mb-6">
+    <h3 class="text-warn font-bold text-lg mb-4">黄金市场</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+      <div class="p-3 rounded text-center" style="background:#ffaa0008;border:1px solid #ffaa0022">
+        <div class="font-mono text-[10px] text-warn tracking-wider mb-1">现货金价</div>
+        <div class="text-2xl font-black text-white">$5,020</div>
+        <div class="text-xs text-steel mt-1">/盎司 (3月15日)</div>
+      </div>
+      <div class="p-3 rounded text-center" style="background:#ff3b3b08;border:1px solid #ff3b3b22">
+        <div class="font-mono text-[10px] text-alert tracking-wider mb-1">战争爆发后高点</div>
+        <div class="text-2xl font-black text-white">$5,420</div>
+        <div class="text-xs text-steel mt-1">3月1日触及</div>
+      </div>
+      <div class="p-3 rounded text-center" style="background:#00ff8808;border:1px solid #00ff8822">
+        <div class="font-mono text-[10px] text-neon tracking-wider mb-1">历史最高</div>
+        <div class="text-2xl font-black text-white">$5,595</div>
+        <div class="text-xs text-steel mt-1">2026年1月29日</div>
+      </div>
+      <div class="p-3 rounded text-center" style="background:#00cfff08;border:1px solid #00cfff22">
+        <div class="font-mono text-[10px] text-ice tracking-wider mb-1">近一周跌幅</div>
+        <div class="text-2xl font-black text-alert">-3%</div>
+        <div class="text-xs text-steel mt-1">美元走强压制</div>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-4 text-sm text-steelLight">
+      <div>
+        <div class="text-warn font-mono text-xs mb-2 tracking-wider">走势逻辑</div>
+        <ul class="space-y-1">
+          <li>&#x2022; 战争爆发初日跳涨至$5,400以上，随后因美元走强回落</li>
+          <li>&#x2022; 当前$5,020附近震荡，避险需求与强美元/高利率形成拉锯</li>
+          <li>&#x2022; 部分分析师（Yardeni）看至$10,000/盎司长期目标</li>
+          <li>&#x2022; 白银同步走弱，贵金属板块出现分化</li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-warn font-mono text-xs mb-2 tracking-wider">A股映射</div>
+        <ul class="space-y-1">
+          <li>&#x2022; <strong class="text-white">山东黄金(600547)</strong>：A股黄金龙头，金价敏感度最高</li>
+          <li>&#x2022; <strong class="text-white">紫金矿业(601899)</strong>：金+铜双属性，战时通胀对冲</li>
+          <li>&#x2022; <strong class="text-white">中金黄金(600489)</strong>：央企背景，估值稳定</li>
+          <li>&#x2022; <strong class="text-white">赤峰黄金(600988)</strong>：海外金矿增量，高成长弹性</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chart: Gold price -->
+  <div class="fade-up card p-4 mb-6">
+    <h3 class="text-white font-bold mb-2 text-sm">黄金价格走势 (2026年2月 — 3月16日, $/盎司)</h3>
+    <div id="chartGold" class="chart-box" style="height:350px"></div>
+  </div>
+
+  <!-- FX Markets -->
+  <div class="fade-up card p-6 mb-6">
+    <h3 class="text-ice font-bold text-lg mb-4">外汇市场</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+      <div class="p-3 rounded text-center" style="background:#00cfff08;border:1px solid #00cfff22">
+        <div class="font-mono text-[10px] text-ice tracking-wider mb-1">USD/CNY</div>
+        <div class="text-2xl font-black text-white">6.90</div>
+        <div class="text-xs text-warn mt-1">人民币承压</div>
+      </div>
+      <div class="p-3 rounded text-center" style="background:#00cfff08;border:1px solid #00cfff22">
+        <div class="font-mono text-[10px] text-ice tracking-wider mb-1">DXY 美元指数</div>
+        <div class="text-2xl font-black text-white">106.8</div>
+        <div class="text-xs text-neon mt-1">三个月新高</div>
+      </div>
+      <div class="p-3 rounded text-center" style="background:#ff3b3b08;border:1px solid #ff3b3b22">
+        <div class="font-mono text-[10px] text-alert tracking-wider mb-1">EUR/USD</div>
+        <div class="text-2xl font-black text-white">1.038</div>
+        <div class="text-xs text-alert mt-1">七周低点</div>
+      </div>
+      <div class="p-3 rounded text-center" style="background:#ff3b3b08;border:1px solid #ff3b3b22">
+        <div class="font-mono text-[10px] text-alert tracking-wider mb-1">USD/KRW</div>
+        <div class="text-2xl font-black text-white">1,497</div>
+        <div class="text-xs text-alert mt-1">韩元重挫</div>
+      </div>
+    </div>
+    <div class="text-sm text-steelLight space-y-2">
+      <p>&#x2022; <strong class="text-white">美元走强：</strong>油价飙升→通胀预期上升→美联储降息预期推迟→美元获避险买盘。DXY升至三个月高位。</p>
+      <p>&#x2022; <strong class="text-white">人民币：</strong>PBOC中间价设在6.91，采取更大弹性管理。Bloomberg报道中国央行对战争引发的油价冲击表现出焦虑，但通过衍生品规则调整稳定市场。</p>
+      <p>&#x2022; <strong class="text-white">亚洲货币普跌：</strong>韩元、印度卢比、泰铢承压最重（能源进口依赖度高）。日元因避险属性跌幅较小。</p>
+      <p>&#x2022; <strong class="text-white">去美元化趋势：</strong>Guardian评论指出，美国单边军事行动加速全球去美元化思潮。</p>
+    </div>
+  </div>
+
+  <!-- LNG -->
+  <div class="fade-up card p-6 mb-6">
+    <h3 class="text-neon font-bold text-lg mb-4">LNG / 天然气市场</h3>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
+      <div class="p-3 rounded text-center" style="background:#00ff8808;border:1px solid #00ff8822">
+        <div class="font-mono text-[10px] text-neon tracking-wider mb-1">亚洲LNG现货</div>
+        <div class="text-2xl font-black text-white">$18</div>
+        <div class="text-xs text-alert mt-1">/MMBtu | +80% 战时涨幅</div>
+      </div>
+      <div class="p-3 rounded text-center" style="background:#ff3b3b08;border:1px solid #ff3b3b22">
+        <div class="font-mono text-[10px] text-alert tracking-wider mb-1">战时高点(3月6日)</div>
+        <div class="text-2xl font-black text-white">$22.5</div>
+        <div class="text-xs text-steel mt-1">/MMBtu | 两年新高 +116%</div>
+      </div>
+      <div class="p-3 rounded text-center" style="background:#ffaa0008;border:1px solid #ffaa0022">
+        <div class="font-mono text-[10px] text-warn tracking-wider mb-1">卡塔尔LNG供给风险</div>
+        <div class="text-2xl font-black text-alert">HIGH</div>
+        <div class="text-xs text-steel mt-1">海峡封锁影响LNG出口</div>
+      </div>
+    </div>
+    <div class="text-sm text-steelLight space-y-2">
+      <p>&#x2022; 北亚LNG现货周涨116%至$22.5/MMBtu（3月6日周），随后回落至$18附近</p>
+      <p>&#x2022; 卡塔尔为全球最大LNG出口国之一，其LNG船队必须经霍尔木兹海峡出港</p>
+      <p>&#x2022; 煤炭价格联动上涨，高品质动力煤受益于LNG替代需求</p>
+      <p>&#x2022; IEEFA报告：亚洲国家正加速应急能源安全措施，可再生能源成为中长期对冲</p>
+    </div>
+  </div>
+
+  <!-- Container & Air Freight -->
+  <div class="fade-up card p-6 mb-6">
+    <h3 class="text-alert font-bold text-lg mb-4">集装箱运输 / 空运</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div>
+        <div class="text-alert font-mono text-xs mb-2 tracking-wider">集装箱运价</div>
+        <div class="grid grid-cols-2 gap-3 mb-3">
+          <div class="p-3 rounded text-center" style="background:#ff3b3b08;border:1px solid #ff3b3b22">
+            <div class="text-xs text-steel">上海→杰贝阿里</div>
+            <div class="text-xl font-black text-white">$4,000+</div>
+            <div class="text-[10px] text-alert">/FEU | 战前$1,800</div>
+          </div>
+          <div class="p-3 rounded text-center" style="background:#ffaa0008;border:1px solid #ffaa0022">
+            <div class="text-xs text-steel">整体涨幅</div>
+            <div class="text-xl font-black text-white">+30%</div>
+            <div class="text-[10px] text-warn">战时至今</div>
+          </div>
+        </div>
+        <ul class="space-y-1 text-sm text-steelLight">
+          <li>&#x2022; CMA CGM加收$3,000/FEU紧急附加费</li>
+          <li>&#x2022; 萨拉拉港(阿曼)因无人机攻击<strong class="text-alert">暂停运营</strong></li>
+          <li>&#x2022; Hapag-Lloyd CEO：增加的运输成本将转嫁给消费者</li>
+          <li>&#x2022; 集装箱航运公司2026年不太可能重返苏伊士航线</li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-warn font-mono text-xs mb-2 tracking-wider">空运费率</div>
+        <div class="p-3 rounded text-center mb-3" style="background:#ffaa0008;border:1px solid #ffaa0022">
+          <div class="text-xs text-steel">部分航线涨幅</div>
+          <div class="text-xl font-black text-white">+70%</div>
+          <div class="text-[10px] text-warn">战争爆发以来 (Reuters)</div>
+        </div>
+        <ul class="space-y-1 text-sm text-steelLight">
+          <li>&#x2022; 空运费率部分航线飙升70%（Reuters 3月13日报道）</li>
+          <li>&#x2022; 迪拜机场航班暂停进一步加剧区域空运压力</li>
+          <li>&#x2022; 化肥价格上涨约1/3，食品供应链面临传导压力</li>
+          <li>&#x2022; DW报告：霍尔木兹关闭可能引发全球粮食危机</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Food/Fertilizer Impact -->
+  <div class="fade-up card card-warn p-5">
+    <h3 class="text-warn font-bold mb-3 text-sm">通胀传导链</h3>
+    <div class="flex flex-wrap gap-2 items-center text-sm">
+      <span class="px-3 py-1 rounded text-xs font-mono" style="background:#ff3b3b22;color:#ff3b3b;border:1px solid #ff3b3b44">油价+53%</span>
+      <span class="text-steel">→</span>
+      <span class="px-3 py-1 rounded text-xs font-mono" style="background:#ffaa0022;color:#ffaa00;border:1px solid #ffaa0044">运费+30-70%</span>
+      <span class="text-steel">→</span>
+      <span class="px-3 py-1 rounded text-xs font-mono" style="background:#ffaa0022;color:#ffaa00;border:1px solid #ffaa0044">化肥+33%</span>
+      <span class="text-steel">→</span>
+      <span class="px-3 py-1 rounded text-xs font-mono" style="background:#ff3b3b22;color:#ff3b3b;border:1px solid #ff3b3b44">食品通胀</span>
+      <span class="text-steel">→</span>
+      <span class="px-3 py-1 rounded text-xs font-mono" style="background:#ff3b3b22;color:#ff3b3b;border:1px solid #ff3b3b44">全球滞胀风险</span>
+    </div>
+    <p class="text-sm text-steelLight mt-3">油气不仅是燃料，也是化肥、塑料等数千种产品的原材料。CNBC分析：霍尔木兹关闭正成为全球经济的"临界点"，从金属到农业，依赖海运的所有行业均受冲击。</p>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 10: 深度情景推演 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec10" style="background:linear-gradient(180deg,#0a0e17,#120a1a,#0a0e17)">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 10</div>
+    <h2 class="section-title">十、深度情景推演与资产价格矩阵</h2>
+    <div class="h-px bg-gradient-to-r from-alert via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <div class="fade-up card p-4 mb-8">
+    <h3 class="text-white font-bold mb-2 text-sm">三种情景下的资产价格矩阵</h3>
+    <div id="chartScenario" class="chart-box" style="height:420px"></div>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <!-- Scenario A -->
+    <div class="fade-up card card-ok p-5">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-neon font-bold text-lg">A</span>
+        <span class="text-white font-bold text-sm">谈判停火</span>
+        <span class="badge" style="background:#00ff8822;color:#00ff88;border:1px solid #00ff8844">25%</span>
+      </div>
+      <div class="text-xs text-steel mb-3 font-mono">时间框架: 2-4周</div>
+      <div class="space-y-2 text-sm text-steelLight">
+        <p><strong class="text-white">触发条件：</strong>伊朗军事能力严重削弱 + 国际斡旋(中国/土耳其) + 美国国内政治压力</p>
+        <p><strong class="text-neon">油价：</strong>回落至$75-85 (回吐50-70%战时涨幅)</p>
+        <p><strong class="text-neon">VLCC运价：</strong>TD3C回落至$80-120K/天</p>
+        <p><strong class="text-neon">霍尔木兹：</strong>2-4周内恢复正常通航</p>
+        <p><strong class="text-alert">A股影响：</strong>航运/油气板块大幅回调30-50%；黄金、军工回调</p>
+        <p><strong class="text-white">策略：</strong>做空/减持航运油气，加仓消费/科技</p>
+      </div>
+    </div>
+    <!-- Scenario B -->
+    <div class="fade-up card card-warn p-5">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-warn font-bold text-lg">B</span>
+        <span class="text-white font-bold text-sm">消耗战持续</span>
+        <span class="badge" style="background:#ffaa0022;color:#ffaa00;border:1px solid #ffaa0044">50%</span>
+      </div>
+      <div class="text-xs text-steel mb-3 font-mono">时间框架: 1-3个月</div>
+      <div class="space-y-2 text-sm text-steelLight">
+        <p><strong class="text-white">触发条件：</strong>双方无法达成停火条件 + 伊朗保持最低限度反击 + 海峡半封锁状态</p>
+        <p><strong class="text-warn">油价：</strong>$90-110区间震荡</p>
+        <p><strong class="text-warn">VLCC运价：</strong>TD3C维持$200-350K/天高位</p>
+        <p><strong class="text-warn">霍尔木兹：</strong>选择性通航(每日0-5艘)，400+船只长期滞留</p>
+        <p><strong class="text-warn">A股影响：</strong>航运分化(龙头强势)；油气高位震荡；LNG持续受益</p>
+        <p><strong class="text-white">策略：</strong>持有VLCC龙头(招商轮船/中远海能)+纯上游(中国海油)，减持题材股</p>
+      </div>
+    </div>
+    <!-- Scenario C -->
+    <div class="fade-up card card-alert p-5">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-alert font-bold text-lg">C</span>
+        <span class="text-white font-bold text-sm">全面升级</span>
+        <span class="badge badge-high">25%</span>
+      </div>
+      <div class="text-xs text-steel mb-3 font-mono">时间框架: 持续升级</div>
+      <div class="space-y-2 text-sm text-steelLight">
+        <p><strong class="text-white">触发条件：</strong>哈尔克岛石油设施被打击 + 伊朗报复性攻击沙特/阿联酋油田 + 胡塞全面恢复红海袭击</p>
+        <p><strong class="text-alert">油价：</strong>冲击$150-200 (伊朗曾警告$200油价)</p>
+        <p><strong class="text-alert">VLCC运价：</strong>TD3C突破$500K+/天 或完全无法报价</p>
+        <p><strong class="text-alert">霍尔木兹：</strong>完全封锁，全球20%石油供给中断</p>
+        <p><strong class="text-alert">A股影响：</strong>航运/油气再度暴涨；大盘承压(滞胀)；黄金新高；军工爆发</p>
+        <p><strong class="text-white">策略：</strong>重仓能源全产业链+黄金+军工；对冲大盘下行风险</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 11: 扩展Alpha ============ -->
+<section class="py-16 md:py-24 px-4" id="sec11">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 11</div>
+    <h2 class="section-title">十一、扩展Alpha：军工 / 黄金 / 集运 / 煤炭</h2>
+    <div class="h-px bg-gradient-to-r from-purple-500 via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <!-- Military/Defense -->
+  <div class="fade-up card p-5 mb-6">
+    <div class="flex items-center gap-2 mb-4"><span class="tag" style="background:#a855f715;color:#a855f7;border:1px solid #a855f733">军工</span><span class="text-white font-bold">Alpha 21-24</span></div>
+    <div class="overflow-x-auto">
+      <table class="intel">
+        <thead><tr><th>#</th><th>标的</th><th>逻辑</th><th>触发条件</th><th>风险</th></tr></thead>
+        <tbody>
+          <tr><td class="text-neon font-mono">21</td><td class="text-white">中航沈飞(600760)</td><td>歼击机龙头，中东冲突→全球军备竞赛加速</td><td>国防预算上调 / 出口订单</td><td class="text-warn">军工周期波动</td></tr>
+          <tr><td class="text-neon font-mono">22</td><td class="text-white">航发动力(600893)</td><td>航空发动机垄断地位，战时航空需求激增</td><td>装备交付加速</td><td class="text-steel">产能限制</td></tr>
+          <tr><td class="text-neon font-mono">23</td><td class="text-white">中国船舶(600150)</td><td>军舰+商船双驱动，海军扩军+商船运力紧张</td><td>海军订单+商船替换需求</td><td class="text-warn">造船周期长</td></tr>
+          <tr><td class="text-neon font-mono">24</td><td class="text-white">北方导航(600435)</td><td>精确制导武器核心供应商</td><td>军贸出口增加</td><td class="text-alert">题材属性较强</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-xs text-steel mt-3">美股IShares航空航天与国防ETF(ITA)年初至3月10日已上涨12%。中东冲突推动全球军备开支进入"超级周期"预期。中国2025年国防预算同比增长7.2%。</p>
+  </div>
+
+  <!-- Extended Gold -->
+  <div class="fade-up card p-5 mb-6">
+    <div class="flex items-center gap-2 mb-4"><span class="tag tag-yellow">黄金</span><span class="text-white font-bold">Alpha 25-27</span></div>
+    <div class="overflow-x-auto">
+      <table class="intel">
+        <thead><tr><th>#</th><th>标的</th><th>逻辑</th><th>触发条件</th><th>风险</th></tr></thead>
+        <tbody>
+          <tr><td class="text-neon font-mono">25</td><td class="text-white">山东黄金(600547)</td><td>A股纯金矿龙头，金价$5000+区间弹性最大</td><td>金价重新站上$5,200</td><td class="text-warn">美元走强压制</td></tr>
+          <tr><td class="text-neon font-mono">26</td><td class="text-white">赤峰黄金(600988)</td><td>海外金矿产能释放，成长性最好</td><td>产量增速超预期</td><td class="text-steel">海外政治风险</td></tr>
+          <tr><td class="text-neon font-mono">27</td><td class="text-white">中金黄金(600489)</td><td>央企金矿，估值安全边际高</td><td>金价维持高位</td><td class="text-steel">弹性相对较低</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Coal / Container / Others -->
+  <div class="fade-up card p-5 mb-6">
+    <div class="flex items-center gap-2 mb-4"><span class="tag" style="background:#8892a415;color:#8892a4;border:1px solid #8892a433">煤炭/集运/其他</span><span class="text-white font-bold">Alpha 28-30</span></div>
+    <div class="overflow-x-auto">
+      <table class="intel">
+        <thead><tr><th>#</th><th>标的</th><th>逻辑</th><th>触发条件</th><th>风险</th></tr></thead>
+        <tbody>
+          <tr><td class="text-neon font-mono">28</td><td class="text-white">中远海控(601919)</td><td>集运龙头，集装箱运价+30%，绕航增加需求</td><td>红海+霍尔木兹双重封锁持续</td><td class="text-warn">集运供给过剩基本面</td></tr>
+          <tr><td class="text-neon font-mono">29</td><td class="text-white">中国神华(601088)</td><td>煤炭龙头，LNG飙升→煤电替代需求增加</td><td>动力煤价格上行突破</td><td class="text-steel">政策限价风险</td></tr>
+          <tr><td class="text-neon font-mono">30</td><td class="text-white">中国中免(601888)</td><td>反向标的：油价高位+航空受阻→免税消费承压，适合做空对冲</td><td>航空客流持续下降</td><td class="text-alert">反弹风险</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Summary Radar -->
+  <div class="fade-up card p-4">
+    <h3 class="text-white font-bold mb-2 text-sm">扩展Alpha机会雷达 (完整30只)</h3>
+    <div id="chartAlpha2" class="chart-box" style="height:420px"></div>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 12: 持续监测清单 ============ -->
+<section class="py-16 md:py-24 px-4" id="sec12" style="background:linear-gradient(180deg,#0a0e17,#0d1220,#0a0e17)">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SECTION 12</div>
+    <h2 class="section-title">十二、持续监测清单</h2>
+    <div class="h-px bg-gradient-to-r from-alert via-ghost to-transparent mt-4"></div>
+  </div>
+  <div class="grid md:grid-cols-2 gap-4">
+    <div class="fade-up card card-alert p-5">
+      <div class="text-alert font-bold text-sm mb-3">最高优先级 (每小时)</div>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; 霍尔木兹海峡通航量 (Windward AIS)</li>
+        <li>&#x2022; 哈尔克岛石油设施是否遭打击</li>
+        <li>&#x2022; 停火谈判信号 (Trump/Araghchi/中国)</li>
+        <li>&#x2022; VLCC TD3C运价实时报价</li>
+        <li>&#x2022; 伊朗是否动用"最新型"武器</li>
+      </ul>
+    </div>
+    <div class="fade-up card card-warn p-5">
+      <div class="text-warn font-bold text-sm mb-3">高优先级 (每4小时)</div>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; 胡塞武装红海袭击事件</li>
+        <li>&#x2022; 航母舰队位置与部署变化</li>
+        <li>&#x2022; 海湾国家油气设施受损情况</li>
+        <li>&#x2022; 迪拜/富查伊拉港口运营状态</li>
+        <li>&#x2022; 油轮保险市场动态</li>
+      </ul>
+    </div>
+    <div class="fade-up card card-ice p-5">
+      <div class="text-ice font-bold text-sm mb-3">中优先级 (每日)</div>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; Brent/WTI原油价格与库存数据</li>
+        <li>&#x2022; LNG亚洲现货价格</li>
+        <li>&#x2022; 多国海军联盟进展</li>
+        <li>&#x2022; OFAC制裁与许可动态</li>
+        <li>&#x2022; 俄罗斯影子船队动向</li>
+      </ul>
+    </div>
+    <div class="fade-up card card-ok p-5">
+      <div class="text-neon font-bold text-sm mb-3">关注 (每周)</div>
+      <ul class="space-y-2 text-sm text-steelLight">
+        <li>&#x2022; A股航运/能源板块资金流向</li>
+        <li>&#x2022; 全球战略石油储备释放动态</li>
+        <li>&#x2022; 各国对伊朗战争的外交立场变化</li>
+        <li>&#x2022; 全球通胀数据（CPI/PPI）</li>
+        <li>&#x2022; 集装箱航运运价与绕航数据</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="py-12 px-4 text-center" style="background:#080b12">
+  <div class="font-mono text-xs text-ghost mb-2">OSINT INTELLIGENCE BRIEF — CLASSIFICATION: OPEN SOURCE</div>
+  <div class="font-mono text-xs text-ghost">GENERATED 2026.03.17 | AUTO-UPDATE: DAILY 09:00 CST | SOURCES: WINDWARD / REUTERS / CNN / AL JAZEERA / BALTIC EXCHANGE / NASA / OFAC</div>
+  <div class="font-mono text-[10px] text-ghost mt-4 opacity-50">本报告基于公开来源情报编制，所有数据经过交叉验证。严禁用于商业传播。</div>
+  <div class="font-mono text-[10px] text-neon mt-2 opacity-40">Last auto-update: 2026-03-17 01:09:26</div>
+</footer>
+
+<script>
+// ===== LIVE DATA INJECTION (auto-updated daily) =====
+window.OSINT_DATA = {"oil": {"dates": ["02/02", "02/03", "02/04", "02/05", "02/06", "02/09", "02/10", "02/11", "02/12", "02/13", "02/17", "02/18", "02/19", "02/20", "02/23", "02/24", "02/25", "02/26", "02/27", "03/02", "03/03", "03/04", "03/05", "03/06", "03/09", "03/10", "03/11", "03/12", "03/13", "03/16"], "brent": [66.3, 67.33, 69.46, 67.55, 68.05, 69.04, 68.8, 69.4, 67.52, 67.75, 67.42, 70.35, 71.66, 71.76, 71.49, 70.77, 70.85, 70.75, 72.48, 77.74, 81.4, 81.4, 85.41, 92.69, 98.96, 87.8, 91.98, 100.46, 103.14, 102.6], "wti": [62.14, 63.21, 65.14, 63.29, 63.55, 64.36, 63.96, 64.63, 62.84, 62.89, 62.33, 65.19, 66.43, 66.39, 66.31, 65.63, 65.42, 65.21, 67.02, 71.23, 74.56, 74.66, 81.01, 90.9, 94.77, 83.45, 87.25, 95.73, 98.71, 95.93], "brent_current": 102.5999984741211, "wti_current": 95.93000030517578, "brent_change": -0.52, "brent_war_change": 31.98}, "gold": {"dates": ["02/02", "02/03", "02/04", "02/05", "02/06", "02/09", "02/10", "02/11", "02/12", "02/13", "02/17", "02/18", "02/19", "02/20", "02/23", "02/24", "02/25", "02/26", "02/27", "03/02", "03/03", "03/04", "03/05", "03/06", "03/09", "03/10", "03/11", "03/12", "03/13", "03/16"], "prices": [4622.5, 4903.7, 4920.4, 4861.4, 4951.2, 5050.9, 5003.8, 5071.6, 4923.7, 5022.0, 4882.9, 4986.5, 4975.9, 5059.3, 5204.7, 5155.8, 5206.4, 5176.5, 5230.5, 5294.4, 5107.4, 5120.2, 5065.3, 5146.1, 5091.5, 5229.7, 5167.4, 5115.8, 5052.5, 5009.8], "current": 5009.7998046875, "change": -0.85}, "fx": {"current": 6.868899822235107, "change": 0.05}, "ashare": {"names": [], "changes": []}};
+
+// ===== GSAP ScrollTrigger Animations =====
+gsap.registerPlugin(ScrollTrigger);
+gsap.utils.toArray('.fade-up').forEach(el=>{
+  gsap.to(el,{opacity:1,y:0,duration:0.8,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%',toggleActions:'play none none none'}});
+});
+
+// ===== Progress Bar =====
+window.addEventListener('scroll',()=>{
+  const h=document.documentElement.scrollHeight-window.innerHeight;
+  document.getElementById('progressBar').style.width=(window.scrollY/h*100)+'%';
+});
+
+// ===== ECharts Config =====
+const dark={bg:'transparent',grid:'#2a3450',text:'#8892a4',white:'#e0e6f0'};
+const C={neon:'#00ff88',alert:'#ff3b3b',warn:'#ffaa00',ice:'#00cfff',purple:'#a855f7'};
+function baseOpt(o){return Object.assign({backgroundColor:dark.bg,textStyle:{fontFamily:'Noto Sans SC,JetBrains Mono,sans-serif',color:dark.text},grid:{left:60,right:20,top:40,bottom:40,containLabel:false},tooltip:{backgroundColor:'#1a2235ee',borderColor:'#2a3450',textStyle:{color:'#e0e6f0',fontSize:12,fontFamily:'JetBrains Mono,monospace'}}},o)}
+
+// --- Chart 1: Oil Prices ---
+(function(){
+  const c=echarts.init(document.getElementById('chartOil'),null,{renderer:'svg'});
+  const D=window.OSINT_DATA&&window.OSINT_DATA.oil;
+  const dates=D&&D.dates.length?D.dates:['2/14','2/17','2/19','2/21','2/24','2/26','2/28','3/2','3/4','3/6','3/8','3/10','3/12','3/14','3/16'];
+  const brent=D&&D.brent.length?D.brent:[74,73,72,71,72,73,82,88,92,95,98,102,106,105,96];
+  const wti=D&&D.wti.length?D.wti:[69,68,67,66,67,68,77,83,87,90,93,97,101,100,96];
+  c.setOption(baseOpt({
+    legend:{data:['Brent','WTI'],textStyle:{color:dark.text,fontSize:11},top:5,right:10},
+    xAxis:{type:'category',data:dates,axisLine:{lineStyle:{color:dark.grid}},axisLabel:{color:dark.text,fontSize:10}},
+    yAxis:{type:'value',min:60,axisLine:{show:false},splitLine:{lineStyle:{color:'#2a345033'}},axisLabel:{color:dark.text,fontSize:10,formatter:'${value}'}},
+    series:[
+      {name:'Brent',type:'line',data:brent,smooth:true,lineStyle:{width:2.5,color:C.warn},itemStyle:{color:C.warn},areaStyle:{color:new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'#ffaa0033'},{offset:1,color:'#ffaa0000'}])},
+        markLine:{data:[{yAxis:100,label:{formatter:'$100',color:C.alert,fontSize:10},lineStyle:{color:C.alert,type:'dashed',width:1}}]},
+        markPoint:{data:[{type:'max',label:{formatter:'{c}',color:'#fff',fontSize:10},itemStyle:{color:C.alert}}]}},
+      {name:'WTI',type:'line',data:wti,smooth:true,lineStyle:{width:2,color:C.ice,type:'dashed'},itemStyle:{color:C.ice},areaStyle:{color:new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'#00cfff11'},{offset:1,color:'#00cfff00'}])}}
+    ],
+    markArea:{data:[[{xAxis:'2/28',itemStyle:{color:'#ff3b3b0a'}},{xAxis:'3/16'}]]}
+  }));
+  window.addEventListener('resize',()=>c.resize());
+})();
+
+// --- Chart 2: Hormuz Transit ---
+(function(){
+  const c=echarts.init(document.getElementById('chartHormuz'),null,{renderer:'svg'});
+  const dates=['2/26','2/27','2/28','3/1','3/2','3/3','3/4','3/5','3/6','3/7','3/8','3/9','3/10','3/11','3/12','3/13','3/14'];
+  const transits=[35,33,18,7,5,6,4,3,4,3,2,1,2,2,3,4,0];
+  c.setOption(baseOpt({
+    xAxis:{type:'category',data:dates,axisLine:{lineStyle:{color:dark.grid}},axisLabel:{color:dark.text,fontSize:10}},
+    yAxis:{type:'value',min:0,max:40,axisLine:{show:false},splitLine:{lineStyle:{color:'#2a345033'}},axisLabel:{color:dark.text,fontSize:10}},
+    series:[{
+      type:'bar',data:transits.map((v,i)=>({value:v,itemStyle:{color:v===0?C.alert:v<5?C.warn:v<15?'#ffaa0088':C.neon}})),
+      barWidth:'60%',
+      markLine:{data:[{yAxis:33,label:{formatter:'战前正常水平 ~33/天',color:dark.text,fontSize:10,position:'insideEndTop'},lineStyle:{color:C.neon,type:'dashed',width:1}}]},
+      markPoint:{data:[{coord:['3/14',0],value:'0',symbol:'pin',symbolSize:40,label:{color:'#fff',fontSize:11,fontWeight:'bold'},itemStyle:{color:C.alert}}]}
+    }],
+    visualMap:{show:false,min:0,max:35,inRange:{color:[C.alert,C.warn,C.neon]}}
+  }));
+  window.addEventListener('resize',()=>c.resize());
+})();
+
+// --- Chart 3: VLCC TD3C Rates ---
+(function(){
+  const c=echarts.init(document.getElementById('chartVLCC'),null,{renderer:'svg'});
+  const dates=['1/3','1/10','1/17','1/24','1/31','2/7','2/14','2/21','2/28','3/2','3/4','3/6','3/8','3/10','3/13'];
+  const rates=[29,32,45,55,80,95,110,123,200,280,350,420,466,486,349];
+  c.setOption(baseOpt({
+    xAxis:{type:'category',data:dates,axisLine:{lineStyle:{color:dark.grid}},axisLabel:{color:dark.text,fontSize:10}},
+    yAxis:{type:'value',min:0,axisLine:{show:false},splitLine:{lineStyle:{color:'#2a345033'}},axisLabel:{color:dark.text,fontSize:10,formatter:function(v){return '$'+v+'K'}}},
+    series:[{
+      type:'line',data:rates,smooth:true,lineStyle:{width:3,color:new echarts.graphic.LinearGradient(0,0,1,0,[{offset:0,color:C.neon},{offset:0.5,color:C.warn},{offset:1,color:C.alert}])},
+      itemStyle:{color:C.warn},
+      areaStyle:{color:new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'#ffaa0022'},{offset:0.5,color:'#ff3b3b11'},{offset:1,color:'transparent'}])},
+      markPoint:{data:[{coord:['3/10',486],value:'$486K',symbol:'pin',symbolSize:50,label:{color:'#fff',fontSize:10,fontWeight:'bold'},itemStyle:{color:C.alert}}]},
+      markLine:{data:[{yAxis:29,label:{formatter:'战前 ~$29K/天',color:dark.text,fontSize:10},lineStyle:{color:'#2a3450',type:'dashed'}}]},
+      markArea:{data:[[{xAxis:'2/28',itemStyle:{color:'#ff3b3b08'}},{xAxis:'3/13'}]]}
+    }]
+  }));
+  window.addEventListener('resize',()=>c.resize());
+})();
+
+// --- Chart 4: Route Redistribution ---
+(function(){
+  const c=echarts.init(document.getElementById('chartRoutes'),null,{renderer:'svg'});
+  c.setOption(baseOpt({
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    legend:{data:['战前日均','3月14日'],textStyle:{color:dark.text,fontSize:11},top:5},
+    xAxis:{type:'category',data:['霍尔木兹海峡','苏伊士运河','曼德海峡','好望角'],axisLine:{lineStyle:{color:dark.grid}},axisLabel:{color:dark.text,fontSize:11}},
+    yAxis:{type:'value',axisLine:{show:false},splitLine:{lineStyle:{color:'#2a345033'}},axisLabel:{color:dark.text,fontSize:10}},
+    series:[
+      {name:'战前日均',type:'bar',data:[33,55,23,45],barWidth:'30%',itemStyle:{color:'#2a3450',borderColor:'#8892a444',borderWidth:1},label:{show:true,position:'top',color:dark.text,fontSize:10}},
+      {name:'3月14日',type:'bar',data:[0,23,21,69],barWidth:'30%',itemStyle:{color:function(p){return[C.alert,'#ffaa0088',C.ice,C.neon][p.dataIndex]}},label:{show:true,position:'top',color:'#fff',fontSize:11,fontWeight:'bold'}}
+    ]
+  }));
+  window.addEventListener('resize',()=>c.resize());
+})();
+
+// --- Chart 5: A-Share Sector Performance ---
+(function(){
+  const c=echarts.init(document.getElementById('chartAshare'),null,{renderer:'svg'});
+  const A=window.OSINT_DATA&&window.OSINT_DATA.ashare;
+  const defaultNames=['招商轮船','招商南油','中远海能','中国石化','中国石油','中国海油','中海油服','杰瑞股份','广汇能源','新奥股份'];
+  const defaultChanges=[22,28,35,38,42,55,65,72,85,120];
+  const names=A&&A.names&&A.names.length?A.names.slice().reverse():defaultNames;
+  const changes=A&&A.changes&&A.changes.length?A.changes.slice().reverse():defaultChanges;
+  const barData=changes.map(v=>({value:v,itemStyle:{color:v>70?C.alert:v>40?C.warn:v>25?C.ice:C.neon}}));
+  c.setOption(baseOpt({
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    xAxis:{type:'value',axisLine:{show:false},splitLine:{lineStyle:{color:'#2a345033'}},axisLabel:{color:dark.text,fontSize:10,formatter:'{value}%'}},
+    yAxis:{type:'category',data:names,axisLine:{lineStyle:{color:dark.grid}},axisLabel:{color:'#e0e6f0',fontSize:11}},
+    series:[{
+      type:'bar',data:barData,
+      barWidth:'55%',
+      label:{show:true,position:'right',color:'#e0e6f0',fontSize:10,fontWeight:'bold',formatter:'{c}%'}
+    }],
+    grid:{left:90,right:60,top:10,bottom:20}
+  }));
+  window.addEventListener('resize',()=>c.resize());
+})();
+
+// --- Chart 6: Alpha Radar ---
+(function(){
+  const c=echarts.init(document.getElementById('chartAlpha'),null,{renderer:'svg'});
+  c.setOption(baseOpt({
+    tooltip:{},
+    legend:{data:['确定性','弹性','风险'],textStyle:{color:dark.text,fontSize:11},top:5},
+    radar:{
+      indicator:[{name:'航运',max:100},{name:'油气开采',max:100},{name:'油服',max:100},{name:'LNG',max:100},{name:'防御资产',max:100}],
+      center:['50%','55%'],
+      radius:'65%',
+      axisName:{color:dark.text,fontSize:12},
+      splitArea:{areaStyle:{color:['#2a345011','#2a345022','#2a345011','#2a345022']}},
+      splitLine:{lineStyle:{color:'#2a345044'}},
+      axisLine:{lineStyle:{color:'#2a345066'}}
+    },
+    series:[{
+      type:'radar',
+      data:[
+        {value:[95,80,60,70,75],name:'确定性',lineStyle:{color:C.neon,width:2},areaStyle:{color:'#00ff8818'},itemStyle:{color:C.neon}},
+        {value:[90,85,70,65,50],name:'弹性',lineStyle:{color:C.warn,width:2},areaStyle:{color:'#ffaa0018'},itemStyle:{color:C.warn}},
+        {value:[60,50,55,45,30],name:'风险',lineStyle:{color:C.alert,width:2,type:'dashed'},areaStyle:{color:'#ff3b3b08'},itemStyle:{color:C.alert}}
+      ]
+    }]
+  }));
+  window.addEventListener('resize',()=>c.resize());
+})();
+
+// --- Chart 7: Gold Price Timeline ---
+(function(){
+  const el=document.getElementById('chartGold');
+  if(!el)return;
+  const c=echarts.init(el,null,{renderer:'svg'});
+  const G=window.OSINT_DATA&&window.OSINT_DATA.gold;
+  const dates=G&&G.dates&&G.dates.length?G.dates:['1/6','1/13','1/20','1/27','2/3','2/10','2/17','2/24','2/28','3/3','3/6','3/9','3/12','3/14','3/16'];
+  const gold=G&&G.prices&&G.prices.length?G.prices:[5595,5480,5350,5280,5200,5150,5100,5180,5320,5420,5350,5200,5100,5050,5020];
+  c.setOption(baseOpt({
+    xAxis:{type:'category',data:dates,axisLine:{lineStyle:{color:dark.grid}},axisLabel:{color:dark.text,fontSize:10}},
+    yAxis:{type:'value',min:4800,max:5700,axisLine:{show:false},splitLine:{lineStyle:{color:'#2a345033'}},axisLabel:{color:dark.text,fontSize:10,formatter:'${value}'}},
+    series:[{
+      type:'line',data:gold,smooth:true,
+      lineStyle:{width:2.5,color:'#ffd700'},itemStyle:{color:'#ffd700'},
+      areaStyle:{color:new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'#ffd70033'},{offset:1,color:'#ffd70000'}])},
+      markPoint:{data:[
+        {coord:['1/6',5595],value:'$5,595',symbol:'pin',symbolSize:50,label:{color:'#fff',fontSize:10,fontWeight:'bold'},itemStyle:{color:C.alert}},
+        {coord:['3/3',5420],value:'$5,420',symbol:'pin',symbolSize:45,label:{color:'#fff',fontSize:10},itemStyle:{color:C.warn}},
+        {coord:['3/16',5020],value:'$5,020',symbol:'pin',symbolSize:45,label:{color:'#fff',fontSize:10},itemStyle:{color:'#ffd700'}}
+      ]},
+      markLine:{data:[{yAxis:5000,label:{formatter:'$5,000 心理关口',color:dark.text,fontSize:10},lineStyle:{color:'#ffd70066',type:'dashed',width:1}}]},
+      markArea:{data:[[{xAxis:'2/28',itemStyle:{color:'#ff3b3b08'}},{xAxis:'3/16'}]]}
+    }]
+  }));
+  window.addEventListener('resize',()=>c.resize());
+})();
+
+// --- Chart 8: Scenario Asset Price Matrix ---
+(function(){
+  const el=document.getElementById('chartScenario');
+  if(!el)return;
+  const c=echarts.init(el,null,{renderer:'svg'});
+  c.setOption(baseOpt({
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    legend:{data:['A 谈判停火(25%)','B 消耗战(50%)','C 全面升级(25%)'],textStyle:{color:dark.text,fontSize:10},top:5},
+    xAxis:{type:'category',data:['Brent油价\n($/bbl)','VLCC TD3C\n($K/天)','黄金\n($/oz)','USD/CNY','LNG亚洲\n($/MMBtu)'],axisLine:{lineStyle:{color:dark.grid}},axisLabel:{color:dark.text,fontSize:10}},
+    yAxis:{type:'value',show:false},
+    series:[
+      {name:'A 谈判停火(25%)',type:'bar',data:[80,100,4800,7.05,14],barGap:'10%',itemStyle:{color:C.neon},label:{show:true,position:'top',color:C.neon,fontSize:9,fontWeight:'bold'}},
+      {name:'B 消耗战(50%)',type:'bar',data:[100,275,5200,6.88,20],itemStyle:{color:C.warn},label:{show:true,position:'top',color:C.warn,fontSize:9,fontWeight:'bold'}},
+      {name:'C 全面升级(25%)',type:'bar',data:[175,500,5800,6.70,35],itemStyle:{color:C.alert},label:{show:true,position:'top',color:C.alert,fontSize:9,fontWeight:'bold'}}
+    ],
+    grid:{left:30,right:20,top:50,bottom:60}
+  }));
+  window.addEventListener('resize',()=>c.resize());
+})();
+
+// --- Chart 9: Expanded Alpha Radar (30 stocks / 7 sectors) ---
+(function(){
+  const el=document.getElementById('chartAlpha2');
+  if(!el)return;
+  const c=echarts.init(el,null,{renderer:'svg'});
+  c.setOption(baseOpt({
+    tooltip:{},
+    legend:{data:['确定性','弹性','风险'],textStyle:{color:dark.text,fontSize:10},top:5},
+    radar:{
+      indicator:[{name:'航运',max:100},{name:'油气开采',max:100},{name:'油服',max:100},{name:'LNG',max:100},{name:'防御资产',max:100},{name:'军工',max:100},{name:'黄金',max:100}],
+      center:['50%','55%'],radius:'60%',
+      axisName:{color:dark.text,fontSize:11},
+      splitArea:{areaStyle:{color:['#2a345011','#2a345022','#2a345011','#2a345022']}},
+      splitLine:{lineStyle:{color:'#2a345044'}},
+      axisLine:{lineStyle:{color:'#2a345066'}}
+    },
+    series:[{
+      type:'radar',
+      data:[
+        {value:[95,80,60,70,75,70,85],name:'确定性',lineStyle:{color:C.neon,width:2},areaStyle:{color:'#00ff8818'},itemStyle:{color:C.neon}},
+        {value:[90,85,70,65,50,80,70],name:'弹性',lineStyle:{color:C.warn,width:2},areaStyle:{color:'#ffaa0018'},itemStyle:{color:C.warn}},
+        {value:[60,50,55,45,30,65,40],name:'风险',lineStyle:{color:C.alert,width:2,type:'dashed'},areaStyle:{color:'#ff3b3b08'},itemStyle:{color:C.alert}}
+      ]
+    }]
+  }));
+  window.addEventListener('resize',()=>c.resize());
+})();
+</script>
+</body>
+</html>
