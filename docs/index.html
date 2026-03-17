@@ -1532,23 +1532,25 @@ function baseOpt(o){return Object.assign({backgroundColor:dark.bg,textStyle:{fon
 // ===== Leaflet Maps: Satellite + AIS =====
 (function(){
   var today='2026-03-17';
-  // NASA GIBS MODIS Terra daily true color tiles
+  // ESRI World Imagery - reliable satellite tiles, supports high zoom
+  var esriUrl='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+  // NASA GIBS MODIS Terra daily true color (max native zoom 9, upscale beyond)
   var gibsUrl='https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/'+today+'/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg';
   // OpenSeaMap seamark overlay
   var seaUrl='https://tiles.openseamap.org/seamark/{z}/{x}/{y}.png';
-  // Dark basemap for when satellite tiles unavailable
+  // Dark basemap
   var darkUrl='https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
 
   function createMap(divId,lat,lng,zoom){
-    var m=L.map(divId,{zoomControl:true,attributionControl:false,scrollWheelZoom:false}).setView([lat,lng],zoom);
-    // Dark base layer
-    L.tileLayer(darkUrl,{subdomains:'abcd',maxZoom:18}).addTo(m);
-    // NASA GIBS satellite overlay
-    L.tileLayer(gibsUrl,{maxZoom:9,opacity:0.85,attribution:'NASA GIBS'}).addTo(m);
+    var m=L.map(divId,{zoomControl:true,attributionControl:false,scrollWheelZoom:true}).setView([lat,lng],zoom);
+    // ESRI satellite base - loads at all zoom levels
+    L.tileLayer(esriUrl,{maxZoom:18,updateWhenZooming:false,updateWhenIdle:true,attribution:'ESRI'}).addTo(m);
+    // NASA GIBS daily overlay - maxNativeZoom allows upscaling beyond zoom 9
+    L.tileLayer(gibsUrl,{maxNativeZoom:9,maxZoom:18,opacity:0.6,updateWhenZooming:false,updateWhenIdle:true,errorTileUrl:''}).addTo(m);
     // OpenSeaMap nautical marks
-    L.tileLayer(seaUrl,{maxZoom:18,opacity:0.7}).addTo(m);
+    L.tileLayer(seaUrl,{maxZoom:18,opacity:0.7,updateWhenZooming:false,updateWhenIdle:true}).addTo(m);
     // Attribution
-    L.control.attribution({prefix:false,position:'bottomright'}).addAttribution('<span style="color:#8892a4;font-size:9px">NASA GIBS | OpenSeaMap</span>').addTo(m);
+    L.control.attribution({prefix:false,position:'bottomright'}).addAttribution('<span style="color:#8892a4;font-size:9px">ESRI | NASA GIBS | OpenSeaMap</span>').addTo(m);
     return m;
   }
 
