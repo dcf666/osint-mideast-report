@@ -93,6 +93,28 @@ def build_chart_data(data):
         "changes": stock_changes,
     }
 
+    # Shipping / Maritime charts
+    shipping = data.get("shipping", {})
+
+    hormuz = shipping.get("hormuz", {})
+    charts["hormuz"] = {
+        "dates": hormuz.get("dates", []),
+        "transits": hormuz.get("transits", []),
+    }
+
+    vlcc = shipping.get("vlcc", {})
+    charts["vlcc"] = {
+        "dates": vlcc.get("dates", []),
+        "rates": vlcc.get("rates", []),
+    }
+
+    routes = shipping.get("routes", {})
+    charts["routes"] = {
+        "labels": routes.get("labels", []),
+        "pre_war": routes.get("pre_war", []),
+        "current": routes.get("current", []),
+    }
+
     return charts
 
 

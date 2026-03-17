@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 102.5999984741211,
-      "day_change_pct": -0.52,
-      "war_change_pct": 31.98,
+      "current": 104.30999755859375,
+      "day_change_pct": 4.09,
+      "war_change_pct": 34.18,
       "dates": [
-        "02/02",
         "02/03",
         "02/04",
         "02/05",
@@ -34,10 +33,10 @@
         "03/11",
         "03/12",
         "03/13",
-        "03/16"
+        "03/16",
+        "03/17"
       ],
       "prices": [
-        66.3,
         67.33,
         69.46,
         67.55,
@@ -66,16 +65,16 @@
         91.98,
         100.46,
         103.14,
-        102.6
+        100.21,
+        104.31
       ],
-      "updated": "2026-03-17T01:08:51.094339"
+      "updated": "2026-03-17T06:25:45.124349"
     },
     "wti": {
-      "current": 95.93000030517578,
-      "day_change_pct": -2.82,
-      "war_change_pct": 34.68,
+      "current": 97.9000015258789,
+      "day_change_pct": 4.71,
+      "war_change_pct": 37.44,
       "dates": [
-        "02/02",
         "02/03",
         "02/04",
         "02/05",
@@ -104,10 +103,10 @@
         "03/11",
         "03/12",
         "03/13",
-        "03/16"
+        "03/16",
+        "03/17"
       ],
       "prices": [
-        62.14,
         63.21,
         65.14,
         63.29,
@@ -136,16 +135,16 @@
         87.25,
         95.73,
         98.71,
-        95.93
+        93.5,
+        97.9
       ],
-      "updated": "2026-03-17T01:08:51.173786"
+      "updated": "2026-03-17T06:25:45.177452"
     },
     "gold": {
-      "current": 5009.7998046875,
-      "day_change_pct": -0.85,
-      "war_change_pct": -5.38,
+      "current": 5016.10009765625,
+      "day_change_pct": 0.44,
+      "war_change_pct": -5.26,
       "dates": [
-        "02/02",
         "02/03",
         "02/04",
         "02/05",
@@ -174,10 +173,10 @@
         "03/11",
         "03/12",
         "03/13",
-        "03/16"
+        "03/16",
+        "03/17"
       ],
       "prices": [
-        4622.5,
         4903.7,
         4920.4,
         4861.4,
@@ -206,16 +205,16 @@
         5167.4,
         5115.8,
         5052.5,
-        5009.8
+        4994.0,
+        5016.1
       ],
-      "updated": "2026-03-17T01:08:51.249045"
+      "updated": "2026-03-17T06:25:45.222300"
     },
     "usd_cny": {
-      "current": 6.868899822235107,
-      "day_change_pct": 0.05,
-      "war_change_pct": 0.16,
+      "current": 6.888500213623047,
+      "day_change_pct": 0.29,
+      "war_change_pct": 0.45,
       "dates": [
-        "02/02",
         "02/03",
         "02/04",
         "02/05",
@@ -244,10 +243,10 @@
         "03/10",
         "03/11",
         "03/12",
-        "03/13"
+        "03/13",
+        "03/17"
       ],
       "prices": [
-        6.95,
         6.95,
         6.94,
         6.94,
@@ -276,16 +275,16 @@
         6.91,
         6.88,
         6.87,
-        6.87
+        6.87,
+        6.89
       ],
-      "updated": "2026-03-17T01:08:51.321485"
+      "updated": "2026-03-17T06:25:45.271888"
     },
     "nat_gas": {
-      "current": 3.0399999618530273,
-      "day_change_pct": -2.91,
-      "war_change_pct": 2.7,
+      "current": 3.0329999923706055,
+      "day_change_pct": 0.33,
+      "war_change_pct": 2.47,
       "dates": [
-        "02/02",
         "02/03",
         "02/04",
         "02/05",
@@ -314,10 +313,10 @@
         "03/11",
         "03/12",
         "03/13",
-        "03/16"
+        "03/16",
+        "03/17"
       ],
       "prices": [
-        3.24,
         3.31,
         3.46,
         3.51,
@@ -346,9 +345,10 @@
         3.21,
         3.23,
         3.13,
-        3.04
+        3.02,
+        3.03
       ],
-      "updated": "2026-03-17T01:08:51.389071"
+      "updated": "2026-03-17T06:25:45.324417"
     }
   },
   "stocks": {
@@ -369,8 +369,11 @@
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 40.76,
+      "change_pct": -1.09,
+      "high": 41.36,
+      "low": 39.9,
+      "volume": 722681
     },
     "601857": {
       "name": "中国石油",
@@ -384,8 +387,11 @@
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 36.15,
+      "change_pct": -2.35,
+      "high": 36.8,
+      "low": 35.12,
+      "volume": 359252
     },
     "600759": {
       "name": "洲际油气",
@@ -405,42 +411,27 @@
     "600803": {
       "name": "新奥股份",
       "price": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "volume": 0
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600256": {
       "name": "广汇能源",
       "price": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "volume": 0
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601919": {
       "name": "中远海控",
       "price": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "volume": 0
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600760": {
       "name": "中航沈飞",
       "price": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "volume": 0
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600893": {
       "name": "航发动力",
       "price": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "volume": 0
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600150": {
       "name": "中国船舶",
@@ -465,10 +456,7 @@
     "601088": {
       "name": "中国神华",
       "price": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "volume": 0
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   },
   "sectors": {
@@ -477,54 +465,57 @@
       "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "天然气": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "军工": {
       "change_pct": null,
       "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "黄金": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   },
   "news": [
     {
       "source": "Al Jazeera",
-      "title": "Iran war live: Trump scolds allies for not joining Strait of Hormuz mission",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/3/17/iran-war-live-trump-scolds-allies-for-not-joining-strait-of-hormuz-mission?traffic_source=rss",
-      "published": "Tue, 17 Mar 2026 00:00:00 +0000",
-      "summary": "US President Donald Trump criticises allies&#039; reluctance to commit forces to open the key waterway for Gulf oil exports."
+      "title": "Iran negotiating with FIFA to move World Cup 2026 matches from US to Mexico",
+      "link": "https://www.aljazeera.com/sports/2026/3/17/iran-negotiating-with-fifa-to-move-world-cup-2026-matches-from-us-to-mexico?traffic_source=rss",
+      "published": "Tue, 17 Mar 2026 05:42:00 +0000",
+      "summary": "The national football federation wants to relocate its group matches to Mexico due to the ongoing US-Israel war on Iran."
     },
     {
       "source": "Al Jazeera",
-      "title": "Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted",
-      "link": "https://www.aljazeera.com/news/2026/3/16/hotel-in-iraqi-capital-baghdad-struck-as-attacks-on-us-embassy-intercepted?traffic_source=rss",
-      "published": "Mon, 16 Mar 2026 23:00:11 +0000",
-      "summary": "No group has claimed responsibility for the attacks, which took place amid the escalating Israel-US war on Iran."
+      "title": "EU says Iran is ‘not Europe’s war’",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/eu-says-iran-is-not-europes-war?traffic_source=rss",
+      "published": "Tue, 17 Mar 2026 05:26:51 +0000",
+      "summary": "EU foreign policy chief Kaja Kallas said there is no appetite to expand Europe’s naval mission to the Strait of Hormuz."
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump claims strikes on Iran prevented nuclear war",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/trump-claims-strikes-on-iran-prevented-nuclear-war?traffic_source=rss",
-      "published": "Mon, 16 Mar 2026 22:34:59 +0000",
-      "summary": "Donald Trump claimed he ordered strikes on Iran to prevent a nuclear conflict that would have turned into World War III."
+      "title": "Marine turned anti-war protester says Trump wrong on Israel, Iran",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/marine-turned-anti-war-protester-says-trump-wrong-on-israel-iran?traffic_source=rss",
+      "published": "Tue, 17 Mar 2026 05:00:43 +0000",
+      "summary": "Former Marine Brian McGinnis says Donald Trump is “wrong” on Israel and Iran."
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump seeks to delay meeting with China’s Xi by ‘month or so’ amid Iran war",
-      "link": "https://www.aljazeera.com/news/2026/3/16/trump-seeks-to-delay-meeting-with-chinas-xi-by-month-or-so-amid-iran-war?traffic_source=rss",
-      "published": "Mon, 16 Mar 2026 22:25:55 +0000",
-      "summary": "The US president delays March 31-April 2 trip to China to focus on the escalating war against Iran."
+      "title": "South African fruit exports face delays as Iran war disrupts shipping",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/south-african-fruit-exports-face-delays-as-iran-war-disrupts-shipping?traffic_source=rss",
+      "published": "Tue, 17 Mar 2026 04:20:32 +0000",
+      "summary": "South Africa&#039;s fruit exporters face mounting losses and disruption as the US-Israel war on Iran enters its fourth week."
     },
     {
       "source": "Al Jazeera",
-      "title": "Who is answering Trump’s call for help with Strait of Hormuz?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/who-is-answering-trumps-call-for-help-with-strait-of-hormuz?traffic_source=rss",
-      "published": "Mon, 16 Mar 2026 21:00:54 +0000",
-      "summary": "Trump has criticised the response to his call to help protect shipping in the Strait of Hormuz during the war on Iran."
+      "title": "Cuba faces nationwide blackouts amid US oil blockade",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/cuba-faces-nationwide-blackouts-amid-us-oil-blockade?traffic_source=rss",
+      "published": "Tue, 17 Mar 2026 03:52:10 +0000",
+      "summary": "Cuba’s national power grid has collapsed amid an ongoing US-imposed oil blockade, causing blackouts across the country."
     },
     {
       "source": "BBC World",
@@ -562,13 +553,113 @@
       "summary": "Iranian state media's coverage of the war includes inflations of enemy casualties and digital manipulation intended to glorify Iran."
     }
   ],
+  "shipping": {
+    "hormuz": {
+      "dates": [
+        "2/26",
+        "2/27",
+        "2/28",
+        "3/1",
+        "3/2",
+        "3/3",
+        "3/4",
+        "3/5",
+        "3/6",
+        "3/7",
+        "3/8",
+        "3/9",
+        "3/10",
+        "3/11",
+        "3/12",
+        "3/13",
+        "3/14",
+        "3/17"
+      ],
+      "transits": [
+        35,
+        33,
+        18,
+        7,
+        5,
+        6,
+        4,
+        3,
+        4,
+        3,
+        2,
+        1,
+        2,
+        2,
+        3,
+        4,
+        0,
+        0
+      ]
+    },
+    "vlcc": {
+      "dates": [
+        "1/3",
+        "1/10",
+        "1/17",
+        "1/24",
+        "1/31",
+        "2/7",
+        "2/14",
+        "2/21",
+        "2/28",
+        "3/2",
+        "3/4",
+        "3/6",
+        "3/8",
+        "3/10",
+        "3/13"
+      ],
+      "rates": [
+        29,
+        32,
+        45,
+        55,
+        80,
+        95,
+        110,
+        123,
+        200,
+        280,
+        350,
+        420,
+        466,
+        486,
+        349
+      ]
+    },
+    "routes": {
+      "labels": [
+        "霍尔木兹海峡",
+        "苏伊士运河",
+        "曼德海峡",
+        "好望角"
+      ],
+      "pre_war": [
+        33,
+        55,
+        23,
+        45
+      ],
+      "current": [
+        0,
+        23,
+        21,
+        69
+      ]
+    }
+  },
   "meta": {
     "report_date": "2026.03.17",
     "report_date_cn": "2026年03月17日",
     "war_day": 18,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-17T01:09:26.585696",
-    "generated_at_cn": "2026-03-17 01:09:26"
+    "generated_at": "2026-03-17T06:26:15.287158",
+    "generated_at_cn": "2026-03-17 06:26:15"
   },
   "history": [
     {
@@ -577,6 +668,13 @@
       "wti": 95.93000030517578,
       "gold": 5009.7998046875,
       "usd_cny": 6.868899822235107
+    },
+    {
+      "date": "2026-03-17",
+      "brent": 104.30999755859375,
+      "wti": 97.9000015258789,
+      "gold": 5016.10009765625,
+      "usd_cny": 6.888500213623047
     }
   ]
 }
