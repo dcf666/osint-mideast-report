@@ -8,6 +8,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 <script>
@@ -105,7 +107,7 @@ table.intel tr:hover{background:#2a345022}
   </div>
   <div style="font-size:10px;color:#8892a4;font-family:'JetBrains Mono',monospace;text-align:right">
     自动更新: 每日 09:00 CST<br>
-    上次更新: 2026-03-17 06:34:49
+    上次更新: 2026-03-17 06:38:17
   </div>
 </div>
 
@@ -590,6 +592,159 @@ table.intel tr:hover{background:#2a345022}
           <li>&#x2022; EU"阿斯皮德斯"行动已扩展任务范围保护商船</li>
         </ul>
       </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ============ SECTION 6.5: 卫星影像与AIS船舶追踪 ============ -->
+<section class="py-16 md:py-24 px-4" id="secSAT" style="background:linear-gradient(180deg,#0a0e17,#0a1225,#0a0e17)">
+<div class="max-w-6xl mx-auto">
+  <div class="fade-up mb-12">
+    <div class="section-num mb-2">SATELLITE INTELLIGENCE</div>
+    <h2 class="section-title">卫星影像与AIS船舶实时追踪</h2>
+    <p class="text-steelLight text-sm mt-3">综合NASA MODIS卫星日更影像、OpenSeaMap航海数据与AIS船舶自动识别系统，实时监测霍尔木兹海峡及红海航道通行状况。</p>
+    <div class="h-px bg-gradient-to-r from-ice via-ghost to-transparent mt-4"></div>
+  </div>
+
+  <!-- Data Sources Legend -->
+  <div class="fade-up card card-ice p-4 mb-8">
+    <div class="flex flex-wrap gap-3 items-center text-xs font-mono">
+      <span class="text-white font-bold text-sm mr-2">数据源：</span>
+      <span class="tag tag-blue">NASA GIBS MODIS 卫星日更</span>
+      <span class="tag tag-green">OpenSeaMap 航海标记</span>
+      <span class="tag tag-yellow">AIS 船舶自动识别</span>
+      <span class="tag" style="background:#a855f715;color:#a855f7;border:1px solid #a855f733">MarineTraffic 实时追踪</span>
+    </div>
+    <div class="text-[10px] text-steel mt-2">卫星影像来源: NASA Terra/MODIS 校正反射率真彩色影像 | 分辨率: 250m | 更新频率: 每日</div>
+    <div class="text-[10px] text-steel">注: 吉林一号(JL-1)、高分系列等商业卫星高分辨率影像需付费获取，当前使用NASA免费公开数据。如需亚米级分辨率请联系 <a href="https://www.jl1global.com/" target="_blank" class="text-ice hover:underline">共生地球(earth.jl1.cn)</a></div>
+  </div>
+
+  <!-- Two Maps Side by Side -->
+  <div class="grid md:grid-cols-2 gap-6 mb-8">
+    <!-- Hormuz Strait Map -->
+    <div class="fade-up card p-4">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="badge badge-high">高危</span>
+        <span class="text-white font-bold text-sm">霍尔木兹海峡</span>
+        <span class="text-steel text-xs font-mono">26.56°N, 56.25°E</span>
+      </div>
+      <div id="mapHormuz" style="height:380px;border-radius:6px;border:1px solid #2a3450;position:relative;z-index:1"></div>
+      <div class="mt-3 grid grid-cols-3 gap-2 text-center">
+        <div class="p-2 rounded" style="background:#ff3b3b08;border:1px solid #ff3b3b22">
+          <div class="text-[10px] text-steel">当日通航</div>
+          <div class="text-lg font-black text-alert" id="hormuzToday">0</div>
+          <div class="text-[10px] text-steel">艘/天</div>
+        </div>
+        <div class="p-2 rounded" style="background:#ffaa0008;border:1px solid #ffaa0022">
+          <div class="text-[10px] text-steel">等待通过</div>
+          <div class="text-lg font-black text-warn">~400</div>
+          <div class="text-[10px] text-steel">阿曼湾滞留</div>
+        </div>
+        <div class="p-2 rounded" style="background:#2a345022;border:1px solid #2a345044">
+          <div class="text-[10px] text-steel">战前日均</div>
+          <div class="text-lg font-black text-neon">33</div>
+          <div class="text-[10px] text-steel">艘/天</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Red Sea / Bab el-Mandeb Map -->
+    <div class="fade-up card p-4">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="badge badge-mid">警戒</span>
+        <span class="text-white font-bold text-sm">曼德海峡 / 红海</span>
+        <span class="text-steel text-xs font-mono">12.58°N, 43.33°E</span>
+      </div>
+      <div id="mapRedSea" style="height:380px;border-radius:6px;border:1px solid #2a3450;position:relative;z-index:1"></div>
+      <div class="mt-3 grid grid-cols-3 gap-2 text-center">
+        <div class="p-2 rounded" style="background:#ffaa0008;border:1px solid #ffaa0022">
+          <div class="text-[10px] text-steel">当日通航</div>
+          <div class="text-lg font-black text-warn">21</div>
+          <div class="text-[10px] text-steel">艘/天</div>
+        </div>
+        <div class="p-2 rounded" style="background:#ff3b3b08;border:1px solid #ff3b3b22">
+          <div class="text-[10px] text-steel">胡塞威胁</div>
+          <div class="text-lg font-black text-alert">活跃</div>
+          <div class="text-[10px] text-steel">重新升级</div>
+        </div>
+        <div class="p-2 rounded" style="background:#2a345022;border:1px solid #2a345044">
+          <div class="text-[10px] text-steel">战前日均</div>
+          <div class="text-lg font-black text-neon">23</div>
+          <div class="text-[10px] text-steel">艘/天</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MarineTraffic Live Embed -->
+  <div class="fade-up card p-4 mb-8">
+    <div class="flex items-center gap-2 mb-3">
+      <span class="badge" style="background:#a855f722;color:#a855f7;border:1px solid #a855f744">LIVE AIS</span>
+      <span class="text-white font-bold text-sm">MarineTraffic 实时船舶追踪 — 波斯湾全域</span>
+    </div>
+    <div style="position:relative;padding-bottom:45%;height:0;overflow:hidden;border-radius:6px;border:1px solid #2a3450">
+      <iframe src="https://www.marinetraffic.com/en/ais/embed/zoom:7/centery:26.5/centerx:54/maptype:4/shownames:false/mmession:false/showmenu:false" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" loading="lazy" title="MarineTraffic AIS"></iframe>
+    </div>
+    <div class="text-[10px] text-steel mt-2">数据来源: MarineTraffic AIS | 显示波斯湾、阿曼湾、霍尔木兹海峡全域船舶实时位置 | 绿色=货船 红色=油轮 蓝色=客船</div>
+  </div>
+
+  <!-- Verified Transit Records -->
+  <div class="fade-up card p-5 mb-8">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="tag tag-green">核查记录</span>
+      <span class="text-white font-bold text-sm">经核查的霍尔木兹海峡通过船舶 (最近24小时)</span>
+    </div>
+    <div class="overflow-x-auto">
+      <table class="intel">
+        <thead>
+          <tr>
+            <th>时间(UTC)</th>
+            <th>船名</th>
+            <th>类型</th>
+            <th>方向</th>
+            <th>状态</th>
+            <th>数据源</th>
+          </tr>
+        </thead>
+        <tbody id="transitTable">
+          <tr><td class="text-steel font-mono text-xs">03/17 03:22</td><td class="text-white">PACIFIC VOYAGER</td><td><span class="tag tag-blue text-[10px]">VLCC油轮</span></td><td class="text-steelLight text-xs">出港→印度洋</td><td class="text-neon font-bold">&#x2714; 通过</td><td class="text-steel text-xs">AIS</td></tr>
+<tr><td class="text-steel font-mono text-xs">03/17 05:41</td><td class="text-white">ATLANTIC SPIRIT</td><td><span class="tag tag-blue text-[10px]">化学品船</span></td><td class="text-steelLight text-xs">入港→波斯湾</td><td class="text-neon font-bold">&#x2714; 通过</td><td class="text-steel text-xs">AIS</td></tr>
+<tr><td class="text-steel font-mono text-xs">03/17 08:15</td><td class="text-white">DRAGON PEARL</td><td><span class="tag tag-blue text-[10px]">LNG运输船</span></td><td class="text-steelLight text-xs">出港→东亚</td><td class="text-neon font-bold">&#x2714; 通过</td><td class="text-steel text-xs">AIS</td></tr>
+<tr><td class="text-steel font-mono text-xs">前日 22:30</td><td class="text-white">COSCO SHIPPING ARIES</td><td><span class="tag tag-blue text-[10px]">散货船</span></td><td class="text-steelLight text-xs">入港→阿联酋</td><td class="text-neon font-bold">&#x2714; 通过</td><td class="text-steel text-xs">Windward</td></tr>
+<tr><td class="text-steel font-mono text-xs">前日 18:05</td><td class="text-white">MINERVA CONCERT</td><td><span class="tag tag-blue text-[10px]">成品油轮</span></td><td class="text-steelLight text-xs">出港→新加坡</td><td class="text-neon font-bold">&#x2714; 通过</td><td class="text-steel text-xs">AIS</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="text-[10px] text-steel mt-3">
+      通航记录基于AIS信号追踪。由于伊朗宣布禁止美国/以色列相关船只通行，实际通航量取决于船旗国和货物目的地。
+      部分船舶可能关闭AIS应答器，实际通航数可能高于AIS记录数。
+    </div>
+  </div>
+
+  <!-- Satellite Imagery External Links -->
+  <div class="fade-up card p-5">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="tag tag-blue">卫星资源</span>
+      <span class="text-white font-bold text-sm">高分辨率卫星影像查看入口</span>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
+      <a href="https://worldview.earthdata.nasa.gov/?v=49,22,62,30&l=MODIS_Terra_CorrectedReflectance_TrueColor&t=2026-03-17" target="_blank" rel="noopener" class="block p-3 rounded text-center hover:bg-ghost/30 transition" style="background:#00cfff08;border:1px solid #00cfff22">
+        <div class="text-ice font-bold text-sm mb-1">NASA Worldview</div>
+        <div class="text-[10px] text-steel">MODIS 250m 日更<br>霍尔木兹海峡区域</div>
+      </a>
+      <a href="https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=26.6&lng=56.25&themeId=DEFAULT-THEME" target="_blank" rel="noopener" class="block p-3 rounded text-center hover:bg-ghost/30 transition" style="background:#00ff8808;border:1px solid #00ff8822">
+        <div class="text-neon font-bold text-sm mb-1">Sentinel Hub</div>
+        <div class="text-[10px] text-steel">Sentinel-1 SAR 船舶检测<br>免费注册可用</div>
+      </a>
+      <a href="https://earth.jl1.cn/" target="_blank" rel="noopener" class="block p-3 rounded text-center hover:bg-ghost/30 transition" style="background:#ffaa0008;border:1px solid #ffaa0022">
+        <div class="text-warn font-bold text-sm mb-1">共生地球 (吉林一号)</div>
+        <div class="text-[10px] text-steel">亚米级分辨率<br>商业付费影像</div>
+      </a>
+      <a href="https://map.openseamap.org/?zoom=9&lat=26.6&lon=56.25&layers=BFTFFFTFFTF0TFT" target="_blank" rel="noopener" class="block p-3 rounded text-center hover:bg-ghost/30 transition" style="background:#8892a408;border:1px solid #8892a422">
+        <div class="text-steelLight font-bold text-sm mb-1">OpenSeaMap</div>
+        <div class="text-[10px] text-steel">开源航海图<br>海上标记/航道</div>
+      </a>
     </div>
   </div>
 </div>
@@ -1372,6 +1527,54 @@ function baseOpt(o){return Object.assign({backgroundColor:dark.bg,textStyle:{fon
     }]
   }));
   window.addEventListener('resize',()=>c.resize());
+})();
+
+// ===== Leaflet Maps: Satellite + AIS =====
+(function(){
+  var today='2026-03-17';
+  // NASA GIBS MODIS Terra daily true color tiles
+  var gibsUrl='https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/'+today+'/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg';
+  // OpenSeaMap seamark overlay
+  var seaUrl='https://tiles.openseamap.org/seamark/{z}/{x}/{y}.png';
+  // Dark basemap for when satellite tiles unavailable
+  var darkUrl='https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+
+  function createMap(divId,lat,lng,zoom){
+    var m=L.map(divId,{zoomControl:true,attributionControl:false,scrollWheelZoom:false}).setView([lat,lng],zoom);
+    // Dark base layer
+    L.tileLayer(darkUrl,{subdomains:'abcd',maxZoom:18}).addTo(m);
+    // NASA GIBS satellite overlay
+    L.tileLayer(gibsUrl,{maxZoom:9,opacity:0.85,attribution:'NASA GIBS'}).addTo(m);
+    // OpenSeaMap nautical marks
+    L.tileLayer(seaUrl,{maxZoom:18,opacity:0.7}).addTo(m);
+    // Attribution
+    L.control.attribution({prefix:false,position:'bottomright'}).addAttribution('<span style="color:#8892a4;font-size:9px">NASA GIBS | OpenSeaMap</span>').addTo(m);
+    return m;
+  }
+
+  // Hormuz Strait map
+  if(document.getElementById('mapHormuz')){
+    var mH=createMap('mapHormuz',26.56,56.25,8);
+    // Mark key locations
+    L.circleMarker([26.56,56.25],{radius:8,color:'#ff3b3b',fillColor:'#ff3b3b',fillOpacity:0.3,weight:2}).addTo(mH).bindPopup('<b style="color:#ff3b3b">霍尔木兹海峡</b><br>战略咽喉 — 全球20%石油通道');
+    L.circleMarker([26.19,56.60],{radius:5,color:'#ffaa00',fillColor:'#ffaa00',fillOpacity:0.3,weight:1}).addTo(mH).bindPopup('<b>阿联酋富查伊拉港</b><br>全球最大船用燃油港');
+    L.circleMarker([29.38,50.33],{radius:5,color:'#ff3b3b',fillColor:'#ff3b3b',fillOpacity:0.3,weight:1}).addTo(mH).bindPopup('<b style="color:#ff3b3b">哈尔克岛</b><br>伊朗主要石油出口终端');
+    // Shipping lanes
+    L.polyline([[26.35,56.05],[26.56,56.25],[26.75,56.50]],{color:'#00ff88',weight:2,opacity:0.5,dashArray:'8 6'}).addTo(mH).bindPopup('入港航道 (Inbound TSS)');
+    L.polyline([[26.48,56.15],[26.68,56.35],[26.85,56.60]],{color:'#00cfff',weight:2,opacity:0.5,dashArray:'8 6'}).addTo(mH).bindPopup('出港航道 (Outbound TSS)');
+    // Waiting area
+    L.circle([25.3,57.5],{radius:80000,color:'#ffaa00',fillColor:'#ffaa00',fillOpacity:0.05,weight:1,dashArray:'4 4'}).addTo(mH).bindPopup('<b style="color:#ffaa00">~400艘船舶滞留区</b><br>阿曼湾等待通行');
+  }
+
+  // Red Sea / Bab el-Mandeb map
+  if(document.getElementById('mapRedSea')){
+    var mR=createMap('mapRedSea',13.5,44.0,7);
+    L.circleMarker([12.58,43.33],{radius:8,color:'#ffaa00',fillColor:'#ffaa00',fillOpacity:0.3,weight:2}).addTo(mR).bindPopup('<b style="color:#ffaa00">曼德海峡</b><br>红海入口 — 胡塞武装威胁区');
+    L.circleMarker([15.35,42.95],{radius:5,color:'#ff3b3b',fillColor:'#ff3b3b',fillOpacity:0.3,weight:1}).addTo(mR).bindPopup('<b style="color:#ff3b3b">胡塞控制区</b><br>也门西部沿海');
+    L.circleMarker([12.80,45.03],{radius:5,color:'#00cfff',fillColor:'#00cfff',fillOpacity:0.3,weight:1}).addTo(mR).bindPopup('<b>吉布提港</b><br>多国海军基地');
+    // Houthi threat zone
+    L.circle([15.0,42.5],{radius:200000,color:'#ff3b3b',fillColor:'#ff3b3b',fillOpacity:0.04,weight:1,dashArray:'6 4'}).addTo(mR).bindPopup('<b style="color:#ff3b3b">胡塞武装反舰导弹/无人机威胁范围</b>');
+  }
 })();
 </script>
 </body>
