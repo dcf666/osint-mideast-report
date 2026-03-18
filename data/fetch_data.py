@@ -59,11 +59,12 @@ SECTOR_CODES = {
     "LNG": "BK0478",
 }
 
-# RSS feeds for news
+# RSS feeds for news (Chinese-language sources + English Middle East feeds)
 RSS_FEEDS = {
-    "Al Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
-    "BBC World": "http://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
-    "Reuters": "https://www.rss-bridge.org/bridge01/?action=display&bridge=Reuters&feed=world&format=Atom",
+    "BBC中文": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+    "CGTN": "https://www.cgtn.com/subscribe/rss/section/world.xml",
+    "半岛电视台": "https://www.aljazeera.com/xml/rss/all.xml",
+    "BBC中东": "http://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
 }
 
 
@@ -459,21 +460,23 @@ def fetch_shipping_data():
 
 
 def fetch_news():
-    """Fetch latest Middle East news from RSS feeds."""
+    """Fetch latest Middle East news from RSS feeds (Chinese + English sources)."""
     news = []
 
-    keywords = [
-        "iran",
-        "israel",
-        "hormuz",
-        "middle east",
-        "tehran",
-        "gulf",
-        "oil",
-        "tanker",
-        "houthi",
-        "red sea",
-        "kharg",
+    # Chinese keywords for filtering
+    keywords_cn = [
+        "伊朗", "以色列", "霍尔木兹", "中东", "德黑兰", "波斯湾",
+        "油价", "原油", "油轮", "胡塞", "红海", "哈格岛",
+        "黎巴嫩", "真主党", "导弹", "无人机", "空袭", "航运",
+        "海峡", "制裁", "战争", "冲突", "军事", "海军",
+        "布伦特", "运价", "能源", "天然气", "LNG",
+    ]
+    # English keywords (for English-language feeds like Al Jazeera)
+    keywords_en = [
+        "iran", "israel", "hormuz", "middle east", "tehran",
+        "gulf", "oil", "tanker", "houthi", "red sea", "kharg",
+        "missile", "drone", "strike", "hezbollah", "lebanon",
+        "shipping", "naval", "carrier", "sanction",
     ]
 
     for source_name, feed_url in RSS_FEEDS.items():
@@ -483,9 +486,13 @@ def fetch_news():
             for entry in feed.entries[:30]:
                 title = entry.get("title", "")
                 summary = entry.get("summary", "")
-                text = (title + " " + summary).lower()
+                text = title + " " + summary
 
-                if any(kw in text for kw in keywords):
+                # Match against both Chinese and English keywords
+                text_lower = text.lower()
+                matched = any(kw in text for kw in keywords_cn) or any(kw in text_lower for kw in keywords_en)
+
+                if matched:
                     news.append(
                         {
                             "source": source_name,

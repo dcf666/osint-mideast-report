@@ -141,8 +141,10 @@ def build_news_html(data):
 
     # Parse published dates for sorting
     from email.utils import parsedate_to_datetime
-    critical_keywords = ["hormuz", "oil", "kharg", "strike", "attack", "missile", "drone",
-                         "tanker", "shipping", "hormuz", "nuclear", "escalat"]
+    critical_keywords_en = ["hormuz", "oil", "kharg", "strike", "attack", "missile", "drone",
+                            "tanker", "shipping", "nuclear", "escalat"]
+    critical_keywords_cn = ["霍尔木兹", "原油", "油价", "空袭", "导弹", "无人机",
+                            "油轮", "航运", "海峡", "制裁", "战争", "伊朗", "以色列"]
 
     def sort_key(n):
         # Priority: newer + more critical = higher
@@ -152,9 +154,10 @@ def build_news_html(data):
             score = dt.timestamp()
         except Exception:
             score = 0
-        # Boost critical news
-        text = (n.get("title", "") + " " + n.get("summary", "")).lower()
-        if any(kw in text for kw in critical_keywords):
+        # Boost critical news (Chinese + English keywords)
+        text = n.get("title", "") + " " + n.get("summary", "")
+        text_lower = text.lower()
+        if any(kw in text_lower for kw in critical_keywords_en) or any(kw in text for kw in critical_keywords_cn):
             score += 86400  # +1 day equivalent boost
         return score
 

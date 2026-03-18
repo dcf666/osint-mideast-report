@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 102.8499984741211,
-      "day_change_pct": -0.55,
-      "war_change_pct": 32.3,
+      "current": 109.52999877929688,
+      "day_change_pct": 5.91,
+      "war_change_pct": 40.89,
       "dates": [
         "02/04",
         "02/05",
@@ -66,14 +66,14 @@
         103.14,
         100.21,
         103.42,
-        102.85
+        109.53
       ],
-      "updated": "2026-03-18T08:49:04.759288"
+      "updated": "2026-03-18T14:58:02.073433"
     },
     "wti": {
-      "current": 94.02999877929688,
-      "day_change_pct": -2.27,
-      "war_change_pct": 32.01,
+      "current": 98.2300033569336,
+      "day_change_pct": 2.1,
+      "war_change_pct": 37.91,
       "dates": [
         "02/04",
         "02/05",
@@ -136,14 +136,14 @@
         98.71,
         93.5,
         96.21,
-        94.03
+        98.23
       ],
-      "updated": "2026-03-18T08:49:04.823938"
+      "updated": "2026-03-18T14:58:02.139702"
     },
     "gold": {
-      "current": 4993.5,
-      "day_change_pct": -0.15,
-      "war_change_pct": -5.68,
+      "current": 4873.89990234375,
+      "day_change_pct": -2.54,
+      "war_change_pct": -7.94,
       "dates": [
         "02/04",
         "02/05",
@@ -206,12 +206,12 @@
         5052.5,
         4994.0,
         5001.0,
-        4993.5
+        4873.9
       ],
-      "updated": "2026-03-18T08:49:04.972334"
+      "updated": "2026-03-18T14:58:02.191959"
     },
     "usd_cny": {
-      "current": 6.872300148010254,
+      "current": 6.872099876403809,
       "day_change_pct": -1.2,
       "war_change_pct": 0.21,
       "dates": [
@@ -278,12 +278,12 @@
         6.96,
         6.87
       ],
-      "updated": "2026-03-18T08:49:05.149716"
+      "updated": "2026-03-18T14:58:02.263463"
     },
     "nat_gas": {
-      "current": 2.946000099182129,
-      "day_change_pct": -2.87,
-      "war_change_pct": -0.47,
+      "current": 3.069999933242798,
+      "day_change_pct": 1.22,
+      "war_change_pct": 3.72,
       "dates": [
         "02/04",
         "02/05",
@@ -346,86 +346,71 @@
         3.13,
         3.02,
         3.03,
-        2.95
+        3.07
       ],
-      "updated": "2026-03-18T08:49:05.304608"
+      "updated": "2026-03-18T14:58:02.312262"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600026": {
       "name": "中远海能",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601975": {
       "name": "招商南油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601975&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600938": {
       "name": "中国海油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600938&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601857": {
       "name": "中国石油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601857&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600028": {
       "name": "中国石化",
-      "price": 6.12,
-      "change_pct": -2.08,
-      "high": 6.22,
-      "low": 6.05,
-      "volume": 3138345
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "603619": {
       "name": "中曼石油",
-      "price": 34.62,
-      "change_pct": -3.81,
-      "high": 35.12,
-      "low": 33.94,
-      "volume": 345676
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600759": {
       "name": "洲际油气",
-      "price": 6.65,
-      "change_pct": -8.02,
-      "high": 6.98,
-      "low": 6.51,
-      "volume": 5778852
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601808": {
       "name": "中海油服",
-      "price": 17.1,
-      "change_pct": -3.77,
-      "high": 17.46,
-      "low": 16.83,
-      "volume": 336024
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "002353": {
       "name": "杰瑞股份",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600803": {
       "name": "新奥股份",
-      "price": 22.02,
-      "change_pct": -1.96,
-      "high": 22.46,
-      "low": 21.83,
-      "volume": 127922
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600256": {
       "name": "广汇能源",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601919": {
       "name": "中远海控",
@@ -435,134 +420,197 @@
     "600760": {
       "name": "中航沈飞",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600760&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600893": {
       "name": "航发动力",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600893&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600150": {
       "name": "中国船舶",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600150&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600547": {
       "name": "山东黄金",
-      "price": 43.73,
-      "change_pct": -1.73,
-      "high": 44.48,
-      "low": 43.11,
-      "volume": 376066
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 40.82,
-      "change_pct": 2.02,
-      "high": 40.89,
-      "low": 39.55,
-      "volume": 503180
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 28.96,
-      "change_pct": -1.26,
-      "high": 29.4,
-      "low": 28.5,
-      "volume": 566109
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601088": {
       "name": "中国神华",
-      "price": 47.48,
-      "change_pct": -0.54,
-      "high": 48.3,
-      "low": 46.72,
-      "volume": 321139
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.63
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "天然气": {
-      "change_pct": 0.06
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "军工": {
-      "change_pct": -0.95
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "黄金": {
-      "change_pct": -0.34
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   },
   "news": [
     {
-      "source": "Al Jazeera",
-      "title": "Aftermath of Iranian ‘revenge’ strikes on Israel leaves destruction, two ki",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/aftermath-of-iranian-revenge-strikes-on-israel-leaves-destruction-two-ki?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 08:13:25 +0000",
-      "summary": "Widespread damage was left across areas near Tel Aviv after overnight Iranian missile strikes."
+      "source": "BBC中文",
+      "title": "分析：最高安全官員拉里賈尼遇襲身亡加深伊朗核心領導層危機",
+      "link": "https://www.bbc.com/zhongwen/articles/c5yrym9ym20o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 02:57:13 GMT",
+      "summary": "拉里賈尼的死不僅僅是伊朗失去一位官員。它加深了一場領導危機，而這場危機可能會同時影響戰爭的走向以及伊朗政權的整體穩定。"
     },
     {
-      "source": "Al Jazeera",
-      "title": "‘US distraction in the Middle East is in China’s interest’",
-      "link": "https://www.aljazeera.com/video/quotable/2026/3/18/us-distraction-in-the-middle-east-is-in-chinas?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 07:31:42 +0000",
-      "summary": "‘US distraction in the Middle East is in China’s interest’"
+      "source": "BBC中文",
+      "title": "戰爭期間，民航客機如何維持飛行？",
+      "link": "https://www.bbc.com/zhongwen/articles/c4g0gkzmd8mo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 08:25:03 GMT",
+      "summary": "在飛彈襲擊後，伊朗和波斯灣上空的空域受到嚴格限制，讓航空公司面臨更大壓力。"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Israel bombs central Beirut, killing 6, strafes south, east Lebanon",
-      "link": "https://www.aljazeera.com/news/2026/3/18/israel-bombs-central-beirut-killing-6-strafes-south-east-lebanon?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 07:06:59 +0000",
-      "summary": "Wave of Israeli air attacks launched as ground offensive widens in south where Hezbollah are fighting Israeli forces."
+      "source": "BBC中文",
+      "title": "歐洲盟友對派兵態度謹慎，特朗普的伊朗危機尚無快速解決方案",
+      "link": "https://www.bbc.com/zhongwen/articles/c74727p7q91o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 17 Mar 2026 05:58:52 GMT",
+      "summary": "歐洲領導人對於幫助特朗普確保霍爾木茲海峽的安全猶豫不決，但他們知道在伊朗戰爭問題上不作為並非真正的選擇。"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Iran war: What is happening on day 19 of US-Israel attacks?",
-      "link": "https://www.aljazeera.com/news/2026/3/18/iran-war-what-is-happening-on-day-19-of-us-israel-attacks?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 07:06:24 +0000",
-      "summary": "Iran vows revenge after Israeli strikes kill security chief Ali Larijani and Basij commander Gholamreza Soleimani."
+      "source": "BBC中文",
+      "title": "美軍襲擊的哈爾克島對伊朗有多重要？美國會佔領這座島嗎？",
+      "link": "https://www.bbc.com/zhongwen/articles/cn87djggp5eo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 16 Mar 2026 01:56:42 GMT",
+      "summary": "伊朗90%的原油都經由這座島上的終端輸出，原油透過管線運抵這裡。"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Iran launches ‘revenge’ missile attack on Israel after assassinations",
-      "link": "https://www.aljazeera.com/news/2026/3/18/iran-launches-revenge-missile-attack-on-israel-after-assassinations?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 07:04:58 +0000",
-      "summary": "Attack kills two people in central Israel&#039;s Ramat Gan area and damages a Tel Aviv train station."
+      "source": "BBC中文",
+      "title": "中共軍機「擾台」飛行出現罕見「空窗期」，對背後動機的五個解讀",
+      "link": "https://www.bbc.com/zhongwen/articles/c2lr8ejq0w8o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 13 Mar 2026 08:27:50 GMT",
+      "summary": "自2月27日起，中共解放軍軍機進入台灣ADIZ連續7至9天零偵測，創2022年以來最長空窗期。今年迄今總架次約460架，較去年減46.5%，遠低於常態。但海上活動未減，每日5–8艘軍艦與海警持續施壓。專家解讀為兩會季節低谷、軍內整肅、反腐預算控制及川習會前外交姿態甚至伊朗戰爭因素？"
     },
     {
-      "source": "BBC World",
+      "source": "CGTN",
+      "title": "Obituary: Iran's Ali Larijani killed in Israeli airstrike",
+      "link": "https://news.cgtn.com/news/2026-03-18/Obituary-Iran-s-Ali-Larijani-killed-in-Israeli-airstrike-1LBwL3YNcis/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+      "published": "Wed, 18 Mar 2026 02:07:43 GMT",
+      "summary": "Veteran Iranian politician Ali Larijani was one of the most powerful figures in the Islamic Republic, a close adviser to Ayatollah Ali Khamenei until the supreme leader's death in an airstrike last mo"
+    },
+    {
+      "source": "CGTN",
+      "title": "Israeli defense minister says Iran's Ali Larijani killed",
+      "link": "https://news.cgtn.com/news/2026-03-17/news-1LAwgPpckcU/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+      "published": "Tue, 17 Mar 2026 09:24:16 GMT",
+      "summary": "Israeli defense minister says Iran's Ali Larijani killed"
+    },
+    {
+      "source": "CGTN",
+      "title": "China opposes EU's unilateral sanctions against Chinese entities",
+      "link": "https://news.cgtn.com/news/2026-03-17/China-opposes-EU-s-unilateral-sanctions-against-Chinese-entities-1LAp3MQ5vlm/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+      "published": "Tue, 17 Mar 2026 08:06:31 GMT",
+      "summary": "A Chinese Foreign Ministry spokesperson said on Tuesday that China firmly opposes illegal unilateral sanctions imposed by the European Union (EU) against Chinese entities."
+    },
+    {
+      "source": "CGTN",
+      "title": "US says its forces bombed Iranian missile sites near Strait of Hormuz",
+      "link": "https://news.cgtn.com/news/2026-03-18/news-1LBslIRqVcQ/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+      "published": "Tue, 17 Mar 2026 22:57:00 GMT",
+      "summary": "US says its forces bombed Iranian missile sites near Strait of Hormuz"
+    },
+    {
+      "source": "CGTN",
+      "title": "Israeli settlement expansion fuels Palestinian displacement: UN report",
+      "link": "https://news.cgtn.com/news/2026-03-17/Israeli-settlement-expansion-fuels-Palestinian-displacement-UN-report-1LAL5NZhJTi/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+      "published": "Tue, 17 Mar 2026 13:37:58 GMT",
+      "summary": "A report released on Tuesday by the Office of the UN High Commissioner for Human Rights said the Israeli government has accelerated the expansion of unlawful settlements in the West Bank, including Ea"
+    },
+    {
+      "source": "半岛电视台",
+      "title": "Amid ruins, Palestinians struggle to preserve Gaza’s historic markets",
+      "link": "https://www.aljazeera.com/features/2026/3/18/amid-ruins-palestinians-struggle-to-preserve-gazas-historic-markets?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 14:15:52 +0000",
+      "summary": "For centuries, the Grain Market has been Khan Younis&#039;s shopping hub, but it has stood largely empty since Israel&#039;s war."
+    },
+    {
+      "source": "半岛电视台",
+      "title": "How Dubai and UAE are being affected by Iran attacks and US-Israeli war",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/how-dubai-and-uae-are-being-affected-by-iran-attacks-and-us-israeli-war?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 13:26:31 +0000",
+      "summary": "How Dubai and UAE are being affected by Iran attacks and US-Israeli war"
+    },
+    {
+      "source": "半岛电视台",
+      "title": "Israel says it killed Iranian intelligence chief Khatib",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/israel-says-it-killed-iranian-intelligence-chief-khatib?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 13:15:07 +0000",
+      "summary": "Israel’s Defence Minister Israel Katz said an overnight strike killed Iran’s Intelligence Minister Esmail Khatib."
+    },
+    {
+      "source": "半岛电视台",
+      "title": "Iran announces arrests, says US and Israel suffering ‘defeats’",
+      "link": "https://www.aljazeera.com/news/2026/3/18/iran-announces-arrests-says-us-and-israel-suffering?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 13:10:31 +0000",
+      "summary": "Hundreds have been arrested as Iran cracks down on &#039;traitors&#039; following killing of Larijani, Soleimani."
+    },
+    {
+      "source": "半岛电视台",
+      "title": "Iran holds funerals for officials Larijani and Soleimani",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/iran-holds-funerals-for-officials-larijani-and-soleimani?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 13:03:23 +0000",
+      "summary": "Iranians have attended funeral processions for senior security officials Ali Larijani and Gholamreza Soleimani."
+    },
+    {
+      "source": "BBC中东",
       "title": "Surge in US gas prices deepens political peril for Trump over Iran",
       "link": "https://www.bbc.com/news/articles/c70k29914q4o?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 17 Mar 2026 00:24:01 GMT",
       "summary": "The odds of a quick resolution to the war appear to be dwindling by the day, and the political stakes for the president are only growing."
     },
     {
-      "source": "BBC World",
+      "source": "BBC中东",
       "title": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
       "link": "https://www.bbc.com/news/articles/c70n2x7p22do?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 16 Mar 2026 17:57:45 GMT",
       "summary": "Khaled Bani Odeh's parents and two brothers were shot dead as they drove home from a shopping trip in the occupied West Bank."
     },
     {
-      "source": "BBC World",
+      "source": "BBC中东",
       "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
       "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 16 Mar 2026 17:34:13 GMT",
       "summary": "European leaders are hesitant to help Trump secure the Strait of Hormuz, but they know inaction on the Iran war is not really an option."
     },
     {
-      "source": "BBC World",
+      "source": "BBC中东",
       "title": "Israel says 'limited' ground operations under way in Lebanon",
       "link": "https://www.bbc.com/news/articles/clyz78kgp22o?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 17 Mar 2026 05:03:13 GMT",
       "summary": "Troops are targeting \"Hezbollah strongholds\" in south Lebanon, where strikes reportedly killed nine people on Monday."
     },
     {
-      "source": "BBC World",
+      "source": "BBC中东",
       "title": "How might the UK support shipping in the Strait of Hormuz?",
       "link": "https://www.bbc.com/news/videos/cvgj29dgrxwo?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 16 Mar 2026 18:52:34 GMT",
@@ -690,8 +738,8 @@
     "report_date_cn": "2026年03月18日",
     "war_day": 19,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-18T16:51:25.338406+08:00",
-    "generated_at_cn": "2026-03-18 16:51:25 北京时间"
+    "generated_at": "2026-03-18T22:59:18.250889+08:00",
+    "generated_at_cn": "2026-03-18 22:59:18 北京时间"
   },
   "history": [
     {
@@ -749,6 +797,13 @@
       "wti": 94.02999877929688,
       "gold": 4993.5,
       "usd_cny": 6.872300148010254
+    },
+    {
+      "date": "2026-03-18",
+      "brent": 109.52999877929688,
+      "wti": 98.2300033569336,
+      "gold": 4873.89990234375,
+      "usd_cny": 6.872099876403809
     }
   ]
 }
