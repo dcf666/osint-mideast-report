@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 102.8499984741211,
-      "day_change_pct": -0.55,
-      "war_change_pct": 32.3,
+      "current": 106.01000213623047,
+      "day_change_pct": 2.5,
+      "war_change_pct": 36.36,
       "dates": [
         "02/04",
         "02/05",
@@ -66,14 +66,14 @@
         103.14,
         100.21,
         103.42,
-        102.85
+        106.01
       ],
-      "updated": "2026-03-18T08:49:04.759288"
+      "updated": "2026-03-18T12:33:39.429729"
     },
     "wti": {
-      "current": 94.02999877929688,
-      "day_change_pct": -2.27,
-      "war_change_pct": 32.01,
+      "current": 95.83999633789062,
+      "day_change_pct": -0.38,
+      "war_change_pct": 34.55,
       "dates": [
         "02/04",
         "02/05",
@@ -136,14 +136,14 @@
         98.71,
         93.5,
         96.21,
-        94.03
+        95.84
       ],
-      "updated": "2026-03-18T08:49:04.823938"
+      "updated": "2026-03-18T12:33:39.504020"
     },
     "gold": {
-      "current": 4993.5,
-      "day_change_pct": -0.15,
-      "war_change_pct": -5.68,
+      "current": 4907.60009765625,
+      "day_change_pct": -1.87,
+      "war_change_pct": -7.31,
       "dates": [
         "02/04",
         "02/05",
@@ -206,14 +206,14 @@
         5052.5,
         4994.0,
         5001.0,
-        4993.5
+        4907.6
       ],
-      "updated": "2026-03-18T08:49:04.972334"
+      "updated": "2026-03-18T12:33:39.574373"
     },
     "usd_cny": {
-      "current": 6.872300148010254,
-      "day_change_pct": -1.2,
-      "war_change_pct": 0.21,
+      "current": 6.871600151062012,
+      "day_change_pct": -1.21,
+      "war_change_pct": 0.2,
       "dates": [
         "02/05",
         "02/06",
@@ -278,12 +278,12 @@
         6.96,
         6.87
       ],
-      "updated": "2026-03-18T08:49:05.149716"
+      "updated": "2026-03-18T12:33:39.678196"
     },
     "nat_gas": {
-      "current": 2.946000099182129,
-      "day_change_pct": -2.87,
-      "war_change_pct": -0.47,
+      "current": 3.0,
+      "day_change_pct": -1.09,
+      "war_change_pct": 1.35,
       "dates": [
         "02/04",
         "02/05",
@@ -346,36 +346,39 @@
         3.13,
         3.02,
         3.03,
-        2.95
+        3.0
       ],
-      "updated": "2026-03-18T08:49:05.304608"
+      "updated": "2026-03-18T12:33:39.767417"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600026": {
       "name": "中远海能",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601975": {
       "name": "招商南油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601975&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600938": {
       "name": "中国海油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600938&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601857&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 11.86,
+      "change_pct": -1.33,
+      "high": 11.93,
+      "low": 11.61,
+      "volume": 2159857
     },
     "600028": {
       "name": "中国石化",
@@ -411,8 +414,11 @@
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 102.8,
+      "change_pct": 2.09,
+      "high": 103.83,
+      "low": 99.0,
+      "volume": 208768
     },
     "600803": {
       "name": "新奥股份",
@@ -424,28 +430,40 @@
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 6.79,
+      "change_pct": -3.0,
+      "high": 6.91,
+      "low": 6.59,
+      "volume": 2727914
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 16.2,
+      "change_pct": 0.37,
+      "high": 16.42,
+      "low": 15.98,
+      "volume": 1028569
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600760&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 50.87,
+      "change_pct": 0.73,
+      "high": 50.89,
+      "low": 49.8,
+      "volume": 158438
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600893&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 54.14,
+      "change_pct": 0.63,
+      "high": 54.55,
+      "low": 53.28,
+      "volume": 244792
     },
     "600150": {
       "name": "中国船舶",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600150&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600547": {
       "name": "山东黄金",
@@ -500,38 +518,38 @@
   "news": [
     {
       "source": "Al Jazeera",
-      "title": "Aftermath of Iranian ‘revenge’ strikes on Israel leaves destruction, two ki",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/aftermath-of-iranian-revenge-strikes-on-israel-leaves-destruction-two-ki?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 08:13:25 +0000",
-      "summary": "Widespread damage was left across areas near Tel Aviv after overnight Iranian missile strikes."
+      "title": "Iranian women footballers arrive in eastern Turkiye, on home border",
+      "link": "https://www.aljazeera.com/sports/2026/3/18/iran-womens-football-team-arrive-in-eastern-turkiye-on-home-border?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 11:23:56 +0000",
+      "summary": "The team is on last leg of its journey home from Australia after Asian Cup, which began before conflict in Middle East."
     },
     {
       "source": "Al Jazeera",
-      "title": "‘US distraction in the Middle East is in China’s interest’",
-      "link": "https://www.aljazeera.com/video/quotable/2026/3/18/us-distraction-in-the-middle-east-is-in-chinas?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 07:31:42 +0000",
-      "summary": "‘US distraction in the Middle East is in China’s interest’"
+      "title": "How Iran defied Trump threats to emerge as Strait of Hormuz gatekeeper",
+      "link": "https://www.aljazeera.com/news/2026/3/18/how-iran-defied-trump-threats-to-emerge-as-strait-of-hormuz-gatekeeper?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 11:17:38 +0000",
+      "summary": "Trump has called on other navies to help open the strait, but countries are instead striking deals with Iran."
     },
     {
       "source": "Al Jazeera",
-      "title": "Israel bombs central Beirut, killing 6, strafes south, east Lebanon",
-      "link": "https://www.aljazeera.com/news/2026/3/18/israel-bombs-central-beirut-killing-6-strafes-south-east-lebanon?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 07:06:59 +0000",
-      "summary": "Wave of Israeli air attacks launched as ground offensive widens in south where Hezbollah are fighting Israeli forces."
+      "title": "Israel says it kills Iran intel minister in third assassination in two days",
+      "link": "https://www.aljazeera.com/news/2026/3/18/israel-says-it-killed-iran-intel-minister-in-third-assassination-in-2-days?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 10:33:12 +0000",
+      "summary": "Israel gives military permission to strike Iranian leaders at will as Iran has yet to confirm death of Esmaeil Khatib."
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran war: What is happening on day 19 of US-Israel attacks?",
-      "link": "https://www.aljazeera.com/news/2026/3/18/iran-war-what-is-happening-on-day-19-of-us-israel-attacks?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 07:06:24 +0000",
-      "summary": "Iran vows revenge after Israeli strikes kill security chief Ali Larijani and Basij commander Gholamreza Soleimani."
+      "title": "Iranian diaspora celebrates Persian festival wrapped in US, Israeli flags",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/iranian-diaspora-celebrates-persian-festival-wrapped-in-us-israeli-flags?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 10:22:55 +0000",
+      "summary": "Dancing on a beach in Barcelona, members of the Iranian diaspora celebrated the Persian festival of Chaharshanbe Suri."
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran launches ‘revenge’ missile attack on Israel after assassinations",
-      "link": "https://www.aljazeera.com/news/2026/3/18/iran-launches-revenge-missile-attack-on-israel-after-assassinations?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 07:04:58 +0000",
-      "summary": "Attack kills two people in central Israel&#039;s Ramat Gan area and damages a Tel Aviv train station."
+      "title": "‘US and Israel have taken majority of Iran’s ballistic missile capability’",
+      "link": "https://www.aljazeera.com/video/quotable/2026/3/18/us-and-israel-have-taken-majority-of-irans-ballistic-missile-capability?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 09:42:36 +0000",
+      "summary": "‘US and Israel have taken the vast majority of Iran’s ballistic missile capability’"
     },
     {
       "source": "BBC World",
@@ -690,8 +708,8 @@
     "report_date_cn": "2026年03月18日",
     "war_day": 19,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-18T16:51:25.338406+08:00",
-    "generated_at_cn": "2026-03-18 16:51:25 北京时间"
+    "generated_at": "2026-03-18T20:35:50.721299+08:00",
+    "generated_at_cn": "2026-03-18 20:35:50 北京时间"
   },
   "history": [
     {
@@ -749,6 +767,13 @@
       "wti": 94.02999877929688,
       "gold": 4993.5,
       "usd_cny": 6.872300148010254
+    },
+    {
+      "date": "2026-03-18",
+      "brent": 106.01000213623047,
+      "wti": 95.83999633789062,
+      "gold": 4907.60009765625,
+      "usd_cny": 6.871600151062012
     }
   ]
 }
