@@ -151,6 +151,7 @@ table.intel tr:hover{background:#2a345022}
     <div class="section-num mb-2">SECTION 01</div>
     <h2 class="section-title">一、最新情报更新</h2>
     <div class="h-px bg-gradient-to-r from-neon via-ghost to-transparent mt-4"></div>
+    <div class="text-[10px] text-ghost font-mono mt-2">&#x26A0; 本节为人工情报分析，编写于2026年3月16日。自动更新的实时新闻见下方RSS区域。伤亡数字、军事事件等随战况变化，以最新RSS新闻为准。</div>
   </div>
 
   <!-- Timeline Header -->
@@ -229,6 +230,7 @@ table.intel tr:hover{background:#2a345022}
     <div class="section-num mb-2">SECTION 02</div>
     <h2 class="section-title">二、情报可信度评估</h2>
     <div class="h-px bg-gradient-to-r from-ice via-ghost to-transparent mt-4"></div>
+    <div class="text-[10px] text-ghost font-mono mt-2">&#x26A0; 本节情报交叉验证记录编写于2026年3月16日，可信度评级不随自动更新变化。</div>
   </div>
   <div class="fade-up overflow-x-auto">
     <table class="intel">
@@ -267,6 +269,7 @@ table.intel tr:hover{background:#2a345022}
     <div class="section-num mb-2">SECTION 03</div>
     <h2 class="section-title">三、战术战果总结</h2>
     <div class="h-px bg-gradient-to-r from-alert via-ghost to-transparent mt-4"></div>
+    <div class="text-[10px] text-ghost font-mono mt-2">&#x26A0; 本节战果数据编写于2026年3月16日，伤亡及打击数字随战况持续变化。</div>
   </div>
 
   <div class="grid md:grid-cols-3 gap-4 mb-8">
@@ -343,6 +346,7 @@ table.intel tr:hover{background:#2a345022}
     <div class="section-num mb-2">SECTION 04</div>
     <h2 class="section-title">四、战略意图评估</h2>
     <div class="h-px bg-gradient-to-r from-warn via-ghost to-transparent mt-4"></div>
+    <div class="text-[10px] text-ghost font-mono mt-2">&#x26A0; 本节战略分析编写于2026年3月16日，概率评估为静态判断。</div>
   </div>
 
   <div class="grid md:grid-cols-2 gap-6 mb-8">
@@ -411,6 +415,7 @@ table.intel tr:hover{background:#2a345022}
     <div class="section-num mb-2">SECTION 05</div>
     <h2 class="section-title">五、未来行动推演</h2>
     <div class="h-px bg-gradient-to-r from-neon via-ghost to-transparent mt-4"></div>
+    <div class="text-[10px] text-ghost font-mono mt-2">&#x26A0; 本节推演编写于2026年3月16日，海军部署数据为当时已知信息。</div>
   </div>
 
   <div class="grid md:grid-cols-3 gap-6 mb-8">
@@ -499,23 +504,23 @@ table.intel tr:hover{background:#2a345022}
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
     <div class="fade-up card p-4 text-center">
       <div class="font-mono text-[10px] text-warn tracking-wider mb-1">BRENT CRUDE</div>
-      <div class="text-3xl font-black text-white">$106</div>
-      <div class="text-xs text-alert font-mono mt-1">+53% 月涨幅</div>
+      <div class="text-3xl font-black text-white">${{ "%.0f"|format(brent_price) if brent_price != 'N/A' else 'N/A' }}</div>
+      <div class="text-xs text-alert font-mono mt-1">{{ "%+.1f"|format(brent_war_change) if brent_war_change else 'N/A' }}% 战争以来</div>
     </div>
     <div class="fade-up card p-4 text-center">
       <div class="font-mono text-[10px] text-warn tracking-wider mb-1">WTI CRUDE</div>
-      <div class="text-3xl font-black text-white">$101</div>
-      <div class="text-xs text-alert font-mono mt-1">+42% 年初至今</div>
+      <div class="text-3xl font-black text-white">${{ "%.0f"|format(wti_price) if wti_price != 'N/A' else 'N/A' }}</div>
+      <div class="text-xs text-alert font-mono mt-1">{{ "%+.1f"|format(brent_change) if brent_change else 'N/A' }}% 日变动</div>
     </div>
     <div class="fade-up card p-4 text-center">
       <div class="font-mono text-[10px] text-neon tracking-wider mb-1">VLCC TD3C</div>
-      <div class="text-3xl font-black text-white">$486K</div>
-      <div class="text-xs text-neon font-mono mt-1">/天 历史新高</div>
+      <div class="text-3xl font-black text-white">${{ vlcc_latest }}K</div>
+      <div class="text-xs text-neon font-mono mt-1">/天 {{ vlcc_note }}</div>
     </div>
     <div class="fade-up card p-4 text-center">
       <div class="font-mono text-[10px] text-alert tracking-wider mb-1">霍尔木兹通航</div>
-      <div class="text-3xl font-black text-alert">0</div>
-      <div class="text-xs text-alert font-mono mt-1">3月14日首次归零</div>
+      <div class="text-3xl font-black text-alert">{{ hormuz_today }}</div>
+      <div class="text-xs text-alert font-mono mt-1">艘/日 (3月14日首次归零)</div>
     </div>
   </div>
 
@@ -753,11 +758,11 @@ table.intel tr:hover{background:#2a345022}
   <!-- Market Snapshot -->
   <div class="fade-up card p-5 mb-6">
     <div class="flex flex-wrap items-center gap-3 mb-4">
-      <span class="badge badge-live">3月16日午盘</span>
-      <span class="text-white font-bold text-sm">海运指数直线拉升，涨幅超3.5%</span>
+      <span class="badge badge-live">{{ report_date_cn }}</span>
+      <span class="text-white font-bold text-sm">A股能源/航运板块动态</span>
     </div>
     <div class="text-sm text-steelLight mb-4">
-      消息面上，霍尔木兹海峡3月14日零通航消息传入国内市场，叠加美国石油高管警告能源危机加剧，午后航运板块异动拉升。
+      霍尔木兹海峡持续零通航，叠加全球能源供应担忧，航运、油气板块受到资金关注。板块轮动持续进行中。
     </div>
     <div class="text-sm text-steel">
       <strong class="text-warn">板块轮动路径：</strong>
@@ -772,23 +777,33 @@ table.intel tr:hover{background:#2a345022}
     <div id="chartAshare" class="chart-box" style="height:380px"></div>
   </div>
 
-  <!-- Key Stocks Table -->
+  <!-- Key Stocks Table (Dynamic) -->
   <div class="fade-up overflow-x-auto mb-6">
     <table class="intel">
-      <thead><tr><th>代码</th><th>公司</th><th>板块</th><th>近期表现</th><th>逻辑</th></tr></thead>
+      <thead><tr><th>代码</th><th>公司</th><th>最新价</th><th>涨跌幅</th><th>最高</th><th>最低</th></tr></thead>
       <tbody>
-        <tr><td class="text-neon font-mono">601872</td><td class="text-white">招商轮船</td><td><span class="tag tag-yellow">航运</span></td><td class="text-alert">创新高，8天5板</td><td class="text-sm">VLCC运力龙头，运价暴涨直接受益</td></tr>
-        <tr><td class="text-neon font-mono">601975</td><td class="text-white">招商南油</td><td><span class="tag tag-yellow">航运</span></td><td class="text-alert">涨停4.81元，2连板</td><td class="text-sm">成品油运输，绕航增加吨海里需求</td></tr>
-        <tr><td class="text-neon font-mono">600026</td><td class="text-white">中远海能</td><td><span class="tag tag-yellow">航运</span></td><td class="text-alert">涨超7%</td><td class="text-sm">VLCC+LNG双轮驱动，中国最大油轮船队</td></tr>
-        <tr><td class="text-neon font-mono">600028</td><td class="text-white">中国石化</td><td><span class="tag tag-red">油气</span></td><td class="text-warn">股价异动公告</td><td class="text-sm">炼化龙头，油价上涨利好库存收益</td></tr>
-        <tr><td class="text-neon font-mono">601857</td><td class="text-white">中国石油</td><td><span class="tag tag-red">油气</span></td><td class="text-warn">股价异动公告</td><td class="text-sm">上游开采受益高油价</td></tr>
-        <tr><td class="text-neon font-mono">600938</td><td class="text-white">中国海油</td><td><span class="tag tag-red">油气</span></td><td class="text-warn">股价异动公告</td><td class="text-sm">纯上游，油价弹性最大</td></tr>
-        <tr><td class="text-neon font-mono">601808</td><td class="text-white">中海油服</td><td><span class="tag tag-blue">油服</span></td><td class="text-neon">跟涨</td><td class="text-sm">高油价→上游资本开支增加→油服景气</td></tr>
-        <tr><td class="text-neon font-mono">002353</td><td class="text-white">杰瑞股份</td><td><span class="tag tag-blue">油服</span></td><td class="text-neon">跟涨</td><td class="text-sm">油气装备制造，海外业务占比高</td></tr>
-        <tr><td class="text-neon font-mono">600256</td><td class="text-white">广汇能源</td><td><span class="tag tag-green">LNG</span></td><td class="text-neon">活跃</td><td class="text-sm">LNG进口终端+煤化工，天然气价格联动</td></tr>
-        <tr><td class="text-neon font-mono">600803</td><td class="text-white">新奥股份</td><td><span class="tag tag-green">LNG</span></td><td class="text-neon">活跃</td><td class="text-sm">LNG贸易+城燃，气价上涨受益</td></tr>
+        {% for code, s in stocks.items() %}
+        {% if s.price %}
+        <tr>
+          <td class="text-neon font-mono">{{ code }}</td>
+          <td class="text-white">{{ s.name }}</td>
+          <td class="text-white font-mono">¥{{ "%.2f"|format(s.price) }}</td>
+          <td class="font-mono font-bold {% if s.change_pct and s.change_pct > 0 %}text-alert{% elif s.change_pct and s.change_pct < 0 %}text-neon{% else %}text-steel{% endif %}">{{ "%+.2f"|format(s.change_pct) if s.change_pct else 'N/A' }}%</td>
+          <td class="text-steel font-mono text-xs">{{ "%.2f"|format(s.high) if s.high else '-' }}</td>
+          <td class="text-steel font-mono text-xs">{{ "%.2f"|format(s.low) if s.low else '-' }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        {% if not stocks or stocks|length == 0 %}
+        <tr><td colspan="6" class="text-center text-warn py-4">&#x26A0; A股数据暂无更新 — 东方财富API未返回数据，下次自动更新时将重试</td></tr>
+        {% endif %}
       </tbody>
     </table>
+    {% set has_stock_data = [] %}
+    {% for code, s in stocks.items() %}{% if s.price %}{% if has_stock_data.append(1) %}{% endif %}{% endif %}{% endfor %}
+    {% if not has_stock_data %}
+    <div class="text-warn text-xs font-mono mt-2 text-center">&#x26A0; 个股实时数据暂不可用 (东方财富API连接失败)，将在下次GitHub Actions运行时自动重试</div>
+    {% endif %}
   </div>
 
   <!-- Sentiment Analysis -->
@@ -928,8 +943,8 @@ table.intel tr:hover{background:#2a345022}
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
       <div class="p-3 rounded text-center" style="background:#ffaa0008;border:1px solid #ffaa0022">
         <div class="font-mono text-[10px] text-warn tracking-wider mb-1">现货金价</div>
-        <div class="text-2xl font-black text-white">$5,020</div>
-        <div class="text-xs text-steel mt-1">/盎司 (3月15日)</div>
+        <div class="text-2xl font-black text-white">${{ "%.0f"|format(gold_price) if gold_price != 'N/A' else 'N/A' }}</div>
+        <div class="text-xs text-steel mt-1">/盎司 (最新交易日)</div>
       </div>
       <div class="p-3 rounded text-center" style="background:#ff3b3b08;border:1px solid #ff3b3b22">
         <div class="font-mono text-[10px] text-alert tracking-wider mb-1">战争爆发后高点</div>

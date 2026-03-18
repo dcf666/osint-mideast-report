@@ -186,6 +186,26 @@ def _get_hormuz_today(data):
     return "N/A"
 
 
+def _get_vlcc_latest(data):
+    """Get latest VLCC rate in $K/day."""
+    shipping = data.get("shipping", {})
+    vlcc = shipping.get("vlcc", {})
+    rates = vlcc.get("rates", [])
+    if rates:
+        return str(rates[-1])
+    return "N/A"
+
+
+def _get_vlcc_note(data):
+    """Get VLCC freshness note."""
+    shipping = data.get("shipping", {})
+    freshness = shipping.get("freshness", {})
+    stale = freshness.get("vlcc_stale_days", 0)
+    if stale and stale > 2:
+        return f"(数据滞后{stale}天)"
+    return "最新报价"
+
+
 def _build_transit_records(data):
     """Build verified transit records HTML from AIS/news data."""
     records = data.get("transit_records", [])
@@ -281,6 +301,9 @@ def generate():
         # Stock data for tables
         "stocks": data.get("stocks", {}),
         "sectors": data.get("sectors", {}),
+        # VLCC latest rate
+        "vlcc_latest": _get_vlcc_latest(data),
+        "vlcc_note": _get_vlcc_note(data),
         # Satellite / AIS section
         "hormuz_today": _get_hormuz_today(data),
         "transit_records_html": _build_transit_records(data),
