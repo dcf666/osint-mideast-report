@@ -281,9 +281,9 @@
       "updated": "2026-03-18T04:05:37.957933"
     },
     "nat_gas": {
-      "current": 3.0329999923706055,
-      "day_change_pct": 0.33,
-      "war_change_pct": 2.47,
+      "current": 2.9649999141693115,
+      "day_change_pct": -1.92,
+      "war_change_pct": 0.17,
       "dates": [
         "02/03",
         "02/04",
@@ -346,7 +346,7 @@
         3.23,
         3.13,
         3.02,
-        3.03
+        2.96
       ],
       "updated": "2026-03-18T04:05:38.022159"
     }
@@ -463,16 +463,13 @@
       "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "天然气": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -0.76
     },
     "军工": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -1.2
     },
     "黄金": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -0.69
     }
   },
   "news": [
