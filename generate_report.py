@@ -283,6 +283,8 @@ def generate():
     gold = markets.get("gold", {})
     usd_cny = markets.get("usd_cny", {})
 
+    nat_gas = markets.get("nat_gas", {})
+
     context = {
         # Meta
         "war_day": meta["war_day"],
@@ -295,8 +297,14 @@ def generate():
         "wti_price": wti.get("current", "N/A"),
         "gold_price": gold.get("current", "N/A"),
         "usd_cny_rate": usd_cny.get("current", "N/A"),
+        "nat_gas_price": nat_gas.get("current", "N/A"),
         "brent_change": brent.get("day_change_pct", 0),
         "brent_war_change": brent.get("war_change_pct", 0),
+        "gold_change": gold.get("day_change_pct", 0),
+        "gold_war_change": gold.get("war_change_pct", 0),
+        "usd_cny_change": usd_cny.get("day_change_pct", 0),
+        "nat_gas_change": nat_gas.get("day_change_pct", 0),
+        "nat_gas_war_change": nat_gas.get("war_change_pct", 0),
         # Chart data as JSON strings for JS injection
         "chart_data_json": json.dumps(charts, ensure_ascii=False),
         # News HTML

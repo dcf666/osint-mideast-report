@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 109.52999877929688,
-      "day_change_pct": 5.91,
-      "war_change_pct": 40.89,
+      "current": 109.7699966430664,
+      "day_change_pct": 6.14,
+      "war_change_pct": 41.2,
       "dates": [
         "02/04",
         "02/05",
@@ -66,14 +66,14 @@
         103.14,
         100.21,
         103.42,
-        109.53
+        109.77
       ],
-      "updated": "2026-03-18T14:58:02.073433"
+      "updated": "2026-03-18T15:03:39.975871"
     },
     "wti": {
-      "current": 98.2300033569336,
-      "day_change_pct": 2.1,
-      "war_change_pct": 37.91,
+      "current": 98.55999755859375,
+      "day_change_pct": 2.44,
+      "war_change_pct": 38.37,
       "dates": [
         "02/04",
         "02/05",
@@ -136,14 +136,14 @@
         98.71,
         93.5,
         96.21,
-        98.23
+        98.56
       ],
-      "updated": "2026-03-18T14:58:02.139702"
+      "updated": "2026-03-18T15:03:40.023483"
     },
     "gold": {
-      "current": 4873.89990234375,
-      "day_change_pct": -2.54,
-      "war_change_pct": -7.94,
+      "current": 4866.2998046875,
+      "day_change_pct": -2.69,
+      "war_change_pct": -8.09,
       "dates": [
         "02/04",
         "02/05",
@@ -206,9 +206,9 @@
         5052.5,
         4994.0,
         5001.0,
-        4873.9
+        4866.3
       ],
-      "updated": "2026-03-18T14:58:02.191959"
+      "updated": "2026-03-18T15:03:40.068183"
     },
     "usd_cny": {
       "current": 6.872099876403809,
@@ -278,7 +278,7 @@
         6.96,
         6.87
       ],
-      "updated": "2026-03-18T14:58:02.263463"
+      "updated": "2026-03-18T15:03:40.123462"
     },
     "nat_gas": {
       "current": 3.069999933242798,
@@ -348,7 +348,7 @@
         3.03,
         3.07
       ],
-      "updated": "2026-03-18T14:58:02.312262"
+      "updated": "2026-03-18T15:03:40.182650"
     }
   },
   "stocks": {
@@ -385,12 +385,12 @@
     "603619": {
       "name": "中曼石油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600759": {
       "name": "洲际油气",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601808": {
       "name": "中海油服",
@@ -414,16 +414,13 @@
     },
     "601919": {
       "name": "中远海控",
-      "price": 16.2,
-      "change_pct": 0.37,
-      "high": 16.42,
-      "low": 15.98,
-      "volume": 1028569
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600760": {
       "name": "中航沈飞",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600893": {
       "name": "航发动力",
@@ -459,7 +456,7 @@
   "sectors": {
     "航运": {
       "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "石油": {
       "change_pct": null,
@@ -741,8 +738,8 @@
     "report_date_cn": "2026年03月18日",
     "war_day": 19,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-18T22:59:18.250889+08:00",
-    "generated_at_cn": "2026-03-18 22:59:18 北京时间"
+    "generated_at": "2026-03-18T23:04:03.800495+08:00",
+    "generated_at_cn": "2026-03-18 23:04:03 北京时间"
   },
   "history": [
     {
@@ -806,6 +803,13 @@
       "brent": 109.52999877929688,
       "wti": 98.2300033569336,
       "gold": 4873.89990234375,
+      "usd_cny": 6.872099876403809
+    },
+    {
+      "date": "2026-03-18",
+      "brent": 109.7699966430664,
+      "wti": 98.55999755859375,
+      "gold": 4866.2998046875,
       "usd_cny": 6.872099876403809
     }
   ]
