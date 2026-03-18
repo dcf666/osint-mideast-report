@@ -376,13 +376,40 @@ def fetch_shipping_data():
         today_str = date.today().isoformat()
         last_hormuz_date = ship_hist["hormuz"][-1]["date"] if ship_hist["hormuz"] else ""
 
-        if today_str != last_hormuz_date:
-            # Carry forward last known value as estimate
+        # Fill in any missing dates between last entry and today
+        if last_hormuz_date and last_hormuz_date != today_str:
+            last_date = datetime.strptime(last_hormuz_date, "%Y-%m-%d").date()
             last_val = ship_hist["hormuz"][-1]["transits"] if ship_hist["hormuz"] else 0
+            fill_date = last_date + timedelta(days=1)
+            while fill_date < date.today():
+                ship_hist["hormuz"].append({"date": fill_date.isoformat(), "transits": last_val})
+                fill_date += timedelta(days=1)
+            # Add today
             ship_hist["hormuz"].append({"date": today_str, "transits": last_val})
-            print(f"  [OK] Hormuz: carried forward estimate {last_val}/day")
+            print(f"  [OK] Hormuz: filled gaps and carried forward estimate {last_val}/day")
+        elif not last_hormuz_date:
+            ship_hist["hormuz"].append({"date": today_str, "transits": 0})
+            print(f"  [OK] Hormuz: initial entry 0/day")
+        else:
+            print(f"  [OK] Hormuz: already has today's data")
     except Exception as e:
         print(f"  [WARN] Hormuz estimation failed: {e}")
+
+    # Fill any date gaps in hormuz history (interpolate with previous value)
+    hormuz_filled = []
+    hormuz_raw = ship_hist.get("hormuz", [])
+    for i, entry in enumerate(hormuz_raw):
+        if i > 0:
+            prev_date = datetime.strptime(hormuz_raw[i-1]["date"], "%Y-%m-%d").date()
+            curr_date = datetime.strptime(entry["date"], "%Y-%m-%d").date()
+            gap = (curr_date - prev_date).days
+            if gap > 1:
+                prev_val = hormuz_raw[i-1]["transits"]
+                for g in range(1, gap):
+                    fill_d = (prev_date + timedelta(days=g)).isoformat()
+                    hormuz_filled.append({"date": fill_d, "transits": prev_val})
+        hormuz_filled.append(entry)
+    ship_hist["hormuz"] = hormuz_filled
 
     # Build output arrays from history
     hormuz_data = ship_hist.get("hormuz", [])[-30:]
@@ -398,6 +425,25 @@ def fetch_shipping_data():
         for v in vlcc_data
     ]
     shipping["vlcc"]["rates"] = [v["rate"] for v in vlcc_data]
+
+    # Data freshness metadata
+    today_str = date.today().isoformat()
+    hormuz_last = ship_hist["hormuz"][-1]["date"] if ship_hist["hormuz"] else None
+    vlcc_last = ship_hist["vlcc"][-1]["date"] if ship_hist["vlcc"] else None
+    shipping["freshness"] = {
+        "hormuz_last_date": hormuz_last,
+        "hormuz_stale_days": (date.today() - datetime.strptime(hormuz_last, "%Y-%m-%d").date()).days if hormuz_last else None,
+        "hormuz_is_estimate": True,  # always estimate since no free API
+        "vlcc_last_date": vlcc_last,
+        "vlcc_stale_days": (date.today() - datetime.strptime(vlcc_last, "%Y-%m-%d").date()).days if vlcc_last else None,
+        "vlcc_is_scraped": bool(vlcc_last == today_str and vlcc_data),
+        "routes_date": today_str,
+    }
+
+    # Update routes current values based on latest Hormuz data
+    latest_hormuz = ship_hist["hormuz"][-1]["transits"] if ship_hist["hormuz"] else 0
+    shipping["routes"]["current"][0] = latest_hormuz  # Hormuz
+    shipping["routes"]["date_label"] = date.today().strftime("%-m月%-d日")
 
     # Save updated shipping history
     # Keep last 90 entries

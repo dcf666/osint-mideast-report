@@ -521,25 +521,29 @@ table.intel tr:hover{background:#2a345022}
 
   <!-- Chart: Oil Prices -->
   <div class="fade-up card p-4 mb-6">
-    <h3 class="text-white font-bold mb-2 text-sm">原油价格走势 (2026年2月 — 3月16日)</h3>
+    <h3 class="text-white font-bold mb-1 text-sm">原油价格走势 (2026年2月至今)</h3>
+    <div class="text-[10px] text-steel font-mono mb-1" id="oilFreshLabel"></div>
     <div id="chartOil" class="chart-box"></div>
   </div>
 
   <!-- Chart: Hormuz Transit -->
   <div class="fade-up card p-4 mb-6">
-    <h3 class="text-white font-bold mb-2 text-sm">霍尔木兹海峡每日通航量</h3>
+    <h3 class="text-white font-bold mb-1 text-sm">霍尔木兹海峡每日通航量</h3>
+    <div class="text-[10px] text-steel font-mono mb-1" id="hormuzFreshLabel"></div>
     <div id="chartHormuz" class="chart-box"></div>
   </div>
 
   <!-- Chart: VLCC Rates -->
   <div class="fade-up card p-4 mb-6">
-    <h3 class="text-white font-bold mb-2 text-sm">VLCC TD3C 运价 (中东湾→中国, $/天)</h3>
+    <h3 class="text-white font-bold mb-1 text-sm">VLCC TD3C 运价 (中东湾→中国, 千美元/天)</h3>
+    <div class="text-[10px] text-steel font-mono mb-1" id="vlccFreshLabel"></div>
     <div id="chartVLCC" class="chart-box"></div>
   </div>
 
   <!-- Chart: Route Redistribution -->
   <div class="fade-up card p-4 mb-6">
-    <h3 class="text-white font-bold mb-2 text-sm">全球航运通道流量对比 (3月14日)</h3>
+    <h3 class="text-white font-bold mb-1 text-sm">全球航运通道流量对比</h3>
+    <div class="text-[10px] text-steel font-mono mb-1" id="routesFreshLabel"></div>
     <div id="chartRoutes" class="chart-box" style="height:350px"></div>
   </div>
 
@@ -763,7 +767,8 @@ table.intel tr:hover{background:#2a345022}
 
   <!-- Chart: A-share sector performance -->
   <div class="fade-up card p-4 mb-6">
-    <h3 class="text-white font-bold mb-2 text-sm">A股航运/能源板块涨幅对比</h3>
+    <h3 class="text-white font-bold mb-1 text-sm">A股航运/能源板块涨幅对比</h3>
+    <div class="text-[10px] text-steel font-mono mb-1">数据截至: {{ report_date_cn }} (北京时间)</div>
     <div id="chartAshare" class="chart-box" style="height:380px"></div>
   </div>
 
@@ -966,7 +971,8 @@ table.intel tr:hover{background:#2a345022}
 
   <!-- Chart: Gold price -->
   <div class="fade-up card p-4 mb-6">
-    <h3 class="text-white font-bold mb-2 text-sm">黄金价格走势 (2026年2月 — 3月16日, $/盎司)</h3>
+    <h3 class="text-white font-bold mb-1 text-sm">黄金价格走势 (2026年2月至今, $/盎司)</h3>
+    <div class="text-[10px] text-steel font-mono mb-1" id="goldFreshLabel"></div>
     <div id="chartGold" class="chart-box" style="height:350px"></div>
   </div>
 
@@ -1290,6 +1296,46 @@ table.intel tr:hover{background:#2a345022}
 <script>
 // ===== LIVE DATA INJECTION (auto-updated daily) =====
 window.OSINT_DATA = {{ chart_data_json }};
+
+// ===== DATA FRESHNESS LABELS =====
+(function(){
+  var F=window.OSINT_DATA&&window.OSINT_DATA.freshness;
+  if(!F)return;
+  function setLabel(id,text,isStale){
+    var el=document.getElementById(id);
+    if(!el)return;
+    if(isStale){
+      el.innerHTML='<span style="color:#ffaa00">&#x26A0; '+text+'</span>';
+    }else{
+      el.textContent=text;
+    }
+  }
+  // Oil
+  var oilLast=F.oil_last||'';
+  setLabel('oilFreshLabel','数据截至: '+oilLast+' (交易日)',false);
+  // Gold
+  var goldLast=F.gold_last||'';
+  setLabel('goldFreshLabel','数据截至: '+goldLast+' (交易日)',false);
+  // Hormuz
+  var hLast=F.hormuz_last||'';
+  var hStale=F.hormuz_stale_days||0;
+  if(hStale>1){
+    setLabel('hormuzFreshLabel','数据截至: '+hLast+' (估算值, 滞后'+hStale+'天 — 无免费实时API, 每日自动推算)',true);
+  }else{
+    setLabel('hormuzFreshLabel','数据截至: '+hLast+(F.hormuz_is_estimate?' (估算值)':''),false);
+  }
+  // VLCC
+  var vLast=F.vlcc_last||'';
+  var vStale=F.vlcc_stale_days||0;
+  if(vStale>2){
+    setLabel('vlccFreshLabel','数据截至: '+vLast+' (滞后'+vStale+'天 — 抓取源暂无更新, 等待下次成功抓取)',true);
+  }else{
+    setLabel('vlccFreshLabel','数据截至: '+vLast+(F.vlcc_is_scraped?' (已抓取)':' (历史数据)'),false);
+  }
+  // Routes
+  var rDate=F.routes_date||'';
+  setLabel('routesFreshLabel','快照日期: '+rDate+' (霍尔木兹为实时推算, 其余为最近已知值)',false);
+})();
 
 // ===== GSAP ScrollTrigger Animations =====
 gsap.registerPlugin(ScrollTrigger);

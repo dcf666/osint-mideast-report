@@ -113,19 +113,55 @@ def build_chart_data(data):
         "labels": routes.get("labels", []),
         "pre_war": routes.get("pre_war", []),
         "current": routes.get("current", []),
+        "date_label": routes.get("date_label", ""),
+    }
+
+    # Data freshness info for chart labels
+    freshness = shipping.get("freshness", {})
+    charts["freshness"] = {
+        "oil_last": brent.get("dates", [""])[-1] if brent.get("dates") else "",
+        "gold_last": gold.get("dates", [""])[-1] if gold.get("dates") else "",
+        "hormuz_last": freshness.get("hormuz_last_date", ""),
+        "hormuz_stale_days": freshness.get("hormuz_stale_days", 0),
+        "hormuz_is_estimate": freshness.get("hormuz_is_estimate", False),
+        "vlcc_last": freshness.get("vlcc_last_date", ""),
+        "vlcc_stale_days": freshness.get("vlcc_stale_days", 0),
+        "vlcc_is_scraped": freshness.get("vlcc_is_scraped", False),
+        "routes_date": freshness.get("routes_date", ""),
     }
 
     return charts
 
 
 def build_news_html(data):
-    """Build news items HTML from fetched RSS data."""
+    """Build news items HTML from fetched RSS data. Newest + most critical first."""
     news = data.get("news", [])
     if not news:
-        return '<div class="text-steel text-sm">暂无最新新闻数据</div>'
+        return '<div class="text-warn text-sm font-mono py-4 text-center">&#x26A0; 暂无最新新闻数据 — RSS源可能暂时不可用，下次自动更新时将重试</div>'
+
+    # Parse published dates for sorting
+    from email.utils import parsedate_to_datetime
+    critical_keywords = ["hormuz", "oil", "kharg", "strike", "attack", "missile", "drone",
+                         "tanker", "shipping", "hormuz", "nuclear", "escalat"]
+
+    def sort_key(n):
+        # Priority: newer + more critical = higher
+        score = 0
+        try:
+            dt = parsedate_to_datetime(n.get("published", ""))
+            score = dt.timestamp()
+        except Exception:
+            score = 0
+        # Boost critical news
+        text = (n.get("title", "") + " " + n.get("summary", "")).lower()
+        if any(kw in text for kw in critical_keywords):
+            score += 86400  # +1 day equivalent boost
+        return score
+
+    news_sorted = sorted(news, key=sort_key, reverse=True)
 
     items = []
-    for n in news[:10]:
+    for n in news_sorted[:10]:
         source = n.get("source", "")
         title = n.get("title", "")
         link = n.get("link", "#")

@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 103.56999969482422,
-      "day_change_pct": 3.35,
-      "war_change_pct": 33.23,
+      "current": 103.41999816894531,
+      "day_change_pct": 3.2,
+      "war_change_pct": 33.03,
       "dates": [
         "02/03",
         "02/04",
@@ -66,14 +66,14 @@
         100.46,
         103.14,
         100.21,
-        103.57
+        103.42
       ],
-      "updated": "2026-03-17T08:54:58.745439"
+      "updated": "2026-03-18T04:05:37.809073"
     },
     "wti": {
-      "current": 96.31999969482422,
-      "day_change_pct": 3.02,
-      "war_change_pct": 35.22,
+      "current": 96.20999908447266,
+      "day_change_pct": 2.9,
+      "war_change_pct": 35.07,
       "dates": [
         "02/03",
         "02/04",
@@ -136,14 +136,14 @@
         95.73,
         98.71,
         93.5,
-        96.32
+        96.21
       ],
-      "updated": "2026-03-17T08:54:58.813390"
+      "updated": "2026-03-18T04:05:37.862972"
     },
     "gold": {
-      "current": 5026.0,
-      "day_change_pct": 0.64,
-      "war_change_pct": -5.07,
+      "current": 5001.0,
+      "day_change_pct": 0.14,
+      "war_change_pct": -5.54,
       "dates": [
         "02/03",
         "02/04",
@@ -206,16 +206,15 @@
         5115.8,
         5052.5,
         4994.0,
-        5026.0
+        5001.0
       ],
-      "updated": "2026-03-17T08:54:58.879673"
+      "updated": "2026-03-18T04:05:37.907723"
     },
     "usd_cny": {
-      "current": 6.883399963378906,
-      "day_change_pct": -0.18,
-      "war_change_pct": 0.37,
+      "current": 6.879799842834473,
+      "day_change_pct": -1.09,
+      "war_change_pct": 0.32,
       "dates": [
-        "02/04",
         "02/05",
         "02/06",
         "02/09",
@@ -244,10 +243,10 @@
         "03/12",
         "03/13",
         "03/16",
-        "03/17"
+        "03/17",
+        "03/18"
       ],
       "prices": [
-        6.94,
         6.94,
         6.94,
         6.94,
@@ -276,9 +275,10 @@
         6.87,
         6.87,
         6.9,
+        6.96,
         6.88
       ],
-      "updated": "2026-03-17T08:54:59.019904"
+      "updated": "2026-03-18T04:05:37.957933"
     },
     "nat_gas": {
       "current": 3.0329999923706055,
@@ -348,177 +348,119 @@
         3.02,
         3.03
       ],
-      "updated": "2026-03-17T08:54:59.125132"
+      "updated": "2026-03-18T04:05:38.022159"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 16.49,
-      "change_pct": -1.55,
-      "high": 17.07,
-      "low": 16.42,
-      "volume": 1444409
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600026": {
       "name": "中远海能",
-      "price": 23.22,
-      "change_pct": -2.31,
-      "high": 24.49,
-      "low": 23.1,
-      "volume": 1041975
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.93,
-      "change_pct": 2.49,
-      "high": 5.14,
-      "low": 4.7,
-      "volume": 6240803
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600938": {
       "name": "中国海油",
-      "price": 40.46,
-      "change_pct": -1.82,
-      "high": 41.36,
-      "low": 39.9,
-      "volume": 847840
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601857": {
       "name": "中国石油",
-      "price": 12.02,
-      "change_pct": 0.25,
-      "high": 12.12,
-      "low": 11.8,
-      "volume": 2798838
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600028": {
       "name": "中国石化",
-      "price": 6.25,
-      "change_pct": -1.26,
-      "high": 6.3,
-      "low": 6.21,
-      "volume": 3162492
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "603619": {
       "name": "中曼石油",
-      "price": 35.99,
-      "change_pct": -2.78,
-      "high": 36.8,
-      "low": 35.12,
-      "volume": 395248
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600759": {
       "name": "洲际油气",
-      "price": 7.23,
-      "change_pct": -0.82,
-      "high": 7.36,
-      "low": 6.88,
-      "volume": 6440643
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601808": {
       "name": "中海油服",
-      "price": 17.77,
-      "change_pct": -0.28,
-      "high": 17.92,
-      "low": 17.33,
-      "volume": 382434
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 100.7,
-      "change_pct": -0.73,
-      "high": 105.5,
-      "low": 100.0,
-      "volume": 209705
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600803": {
       "name": "新奥股份",
-      "price": 22.46,
-      "change_pct": -1.4,
-      "high": 23.06,
-      "low": 22.31,
-      "volume": 123108
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600256": {
       "name": "广汇能源",
-      "price": 7.0,
-      "change_pct": -4.5,
-      "high": 7.32,
-      "low": 6.88,
-      "volume": 3535515
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601919": {
       "name": "中远海控",
-      "price": 16.14,
-      "change_pct": 0.37,
-      "high": 16.41,
-      "low": 16.0,
-      "volume": 1111792
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 50.5,
-      "change_pct": -0.98,
-      "high": 51.21,
-      "low": 50.32,
-      "volume": 149721
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600893": {
       "name": "航发动力",
-      "price": 53.8,
-      "change_pct": -2.59,
-      "high": 55.72,
-      "low": 53.8,
-      "volume": 258565
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600150": {
       "name": "中国船舶",
-      "price": 34.4,
-      "change_pct": -1.46,
-      "high": 35.2,
-      "low": 34.36,
-      "volume": 801264
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600547": {
       "name": "山东黄金",
-      "price": 44.5,
-      "change_pct": 0.93,
-      "high": 45.67,
-      "low": 43.99,
-      "volume": 481540
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 40.01,
-      "change_pct": 1.04,
-      "high": 41.2,
-      "low": 39.43,
-      "volume": 503743
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 29.33,
-      "change_pct": -0.14,
-      "high": 30.05,
-      "low": 29.21,
-      "volume": 595549
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601088": {
       "name": "中国神华",
-      "price": 47.74,
-      "change_pct": -1.55,
-      "high": 48.65,
-      "low": 47.21,
-      "volume": 375142
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": 0.68
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "天然气": {
       "change_pct": null,
@@ -536,42 +478,42 @@
   "news": [
     {
       "source": "Al Jazeera",
-      "title": "Palestinian refugees face new displacement as Israel’s bombs hit Lebanon",
-      "link": "https://www.aljazeera.com/features/2026/3/17/palestinian-refugees-face-new-displacement-as-israels-bombs-hit-lebanon?traffic_source=rss",
-      "published": "Tue, 17 Mar 2026 07:33:24 +0000",
-      "summary": "Lebanon&#039;s Palestinian refugees suffer amid war, facing insecurity and trauma, in camps under attack."
+      "title": "Drone attacks hit near US embassy in Baghdad",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/drone-attacks-hit-near-us-embassy-in-baghdad?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 03:26:02 +0000",
+      "summary": "Fires have broken out in Baghdad’s Green Zone after a drone swarm, purportedly launched by Iran-aligned groups."
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran is targeting ships in response to US attacks — can the US stop them?",
-      "link": "https://www.aljazeera.com/video/project-force-2/2026/3/17/iran-is-targeting-ships-in-response-to-us-attacks-can-the-us-stop-them?traffic_source=rss",
-      "published": "Tue, 17 Mar 2026 07:29:31 +0000",
-      "summary": "As the US-Israeli war against Iran continues, we look at a scenario reminiscent of the tanker war of the 1980s"
+      "title": "Experts discuss ‘Israeli strategy’ in killing of senior Iran official Ali L",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/experts-discuss-israeli-strategy-in-killing-of-senior-iran-official-ali-l?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 02:57:47 +0000",
+      "summary": "Ross Harrison joins a panel on what the US and Israel are seeking with their killing of senior Iranian leaders."
     },
     {
       "source": "Al Jazeera",
-      "title": "Israeli attacks hit Beirut, southern Lebanon, one million displaced",
-      "link": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced?traffic_source=rss",
-      "published": "Tue, 17 Mar 2026 07:00:12 +0000",
-      "summary": "Attacks hit three southern Beirut neighbourhoods, fighting in the south intensifies as Hezbollah engages Israeli army."
+      "title": "‘We’ll be doing something with Cuba very soon’, Trump says",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/well-be-doing-something-with-cuba-very-soon-trump-says?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 02:46:48 +0000",
+      "summary": "While waging war on Iran, the US president and his secretary of state are demanding a leadership change in Cuba."
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran war: What is happening on day 18 of US-Israel attacks?",
-      "link": "https://www.aljazeera.com/news/2026/3/17/iran-war-what-is-happening-on-day-18-of-us-israel-attacks?traffic_source=rss",
-      "published": "Tue, 17 Mar 2026 06:52:53 +0000",
-      "summary": "The US-Israeli attacks target Iranian cities as the conflict spreads to the region and causes a global energy crisis."
+      "title": "Iran allowing more ships through Strait of Hormuz, data suggest",
+      "link": "https://www.aljazeera.com/economy/2026/3/18/iran-allowing-more-ships-through-strait-of-hormuz-data-shows?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 02:22:54 +0000",
+      "summary": "Number of ships transiting Strait of Hormuz has nearly doubled in recent days, maritime intelligence company says."
     },
     {
       "source": "Al Jazeera",
-      "title": "Drone sparks fire at UAE oil site as Gulf takes more hits amid Iran war",
-      "link": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war?traffic_source=rss",
-      "published": "Tue, 17 Mar 2026 06:35:15 +0000",
-      "summary": "The Fujairah oil hub has been hit repeatedly by Iranian drones as the US-Israeli war continues to ignite instability."
+      "title": "Over 200 Ukrainian military experts in Gulf region to counter Iran’s drones",
+      "link": "https://www.aljazeera.com/news/2026/3/18/over-200-ukrainian-military-experts-in-gulf-region-to-counter-irans-drones?traffic_source=rss",
+      "published": "Wed, 18 Mar 2026 01:58:55 +0000",
+      "summary": "Ukraine President Zelenskyy says Moscow, Tehran &#039;brothers in hatred&#039;; claims Iran&#039;s drones &#039;contain Russian components&#039;."
     },
     {
       "source": "BBC World",
-      "title": "Trump's confidence is undimmed - but every Iran option comes with risk",
+      "title": "Surge in US gas prices deepens political peril for Trump over Iran",
       "link": "https://www.bbc.com/news/articles/c70k29914q4o?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 17 Mar 2026 00:24:01 GMT",
       "summary": "The odds of a quick resolution to the war appear to be dwindling by the day, and the political stakes for the president are only growing."
@@ -625,7 +567,10 @@
         "3/12",
         "3/13",
         "3/14",
-        "3/17"
+        "3/15",
+        "3/16",
+        "3/17",
+        "3/18"
       ],
       "transits": [
         35,
@@ -644,6 +589,9 @@
         2,
         3,
         4,
+        0,
+        0,
+        0,
         0,
         0
       ]
@@ -702,16 +650,26 @@
         23,
         21,
         69
-      ]
+      ],
+      "date_label": "3月18日"
+    },
+    "freshness": {
+      "hormuz_last_date": "2026-03-18",
+      "hormuz_stale_days": 0,
+      "hormuz_is_estimate": true,
+      "vlcc_last_date": "2026-03-13",
+      "vlcc_stale_days": 5,
+      "vlcc_is_scraped": false,
+      "routes_date": "2026-03-18"
     }
   },
   "meta": {
-    "report_date": "2026.03.17",
-    "report_date_cn": "2026年03月17日",
-    "war_day": 18,
+    "report_date": "2026.03.18",
+    "report_date_cn": "2026年03月18日",
+    "war_day": 19,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-17T08:55:52.751184",
-    "generated_at_cn": "2026-03-17 08:55:52"
+    "generated_at": "2026-03-18T12:06:05.250652+08:00",
+    "generated_at_cn": "2026-03-18 12:06:05 北京时间"
   },
   "history": [
     {
@@ -748,6 +706,20 @@
       "wti": 96.31999969482422,
       "gold": 5026.0,
       "usd_cny": 6.883399963378906
+    },
+    {
+      "date": "2026-03-18",
+      "brent": 103.41999816894531,
+      "wti": 96.20999908447266,
+      "gold": 5001.0,
+      "usd_cny": 6.880199909210205
+    },
+    {
+      "date": "2026-03-18",
+      "brent": 103.41999816894531,
+      "wti": 96.20999908447266,
+      "gold": 5001.0,
+      "usd_cny": 6.879799842834473
     }
   ]
 }
