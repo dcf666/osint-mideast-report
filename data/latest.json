@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 104.11000061035156,
-      "day_change_pct": 0.67,
-      "war_change_pct": 33.92,
+      "current": 106.1500015258789,
+      "day_change_pct": 2.64,
+      "war_change_pct": 36.54,
       "dates": [
         "02/04",
         "02/05",
@@ -66,14 +66,14 @@
         103.14,
         100.21,
         103.42,
-        104.11
+        106.15
       ],
-      "updated": "2026-03-18T15:42:57.881908"
+      "updated": "2026-03-19T03:43:24.629202"
     },
     "wti": {
-      "current": 98.12000274658203,
-      "day_change_pct": 1.99,
-      "war_change_pct": 37.75,
+      "current": 96.30999755859375,
+      "day_change_pct": 0.1,
+      "war_change_pct": 35.21,
       "dates": [
         "02/04",
         "02/05",
@@ -136,14 +136,14 @@
         98.71,
         93.5,
         96.21,
-        98.12
+        96.31
       ],
-      "updated": "2026-03-18T15:42:58.202213"
+      "updated": "2026-03-19T03:43:24.829996"
     },
     "gold": {
-      "current": 4876.39990234375,
-      "day_change_pct": -2.49,
-      "war_change_pct": -7.9,
+      "current": 4856.7001953125,
+      "day_change_pct": -2.89,
+      "war_change_pct": -8.27,
       "dates": [
         "02/04",
         "02/05",
@@ -206,16 +206,15 @@
         5052.5,
         4994.0,
         5001.0,
-        4876.4
+        4856.7
       ],
-      "updated": "2026-03-18T15:42:58.580530"
+      "updated": "2026-03-19T03:43:25.070739"
     },
     "usd_cny": {
-      "current": 6.872600078582764,
-      "day_change_pct": -1.19,
-      "war_change_pct": 0.21,
+      "current": 6.89739990234375,
+      "day_change_pct": 0.16,
+      "war_change_pct": 0.58,
       "dates": [
-        "02/05",
         "02/06",
         "02/09",
         "02/10",
@@ -244,10 +243,10 @@
         "03/13",
         "03/16",
         "03/17",
-        "03/18"
+        "03/18",
+        "03/19"
       ],
       "prices": [
-        6.94,
         6.94,
         6.94,
         6.92,
@@ -276,14 +275,15 @@
         6.87,
         6.9,
         6.96,
-        6.87
+        6.89,
+        6.9
       ],
-      "updated": "2026-03-18T15:42:58.838924"
+      "updated": "2026-03-19T03:43:25.349936"
     },
     "nat_gas": {
-      "current": 3.061000108718872,
-      "day_change_pct": 0.92,
-      "war_change_pct": 3.41,
+      "current": 3.194000005722046,
+      "day_change_pct": 5.31,
+      "war_change_pct": 7.91,
       "dates": [
         "02/04",
         "02/05",
@@ -346,193 +346,205 @@
         3.13,
         3.02,
         3.03,
-        3.06
+        3.19
       ],
-      "updated": "2026-03-18T15:42:59.165437"
+      "updated": "2026-03-19T03:43:25.559028"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 18.02,
-      "change_pct": 9.28,
-      "high": 18.14,
-      "low": 16.07,
-      "volume": 2548815
+      "price": 17.41,
+      "change_pct": -3.39,
+      "high": 18.3,
+      "low": 16.97,
+      "volume": 1205764
     },
     "600026": {
       "name": "中远海能",
-      "price": 24.88,
-      "change_pct": 7.15,
-      "high": 25.54,
-      "low": 22.67,
-      "volume": 1413916
+      "price": 23.47,
+      "change_pct": -5.67,
+      "high": 25.28,
+      "low": 23.24,
+      "volume": 736470
     },
     "601975": {
       "name": "招商南油",
-      "price": 5.0,
-      "change_pct": 1.42,
-      "high": 5.1,
-      "low": 4.62,
-      "volume": 5011088
+      "price": 4.66,
+      "change_pct": -6.8,
+      "high": 5.09,
+      "low": 4.63,
+      "volume": 3124322
     },
     "600938": {
       "name": "中国海油",
-      "price": 39.9,
-      "change_pct": -1.38,
-      "high": 40.19,
-      "low": 38.6,
-      "volume": 865980
+      "price": 40.87,
+      "change_pct": 2.43,
+      "high": 41.8,
+      "low": 40.8,
+      "volume": 755754
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.86,
-      "change_pct": -1.33,
-      "high": 11.93,
-      "low": 11.61,
-      "volume": 2159857
+      "price": 12.14,
+      "change_pct": 2.36,
+      "high": 12.38,
+      "low": 12.07,
+      "volume": 3162601
     },
     "600028": {
       "name": "中国石化",
-      "price": 6.12,
-      "change_pct": -2.08,
-      "high": 6.22,
-      "low": 6.05,
-      "volume": 3138345
+      "price": 6.2,
+      "change_pct": 1.31,
+      "high": 6.29,
+      "low": 6.18,
+      "volume": 2717758
     },
     "603619": {
       "name": "中曼石油",
-      "price": 34.62,
-      "change_pct": -3.81,
-      "high": 35.12,
-      "low": 33.94,
-      "volume": 345676
+      "price": 35.32,
+      "change_pct": 2.02,
+      "high": 36.75,
+      "low": 35.12,
+      "volume": 313256
     },
     "600759": {
       "name": "洲际油气",
-      "price": 6.65,
-      "change_pct": -8.02,
-      "high": 6.98,
-      "low": 6.51,
-      "volume": 5778852
+      "price": 6.77,
+      "change_pct": 1.8,
+      "high": 7.05,
+      "low": 6.67,
+      "volume": 4481510
     },
     "601808": {
       "name": "中海油服",
-      "price": 17.1,
-      "change_pct": -3.77,
-      "high": 17.46,
-      "low": 16.83,
-      "volume": 336024
+      "price": 17.19,
+      "change_pct": 0.53,
+      "high": 17.8,
+      "low": 17.11,
+      "volume": 284842
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 102.8,
-      "change_pct": 2.09,
-      "high": 103.83,
-      "low": 99.0,
-      "volume": 208768
+      "price": 99.03,
+      "change_pct": -3.67,
+      "high": 103.45,
+      "low": 97.99,
+      "volume": 112724
     },
     "600803": {
       "name": "新奥股份",
-      "price": 22.02,
-      "change_pct": -1.96,
-      "high": 22.46,
-      "low": 21.83,
-      "volume": 127922
+      "price": 22.83,
+      "change_pct": 3.68,
+      "high": 22.9,
+      "low": 22.06,
+      "volume": 107619
     },
     "600256": {
       "name": "广汇能源",
-      "price": 6.79,
-      "change_pct": -3.0,
-      "high": 6.91,
-      "low": 6.59,
-      "volume": 2727914
+      "price": 7.01,
+      "change_pct": 3.24,
+      "high": 7.18,
+      "low": 6.97,
+      "volume": 3010347
     },
     "601919": {
       "name": "中远海控",
-      "price": 16.2,
-      "change_pct": 0.37,
-      "high": 16.42,
-      "low": 15.98,
-      "volume": 1028569
+      "price": 16.08,
+      "change_pct": -0.74,
+      "high": 16.29,
+      "low": 16.02,
+      "volume": 559341
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 50.87,
-      "change_pct": 0.73,
-      "high": 50.89,
-      "low": 49.8,
-      "volume": 158438
+      "price": 49.91,
+      "change_pct": -1.89,
+      "high": 50.69,
+      "low": 49.87,
+      "volume": 68292
     },
     "600893": {
       "name": "航发动力",
-      "price": 54.14,
-      "change_pct": 0.63,
-      "high": 54.55,
-      "low": 53.28,
-      "volume": 244792
+      "price": 51.43,
+      "change_pct": -5.01,
+      "high": 52.85,
+      "low": 51.19,
+      "volume": 266216
     },
     "600150": {
       "name": "中国船舶",
-      "price": 34.58,
-      "change_pct": 0.52,
-      "high": 34.6,
-      "low": 34.02,
-      "volume": 708021
+      "price": 34.34,
+      "change_pct": -0.69,
+      "high": 34.71,
+      "low": 34.1,
+      "volume": 457132
     },
     "600547": {
       "name": "山东黄金",
-      "price": 43.73,
-      "change_pct": -1.73,
-      "high": 44.48,
-      "low": 43.11,
-      "volume": 376066
+      "price": 41.57,
+      "change_pct": -4.94,
+      "high": 42.44,
+      "low": 41.36,
+      "volume": 347542
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 40.82,
-      "change_pct": 2.02,
-      "high": 40.89,
-      "low": 39.55,
-      "volume": 503180
+      "price": null,
+      "change_pct": null,
+      "high": null,
+      "low": null,
+      "volume": 0
     },
     "600489": {
       "name": "中金黄金",
-      "price": 28.96,
-      "change_pct": -1.26,
-      "high": 29.4,
-      "low": 28.5,
-      "volume": 566109
+      "price": 27.24,
+      "change_pct": -5.94,
+      "high": 27.96,
+      "low": 27.1,
+      "volume": 697931
     },
     "601088": {
       "name": "中国神华",
-      "price": 47.48,
-      "change_pct": -0.54,
-      "high": 48.3,
-      "low": 46.72,
-      "volume": 321139
+      "price": 48.95,
+      "change_pct": 3.1,
+      "high": 49.22,
+      "low": 47.65,
+      "volume": 296055
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.63
+      "change_pct": -0.05
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": 0.06
+      "change_pct": -3.75
     },
     "军工": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -1.34
     },
     "黄金": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -0.72
     }
   },
   "news": [
+    {
+      "source": "BBC中文",
+      "title": "美國情報首長：伊朗政權「仍然存在」但「已大幅削弱」",
+      "link": "https://www.bbc.com/zhongwen/articles/cy4w4zp2n34o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 19 Mar 2026 03:38:24 GMT",
+      "summary": "國會議員向情報官員施壓，詢問關於伊朗戰爭的相關問題，以及伊朗伊斯蘭共和國是否曾構成迫切威脅。"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「很難阻止」——伊朗對以色列發動集束炸彈攻擊，BBC實地探訪現場",
+      "link": "https://www.bbc.com/zhongwen/articles/c39w9e11zxko/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 19 Mar 2026 03:25:02 GMT",
+      "summary": "以色列中部一枚炸彈飛入一對老年夫婦的公寓並爆炸，二人身亡。"
+    },
     {
       "source": "BBC中文",
       "title": "分析：最高安全官員拉里賈尼遇襲身亡加深伊朗核心領導層危機",
@@ -549,24 +561,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "歐洲盟友對派兵態度謹慎，特朗普的伊朗危機尚無快速解決方案",
-      "link": "https://www.bbc.com/zhongwen/articles/c74727p7q91o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Mar 2026 05:58:52 GMT",
-      "summary": "歐洲領導人對於幫助特朗普確保霍爾木茲海峽的安全猶豫不決，但他們知道在伊朗戰爭問題上不作為並非真正的選擇。"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美軍襲擊的哈爾克島對伊朗有多重要？美國會佔領這座島嗎？",
-      "link": "https://www.bbc.com/zhongwen/articles/cn87djggp5eo/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 16 Mar 2026 01:56:42 GMT",
-      "summary": "伊朗90%的原油都經由這座島上的終端輸出，原油透過管線運抵這裡。"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中共軍機「擾台」飛行出現罕見「空窗期」，對背後動機的五個解讀",
-      "link": "https://www.bbc.com/zhongwen/articles/c2lr8ejq0w8o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 13 Mar 2026 08:27:50 GMT",
-      "summary": "自2月27日起，中共解放軍軍機進入台灣ADIZ連續7至9天零偵測，創2022年以來最長空窗期。今年迄今總架次約460架，較去年減46.5%，遠低於常態。但海上活動未減，每日5–8艘軍艦與海警持續施壓。專家解讀為兩會季節低谷、軍內整肅、反腐預算控制及川習會前外交姿態甚至伊朗戰爭因素？"
+      "title": "特朗普尋求推遲訪問中國 稱需坐鎮指揮對伊朗戰爭",
+      "link": "https://www.bbc.com/zhongwen/articles/c33j36nrx7ro/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 09:03:02 GMT",
+      "summary": "美國總統特朗普（Donald Trump）週一表示，他計劃將原定於3月底進行的訪華行程推遲約一個月，以便他能集中精力處理中東戰爭。"
     },
     {
       "source": "CGTN",
@@ -605,38 +603,66 @@
     },
     {
       "source": "半岛电视台",
-      "title": "Iran threatens to strike Gulf energy facilities after South Pars attack",
-      "link": "https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 14:58:00 +0000",
-      "summary": "Qatar foreign ministry spokesman slams Israeli attack on Iran&#039;s offshore gasfield as &#039;dangerous, irresponsible step&#039;."
+      "title": "‘Does America have a plan? Israel has a plan. Does America know?’",
+      "link": "https://www.aljazeera.com/video/quotable/2026/3/19/does-america-have-a-plan-israel-has-a-plan-does-america-know?traffic_source=rss",
+      "published": "Thu, 19 Mar 2026 02:57:54 +0000",
+      "summary": "Daniel Levy, says that the US-Israel war on Iran is reckless and harms allies for Israel&#039;s benefit."
     },
     {
       "source": "半岛电视台",
-      "title": "How the killing of Iran’s Ali Larijani could impact the war",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/how-the-killing-of-irans-ali-larijani-could-impact-the-war?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 14:43:43 +0000",
-      "summary": "How will the killing of Ali Larijani impact Iran’s leadership and the country’s security?"
+      "title": "Three women killed in occupied West Bank missile attack",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/three-women-killed-in-occupied-west-bank-missile-attack?traffic_source=rss",
+      "published": "Thu, 19 Mar 2026 02:19:28 +0000",
+      "summary": "Three women in an occupied West Bank hair salon became the first Palestinian deaths of the US-Israeli war on Iran."
     },
     {
       "source": "半岛电视台",
-      "title": "Amid ruins, Palestinians struggle to preserve Gaza’s historic markets",
-      "link": "https://www.aljazeera.com/features/2026/3/18/amid-ruins-palestinians-struggle-to-preserve-gazas-historic-markets?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 14:15:52 +0000",
-      "summary": "For centuries, the Grain Market has been Khan Younis&#039;s shopping hub, but it has stood largely empty since Israel&#039;s war."
+      "title": "Saudi FM warns Iran that patience in Gulf not ‘unlimited’ amid attacks",
+      "link": "https://www.aljazeera.com/news/2026/3/19/saudi-fm-warns-iran-that-patience-in-gulf-not-unlimited-amid-attacks?traffic_source=rss",
+      "published": "Thu, 19 Mar 2026 02:11:25 +0000",
+      "summary": "Foreign minister warns Iran that regional neighbours have &#039;significant&#039; capabilities with which to respond to attacks."
     },
     {
       "source": "半岛电视台",
-      "title": "How Dubai and UAE are being affected by Iran attacks and US-Israeli war",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/how-dubai-and-uae-are-being-affected-by-iran-attacks-and-us-israeli-war?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 13:26:31 +0000",
-      "summary": "How Dubai and UAE are being affected by Iran attacks and US-Israeli war"
+      "title": "Iran war live: Qatar, Saudi energy sites attacked; Riyadh says trust gone",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/3/19/iran-war-live-qatar-saudi-energy-sites-attacked-riyadh-says-trust-gone?traffic_source=rss",
+      "published": "Thu, 19 Mar 2026 00:30:00 +0000",
+      "summary": "Iranian strikes on Gulf energy come after Israel attacked Iran&#039;s South Pars gasfield and navy assets in the north."
     },
     {
       "source": "半岛电视台",
-      "title": "Israel says it killed Iranian intelligence chief Khatib",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/israel-says-it-killed-iranian-intelligence-chief-khatib?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 13:15:07 +0000",
-      "summary": "Israel’s Defence Minister Israel Katz said an overnight strike killed Iran’s Intelligence Minister Esmail Khatib."
+      "title": "Qatar expels Iranian attaches after LNG facility strike",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/qatar-expels-iranian-attaches-after-lng-facility-strike?traffic_source=rss",
+      "published": "Thu, 19 Mar 2026 00:20:00 +0000",
+      "summary": "Qatar is expelling Iran’s military and security attaches after Iranian missiles caused “extensive damage” to Ras Laffan."
+    },
+    {
+      "source": "BBC中东",
+      "title": "'Very difficult to stop': BBC visits scene of Iran cluster bomb strike on Israel",
+      "link": "https://www.bbc.com/news/articles/cwy9yldgn7qo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 16:04:29 GMT",
+      "summary": "An elderly couple was killed after a bomb flew into their apartment in central Israel and exploded."
+    },
+    {
+      "source": "BBC中东",
+      "title": "Why the Strait of Hormuz matters so much in the Iran war",
+      "link": "https://www.bbc.com/news/articles/c78n6p09pzno?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 13:54:46 GMT",
+      "summary": "Iran says it will \"set fire\" to ships trying to sail through the world's most vital oil transit point."
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iran's intelligence minister Esmail Khatib killed in air strike",
+      "link": "https://www.bbc.com/news/articles/c2d1dz14k51o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 17:05:46 GMT",
+      "summary": "Israel said it had killed Khatib, whose death was confirmed by Iranian President Masoud Pezeshkian on Wednesday."
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israel destroys river bridges in southern Lebanon",
+      "link": "https://www.bbc.com/news/articles/cvg8g98ezmzo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 19:40:15 GMT",
+      "summary": "The health ministry says that 968 people, including more than 100 children, have been killed since 2 March."
     },
     {
       "source": "BBC中东",
@@ -644,34 +670,6 @@
       "link": "https://www.bbc.com/news/articles/c70k29914q4o?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 17 Mar 2026 00:24:01 GMT",
       "summary": "The odds of a quick resolution to the war appear to be dwindling by the day, and the political stakes for the president are only growing."
-    },
-    {
-      "source": "BBC中东",
-      "title": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
-      "link": "https://www.bbc.com/news/articles/c70n2x7p22do?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 16 Mar 2026 17:57:45 GMT",
-      "summary": "Khaled Bani Odeh's parents and two brothers were shot dead as they drove home from a shopping trip in the occupied West Bank."
-    },
-    {
-      "source": "BBC中东",
-      "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
-      "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 16 Mar 2026 17:34:13 GMT",
-      "summary": "European leaders are hesitant to help Trump secure the Strait of Hormuz, but they know inaction on the Iran war is not really an option."
-    },
-    {
-      "source": "BBC中东",
-      "title": "Israel says 'limited' ground operations under way in Lebanon",
-      "link": "https://www.bbc.com/news/articles/clyz78kgp22o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Mar 2026 05:03:13 GMT",
-      "summary": "Troops are targeting \"Hezbollah strongholds\" in south Lebanon, where strikes reportedly killed nine people on Monday."
-    },
-    {
-      "source": "BBC中东",
-      "title": "How might the UK support shipping in the Strait of Hormuz?",
-      "link": "https://www.bbc.com/news/videos/cvgj29dgrxwo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 16 Mar 2026 18:52:34 GMT",
-      "summary": "Ben Chu from BBC Verify has been looking at what role the Royal Navy could play in the Strait of Hormuz."
     }
   ],
   "shipping": {
@@ -697,7 +695,8 @@
         "3/15",
         "3/16",
         "3/17",
-        "3/18"
+        "3/18",
+        "3/19"
       ],
       "transits": [
         35,
@@ -716,6 +715,7 @@
         2,
         3,
         4,
+        0,
         0,
         0,
         0,
@@ -778,25 +778,25 @@
         21,
         69
       ],
-      "date_label": "3月18日"
+      "date_label": "3月19日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-03-18",
+      "hormuz_last_date": "2026-03-19",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 5,
+      "vlcc_stale_days": 6,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-03-18"
+      "routes_date": "2026-03-19"
     }
   },
   "meta": {
-    "report_date": "2026.03.18",
-    "report_date_cn": "2026年03月18日",
-    "war_day": 19,
+    "report_date": "2026.03.19",
+    "report_date_cn": "2026年03月19日",
+    "war_day": 20,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-18T23:43:52.940101+08:00",
-    "generated_at_cn": "2026-03-18 23:43:52 北京时间"
+    "generated_at": "2026-03-19T11:44:27.011613+08:00",
+    "generated_at_cn": "2026-03-19 11:44:27 北京时间"
   },
   "history": [
     {
@@ -868,6 +868,13 @@
       "wti": 98.12000274658203,
       "gold": 4876.39990234375,
       "usd_cny": 6.872600078582764
+    },
+    {
+      "date": "2026-03-19",
+      "brent": 106.1500015258789,
+      "wti": 96.30999755859375,
+      "gold": 4856.7001953125,
+      "usd_cny": 6.89739990234375
     }
   ]
 }
