@@ -362,8 +362,11 @@
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 23.79,
+      "change_pct": 0.25,
+      "high": 24.66,
+      "low": 22.88,
+      "volume": 686131
     },
     "601975": {
       "name": "招商南油",
@@ -383,8 +386,11 @@
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 12.26,
+      "change_pct": -1.76,
+      "high": 12.35,
+      "low": 11.9,
+      "volume": 1916048
     },
     "600028": {
       "name": "中国石化",
@@ -404,8 +410,11 @@
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 6.8,
+      "change_pct": -5.29,
+      "high": 6.94,
+      "low": 6.62,
+      "volume": 3163364
     },
     "601808": {
       "name": "中海油服",
@@ -497,8 +506,11 @@
     },
     "601088": {
       "name": "中国神华",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 49.36,
+      "change_pct": -0.22,
+      "high": 49.78,
+      "low": 48.31,
+      "volume": 213647
     }
   },
   "sectors": {
