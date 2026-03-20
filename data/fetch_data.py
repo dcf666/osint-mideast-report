@@ -59,11 +59,11 @@ SECTOR_CODES = {
     "LNG": "BK0478",
 }
 
-# RSS feeds for news (Chinese-language sources + English Middle East feeds)
+# RSS feeds for news (Chinese-language sources prioritized)
 RSS_FEEDS = {
     "BBC中文": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
-    "CGTN": "https://www.cgtn.com/subscribe/rss/section/world.xml",
-    "半岛电视台": "https://www.aljazeera.com/xml/rss/all.xml",
+    "德国之声": "https://rss.dw.com/xml/rss-chi-all",
+    "FT中文网": "https://www.ftchinese.com/rss/news",
     "BBC中东": "http://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
 }
 
@@ -459,6 +459,14 @@ def fetch_shipping_data():
     return shipping
 
 
+def _is_chinese(text):
+    """Check if text contains significant Chinese characters."""
+    if not text:
+        return False
+    cn_count = sum(1 for c in text if '\u4e00' <= c <= '\u9fff')
+    return cn_count > len(text) * 0.15
+
+
 def fetch_news():
     """Fetch latest Middle East news from RSS feeds (Chinese + English sources)."""
     news = []
@@ -470,8 +478,9 @@ def fetch_news():
         "黎巴嫩", "真主党", "导弹", "无人机", "空袭", "航运",
         "海峡", "制裁", "战争", "冲突", "军事", "海军",
         "布伦特", "运价", "能源", "天然气", "LNG",
+        "哈尔克", "特朗普", "拜登", "石油", "停火",
     ]
-    # English keywords (for English-language feeds like Al Jazeera)
+    # English keywords (for English-language feeds)
     keywords_en = [
         "iran", "israel", "hormuz", "middle east", "tehran",
         "gulf", "oil", "tanker", "houthi", "red sea", "kharg",
@@ -483,7 +492,7 @@ def fetch_news():
         try:
             feed = feedparser.parse(feed_url)
             count = 0
-            for entry in feed.entries[:30]:
+            for entry in feed.entries[:40]:
                 title = entry.get("title", "")
                 summary = entry.get("summary", "")
                 text = title + " " + summary
@@ -493,6 +502,7 @@ def fetch_news():
                 matched = any(kw in text for kw in keywords_cn) or any(kw in text_lower for kw in keywords_en)
 
                 if matched:
+                    is_cn = _is_chinese(title)
                     news.append(
                         {
                             "source": source_name,
@@ -500,10 +510,11 @@ def fetch_news():
                             "link": entry.get("link", ""),
                             "published": entry.get("published", ""),
                             "summary": summary[:200],
+                            "lang": "zh" if is_cn else "en",
                         }
                     )
                     count += 1
-                    if count >= 5:
+                    if count >= 8:
                         break
 
             print(f"  [OK] {source_name}: {count} relevant articles")
@@ -511,7 +522,11 @@ def fetch_news():
         except Exception as e:
             print(f"  [ERR] {source_name}: {e}")
 
-    return news[:20]
+    # Sort: Chinese articles first, then English
+    news_cn = [n for n in news if n.get("lang") == "zh"]
+    news_en = [n for n in news if n.get("lang") == "en"]
+    combined = news_cn + news_en
+    return combined[:25]
 
 
 def compute_meta():

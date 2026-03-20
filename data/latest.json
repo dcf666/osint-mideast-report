@@ -1,12 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 109.7699966430664,
-      "day_change_pct": 6.14,
-      "war_change_pct": 41.2,
+      "current": 103.30000305175781,
+      "day_change_pct": -4.92,
+      "war_change_pct": 32.88,
       "dates": [
-        "02/04",
-        "02/05",
         "02/06",
         "02/09",
         "02/10",
@@ -34,11 +32,11 @@
         "03/13",
         "03/16",
         "03/17",
-        "03/18"
+        "03/18",
+        "03/19",
+        "03/20"
       ],
       "prices": [
-        69.46,
-        67.55,
         68.05,
         69.04,
         68.8,
@@ -66,17 +64,17 @@
         103.14,
         100.21,
         103.42,
-        109.77
+        107.38,
+        108.65,
+        103.3
       ],
-      "updated": "2026-03-18T15:03:39.975871"
+      "updated": "2026-03-20T07:52:32.173529"
     },
     "wti": {
-      "current": 98.55999755859375,
-      "day_change_pct": 2.44,
-      "war_change_pct": 38.37,
+      "current": 94.0,
+      "day_change_pct": -2.23,
+      "war_change_pct": 31.97,
       "dates": [
-        "02/04",
-        "02/05",
         "02/06",
         "02/09",
         "02/10",
@@ -104,11 +102,11 @@
         "03/13",
         "03/16",
         "03/17",
-        "03/18"
+        "03/18",
+        "03/19",
+        "03/20"
       ],
       "prices": [
-        65.14,
-        63.29,
         63.55,
         64.36,
         63.96,
@@ -136,17 +134,17 @@
         98.71,
         93.5,
         96.21,
-        98.56
+        96.32,
+        96.14,
+        94.0
       ],
-      "updated": "2026-03-18T15:03:40.023483"
+      "updated": "2026-03-20T07:52:32.222173"
     },
     "gold": {
-      "current": 4866.2998046875,
-      "day_change_pct": -2.69,
-      "war_change_pct": -8.09,
+      "current": 4699.0,
+      "day_change_pct": 2.14,
+      "war_change_pct": -11.25,
       "dates": [
-        "02/04",
-        "02/05",
         "02/06",
         "02/09",
         "02/10",
@@ -174,11 +172,11 @@
         "03/13",
         "03/16",
         "03/17",
-        "03/18"
+        "03/18",
+        "03/19",
+        "03/20"
       ],
       "prices": [
-        4920.4,
-        4861.4,
         4951.2,
         5050.9,
         5003.8,
@@ -206,17 +204,17 @@
         5052.5,
         4994.0,
         5001.0,
-        4866.3
+        4889.9,
+        4600.7,
+        4699.0
       ],
-      "updated": "2026-03-18T15:03:40.068183"
+      "updated": "2026-03-20T07:52:32.264770"
     },
     "usd_cny": {
-      "current": 6.872099876403809,
-      "day_change_pct": -1.2,
-      "war_change_pct": 0.21,
+      "current": 6.882400035858154,
+      "day_change_pct": 0.14,
+      "war_change_pct": 0.36,
       "dates": [
-        "02/05",
-        "02/06",
         "02/09",
         "02/10",
         "02/11",
@@ -244,11 +242,11 @@
         "03/13",
         "03/16",
         "03/17",
-        "03/18"
+        "03/18",
+        "03/19",
+        "03/20"
       ],
       "prices": [
-        6.94,
-        6.94,
         6.94,
         6.92,
         6.91,
@@ -276,17 +274,17 @@
         6.87,
         6.9,
         6.96,
-        6.87
+        6.89,
+        6.87,
+        6.88
       ],
-      "updated": "2026-03-18T15:03:40.123462"
+      "updated": "2026-03-20T07:52:32.327834"
     },
     "nat_gas": {
-      "current": 3.069999933242798,
-      "day_change_pct": 1.22,
-      "war_change_pct": 3.72,
+      "current": 3.11899995803833,
+      "day_change_pct": -1.48,
+      "war_change_pct": 5.37,
       "dates": [
-        "02/04",
-        "02/05",
         "02/06",
         "02/09",
         "02/10",
@@ -314,11 +312,11 @@
         "03/13",
         "03/16",
         "03/17",
-        "03/18"
+        "03/18",
+        "03/19",
+        "03/20"
       ],
       "prices": [
-        3.46,
-        3.51,
         3.42,
         3.14,
         3.12,
@@ -346,16 +344,21 @@
         3.13,
         3.02,
         3.03,
-        3.07
+        3.07,
+        3.17,
+        3.12
       ],
-      "updated": "2026-03-18T15:03:40.182650"
+      "updated": "2026-03-20T07:52:32.377091"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 16.78,
+      "change_pct": -4.98,
+      "high": 17.78,
+      "low": 16.59,
+      "volume": 1874487
     },
     "600026": {
       "name": "中远海能",
@@ -364,13 +367,19 @@
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 4.52,
+      "change_pct": -3.42,
+      "high": 4.74,
+      "low": 4.52,
+      "volume": 2870441
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 41.91,
+      "change_pct": -0.78,
+      "high": 42.33,
+      "low": 40.31,
+      "volume": 925306
     },
     "601857": {
       "name": "中国石油",
@@ -379,13 +388,19 @@
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 6.08,
+      "change_pct": -3.18,
+      "high": 6.18,
+      "low": 6.05,
+      "volume": 2897698
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 34.08,
+      "change_pct": -6.12,
+      "high": 34.98,
+      "low": 33.79,
+      "volume": 324099
     },
     "600759": {
       "name": "洲际油气",
@@ -394,58 +409,91 @@
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 16.81,
+      "change_pct": -3.34,
+      "high": 16.99,
+      "low": 16.6,
+      "volume": 334185
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 96.16,
+      "change_pct": -1.87,
+      "high": 100.32,
+      "low": 96.0,
+      "volume": 158755
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 23.63,
+      "change_pct": 2.69,
+      "high": 24.0,
+      "low": 22.1,
+      "volume": 299897
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 7.12,
+      "change_pct": null,
+      "high": 7.27,
+      "low": 6.83,
+      "volume": 3630494
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 15.83,
+      "change_pct": -0.94,
+      "high": 15.96,
+      "low": 15.65,
+      "volume": 1486433
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 47.58,
+      "change_pct": -3.86,
+      "high": 49.69,
+      "low": 47.42,
+      "volume": 272709
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 49.44,
+      "change_pct": -3.29,
+      "high": 51.65,
+      "low": 49.43,
+      "volume": 403763
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 33.15,
+      "change_pct": -2.96,
+      "high": 34.41,
+      "low": 33.15,
+      "volume": 970724
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 39.69,
+      "change_pct": -2.36,
+      "high": 41.14,
+      "low": 39.47,
+      "volume": 630804
     },
     "600988": {
       "name": "赤峰黄金",
       "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": null,
+      "high": null,
+      "low": null,
+      "volume": 0
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 26.08,
+      "change_pct": -2.32,
+      "high": 27.39,
+      "low": 26.08,
+      "volume": 877918
     },
     "601088": {
       "name": "中国神华",
@@ -455,166 +503,221 @@
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -0.39
     },
     "石油": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -1.99
     },
     "军工": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -1.64
     },
     "黄金": {
-      "change_pct": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "change_pct": -1.57
     }
   },
   "news": [
     {
       "source": "BBC中文",
-      "title": "分析：最高安全官員拉里賈尼遇襲身亡加深伊朗核心領導層危機",
-      "link": "https://www.bbc.com/zhongwen/articles/c5yrym9ym20o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 18 Mar 2026 02:57:13 GMT",
-      "summary": "拉里賈尼的死不僅僅是伊朗失去一位官員。它加深了一場領導危機，而這場危機可能會同時影響戰爭的走向以及伊朗政權的整體穩定。"
+      "title": "解碼特朗普貼文：美國與以色列在伊朗戰爭上步調一致嗎？",
+      "link": "https://www.bbc.com/zhongwen/articles/cq59d0j9971o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 20 Mar 2026 07:13:03 GMT",
+      "summary": "在天然氣田遭攻擊後，特朗普於「真相社交」（Truth Social）上發表的貼文，揭示了美國和以色列在戰爭策略上的一致程度究竟為何。",
+      "lang": "zh"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「很難阻止」——伊朗對以色列發動集束炸彈攻擊，BBC實地探訪現場",
+      "link": "https://www.bbc.com/zhongwen/articles/c39w9e11zxko/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 19 Mar 2026 03:25:02 GMT",
+      "summary": "以色列中部一枚炸彈飛入一對老年夫婦的公寓並爆炸，二人身亡。",
+      "lang": "zh"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國情報首長：伊朗政權「仍然存在」但「已大幅削弱」",
+      "link": "https://www.bbc.com/zhongwen/articles/cy4w4zp2n34o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 19 Mar 2026 03:38:24 GMT",
+      "summary": "國會議員向情報官員施壓，詢問關於伊朗戰爭的相關問題，以及伊朗伊斯蘭共和國是否曾構成迫切威脅。",
+      "lang": "zh"
+    },
+    {
+      "source": "BBC中文",
+      "title": "特朗普計劃推遲訪華　對中國來說意味著什麼",
+      "link": "https://www.bbc.com/zhongwen/articles/c39w9xm01w7o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 08:59:26 GMT",
+      "summary": "對於中國來說，這一變數可能提供了調整談判策略的空間，但也存在風險。",
+      "lang": "zh"
+    },
+    {
+      "source": "BBC中文",
+      "title": "關於派軍艦前往霍爾木茲海峽，美國盟友和中國說了什麼？",
+      "link": "https://www.bbc.com/zhongwen/articles/cjd9d37191eo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 03:51:55 GMT",
+      "summary": "美國盟友對特朗普最初要求派遣軍艦前往霍爾木茲海峽的呼籲，或提出質疑，或保持謹慎態度。",
+      "lang": "zh"
     },
     {
       "source": "BBC中文",
       "title": "戰爭期間，民航客機如何維持飛行？",
       "link": "https://www.bbc.com/zhongwen/articles/c4g0gkzmd8mo/trad?at_medium=RSS&at_campaign=rss",
       "published": "Wed, 18 Mar 2026 08:25:03 GMT",
-      "summary": "在飛彈襲擊後，伊朗和波斯灣上空的空域受到嚴格限制，讓航空公司面臨更大壓力。"
+      "summary": "在飛彈襲擊後，伊朗和波斯灣上空的空域受到嚴格限制，讓航空公司面臨更大壓力。",
+      "lang": "zh"
     },
     {
       "source": "BBC中文",
-      "title": "歐洲盟友對派兵態度謹慎，特朗普的伊朗危機尚無快速解決方案",
-      "link": "https://www.bbc.com/zhongwen/articles/c74727p7q91o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Mar 2026 05:58:52 GMT",
-      "summary": "歐洲領導人對於幫助特朗普確保霍爾木茲海峽的安全猶豫不決，但他們知道在伊朗戰爭問題上不作為並非真正的選擇。"
+      "title": "特朗普尋求推遲訪問中國 稱需坐鎮指揮對伊朗戰爭",
+      "link": "https://www.bbc.com/zhongwen/articles/c33j36nrx7ro/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 09:03:02 GMT",
+      "summary": "美國總統特朗普（Donald Trump）週一表示，他計劃將原定於3月底進行的訪華行程推遲約一個月，以便他能集中精力處理中東戰爭。",
+      "lang": "zh"
     },
     {
       "source": "BBC中文",
-      "title": "美軍襲擊的哈爾克島對伊朗有多重要？美國會佔領這座島嗎？",
-      "link": "https://www.bbc.com/zhongwen/articles/cn87djggp5eo/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 16 Mar 2026 01:56:42 GMT",
-      "summary": "伊朗90%的原油都經由這座島上的終端輸出，原油透過管線運抵這裡。"
+      "title": "伊朗戰爭激化：中國有何盤算？如何影響習特會談？",
+      "link": "https://www.bbc.com/zhongwen/articles/cn5gn0zrd0vo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 12 Mar 2026 17:37:54 GMT",
+      "summary": "中國是伊朗最大的石油買家，長期以來與伊朗保持密切外交關係。如今德黑蘭遭受攻擊，中國強烈譴責美國空襲，但對伊朗的支持是否僅止於口頭？BBC駐中國記者碧嘉蘭以及中伊關係專家威廉·菲格羅，一同剖析最新局勢。",
+      "lang": "zh"
     },
     {
-      "source": "BBC中文",
-      "title": "中共軍機「擾台」飛行出現罕見「空窗期」，對背後動機的五個解讀",
-      "link": "https://www.bbc.com/zhongwen/articles/c2lr8ejq0w8o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 13 Mar 2026 08:27:50 GMT",
-      "summary": "自2月27日起，中共解放軍軍機進入台灣ADIZ連續7至9天零偵測，創2022年以來最長空窗期。今年迄今總架次約460架，較去年減46.5%，遠低於常態。但海上活動未減，每日5–8艘軍艦與海警持續施壓。專家解讀為兩會季節低谷、軍內整肅、反腐預算控制及川習會前外交姿態甚至伊朗戰爭因素？"
+      "source": "德国之声",
+      "title": "川普會晤高市早苗稱：將在習近平面前為日本美言",
+      "link": "https://www.dw.com/zh/川普會晤高市早苗稱：將在習近平面前為日本美言/a-76443357?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 20 Mar 2026 05:56:00 GMT",
+      "summary": "美國總統川普週四（3月19日）在白宮會晤日本首相高市早苗，雙方談及伊朗局勢與對中關係，並宣布將在經濟安全、能源與關鍵礦產等議題擴大合作，包括日本對美投資最高達730億美元。",
+      "lang": "zh"
     },
     {
-      "source": "CGTN",
-      "title": "Obituary: Iran's Ali Larijani killed in Israeli airstrike",
-      "link": "https://news.cgtn.com/news/2026-03-18/Obituary-Iran-s-Ali-Larijani-killed-in-Israeli-airstrike-1LBwL3YNcis/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-      "published": "Wed, 18 Mar 2026 02:07:43 GMT",
-      "summary": "Veteran Iranian politician Ali Larijani was one of the most powerful figures in the Islamic Republic, a close adviser to Ayatollah Ali Khamenei until the supreme leader's death in an airstrike last mo"
+      "source": "德国之声",
+      "title": "伊朗涉抗议活动处决三人 包括19岁摔跤手",
+      "link": "https://www.dw.com/zh/伊朗涉抗议活动处决三人-包括19岁摔跤手/a-76436338?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Thu, 19 Mar 2026 15:15:00 GMT",
+      "summary": "伊朗周四处决了三名男子，他们被控在1月的抗议活动中杀害警察。这是伊朗今年爆发全国性示威活动以来，官方宣布的与抗议活动相关的首批处决。活动人士警告称，随着伊朗与以色列和美国之间的战争持续升级，可能会出现新一轮的行刑潮。",
+      "lang": "zh"
     },
     {
-      "source": "CGTN",
-      "title": "Israeli defense minister says Iran's Ali Larijani killed",
-      "link": "https://news.cgtn.com/news/2026-03-17/news-1LAwgPpckcU/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-      "published": "Tue, 17 Mar 2026 09:24:16 GMT",
-      "summary": "Israeli defense minister says Iran's Ali Larijani killed"
+      "source": "德国之声",
+      "title": "伊朗考虑征收海峡过路费 以色列称战争是“福报”",
+      "link": "https://www.dw.com/zh/伊朗考虑征收海峡过路费-以色列称战争是-福报/a-76436643?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Thu, 19 Mar 2026 15:09:00 GMT",
+      "summary": "霍尔木兹海峡遭到伊朗封锁，已经让全球能源价格疯涨，同时也影响到伊朗自身的石油出口贸易。现在，德黑兰考虑征收海峡过路费，继续封锁美国盟友船只的同时、提升本国收入。美国防长则表示，没有为战争结束设立时间表。以色列一名高官甚至说，战争是“福报”。",
+      "lang": "zh"
     },
     {
-      "source": "CGTN",
-      "title": "China opposes EU's unilateral sanctions against Chinese entities",
-      "link": "https://news.cgtn.com/news/2026-03-17/China-opposes-EU-s-unilateral-sanctions-against-Chinese-entities-1LAp3MQ5vlm/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-      "published": "Tue, 17 Mar 2026 08:06:31 GMT",
-      "summary": "A Chinese Foreign Ministry spokesperson said on Tuesday that China firmly opposes illegal unilateral sanctions imposed by the European Union (EU) against Chinese entities."
+      "source": "德国之声",
+      "title": "台北驳斥北京“和平统一能源论” 批认知作战",
+      "link": "https://www.dw.com/zh/台北驳斥北京-和平统一能源论-批认知作战/a-76431240?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Thu, 19 Mar 2026 14:50:00 GMT",
+      "summary": "中国国台办再次表示，若实现和平统一，将为台湾的能源安全提供可靠保障。台湾官方回应称之为“认知作战的一部分”，并强调即便在目前中东战事动荡情况下，亦将确保能源供应无虞。",
+      "lang": "zh"
     },
     {
-      "source": "CGTN",
-      "title": "US says its forces bombed Iranian missile sites near Strait of Hormuz",
-      "link": "https://news.cgtn.com/news/2026-03-18/news-1LBslIRqVcQ/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-      "published": "Tue, 17 Mar 2026 22:57:00 GMT",
-      "summary": "US says its forces bombed Iranian missile sites near Strait of Hormuz"
+      "source": "德国之声",
+      "title": "欧洲央行宣布维持欧元区三大关键利率不变",
+      "link": "https://www.dw.com/zh/欧洲央行宣布维持欧元区三大关键利率不变/a-76436134?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Thu, 19 Mar 2026 14:47:00 GMT",
+      "summary": "欧洲央行宣布欧元区关键利率维持在2.0%。尽管能源价格上涨可能导致通胀加剧，但欧洲央行并未调整利率。欧洲央行同时表示，当前欧元区通胀水平总体接近2%的目标，将继续致力于确保通胀中期稳定在2%的水平。",
+      "lang": "zh"
     },
     {
-      "source": "CGTN",
-      "title": "Israeli settlement expansion fuels Palestinian displacement: UN report",
-      "link": "https://news.cgtn.com/news/2026-03-17/Israeli-settlement-expansion-fuels-Palestinian-displacement-UN-report-1LAL5NZhJTi/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-      "published": "Tue, 17 Mar 2026 13:37:58 GMT",
-      "summary": "A report released on Tuesday by the Office of the UN High Commissioner for Human Rights said the Israeli government has accelerated the expansion of unlawful settlements in the West Bank, including Ea"
+      "source": "德国之声",
+      "title": "以色列空袭伊朗气田 德黑兰报复波斯湾邻国",
+      "link": "https://www.dw.com/zh/以色列空袭伊朗气田-德黑兰报复波斯湾邻国/a-76429842?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Thu, 19 Mar 2026 12:00:00 GMT",
+      "summary": "在以色列攻击了伊朗的大型天然气田后，卡塔尔、沙特阿拉伯、科威特等波斯湾邻国的能源设施纷纷遭到了伊朗的报复性袭击。特朗普表示，事先对以色列的袭击行动毫不知情，但是又警告说如果伊朗继续报复其他国家，其天然气设施就会被彻底摧毁。",
+      "lang": "zh"
     },
     {
-      "source": "半岛电视台",
-      "title": "Amid ruins, Palestinians struggle to preserve Gaza’s historic markets",
-      "link": "https://www.aljazeera.com/features/2026/3/18/amid-ruins-palestinians-struggle-to-preserve-gazas-historic-markets?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 14:15:52 +0000",
-      "summary": "For centuries, the Grain Market has been Khan Younis&#039;s shopping hub, but it has stood largely empty since Israel&#039;s war."
+      "source": "德国之声",
+      "title": "德语媒体：伊朗战争阴影下 中美如何相互试探和权衡",
+      "link": "https://www.dw.com/zh/德语媒体：伊朗战争阴影下-中美如何相互试探和权衡/a-76415934?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 18 Mar 2026 15:20:00 GMT",
+      "summary": "《南德意志报》分析文章指出，迄今为止，中国虽然没有卷入伊朗战争，但中国的战略处境却也变得越来越艰难。《日报》评论认为，伊朗战事的僵持以及欧洲的沉默，正在为北京塑造“国际秩序捍卫者”形象提供千载难逢的机会。",
+      "lang": "zh"
     },
     {
-      "source": "半岛电视台",
-      "title": "How Dubai and UAE are being affected by Iran attacks and US-Israeli war",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/how-dubai-and-uae-are-being-affected-by-iran-attacks-and-us-israeli-war?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 13:26:31 +0000",
-      "summary": "How Dubai and UAE are being affected by Iran attacks and US-Israeli war"
+      "source": "德国之声",
+      "title": "霍尔木兹海峡：伊朗选择性放行 中国船是少数",
+      "link": "https://www.dw.com/zh/霍尔木兹海峡：伊朗选择性放行-中国船是少数/a-76413826?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 18 Mar 2026 15:19:00 GMT",
+      "summary": "海事和贸易平台数据显示，自伊朗战争爆发以来，约有90艘船只（包括油轮）穿越了霍尔木兹海峡。但这些船只中，没有中国大型国企的油轮。",
+      "lang": "zh"
     },
     {
-      "source": "半岛电视台",
-      "title": "Israel says it killed Iranian intelligence chief Khatib",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/israel-says-it-killed-iranian-intelligence-chief-khatib?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 13:15:07 +0000",
-      "summary": "Israel’s Defence Minister Israel Katz said an overnight strike killed Iran’s Intelligence Minister Esmail Khatib."
+      "source": "FT中文网",
+      "title": "伊朗导弹袭击令天然气市场出现“末日情境”",
+      "link": "https://www.ftchinese.com/story/001109237",
+      "published": "Thu, 19 Mar 2026 16:00:00 GMT",
+      "summary": "占全球液化天然气供应量五分之一的卡塔尔拉斯拉凡天然气设施严重受损。交易员和分析师警告，恢复生产至少需要数月时间。",
+      "lang": "zh"
     },
     {
-      "source": "半岛电视台",
-      "title": "Iran announces arrests, says US and Israel suffering ‘defeats’",
-      "link": "https://www.aljazeera.com/news/2026/3/18/iran-announces-arrests-says-us-and-israel-suffering?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 13:10:31 +0000",
-      "summary": "Hundreds have been arrested as Iran cracks down on &#039;traitors&#039; following killing of Larijani, Soleimani."
+      "source": "FT中文网",
+      "title": "伊朗战火推高英国通胀预期",
+      "link": "https://www.ftchinese.com/story/001109225",
+      "published": "Wed, 18 Mar 2026 16:00:00 GMT",
+      "summary": "由于伊朗战争引发能源价格飙涨，经济学家们目前预计第四季度英国年通胀率将达到2.6%，远高于本月早些时候英国预算责任办公室预测的1.9%。",
+      "lang": "zh"
     },
     {
-      "source": "半岛电视台",
-      "title": "Iran holds funerals for officials Larijani and Soleimani",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/iran-holds-funerals-for-officials-larijani-and-soleimani?traffic_source=rss",
-      "published": "Wed, 18 Mar 2026 13:03:23 +0000",
-      "summary": "Iranians have attended funeral processions for senior security officials Ali Larijani and Gholamreza Soleimani."
+      "source": "FT中文网",
+      "title": "伊朗战火驱使投资者增持现金",
+      "link": "https://www.ftchinese.com/story/001109216",
+      "published": "Tue, 17 Mar 2026 16:00:00 GMT",
+      "summary": "美银的调查显示，基金经理的现金持有比例3月升至4.3%，高于2月的3.4%，创下自新冠疫情爆发以来最大幅度的单月上升。",
+      "lang": "zh"
+    },
+    {
+      "source": "FT中文网",
+      "title": "特朗普因伊朗战事要求推迟访华",
+      "link": "https://www.ftchinese.com/story/001109209",
+      "published": "Mon, 16 Mar 2026 16:00:00 GMT",
+      "summary": "特朗普周一下午在椭圆形办公室告诉媒体，他希望将美中领导人的北京峰会推迟一个月，因为他需要留在华盛顿处理伊朗战争事宜。",
+      "lang": "zh"
+    },
+    {
+      "source": "FT中文网",
+      "title": "美国与墨西哥对《美墨加协定》启动审查",
+      "link": "https://www.ftchinese.com/story/001109196",
+      "published": "Sun, 15 Mar 2026 16:00:00 GMT",
+      "summary": "墨西哥担心特朗普可能会要求对《美墨加协定》(USMCA)做出重大修改，因为美国总统已屡次发表对该协定不屑一顾的言论。",
+      "lang": "zh"
+    },
+    {
+      "source": "FT中文网",
+      "title": "困在海湾的油轮已成“活靶子”",
+      "link": "https://www.ftchinese.com/story/001109179",
+      "published": "Thu, 12 Mar 2026 16:00:00 GMT",
+      "summary": "伊朗扩大对海湾航运的袭击，同时没什么迹象表明特朗普承诺的海军护航能够在未来几周启动，上百艘滞留海湾的油轮进退两难。",
+      "lang": "zh"
+    },
+    {
+      "source": "FT中文网",
+      "title": "欧盟酝酿设定天然气价格上限",
+      "link": "https://www.ftchinese.com/story/001109169",
+      "published": "Wed, 11 Mar 2026 16:00:00 GMT",
+      "summary": "欧盟委员会主席冯德莱恩称，欧盟正在考虑提供价格补贴或设定上限等一系列措施，以求“立即缓解”中东冲突引起的欧洲能源价格上涨。",
+      "lang": "zh"
+    },
+    {
+      "source": "FT中文网",
+      "title": "德国今年开局“非常疲弱”给复苏前景带来变数",
+      "link": "https://www.ftchinese.com/story/001109161",
+      "published": "Tue, 10 Mar 2026 16:00:00 GMT",
+      "summary": "在中东战火推高能源价格之前，德国的出口和制造业就相当疲弱，令人质疑欧洲最大经济体还能不能在2026年反弹。",
+      "lang": "zh"
     },
     {
       "source": "BBC中东",
-      "title": "Surge in US gas prices deepens political peril for Trump over Iran",
-      "link": "https://www.bbc.com/news/articles/c70k29914q4o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Mar 2026 00:24:01 GMT",
-      "summary": "The odds of a quick resolution to the war appear to be dwindling by the day, and the political stakes for the president are only growing."
-    },
-    {
-      "source": "BBC中东",
-      "title": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
-      "link": "https://www.bbc.com/news/articles/c70n2x7p22do?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 16 Mar 2026 17:57:45 GMT",
-      "summary": "Khaled Bani Odeh's parents and two brothers were shot dead as they drove home from a shopping trip in the occupied West Bank."
-    },
-    {
-      "source": "BBC中东",
-      "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
-      "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 16 Mar 2026 17:34:13 GMT",
-      "summary": "European leaders are hesitant to help Trump secure the Strait of Hormuz, but they know inaction on the Iran war is not really an option."
-    },
-    {
-      "source": "BBC中东",
-      "title": "Israel says 'limited' ground operations under way in Lebanon",
-      "link": "https://www.bbc.com/news/articles/clyz78kgp22o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Mar 2026 05:03:13 GMT",
-      "summary": "Troops are targeting \"Hezbollah strongholds\" in south Lebanon, where strikes reportedly killed nine people on Monday."
-    },
-    {
-      "source": "BBC中东",
-      "title": "How might the UK support shipping in the Strait of Hormuz?",
-      "link": "https://www.bbc.com/news/videos/cvgj29dgrxwo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 16 Mar 2026 18:52:34 GMT",
-      "summary": "Ben Chu from BBC Verify has been looking at what role the Royal Navy could play in the Strait of Hormuz."
+      "title": "Netanyahu says Israel 'acted alone' in attack on Iranian gas field",
+      "link": "https://www.bbc.com/news/articles/c2k3jgy9vq3o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 19 Mar 2026 22:41:40 GMT",
+      "summary": "Speaking at a news conference, the Israeli leader said Trump had requested that there be no further such attacks.",
+      "lang": "en"
     }
   ],
   "shipping": {
@@ -640,7 +743,9 @@
         "3/15",
         "3/16",
         "3/17",
-        "3/18"
+        "3/18",
+        "3/19",
+        "3/20"
       ],
       "transits": [
         35,
@@ -659,6 +764,8 @@
         2,
         3,
         4,
+        0,
+        0,
         0,
         0,
         0,
@@ -721,25 +828,25 @@
         21,
         69
       ],
-      "date_label": "3月18日"
+      "date_label": "3月20日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-03-18",
+      "hormuz_last_date": "2026-03-20",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 5,
+      "vlcc_stale_days": 7,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-03-18"
+      "routes_date": "2026-03-20"
     }
   },
   "meta": {
-    "report_date": "2026.03.18",
-    "report_date_cn": "2026年03月18日",
-    "war_day": 19,
+    "report_date": "2026.03.20",
+    "report_date_cn": "2026年03月20日",
+    "war_day": 21,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-18T23:04:03.800495+08:00",
-    "generated_at_cn": "2026-03-18 23:04:03 北京时间"
+    "generated_at": "2026-03-20T15:53:34.082665+08:00",
+    "generated_at_cn": "2026-03-20 15:53:34 北京时间"
   },
   "history": [
     {
@@ -811,6 +918,13 @@
       "wti": 98.55999755859375,
       "gold": 4866.2998046875,
       "usd_cny": 6.872099876403809
+    },
+    {
+      "date": "2026-03-20",
+      "brent": 103.30000305175781,
+      "wti": 94.0,
+      "gold": 4699.0,
+      "usd_cny": 6.882400035858154
     }
   ]
 }

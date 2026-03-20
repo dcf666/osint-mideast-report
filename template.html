@@ -151,7 +151,7 @@ table.intel tr:hover{background:#2a345022}
     <div class="section-num mb-2">SECTION 01</div>
     <h2 class="section-title">一、最新情报更新</h2>
     <div class="h-px bg-gradient-to-r from-neon via-ghost to-transparent mt-4"></div>
-    <div class="text-[10px] text-ghost font-mono mt-2">&#x26A0; 本节为人工情报分析，编写于2026年3月16日。自动更新的实时新闻见下方RSS区域。伤亡数字、军事事件等随战况变化，以最新RSS新闻为准。</div>
+    <div class="text-[10px] text-ghost font-mono mt-2">以下情报摘要基于RSS自动抓取，按战区分类。更新于 {{ generated_at }} (北京时间)。英文来源标注 [EN]。</div>
   </div>
 
   <!-- Timeline Header -->
@@ -162,49 +162,7 @@ table.intel tr:hover{background:#2a345022}
   </div>
 
   <div class="grid md:grid-cols-2 gap-4">
-    <!-- Iran Theater -->
-    <div class="fade-up card card-alert p-5">
-      <div class="flex items-center gap-2 mb-3"><span class="tag tag-red">伊朗战区</span><span class="badge badge-high">高危</span></div>
-      <ul class="space-y-2 text-sm text-steelLight">
-        <li>&#x2022; 以色列对德黑兰发动<strong class="text-white">新一波打击</strong>，伊朗防空系统响应"敌对目标"</li>
-        <li>&#x2022; 美军3月14日打击<strong class="text-warn">哈尔克岛</strong>军事设施 — 石油基础设施<span class="text-neon">未受损</span> <span class="text-ghost text-[10px] font-mono">[当地3/14 02:30 GST | 美东3/13 18:30 | 北京3/14 06:30]</span></li>
-        <li>&#x2022; 伊朗累计伤亡：<strong class="text-alert">1,444人死亡</strong>，18,551人受伤</li>
-        <li>&#x2022; IRGC声称大部分武器库完好，已使用导弹为"十年前型号"</li>
-        <li>&#x2022; 伊朗外长阿拉格奇：<em class="text-white">"我们从未要求停火"</em></li>
-      </ul>
-    </div>
-    <!-- Gulf Theater -->
-    <div class="fade-up card card-warn p-5">
-      <div class="flex items-center gap-2 mb-3"><span class="tag tag-yellow">海湾战区</span><span class="badge badge-high">高危</span></div>
-      <ul class="space-y-2 text-sm text-steelLight">
-        <li>&#x2022; 迪拜机场附近燃料罐因无人机事件起火，<strong class="text-warn">航班一度暂停</strong> <span class="text-ghost text-[10px] font-mono">[当地3/15 14:20 GST | 美东06:20 | 北京22:20]</span></li>
-        <li>&#x2022; 富查伊拉石油枢纽装载作业<strong class="text-alert">临时中断</strong></li>
-        <li>&#x2022; 沙特拦截<strong class="text-white">37架无人机</strong>；巴林、科威特、卡塔尔均报告拦截</li>
-        <li>&#x2022; 阿布扎比一枚导弹击中车辆，致1名巴勒斯坦居民死亡</li>
-        <li>&#x2022; 阿联酋富查伊拉工业区遭无人机打击起火</li>
-      </ul>
-    </div>
-    <!-- Lebanon / Iraq -->
-    <div class="fade-up card card-warn p-5">
-      <div class="flex items-center gap-2 mb-3"><span class="tag tag-yellow">黎巴嫩/伊拉克</span></div>
-      <ul class="space-y-2 text-sm text-steelLight">
-        <li>&#x2022; 以色列宣布对黎巴嫩南部发动<strong class="text-white">"有限"地面行动</strong> <span class="text-ghost text-[10px] font-mono">[当地3/15 IST | 美东3/15 | 北京3/16]</span></li>
-        <li>&#x2022; 黎巴嫩累计死亡<strong class="text-alert">850人</strong>（含100+儿童）</li>
-        <li>&#x2022; 伊拉克亲伊朗人民动员力量(PMF)总部遭空袭，3人受伤</li>
-        <li>&#x2022; 巴格达美国大使馆及萨拉赫丁省巴拉德空军基地附近遭火箭弹袭击</li>
-      </ul>
-    </div>
-    <!-- US / Diplomacy -->
-    <div class="fade-up card card-ice p-5">
-      <div class="flex items-center gap-2 mb-3"><span class="tag tag-blue">美国/外交</span></div>
-      <ul class="space-y-2 text-sm text-steelLight">
-        <li>&#x2022; 特朗普要求北约盟友派军舰保障霍尔木兹海峡通行</li>
-        <li>&#x2022; <strong class="text-alert">澳大利亚、日本拒绝</strong>派遣舰艇；英国称正在讨论；中国呼吁立即停火</li>
-        <li>&#x2022; 特朗普称伊朗"军事无效且虚弱"，指控其使用AI散布虚假信息</li>
-        <li>&#x2022; 美国政府官员预计冲突将在<span class="text-neon">"数周内或更早"</span>结束</li>
-        <li>&#x2022; 中东总死亡人数超过<strong class="text-alert">2,200人</strong></li>
-      </ul>
-    </div>
+    {{ live_intel_html }}
   </div>
 </div>
 </section>

@@ -133,46 +133,124 @@ def build_chart_data(data):
     return charts
 
 
+def _news_sort_key(n):
+    """Sort key: newer + more critical = higher score."""
+    from email.utils import parsedate_to_datetime
+    critical_en = ["hormuz", "oil", "kharg", "strike", "attack", "missile", "drone",
+                   "tanker", "shipping", "nuclear", "escalat", "ceasefire"]
+    critical_cn = ["霍尔木兹", "原油", "油价", "空袭", "导弹", "无人机",
+                   "油轮", "航运", "海峡", "制裁", "战争", "伊朗", "以色列",
+                   "停火", "哈尔克", "德黑兰"]
+    score = 0
+    try:
+        dt = parsedate_to_datetime(n.get("published", ""))
+        score = dt.timestamp()
+    except Exception:
+        score = 0
+    text = n.get("title", "") + " " + n.get("summary", "")
+    text_lower = text.lower()
+    if any(kw in text_lower for kw in critical_en) or any(kw in text for kw in critical_cn):
+        score += 86400
+    return score
+
+
+def _categorize_news(n):
+    """Categorize a news item into theater: iran, gulf, lebanon, us, other."""
+    text = (n.get("title", "") + " " + n.get("summary", "")).lower()
+    # Also check Chinese text without lowering
+    text_raw = n.get("title", "") + " " + n.get("summary", "")
+    if any(kw in text for kw in ["tehran", "isfahan", "kharg", "irgc"]) or \
+       any(kw in text_raw for kw in ["德黑兰", "伊朗", "哈尔克", "伊斯法罕", "革命卫队"]):
+        return "iran"
+    if any(kw in text for kw in ["dubai", "fujairah", "bahrain", "kuwait", "qatar", "saudi", "uae", "abu dhabi", "hormuz"]) or \
+       any(kw in text_raw for kw in ["迪拜", "富查伊拉", "巴林", "科威特", "卡塔尔", "沙特", "阿联酋", "海峡", "海湾"]):
+        return "gulf"
+    if any(kw in text for kw in ["lebanon", "hezbollah", "iraq", "houthi", "red sea", "yemen"]) or \
+       any(kw in text_raw for kw in ["黎巴嫩", "真主党", "伊拉克", "胡塞", "红海", "也门"]):
+        return "lebanon"
+    if any(kw in text for kw in ["trump", "nato", "pentagon", "carrier", "us force", "biden", "congress", "sanction"]) or \
+       any(kw in text_raw for kw in ["特朗普", "北约", "五角大楼", "航母", "美军", "美国", "制裁", "国会"]):
+        return "us"
+    return "other"
+
+
+def build_live_intel_html(data):
+    """Build Section 1 LIVE intel cards from latest RSS news, categorized by theater."""
+    news = data.get("news", [])
+    if not news:
+        return ""
+
+    # Sort by relevance + recency
+    sorted_news = sorted(news, key=_news_sort_key, reverse=True)
+
+    # Categorize into theaters
+    theaters = {"iran": [], "gulf": [], "lebanon": [], "us": []}
+    for n in sorted_news[:20]:
+        cat = _categorize_news(n)
+        if cat in theaters and len(theaters[cat]) < 5:
+            theaters[cat].append(n)
+        elif cat == "other":
+            # Assign to the theater with fewest items
+            min_cat = min(theaters, key=lambda k: len(theaters[k]))
+            if len(theaters[min_cat]) < 5:
+                theaters[min_cat].append(n)
+
+    def _render_items(items):
+        if not items:
+            return '<li class="text-ghost text-xs">暂无最新相关情报</li>'
+        lines = []
+        for n in items:
+            title = n.get("title", "")
+            link = n.get("link", "#")
+            lang = n.get("lang", "en")
+            lang_tag = "" if lang == "zh" else ' <span class="text-ghost text-[9px] font-mono">[EN]</span>'
+            lines.append(
+                f'<li>&#x2022; <a href="{link}" target="_blank" class="text-steelLight hover:text-white transition">'
+                f'{title}</a>{lang_tag}</li>'
+            )
+        return "\n".join(lines)
+
+    html = f'''
+    <div class="fade-up card card-alert p-5">
+      <div class="flex items-center gap-2 mb-3"><span class="tag tag-red">伊朗战区</span><span class="badge badge-high">高危</span></div>
+      <ul class="space-y-2 text-sm text-steelLight">{_render_items(theaters["iran"])}</ul>
+    </div>
+    <div class="fade-up card card-warn p-5">
+      <div class="flex items-center gap-2 mb-3"><span class="tag tag-yellow">海湾战区</span><span class="badge badge-high">高危</span></div>
+      <ul class="space-y-2 text-sm text-steelLight">{_render_items(theaters["gulf"])}</ul>
+    </div>
+    <div class="fade-up card card-warn p-5">
+      <div class="flex items-center gap-2 mb-3"><span class="tag tag-yellow">黎巴嫩/伊拉克/红海</span></div>
+      <ul class="space-y-2 text-sm text-steelLight">{_render_items(theaters["lebanon"])}</ul>
+    </div>
+    <div class="fade-up card card-ice p-5">
+      <div class="flex items-center gap-2 mb-3"><span class="tag tag-blue">美国/外交</span></div>
+      <ul class="space-y-2 text-sm text-steelLight">{_render_items(theaters["us"])}</ul>
+    </div>'''
+    return html
+
+
 def build_news_html(data):
-    """Build news items HTML from fetched RSS data. Newest + most critical first."""
+    """Build AUTO news feed HTML. Chinese first, newest + most critical first."""
     news = data.get("news", [])
     if not news:
         return '<div class="text-warn text-sm font-mono py-4 text-center">&#x26A0; 暂无最新新闻数据 — RSS源可能暂时不可用，下次自动更新时将重试</div>'
 
-    # Parse published dates for sorting
-    from email.utils import parsedate_to_datetime
-    critical_keywords_en = ["hormuz", "oil", "kharg", "strike", "attack", "missile", "drone",
-                            "tanker", "shipping", "nuclear", "escalat"]
-    critical_keywords_cn = ["霍尔木兹", "原油", "油价", "空袭", "导弹", "无人机",
-                            "油轮", "航运", "海峡", "制裁", "战争", "伊朗", "以色列"]
-
-    def sort_key(n):
-        # Priority: newer + more critical = higher
-        score = 0
-        try:
-            dt = parsedate_to_datetime(n.get("published", ""))
-            score = dt.timestamp()
-        except Exception:
-            score = 0
-        # Boost critical news (Chinese + English keywords)
-        text = n.get("title", "") + " " + n.get("summary", "")
-        text_lower = text.lower()
-        if any(kw in text_lower for kw in critical_keywords_en) or any(kw in text for kw in critical_keywords_cn):
-            score += 86400  # +1 day equivalent boost
-        return score
-
-    news_sorted = sorted(news, key=sort_key, reverse=True)
+    news_sorted = sorted(news, key=_news_sort_key, reverse=True)
 
     items = []
-    for n in news_sorted[:10]:
+    for n in news_sorted[:15]:
         source = n.get("source", "")
         title = n.get("title", "")
         link = n.get("link", "#")
         published = n.get("published", "")
+        lang = n.get("lang", "en")
+        lang_badge = "" if lang == "zh" else ' <span class="text-ghost text-[9px] font-mono">[EN]</span>'
         items.append(
             f'<li class="py-2 border-b border-ghost/30">'
             f'<span class="tag tag-blue text-[10px]">{source}</span> '
             f'<a href="{link}" target="_blank" class="text-white hover:text-neon transition text-sm">{title}</a>'
+            f'{lang_badge}'
             f'<span class="text-steel text-xs ml-2">{published[:16]}</span>'
             f"</li>"
         )
@@ -267,6 +345,7 @@ def generate():
     # Build news HTML
     print("[3/4] Building news section...")
     news_html = build_news_html(data)
+    live_intel_html = build_live_intel_html(data)
 
     # Render template
     print("[4/4] Rendering template...")
@@ -309,6 +388,8 @@ def generate():
         "chart_data_json": json.dumps(charts, ensure_ascii=False),
         # News HTML
         "news_html": news_html,
+        # Section 1 LIVE intel cards (auto-generated from news)
+        "live_intel_html": live_intel_html,
         # Stock data for tables
         "stocks": data.get("stocks", {}),
         "sectors": data.get("sectors", {}),
