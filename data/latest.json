@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 103.30000305175781,
-      "day_change_pct": -4.92,
-      "war_change_pct": 32.88,
+      "current": 106.7699966430664,
+      "day_change_pct": -1.73,
+      "war_change_pct": 37.34,
       "dates": [
         "02/06",
         "02/09",
@@ -66,14 +66,14 @@
         103.42,
         107.38,
         108.65,
-        103.3
+        106.77
       ],
-      "updated": "2026-03-20T07:52:32.173529"
+      "updated": "2026-03-21T03:24:55.325559"
     },
     "wti": {
-      "current": 94.0,
-      "day_change_pct": -2.23,
-      "war_change_pct": 31.97,
+      "current": 98.08999633789062,
+      "day_change_pct": 2.03,
+      "war_change_pct": 37.71,
       "dates": [
         "02/06",
         "02/09",
@@ -136,14 +136,14 @@
         96.21,
         96.32,
         96.14,
-        94.0
+        98.09
       ],
-      "updated": "2026-03-20T07:52:32.222173"
+      "updated": "2026-03-21T03:24:55.528868"
     },
     "gold": {
-      "current": 4699.0,
-      "day_change_pct": 2.14,
-      "war_change_pct": -11.25,
+      "current": 4492.0,
+      "day_change_pct": -2.36,
+      "war_change_pct": -15.16,
       "dates": [
         "02/06",
         "02/09",
@@ -206,14 +206,14 @@
         5001.0,
         4889.9,
         4600.7,
-        4699.0
+        4492.0
       ],
-      "updated": "2026-03-20T07:52:32.264770"
+      "updated": "2026-03-21T03:24:55.674083"
     },
     "usd_cny": {
-      "current": 6.882400035858154,
-      "day_change_pct": 0.14,
-      "war_change_pct": 0.36,
+      "current": 6.885200023651123,
+      "day_change_pct": 0.18,
+      "war_change_pct": 0.4,
       "dates": [
         "02/09",
         "02/10",
@@ -276,14 +276,14 @@
         6.96,
         6.89,
         6.87,
-        6.88
+        6.89
       ],
-      "updated": "2026-03-20T07:52:32.327834"
+      "updated": "2026-03-21T03:24:55.855123"
     },
     "nat_gas": {
-      "current": 3.11899995803833,
-      "day_change_pct": -1.48,
-      "war_change_pct": 5.37,
+      "current": 3.0959999561309814,
+      "day_change_pct": -2.21,
+      "war_change_pct": 4.59,
       "dates": [
         "02/06",
         "02/09",
@@ -346,9 +346,9 @@
         3.03,
         3.07,
         3.17,
-        3.12
+        3.1
       ],
-      "updated": "2026-03-20T07:52:32.377091"
+      "updated": "2026-03-21T03:24:56.059371"
     }
   },
   "stocks": {
@@ -362,11 +362,11 @@
     },
     "600026": {
       "name": "中远海能",
-      "price": 23.79,
-      "change_pct": 0.25,
+      "price": 23.46,
+      "change_pct": -1.14,
       "high": 24.66,
       "low": 22.88,
-      "volume": 686131
+      "volume": 954833
     },
     "601975": {
       "name": "招商南油",
@@ -378,19 +378,16 @@
     },
     "600938": {
       "name": "中国海油",
-      "price": 41.91,
-      "change_pct": -0.78,
-      "high": 42.33,
-      "low": 40.31,
-      "volume": 925306
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601857": {
       "name": "中国石油",
-      "price": 12.26,
-      "change_pct": -1.76,
+      "price": 12.24,
+      "change_pct": -1.92,
       "high": 12.35,
       "low": 11.9,
-      "volume": 1916048
+      "volume": 3064078
     },
     "600028": {
       "name": "中国石化",
@@ -410,11 +407,8 @@
     },
     "600759": {
       "name": "洲际油气",
-      "price": 6.8,
-      "change_pct": -5.29,
-      "high": 6.94,
-      "low": 6.62,
-      "volume": 3163364
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601808": {
       "name": "中海油服",
@@ -442,11 +436,8 @@
     },
     "600256": {
       "name": "广汇能源",
-      "price": 7.12,
-      "change_pct": null,
-      "high": 7.27,
-      "low": 6.83,
-      "volume": 3630494
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601919": {
       "name": "中远海控",
@@ -458,59 +449,38 @@
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 47.58,
-      "change_pct": -3.86,
-      "high": 49.69,
-      "low": 47.42,
-      "volume": 272709
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600893": {
       "name": "航发动力",
-      "price": 49.44,
-      "change_pct": -3.29,
-      "high": 51.65,
-      "low": 49.43,
-      "volume": 403763
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600893&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "600150": {
       "name": "中国船舶",
-      "price": 33.15,
-      "change_pct": -2.96,
-      "high": 34.41,
-      "low": 33.15,
-      "volume": 970724
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600547": {
       "name": "山东黄金",
-      "price": 39.69,
-      "change_pct": -2.36,
-      "high": 41.14,
-      "low": 39.47,
-      "volume": 630804
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600547&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "600988": {
       "name": "赤峰黄金",
       "price": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "volume": 0
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 26.08,
-      "change_pct": -2.32,
-      "high": 27.39,
-      "low": 26.08,
-      "volume": 877918
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600489&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "601088": {
       "name": "中国神华",
-      "price": 49.36,
-      "change_pct": -0.22,
-      "high": 49.78,
-      "low": 48.31,
-      "volume": 213647
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     }
   },
   "sectors": {
@@ -518,19 +488,31 @@
       "change_pct": -0.39
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "天然气": {
-      "change_pct": -1.99
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=90.BK0478&fields=f43,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "军工": {
-      "change_pct": -1.64
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=90.BK0477&fields=f43,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "黄金": {
-      "change_pct": -1.57
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=90.BK0473&fields=f43,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     }
   },
   "news": [
+    {
+      "source": "BBC中文",
+      "title": "伊朗戰爭是否令金正恩擔心朝鮮的未來？",
+      "link": "https://www.bbc.com/zhongwen/articles/cew7lqdn1gyo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 20 Mar 2026 18:36:20 GMT",
+      "summary": "分析人士表示，美國與以色列對伊朗的攻擊，很可能會進一步鞏固這位朝鮮領導人的一個信念——核武器對生存至關重要。",
+      "lang": "zh"
+    },
     {
       "source": "BBC中文",
       "title": "解碼特朗普貼文：美國與以色列在伊朗戰爭上步調一致嗎？",
@@ -557,22 +539,6 @@
     },
     {
       "source": "BBC中文",
-      "title": "特朗普計劃推遲訪華　對中國來說意味著什麼",
-      "link": "https://www.bbc.com/zhongwen/articles/c39w9xm01w7o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 18 Mar 2026 08:59:26 GMT",
-      "summary": "對於中國來說，這一變數可能提供了調整談判策略的空間，但也存在風險。",
-      "lang": "zh"
-    },
-    {
-      "source": "BBC中文",
-      "title": "關於派軍艦前往霍爾木茲海峽，美國盟友和中國說了什麼？",
-      "link": "https://www.bbc.com/zhongwen/articles/cjd9d37191eo/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 18 Mar 2026 03:51:55 GMT",
-      "summary": "美國盟友對特朗普最初要求派遣軍艦前往霍爾木茲海峽的呼籲，或提出質疑，或保持謹慎態度。",
-      "lang": "zh"
-    },
-    {
-      "source": "BBC中文",
       "title": "戰爭期間，民航客機如何維持飛行？",
       "link": "https://www.bbc.com/zhongwen/articles/c4g0gkzmd8mo/trad?at_medium=RSS&at_campaign=rss",
       "published": "Wed, 18 Mar 2026 08:25:03 GMT",
@@ -593,6 +559,46 @@
       "link": "https://www.bbc.com/zhongwen/articles/cn5gn0zrd0vo/trad?at_medium=RSS&at_campaign=rss",
       "published": "Thu, 12 Mar 2026 17:37:54 GMT",
       "summary": "中國是伊朗最大的石油買家，長期以來與伊朗保持密切外交關係。如今德黑蘭遭受攻擊，中國強烈譴責美國空襲，但對伊朗的支持是否僅止於口頭？BBC駐中國記者碧嘉蘭以及中伊關係專家威廉·菲格羅，一同剖析最新局勢。",
+      "lang": "zh"
+    },
+    {
+      "source": "BBC中文",
+      "title": "特朗普計劃推遲訪華　對中國來說意味著什麼",
+      "link": "https://www.bbc.com/zhongwen/articles/c39w9xm01w7o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Mar 2026 08:59:26 GMT",
+      "summary": "對於中國來說，這一變數可能提供了調整談判策略的空間，但也存在風險。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "德语媒体：习近平整肃军队给了台湾喘息空间",
+      "link": "https://www.dw.com/zh/德语媒体：习近平整肃军队给了台湾喘息空间/a-76456155?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 20 Mar 2026 15:20:00 GMT",
+      "summary": "《法兰克福汇报》分析文章写道，习近平针对军队发起的整肃行动仍在延烧，本周又有一批重磅级军事科学家接连从公众视野中“消失”。《商报》评论指出，欧洲也应当像中国一样，学会用“经济施压”捍卫自身的利益。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "内塔尼亚胡：伊朗正被彻底摧毁",
+      "link": "https://www.dw.com/zh/内塔尼亚胡：伊朗正被彻底摧毁/a-76456276?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 20 Mar 2026 15:15:00 GMT",
+      "summary": "以色列和美国对伊朗目标的空袭已持续三周，战争结束的迹象仍未显现。以色列总理内塔尼亚胡称伊朗正在“被摧毁”。同时国际能源署指出，全球能源安全面临前所未有的威胁。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "伊朗战争影响： 中国从通缩到“不良通胀”？",
+      "link": "https://www.dw.com/zh/伊朗战争影响：-中国从通缩到-不良通胀-？/a-76449096?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 20 Mar 2026 12:34:00 GMT",
+      "summary": "有经济学家警告称，伊朗战争对中国经济的影响不仅限于能源领域，工业成本提高可能进一步压缩企业利润、冲击就业和内需。而国际市场需求不振将让依赖出口的模式更难以奏效。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "陷入伊朗泥潭 特朗普正中习近平下怀？",
+      "link": "https://www.dw.com/zh/陷入伊朗泥潭-特朗普正中习近平下怀？/a-76449123?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 20 Mar 2026 12:23:00 GMT",
+      "summary": "原定本月底访问中国的美国总统特朗普，如今因伊朗战局推迟行程。分析人士指出，几个星期后特朗普的中国之旅若能成行，习近平将处于比之前更有利的地位、更有机会迫使美国做出让步。",
       "lang": "zh"
     },
     {
@@ -628,35 +634,11 @@
       "lang": "zh"
     },
     {
-      "source": "德国之声",
-      "title": "欧洲央行宣布维持欧元区三大关键利率不变",
-      "link": "https://www.dw.com/zh/欧洲央行宣布维持欧元区三大关键利率不变/a-76436134?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 19 Mar 2026 14:47:00 GMT",
-      "summary": "欧洲央行宣布欧元区关键利率维持在2.0%。尽管能源价格上涨可能导致通胀加剧，但欧洲央行并未调整利率。欧洲央行同时表示，当前欧元区通胀水平总体接近2%的目标，将继续致力于确保通胀中期稳定在2%的水平。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "以色列空袭伊朗气田 德黑兰报复波斯湾邻国",
-      "link": "https://www.dw.com/zh/以色列空袭伊朗气田-德黑兰报复波斯湾邻国/a-76429842?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 19 Mar 2026 12:00:00 GMT",
-      "summary": "在以色列攻击了伊朗的大型天然气田后，卡塔尔、沙特阿拉伯、科威特等波斯湾邻国的能源设施纷纷遭到了伊朗的报复性袭击。特朗普表示，事先对以色列的袭击行动毫不知情，但是又警告说如果伊朗继续报复其他国家，其天然气设施就会被彻底摧毁。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "德语媒体：伊朗战争阴影下 中美如何相互试探和权衡",
-      "link": "https://www.dw.com/zh/德语媒体：伊朗战争阴影下-中美如何相互试探和权衡/a-76415934?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 18 Mar 2026 15:20:00 GMT",
-      "summary": "《南德意志报》分析文章指出，迄今为止，中国虽然没有卷入伊朗战争，但中国的战略处境却也变得越来越艰难。《日报》评论认为，伊朗战事的僵持以及欧洲的沉默，正在为北京塑造“国际秩序捍卫者”形象提供千载难逢的机会。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "霍尔木兹海峡：伊朗选择性放行 中国船是少数",
-      "link": "https://www.dw.com/zh/霍尔木兹海峡：伊朗选择性放行-中国船是少数/a-76413826?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 18 Mar 2026 15:19:00 GMT",
-      "summary": "海事和贸易平台数据显示，自伊朗战争爆发以来，约有90艘船只（包括油轮）穿越了霍尔木兹海峡。但这些船只中，没有中国大型国企的油轮。",
+      "source": "FT中文网",
+      "title": "特朗普称赞日本在伊朗战争上“给予巨大支持”",
+      "link": "https://www.ftchinese.com/story/001109245",
+      "published": "Thu, 19 Mar 2026 16:00:00 GMT",
+      "summary": "美国总统对日本首相高市早苗说，他并不需要日本提供帮助，但日本出手相助是“合适的”。",
       "lang": "zh"
     },
     {
@@ -716,19 +698,11 @@
       "lang": "zh"
     },
     {
-      "source": "FT中文网",
-      "title": "德国今年开局“非常疲弱”给复苏前景带来变数",
-      "link": "https://www.ftchinese.com/story/001109161",
-      "published": "Tue, 10 Mar 2026 16:00:00 GMT",
-      "summary": "在中东战火推高能源价格之前，德国的出口和制造业就相当疲弱，令人质疑欧洲最大经济体还能不能在2026年反弹。",
-      "lang": "zh"
-    },
-    {
       "source": "BBC中东",
-      "title": "Netanyahu says Israel 'acted alone' in attack on Iranian gas field",
-      "link": "https://www.bbc.com/news/articles/c2k3jgy9vq3o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 19 Mar 2026 22:41:40 GMT",
-      "summary": "Speaking at a news conference, the Israeli leader said Trump had requested that there be no further such attacks.",
+      "title": "Iranian strikes on bases used by US caused $800m in damage, new analysis shows",
+      "link": "https://www.bbc.com/news/articles/cddq7j48p35o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 20 Mar 2026 22:34:05 GMT",
+      "summary": "Much of the damage was caused in initial retaliatory strikes by Iran in the week after the US and Israel launched its operation.",
       "lang": "en"
     }
   ],
@@ -757,7 +731,8 @@
         "3/17",
         "3/18",
         "3/19",
-        "3/20"
+        "3/20",
+        "3/21"
       ],
       "transits": [
         35,
@@ -776,6 +751,7 @@
         2,
         3,
         4,
+        0,
         0,
         0,
         0,
@@ -840,25 +816,25 @@
         21,
         69
       ],
-      "date_label": "3月20日"
+      "date_label": "3月21日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-03-20",
+      "hormuz_last_date": "2026-03-21",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 7,
+      "vlcc_stale_days": 8,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-03-20"
+      "routes_date": "2026-03-21"
     }
   },
   "meta": {
-    "report_date": "2026.03.20",
-    "report_date_cn": "2026年03月20日",
-    "war_day": 21,
+    "report_date": "2026.03.21",
+    "report_date_cn": "2026年03月21日",
+    "war_day": 22,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-20T15:53:34.082665+08:00",
-    "generated_at_cn": "2026-03-20 15:53:34 北京时间"
+    "generated_at": "2026-03-21T11:27:57.946466+08:00",
+    "generated_at_cn": "2026-03-21 11:27:57 北京时间"
   },
   "history": [
     {
@@ -937,6 +913,13 @@
       "wti": 94.0,
       "gold": 4699.0,
       "usd_cny": 6.882400035858154
+    },
+    {
+      "date": "2026-03-21",
+      "brent": 106.7699966430664,
+      "wti": 98.08999633789062,
+      "gold": 4492.0,
+      "usd_cny": 6.885200023651123
     }
   ]
 }
