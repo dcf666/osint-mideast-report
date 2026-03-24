@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 107.95999908447266,
-      "day_change_pct": -3.77,
-      "war_change_pct": 38.87,
+      "current": 103.81999969482422,
+      "day_change_pct": -7.46,
+      "war_change_pct": 33.55,
       "dates": [
         "02/09",
         "02/10",
@@ -34,7 +34,7 @@
         "03/18",
         "03/19",
         "03/20",
-        "03/22"
+        "03/23"
       ],
       "prices": [
         69.04,
@@ -66,14 +66,14 @@
         107.38,
         108.65,
         112.19,
-        107.96
+        103.82
       ],
-      "updated": "2026-03-23T03:46:50.495671"
+      "updated": "2026-03-24T03:38:23.929472"
     },
     "wti": {
-      "current": 99.19000244140625,
-      "day_change_pct": 0.88,
-      "war_change_pct": 39.25,
+      "current": 91.4800033569336,
+      "day_change_pct": -6.96,
+      "war_change_pct": 28.43,
       "dates": [
         "02/09",
         "02/10",
@@ -104,7 +104,7 @@
         "03/18",
         "03/19",
         "03/20",
-        "03/22"
+        "03/23"
       ],
       "prices": [
         64.36,
@@ -136,14 +136,14 @@
         96.32,
         96.14,
         98.32,
-        99.19
+        91.48
       ],
-      "updated": "2026-03-23T03:46:50.583609"
+      "updated": "2026-03-24T03:38:24.069636"
     },
     "gold": {
-      "current": 4348.0,
-      "day_change_pct": -4.87,
-      "war_change_pct": -17.88,
+      "current": 4362.0,
+      "day_change_pct": -4.56,
+      "war_change_pct": -17.61,
       "dates": [
         "02/09",
         "02/10",
@@ -174,7 +174,7 @@
         "03/18",
         "03/19",
         "03/20",
-        "03/22"
+        "03/23"
       ],
       "prices": [
         5050.9,
@@ -206,16 +206,15 @@
         4889.9,
         4600.7,
         4570.4,
-        4348.0
+        4362.0
       ],
-      "updated": "2026-03-23T03:46:50.673079"
+      "updated": "2026-03-24T03:38:24.162524"
     },
     "usd_cny": {
-      "current": 6.9085001945495605,
-      "day_change_pct": 0.13,
-      "war_change_pct": 0.74,
+      "current": 6.8933000564575195,
+      "day_change_pct": 0.11,
+      "war_change_pct": 0.52,
       "dates": [
-        "02/10",
         "02/11",
         "02/12",
         "02/13",
@@ -244,10 +243,10 @@
         "03/18",
         "03/19",
         "03/20",
-        "03/23"
+        "03/23",
+        "03/24"
       ],
       "prices": [
-        6.92,
         6.91,
         6.91,
         6.9,
@@ -276,14 +275,15 @@
         6.89,
         6.87,
         6.9,
-        6.91
+        6.89,
+        6.89
       ],
-      "updated": "2026-03-23T03:46:50.761016"
+      "updated": "2026-03-24T03:38:24.257539"
     },
     "nat_gas": {
-      "current": 3.0769999027252197,
-      "day_change_pct": -0.58,
-      "war_change_pct": 3.95,
+      "current": 2.9179999828338623,
+      "day_change_pct": -5.72,
+      "war_change_pct": -1.42,
       "dates": [
         "02/09",
         "02/10",
@@ -314,7 +314,7 @@
         "03/18",
         "03/19",
         "03/20",
-        "03/22"
+        "03/23"
       ],
       "prices": [
         3.14,
@@ -346,171 +346,165 @@
         3.07,
         3.17,
         3.1,
-        3.08
+        2.92
       ],
-      "updated": "2026-03-23T03:46:50.843051"
+      "updated": "2026-03-24T03:38:24.344794"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.0,
-      "change_pct": 1.31,
-      "high": 17.84,
-      "low": 16.8,
-      "volume": 1290873
+      "price": 18.21,
+      "change_pct": 7.12,
+      "high": 18.45,
+      "low": 17.01,
+      "volume": 1784593
     },
     "600026": {
       "name": "中远海能",
-      "price": 23.56,
-      "change_pct": 0.43,
-      "high": 24.64,
+      "price": 25.86,
+      "change_pct": 9.95,
+      "high": 25.87,
       "low": 23.32,
-      "volume": 686232
+      "volume": 1145766
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.43,
-      "change_pct": -1.99,
-      "high": 4.69,
-      "low": 4.4,
-      "volume": 1980943
+      "price": 4.83,
+      "change_pct": 10.02,
+      "high": 4.83,
+      "low": 4.41,
+      "volume": 2851649
     },
     "600938": {
       "name": "中国海油",
-      "price": 42.07,
-      "change_pct": 0.38,
-      "high": 43.2,
-      "low": 41.72,
-      "volume": 592487
+      "price": 41.65,
+      "change_pct": -1.07,
+      "high": 41.98,
+      "low": 40.92,
+      "volume": 484327
     },
     "601857": {
       "name": "中国石油",
-      "price": 12.31,
-      "change_pct": 0.57,
-      "high": 12.44,
-      "low": 11.82,
-      "volume": 2478411
+      "price": 11.92,
+      "change_pct": -3.4,
+      "high": 12.1,
+      "low": 11.83,
+      "volume": 1987617
     },
     "600028": {
       "name": "中国石化",
-      "price": 6.04,
-      "change_pct": -0.66,
-      "high": 6.11,
-      "low": 5.93,
-      "volume": 2052051
+      "price": 5.9,
+      "change_pct": -2.32,
+      "high": 5.95,
+      "low": 5.86,
+      "volume": 1675397
     },
     "603619": {
       "name": "中曼石油",
-      "price": 36.09,
-      "change_pct": 5.9,
-      "high": 36.63,
-      "low": 33.83,
-      "volume": 319149
+      "price": 35.46,
+      "change_pct": -1.77,
+      "high": 35.85,
+      "low": 34.57,
+      "volume": 217588
     },
     "600759": {
       "name": "洲际油气",
-      "price": 6.8,
-      "change_pct": 1.64,
-      "high": 6.94,
-      "low": 6.59,
-      "volume": 2718948
+      "price": 6.42,
+      "change_pct": -5.87,
+      "high": 6.53,
+      "low": 6.2,
+      "volume": 2879665
     },
     "601808": {
       "name": "中海油服",
-      "price": 16.64,
-      "change_pct": -1.01,
-      "high": 16.88,
-      "low": 16.36,
-      "volume": 188986
+      "price": 16.3,
+      "change_pct": -0.18,
+      "high": 16.36,
+      "low": 15.98,
+      "volume": 197952
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 94.59,
-      "change_pct": -1.63,
-      "high": 97.3,
-      "low": 93.01,
-      "volume": 103910
+      "price": 98.62,
+      "change_pct": 5.14,
+      "high": 99.33,
+      "low": 95.69,
+      "volume": 143258
     },
     "600803": {
       "name": "新奥股份",
-      "price": 23.22,
-      "change_pct": -1.74,
-      "high": 23.7,
-      "low": 22.97,
-      "volume": 131308
+      "price": 22.81,
+      "change_pct": -1.13,
+      "high": 23.18,
+      "low": 22.6,
+      "volume": 119739
     },
     "600256": {
       "name": "广汇能源",
-      "price": 7.2,
-      "change_pct": 1.12,
-      "high": 7.29,
-      "low": 7.0,
-      "volume": 2389944
+      "price": 7.16,
+      "change_pct": 0.99,
+      "high": 7.18,
+      "low": 6.91,
+      "volume": 1519200
     },
     "601919": {
       "name": "中远海控",
-      "price": 15.53,
-      "change_pct": -1.9,
-      "high": 15.66,
+      "price": 15.59,
+      "change_pct": 1.37,
+      "high": 15.65,
       "low": 15.4,
-      "volume": 837724
+      "volume": 501873
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 48.38,
-      "change_pct": 1.68,
-      "high": 49.2,
-      "low": 46.21,
-      "volume": 205155
+      "price": 47.83,
+      "change_pct": 0.91,
+      "high": 48.34,
+      "low": 47.26,
+      "volume": 98118
     },
     "600893": {
       "name": "航发动力",
-      "price": 47.87,
-      "change_pct": -3.18,
-      "high": 48.97,
-      "low": 47.51,
-      "volume": 218882
+      "price": 47.68,
+      "change_pct": 1.92,
+      "high": 48.11,
+      "low": 46.85,
+      "volume": 240684
     },
     "600150": {
       "name": "中国船舶",
-      "price": 31.48,
-      "change_pct": -5.04,
-      "high": 32.5,
-      "low": 31.36,
-      "volume": 860020
+      "price": 31.61,
+      "change_pct": 1.54,
+      "high": 31.73,
+      "low": 31.1,
+      "volume": 469780
     },
     "600547": {
       "name": "山东黄金",
-      "price": 37.31,
-      "change_pct": -6.0,
-      "high": 38.35,
-      "low": 37.08,
-      "volume": 481244
+      "price": 38.23,
+      "change_pct": 3.21,
+      "high": 38.3,
+      "low": 36.7,
+      "volume": 385547
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 36.74,
-      "change_pct": -10.0,
-      "high": 36.74,
-      "low": 36.74,
-      "volume": 51103
+      "price": 35.41,
+      "change_pct": -3.62,
+      "high": 36.0,
+      "low": 33.08,
+      "volume": 1122411
     },
     "600489": {
       "name": "中金黄金",
-      "price": 24.18,
-      "change_pct": -7.29,
-      "high": 24.98,
-      "low": 24.16,
-      "volume": 901756
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "601088": {
       "name": "中国神华",
-      "price": 49.14,
-      "change_pct": -0.83,
-      "high": 50.38,
-      "low": 48.84,
-      "volume": 408453
+      "price": null,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   },
   "sectors": {
@@ -538,6 +532,14 @@
   "news": [
     {
       "source": "BBC中文",
+      "title": "為何海灣國家尚未報復伊朗？",
+      "link": "https://www.bbc.com/zhongwen/articles/c0lep1nexx3o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 23 Mar 2026 08:11:31 GMT",
+      "summary": "專家表示，海灣國家不願直接捲入戰爭，但不太可能接受無限期地遭受攻擊。",
+      "lang": "zh"
+    },
+    {
+      "source": "BBC中文",
       "title": "分析：是否要對伊朗採取更強硬措施？特朗普正在十字路口",
       "link": "https://www.bbc.com/zhongwen/articles/cx2ekwljlwvo/trad?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 22 Mar 2026 04:01:14 GMT",
@@ -550,14 +552,6 @@
       "link": "https://www.bbc.com/zhongwen/articles/cew7lqdn1gyo/trad?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 20 Mar 2026 18:36:20 GMT",
       "summary": "分析人士表示，美國與以色列對伊朗的攻擊，很可能會進一步鞏固這位朝鮮領導人的一個信念——核武器對生存至關重要。",
-      "lang": "zh"
-    },
-    {
-      "source": "BBC中文",
-      "title": "解碼特朗普貼文：美國與以色列在伊朗戰爭上步調一致嗎？",
-      "link": "https://www.bbc.com/zhongwen/articles/cq59d0j9971o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 20 Mar 2026 07:13:03 GMT",
-      "summary": "在天然氣田遭攻擊後，特朗普於「真相社交」（Truth Social）上發表的貼文，揭示了美國和以色列在戰爭策略上的一致程度究竟為何。",
       "lang": "zh"
     },
     {
@@ -602,6 +596,30 @@
     },
     {
       "source": "德国之声",
+      "title": "美伊谈判陷罗生门　德黑兰否认与特朗普对话",
+      "link": "https://www.dw.com/zh/美伊谈判陷罗生门　德黑兰否认与特朗普对话/a-76485565?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Tue, 24 Mar 2026 03:01:00 GMT",
+      "summary": "美国总统特朗普周一宣布，已下令五角大楼推迟对伊朗发电站及能源设施的军事攻击，为期五天。特朗普表示，过去两天与伊朗进行了良好、有成效的对话。但伊朗方面否认该项说法，称并未与美方进行任何谈判。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "帮助美国打伊朗？伊质疑德国美军基地参战",
+      "link": "https://www.dw.com/zh/帮助美国打伊朗？伊质疑德国美军基地参战/a-76484041?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Mon, 23 Mar 2026 11:30:00 GMT",
+      "summary": "伊朗政府近日要求德国政府明确美军利用驻德拉姆施泰因空军基地发动对伊军事行动是否构成“侵略行为”。尽管德国总理默茨仍未明确表态，但国内关于该基地法律地位及其在冲突中所扮演角色的争论再次升温。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "特朗普“自打脸”解禁伊朗石油？中国国企悄悄出手",
+      "link": "https://www.dw.com/zh/特朗普-自打脸-解禁伊朗石油？中国国企悄悄出手/a-76465944?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Mon, 23 Mar 2026 08:49:00 GMT",
+      "summary": "在中国社交媒体上，特朗普政府的伊朗石油解禁举措被认为是“自己打脸”。但对于购买受制裁国家石油获利的中国来说，是否也因这一解禁令感到尴尬？知情人士透露，随着美国对伊朗石油开绿灯，中国国有企业似乎也已开始与伊朗接触。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
       "title": "墙外文摘：打不打台湾，多少中国人说“不”？",
       "link": "https://www.dw.com/zh/墙外文摘：打不打台湾，多少中国人说-不-？/a-76476294?maca=chi-rss-chi-all-1127-xml-mrss",
       "published": "Sun, 22 Mar 2026 14:10:00 GMT",
@@ -641,27 +659,19 @@
       "lang": "zh"
     },
     {
-      "source": "德国之声",
-      "title": "找餐馆也找投弹目标：卫星导航有多脆弱？",
-      "link": "https://www.dw.com/zh/找餐馆也找投弹目标：卫星导航有多脆弱？/a-76468772?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 21 Mar 2026 14:48:00 GMT",
-      "summary": "从智能手机地图到精密武器，卫星导航既是现代和平生活的基础，也被服务于战争。 这使得全球导航卫星系统本身可能成为攻击目标，问题是它实际上非常脆弱。",
+      "source": "FT中文网",
+      "title": "特朗普考虑邀请卢卡申科访美",
+      "link": "https://www.ftchinese.com/story/001109264",
+      "published": "Mon, 23 Mar 2026 16:00:00 GMT",
+      "summary": "白俄罗斯总统声称特朗普已邀请他前往海湖庄园讨论“大交易”。此前美国以放松制裁为条件，争取到白俄罗斯释放大批政治犯。",
       "lang": "zh"
     },
     {
-      "source": "德国之声",
-      "title": "美以袭击伊朗纳坦兹核设施 特朗普考虑“逐步收手”",
-      "link": "https://www.dw.com/zh/美以袭击伊朗纳坦兹核设施-特朗普考虑-逐步收手/a-76467005?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 21 Mar 2026 12:43:00 GMT",
-      "summary": "美以对伊战争进入第四周，冲突持续升级并外溢至黎巴嫩等地，美以袭击伊朗纳坦兹核设施，以色列对德黑兰和贝鲁特发动最新一轮空袭。与此同时霍尔木兹海峡受限推高全球油价，美国一面考虑“降级”军事行动，一面放松对伊朗及俄罗斯石油制裁以缓解油供压力。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "伊朗石油解禁：特朗普自己“打脸”，中国小炼油厂“躺枪”？",
-      "link": "https://www.dw.com/zh/伊朗石油解禁：特朗普自己-打脸-，中国小炼油厂-躺枪-？/a-76465944?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 21 Mar 2026 11:01:00 GMT",
-      "summary": "在中国社交媒体上，特朗普政府的伊朗石油解禁举措被认为是“自己打脸”。但对于购买受制裁国家石油获利的中国来说，是否也因这一解禁令感到尴尬？",
+      "source": "FT中文网",
+      "title": "特朗普宣布暂缓攻击伊朗能源设施后市场反弹",
+      "link": "https://www.ftchinese.com/story/001109263",
+      "published": "Mon, 23 Mar 2026 16:00:00 GMT",
+      "summary": "美国总统称，美伊就“全面彻底解决敌对行动”进行了“非常好的、富有成效的对话”，针对发电厂和能源基础设施的军事打击将延后五天。",
       "lang": "zh"
     },
     {
@@ -713,27 +723,11 @@
       "lang": "zh"
     },
     {
-      "source": "FT中文网",
-      "title": "特朗普因伊朗战事要求推迟访华",
-      "link": "https://www.ftchinese.com/story/001109209",
-      "published": "Mon, 16 Mar 2026 16:00:00 GMT",
-      "summary": "特朗普周一下午在椭圆形办公室告诉媒体，他希望将美中领导人的北京峰会推迟一个月，因为他需要留在华盛顿处理伊朗战争事宜。",
-      "lang": "zh"
-    },
-    {
-      "source": "FT中文网",
-      "title": "美国与墨西哥对《美墨加协定》启动审查",
-      "link": "https://www.ftchinese.com/story/001109196",
-      "published": "Sun, 15 Mar 2026 16:00:00 GMT",
-      "summary": "墨西哥担心特朗普可能会要求对《美墨加协定》(USMCA)做出重大修改，因为美国总统已屡次发表对该协定不屑一顾的言论。",
-      "lang": "zh"
-    },
-    {
       "source": "BBC中东",
-      "title": "Israeli settlers target Palestinian villages in occupied West Bank, attacking people and properties",
-      "link": "https://www.bbc.com/news/articles/cew719w80g7o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 22 Mar 2026 22:38:24 GMT",
-      "summary": "The violence began after 18-year-old settler Yehuda Sherman was killed after reportedly being hit by a vehicle driven by a Palestinian while on his quad bike.",
+      "title": "A committed pharmacist and a homesick blogger – the Iranian civilians killed in the war",
+      "link": "https://www.bbc.com/news/articles/c3v6ld7lv9no?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 23 Mar 2026 18:31:26 GMT",
+      "summary": "The toll on civilians is mounting fast as the US-Israeli war on Iran continues.",
       "lang": "en"
     }
   ],
@@ -765,7 +759,8 @@
         "3/20",
         "3/21",
         "3/22",
-        "3/23"
+        "3/23",
+        "3/24"
       ],
       "transits": [
         35,
@@ -784,6 +779,7 @@
         2,
         3,
         4,
+        0,
         0,
         0,
         0,
@@ -851,25 +847,25 @@
         21,
         69
       ],
-      "date_label": "3月23日"
+      "date_label": "3月24日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-03-23",
+      "hormuz_last_date": "2026-03-24",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 10,
+      "vlcc_stale_days": 11,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-03-23"
+      "routes_date": "2026-03-24"
     }
   },
   "meta": {
-    "report_date": "2026.03.23",
-    "report_date_cn": "2026年03月23日",
-    "war_day": 24,
+    "report_date": "2026.03.24",
+    "report_date_cn": "2026年03月24日",
+    "war_day": 25,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-23T11:47:53.145515+08:00",
-    "generated_at_cn": "2026-03-23 11:47:53 北京时间"
+    "generated_at": "2026-03-24T11:38:55.533702+08:00",
+    "generated_at_cn": "2026-03-24 11:38:55 北京时间"
   },
   "history": [
     {
@@ -969,6 +965,13 @@
       "wti": 99.19000244140625,
       "gold": 4348.0,
       "usd_cny": 6.9085001945495605
+    },
+    {
+      "date": "2026-03-24",
+      "brent": 103.81999969482422,
+      "wti": 91.4800033569336,
+      "gold": 4362.0,
+      "usd_cny": 6.8933000564575195
     }
   ]
 }
