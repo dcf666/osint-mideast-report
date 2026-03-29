@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 106.83999633789062,
-      "day_change_pct": -1.08,
-      "war_change_pct": 37.43,
+      "current": 112.56999969482422,
+      "day_change_pct": 4.22,
+      "war_change_pct": 44.8,
       "dates": [
         "02/13",
         "02/17",
@@ -66,14 +66,14 @@
         104.49,
         102.22,
         108.01,
-        106.84
+        112.57
       ],
-      "updated": "2026-03-28T03:40:06.700723"
+      "updated": "2026-03-29T03:57:20.892893"
     },
     "wti": {
-      "current": 101.18000030517578,
-      "day_change_pct": 7.09,
-      "war_change_pct": 42.05,
+      "current": 99.63999938964844,
+      "day_change_pct": 5.46,
+      "war_change_pct": 39.88,
       "dates": [
         "02/13",
         "02/17",
@@ -136,14 +136,14 @@
         92.35,
         90.32,
         94.48,
-        101.18
+        99.64
       ],
-      "updated": "2026-03-28T03:40:06.781581"
+      "updated": "2026-03-29T03:57:21.208713"
     },
     "gold": {
-      "current": 4521.2998046875,
-      "day_change_pct": 3.33,
-      "war_change_pct": -14.6,
+      "current": 4492.0,
+      "day_change_pct": 2.66,
+      "war_change_pct": -15.16,
       "dates": [
         "02/13",
         "02/17",
@@ -206,9 +206,9 @@
         4399.3,
         4549.8,
         4375.5,
-        4521.3
+        4492.0
       ],
-      "updated": "2026-03-28T03:40:06.860174"
+      "updated": "2026-03-29T03:57:21.417110"
     },
     "usd_cny": {
       "current": 6.910699844360352,
@@ -278,12 +278,12 @@
         6.9,
         6.91
       ],
-      "updated": "2026-03-28T03:40:06.945464"
+      "updated": "2026-03-29T03:57:21.624286"
     },
     "nat_gas": {
-      "current": 3.0350000858306885,
-      "day_change_pct": 1.2,
-      "war_change_pct": 2.53,
+      "current": 3.0950000286102295,
+      "day_change_pct": 3.2,
+      "war_change_pct": 4.56,
       "dates": [
         "02/13",
         "02/17",
@@ -346,9 +346,9 @@
         2.94,
         2.95,
         3.0,
-        3.04
+        3.1
       ],
-      "updated": "2026-03-28T03:40:07.028603"
+      "updated": "2026-03-29T03:57:21.872118"
     }
   },
   "stocks": {
@@ -597,6 +597,38 @@
     },
     {
       "source": "德国之声",
+      "title": "中远船只试图通行霍尔木兹海峡 随后折返",
+      "link": "https://www.dw.com/zh/中远船只试图通行霍尔木兹海峡-随后折返/a-76579000?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 28 Mar 2026 14:49:00 GMT",
+      "summary": "船舶追踪数据显示，中远集团（COSCO）两艘集装箱船周五试图通行霍尔姆斯海峡，但随后折返。伊朗当局此前曾声称，包括中国在内的“友邦”船只可以通行。海事数据显示，目前在霍尔木兹海峡通行的主要是伊朗的进出口轮船。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "胡塞武装袭击以色列 加入伊朗战争",
+      "link": "https://www.dw.com/zh/胡塞武装袭击以色列-加入伊朗战争/a-76577553?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 28 Mar 2026 11:29:00 GMT",
+      "summary": "受伊朗支持的胡塞武装宣布，周六早些时候对以色列发动了导弹袭击。这是伊朗战争爆发以来，胡塞武装首次参与冲突。以色列军方称拦截了胡塞武装所发射的导弹。外界担心，胡塞武装是否会像加沙战争期间那样，向红海商船发动袭击。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "批德国不愿协助霍尔木兹护航 特朗普称“乌克兰也不是我们的战争”",
+      "link": "https://www.dw.com/zh/批德国不愿协助霍尔木兹护航-特朗普称-乌克兰也不是我们的战争/a-76577014?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 28 Mar 2026 10:42:00 GMT",
+      "summary": "在德国拒绝协助霍尔木兹海峡护航，并称伊朗战争“不是我们的战争”之后，美国总统特朗普对柏林这一态度加以抨击。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "从期望到失望：战火中的伊朗民意",
+      "link": "https://www.dw.com/zh/从期望到失望：战火中的伊朗民意/a-76569219?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 28 Mar 2026 07:47:00 GMT",
+      "summary": "美以对伊朗发起的军事行动，迄今已经过去了近一个月。许多人最初对伊朗政权垮台的期望已经逐渐转变成了失望。一些伊朗人向德国之声谈起了他们的失望情绪。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
       "title": "德语媒体：特朗普推迟访华对中美关系的影响",
       "link": "https://www.dw.com/zh/德语媒体：特朗普推迟访华对中美关系的影响/a-76569187?maca=chi-rss-chi-all-1127-xml-mrss",
       "published": "Fri, 27 Mar 2026 15:08:00 GMT",
@@ -625,38 +657,6 @@
       "link": "https://www.dw.com/zh/德语媒体：伊朗战争中的大国博弈/a-76548141?maca=chi-rss-chi-all-1127-xml-mrss",
       "published": "Thu, 26 Mar 2026 15:10:00 GMT",
       "summary": "《柏林日报》发表评论称，伊朗战争绝不仅仅是一场地区性军事冲突，更是超级大国间围绕资源控制和势力范围的一场博弈，而无论这场大国博弈的结局如何，欧洲恐怕都只能扮演看客的角色。《商报》评论则分析了中国在霍尔木兹危机中表现出较强“战略定力”的原因。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "德防长访日、新、澳：扩大印太影响力 加强军备合作",
-      "link": "https://www.dw.com/zh/德防长访日、新、澳：扩大印太影响力-加强军备合作/a-76544215?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 26 Mar 2026 12:27:00 GMT",
-      "summary": "德国防长皮斯托里乌斯在访问日本、新加坡后，在澳大利亚继续推进军备合作。他表示，特别在中东战争背景下，凸显军备合作多样化的必要性，以避免过度的依赖性——无论是供应链依赖中国，还是特定武器系统依赖美国。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "川普宣布五月訪中國與習近平見面",
-      "link": "https://www.dw.com/zh/川普宣布五月訪中國與習近平見面/a-76536384?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 26 Mar 2026 07:34:00 GMT",
-      "summary": "美國本周宣布，川普將於5月14日至15日訪問中國，並與習近平舉行「具里程碑意義」的高層會晤。這將是川普睽違八年再度踏上中國，外界亦關注在國際局勢動盪之際，此次峰會是否意味著伊朗戰事將走向明朗。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "德语媒体：中国将成为伊朗战争的赢家？",
-      "link": "https://www.dw.com/zh/德语媒体：中国将成为伊朗战争的赢家？/a-76528783?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 25 Mar 2026 14:33:00 GMT",
-      "summary": "《经济周刊》长篇评论认为，持续已经近一个月的伊朗战争，虽然尚未分出胜负。但从战略层面上而言，中国很有可能成为最后的赢家。《每日镜报》则分析了全球油价飙升、航运受阻的情况下，中国为何能表现出较强抗压能力的原因。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "中国船东货船通过霍尔木兹海峡“安全走廊”",
-      "link": "https://www.dw.com/zh/中国船东货船通过霍尔木兹海峡-安全走廊/a-76522916?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 25 Mar 2026 12:06:00 GMT",
-      "summary": "伊朗开辟霍尔木兹海峡“安全走廊”10天后，首艘中国船东的货船通过这一水域。摩根大通银行大宗商品分析师指出，通过该海峡的大部分石油流向亚洲，主要是中国。",
       "lang": "zh"
     },
     {
@@ -725,17 +725,16 @@
     },
     {
       "source": "BBC中东",
-      "title": "Is Trump's pause on attacking Iranian energy for diplomacy or an escalation?",
-      "link": "https://www.bbc.com/news/articles/c2evg2m3ye2o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 27 Mar 2026 13:17:22 GMT",
-      "summary": "The US president's commitment to deadlines is fluid but he uses them for a purpose, writes the BBC's James Landale.",
+      "title": "Iran-backed Houthis join war with attack against Israel",
+      "link": "https://www.bbc.com/news/articles/cd6l5n8jv4yo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 28 Mar 2026 20:51:57 GMT",
+      "summary": "There are fears the Iranian proxy may attack shipping in the Red Sea, adding to global economic woes.",
       "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "2/27",
         "2/28",
         "3/1",
         "3/2",
@@ -764,10 +763,10 @@
         "3/25",
         "3/26",
         "3/27",
-        "3/28"
+        "3/28",
+        "3/29"
       ],
       "transits": [
-        33,
         18,
         7,
         5,
@@ -782,6 +781,7 @@
         2,
         3,
         4,
+        0,
         0,
         0,
         0,
@@ -854,25 +854,25 @@
         21,
         69
       ],
-      "date_label": "3月28日"
+      "date_label": "3月29日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-03-28",
+      "hormuz_last_date": "2026-03-29",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 15,
+      "vlcc_stale_days": 16,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-03-28"
+      "routes_date": "2026-03-29"
     }
   },
   "meta": {
-    "report_date": "2026.03.28",
-    "report_date_cn": "2026年03月28日",
-    "war_day": 29,
+    "report_date": "2026.03.29",
+    "report_date_cn": "2026年03月29日",
+    "war_day": 30,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-28T11:40:51.488990+08:00",
-    "generated_at_cn": "2026-03-28 11:40:51 北京时间"
+    "generated_at": "2026-03-29T11:58:08.228517+08:00",
+    "generated_at_cn": "2026-03-29 11:58:08 北京时间"
   },
   "history": [
     {
@@ -1006,6 +1006,13 @@
       "brent": 106.83999633789062,
       "wti": 101.18000030517578,
       "gold": 4521.2998046875,
+      "usd_cny": 6.910699844360352
+    },
+    {
+      "date": "2026-03-29",
+      "brent": 112.56999969482422,
+      "wti": 99.63999938964844,
+      "gold": 4492.0,
       "usd_cny": 6.910699844360352
     }
   ]
