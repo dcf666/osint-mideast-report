@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 112.56999969482422,
-      "day_change_pct": 4.22,
-      "war_change_pct": 44.8,
+      "current": 107.7300033569336,
+      "day_change_pct": -4.3,
+      "war_change_pct": 38.58,
       "dates": [
-        "02/13",
         "02/17",
         "02/18",
         "02/19",
@@ -34,10 +33,10 @@
         "03/24",
         "03/25",
         "03/26",
-        "03/27"
+        "03/27",
+        "03/30"
       ],
       "prices": [
-        67.75,
         67.42,
         70.35,
         71.66,
@@ -66,16 +65,16 @@
         104.49,
         102.22,
         108.01,
-        112.57
+        112.57,
+        107.73
       ],
-      "updated": "2026-03-29T03:57:20.892893"
+      "updated": "2026-03-30T04:11:08.867840"
     },
     "wti": {
-      "current": 99.63999938964844,
-      "day_change_pct": 5.46,
-      "war_change_pct": 39.88,
+      "current": 101.26000213623047,
+      "day_change_pct": 1.63,
+      "war_change_pct": 42.16,
       "dates": [
-        "02/13",
         "02/17",
         "02/18",
         "02/19",
@@ -104,10 +103,10 @@
         "03/24",
         "03/25",
         "03/26",
-        "03/27"
+        "03/27",
+        "03/30"
       ],
       "prices": [
-        62.89,
         62.33,
         65.19,
         66.43,
@@ -136,16 +135,16 @@
         92.35,
         90.32,
         94.48,
-        99.64
+        99.64,
+        101.26
       ],
-      "updated": "2026-03-29T03:57:21.208713"
+      "updated": "2026-03-30T04:11:08.955191"
     },
     "gold": {
-      "current": 4492.0,
-      "day_change_pct": 2.66,
-      "war_change_pct": -15.16,
+      "current": 4526.10009765625,
+      "day_change_pct": 0.76,
+      "war_change_pct": -14.51,
       "dates": [
-        "02/13",
         "02/17",
         "02/18",
         "02/19",
@@ -174,10 +173,10 @@
         "03/24",
         "03/25",
         "03/26",
-        "03/27"
+        "03/27",
+        "03/30"
       ],
       "prices": [
-        5022.0,
         4882.9,
         4986.5,
         4975.9,
@@ -206,16 +205,16 @@
         4399.3,
         4549.8,
         4375.5,
-        4492.0
+        4492.0,
+        4526.1
       ],
-      "updated": "2026-03-29T03:57:21.417110"
+      "updated": "2026-03-30T04:11:09.043643"
     },
     "usd_cny": {
-      "current": 6.910699844360352,
-      "day_change_pct": 0.14,
-      "war_change_pct": 0.77,
+      "current": 6.907100200653076,
+      "day_change_pct": -0.05,
+      "war_change_pct": 0.72,
       "dates": [
-        "02/16",
         "02/17",
         "02/18",
         "02/19",
@@ -244,10 +243,10 @@
         "03/24",
         "03/25",
         "03/26",
-        "03/27"
+        "03/27",
+        "03/30"
       ],
       "prices": [
-        6.91,
         6.91,
         6.91,
         6.91,
@@ -276,16 +275,16 @@
         6.88,
         6.89,
         6.9,
+        6.91,
         6.91
       ],
-      "updated": "2026-03-29T03:57:21.624286"
+      "updated": "2026-03-30T04:11:09.135748"
     },
     "nat_gas": {
-      "current": 3.0950000286102295,
-      "day_change_pct": 3.2,
-      "war_change_pct": 4.56,
+      "current": 2.9509999752044678,
+      "day_change_pct": -4.65,
+      "war_change_pct": -0.3,
       "dates": [
-        "02/13",
         "02/17",
         "02/18",
         "02/19",
@@ -314,10 +313,10 @@
         "03/24",
         "03/25",
         "03/26",
-        "03/27"
+        "03/27",
+        "03/30"
       ],
       "prices": [
-        3.24,
         3.03,
         3.01,
         3.0,
@@ -346,205 +345,222 @@
         2.94,
         2.95,
         3.0,
-        3.1
+        3.1,
+        2.95
       ],
-      "updated": "2026-03-29T03:57:21.872118"
+      "updated": "2026-03-30T04:11:09.224852"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.1,
-      "change_pct": 2.46,
-      "high": 17.69,
-      "low": 16.3,
-      "volume": 1536914
+      "price": 17.07,
+      "change_pct": -0.18,
+      "high": 17.3,
+      "low": 16.6,
+      "volume": 846064
     },
     "600026": {
       "name": "中远海能",
-      "price": 23.69,
-      "change_pct": -0.88,
-      "high": 24.29,
-      "low": 22.7,
-      "volume": 937879
+      "price": 23.16,
+      "change_pct": -2.24,
+      "high": 23.74,
+      "low": 22.2,
+      "volume": 681809
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.45,
-      "change_pct": 0.23,
-      "high": 4.56,
-      "low": 4.39,
-      "volume": 2726190
+      "price": 4.49,
+      "change_pct": 0.9,
+      "high": 4.51,
+      "low": 4.23,
+      "volume": 2198671
     },
     "600938": {
       "name": "中国海油",
-      "price": 41.07,
-      "change_pct": 0.34,
-      "high": 41.41,
-      "low": 40.37,
-      "volume": 533638
+      "price": 41.25,
+      "change_pct": 0.44,
+      "high": 42.2,
+      "low": 40.89,
+      "volume": 459566
     },
     "601857": {
       "name": "中国石油",
-      "price": 12.07,
-      "change_pct": 1.09,
-      "high": 12.1,
-      "low": 11.83,
-      "volume": 2183201
+      "price": 12.4,
+      "change_pct": 2.73,
+      "high": 12.54,
+      "low": 12.23,
+      "volume": 2029055
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.9,
-      "change_pct": 0.34,
-      "high": 5.91,
-      "low": 5.84,
-      "volume": 1928072
+      "price": 5.97,
+      "change_pct": 1.19,
+      "high": 5.99,
+      "low": 5.91,
+      "volume": 1523767
     },
     "603619": {
       "name": "中曼石油",
-      "price": 35.22,
-      "change_pct": 0.74,
-      "high": 35.34,
-      "low": 34.08,
-      "volume": 302575
+      "price": 35.31,
+      "change_pct": 0.26,
+      "high": 36.86,
+      "low": 35.03,
+      "volume": 260447
     },
     "600759": {
       "name": "洲际油气",
-      "price": 6.17,
-      "change_pct": -0.32,
-      "high": 6.25,
-      "low": 5.91,
-      "volume": 5309727
+      "price": 6.07,
+      "change_pct": -1.62,
+      "high": 6.47,
+      "low": 6.0,
+      "volume": 3441292
     },
     "601808": {
       "name": "中海油服",
-      "price": 16.54,
-      "change_pct": -0.96,
-      "high": 16.7,
-      "low": 16.2,
-      "volume": 294477
+      "price": 16.22,
+      "change_pct": -1.93,
+      "high": 16.98,
+      "low": 16.15,
+      "volume": 233945
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 98.2,
-      "change_pct": -0.06,
-      "high": 99.75,
-      "low": 96.15,
-      "volume": 120099
+      "price": 94.58,
+      "change_pct": -3.69,
+      "high": 94.95,
+      "low": 89.36,
+      "volume": 330693
     },
     "600803": {
       "name": "新奥股份",
-      "price": 22.37,
-      "change_pct": 1.04,
-      "high": 22.62,
-      "low": 21.81,
-      "volume": 135046
+      "price": 22.69,
+      "change_pct": 1.43,
+      "high": 23.41,
+      "low": 22.59,
+      "volume": 99561
     },
     "600256": {
       "name": "广汇能源",
-      "price": 7.04,
-      "change_pct": 2.18,
-      "high": 7.05,
-      "low": 6.8,
-      "volume": 2436918
+      "price": 7.06,
+      "change_pct": 0.28,
+      "high": 7.31,
+      "low": 6.95,
+      "volume": 2094134
     },
     "601919": {
       "name": "中远海控",
-      "price": 15.17,
-      "change_pct": -0.59,
-      "high": 15.25,
-      "low": 15.06,
-      "volume": 724383
+      "price": 15.4,
+      "change_pct": 1.52,
+      "high": 15.46,
+      "low": 15.1,
+      "volume": 730117
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 47.82,
-      "change_pct": 0.13,
-      "high": 48.06,
-      "low": 46.89,
-      "volume": 89314
+      "price": 48.2,
+      "change_pct": 0.79,
+      "high": 48.5,
+      "low": 47.32,
+      "volume": 70742
     },
     "600893": {
       "name": "航发动力",
-      "price": 48.03,
-      "change_pct": 0.06,
-      "high": 48.35,
-      "low": 46.8,
-      "volume": 294590
+      "price": 48.44,
+      "change_pct": 0.85,
+      "high": 49.13,
+      "low": 47.11,
+      "volume": 155619
     },
     "600150": {
       "name": "中国船舶",
-      "price": 30.84,
-      "change_pct": 0.55,
-      "high": 30.98,
-      "low": 30.0,
-      "volume": 529242
+      "price": 30.46,
+      "change_pct": -1.23,
+      "high": 30.78,
+      "low": 30.16,
+      "volume": 368960
     },
     "600547": {
       "name": "山东黄金",
-      "price": 38.58,
-      "change_pct": 1.45,
-      "high": 38.94,
-      "low": 37.02,
-      "volume": 657290
+      "price": 40.61,
+      "change_pct": 5.26,
+      "high": 40.73,
+      "low": 38.1,
+      "volume": 469792
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 39.8,
-      "change_pct": 6.7,
-      "high": 40.13,
-      "low": 36.65,
-      "volume": 709867
+      "price": 42.6,
+      "change_pct": 7.04,
+      "high": 42.79,
+      "low": 39.66,
+      "volume": 545255
     },
     "600489": {
       "name": "中金黄金",
-      "price": 25.54,
-      "change_pct": 2.0,
-      "high": 25.67,
-      "low": 24.6,
-      "volume": 627235
+      "price": 26.55,
+      "change_pct": 3.95,
+      "high": 26.66,
+      "low": 25.49,
+      "volume": 545481
     },
     "601088": {
       "name": "中国神华",
-      "price": 47.5,
-      "change_pct": -0.4,
-      "high": 48.03,
-      "low": 47.18,
-      "volume": 225465
+      "price": 48.02,
+      "change_pct": 1.09,
+      "high": 48.43,
+      "low": 47.62,
+      "volume": 185966
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.86
+      "change_pct": 0.35
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": 3.05
+      "change_pct": 2.1
     },
     "军工": {
-      "change_pct": 1.28
+      "change_pct": 0.28
     },
     "黄金": {
-      "change_pct": 0.8
+      "change_pct": -0.13
     }
   },
   "news": [
+    {
+      "source": "BBC中文",
+      "title": "隨著美國抵達中東，伊朗稱部隊正「等待美國士兵」",
+      "link": "https://www.bbc.com/zhongwen/articles/c1mkenge5l5o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 30 Mar 2026 03:33:50 GMT",
+      "summary": "美國官方尚未確認是否會向衝突地區部署地面部隊，這將會導致戰爭升級。",
+      "lang": "zh"
+    },
+    {
+      "source": "BBC中文",
+      "title": "分析：特朗普在憑直覺和伊朗打仗，很難如願以償",
+      "link": "https://www.bbc.com/zhongwen/articles/cd7jel54z0no/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 29 Mar 2026 10:13:25 GMT",
+      "summary": "特朗普原本期盼能重演今年一月美軍閃電綁架委內瑞拉總統馬杜羅的戲碼。他對委內瑞拉與伊朗兩國之間差異的理解，存在著巨大的鴻溝。",
+      "lang": "zh"
+    },
+    {
+      "source": "BBC中文",
+      "title": "胡塞武裝威脅紅海航運如何進一步衝擊全球經濟",
+      "link": "https://www.bbc.com/zhongwen/articles/c3v6w6qrwl6o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 29 Mar 2026 05:14:53 GMT",
+      "summary": "胡塞武裝真正構成更大威脅的地方在也門外海。這個由伊朗支持的組織可能會讓另一條至關重要的航道陷入停滯。",
+      "lang": "zh"
+    },
     {
       "source": "BBC中文",
       "title": "特朗普為下台階同時追求兩條出路",
       "link": "https://www.bbc.com/zhongwen/articles/c1w4el57d90o/trad?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 27 Mar 2026 04:46:52 GMT",
       "summary": "白宮堅稱總統正主導事態發展，但甚至連部分共和黨人也因為他對戰爭目標的混亂訊息而感到沮喪。",
-      "lang": "zh"
-    },
-    {
-      "source": "BBC中文",
-      "title": "分析：伊朗拒絕與美國談判，反映不信任",
-      "link": "https://www.bbc.com/zhongwen/articles/cgld9rj5w8yo/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 26 Mar 2026 07:34:17 GMT",
-      "summary": "但這並不意味著大門已經關閉，因為伊朗的強硬立場更多的可能是為了設定條件，而不是拒絕外交途徑。",
       "lang": "zh"
     },
     {
@@ -580,19 +596,51 @@
       "lang": "zh"
     },
     {
-      "source": "BBC中文",
-      "title": "為何海灣國家尚未報復伊朗？",
-      "link": "https://www.bbc.com/zhongwen/articles/c0lep1nexx3o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 23 Mar 2026 08:11:31 GMT",
-      "summary": "專家表示，海灣國家不願直接捲入戰爭，但不太可能接受無限期地遭受攻擊。",
+      "source": "德国之声",
+      "title": "賴清德「返核」之路：核電是能源安全解方嗎？",
+      "link": "https://www.dw.com/zh/賴清德「返核」之路：核電是能源安全解方嗎？/a-76573904?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Mon, 30 Mar 2026 01:12:00 GMT",
+      "summary": "台灣2025年實現「非核家園」，然而如今政府考慮重啟核電。總統賴清德稱，檢討核電重啟與推動綠能「並行不悖」，過去更曾表態「不排除新核能」。DW採訪專家，梳理台灣這波關於重啟舊核電、發展新核能等爭議。",
       "lang": "zh"
     },
     {
-      "source": "BBC中文",
-      "title": "伊朗戰爭顯示國際衝突的規範已被顛覆",
-      "link": "https://www.bbc.com/zhongwen/articles/czx9deey2e1o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 25 Mar 2026 06:06:49 GMT",
-      "summary": "美國對能源基礎設施的威脅，以及伊朗對其海灣鄰國的報復，顯示局勢已出現明顯的轉變。",
+      "source": "德国之声",
+      "title": "美军会在伊朗展开地面行动？伊朗议长威胁把美军烧成灰烬",
+      "link": "https://www.dw.com/zh/美军会在伊朗展开地面行动？伊朗议长威胁把美军烧成灰烬/a-76585086?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sun, 29 Mar 2026 13:38:00 GMT",
+      "summary": "伊朗议会议长周日声称，尽管美国表面上积极开展外交努力以结束中东战争，但实际上却计划对伊朗发动地面进攻。据《华盛顿邮报》报道，美国国防部正为在伊朗展开为期数周的地面行动做准备。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "伊朗：战争阴影下的“互联网孤岛”",
+      "link": "https://www.dw.com/zh/伊朗：战争阴影下的-互联网孤岛/a-76585132?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sun, 29 Mar 2026 13:35:00 GMT",
+      "summary": "随着美伊战火持续蔓延，德黑兰政权不仅在军事上面临严峻挑战，更在信息战场上实施了严密封锁。通过切断互联网和收缴卫星通讯设备，伊朗政府试图将民众困在信息真空之中。对许多伊朗人而言，这种因断网带来的不确定性已成为比导弹袭击更沉重的心理负担。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "全美爆发“不要国王”运动：数百万民众抗议特朗普“独裁”统治",
+      "link": "https://www.dw.com/zh/全美爆发-不要国王-运动：数百万民众抗议特朗普-独裁-统治/a-76583240?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sun, 29 Mar 2026 10:03:00 GMT",
+      "summary": "本周末，名为“不要国王”（No Kings）的大规模抗议活动席卷全美。从大都市到偏远小镇，数百万美国民众走上街头，抗议总统特朗普的移民镇压政策、强权领导风格以及正在进行的伊朗战争。明尼阿波利斯作为此次运动的中心，再次成为全美舆论的焦点。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "伊朗威胁或将袭击中东地区的美、以大学",
+      "link": "https://www.dw.com/zh/伊朗威胁或将袭击中东地区的美、以大学/a-76583312?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sun, 29 Mar 2026 09:26:00 GMT",
+      "summary": "伊朗伊斯兰革命卫队称美国和以色列的空袭毁坏了两所伊朗大学，并威胁将对位于中东的美国和以色列的大学校园进行报复。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "美国因伊朗战争“自毁声誉” 中国成东南亚大救星？",
+      "link": "https://www.dw.com/zh/美国因伊朗战争-自毁声誉-中国成东南亚大救星？/a-76568850?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sun, 29 Mar 2026 07:26:00 GMT",
+      "summary": "随着伊朗战争导致油价飙升，多个东南亚国家面临燃料难题。有专家对DW表示，这导致美国在该地区的形象变差，而北京则在这场危机中将自己塑造为比华盛顿更稳定、更负责任的合作伙伴。",
       "lang": "zh"
     },
     {
@@ -605,22 +653,6 @@
     },
     {
       "source": "德国之声",
-      "title": "胡塞武装袭击以色列 加入伊朗战争",
-      "link": "https://www.dw.com/zh/胡塞武装袭击以色列-加入伊朗战争/a-76577553?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 28 Mar 2026 11:29:00 GMT",
-      "summary": "受伊朗支持的胡塞武装宣布，周六早些时候对以色列发动了导弹袭击。这是伊朗战争爆发以来，胡塞武装首次参与冲突。以色列军方称拦截了胡塞武装所发射的导弹。外界担心，胡塞武装是否会像加沙战争期间那样，向红海商船发动袭击。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "批德国不愿协助霍尔木兹护航 特朗普称“乌克兰也不是我们的战争”",
-      "link": "https://www.dw.com/zh/批德国不愿协助霍尔木兹护航-特朗普称-乌克兰也不是我们的战争/a-76577014?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 28 Mar 2026 10:42:00 GMT",
-      "summary": "在德国拒绝协助霍尔木兹海峡护航，并称伊朗战争“不是我们的战争”之后，美国总统特朗普对柏林这一态度加以抨击。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
       "title": "从期望到失望：战火中的伊朗民意",
       "link": "https://www.dw.com/zh/从期望到失望：战火中的伊朗民意/a-76569219?maca=chi-rss-chi-all-1127-xml-mrss",
       "published": "Sat, 28 Mar 2026 07:47:00 GMT",
@@ -628,35 +660,19 @@
       "lang": "zh"
     },
     {
-      "source": "德国之声",
-      "title": "德语媒体：特朗普推迟访华对中美关系的影响",
-      "link": "https://www.dw.com/zh/德语媒体：特朗普推迟访华对中美关系的影响/a-76569187?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 27 Mar 2026 15:08:00 GMT",
-      "summary": "《新苏黎世报》分析文章称，特朗普宣布推迟访华，虽然打乱了北京的日程安排，但并未影响到中国试图缓和中美关系的步伐。《商报》评论称，德国化工巨头扩大在中国的投资是明智的举动。",
+      "source": "FT中文网",
+      "title": "中国对美国贸易调查发起反击",
+      "link": "https://www.ftchinese.com/story/001109311",
+      "published": "Sun, 29 Mar 2026 16:00:00 GMT",
+      "summary": "中国商务部宣布对美国针对中国和另外数十个国家的301调查启动两项贸易壁垒调查。此举在特朗普访华几周前加剧了贸易紧张。",
       "lang": "zh"
     },
     {
-      "source": "德国之声",
-      "title": "中国对美展开贸易壁垒调查",
-      "link": "https://www.dw.com/zh/中国对美展开贸易壁垒调查/a-76568862?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 27 Mar 2026 14:59:00 GMT",
-      "summary": "美国总统特朗普本月在两项“301调查”中囊括中国，其中涉及产能过剩以及强制劳动。北京作出回应：商务部周五宣布对美国的做法进行“贸易壁垒调查”。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "特朗普再度延长对伊朗的最后通牒",
-      "link": "https://www.dw.com/zh/特朗普再度延长对伊朗的最后通牒/a-76564291?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 27 Mar 2026 11:42:00 GMT",
-      "summary": "伊朗战争当前形势下，华盛顿和德黑兰究竟谁占据更有利的位置？目前并不明确。美国再度延长对伊朗的最后通牒，与此同时也有消息称，华盛顿在考虑增派部队。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "德语媒体：伊朗战争中的大国博弈",
-      "link": "https://www.dw.com/zh/德语媒体：伊朗战争中的大国博弈/a-76548141?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 26 Mar 2026 15:10:00 GMT",
-      "summary": "《柏林日报》发表评论称，伊朗战争绝不仅仅是一场地区性军事冲突，更是超级大国间围绕资源控制和势力范围的一场博弈，而无论这场大国博弈的结局如何，欧洲恐怕都只能扮演看客的角色。《商报》评论则分析了中国在霍尔木兹危机中表现出较强“战略定力”的原因。",
+      "source": "FT中文网",
+      "title": "菲律宾央行：能源涨价使该国“进退两难”",
+      "link": "https://www.ftchinese.com/story/001109312",
+      "published": "Sun, 29 Mar 2026 16:00:00 GMT",
+      "summary": "菲央行行长雷莫洛纳承认，伊朗战争造成的能源价格飙涨给本已表现欠佳的菲律宾经济带来“极高的通胀风险”。",
       "lang": "zh"
     },
     {
@@ -708,22 +724,6 @@
       "lang": "zh"
     },
     {
-      "source": "FT中文网",
-      "title": "古巴几天里两次全国停电",
-      "link": "https://www.ftchinese.com/story/001109256",
-      "published": "Sun, 22 Mar 2026 16:00:00 GMT",
-      "summary": "美国的能源封锁给哈瓦那政权带来越来越大压力。上周载有俄罗斯燃料的两艘船舶有一艘中途改道，不再以古巴为目的地。",
-      "lang": "zh"
-    },
-    {
-      "source": "FT中文网",
-      "title": "李强：中国致力成为“稳定性港湾”",
-      "link": "https://www.ftchinese.com/story/001109255",
-      "published": "Sun, 22 Mar 2026 16:00:00 GMT",
-      "summary": "美国深陷伊朗战争泥潭之际，中国总理在年度中国发展高层论坛上告诉70多位全球顶级高管，中国拥有无可比拟的供应链和可预测的商业环境。",
-      "lang": "zh"
-    },
-    {
       "source": "BBC中东",
       "title": "Iran-backed Houthis join war with attack against Israel",
       "link": "https://www.bbc.com/news/articles/cd6l5n8jv4yo?at_medium=RSS&at_campaign=rss",
@@ -735,7 +735,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "2/28",
         "3/1",
         "3/2",
         "3/3",
@@ -764,10 +763,10 @@
         "3/26",
         "3/27",
         "3/28",
-        "3/29"
+        "3/29",
+        "3/30"
       ],
       "transits": [
-        18,
         7,
         5,
         6,
@@ -781,6 +780,7 @@
         2,
         3,
         4,
+        0,
         0,
         0,
         0,
@@ -854,25 +854,25 @@
         21,
         69
       ],
-      "date_label": "3月29日"
+      "date_label": "3月30日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-03-29",
+      "hormuz_last_date": "2026-03-30",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 16,
+      "vlcc_stale_days": 17,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-03-29"
+      "routes_date": "2026-03-30"
     }
   },
   "meta": {
-    "report_date": "2026.03.29",
-    "report_date_cn": "2026年03月29日",
-    "war_day": 30,
+    "report_date": "2026.03.30",
+    "report_date_cn": "2026年03月30日",
+    "war_day": 31,
     "war_start": "2026-02-28",
-    "generated_at": "2026-03-29T11:58:08.228517+08:00",
-    "generated_at_cn": "2026-03-29 11:58:08 北京时间"
+    "generated_at": "2026-03-30T12:11:58.346299+08:00",
+    "generated_at_cn": "2026-03-30 12:11:58 北京时间"
   },
   "history": [
     {
@@ -1014,6 +1014,13 @@
       "wti": 99.63999938964844,
       "gold": 4492.0,
       "usd_cny": 6.910699844360352
+    },
+    {
+      "date": "2026-03-30",
+      "brent": 107.7300033569336,
+      "wti": 101.26000213623047,
+      "gold": 4526.10009765625,
+      "usd_cny": 6.907100200653076
     }
   ]
 }
