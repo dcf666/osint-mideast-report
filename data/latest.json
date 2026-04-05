@@ -68,7 +68,7 @@
         101.16,
         109.03
       ],
-      "updated": "2026-04-04T03:37:04.041567"
+      "updated": "2026-04-05T03:56:43.317489"
     },
     "wti": {
       "current": 111.54000091552734,
@@ -138,7 +138,7 @@
         100.12,
         111.54
       ],
-      "updated": "2026-04-04T03:37:04.132511"
+      "updated": "2026-04-05T03:56:43.385937"
     },
     "gold": {
       "current": 4651.5,
@@ -208,12 +208,12 @@
         4783.2,
         4651.5
       ],
-      "updated": "2026-04-04T03:37:04.221062"
+      "updated": "2026-04-05T03:56:43.455028"
     },
     "usd_cny": {
-      "current": 6.894199848175049,
-      "day_change_pct": 0.13,
-      "war_change_pct": 0.53,
+      "current": 6.881899833679199,
+      "day_change_pct": -0.05,
+      "war_change_pct": 0.35,
       "dates": [
         "02/24",
         "02/25",
@@ -276,9 +276,9 @@
         6.89,
         6.87,
         6.89,
-        6.89
+        6.88
       ],
-      "updated": "2026-04-04T03:37:04.309259"
+      "updated": "2026-04-05T03:56:43.525525"
     },
     "nat_gas": {
       "current": 2.799999952316284,
@@ -348,7 +348,7 @@
         2.82,
         2.8
       ],
-      "updated": "2026-04-04T03:37:04.401984"
+      "updated": "2026-04-05T03:56:43.594124"
     }
   },
   "stocks": {
@@ -533,15 +533,7 @@
   "news": [
     {
       "source": "BBC中文",
-      "title": "「要嚴肅一些……不要每天出來講話」：馬克龍批評特朗普對伊朗戰爭的處理方式",
-      "link": "https://www.bbc.com/zhongwen/articles/c4gd8lxlg5vo/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Apr 2026 03:59:04 GMT",
-      "summary": "法國總統馬克龍（馬克宏）批評特朗普（川普）處理與伊朗戰爭的方式，強調這類衝突需要「認真」對待，不能每天只是開口就自相矛盾。",
-      "lang": "zh"
-    },
-    {
-      "source": "BBC中文",
-      "title": "分析: 美以攻擊下伊朗專注於生存，意味著德黑蘭政權依然穩固",
+      "title": "美以攻擊下伊朗專注於生存，意味著德黑蘭政權依然穩固",
       "link": "https://www.bbc.com/zhongwen/articles/ce35nej38q3o/trad?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 03 Apr 2026 04:42:21 GMT",
       "summary": "多年來，美國或以色列大規模攻擊的隱性威脅，一直是對伊朗的約束。如果伊朗在這場直接對抗後仍能完好無損，那麼未來對其威脅的可信度將大幅降低。",
@@ -553,6 +545,14 @@
       "link": "https://www.bbc.com/zhongwen/articles/cx2el8zd3d4o/trad?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 03 Apr 2026 07:36:19 GMT",
       "summary": "特朗普（川普）發動關稅貿易戰一年後，全球經濟格局劇變。美中加速脫鉤、美國國內物價也跟著上漲等。這場關稅風暴，究竟為世界帶來了哪些深遠改變？",
+      "lang": "zh"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「要嚴肅一些……不要每天出來講話」：馬克龍批評特朗普對伊朗戰爭的處理方式",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gd8lxlg5vo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Apr 2026 03:59:04 GMT",
+      "summary": "法國總統馬克龍（馬克宏）批評特朗普（川普）處理與伊朗戰爭的方式，強調這類衝突需要「認真」對待，不能每天只是開口就自相矛盾。",
       "lang": "zh"
     },
     {
@@ -597,6 +597,46 @@
     },
     {
       "source": "德国之声",
+      "title": "伊朗的“不对称军事战略”还能坚持多久？",
+      "link": "https://www.dw.com/zh/伊朗的-不对称军事战略-还能坚持多久？/a-76662524?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 4 Apr 2026 14:28:00 GMT",
+      "summary": "历经了多年制裁，还遭受了美国和以色列连续数星期的轰炸，伊朗政权看似风雨飘摇。然而，德黑兰采取的“不对称军事战略”，让其依然拥有不小的反击能力。分析人士认为，美军将难以“速胜”，伊朗政权今后一段时间仍可维持对霍尔木兹海峡的威胁。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "特朗普拟将国防预算增至1.5万亿美元 同时削减10%国内支出",
+      "link": "https://www.dw.com/zh/特朗普拟将国防预算增至1-5万亿美元-同时削减10-国内支出/a-76661554?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 4 Apr 2026 13:35:00 GMT",
+      "summary": "美国总统特朗普周五在其2027财年预算提案中提出，将国防开支提高至1.5万亿美元同时削减多项国内项目支出。民主党批评其“重武器轻民生”，共和党则称此举有助于维持美国军事优势。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
+      "link": "https://www.dw.com/zh/伊朗战争以来-日本、法国商船首次通过霍尔木兹海峡/a-76660245?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 4 Apr 2026 10:42:00 GMT",
+      "summary": "航运数据显示，包括一艘法国籍船只、一艘日本籍船只在内的数艘船舶近日穿越了霍尔木兹海峡，成为一个多月以来通过该海峡的两百余艘船只之一。路透社报道指出，这反映了伊朗允许其认为友好国家的船只通行的政策。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "美伊战事正酣 中国趁机扩展影响力？",
+      "link": "https://www.dw.com/zh/美伊战事正酣-中国趁机扩展影响力？/a-76659916?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 4 Apr 2026 10:23:00 GMT",
+      "summary": "中国联手巴基斯坦提出了伊朗和平五点方案，以争取海湾国家以及欧洲的支持。同时，北京还在联合国反对一项旨在动用武力打通霍尔木兹海峡的动议。但是外交圈内人士称，特朗普政府对第三方介入调停并不感兴趣，尤其是在可能提升中国影响力的情况下。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
+      "title": "两架美军战机坠毁一人失踪 伊朗战事局势突变",
+      "link": "https://www.dw.com/zh/两架美军战机坠毁一人失踪-伊朗战事局势突变/a-76659897?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 4 Apr 2026 10:07:00 GMT",
+      "summary": "伊朗战争进入第六周，局势出现重大转折：两架美军战机在不同事件中坠毁，造成一人失踪。这是本轮冲突中美军战机首次被击落。至此美军阵亡13人，受伤365人。",
+      "lang": "zh"
+    },
+    {
+      "source": "德国之声",
       "title": "德语媒体：急需孩子的中国",
       "link": "https://www.dw.com/zh/德语媒体：急需孩子的中国/a-76654734?maca=chi-rss-chi-all-1127-xml-mrss",
       "published": "Fri, 3 Apr 2026 13:55:00 GMT",
@@ -617,46 +657,6 @@
       "link": "https://www.dw.com/zh/美媒：中国正在悄悄扩大核武库/a-76653627?maca=chi-rss-chi-all-1127-xml-mrss",
       "published": "Fri, 3 Apr 2026 11:09:00 GMT",
       "summary": "美国总统特朗普如果在5月中旬访问北京，他很可能会和中国领导人谈及核裁军协议问题。多年来，他一直想把核裁军条约从美俄两国扩展到美俄中三国。而CNN的最新调查发现，中国正在悄悄扩建核武研发和生产设施。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "安理会推迟表决护航决议 美国百余名法学家联署公开信",
-      "link": "https://www.dw.com/zh/安理会推迟表决护航决议-美国百余名法学家联署公开信/a-76652936?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 3 Apr 2026 10:59:00 GMT",
-      "summary": "在巴林最初提出的草案被法俄中口头拒绝后，修改后的文本强调使用“防御手段”，并推迟一天在安理会进行表决。与此同时，美国国内100多名法学家发表联署公开信，对此次军事行动是否犯有战争罪表示严重关切。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "“我想时候到了”特朗普解除邦迪司法部长职务",
-      "link": "https://www.dw.com/zh/我想时候到了-特朗普解除邦迪司法部长职务/a-76652489?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 3 Apr 2026 09:23:00 GMT",
-      "summary": "特朗普解除了美国司法部长邦迪的职务。这让她成为了近期第二名被解职的特朗普内阁成员。邦迪对于爱泼斯坦案调查文件的处理方式，不仅受到民主党人的批评，似乎也令特朗普感到不满。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "伊朗未来两、三周内继续被轰炸 德中外长紧急通话",
-      "link": "https://www.dw.com/zh/伊朗未来两、三周内继续被轰炸-德中外长紧急通话/a-76646679?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 2 Apr 2026 14:38:00 GMT",
-      "summary": "按照特朗普的说法，美以对伊朗还将持续猛烈轰炸两至三周，甚至包括能源基础设施，强调霍尔木兹海峡受阻不是美国的问题。德中两国外长就战争造成的能源危机通了电话。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "白鹰、波斯猫、AI和武侠 中国官媒如何讲好美国“霸权衰落”故事？",
-      "link": "https://www.dw.com/zh/白鹰、波斯猫、ai和武侠-中国官媒如何讲好美国-霸权衰落-故事？/a-76640574?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 2 Apr 2026 13:06:00 GMT",
-      "summary": "中国官方如何向民众讲好“伊朗战争”的故事？在官方媒体CCTV最新发布的一部AI生成动画短片中，错综复杂的中东地缘政治被重新构想为怀旧味浓浓的中国武侠故事，传递出一个非常明确的信息。",
-      "lang": "zh"
-    },
-    {
-      "source": "德国之声",
-      "title": "德语媒体：盲目自大的欧洲人",
-      "link": "https://www.dw.com/zh/德语媒体：盲目自大的欧洲人/a-76626930?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 1 Apr 2026 14:13:00 GMT",
-      "summary": "《新苏黎世报》发表客座评论写道，中国人占据了电动车市场的领先地位之后，又在快速推动类人机器人的量产，但安于现状的欧洲人却仍沉浸在对“昨日辉煌”的浪漫回忆中。《法兰克福汇报》注意到中国同步发展多种形式的电力能源，正在快速成为‘电子化国家’。",
       "lang": "zh"
     },
     {
@@ -725,17 +725,16 @@
     },
     {
       "source": "BBC中东",
-      "title": "French-owned ship passes through Strait of Hormuz",
-      "link": "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Apr 2026 17:45:46 GMT",
-      "summary": "It appears to be the first ship owned by a major European firm to go through the strait since the conflict began.",
+      "title": "US and Iran trade threats to unleash 'hell' as search for missing US airman continues",
+      "link": "https://www.bbc.com/news/articles/c5y90jl8veyo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 05 Apr 2026 03:26:15 GMT",
+      "summary": "Iran rejected Donald Trump's ultimatum for a deal to re-open the Strait of Hormuz whose closure has led to a spike in oil prices.",
       "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "3/6",
         "3/7",
         "3/8",
         "3/9",
@@ -764,10 +763,10 @@
         "4/1",
         "4/2",
         "4/3",
-        "4/4"
+        "4/4",
+        "4/5"
       ],
       "transits": [
-        4,
         3,
         2,
         1,
@@ -775,6 +774,7 @@
         2,
         3,
         4,
+        0,
         0,
         0,
         0,
@@ -854,25 +854,25 @@
         21,
         69
       ],
-      "date_label": "4月4日"
+      "date_label": "4月5日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-04-04",
+      "hormuz_last_date": "2026-04-05",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 22,
+      "vlcc_stale_days": 23,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-04-04"
+      "routes_date": "2026-04-05"
     }
   },
   "meta": {
-    "report_date": "2026.04.04",
-    "report_date_cn": "2026年04月04日",
-    "war_day": 36,
+    "report_date": "2026.04.05",
+    "report_date_cn": "2026年04月05日",
+    "war_day": 37,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-04T11:38:17.810240+08:00",
-    "generated_at_cn": "2026-04-04 11:38:17 北京时间"
+    "generated_at": "2026-04-05T11:57:48.266552+08:00",
+    "generated_at_cn": "2026-04-05 11:57:48 北京时间"
   },
   "history": [
     {
@@ -1056,6 +1056,13 @@
       "wti": 111.54000091552734,
       "gold": 4651.5,
       "usd_cny": 6.894199848175049
+    },
+    {
+      "date": "2026-04-05",
+      "brent": 109.02999877929688,
+      "wti": 111.54000091552734,
+      "gold": 4651.5,
+      "usd_cny": 6.881899833679199
     }
   ]
 }
