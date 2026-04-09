@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 98.04000091552734,
-      "day_change_pct": 3.47,
-      "war_change_pct": 26.11,
+      "current": 97.9000015258789,
+      "day_change_pct": 3.32,
+      "war_change_pct": 25.93,
       "dates": [
         "02/26",
         "02/27",
@@ -66,14 +66,14 @@
         109.77,
         109.27,
         94.75,
-        98.04
+        97.9
       ],
-      "updated": "2026-04-09T08:24:54.999340"
+      "updated": "2026-04-09T12:38:07.927931"
     },
     "wti": {
-      "current": 97.4000015258789,
-      "day_change_pct": 3.17,
-      "war_change_pct": 36.74,
+      "current": 99.22000122070312,
+      "day_change_pct": 5.09,
+      "war_change_pct": 39.3,
       "dates": [
         "02/26",
         "02/27",
@@ -136,14 +136,14 @@
         112.41,
         112.95,
         94.41,
-        97.4
+        99.22
       ],
-      "updated": "2026-04-09T08:24:55.062878"
+      "updated": "2026-04-09T12:38:08.064395"
     },
     "gold": {
-      "current": 4748.39990234375,
-      "day_change_pct": -0.02,
-      "war_change_pct": -10.31,
+      "current": 4761.2998046875,
+      "day_change_pct": 0.25,
+      "war_change_pct": -10.07,
       "dates": [
         "02/26",
         "02/27",
@@ -206,14 +206,14 @@
         4656.8,
         4657.1,
         4749.5,
-        4748.4
+        4761.3
       ],
-      "updated": "2026-04-09T08:24:55.128583"
+      "updated": "2026-04-09T12:38:08.202222"
     },
     "usd_cny": {
-      "current": 6.8394999504089355,
-      "day_change_pct": -0.25,
-      "war_change_pct": -0.27,
+      "current": 6.83620023727417,
+      "day_change_pct": -0.3,
+      "war_change_pct": -0.32,
       "dates": [
         "02/27",
         "03/02",
@@ -278,12 +278,12 @@
         6.86,
         6.84
       ],
-      "updated": "2026-04-09T08:24:55.197031"
+      "updated": "2026-04-09T12:38:08.443973"
     },
     "nat_gas": {
-      "current": 2.7290000915527344,
-      "day_change_pct": 0.18,
-      "war_change_pct": -7.8,
+      "current": 2.7100000381469727,
+      "day_change_pct": -0.51,
+      "war_change_pct": -8.45,
       "dates": [
         "02/26",
         "02/27",
@@ -346,9 +346,9 @@
         2.81,
         2.87,
         2.72,
-        2.73
+        2.71
       ],
-      "updated": "2026-04-09T08:24:55.272001"
+      "updated": "2026-04-09T12:38:08.697506"
     }
   },
   "stocks": {
@@ -532,24 +532,71 @@
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "克里姆林宫：世界各国正排队购买俄罗斯能源",
-      "link": "https://www.dw.com/zh/克里姆林宫：世界各国正排队购买俄罗斯能源/a-76691092?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Tue, 7 Apr 2026 11:54:00 GMT",
-      "summary": "随着全球能源危机动摇市场基础，克里姆林宫周二称俄能源需求激增。受美以对伊战争及霍尔木兹海峡封锁影响，原油滞留推高全球油价。身为原材料大国的俄罗斯正通过规避封锁的航道获取巨额溢价，成为这场中东新战争的主要受益者。",
+      "source": "BBC中文",
+      "title": "美伊達成停火協議後油價暴跌，亞洲股市普遍大漲",
+      "link": "https://www.bbc.com/zhongwen/articles/ce9mdddy1vzo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 08 Apr 2026 03:22:19 GMT",
+      "summary": "亞洲在伊朗戰爭引發的經濟衝擊中受到特別嚴重的打擊。近幾週來，區內各國政府與企業陸續宣布措施，以應對高能源價格與燃料短缺。",
       "lang": "zh",
-      "relevance_score": 90,
+      "relevance_score": 100,
       "entity_hits": [
-        "霍尔木兹",
-        "海峡",
-        "中东",
-        "油价",
-        "原油"
+        "油價",
+        "美伊",
+        "伊朗"
       ],
       "action_hits": [
-        "封锁",
-        "原油",
-        "油价"
+        "停火",
+        "油價",
+        "打擊",
+        "停火協議"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "美伊停火瀕臨破局 中國成為關鍵調停者？",
+      "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Thu, 9 Apr 2026 07:10:00 GMT",
+      "summary": "在美伊同意暫時停火、為談判爭取空間之際，中國強調居中斡旋的外交角色。然而停火未滿48小時，以色列對黎巴嫩發動大規模空襲，伊朗亦再度封鎖霍爾木茲海峽，停火是否破局引發關注。",
+      "lang": "zh",
+      "relevance_score": 100,
+      "entity_hits": [
+        "海峽",
+        "黎巴嫩",
+        "以色列",
+        "霍爾木茲",
+        "伊朗",
+        "美伊"
+      ],
+      "action_hits": [
+        "封鎖",
+        "停火",
+        "談判",
+        "空襲"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "美伊達成停火兩週 換取霍爾木茲海峽重啟",
+      "link": "https://www.dw.com/zh/美伊達成停火兩週-換取霍爾木茲海峽重啟/a-76700960?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 8 Apr 2026 03:38:00 GMT",
+      "summary": "美國總統川普7日宣布與伊朗達成為期兩週的停火協議，條件是伊朗重新開放霍爾木茲海峽，德黑蘭也表示10日起將與美方在巴基斯坦展開談判。儘管停火消息帶動股市上漲、油價下跌，伊朗及以色列仍持續交火，停火協議何時真正生效仍充滿不確定性。",
+      "lang": "zh",
+      "relevance_score": 100,
+      "entity_hits": [
+        "海峽",
+        "以色列",
+        "霍爾木茲",
+        "油價",
+        "德黑蘭",
+        "伊朗",
+        "美伊"
+      ],
+      "action_hits": [
+        "談判",
+        "停火協議",
+        "油價",
+        "停火",
+        "重啟"
       ]
     },
     {
@@ -559,18 +606,83 @@
       "published": "Wed, 08 Apr 2026 16:00:00 GMT",
       "summary": "以色列军方称其打击了黎巴嫩全国100个与真主党有关的地点。内塔尼亚胡的办公室坚称美国、伊朗和以色列之间的停火协议并不涵盖黎巴嫩。",
       "lang": "zh",
-      "relevance_score": 90,
+      "relevance_score": 100,
       "entity_hits": [
-        "真主党",
-        "以色列",
-        "伊朗",
         "黎巴嫩",
-        "贝鲁特"
+        "以色列",
+        "真主党",
+        "贝鲁特",
+        "伊朗"
       ],
       "action_hits": [
-        "轰炸",
         "停火",
-        "打击"
+        "停火协议",
+        "打击",
+        "轰炸"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "分析：特朗普宣稱飛行員救援行動勝利，但美國在伊朗面臨的威脅揮之不去",
+      "link": "https://www.bbc.com/zhongwen/articles/cnv8rr9yprlo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 06 Apr 2026 09:45:48 GMT",
+      "summary": "儘管任務最終成功，但過去數天發生的事件——包括兩架飛機被擊落、至少一架直升機遭到槍擊——凸顯出，即便美國與以色列已對伊朗軍事基礎設施展開數週的猛烈打擊，且總統聲稱德黑蘭「已無防空設備」，美軍飛機與人員仍面臨持續威脅。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "以色列",
+        "伊朗",
+        "美軍",
+        "德黑蘭"
+      ],
+      "action_hits": [
+        "打擊",
+        "防空",
+        "擊落"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "以色列大规模袭击黎巴嫩 伊朗再次关闭霍尔木兹海峡",
+      "link": "https://www.dw.com/zh/以色列大规模袭击黎巴嫩-伊朗再次关闭霍尔木兹海峡/a-76721731?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Thu, 9 Apr 2026 12:03:00 GMT",
+      "summary": "以色列4月8日对黎巴嫩发动自与真主党交战以来最大规模的空袭之后，伊朗威胁要退出新近与美国达成的停火协议并再次关闭了霍尔木兹海峡。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "黎巴嫩",
+        "以色列",
+        "真主党",
+        "伊朗",
+        "海峡",
+        "霍尔木兹"
+      ],
+      "action_hits": [
+        "停火",
+        "停火协议",
+        "空袭"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "克里姆林宫：世界各国正排队购买俄罗斯能源",
+      "link": "https://www.dw.com/zh/克里姆林宫：世界各国正排队购买俄罗斯能源/a-76691092?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Tue, 7 Apr 2026 11:54:00 GMT",
+      "summary": "随着全球能源危机动摇市场基础，克里姆林宫周二称俄能源需求激增。受美以对伊战争及霍尔木兹海峡封锁影响，原油滞留推高全球油价。身为原材料大国的俄罗斯正通过规避封锁的航道获取巨额溢价，成为这场中东新战争的主要受益者。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "中东",
+        "原油",
+        "美以",
+        "油价",
+        "海峡",
+        "霍尔木兹"
+      ],
+      "action_hits": [
+        "油价",
+        "原油",
+        "封锁"
       ]
     },
     {
@@ -582,34 +694,52 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "伊朗",
-        "霍尔木兹",
+        "海峡",
         "油轮",
-        "海峡"
+        "霍尔木兹",
+        "伊朗"
       ],
       "action_hits": [
         "停火",
-        "航运",
-        "油轮"
+        "油轮",
+        "航运"
       ]
     },
     {
-      "source": "德国之声",
-      "title": "特朗普告诉欧洲“去自己取回原油\"",
-      "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 1 Apr 2026 13:43:00 GMT",
-      "summary": "美国总统特朗普称霍尔木兹海峡是否重新通航与美国无关，“我们没有理由插手此事”。伊朗战争爆发以来，欧洲天然气价格已上升了70%，原油上升近30%。",
+      "source": "BBC中文",
+      "title": "兩月內委內瑞拉伊朗接連巨變  中國原油進口體系面臨壓力測試",
+      "link": "https://www.bbc.com/zhongwen/articles/ckgznz79e0po/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 04 Mar 2026 00:20:48 GMT",
+      "summary": "中國石油對外依存度長期維持在70%以上，伊朗和委內瑞拉這兩個受制裁來源約佔中國海運原油進口的17%至18%。加上霍爾木茲海峽被封影響合法石油採購，中國原油進口正面臨巨大壓力。",
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "霍尔木兹",
+        "霍爾木茲",
         "伊朗",
-        "原油",
-        "海峡"
+        "海峽",
+        "原油"
       ],
       "action_hits": [
-        "天然气",
+        "制裁",
         "原油"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "美伊停火台前幕後  14日談判的焦點將是什麼",
+      "link": "https://www.bbc.com/zhongwen/articles/cj0vee83q8go/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 02:10:55 GMT",
+      "summary": "特朗普威脅若伊朗拒絕妥協，「一整個文明將在今夜死掉」後，巴基斯坦出面斡旋並達成停火協議。",
+      "lang": "zh",
+      "relevance_score": 77,
+      "entity_hits": [
+        "伊朗",
+        "美伊"
+      ],
+      "action_hits": [
+        "談判",
+        "停火",
+        "停火協議"
       ]
     },
     {
@@ -621,13 +751,47 @@
       "lang": "zh",
       "relevance_score": 76,
       "entity_hits": [
-        "原油",
-        "油轮"
+        "油轮",
+        "原油"
       ],
       "action_hits": [
         "油轮",
-        "原油",
-        "禁运"
+        "禁运",
+        "原油"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國戰鬥機在伊朗上空被擊落　兩人先後獲救",
+      "link": "https://www.bbc.com/zhongwen/articles/cn9q24pd544o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 05 Apr 2026 09:30:02 GMT",
+      "summary": "一架美軍 F-15 戰鬥機在伊朗南部上空遭擊落，美國表示兩名機組人員已成功獲救。這起事件迅速升高美伊衝突緊張局勢。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "伊朗",
+        "美軍",
+        "美伊"
+      ],
+      "action_hits": [
+        "擊落"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國試圖在伊朗戰爭中扮演和平調解者，這會奏效嗎？",
+      "link": "https://www.bbc.com/zhongwen/articles/cp8d61nl2j4o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 02 Apr 2026 03:59:47 GMT",
+      "summary": "北京與伊斯蘭堡的官員提出了一項五點計劃，旨在促成停火，並重新開放至關重要的霍爾木茲海峽。此前中國官方反應一直較為低調，為何選擇在此時介入？",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "霍爾木茲",
+        "伊朗",
+        "海峽"
+      ],
+      "action_hits": [
+        "停火"
       ]
     },
     {
@@ -639,9 +803,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "德黑兰",
+        "油价",
         "伊朗",
-        "油价"
+        "德黑兰"
       ],
       "action_hits": [
         "油价"
@@ -656,10 +820,10 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "霍尔木兹",
-        "伊朗",
+        "海峡",
         "德黑兰",
-        "海峡"
+        "霍尔木兹",
+        "伊朗"
       ],
       "action_hits": [
         "停火"
@@ -674,9 +838,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
+        "海峡",
         "霍尔木兹",
-        "伊朗",
-        "海峡"
+        "伊朗"
       ],
       "action_hits": [
         "航运"
@@ -691,9 +855,9 @@
       "lang": "zh",
       "relevance_score": 68,
       "entity_hits": [
-        "沙特",
         "伊朗",
-        "原油"
+        "原油",
+        "沙特"
       ],
       "action_hits": [
         "原油"
@@ -701,36 +865,18 @@
     },
     {
       "source": "德国之声",
-      "title": "美伊停火瀕臨破局 中國成為關鍵調停者？",
-      "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 9 Apr 2026 07:10:00 GMT",
-      "summary": "在美伊同意暫時停火、為談判爭取空間之際，中國強調居中斡旋的外交角色。然而停火未滿48小時，以色列對黎巴嫩發動大規模空襲，伊朗亦再度封鎖霍爾木茲海峽，停火是否破局引發關注。",
+      "title": "停火两周：美伊均宣布“赢了”",
+      "link": "https://www.dw.com/zh/停火两周：美伊均宣布-赢了/a-76705657?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 8 Apr 2026 10:33:00 GMT",
+      "summary": "美伊同意停火两周。特朗普表示这是美国“完全和彻底的胜利”。德黑兰则宣布敌人遭受“无可否认的历史性溃败”。在接受媒体采访时，特朗普表示北京也参与了斡旋。",
       "lang": "zh",
-      "relevance_score": 65,
+      "relevance_score": 62,
       "entity_hits": [
-        "以色列",
-        "黎巴嫩",
-        "伊朗"
+        "德黑兰",
+        "美伊"
       ],
       "action_hits": [
         "停火"
-      ]
-    },
-    {
-      "source": "BBC中文",
-      "title": "兩月內委內瑞拉伊朗接連巨變  中國原油進口體系面臨壓力測試",
-      "link": "https://www.bbc.com/zhongwen/articles/ckgznz79e0po/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 04 Mar 2026 00:20:48 GMT",
-      "summary": "中國石油對外依存度長期維持在70%以上，伊朗和委內瑞拉這兩個受制裁來源約佔中國海運原油進口的17%至18%。加上霍爾木茲海峽被封影響合法石油採購，中國原油進口正面臨巨大壓力。",
-      "lang": "zh",
-      "relevance_score": 63,
-      "entity_hits": [
-        "伊朗",
-        "原油"
-      ],
-      "action_hits": [
-        "制裁",
-        "原油"
       ]
     },
     {
@@ -742,16 +888,16 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "iran",
-        "lebanon",
         "beirut",
-        "israel"
+        "iran",
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
+        "killed",
         "strike",
         "attack",
-        "ceasefire",
-        "killed"
+        "ceasefire"
       ]
     },
     {
@@ -763,13 +909,67 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hormuz",
         "iran",
-        "strait"
+        "strait",
+        "hormuz"
       ],
       "action_hits": [
-        "ceasefire",
-        "shipping"
+        "shipping",
+        "ceasefire"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
+      "link": "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 12:12:06 GMT",
+      "summary": "Israel says Lebanon is not included in the ceasefire the US agreed to halt the war with Iran.",
+      "lang": "en",
+      "relevance_score": 75,
+      "entity_hits": [
+        "iran",
+        "israel",
+        "lebanon"
+      ],
+      "action_hits": [
+        "halt",
+        "ceasefire"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "BBC at the site of Israeli air strikes in Beirut",
+      "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 07:45:26 GMT",
+      "summary": "At least 182 people were killed and 890 others wounded, according to the Lebanese health ministry.",
+      "lang": "en",
+      "relevance_score": 75,
+      "entity_hits": [
+        "beirut",
+        "israel"
+      ],
+      "action_hits": [
+        "killed",
+        "wounded",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
+      "link": "https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 11:46:19 GMT",
+      "summary": "Iran's deputy foreign minister says the US must choose between 'war and ceasefire'.",
+      "lang": "en",
+      "relevance_score": 75,
+      "entity_hits": [
+        "iran",
+        "israel",
+        "lebanon"
+      ],
+      "action_hits": [
+        "strike",
+        "ceasefire"
       ]
     },
     {
@@ -785,65 +985,72 @@
         "oil price"
       ],
       "action_hits": [
+        "crude",
         "oil price",
-        "ceasefire",
-        "crude"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "What we know about the two-week ceasefire between the US and Iran",
-      "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 08 Apr 2026 20:25:49 GMT",
-      "summary": "The provisional truce comes more than a month after the US and Israel launched coordinated attacks on Iran.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "iran",
-        "israel"
-      ],
-      "action_hits": [
-        "attack",
-        "ceasefire",
-        "launch"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Is conditional ceasefire a victory for US or Iran?",
-      "link": "https://www.bbc.com/news/videos/crm1x927gpno?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 08 Apr 2026 16:35:07 GMT",
-      "summary": "BBC correspondent Frank Gardner explains the current situation as both sides claim victory - Iran says it will reopen the Strait of Hormuz and that its \"victory in the field would also be consolidated",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "hormuz",
-        "iran",
-        "strait"
-      ],
-      "action_hits": [
         "ceasefire"
       ]
     },
     {
       "source": "BBC中东",
-      "title": "Iranians form human chains at bridges and power plants",
-      "link": "https://www.bbc.com/news/videos/c4g5j33p6vno?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 07 Apr 2026 19:36:03 GMT",
-      "summary": "Tehran had urged people to gather outside potential US and Israeli targets after Donald Trump threatened to attack civilian infrastructure.",
+      "title": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
+      "link": "https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 11:39:56 GMT",
+      "summary": "The Israeli military claims Mohammed Wishah was a \"Hamas terrorist\" - which the Qatar-based network has previously denied.",
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "tehran",
-        "iran",
-        "israel"
+        "qatar",
+        "israel",
+        "hamas"
       ],
       "action_hits": [
-        "attack"
+        "strike"
       ]
     }
   ],
   "event_states": [
+    {
+      "event_id": "81a5e2bfb5b1",
+      "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
+      "location": "伊朗",
+      "first_seen_time": "2026-04-08T03:22:19+00:00",
+      "last_updated_time": "2026-04-09T12:12:06+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 100,
+      "source_count": 5,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/ce9mdddy1vzo/trad?at_medium=RSS&at_campaign=rss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "4833e3e99372",
+      "title": "以色列大规模袭击黎巴嫩 伊朗再次关闭霍尔木兹海峡",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-04-09T07:10:00+00:00",
+      "last_updated_time": "2026-04-09T12:03:00+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 100,
+      "source_count": 5,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "f93564890779",
+      "title": "停火两周：美伊均宣布“赢了”",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-04-08T03:38:00+00:00",
+      "last_updated_time": "2026-04-08T10:33:00+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 100,
+      "source_count": 3,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美伊達成停火兩週-換取霍爾木茲海峽重啟/a-76700960?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
     {
       "event_id": "b87710f66784",
       "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
@@ -856,6 +1063,20 @@
       "source_count": 2,
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001109403",
+      "lang": "zh"
+    },
+    {
+      "event_id": "91077977adf7",
+      "title": "德语媒体：谁在坐收渔利？",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-04-06T09:45:48+00:00",
+      "last_updated_time": "2026-04-07T14:18:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 2,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/cnv8rr9yprlo/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
@@ -873,31 +1094,17 @@
       "lang": "zh"
     },
     {
-      "event_id": "3182dd6c6396",
-      "title": "Iran Strait of Hormuz warning adds to shipping uncertainty",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-08T16:00:00+00:00",
-      "last_updated_time": "2026-04-08T17:21:31+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 90,
-      "source_count": 3,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001109402",
-      "lang": "zh"
-    },
-    {
-      "event_id": "21fab955edb9",
+      "event_id": "ab62c39ffd5d",
       "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-01T13:43:00+00:00",
+      "first_seen_time": "2026-03-04T00:20:48+00:00",
       "last_updated_time": "2026-04-04T10:42:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 80,
       "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/ckgznz79e0po/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
@@ -915,60 +1122,46 @@
       "lang": "zh"
     },
     {
-      "event_id": "4833e3e99372",
-      "title": "美伊停火瀕臨破局 中國成為關鍵調停者？",
-      "location": "伊朗",
-      "first_seen_time": "2026-04-09T07:10:00+00:00",
-      "last_updated_time": "2026-04-09T07:10:00+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 73,
-      "source_count": 3,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
+      "event_id": "500222a7b314",
+      "title": "BBC at the site of Israeli air strikes in Beirut",
+      "location": "黎巴嫩·贝鲁特",
+      "first_seen_time": "2026-04-09T07:45:26+00:00",
+      "last_updated_time": "2026-04-09T07:45:26+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 75,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
-      "event_id": "f7ea0060bd23",
-      "title": "Iranians form human chains at bridges and power plants",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-04-07T14:18:00+00:00",
-      "last_updated_time": "2026-04-07T19:36:03+00:00",
+      "event_id": "0a6ab4933dad",
+      "title": "沙特对其原油收取创纪录溢价",
+      "location": "伊朗",
+      "first_seen_time": "2026-04-05T09:30:02+00:00",
+      "last_updated_time": "2026-04-06T16:00:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 70,
       "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/德语媒体：谁在坐收渔利？/a-76695225?maca=chi-rss-chi-all-1127-xml-mrss",
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/cn9q24pd544o/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
-      "event_id": "dfb9676a1a0f",
-      "title": "特朗普：伊朗停火计划“不够好”",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-04-07T11:44:00+00:00",
-      "last_updated_time": "2026-04-07T11:44:00+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
+      "event_id": "5fd63f13b2c0",
+      "title": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
+      "location": "以色列",
+      "first_seen_time": "2026-04-09T11:39:56+00:00",
+      "last_updated_time": "2026-04-09T11:39:56+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
       "confidence": 70,
       "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/特朗普：伊朗停火计划-不够好/a-76689823?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "76bbf27802ec",
-      "title": "沙特对其原油收取创纪录溢价",
-      "location": "伊朗",
-      "first_seen_time": "2026-04-06T16:00:00+00:00",
-      "last_updated_time": "2026-04-06T16:00:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "worsening",
-      "confidence": 68,
-      "source_count": 2,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001109382",
-      "lang": "zh"
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     }
   ],
   "shipping": {
@@ -1110,8 +1303,8 @@
     "report_date_cn": "2026年04月09日",
     "war_day": 41,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-09T16:25:45.053271+08:00",
-    "generated_at_cn": "2026-04-09 16:25:45 北京时间"
+    "generated_at": "2026-04-09T20:39:21.601540+08:00",
+    "generated_at_cn": "2026-04-09 20:39:21 北京时间"
   },
   "history": [
     {
@@ -1337,6 +1530,13 @@
       "wti": 97.4000015258789,
       "gold": 4748.39990234375,
       "usd_cny": 6.8394999504089355
+    },
+    {
+      "date": "2026-04-09",
+      "brent": 97.9000015258789,
+      "wti": 99.22000122070312,
+      "gold": 4761.2998046875,
+      "usd_cny": 6.83620023727417
     }
   ]
 }
