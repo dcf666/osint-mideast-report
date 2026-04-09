@@ -467,26 +467,281 @@ def _is_chinese(text):
     return cn_count > len(text) * 0.15
 
 
-def fetch_news():
-    """Fetch latest Middle East news from RSS feeds (Chinese + English sources)."""
-    news = []
+# ---------------------------------------------------------------------------
+# Task A: 3-Layer Middle East Conflict Relevance Filter
+# Layer 1 — Entity recognition (regions, countries, armed groups, military)
+# Layer 2 — Event action detection (strike, blockade, deploy …)
+# Layer 3 — Composite relevance score 0-100; threshold ≥ 60 to keep
+# ---------------------------------------------------------------------------
 
-    # Chinese keywords for filtering
-    keywords_cn = [
-        "伊朗", "以色列", "霍尔木兹", "中东", "德黑兰", "波斯湾",
-        "油价", "原油", "油轮", "胡塞", "红海", "哈格岛",
-        "黎巴嫩", "真主党", "导弹", "无人机", "空袭", "航运",
-        "海峡", "制裁", "战争", "冲突", "军事", "海军",
-        "布伦特", "运价", "能源", "天然气", "LNG",
-        "哈尔克", "特朗普", "拜登", "石油", "停火",
+# -- Layer 1 entities --
+_ENTITIES_CN = {
+    "region":   ["中东", "波斯湾", "霍尔木兹", "海峡", "红海", "曼德海峡", "苏伊士",
+                 "阿拉伯海", "地中海东部", "原油", "油价", "油轮"],
+    "country":  ["伊朗", "以色列", "伊拉克", "黎巴嫩", "也门", "叙利亚", "沙特",
+                 "阿联酋", "巴林", "科威特", "卡塔尔", "阿曼", "约旦", "土耳其"],
+    "city":     ["德黑兰", "伊斯法罕", "哈尔克", "布什尔", "迪拜", "富查伊拉",
+                 "贝鲁特", "大马士革", "利雅得", "阿布扎比", "多哈", "巴格达"],
+    "group":    ["革命卫队", "IRGC", "真主党", "胡塞", "PMF", "哈马斯", "圣城旅"],
+    "military": ["美军", "航母", "五角大楼", "北约", "NATO", "以军", "IDF",
+                 "海军陆战队", "第五舰队", "中央司令部", "CENTCOM"],
+}
+_ENTITIES_EN = {
+    "region":   ["middle east", "persian gulf", "hormuz", "strait", "red sea",
+                 "bab el-mandeb", "suez", "arabian sea", "eastern mediterranean",
+                 "oil price", "crude oil", "brent crude", "vlcc", "freight rate"],
+    "country":  ["iran", "israel", "iraq", "lebanon", "yemen", "syria", "saudi",
+                 "uae", "bahrain", "kuwait", "qatar", "oman", "jordan", "turkey"],
+    "city":     ["tehran", "isfahan", "kharg", "bushehr", "dubai", "fujairah",
+                 "beirut", "damascus", "riyadh", "abu dhabi", "doha", "baghdad"],
+    "group":    ["irgc", "hezbollah", "houthi", "pmf", "hamas", "quds force"],
+    "military": ["us force", "carrier", "pentagon", "nato", "idf",
+                 "marines", "fifth fleet", "centcom", "uss ", "cvn-"],
+}
+
+# -- Layer 2 actions --
+_ACTIONS_CN = [
+    "空袭", "打击", "轰炸", "发射", "拦截", "击落", "部署", "集结",
+    "封锁", "制裁", "禁运", "停航", "停火", "谈判", "报复",
+    "导弹", "无人机", "巡航导弹", "弹道导弹", "防空",
+    "伤亡", "阵亡", "死亡", "难民", "撤侨",
+    "油价", "原油", "油轮", "运价", "航运", "断航", "改航",
+    "LNG", "天然气", "能源安全", "石油禁运",
+]
+_ACTIONS_EN = [
+    "strike", "attack", "bomb", "launch", "intercept", "shoot down",
+    "deploy", "mobiliz", "blockade", "sanction", "embargo", "halt",
+    "ceasefire", "negotiat", "retaliat", "escalat", "de-escalat",
+    "missile", "drone", "cruise missile", "ballistic", "air defense",
+    "casualt", "killed", "wounded", "refugee", "evacuat",
+    "oil price", "crude", "tanker", "freight", "shipping", "reroute",
+    "lng", "natural gas", "energy security", "oil embargo",
+]
+
+# -- Negative filter: topics to exclude --
+_EXCLUDE_CN = [
+    "中国外交", "中美贸易", "东盟", "朝鲜", "韩国大选", "台海", "台湾",
+    "高考", "考研", "教育部", "央行利率", "A股分红", "楼市", "房价",
+    "娱乐", "综艺", "体育", "奥运", "世界杯", "中超",
+]
+_EXCLUDE_EN = [
+    "china diplomacy", "trade war", "asean", "north korea", "south korea election",
+    "taiwan strait", "college exam", "fed rate", "housing market",
+    "entertainment", "sports", "olympics", "world cup",
+]
+
+
+def score_relevance(title: str, summary: str = "") -> dict:
+    """
+    3-layer relevance scoring for Middle East conflict.
+    Returns dict with score (0-100), entity_hits, action_hits, excluded flag.
+    """
+    text_raw = f"{title} {summary}"
+    text_lower = text_raw.lower()
+
+    # --- Exclusion check ---
+    if any(kw in text_raw for kw in _EXCLUDE_CN) or \
+       any(kw in text_lower for kw in _EXCLUDE_EN):
+        return {"score": 0, "entity_hits": [], "action_hits": [], "excluded": True}
+
+    # --- Layer 1: Entity recognition ---
+    entity_hits = []
+    entity_score = 0
+
+    _entity_weights = {"region": 18, "country": 15, "city": 20,
+                       "group": 22, "military": 22}
+
+    for cat, keywords in _ENTITIES_CN.items():
+        for kw in keywords:
+            if kw in text_raw:
+                entity_hits.append(kw)
+                entity_score += _entity_weights[cat]
+
+    for cat, keywords in _ENTITIES_EN.items():
+        for kw in keywords:
+            if kw in text_lower:
+                entity_hits.append(kw)
+                entity_score += _entity_weights[cat]
+
+    entity_score = min(entity_score, 50)  # cap at 50
+
+    # --- Layer 2: Event action detection ---
+    action_hits = []
+    action_score = 0
+
+    for kw in _ACTIONS_CN:
+        if kw in text_raw:
+            action_hits.append(kw)
+            action_score += 10
+    for kw in _ACTIONS_EN:
+        if kw in text_lower:
+            action_hits.append(kw)
+            action_score += 10
+
+    action_score = min(action_score, 40)  # cap at 40
+
+    # --- Layer 3: Composite ---
+    # Bonus: if both entity AND action found, +10 synergy
+    synergy = 10 if (entity_hits and action_hits) else 0
+    total = min(entity_score + action_score + synergy, 100)
+
+    return {
+        "score": total,
+        "entity_hits": list(set(entity_hits)),
+        "action_hits": list(set(action_hits)),
+        "excluded": False,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Task B: Unified Event State Model
+# ---------------------------------------------------------------------------
+
+_STATUS_ENUMS = [
+    "active_conflict", "escalating", "de_escalating", "ceasefire",
+    "shipping_disrupted", "partially_restored", "restored",
+]
+
+_STATUS_LABELS = {
+    "active_conflict": "交战中",
+    "escalating": "局势升级",
+    "de_escalating": "局势缓和",
+    "ceasefire": "停火",
+    "shipping_disrupted": "航运中断",
+    "partially_restored": "部分恢复",
+    "restored": "恢复正常",
+}
+
+_TREND_LABELS = {
+    "worsening": "恶化",
+    "stable": "持平",
+    "improving": "好转",
+}
+
+
+def _detect_status(text_lower, text_raw):
+    """Infer event status enum from text content."""
+    if any(k in text_lower for k in ["ceasefire", "truce"]) or \
+       any(k in text_raw for k in ["停火", "休战"]):
+        return "ceasefire"
+    if any(k in text_lower for k in ["escalat", "intensif"]) or \
+       any(k in text_raw for k in ["升级", "加剧", "恶化"]):
+        return "escalating"
+    if any(k in text_lower for k in ["de-escalat", "calm", "ease"]) or \
+       any(k in text_raw for k in ["缓和", "降温"]):
+        return "de_escalating"
+    if any(k in text_lower for k in ["blockade", "halt", "suspend", "zero transit"]) or \
+       any(k in text_raw for k in ["封锁", "停航", "中断", "暂停"]):
+        return "shipping_disrupted"
+    if any(k in text_lower for k in ["reopen", "partial", "resume"]) or \
+       any(k in text_raw for k in ["恢复", "重新开放", "部分恢复"]):
+        return "partially_restored"
+    return "active_conflict"
+
+
+def _detect_trend(text_lower, text_raw):
+    """Infer trend direction."""
+    worsen_kw = ["escalat", "intensif", "surge", "record", "crisis",
+                 "升级", "加剧", "暴涨", "创纪录", "危机", "恶化"]
+    improve_kw = ["ceasefire", "negotiat", "reopen", "calm", "ease",
+                  "停火", "谈判", "恢复", "缓和", "好转"]
+    w = sum(1 for k in worsen_kw if k in text_lower or k in text_raw)
+    i = sum(1 for k in improve_kw if k in text_lower or k in text_raw)
+    if w > i:
+        return "worsening"
+    if i > w:
+        return "improving"
+    return "stable"
+
+
+def _detect_location(text_lower, text_raw):
+    """Extract primary location from text."""
+    loc_map = [
+        ("德黑兰", "tehran", "伊朗·德黑兰"),
+        ("霍尔木兹", "hormuz", "霍尔木兹海峡"),
+        ("哈尔克", "kharg", "伊朗·哈尔克岛"),
+        ("迪拜", "dubai", "阿联酋·迪拜"),
+        ("富查伊拉", "fujairah", "阿联酋·富查伊拉"),
+        ("贝鲁特", "beirut", "黎巴嫩·贝鲁特"),
+        ("红海", "red sea", "红海"),
+        ("伊朗", "iran", "伊朗"),
+        ("以色列", "israel", "以色列"),
+        ("黎巴嫩", "lebanon", "黎巴嫩"),
+        ("伊拉克", "iraq", "伊拉克"),
+        ("也门", "yemen", "也门"),
+        ("沙特", "saudi", "沙特阿拉伯"),
+        ("波斯湾", "persian gulf", "波斯湾"),
     ]
-    # English keywords (for English-language feeds)
-    keywords_en = [
-        "iran", "israel", "hormuz", "middle east", "tehran",
-        "gulf", "oil", "tanker", "houthi", "red sea", "kharg",
-        "missile", "drone", "strike", "hezbollah", "lebanon",
-        "shipping", "naval", "carrier", "sanction",
-    ]
+    for cn, en, label in loc_map:
+        if cn in text_raw or en in text_lower:
+            return label
+    return "中东地区"
+
+
+def build_event_states(news_items):
+    """
+    Build unified event state model from scored news items.
+    Returns list of event state dicts.
+    """
+    import hashlib
+    from email.utils import parsedate_to_datetime
+
+    events = []
+    seen_titles = set()
+
+    for n in news_items:
+        title = n.get("title", "")
+        if title in seen_titles:
+            continue
+        seen_titles.add(title)
+
+        text_raw = title + " " + n.get("summary", "")
+        text_lower = text_raw.lower()
+
+        # Parse timestamp
+        try:
+            dt = parsedate_to_datetime(n.get("published", ""))
+            ts = dt.isoformat()
+        except Exception:
+            ts = datetime.now(timezone(timedelta(hours=8))).isoformat()
+
+        event_id = hashlib.md5(title.encode()).hexdigest()[:12]
+
+        events.append({
+            "event_id": event_id,
+            "title": title,
+            "location": _detect_location(text_lower, text_raw),
+            "first_seen_time": ts,
+            "last_updated_time": ts,
+            "current_status": _detect_status(text_lower, text_raw),
+            "trend": _detect_trend(text_lower, text_raw),
+            "confidence": min(n.get("relevance_score", 60), 100),
+            "source_count": 1,
+            "source": n.get("source", ""),
+            "link": n.get("link", ""),
+            "lang": n.get("lang", "en"),
+        })
+
+    # Merge events with same location+status (increment source_count)
+    merged = {}
+    for e in events:
+        key = f"{e['location']}_{e['current_status']}"
+        if key in merged:
+            merged[key]["source_count"] += 1
+            merged[key]["confidence"] = max(merged[key]["confidence"], e["confidence"])
+            # Keep the newer timestamp
+            if e["last_updated_time"] > merged[key]["last_updated_time"]:
+                merged[key]["last_updated_time"] = e["last_updated_time"]
+                merged[key]["title"] = e["title"]
+        else:
+            merged[key] = dict(e)
+
+    return sorted(merged.values(), key=lambda x: x["confidence"], reverse=True)
+
+
+def fetch_news():
+    """Fetch latest Middle East news from RSS feeds with 3-layer relevance filter."""
+    news = []
 
     for source_name, feed_url in RSS_FEEDS.items():
         try:
@@ -495,36 +750,38 @@ def fetch_news():
             for entry in feed.entries[:40]:
                 title = entry.get("title", "")
                 summary = entry.get("summary", "")
-                text = title + " " + summary
 
-                # Match against both Chinese and English keywords
-                text_lower = text.lower()
-                matched = any(kw in text for kw in keywords_cn) or any(kw in text_lower for kw in keywords_en)
+                # --- 3-layer relevance filter ---
+                rel = score_relevance(title, summary)
+                if rel["excluded"] or rel["score"] < 60:
+                    continue
 
-                if matched:
-                    is_cn = _is_chinese(title)
-                    news.append(
-                        {
-                            "source": source_name,
-                            "title": title,
-                            "link": entry.get("link", ""),
-                            "published": entry.get("published", ""),
-                            "summary": summary[:200],
-                            "lang": "zh" if is_cn else "en",
-                        }
-                    )
-                    count += 1
-                    if count >= 8:
-                        break
+                is_cn = _is_chinese(title)
+                news.append({
+                    "source": source_name,
+                    "title": title,
+                    "link": entry.get("link", ""),
+                    "published": entry.get("published", ""),
+                    "summary": summary[:200],
+                    "lang": "zh" if is_cn else "en",
+                    "relevance_score": rel["score"],
+                    "entity_hits": rel["entity_hits"],
+                    "action_hits": rel["action_hits"],
+                })
+                count += 1
+                if count >= 8:
+                    break
 
-            print(f"  [OK] {source_name}: {count} relevant articles")
+            print(f"  [OK] {source_name}: {count} relevant (scored ≥60)")
 
         except Exception as e:
             print(f"  [ERR] {source_name}: {e}")
 
-    # Sort: Chinese articles first, then English
+    # Sort: Chinese first, then by relevance score descending
     news_cn = [n for n in news if n.get("lang") == "zh"]
     news_en = [n for n in news if n.get("lang") == "en"]
+    news_cn.sort(key=lambda n: n.get("relevance_score", 0), reverse=True)
+    news_en.sort(key=lambda n: n.get("relevance_score", 0), reverse=True)
     combined = news_cn + news_en
     return combined[:25]
 
@@ -562,8 +819,12 @@ def main():
     print("\n[3/5] Fetching sector indices (Eastmoney)...")
     result["sectors"] = fetch_eastmoney_sectors()
 
-    print("\n[4/5] Fetching news (RSS)...")
+    print("\n[4/5] Fetching news (RSS) + relevance filter...")
     result["news"] = fetch_news()
+
+    print("\n[4b/5] Building event state model...")
+    result["event_states"] = build_event_states(result["news"])
+    print(f"  [OK] {len(result['event_states'])} events tracked")
 
     print("\n[5/6] Fetching shipping/maritime data...")
     result["shipping"] = fetch_shipping_data()

@@ -287,6 +287,121 @@ def _get_vlcc_note(data):
     return "最新报价"
 
 
+# ---------------------------------------------------------------------------
+# Auto-generated Hero Summary from Event State Model
+# ---------------------------------------------------------------------------
+
+_STATUS_LABELS = {
+    "active_conflict": "交战中",
+    "escalating": "局势升级",
+    "de_escalating": "局势缓和",
+    "ceasefire": "停火",
+    "shipping_disrupted": "航运中断",
+    "partially_restored": "部分恢复",
+    "restored": "恢复正常",
+}
+
+
+def build_hero_summary(data):
+    """
+    Generate hero subtitle text entirely from event state model + market data.
+    No hardcoded static strings — everything derived from data.
+    Returns dict with summary_text and tags list.
+    """
+    events = data.get("event_states", [])
+    markets = data.get("markets", {})
+    shipping = data.get("shipping", {})
+    meta = data.get("meta", {})
+
+    war_day = meta.get("war_day", "?")
+    brent = markets.get("brent", {})
+    brent_price = brent.get("current")
+
+    # --- Build summary fragments from event states ---
+    fragments = []
+    tags = []
+
+    # Fragment 1: war day
+    fragments.append(f"美以对伊朗全面战争第{war_day}天")
+
+    # Fragment 2: Hormuz status (from shipping data or events)
+    hormuz_transits = shipping.get("hormuz", {}).get("transits", [])
+    latest_hormuz = hormuz_transits[-1] if hormuz_transits else None
+    hormuz_events = [e for e in events if "霍尔木兹" in e.get("location", "")]
+
+    if latest_hormuz is not None:
+        if latest_hormuz == 0:
+            fragments.append('霍尔木兹海峡通航量降至<span class="text-alert font-bold">零</span>')
+            tags.append(("霍尔木兹封锁", "red"))
+        elif latest_hormuz < 10:
+            fragments.append(f'霍尔木兹海峡仅<span class="text-alert font-bold">{latest_hormuz}</span>艘通过')
+            tags.append(("霍尔木兹受限", "red"))
+        else:
+            fragments.append(f'霍尔木兹海峡{latest_hormuz}艘通过')
+            tags.append(("霍尔木兹通航", "yellow"))
+    elif hormuz_events:
+        status = hormuz_events[0].get("current_status", "")
+        fragments.append(f'霍尔木兹海峡{_STATUS_LABELS.get(status, "态势不明")}')
+        tags.append(("霍尔木兹", "yellow"))
+
+    # Fragment 3: Oil price
+    if brent_price and brent_price != "N/A":
+        bp = brent_price if isinstance(brent_price, (int, float)) else 0
+        if bp > 100:
+            fragments.append(f'布伦特原油突破<span class="text-warn font-bold">${bp:.0f}</span>')
+            tags.append(("油价突破$100", "red"))
+        else:
+            fragments.append(f'布伦特原油<span class="text-warn font-bold">${bp:.0f}</span>')
+            tags.append((f"油价${bp:.0f}", "yellow"))
+
+    # Fragment 4: VLCC rates
+    vlcc_rates = shipping.get("vlcc", {}).get("rates", [])
+    if vlcc_rates:
+        latest_vlcc = vlcc_rates[-1]
+        if latest_vlcc > 200:
+            fragments.append(f'VLCC运价创<span class="text-neon font-bold">历史新高</span>')
+            tags.append(("VLCC运价暴涨", "yellow"))
+        elif latest_vlcc > 100:
+            fragments.append(f'VLCC运价${latest_vlcc}K/天')
+            tags.append(("VLCC运价高企", "yellow"))
+
+    # Fragment 5: check for escalation events
+    escalating = [e for e in events if e.get("trend") == "worsening"]
+    if len(escalating) >= 3:
+        tags.append(("多线升级", "red"))
+
+    # Fragment 6: check for carrier deployment
+    carrier_events = [e for e in events
+                      if any(k in e.get("title", "") for k in ["航母", "carrier", "CVN"])]
+    if carrier_events:
+        tags.append(("航母战斗群", "blue"))
+
+    # Fragment 7: A-share reaction
+    stocks = data.get("stocks", {})
+    limit_up = [s for s in stocks.values()
+                if s.get("change_pct") is not None and s["change_pct"] >= 9.9]
+    if limit_up:
+        tags.append(("A股涨停", "green"))
+
+    # Assemble
+    summary_text = " — ".join(fragments)
+
+    # Generate tags HTML
+    tag_color_map = {"red": "tag-red", "yellow": "tag-yellow",
+                     "blue": "tag-blue", "green": "tag-green"}
+    tags_html = ""
+    for label, color in tags[:6]:
+        cls = tag_color_map.get(color, "tag-blue")
+        tags_html += f'<span class="tag {cls}">{label}</span>\n      '
+
+    return {
+        "summary_text": summary_text,
+        "tags_html": tags_html.strip(),
+        "fragments": fragments,
+        "tag_list": tags,
+    }
+
+
 def _build_transit_records(data):
     """Build verified transit records HTML from AIS/news data."""
     records = data.get("transit_records", [])
@@ -347,6 +462,9 @@ def generate():
     news_html = build_news_html(data)
     live_intel_html = build_live_intel_html(data)
 
+    # Build hero summary from event state model
+    hero = build_hero_summary(data)
+
     # Render template
     print("[4/4] Rendering template...")
     env = Environment(
@@ -396,6 +514,11 @@ def generate():
         # VLCC latest rate
         "vlcc_latest": _get_vlcc_latest(data),
         "vlcc_note": _get_vlcc_note(data),
+        # Hero summary (auto-generated from event state model)
+        "hero_summary_text": hero["summary_text"],
+        "hero_tags_html": hero["tags_html"],
+        # Event state model as JSON for advanced use
+        "event_states_json": json.dumps(data.get("event_states", []), ensure_ascii=False, default=str),
         # Satellite / AIS section
         "hormuz_today": _get_hormuz_today(data),
         "transit_records_html": _build_transit_records(data),

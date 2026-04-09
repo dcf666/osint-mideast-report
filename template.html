@@ -129,14 +129,10 @@ table.intel tr:hover{background:#2a345022}
       中东冲突<br><span class="glow-text" style="color:#00ff88">情报态势评估</span>
     </h1>
     <p class="text-steelLight text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
-      美以对伊朗全面战争第{{ war_day }}天 — 霍尔木兹海峡通航量降至<span class="text-alert font-bold">零</span> — 布伦特原油突破<span class="text-warn font-bold">${{ "%.0f"|format(brent_price) if brent_price != 'N/A' else 'N/A' }}</span> — VLCC运价创<span class="text-neon font-bold">历史新高</span>
+      {{ hero_summary_text }}
     </p>
     <div class="flex flex-wrap justify-center gap-3 text-xs font-mono">
-      <span class="tag tag-red">霍尔木兹封锁</span>
-      <span class="tag tag-red">油价突破$100</span>
-      <span class="tag tag-yellow">VLCC运价暴涨</span>
-      <span class="tag tag-blue">3航母战斗群</span>
-      <span class="tag tag-green">A股航运涨停</span>
+      {{ hero_tags_html }}
     </div>
   </div>
   <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
