@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 95.91999816894531,
-      "day_change_pct": 1.23,
-      "war_change_pct": 23.39,
+      "current": 96.87999725341797,
+      "day_change_pct": 1.0,
+      "war_change_pct": 24.62,
       "dates": [
-        "02/26",
         "02/27",
         "03/02",
         "03/03",
@@ -34,10 +33,10 @@
         "04/06",
         "04/07",
         "04/08",
-        "04/09"
+        "04/09",
+        "04/10"
       ],
       "prices": [
-        70.75,
         72.48,
         77.74,
         81.4,
@@ -66,14 +65,15 @@
         109.77,
         109.27,
         94.75,
-        95.92
+        95.92,
+        96.88
       ],
-      "updated": "2026-04-10T04:10:48.947180"
+      "updated": "2026-04-10T06:06:51.010328"
     },
     "wti": {
-      "current": 97.77999877929688,
-      "day_change_pct": -0.09,
-      "war_change_pct": 37.27,
+      "current": 98.5999984741211,
+      "day_change_pct": 0.75,
+      "war_change_pct": 38.42,
       "dates": [
         "02/27",
         "03/02",
@@ -136,14 +136,14 @@
         112.95,
         94.41,
         97.87,
-        97.78
+        98.6
       ],
-      "updated": "2026-04-10T04:10:49.092141"
+      "updated": "2026-04-10T06:06:51.102858"
     },
     "gold": {
-      "current": 4791.5,
-      "day_change_pct": -0.01,
-      "war_change_pct": -9.5,
+      "current": 4790.39990234375,
+      "day_change_pct": -0.04,
+      "war_change_pct": -9.52,
       "dates": [
         "02/27",
         "03/02",
@@ -206,12 +206,12 @@
         4657.1,
         4749.5,
         4792.2,
-        4791.5
+        4790.4
       ],
-      "updated": "2026-04-10T04:10:49.226751"
+      "updated": "2026-04-10T06:06:51.185164"
     },
     "usd_cny": {
-      "current": 6.830100059509277,
+      "current": 6.829999923706055,
       "day_change_pct": 0.02,
       "war_change_pct": -0.41,
       "dates": [
@@ -278,12 +278,12 @@
         6.83,
         6.83
       ],
-      "updated": "2026-04-10T04:10:49.371240"
+      "updated": "2026-04-10T06:06:51.298233"
     },
     "nat_gas": {
-      "current": 2.6670000553131104,
-      "day_change_pct": -0.11,
-      "war_change_pct": -9.9,
+      "current": 2.6600000858306885,
+      "day_change_pct": -0.37,
+      "war_change_pct": -10.14,
       "dates": [
         "02/27",
         "03/02",
@@ -346,51 +346,51 @@
         2.87,
         2.72,
         2.67,
-        2.67
+        2.66
       ],
-      "updated": "2026-04-10T04:10:49.508764"
+      "updated": "2026-04-10T06:06:51.449078"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 18.99,
-      "change_pct": -3.85,
+      "price": 19.12,
+      "change_pct": -3.19,
       "high": 19.75,
       "low": 18.7,
-      "volume": 1249417
+      "volume": 1900329
     },
     "600026": {
       "name": "中远海能",
-      "price": 24.35,
-      "change_pct": -4.73,
+      "price": 24.21,
+      "change_pct": -5.28,
       "high": 25.76,
-      "low": 24.32,
-      "volume": 559668
+      "low": 23.8,
+      "volume": 885688
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.81,
-      "change_pct": -3.41,
+      "price": 4.8,
+      "change_pct": -3.61,
       "high": 4.99,
-      "low": 4.78,
-      "volume": 1481880
+      "low": 4.76,
+      "volume": 2126204
     },
     "600938": {
       "name": "中国海油",
-      "price": 38.29,
-      "change_pct": -0.05,
-      "high": 38.39,
+      "price": 38.07,
+      "change_pct": -0.63,
+      "high": 38.46,
       "low": 37.88,
-      "volume": 274838
+      "volume": 361442
     },
     "601857": {
       "name": "中国石油",
-      "price": 12.02,
-      "change_pct": -0.66,
+      "price": 11.97,
+      "change_pct": -1.07,
       "high": 12.07,
       "low": 11.94,
-      "volume": 1008457
+      "volume": 1311174
     },
     "600028": {
       "name": "中国石化",
@@ -398,159 +398,139 @@
       "change_pct": -0.34,
       "high": 5.84,
       "low": 5.81,
-      "volume": 775707
+      "volume": 988180
     },
     "603619": {
       "name": "中曼石油",
-      "price": 35.84,
-      "change_pct": 0.67,
+      "price": 35.9,
+      "change_pct": 0.84,
       "high": 36.47,
       "low": 34.66,
-      "volume": 275048
+      "volume": 321823
     },
     "600759": {
       "name": "洲际油气",
-      "price": 5.38,
-      "change_pct": -1.28,
+      "price": 5.4,
+      "change_pct": -0.92,
       "high": 5.45,
       "low": 5.31,
-      "volume": 2439150
+      "volume": 3018357
     },
     "601808": {
       "name": "中海油服",
-      "price": 15.85,
-      "change_pct": 0.89,
-      "high": 15.92,
+      "price": 15.84,
+      "change_pct": 0.83,
+      "high": 15.95,
       "low": 15.54,
-      "volume": 145460
+      "volume": 188238
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 118.18,
-      "change_pct": 5.06,
+      "price": 118.31,
+      "change_pct": 5.17,
       "high": 120.68,
       "low": 111.16,
-      "volume": 185143
+      "volume": 206856
     },
     "600803": {
       "name": "新奥股份",
-      "price": 20.8,
-      "change_pct": -0.95,
+      "price": 20.76,
+      "change_pct": -1.14,
       "high": 20.98,
       "low": 20.65,
-      "volume": 68196
+      "volume": 93501
     },
     "600256": {
       "name": "广汇能源",
-      "price": 6.56,
-      "change_pct": -0.3,
+      "price": 6.53,
+      "change_pct": -0.76,
       "high": 6.59,
       "low": 6.43,
-      "volume": 980235
+      "volume": 1227245
     },
     "601919": {
       "name": "中远海控",
-      "price": 15.28,
-      "change_pct": 0.53,
+      "price": 15.24,
+      "change_pct": 0.26,
       "high": 15.4,
       "low": 15.15,
-      "volume": 413153
+      "volume": 511915
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 48.83,
-      "change_pct": 2.15,
+      "price": 48.81,
+      "change_pct": 2.11,
       "high": 49.09,
       "low": 47.79,
-      "volume": 132550
+      "volume": 154901
     },
     "600893": {
       "name": "航发动力",
-      "price": 51.43,
-      "change_pct": 3.82,
+      "price": 51.64,
+      "change_pct": 4.24,
       "high": 52.08,
       "low": 50.02,
-      "volume": 294969
+      "volume": 390300
     },
     "600150": {
       "name": "中国船舶",
-      "price": 32.61,
-      "change_pct": 1.18,
+      "price": 32.76,
+      "change_pct": 1.64,
       "high": 32.88,
       "low": 32.3,
-      "volume": 368424
+      "volume": 489830
     },
     "600547": {
       "name": "山东黄金",
-      "price": 40.3,
-      "change_pct": -2.35,
+      "price": 40.37,
+      "change_pct": -2.18,
       "high": 41.6,
-      "low": 40.29,
-      "volume": 299372
+      "low": 40.28,
+      "volume": 378270
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 45.07,
-      "change_pct": -1.7,
+      "price": 45.11,
+      "change_pct": -1.61,
       "high": 46.4,
-      "low": 44.96,
-      "volume": 248220
+      "low": 44.93,
+      "volume": 321596
     },
     "600489": {
       "name": "中金黄金",
-      "price": 27.56,
-      "change_pct": -0.79,
+      "price": 27.49,
+      "change_pct": -1.04,
       "high": 28.15,
-      "low": 27.5,
-      "volume": 337893
+      "low": 27.47,
+      "volume": 425667
     },
     "601088": {
       "name": "中国神华",
-      "price": 46.45,
-      "change_pct": -0.73,
-      "high": 46.51,
+      "price": 46.36,
+      "change_pct": -0.92,
+      "high": 46.63,
       "low": 46.1,
-      "volume": 157285
+      "volume": 208946
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": 0.22
+      "change_pct": 0.16
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": 0.19
+      "change_pct": 0.49
     },
     "军工": {
-      "change_pct": 0.8
+      "change_pct": 1.04
     },
     "黄金": {
-      "change_pct": 2.74
+      "change_pct": 3.36
     }
   },
   "news": [
-    {
-      "source": "BBC中文",
-      "title": "美伊達成停火協議後油價暴跌，亞洲股市普遍大漲",
-      "link": "https://www.bbc.com/zhongwen/articles/ce9mdddy1vzo/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 08 Apr 2026 03:22:19 GMT",
-      "summary": "亞洲在伊朗戰爭引發的經濟衝擊中受到特別嚴重的打擊。近幾週來，區內各國政府與企業陸續宣布措施，以應對高能源價格與燃料短缺。",
-      "lang": "zh",
-      "relevance_score": 100,
-      "entity_hits": [
-        "油價",
-        "伊朗",
-        "美伊"
-      ],
-      "action_hits": [
-        "油價",
-        "停火",
-        "停火協議",
-        "打擊"
-      ]
-    },
     {
       "source": "德国之声",
       "title": "美伊停火瀕臨破局 中國成為關鍵調停者？",
@@ -560,43 +540,18 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "伊朗",
         "以色列",
         "美伊",
+        "海峽",
+        "伊朗",
         "霍爾木茲",
-        "黎巴嫩",
-        "海峽"
+        "黎巴嫩"
       ],
       "action_hits": [
         "談判",
-        "停火",
+        "封鎖",
         "空襲",
-        "封鎖"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "美伊達成停火兩週 換取霍爾木茲海峽重啟",
-      "link": "https://www.dw.com/zh/美伊達成停火兩週-換取霍爾木茲海峽重啟/a-76700960?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 8 Apr 2026 03:38:00 GMT",
-      "summary": "美國總統川普7日宣布與伊朗達成為期兩週的停火協議，條件是伊朗重新開放霍爾木茲海峽，德黑蘭也表示10日起將與美方在巴基斯坦展開談判。儘管停火消息帶動股市上漲、油價下跌，伊朗及以色列仍持續交火，停火協議何時真正生效仍充滿不確定性。",
-      "lang": "zh",
-      "relevance_score": 100,
-      "entity_hits": [
-        "伊朗",
-        "油價",
-        "德黑蘭",
-        "以色列",
-        "美伊",
-        "霍爾木茲",
-        "海峽"
-      ],
-      "action_hits": [
-        "油價",
-        "停火",
-        "談判",
-        "重啟",
-        "停火協議"
+        "停火"
       ]
     },
     {
@@ -608,17 +563,17 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
+        "真主党",
+        "贝鲁特",
         "伊朗",
         "以色列",
-        "贝鲁特",
-        "黎巴嫩",
-        "真主党"
+        "黎巴嫩"
       ],
       "action_hits": [
         "打击",
-        "停火",
         "轰炸",
-        "停火协议"
+        "停火协议",
+        "停火"
       ]
     },
     {
@@ -630,10 +585,10 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "以色列",
-        "德黑蘭",
+        "美軍",
         "伊朗",
-        "美軍"
+        "以色列",
+        "德黑蘭"
       ],
       "action_hits": [
         "防空",
@@ -650,17 +605,17 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "伊朗",
-        "霍尔木兹",
-        "以色列",
+        "真主党",
         "海峡",
-        "黎巴嫩",
-        "真主党"
+        "霍尔木兹",
+        "伊朗",
+        "以色列",
+        "黎巴嫩"
       ],
       "action_hits": [
-        "停火",
         "空袭",
-        "停火协议"
+        "停火协议",
+        "停火"
       ]
     },
     {
@@ -672,15 +627,15 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "伊朗",
         "海峡",
-        "霍尔木兹",
-        "油轮"
+        "伊朗",
+        "油轮",
+        "霍尔木兹"
       ],
       "action_hits": [
-        "停火",
         "航运",
-        "油轮"
+        "油轮",
+        "停火"
       ]
     },
     {
@@ -692,14 +647,14 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "霍爾木茲",
         "伊朗",
-        "原油",
-        "海峽"
+        "海峽",
+        "霍爾木茲",
+        "原油"
       ],
       "action_hits": [
-        "制裁",
-        "原油"
+        "原油",
+        "制裁"
       ]
     },
     {
@@ -711,10 +666,10 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "伊朗",
         "海峡",
-        "霍尔木兹",
-        "原油"
+        "伊朗",
+        "原油",
+        "霍尔木兹"
       ],
       "action_hits": [
         "原油",
@@ -734,9 +689,9 @@
         "美伊"
       ],
       "action_hits": [
+        "停火協議",
         "談判",
-        "停火",
-        "停火協議"
+        "停火"
       ]
     },
     {
@@ -759,23 +714,6 @@
     },
     {
       "source": "BBC中文",
-      "title": "美國戰鬥機在伊朗上空被擊落　兩人先後獲救",
-      "link": "https://www.bbc.com/zhongwen/articles/cn9q24pd544o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 05 Apr 2026 09:30:02 GMT",
-      "summary": "一架美軍 F-15 戰鬥機在伊朗南部上空遭擊落，美國表示兩名機組人員已成功獲救。這起事件迅速升高美伊衝突緊張局勢。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "伊朗",
-        "美軍",
-        "美伊"
-      ],
-      "action_hits": [
-        "擊落"
-      ]
-    },
-    {
-      "source": "BBC中文",
       "title": "中國試圖在伊朗戰爭中扮演和平調解者，這會奏效嗎？",
       "link": "https://www.bbc.com/zhongwen/articles/cp8d61nl2j4o/trad?at_medium=RSS&at_campaign=rss",
       "published": "Thu, 02 Apr 2026 03:59:47 GMT",
@@ -783,9 +721,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
+        "海峽",
         "霍爾木茲",
-        "伊朗",
-        "海峽"
+        "伊朗"
       ],
       "action_hits": [
         "停火"
@@ -800,9 +738,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "德黑兰",
         "油价",
-        "伊朗"
+        "伊朗",
+        "德黑兰"
       ],
       "action_hits": [
         "油价"
@@ -817,30 +755,12 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "伊朗",
         "海峡",
+        "伊朗",
         "霍尔木兹"
       ],
       "action_hits": [
         "航运"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "德国无意卷入伊战 默茨为何对特朗普说不？",
-      "link": "https://www.dw.com/zh/德国无意卷入伊战-默茨为何对特朗普说不？/a-76398388?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Tue, 17 Mar 2026 15:17:00 GMT",
-      "summary": "不久前访问白宫时，德国总理默茨还对美国和以色列对伊朗的攻击表示理解。但在霍尔木兹海峡被封锁十余天后他改变了立场，公开批评特朗普政府的策略，并强调德国不会卷入这场战争。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "以色列",
-        "伊朗",
-        "海峡",
-        "霍尔木兹"
-      ],
-      "action_hits": [
-        "封锁"
       ]
     },
     {
@@ -869,8 +789,8 @@
       "lang": "zh",
       "relevance_score": 62,
       "entity_hits": [
-        "德黑兰",
-        "美伊"
+        "美伊",
+        "德黑兰"
       ],
       "action_hits": [
         "停火"
@@ -885,16 +805,16 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
+        "lebanon",
         "iran",
         "beirut",
-        "israel",
-        "lebanon"
+        "israel"
       ],
       "action_hits": [
-        "killed",
         "attack",
+        "strike",
         "ceasefire",
-        "strike"
+        "killed"
       ]
     },
     {
@@ -906,13 +826,13 @@
       "lang": "en",
       "relevance_score": 75,
       "entity_hits": [
+        "lebanon",
         "iran",
-        "israel",
-        "lebanon"
+        "israel"
       ],
       "action_hits": [
-        "ceasefire",
-        "halt"
+        "halt",
+        "ceasefire"
       ]
     },
     {
@@ -928,9 +848,9 @@
         "israel"
       ],
       "action_hits": [
-        "killed",
+        "strike",
         "wounded",
-        "strike"
+        "killed"
       ]
     },
     {
@@ -942,31 +862,13 @@
       "lang": "en",
       "relevance_score": 75,
       "entity_hits": [
+        "lebanon",
         "iran",
-        "israel",
-        "lebanon"
+        "israel"
       ],
       "action_hits": [
-        "ceasefire",
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
-      "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 08 Apr 2026 20:15:35 GMT",
-      "summary": "Crude prices tumbled by as much as 15% on the conditional pause but remain far higher than before the war.",
-      "lang": "en",
-      "relevance_score": 73,
-      "entity_hits": [
-        "iran",
-        "oil price"
-      ],
-      "action_hits": [
-        "crude",
-        "ceasefire",
-        "oil price"
+        "strike",
+        "ceasefire"
       ]
     },
     {
@@ -978,8 +880,8 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "iran",
         "hormuz",
+        "iran",
         "strait"
       ],
       "action_hits": [
@@ -995,30 +897,51 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "hamas",
         "qatar",
+        "hamas",
         "israel"
       ],
       "action_hits": [
         "strike"
       ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "What we know about the two-week ceasefire between the US and Iran",
+      "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 08 Apr 2026 20:25:49 GMT",
+      "summary": "The provisional truce comes more than a month after the US and Israel launched coordinated attacks on Iran.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "iran",
+        "israel"
+      ],
+      "action_hits": [
+        "attack",
+        "ceasefire",
+        "launch"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Is conditional ceasefire a victory for US or Iran?",
+      "link": "https://www.bbc.com/news/videos/crm1x927gpno?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 08 Apr 2026 16:35:07 GMT",
+      "summary": "BBC correspondent Frank Gardner explains the current situation as both sides claim victory - Iran says it will reopen the Strait of Hormuz and that its \"victory in the field would also be consolidated",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "hormuz",
+        "iran",
+        "strait"
+      ],
+      "action_hits": [
+        "ceasefire"
+      ]
     }
   ],
   "event_states": [
-    {
-      "event_id": "81a5e2bfb5b1",
-      "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
-      "location": "伊朗",
-      "first_seen_time": "2026-04-08T03:22:19+00:00",
-      "last_updated_time": "2026-04-09T17:16:08+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 100,
-      "source_count": 5,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/ce9mdddy1vzo/trad?at_medium=RSS&at_campaign=rss",
-      "lang": "zh"
-    },
     {
       "event_id": "4833e3e99372",
       "title": "Ships remain cautious approaching Strait of Hormuz amid fragile ceasefire",
@@ -1028,23 +951,9 @@
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 100,
-      "source_count": 5,
+      "source_count": 6,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "f93564890779",
-      "title": "停火两周：美伊均宣布“赢了”",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-04-08T03:38:00+00:00",
-      "last_updated_time": "2026-04-08T10:33:00+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 100,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美伊達成停火兩週-換取霍爾木茲海峽重啟/a-76700960?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -1090,6 +999,20 @@
       "lang": "zh"
     },
     {
+      "event_id": "2644957093f6",
+      "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
+      "location": "伊朗",
+      "first_seen_time": "2026-04-09T02:10:55+00:00",
+      "last_updated_time": "2026-04-09T17:16:08+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 77,
+      "source_count": 4,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/cj0vee83q8go/trad?at_medium=RSS&at_campaign=rss",
+      "lang": "zh"
+    },
+    {
       "event_id": "1fb5ac6be8ad",
       "title": "俄罗斯油轮抵达古巴",
       "location": "中东地区",
@@ -1118,34 +1041,6 @@
       "lang": "en"
     },
     {
-      "event_id": "0a6ab4933dad",
-      "title": "沙特对其原油收取创纪录溢价",
-      "location": "伊朗",
-      "first_seen_time": "2026-04-05T09:30:02+00:00",
-      "last_updated_time": "2026-04-06T16:00:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 2,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/cn9q24pd544o/trad?at_medium=RSS&at_campaign=rss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "37da0934ae18",
-      "title": "德国无意卷入伊战 默茨为何对特朗普说不？",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-03-17T15:17:00+00:00",
-      "last_updated_time": "2026-03-17T15:17:00+00:00",
-      "current_status": "shipping_disrupted",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/德国无意卷入伊战-默茨为何对特朗普说不？/a-76398388?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
       "event_id": "5fd63f13b2c0",
       "title": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
       "location": "以色列",
@@ -1158,6 +1053,34 @@
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
+    },
+    {
+      "event_id": "76bbf27802ec",
+      "title": "沙特对其原油收取创纪录溢价",
+      "location": "伊朗",
+      "first_seen_time": "2026-04-06T16:00:00+00:00",
+      "last_updated_time": "2026-04-06T16:00:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "worsening",
+      "confidence": 68,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001109382",
+      "lang": "zh"
+    },
+    {
+      "event_id": "c19fde3870d5",
+      "title": "停火两周：美伊均宣布“赢了”",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-04-08T10:33:00+00:00",
+      "last_updated_time": "2026-04-08T10:33:00+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 62,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/停火两周：美伊均宣布-赢了/a-76705657?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
     }
   ],
   "shipping": {
@@ -1299,8 +1222,8 @@
     "report_date_cn": "2026年04月10日",
     "war_day": 42,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-10T12:11:36.600042+08:00",
-    "generated_at_cn": "2026-04-10 12:11:36 北京时间"
+    "generated_at": "2026-04-10T14:07:38.928214+08:00",
+    "generated_at_cn": "2026-04-10 14:07:38 北京时间"
   },
   "history": [
     {
@@ -1540,6 +1463,13 @@
       "wti": 97.77999877929688,
       "gold": 4791.5,
       "usd_cny": 6.830100059509277
+    },
+    {
+      "date": "2026-04-10",
+      "brent": 96.87999725341797,
+      "wti": 98.5999984741211,
+      "gold": 4790.39990234375,
+      "usd_cny": 6.829999923706055
     }
   ]
 }
