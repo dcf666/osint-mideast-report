@@ -879,8 +879,22 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
+    # --- Write intermediate data files (authoritative source for generate_report) ---
+    filtered_file = DATA_DIR / "filtered_news.json"
+    events_file = DATA_DIR / "events.json"
+
+    with open(filtered_file, "w", encoding="utf-8") as f:
+        json.dump(result["news"], f, ensure_ascii=False, indent=2)
+    print(f"  [OK] {filtered_file} — {len(result['news'])} items")
+
+    with open(events_file, "w", encoding="utf-8") as f:
+        json.dump(result["event_states"], f, ensure_ascii=False, indent=2, default=str)
+    print(f"  [OK] {events_file} — {len(result['event_states'])} events")
+
     print(f"\n{'='*60}")
     print(f"Done. Output: {OUTPUT_FILE}")
+    print(f"  + {filtered_file}")
+    print(f"  + {events_file}")
     print(f"{'='*60}")
 
 
