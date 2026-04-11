@@ -1,1 +1,392 @@
-[]
+[
+  {
+    "source": "德国之声",
+    "title": "美伊停火瀕臨破局 中國成為關鍵調停者？",
+    "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Thu, 9 Apr 2026 07:10:00 GMT",
+    "summary": "在美伊同意暫時停火、為談判爭取空間之際，中國強調居中斡旋的外交角色。然而停火未滿48小時，以色列對黎巴嫩發動大規模空襲，伊朗亦再度封鎖霍爾木茲海峽，停火是否破局引發關注。",
+    "lang": "zh",
+    "relevance_score": 100,
+    "entity_hits": [
+      "霍爾木茲",
+      "美伊",
+      "海峽",
+      "以色列",
+      "黎巴嫩",
+      "伊朗"
+    ],
+    "action_hits": [
+      "停火",
+      "空襲",
+      "封鎖",
+      "談判"
+    ],
+    "location": "霍尔木兹海峡",
+    "theater": "gulf"
+  },
+  {
+    "source": "FT中文网",
+    "title": "以色列轰炸贝鲁特 不承认停火涵盖黎巴嫩",
+    "link": "https://www.ftchinese.com/story/001109403",
+    "published": "Wed, 08 Apr 2026 16:00:00 GMT",
+    "summary": "以色列军方称其打击了黎巴嫩全国100个与真主党有关的地点。内塔尼亚胡的办公室坚称美国、伊朗和以色列之间的停火协议并不涵盖黎巴嫩。",
+    "lang": "zh",
+    "relevance_score": 100,
+    "entity_hits": [
+      "贝鲁特",
+      "以色列",
+      "黎巴嫩",
+      "伊朗",
+      "真主党"
+    ],
+    "action_hits": [
+      "打击",
+      "停火",
+      "轰炸",
+      "停火协议"
+    ],
+    "location": "黎巴嫩·贝鲁特",
+    "theater": "lebanon"
+  },
+  {
+    "source": "BBC中文",
+    "title": "分析：特朗普宣稱飛行員救援行動勝利，但美國在伊朗面臨的威脅揮之不去",
+    "link": "https://www.bbc.com/zhongwen/articles/cnv8rr9yprlo/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 06 Apr 2026 09:45:48 GMT",
+    "summary": "儘管任務最終成功，但過去數天發生的事件——包括兩架飛機被擊落、至少一架直升機遭到槍擊——凸顯出，即便美國與以色列已對伊朗軍事基礎設施展開數週的猛烈打擊，且總統聲稱德黑蘭「已無防空設備」，美軍飛機與人員仍面臨持續威脅。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "德黑蘭",
+      "伊朗",
+      "美軍",
+      "以色列"
+    ],
+    "action_hits": [
+      "擊落",
+      "防空",
+      "打擊"
+    ],
+    "location": "伊朗",
+    "theater": "iran"
+  },
+  {
+    "source": "FT中文网",
+    "title": "伊朗继续要求油轮支付通行费",
+    "link": "https://www.ftchinese.com/story/001109402",
+    "published": "Wed, 08 Apr 2026 16:00:00 GMT",
+    "summary": "尽管与美国达成两周停火，伊朗要求航运公司为通过霍尔木兹海峡的油轮支付通行费，并直接通过无线电警告海湾地区的船舶，要求其提交申请。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "伊朗",
+      "霍尔木兹",
+      "海峡",
+      "油轮"
+    ],
+    "action_hits": [
+      "停火",
+      "油轮",
+      "航运"
+    ],
+    "location": "霍尔木兹海峡",
+    "theater": "gulf"
+  },
+  {
+    "source": "德国之声",
+    "title": "特朗普告诉欧洲“去自己取回原油\"",
+    "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 1 Apr 2026 13:43:00 GMT",
+    "summary": "美国总统特朗普称霍尔木兹海峡是否重新通航与美国无关，“我们没有理由插手此事”。伊朗战争爆发以来，欧洲天然气价格已上升了70%，原油上升近30%。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "原油",
+      "霍尔木兹",
+      "海峡",
+      "伊朗"
+    ],
+    "action_hits": [
+      "原油",
+      "天然气"
+    ],
+    "location": "霍尔木兹海峡",
+    "theater": "gulf"
+  },
+  {
+    "source": "BBC中文",
+    "title": "美伊停火台前幕後  14日談判的焦點將是什麼",
+    "link": "https://www.bbc.com/zhongwen/articles/cj0vee83q8go/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 09 Apr 2026 02:10:55 GMT",
+    "summary": "特朗普威脅若伊朗拒絕妥協，「一整個文明將在今夜死掉」後，巴基斯坦出面斡旋並達成停火協議。",
+    "lang": "zh",
+    "relevance_score": 77,
+    "entity_hits": [
+      "伊朗",
+      "美伊"
+    ],
+    "action_hits": [
+      "停火",
+      "停火協議",
+      "談判"
+    ],
+    "location": "伊朗",
+    "theater": "iran"
+  },
+  {
+    "source": "BBC中文",
+    "title": "中國試圖在伊朗戰爭中扮演和平調解者，這會奏效嗎？",
+    "link": "https://www.bbc.com/zhongwen/articles/cp8d61nl2j4o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 02 Apr 2026 03:59:47 GMT",
+    "summary": "北京與伊斯蘭堡的官員提出了一項五點計劃，旨在促成停火，並重新開放至關重要的霍爾木茲海峽。此前中國官方反應一直較為低調，為何選擇在此時介入？",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "伊朗",
+      "霍爾木茲",
+      "海峽"
+    ],
+    "action_hits": [
+      "停火"
+    ],
+    "location": "霍尔木兹海峡",
+    "theater": "gulf"
+  },
+  {
+    "source": "德国之声",
+    "title": "德语媒体：谁在坐收渔利？",
+    "link": "https://www.dw.com/zh/德语媒体：谁在坐收渔利？/a-76695225?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Tue, 7 Apr 2026 14:18:00 GMT",
+    "summary": "奥地利《标准报》认为，特朗普发动对伊朗战争带来的油价上涨，让依然能够从德黑兰进口石油的中国成为了某种程度上的赢家。《经济周刊》则分析了德国汽车行业为什么总是想把工厂搬到不民主国家，并警告了这样做的危险性。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "油价",
+      "伊朗",
+      "德黑兰"
+    ],
+    "action_hits": [
+      "油价"
+    ],
+    "location": "伊朗·德黑兰",
+    "theater": "iran"
+  },
+  {
+    "source": "德国之声",
+    "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
+    "link": "https://www.dw.com/zh/伊朗战争以来-日本、法国商船首次通过霍尔木兹海峡/a-76660245?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 4 Apr 2026 10:42:00 GMT",
+    "summary": "航运数据显示，包括一艘法国籍船只、一艘日本籍船只在内的数艘船舶近日穿越了霍尔木兹海峡，成为一个多月以来通过该海峡的两百余艘船只之一。路透社报道指出，这反映了伊朗允许其认为友好国家的船只通行的政策。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "伊朗",
+      "霍尔木兹",
+      "海峡"
+    ],
+    "action_hits": [
+      "航运"
+    ],
+    "location": "霍尔木兹海峡",
+    "theater": "gulf"
+  },
+  {
+    "source": "德国之声",
+    "title": "德国无意卷入伊战 默茨为何对特朗普说不？",
+    "link": "https://www.dw.com/zh/德国无意卷入伊战-默茨为何对特朗普说不？/a-76398388?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Tue, 17 Mar 2026 15:17:00 GMT",
+    "summary": "不久前访问白宫时，德国总理默茨还对美国和以色列对伊朗的攻击表示理解。但在霍尔木兹海峡被封锁十余天后他改变了立场，公开批评特朗普政府的策略，并强调德国不会卷入这场战争。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "伊朗",
+      "霍尔木兹",
+      "海峡",
+      "以色列"
+    ],
+    "action_hits": [
+      "封锁"
+    ],
+    "location": "霍尔木兹海峡",
+    "theater": "gulf"
+  },
+  {
+    "source": "FT中文网",
+    "title": "沙特对其原油收取创纪录溢价",
+    "link": "https://www.ftchinese.com/story/001109382",
+    "published": "Mon, 06 Apr 2026 16:00:00 GMT",
+    "summary": "在伊朗战争使全球能源供应紧张的背景下，沙特阿美5月将向亚洲客户收取每桶19.50美元的溢价，这一溢价在过去26年里从未超过每桶10美元。",
+    "lang": "zh",
+    "relevance_score": 68,
+    "entity_hits": [
+      "原油",
+      "伊朗",
+      "沙特"
+    ],
+    "action_hits": [
+      "原油"
+    ],
+    "location": "沙特阿拉伯",
+    "theater": "gulf"
+  },
+  {
+    "source": "BBC中东",
+    "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
+    "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 08 Apr 2026 20:54:59 GMT",
+    "summary": "Attacks hit the southern suburbs of Beirut, southern Lebanon and the eastern Bekaa Valley, hours after a US-Iran ceasefire was announced.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "lebanon",
+      "iran",
+      "israel",
+      "beirut"
+    ],
+    "action_hits": [
+      "attack",
+      "ceasefire",
+      "killed",
+      "strike"
+    ],
+    "location": "黎巴嫩·贝鲁特",
+    "theater": "lebanon"
+  },
+  {
+    "source": "BBC中东",
+    "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
+    "link": "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 09 Apr 2026 17:16:08 GMT",
+    "summary": "Israel says Lebanon is not included in the ceasefire the US agreed to halt the war with Iran.",
+    "lang": "en",
+    "relevance_score": 75,
+    "entity_hits": [
+      "lebanon",
+      "iran",
+      "israel"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "halt"
+    ],
+    "location": "黎巴嫩",
+    "theater": "lebanon"
+  },
+  {
+    "source": "BBC中东",
+    "title": "BBC at the site of Israeli air strikes in Beirut",
+    "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 09 Apr 2026 07:45:26 GMT",
+    "summary": "At least 182 people were killed and 890 others wounded, according to the Lebanese health ministry.",
+    "lang": "en",
+    "relevance_score": 75,
+    "entity_hits": [
+      "israel",
+      "beirut"
+    ],
+    "action_hits": [
+      "killed",
+      "wounded",
+      "strike"
+    ],
+    "location": "黎巴嫩·贝鲁特",
+    "theater": "lebanon"
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
+    "link": "https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 09 Apr 2026 17:11:59 GMT",
+    "summary": "Iran's deputy foreign minister says the US must choose between 'war and ceasefire'.",
+    "lang": "en",
+    "relevance_score": 75,
+    "entity_hits": [
+      "lebanon",
+      "iran",
+      "israel"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "strike"
+    ],
+    "location": "伊朗",
+    "theater": "iran"
+  },
+  {
+    "source": "BBC中东",
+    "title": "How many ships are crossing the Strait of Hormuz?",
+    "link": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 10 Apr 2026 16:08:19 GMT",
+    "summary": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "strait",
+      "hormuz",
+      "iran"
+    ],
+    "action_hits": [
+      "ceasefire"
+    ],
+    "location": "霍尔木兹海峡",
+    "theater": "gulf"
+  },
+  {
+    "source": "BBC中东",
+    "title": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
+    "link": "https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 09 Apr 2026 11:39:56 GMT",
+    "summary": "The Israeli military claims Mohammed Wishah was a \"Hamas terrorist\" - which the Qatar-based network has previously denied.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "hamas",
+      "israel",
+      "qatar"
+    ],
+    "action_hits": [
+      "strike"
+    ],
+    "location": "以色列",
+    "theater": "gulf"
+  },
+  {
+    "source": "BBC中东",
+    "title": "What we know about the two-week ceasefire between the US and Iran",
+    "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 08 Apr 2026 20:25:49 GMT",
+    "summary": "The provisional truce comes more than a month after the US and Israel launched coordinated attacks on Iran.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "iran",
+      "israel"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "launch",
+      "attack"
+    ],
+    "location": "伊朗",
+    "theater": "iran"
+  },
+  {
+    "source": "BBC中东",
+    "title": "Is conditional ceasefire a victory for US or Iran?",
+    "link": "https://www.bbc.com/news/videos/crm1x927gpno?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 08 Apr 2026 16:35:07 GMT",
+    "summary": "BBC correspondent Frank Gardner explains the current situation as both sides claim victory - Iran says it will reopen the Strait of Hormuz and that its \"victory in the field would also be consolidated",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "strait",
+      "hormuz",
+      "iran"
+    ],
+    "action_hits": [
+      "ceasefire"
+    ],
+    "location": "霍尔木兹海峡",
+    "theater": "gulf"
+  }
+]

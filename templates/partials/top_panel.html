@@ -1,0 +1,64 @@
+<!-- ============ FLOATING MANUAL UPDATE BUTTON ============ -->
+<div id="updatePanel" style="position:fixed;bottom:24px;right:24px;z-index:9997;display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+  <div id="updateToast" style="display:none;background:#1a2235ee;border:1px solid #00ff8844;border-radius:8px;padding:10px 16px;font-size:12px;color:#00ff88;font-family:'JetBrains Mono',monospace;backdrop-filter:blur(10px);max-width:260px">
+    点击后将跳转到 GitHub Actions 页面，点击绿色 "Run workflow" 按钮即可手动触发更新。
+  </div>
+  <div style="display:flex;gap:8px;align-items:center">
+    <button id="updateInfoBtn" data-toggle="update-toast" style="width:36px;height:36px;border-radius:50%;background:#1a2235dd;border:1px solid #2a3450;color:#8892a4;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px)" title="帮助">?</button>
+    <a href="https://github.com/dcf666/osint-mideast-report/actions/workflows/daily-update.yml" target="_blank" rel="noopener" id="updateBtn" class="quick-nav-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M21 21v-5h-5"/></svg>
+      手动更新
+    </a>
+  </div>
+  <div style="font-size:10px;color:#8892a4;font-family:'JetBrains Mono',monospace;text-align:right">
+    自动更新: 每日 09:00 北京时间<br>
+    上次更新: {{ generated_at }} (北京时间)
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="relative min-h-screen flex items-center justify-center overflow-hidden" style="background:radial-gradient(ellipse at 30% 20%,#1a0a0a 0%,#0a0e17 50%,#0a1020 100%)">
+  <div class="absolute inset-0 opacity-10" style="background:repeating-linear-gradient(0deg,transparent,transparent 49px,#2a345033 50px),repeating-linear-gradient(90deg,transparent,transparent 49px,#2a345033 50px)"></div>
+  <div class="absolute top-6 left-6 md:top-10 md:left-10 z-10">
+    <div class="font-mono text-xs text-steel tracking-widest">OSINT INTELLIGENCE BRIEF</div>
+    <div class="font-mono text-xs text-ghost mt-1">CLASSIFICATION: OPEN SOURCE</div>
+  </div>
+  <div class="absolute top-6 right-6 md:top-10 md:right-10 z-10 text-right">
+    <span class="badge badge-live">LIVE</span>
+    <div class="font-mono text-xs text-steel mt-2">{{ report_date }} 北京时间</div>
+    <div class="font-mono text-xs text-alert mt-1">DAY {{ war_day }} — OPERATION EPIC FURY</div>
+  </div>
+  <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
+    <div class="font-mono text-sm text-alert tracking-[6px] mb-6 glow-red">THREAT LEVEL: {{ threat_level }}</div>
+    <h1 class="font-sans font-black text-white leading-none mb-6" style="font-size:clamp(2.2rem,7vw,5rem)">
+      中东冲突<br><span class="glow-text" style="color:#00ff88">情报态势评估</span>
+    </h1>
+    <p class="text-steelLight text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
+      {{ hero_summary_text }}
+    </p>
+    <div class="flex flex-wrap justify-center gap-3 text-xs font-mono">
+      {{ hero_tags_html }}
+    </div>
+  </div>
+  <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+    <svg class="w-6 h-6 text-steel" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+  </div>
+</header>
+
+<section class="px-4 -mt-10 relative z-20">
+  <div class="max-w-6xl mx-auto">
+    <div class="card p-4 md:p-5 flex flex-col gap-3">
+      <div class="flex flex-wrap items-center gap-3">
+        <span class="zone-pill">{{ reference_meta.daily_zone.label }}</span>
+        <span class="text-sm text-steelLight">{{ reference_meta.daily_zone.description }}</span>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <a href="#dailySummary" class="quick-nav-link">日报摘要</a>
+        <a href="#sec1" class="quick-nav-link">最新情报</a>
+        <a href="#sec6" class="quick-nav-link">能源航运</a>
+        <a href="#sec7" class="quick-nav-link">A股映射</a>
+        <a href="#referenceZone" class="quick-nav-link">专题参考区</a>
+      </div>
+    </div>
+  </div>
+</section>

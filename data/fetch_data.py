@@ -67,6 +67,26 @@ RSS_FEEDS = {
     "BBC中东": "http://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
 }
 
+STRONG_MIDEAST_ANCHORS_CN = [
+    "霍尔木兹", "霍爾木茲", "波斯湾", "波斯灣", "红海", "紅海", "曼德海峡",
+    "伊朗", "以色列", "黎巴嫩", "伊拉克", "也门", "也門", "叙利亚", "敘利亞",
+    "沙特", "阿联酋", "阿聯酋", "卡塔尔", "卡塔爾", "巴林", "科威特", "阿曼",
+    "德黑兰", "德黑蘭", "贝鲁特", "貝魯特", "迪拜", "富查伊拉", "哈尔克", "哈爾克",
+]
+STRONG_MIDEAST_ANCHORS_EN = [
+    "hormuz", "persian gulf", "red sea", "bab el-mandeb", "iran", "israel",
+    "lebanon", "iraq", "yemen", "syria", "saudi", "uae", "qatar", "bahrain",
+    "kuwait", "oman", "tehran", "beirut", "dubai", "fujairah", "kharg",
+]
+NON_MIDEAST_DISTRACTORS_CN = [
+    "古巴", "俄罗斯", "俄羅斯", "乌克兰", "烏克蘭", "巴基斯坦", "阿富汗",
+    "朝鲜", "朝鮮", "台湾", "台灣", "南海",
+]
+NON_MIDEAST_DISTRACTORS_EN = [
+    "cuba", "russia", "ukraine", "pakistan", "afghanistan", "north korea",
+    "taiwan", "south china sea",
+]
+
 
 def fetch_yahoo_finance():
     """Fetch oil, gold, FX data from Yahoo Finance via yfinance."""
@@ -546,6 +566,65 @@ _EXCLUDE_EN = [
     "real estate", "crypto", "bitcoin", "nfl", "nba",
 ]
 
+_THEATER_RULES = [
+    ("gulf", ["hormuz", "persian gulf", "dubai", "fujairah", "abu dhabi", "qatar", "saudi", "uae", "oman", "kuwait"],
+     ["霍尔木兹", "霍爾木茲", "波斯湾", "波斯灣", "迪拜", "富查伊拉", "阿布扎比", "卡塔尔", "卡塔爾", "沙特", "阿联酋", "阿聯酋", "阿曼", "科威特"]),
+    ("lebanon", ["lebanon", "beirut", "iraq", "baghdad", "houthi", "red sea", "yemen", "bab el-mandeb"],
+     ["黎巴嫩", "贝鲁特", "貝魯特", "伊拉克", "巴格达", "巴格達", "胡塞", "红海", "紅海", "也门", "也門", "曼德海峡"]),
+    ("us", ["united states", "u.s.", "us ", "white house", "pentagon", "congress", "trump", "carrier", "nato", "diplomat", "ceasefire", "negotiat"],
+     ["美国", "美國", "白宫", "白宮", "五角大楼", "五角大樓", "国会", "國會", "特朗普", "航母", "北约", "北約", "停火", "谈判", "談判", "外交"]),
+    ("iran", ["iran", "tehran", "isfahan", "kharg", "irgc"],
+     ["伊朗", "德黑兰", "德黑蘭", "伊斯法罕", "哈尔克", "哈爾克", "革命卫队", "革命衛隊"]),
+]
+
+
+def _load_json_file(path, default):
+    try:
+        if path.exists():
+            with open(path, encoding="utf-8") as f:
+                return json.load(f)
+    except Exception:
+        pass
+    return default
+
+
+def _has_meaningful_market_data(markets):
+    return any(
+        isinstance(info, dict) and info.get("current") is not None
+        for info in (markets or {}).values()
+    )
+
+
+def _has_meaningful_stock_data(stocks):
+    return any(
+        isinstance(info, dict) and info.get("price") is not None
+        for info in (stocks or {}).values()
+    )
+
+
+def _has_meaningful_sector_data(sectors):
+    return any(
+        isinstance(info, dict) and info.get("change_pct") is not None
+        for info in (sectors or {}).values()
+    )
+
+
+def _dedupe_history(history):
+    merged = {}
+    for item in history or []:
+        day = item.get("date")
+        if not day:
+            continue
+        current = merged.setdefault("date:" + day, {"date": day})
+        for key, value in item.items():
+            if key == "date":
+                continue
+            if value is not None:
+                current[key] = value
+            elif key not in current:
+                current[key] = None
+    return [merged[key] for key in sorted(merged.keys())][-90:]
+
 
 def score_relevance(title: str, summary: str = "") -> dict:
     """
@@ -600,6 +679,22 @@ def score_relevance(title: str, summary: str = "") -> dict:
     # Bonus: if both entity AND action found, +10 synergy
     synergy = 10 if (entity_hits and action_hits) else 0
     total = min(entity_score + action_score + synergy, 100)
+
+    has_mideast_anchor = any(kw in text_raw for kw in STRONG_MIDEAST_ANCHORS_CN) or \
+        any(kw in text_lower for kw in STRONG_MIDEAST_ANCHORS_EN)
+    has_distractor_geo = any(kw in text_raw for kw in NON_MIDEAST_DISTRACTORS_CN) or \
+        any(kw in text_lower for kw in NON_MIDEAST_DISTRACTORS_EN)
+    has_conflict_signal = bool(action_hits)
+    unique_entities = len(set(entity_hits))
+
+    if has_distractor_geo and not has_mideast_anchor:
+        return {"score": 0, "entity_hits": [], "action_hits": [], "excluded": True}
+
+    if not has_mideast_anchor and unique_entities < 3:
+        return {"score": 0, "entity_hits": list(set(entity_hits)), "action_hits": list(set(action_hits)), "excluded": True}
+
+    if not has_conflict_signal and unique_entities < 2:
+        return {"score": min(total, 50), "entity_hits": list(set(entity_hits)), "action_hits": list(set(action_hits)), "excluded": True}
 
     return {
         "score": total,
@@ -672,26 +767,68 @@ def _detect_trend(text_lower, text_raw):
 
 def _detect_location(text_lower, text_raw):
     """Extract primary location from text."""
-    loc_map = [
-        ("德黑兰", "tehran", "伊朗·德黑兰"), ("德黑蘭", "tehran", "伊朗·德黑兰"),
-        ("霍尔木兹", "hormuz", "霍尔木兹海峡"), ("霍爾木茲", "hormuz", "霍尔木兹海峡"),
-        ("哈尔克", "kharg", "伊朗·哈尔克岛"), ("哈爾克", "kharg", "伊朗·哈尔克岛"),
-        ("迪拜", "dubai", "阿联酋·迪拜"),
-        ("富查伊拉", "fujairah", "阿联酋·富查伊拉"),
-        ("贝鲁特", "beirut", "黎巴嫩·贝鲁特"), ("貝魯特", "beirut", "黎巴嫩·贝鲁特"),
-        ("红海", "red sea", "红海"), ("紅海", "red sea", "红海"),
-        ("伊朗", "iran", "伊朗"),
-        ("以色列", "israel", "以色列"),
-        ("黎巴嫩", "lebanon", "黎巴嫩"),
-        ("伊拉克", "iraq", "伊拉克"),
-        ("也门", "yemen", "也门"), ("也門", "yemen", "也门"),
-        ("沙特", "saudi", "沙特阿拉伯"),
-        ("波斯湾", "persian gulf", "波斯湾"),
+    strategic_overrides = [
+        (["霍尔木兹", "霍爾木茲"], ["hormuz"], "霍尔木兹海峡"),
+        (["贝鲁特", "貝魯特"], ["beirut"], "黎巴嫩·贝鲁特"),
+        (["红海", "紅海"], ["red sea"], "红海"),
     ]
-    for cn, en, label in loc_map:
-        if cn in text_raw or en in text_lower:
+    for cn_terms, en_terms, label in strategic_overrides:
+        if any(term in text_raw for term in cn_terms) or any(term in text_lower for term in en_terms):
             return label
+
+    loc_map = [
+        ("霍尔木兹", "hormuz", "霍尔木兹海峡", 10), ("霍爾木茲", "hormuz", "霍尔木兹海峡", 10),
+        ("哈尔克", "kharg", "伊朗·哈尔克岛", 9), ("哈爾克", "kharg", "伊朗·哈尔克岛", 9),
+        ("德黑兰", "tehran", "伊朗·德黑兰", 8), ("德黑蘭", "tehran", "伊朗·德黑兰", 8),
+        ("迪拜", "dubai", "阿联酋·迪拜", 8),
+        ("富查伊拉", "fujairah", "阿联酋·富查伊拉", 8),
+        ("贝鲁特", "beirut", "黎巴嫩·贝鲁特", 8), ("貝魯特", "beirut", "黎巴嫩·贝鲁特", 8),
+        ("巴格达", "baghdad", "伊拉克·巴格达", 8), ("巴格達", "baghdad", "伊拉克·巴格达", 8),
+        ("红海", "red sea", "红海", 7), ("紅海", "red sea", "红海", 7),
+        ("曼德海峡", "bab el-mandeb", "曼德海峡", 7),
+        ("波斯湾", "persian gulf", "波斯湾", 7), ("波斯灣", "persian gulf", "波斯湾", 7),
+        ("黎巴嫩", "lebanon", "黎巴嫩", 6),
+        ("伊拉克", "iraq", "伊拉克", 6),
+        ("也门", "yemen", "也门", 6), ("也門", "yemen", "也门", 6),
+        ("以色列", "israel", "以色列", 6),
+        ("伊朗", "iran", "伊朗", 5),
+        ("沙特", "saudi", "沙特阿拉伯", 5),
+    ]
+    best = None
+    best_score = 0
+    for cn, en, label, priority in loc_map:
+        hits = text_raw.count(cn) + text_lower.count(en)
+        if hits:
+            score = hits * 10 + priority
+            if score > best_score:
+                best = label
+                best_score = score
+    if best:
+        return best
     return "中东地区"
+
+
+def _infer_theater(text_lower, text_raw, location=""):
+    """Map content into a front-end theater bucket."""
+    if any(term in location for term in ["霍尔木兹", "波斯湾", "迪拜", "富查伊拉", "沙特", "阿联酋"]):
+        return "gulf"
+    if any(term in location for term in ["黎巴嫩", "贝鲁特", "伊拉克", "红海", "也门"]):
+        return "lebanon"
+    if any(term in location for term in ["伊朗", "德黑兰", "哈尔克"]):
+        return "iran"
+
+    scored = []
+    for theater, en_terms, cn_terms in _THEATER_RULES:
+        hits = sum(1 for term in en_terms if term in text_lower) + \
+            sum(1 for term in cn_terms if term in text_raw)
+        if location:
+            hits += sum(1 for term in cn_terms if term in location)
+        if hits:
+            scored.append((hits, theater))
+    if not scored:
+        return "other"
+    scored.sort(reverse=True)
+    return scored[0][1]
 
 
 def build_event_states(news_items):
@@ -736,6 +873,7 @@ def build_event_states(news_items):
             "source": n.get("source", ""),
             "link": n.get("link", ""),
             "lang": n.get("lang", "en"),
+            "theater": _infer_theater(text_lower, text_raw, _detect_location(text_lower, text_raw)),
         })
 
     # Merge events with same location+status (increment source_count)
@@ -773,6 +911,8 @@ def fetch_news():
                     continue
 
                 is_cn = _is_chinese(title)
+                location = _detect_location((title + " " + summary).lower(), title + " " + summary)
+                theater = _infer_theater((title + " " + summary).lower(), title + " " + summary, location)
                 news.append({
                     "source": source_name,
                     "title": title,
@@ -783,6 +923,8 @@ def fetch_news():
                     "relevance_score": rel["score"],
                     "entity_hits": rel["entity_hits"],
                     "action_hits": rel["action_hits"],
+                    "location": location,
+                    "theater": theater,
                 })
                 count += 1
                 if count >= 8:
@@ -824,22 +966,40 @@ def main():
     print(f"OSINT Data Fetch — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
+    prev_latest = _load_json_file(OUTPUT_FILE, {})
+    prev_filtered_news = _load_json_file(DATA_DIR / "filtered_news.json", [])
+    prev_events = _load_json_file(DATA_DIR / "events.json", [])
     result = {}
 
     print("\n[1/5] Fetching market data (Yahoo Finance)...")
     result["markets"] = fetch_yahoo_finance()
+    if not _has_meaningful_market_data(result["markets"]) and prev_latest.get("markets"):
+        print("  [WARN] Market fetch returned no usable data, preserving previous snapshot")
+        result["markets"] = prev_latest.get("markets", {})
 
     print("\n[2/5] Fetching A-share stocks (Eastmoney)...")
     result["stocks"] = fetch_eastmoney_stocks()
+    if not _has_meaningful_stock_data(result["stocks"]) and prev_latest.get("stocks"):
+        print("  [WARN] Stock fetch returned no usable data, preserving previous snapshot")
+        result["stocks"] = prev_latest.get("stocks", {})
 
     print("\n[3/5] Fetching sector indices (Eastmoney)...")
     result["sectors"] = fetch_eastmoney_sectors()
+    if not _has_meaningful_sector_data(result["sectors"]) and prev_latest.get("sectors"):
+        print("  [WARN] Sector fetch returned no usable data, preserving previous snapshot")
+        result["sectors"] = prev_latest.get("sectors", {})
 
     print("\n[4/5] Fetching news (RSS) + relevance filter...")
     result["news"] = fetch_news()
+    if not result["news"] and prev_filtered_news:
+        print("  [WARN] RSS fetch returned no usable data, preserving previous filtered news")
+        result["news"] = prev_filtered_news
 
     print("\n[4b/5] Building event state model...")
     result["event_states"] = build_event_states(result["news"])
+    if not result["event_states"] and prev_events:
+        print("  [WARN] Event model is empty, preserving previous event states")
+        result["event_states"] = prev_events
     print(f"  [OK] {len(result['event_states'])} events tracked")
 
     print("\n[5/6] Fetching shipping/maritime data...")
@@ -868,7 +1028,7 @@ def main():
         "usd_cny": result["markets"].get("usd_cny", {}).get("current"),
     }
     history.append(snapshot)
-    history = history[-90:]
+    history = _dedupe_history(history)
 
     with open(prev_file, "w") as f:
         json.dump(history, f, indent=2)

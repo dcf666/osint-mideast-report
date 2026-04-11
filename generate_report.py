@@ -15,9 +15,12 @@ Data flow:
 import json
 import sys
 from datetime import date, datetime
+from html import escape
 from pathlib import Path
+from urllib.parse import urlparse
 
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup
 
 # Import relevance filter as fallback (if intermediate files missing)
 sys.path.insert(0, str(Path(__file__).parent / "data"))
@@ -31,8 +34,38 @@ EVENTS_FILE = PROJECT_DIR / "data" / "events.json"
 FILTERED_NEWS_FILE = PROJECT_DIR / "data" / "filtered_news.json"
 OUTPUT_FILE = PROJECT_DIR / "docs" / "index.html"
 HISTORY_FILE = PROJECT_DIR / "data" / "history.json"
+REFERENCE_META_FILE = PROJECT_DIR / "data" / "reference_meta.json"
 
 WAR_START = date(2026, 2, 28)
+
+
+def _safe_url(url):
+    parsed = urlparse(url or "")
+    if parsed.scheme in {"http", "https"} and parsed.netloc:
+        return url
+    return "#"
+
+
+def _safe_text(value):
+    return escape("" if value is None else str(value))
+
+
+def _format_compact_time(value):
+    if not value:
+        return "时间未知"
+    try:
+        if "T" in value:
+            return datetime.fromisoformat(value.replace("Z", "+00:00")).strftime("%m-%d %H:%M")
+    except Exception:
+        pass
+    return _safe_text(str(value)[:16])
+
+
+def _load_reference_meta():
+    if REFERENCE_META_FILE.exists():
+        with open(REFERENCE_META_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
 
 
 def load_data():
@@ -213,6 +246,15 @@ def _news_sort_key(n):
 
 def _categorize_news(n):
     """Categorize a news item into theater: iran, gulf, lebanon, us, other."""
+    if n.get("theater") in {"iran", "gulf", "lebanon", "us"}:
+        return n["theater"]
+    location = n.get("location", "")
+    if "霍尔木兹" in location or "波斯湾" in location or "迪拜" in location or "富查伊拉" in location:
+        return "gulf"
+    if "黎巴嫩" in location or "伊拉克" in location or "红海" in location or "也门" in location:
+        return "lebanon"
+    if "德黑兰" in location or "哈尔克" in location or location == "伊朗":
+        return "iran"
     text = (n.get("title", "") + " " + n.get("summary", "")).lower()
     # Also check Chinese text without lowering
     text_raw = n.get("title", "") + " " + n.get("summary", "")
@@ -231,11 +273,103 @@ def _categorize_news(n):
     return "other"
 
 
+def _build_news_event_index(data):
+    events = data.get("event_states", [])
+    by_title = {e.get("title"): e for e in events if e.get("title")}
+    by_link = {e.get("link"): e for e in events if e.get("link")}
+    return by_title, by_link
+
+
+def _news_evidence_html(news_item, event):
+    location = _safe_text(event.get("location") if event else news_item.get("location", "中东地区"))
+    published = _safe_text(news_item.get("published", "")[:16] or "时间未知")
+    source_count = event.get("source_count") if event else 1
+    updated = _format_compact_time(event.get("last_updated_time")) if event else published
+    lang = news_item.get("lang", "en")
+    lang_badge = "" if lang == "zh" else '<span class="tag tag-blue text-[9px]">EN</span>'
+    return (
+        f'<div class="mt-1 flex flex-wrap gap-2 text-[10px] text-ghost font-mono">'
+        f'<span>{location}</span>'
+        f'<span>{source_count}源交叉</span>'
+        f'<span>更新 {updated}</span>'
+        f'{lang_badge}'
+        f"</div>"
+    )
+
+
+def build_daily_summary_cards(data, hero):
+    """Build compact daily summary cards for top-of-page scanning."""
+    events = data.get("event_states", [])
+    worsening = len([e for e in events if e.get("trend") == "worsening"])
+    ceasefire = len([e for e in events if e.get("current_status") in ("ceasefire", "de_escalating", "partially_restored")])
+    shipping = data.get("shipping", {})
+    freshness = shipping.get("freshness", {})
+    latest_hormuz = _get_hormuz_today(data)
+    brent = data.get("markets", {}).get("brent", {})
+    news = data.get("news", [])
+    newest_news = sorted(news, key=_news_sort_key, reverse=True)[0] if news else {}
+    hormuz_note = "估算值" if freshness.get("hormuz_is_estimate") else "抓取值"
+    vlcc_note = "抓取值" if freshness.get("vlcc_is_scraped") else "历史/估算"
+
+    cards = [
+        {
+            "tone": "alert",
+            "label": "今日风险结论",
+            "value": hero.get("threat_level", "HIGH"),
+            "meta": f"{len(events)}个事件态势 | 恶化 {worsening} | 缓和 {ceasefire}",
+        },
+        {
+            "tone": "warn",
+            "label": "霍尔木兹状态",
+            "value": f"{latest_hormuz} 艘/日",
+            "meta": f"{hormuz_note} | 最近数据 {freshness.get('hormuz_last_date', '未知')}",
+        },
+        {
+            "tone": "ice",
+            "label": "能源/航运冲击",
+            "value": (
+                f"Brent ${brent.get('current', 0):.0f}"
+                if isinstance(brent.get("current"), (int, float))
+                else "Brent N/A"
+            ),
+            "meta": f"VLCC { _get_vlcc_latest(data) }K/天 | {vlcc_note}",
+        },
+        {
+            "tone": "neon",
+            "label": "自动情报覆盖",
+            "value": f"{len(news)} 条",
+            "meta": (
+                f"最新: {_safe_text(newest_news.get('source', '无'))} | "
+                f"{_safe_text((newest_news.get('published', '')[:16] or '未知'))}"
+            ),
+        },
+    ]
+
+    tone_map = {
+        "alert": ("card-alert", "text-alert"),
+        "warn": ("card-warn", "text-warn"),
+        "ice": ("card-ice", "text-ice"),
+        "neon": ("card-ok", "text-neon"),
+    }
+    items = []
+    for card in cards:
+        card_cls, text_cls = tone_map[card["tone"]]
+        items.append(
+            f'<div class="fade-up card {card_cls} p-5">'
+            f'<div class="font-mono text-[10px] {text_cls} tracking-wider mb-2">{_safe_text(card["label"])}</div>'
+            f'<div class="text-2xl font-black text-white">{_safe_text(card["value"])}</div>'
+            f'<div class="text-[11px] text-steel mt-2">{_safe_text(card["meta"])}</div>'
+            f"</div>"
+        )
+    return Markup("".join(items))
+
+
 def build_live_intel_html(data):
     """Build Section 1 LIVE intel cards from pre-filtered news, categorized by theater."""
     news = data.get("news", [])  # Already filtered via filtered_news.json
     if not news:
-        return ""
+        return Markup("")
+    by_title, by_link = _build_news_event_index(data)
 
     # Sort by relevance + recency
     sorted_news = sorted(news, key=_news_sort_key, reverse=True)
@@ -257,13 +391,15 @@ def build_live_intel_html(data):
             return '<li class="text-ghost text-xs">暂无最新相关情报</li>'
         lines = []
         for n in items:
-            title = n.get("title", "")
-            link = n.get("link", "#")
-            lang = n.get("lang", "en")
-            lang_tag = "" if lang == "zh" else ' <span class="text-ghost text-[9px] font-mono">[EN]</span>'
+            title = _safe_text(n.get("title", ""))
+            link = _safe_url(n.get("link", "#"))
+            event = by_link.get(n.get("link")) or by_title.get(n.get("title"))
             lines.append(
-                f'<li>&#x2022; <a href="{link}" target="_blank" class="text-steelLight hover:text-white transition">'
-                f'{title}</a>{lang_tag}</li>'
+                f'<li class="pb-2 border-b border-ghost/20 last:border-b-0">'
+                f'<a href="{link}" target="_blank" rel="noopener" class="text-steelLight hover:text-white transition">'
+                f'{title}</a>'
+                f'{_news_evidence_html(n, event)}'
+                f"</li>"
             )
         return "\n".join(lines)
 
@@ -284,34 +420,32 @@ def build_live_intel_html(data):
       <div class="flex items-center gap-2 mb-3"><span class="tag tag-blue">美国/外交</span></div>
       <ul class="space-y-2 text-sm text-steelLight">{_render_items(theaters["us"])}</ul>
     </div>'''
-    return html
+    return Markup(html)
 
 
 def build_news_html(data):
     """Build AUTO news feed HTML. Already pre-filtered via filtered_news.json."""
     news = data.get("news", [])  # Already filtered
     if not news:
-        return '<div class="text-warn text-sm font-mono py-4 text-center">&#x26A0; 暂无最新新闻数据 — RSS源可能暂时不可用，下次自动更新时将重试</div>'
+        return Markup('<div class="text-warn text-sm font-mono py-4 text-center">&#x26A0; 暂无最新新闻数据 — RSS源可能暂时不可用，下次自动更新时将重试</div>')
+    by_title, by_link = _build_news_event_index(data)
 
     news_sorted = sorted(news, key=_news_sort_key, reverse=True)
 
     items = []
     for n in news_sorted[:15]:
-        source = n.get("source", "")
-        title = n.get("title", "")
-        link = n.get("link", "#")
-        published = n.get("published", "")
-        lang = n.get("lang", "en")
-        lang_badge = "" if lang == "zh" else ' <span class="text-ghost text-[9px] font-mono">[EN]</span>'
+        source = _safe_text(n.get("source", ""))
+        title = _safe_text(n.get("title", ""))
+        link = _safe_url(n.get("link", "#"))
+        event = by_link.get(n.get("link")) or by_title.get(n.get("title"))
         items.append(
             f'<li class="py-2 border-b border-ghost/30">'
             f'<span class="tag tag-blue text-[10px]">{source}</span> '
-            f'<a href="{link}" target="_blank" class="text-white hover:text-neon transition text-sm">{title}</a>'
-            f'{lang_badge}'
-            f'<span class="text-steel text-xs ml-2">{published[:16]}</span>'
+            f'<a href="{link}" target="_blank" rel="noopener" class="text-white hover:text-neon transition text-sm">{title}</a>'
+            f'{_news_evidence_html(n, event)}'
             f"</li>"
         )
-    return '<ul class="space-y-0">' + "\n".join(items) + "</ul>"
+    return Markup('<ul class="space-y-0">' + "\n".join(items) + "</ul>")
 
 
 def _get_hormuz_today(data):
@@ -397,25 +531,34 @@ def build_hero_summary(data):
         for e in events
     )
 
-    if hormuz_reopened or hormuz_ceasefire:
-        # Event model says reopening — override stale transit data
-        if hormuz_events:
-            status = hormuz_events[0].get("current_status", "partially_restored")
-            fragments.append(f'霍尔木兹海峡<span class="text-neon font-bold">{_STATUS_LABELS.get(status, "态势变化")}</span>')
-            tags.append(("霍尔木兹重启", "yellow"))
-        else:
-            fragments.append('霍尔木兹海峡<span class="text-neon font-bold">停火谈判中</span>')
+    if latest_hormuz is not None:
+        if latest_hormuz == 0 and (hormuz_reopened or hormuz_ceasefire):
+            fragments.append('霍尔木兹海峡<span class="text-warn font-bold">停火谈判中</span>，但商业通航仍受限')
             tags.append(("停火谈判", "yellow"))
-    elif latest_hormuz is not None:
-        if latest_hormuz == 0:
+            tags.append(("通航未恢复", "red"))
+        elif latest_hormuz == 0:
             fragments.append('霍尔木兹海峡通航量降至<span class="text-alert font-bold">零</span>')
             tags.append(("霍尔木兹封锁", "red"))
+        elif (hormuz_reopened or hormuz_ceasefire) and latest_hormuz < 10:
+            fragments.append(f'霍尔木兹海峡<span class="text-neon font-bold">有限恢复</span>（{latest_hormuz}艘）')
+            tags.append(("有限恢复", "yellow"))
+        elif (hormuz_reopened or hormuz_ceasefire):
+            fragments.append(f'霍尔木兹海峡<span class="text-neon font-bold">恢复通航</span>（{latest_hormuz}艘）')
+            tags.append(("霍尔木兹重启", "green"))
         elif latest_hormuz < 10:
             fragments.append(f'霍尔木兹海峡仅<span class="text-alert font-bold">{latest_hormuz}</span>艘通过')
             tags.append(("霍尔木兹受限", "red"))
         else:
             fragments.append(f'霍尔木兹海峡{latest_hormuz}艘通过')
             tags.append(("霍尔木兹通航", "yellow"))
+    elif hormuz_reopened or hormuz_ceasefire:
+        if hormuz_events:
+            status = hormuz_events[0].get("current_status", "partially_restored")
+            fragments.append(f'霍尔木兹海峡<span class="text-neon font-bold">{_STATUS_LABELS.get(status, "态势变化")}</span>')
+            tags.append(("停火谈判", "yellow"))
+        else:
+            fragments.append('霍尔木兹海峡<span class="text-neon font-bold">停火谈判中</span>')
+            tags.append(("停火谈判", "yellow"))
     elif hormuz_events:
         status = hormuz_events[0].get("current_status", "")
         fragments.append(f'霍尔木兹海峡{_STATUS_LABELS.get(status, "态势不明")}')
@@ -561,12 +704,14 @@ def generate():
 
     # Build hero summary from event state model
     hero = build_hero_summary(data)
+    reference_meta = _load_reference_meta()
+    daily_summary_cards_html = build_daily_summary_cards(data, hero)
 
     # Render template
     print("[4/4] Rendering template...")
     env = Environment(
         loader=FileSystemLoader(str(PROJECT_DIR)),
-        autoescape=False,  # HTML template, we control the output
+        autoescape=select_autoescape(["html", "xml"]),
     )
     template = env.get_template("template.html")
 
@@ -600,11 +745,12 @@ def generate():
         "nat_gas_change": nat_gas.get("day_change_pct", 0),
         "nat_gas_war_change": nat_gas.get("war_change_pct", 0),
         # Chart data as JSON strings for JS injection
-        "chart_data_json": json.dumps(charts, ensure_ascii=False),
+        "chart_data_json": Markup(json.dumps(charts, ensure_ascii=False)),
         # News HTML
         "news_html": news_html,
         # Section 1 LIVE intel cards (auto-generated from news)
         "live_intel_html": live_intel_html,
+        "daily_summary_cards_html": daily_summary_cards_html,
         # Stock data for tables
         "stocks": data.get("stocks", {}),
         "sectors": data.get("sectors", {}),
@@ -612,16 +758,17 @@ def generate():
         "vlcc_latest": _get_vlcc_latest(data),
         "vlcc_note": _get_vlcc_note(data),
         # Hero summary (auto-generated from event state model)
-        "hero_summary_text": hero["summary_text"],
-        "hero_tags_html": hero["tags_html"],
+        "hero_summary_text": Markup(hero["summary_text"]),
+        "hero_tags_html": Markup(hero["tags_html"]),
         "threat_level": hero["threat_level"],
         # Event state model as JSON for advanced use
-        "event_states_json": json.dumps(data.get("event_states", []), ensure_ascii=False, default=str),
+        "event_states_json": Markup(json.dumps(data.get("event_states", []), ensure_ascii=False, default=str)),
         # Satellite / AIS section
         "hormuz_today": _get_hormuz_today(data),
-        "transit_records_html": _build_transit_records(data),
+        "transit_records_html": Markup(_build_transit_records(data)),
         # Raw data for advanced use
-        "raw_data_json": json.dumps(data, ensure_ascii=False, default=str),
+        "raw_data_json": Markup(json.dumps(data, ensure_ascii=False, default=str)),
+        "reference_meta": reference_meta,
     }
 
     html = template.render(**context)

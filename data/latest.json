@@ -1,152 +1,1094 @@
 {
   "markets": {
     "brent": {
-      "current": null,
-      "error": "Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "current": 94.44999694824219,
+      "day_change_pct": -1.53,
+      "war_change_pct": 21.49,
+      "dates": [
+        "02/27",
+        "03/02",
+        "03/03",
+        "03/04",
+        "03/05",
+        "03/06",
+        "03/09",
+        "03/10",
+        "03/11",
+        "03/12",
+        "03/13",
+        "03/16",
+        "03/17",
+        "03/18",
+        "03/19",
+        "03/20",
+        "03/23",
+        "03/24",
+        "03/25",
+        "03/26",
+        "03/27",
+        "03/30",
+        "03/31",
+        "04/01",
+        "04/02",
+        "04/06",
+        "04/07",
+        "04/08",
+        "04/09",
+        "04/10"
+      ],
+      "prices": [
+        72.48,
+        77.74,
+        81.4,
+        81.4,
+        85.41,
+        92.69,
+        98.96,
+        87.8,
+        91.98,
+        100.46,
+        103.14,
+        100.21,
+        103.42,
+        107.38,
+        108.65,
+        112.19,
+        99.94,
+        104.49,
+        102.22,
+        108.01,
+        112.57,
+        112.78,
+        118.35,
+        101.16,
+        109.03,
+        109.77,
+        109.27,
+        94.75,
+        95.92,
+        94.45
+      ],
+      "updated": "2026-04-11T03:40:33.818962"
     },
     "wti": {
-      "current": null,
-      "error": "Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "current": 95.62999725341797,
+      "day_change_pct": -2.29,
+      "war_change_pct": 34.26,
+      "dates": [
+        "02/27",
+        "03/02",
+        "03/03",
+        "03/04",
+        "03/05",
+        "03/06",
+        "03/09",
+        "03/10",
+        "03/11",
+        "03/12",
+        "03/13",
+        "03/16",
+        "03/17",
+        "03/18",
+        "03/19",
+        "03/20",
+        "03/23",
+        "03/24",
+        "03/25",
+        "03/26",
+        "03/27",
+        "03/30",
+        "03/31",
+        "04/01",
+        "04/02",
+        "04/06",
+        "04/07",
+        "04/08",
+        "04/09",
+        "04/10"
+      ],
+      "prices": [
+        67.02,
+        71.23,
+        74.56,
+        74.66,
+        81.01,
+        90.9,
+        94.77,
+        83.45,
+        87.25,
+        95.73,
+        98.71,
+        93.5,
+        96.21,
+        96.32,
+        96.14,
+        98.32,
+        88.13,
+        92.35,
+        90.32,
+        94.48,
+        99.64,
+        102.88,
+        101.38,
+        100.12,
+        111.54,
+        112.41,
+        112.95,
+        94.41,
+        97.87,
+        95.63
+      ],
+      "updated": "2026-04-11T03:40:33.886117"
     },
     "gold": {
-      "current": null,
-      "error": "'NoneType' object is not subscriptable"
+      "current": 4771.0,
+      "day_change_pct": -0.44,
+      "war_change_pct": -9.89,
+      "dates": [
+        "02/27",
+        "03/02",
+        "03/03",
+        "03/04",
+        "03/05",
+        "03/06",
+        "03/09",
+        "03/10",
+        "03/11",
+        "03/12",
+        "03/13",
+        "03/16",
+        "03/17",
+        "03/18",
+        "03/19",
+        "03/20",
+        "03/23",
+        "03/24",
+        "03/25",
+        "03/26",
+        "03/27",
+        "03/30",
+        "03/31",
+        "04/01",
+        "04/02",
+        "04/06",
+        "04/07",
+        "04/08",
+        "04/09",
+        "04/10"
+      ],
+      "prices": [
+        5230.5,
+        5294.4,
+        5107.4,
+        5120.2,
+        5065.3,
+        5146.1,
+        5091.5,
+        5229.7,
+        5167.4,
+        5115.8,
+        5052.5,
+        4994.0,
+        5001.0,
+        4889.9,
+        4600.7,
+        4570.4,
+        4404.1,
+        4399.3,
+        4549.8,
+        4375.5,
+        4492.0,
+        4526.0,
+        4647.6,
+        4783.2,
+        4651.5,
+        4656.8,
+        4657.1,
+        4749.5,
+        4792.2,
+        4771.0
+      ],
+      "updated": "2026-04-11T03:40:33.981680"
     },
     "usd_cny": {
-      "current": null,
-      "error": "'NoneType' object is not subscriptable"
+      "current": 6.828400135040283,
+      "day_change_pct": -0.04,
+      "war_change_pct": -0.43,
+      "dates": [
+        "03/03",
+        "03/04",
+        "03/05",
+        "03/06",
+        "03/09",
+        "03/10",
+        "03/11",
+        "03/12",
+        "03/13",
+        "03/16",
+        "03/17",
+        "03/18",
+        "03/19",
+        "03/20",
+        "03/23",
+        "03/24",
+        "03/25",
+        "03/26",
+        "03/27",
+        "03/30",
+        "03/31",
+        "04/01",
+        "04/02",
+        "04/03",
+        "04/06",
+        "04/07",
+        "04/08",
+        "04/09",
+        "04/10",
+        "04/11"
+      ],
+      "prices": [
+        6.88,
+        6.9,
+        6.9,
+        6.9,
+        6.9,
+        6.91,
+        6.88,
+        6.87,
+        6.87,
+        6.9,
+        6.96,
+        6.89,
+        6.87,
+        6.9,
+        6.89,
+        6.88,
+        6.89,
+        6.9,
+        6.91,
+        6.91,
+        6.91,
+        6.89,
+        6.87,
+        6.89,
+        6.88,
+        6.88,
+        6.86,
+        6.83,
+        6.83,
+        6.83
+      ],
+      "updated": "2026-04-11T03:40:34.050384"
     },
     "nat_gas": {
-      "current": null,
-      "error": "'NoneType' object is not subscriptable"
+      "current": 2.6530001163482666,
+      "day_change_pct": -0.64,
+      "war_change_pct": -10.37,
+      "dates": [
+        "02/27",
+        "03/02",
+        "03/03",
+        "03/04",
+        "03/05",
+        "03/06",
+        "03/09",
+        "03/10",
+        "03/11",
+        "03/12",
+        "03/13",
+        "03/16",
+        "03/17",
+        "03/18",
+        "03/19",
+        "03/20",
+        "03/23",
+        "03/24",
+        "03/25",
+        "03/26",
+        "03/27",
+        "03/30",
+        "03/31",
+        "04/01",
+        "04/02",
+        "04/06",
+        "04/07",
+        "04/08",
+        "04/09",
+        "04/10"
+      ],
+      "prices": [
+        2.86,
+        2.96,
+        3.05,
+        2.92,
+        3.0,
+        3.19,
+        3.12,
+        3.02,
+        3.21,
+        3.23,
+        3.13,
+        3.02,
+        3.03,
+        3.07,
+        3.17,
+        3.1,
+        2.89,
+        2.94,
+        2.95,
+        3.0,
+        3.1,
+        2.89,
+        2.88,
+        2.82,
+        2.8,
+        2.81,
+        2.87,
+        2.72,
+        2.67,
+        2.65
+      ],
+      "updated": "2026-04-11T03:40:34.124857"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601872&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d399f10>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 19.08,
+      "change_pct": -3.39,
+      "high": 19.75,
+      "low": 18.7,
+      "volume": 2246866
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600026&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d669df0>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 24.11,
+      "change_pct": -5.67,
+      "high": 25.76,
+      "low": 23.8,
+      "volume": 1027029
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601975&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39a270>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 4.78,
+      "change_pct": -4.02,
+      "high": 4.99,
+      "low": 4.76,
+      "volume": 2675627
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600938&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39a5a0>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 38.1,
+      "change_pct": -0.55,
+      "high": 38.46,
+      "low": 37.88,
+      "volume": 446909
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601857&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39ab70>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 11.99,
+      "change_pct": -0.91,
+      "high": 12.07,
+      "low": 11.94,
+      "volume": 1574714
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600028&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39aab0>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 5.81,
+      "change_pct": -0.51,
+      "high": 5.84,
+      "low": 5.81,
+      "volume": 1297269
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.603619&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d398ec0>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 35.76,
+      "change_pct": 0.45,
+      "high": 36.47,
+      "low": 34.66,
+      "volume": 365289
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600759&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d399160>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 5.39,
+      "change_pct": -1.1,
+      "high": 5.45,
+      "low": 5.31,
+      "volume": 3613643
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601808&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39bb00>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 15.85,
+      "change_pct": 0.89,
+      "high": 15.95,
+      "low": 15.54,
+      "volume": 228394
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=0.002353&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39af30>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 117.46,
+      "change_pct": 4.42,
+      "high": 120.68,
+      "low": 111.16,
+      "volume": 231096
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600803&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39a1e0>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 20.8,
+      "change_pct": -0.95,
+      "high": 20.98,
+      "low": 20.65,
+      "volume": 136645
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600256&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d5dfef0>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 6.54,
+      "change_pct": -0.61,
+      "high": 6.59,
+      "low": 6.43,
+      "volume": 1545915
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601919&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d3e0950>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 15.2,
+      "change_pct": null,
+      "high": 15.4,
+      "low": 15.15,
+      "volume": 624765
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600760&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d462f00>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 48.72,
+      "change_pct": 1.92,
+      "high": 49.09,
+      "low": 47.79,
+      "volume": 183784
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600893&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39a270>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 51.46,
+      "change_pct": 3.88,
+      "high": 52.08,
+      "low": 50.02,
+      "volume": 468021
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600150&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d399f40>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 32.65,
+      "change_pct": 1.3,
+      "high": 32.88,
+      "low": 32.3,
+      "volume": 600439
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600547&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39bf80>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 40.2,
+      "change_pct": -2.59,
+      "high": 41.6,
+      "low": 40.12,
+      "volume": 493765
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600988&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5e563140>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 45.08,
+      "change_pct": -1.68,
+      "high": 46.4,
+      "low": 44.93,
+      "volume": 383089
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600489&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d3e0290>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 27.42,
+      "change_pct": -1.3,
+      "high": 28.15,
+      "low": 27.4,
+      "volume": 518981
     },
     "601088": {
       "name": "中国神华",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601088&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39bf20>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "price": 46.38,
+      "change_pct": -0.88,
+      "high": 46.63,
+      "low": 46.1,
+      "volume": 256774
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=90.BK0475&fields=f43,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39b080>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "change_pct": 0.09
     },
     "石油": {
-      "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=90.BK0414&fields=f43,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39af60>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=90.BK0478&fields=f43,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d39a390>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "change_pct": 0.1
     },
     "军工": {
-      "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=90.BK0477&fields=f43,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d669790>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "change_pct": 0.72
     },
     "黄金": {
-      "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=90.BK0473&fields=f43,f170,f171 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f0f5d3e0d70>: Failed to resolve 'push2.eastmoney.com' ([Errno -5] No address associated with hostname)\"))"
+      "change_pct": 2.57
     }
   },
-  "news": [],
-  "event_states": [],
+  "news": [
+    {
+      "source": "德国之声",
+      "title": "美伊停火瀕臨破局 中國成為關鍵調停者？",
+      "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Thu, 9 Apr 2026 07:10:00 GMT",
+      "summary": "在美伊同意暫時停火、為談判爭取空間之際，中國強調居中斡旋的外交角色。然而停火未滿48小時，以色列對黎巴嫩發動大規模空襲，伊朗亦再度封鎖霍爾木茲海峽，停火是否破局引發關注。",
+      "lang": "zh",
+      "relevance_score": 100,
+      "entity_hits": [
+        "霍爾木茲",
+        "美伊",
+        "海峽",
+        "以色列",
+        "黎巴嫩",
+        "伊朗"
+      ],
+      "action_hits": [
+        "停火",
+        "空襲",
+        "封鎖",
+        "談判"
+      ],
+      "location": "霍尔木兹海峡",
+      "theater": "gulf"
+    },
+    {
+      "source": "FT中文网",
+      "title": "以色列轰炸贝鲁特 不承认停火涵盖黎巴嫩",
+      "link": "https://www.ftchinese.com/story/001109403",
+      "published": "Wed, 08 Apr 2026 16:00:00 GMT",
+      "summary": "以色列军方称其打击了黎巴嫩全国100个与真主党有关的地点。内塔尼亚胡的办公室坚称美国、伊朗和以色列之间的停火协议并不涵盖黎巴嫩。",
+      "lang": "zh",
+      "relevance_score": 100,
+      "entity_hits": [
+        "贝鲁特",
+        "以色列",
+        "黎巴嫩",
+        "伊朗",
+        "真主党"
+      ],
+      "action_hits": [
+        "打击",
+        "停火",
+        "轰炸",
+        "停火协议"
+      ],
+      "location": "黎巴嫩·贝鲁特",
+      "theater": "lebanon"
+    },
+    {
+      "source": "BBC中文",
+      "title": "分析：特朗普宣稱飛行員救援行動勝利，但美國在伊朗面臨的威脅揮之不去",
+      "link": "https://www.bbc.com/zhongwen/articles/cnv8rr9yprlo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 06 Apr 2026 09:45:48 GMT",
+      "summary": "儘管任務最終成功，但過去數天發生的事件——包括兩架飛機被擊落、至少一架直升機遭到槍擊——凸顯出，即便美國與以色列已對伊朗軍事基礎設施展開數週的猛烈打擊，且總統聲稱德黑蘭「已無防空設備」，美軍飛機與人員仍面臨持續威脅。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "德黑蘭",
+        "伊朗",
+        "美軍",
+        "以色列"
+      ],
+      "action_hits": [
+        "擊落",
+        "防空",
+        "打擊"
+      ],
+      "location": "伊朗",
+      "theater": "iran"
+    },
+    {
+      "source": "FT中文网",
+      "title": "伊朗继续要求油轮支付通行费",
+      "link": "https://www.ftchinese.com/story/001109402",
+      "published": "Wed, 08 Apr 2026 16:00:00 GMT",
+      "summary": "尽管与美国达成两周停火，伊朗要求航运公司为通过霍尔木兹海峡的油轮支付通行费，并直接通过无线电警告海湾地区的船舶，要求其提交申请。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "伊朗",
+        "霍尔木兹",
+        "海峡",
+        "油轮"
+      ],
+      "action_hits": [
+        "停火",
+        "油轮",
+        "航运"
+      ],
+      "location": "霍尔木兹海峡",
+      "theater": "gulf"
+    },
+    {
+      "source": "德国之声",
+      "title": "特朗普告诉欧洲“去自己取回原油\"",
+      "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 1 Apr 2026 13:43:00 GMT",
+      "summary": "美国总统特朗普称霍尔木兹海峡是否重新通航与美国无关，“我们没有理由插手此事”。伊朗战争爆发以来，欧洲天然气价格已上升了70%，原油上升近30%。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "原油",
+        "霍尔木兹",
+        "海峡",
+        "伊朗"
+      ],
+      "action_hits": [
+        "原油",
+        "天然气"
+      ],
+      "location": "霍尔木兹海峡",
+      "theater": "gulf"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美伊停火台前幕後  14日談判的焦點將是什麼",
+      "link": "https://www.bbc.com/zhongwen/articles/cj0vee83q8go/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 02:10:55 GMT",
+      "summary": "特朗普威脅若伊朗拒絕妥協，「一整個文明將在今夜死掉」後，巴基斯坦出面斡旋並達成停火協議。",
+      "lang": "zh",
+      "relevance_score": 77,
+      "entity_hits": [
+        "伊朗",
+        "美伊"
+      ],
+      "action_hits": [
+        "停火",
+        "停火協議",
+        "談判"
+      ],
+      "location": "伊朗",
+      "theater": "iran"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國試圖在伊朗戰爭中扮演和平調解者，這會奏效嗎？",
+      "link": "https://www.bbc.com/zhongwen/articles/cp8d61nl2j4o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 02 Apr 2026 03:59:47 GMT",
+      "summary": "北京與伊斯蘭堡的官員提出了一項五點計劃，旨在促成停火，並重新開放至關重要的霍爾木茲海峽。此前中國官方反應一直較為低調，為何選擇在此時介入？",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "伊朗",
+        "霍爾木茲",
+        "海峽"
+      ],
+      "action_hits": [
+        "停火"
+      ],
+      "location": "霍尔木兹海峡",
+      "theater": "gulf"
+    },
+    {
+      "source": "德国之声",
+      "title": "德语媒体：谁在坐收渔利？",
+      "link": "https://www.dw.com/zh/德语媒体：谁在坐收渔利？/a-76695225?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Tue, 7 Apr 2026 14:18:00 GMT",
+      "summary": "奥地利《标准报》认为，特朗普发动对伊朗战争带来的油价上涨，让依然能够从德黑兰进口石油的中国成为了某种程度上的赢家。《经济周刊》则分析了德国汽车行业为什么总是想把工厂搬到不民主国家，并警告了这样做的危险性。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "油价",
+        "伊朗",
+        "德黑兰"
+      ],
+      "action_hits": [
+        "油价"
+      ],
+      "location": "伊朗·德黑兰",
+      "theater": "iran"
+    },
+    {
+      "source": "德国之声",
+      "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
+      "link": "https://www.dw.com/zh/伊朗战争以来-日本、法国商船首次通过霍尔木兹海峡/a-76660245?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 4 Apr 2026 10:42:00 GMT",
+      "summary": "航运数据显示，包括一艘法国籍船只、一艘日本籍船只在内的数艘船舶近日穿越了霍尔木兹海峡，成为一个多月以来通过该海峡的两百余艘船只之一。路透社报道指出，这反映了伊朗允许其认为友好国家的船只通行的政策。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "伊朗",
+        "霍尔木兹",
+        "海峡"
+      ],
+      "action_hits": [
+        "航运"
+      ],
+      "location": "霍尔木兹海峡",
+      "theater": "gulf"
+    },
+    {
+      "source": "德国之声",
+      "title": "德国无意卷入伊战 默茨为何对特朗普说不？",
+      "link": "https://www.dw.com/zh/德国无意卷入伊战-默茨为何对特朗普说不？/a-76398388?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Tue, 17 Mar 2026 15:17:00 GMT",
+      "summary": "不久前访问白宫时，德国总理默茨还对美国和以色列对伊朗的攻击表示理解。但在霍尔木兹海峡被封锁十余天后他改变了立场，公开批评特朗普政府的策略，并强调德国不会卷入这场战争。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "伊朗",
+        "霍尔木兹",
+        "海峡",
+        "以色列"
+      ],
+      "action_hits": [
+        "封锁"
+      ],
+      "location": "霍尔木兹海峡",
+      "theater": "gulf"
+    },
+    {
+      "source": "FT中文网",
+      "title": "沙特对其原油收取创纪录溢价",
+      "link": "https://www.ftchinese.com/story/001109382",
+      "published": "Mon, 06 Apr 2026 16:00:00 GMT",
+      "summary": "在伊朗战争使全球能源供应紧张的背景下，沙特阿美5月将向亚洲客户收取每桶19.50美元的溢价，这一溢价在过去26年里从未超过每桶10美元。",
+      "lang": "zh",
+      "relevance_score": 68,
+      "entity_hits": [
+        "原油",
+        "伊朗",
+        "沙特"
+      ],
+      "action_hits": [
+        "原油"
+      ],
+      "location": "沙特阿拉伯",
+      "theater": "gulf"
+    },
+    {
+      "source": "BBC中东",
+      "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
+      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 08 Apr 2026 20:54:59 GMT",
+      "summary": "Attacks hit the southern suburbs of Beirut, southern Lebanon and the eastern Bekaa Valley, hours after a US-Iran ceasefire was announced.",
+      "lang": "en",
+      "relevance_score": 100,
+      "entity_hits": [
+        "lebanon",
+        "iran",
+        "israel",
+        "beirut"
+      ],
+      "action_hits": [
+        "attack",
+        "ceasefire",
+        "killed",
+        "strike"
+      ],
+      "location": "黎巴嫩·贝鲁特",
+      "theater": "lebanon"
+    },
+    {
+      "source": "BBC中东",
+      "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
+      "link": "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 17:16:08 GMT",
+      "summary": "Israel says Lebanon is not included in the ceasefire the US agreed to halt the war with Iran.",
+      "lang": "en",
+      "relevance_score": 75,
+      "entity_hits": [
+        "lebanon",
+        "iran",
+        "israel"
+      ],
+      "action_hits": [
+        "ceasefire",
+        "halt"
+      ],
+      "location": "黎巴嫩",
+      "theater": "lebanon"
+    },
+    {
+      "source": "BBC中东",
+      "title": "BBC at the site of Israeli air strikes in Beirut",
+      "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 07:45:26 GMT",
+      "summary": "At least 182 people were killed and 890 others wounded, according to the Lebanese health ministry.",
+      "lang": "en",
+      "relevance_score": 75,
+      "entity_hits": [
+        "israel",
+        "beirut"
+      ],
+      "action_hits": [
+        "killed",
+        "wounded",
+        "strike"
+      ],
+      "location": "黎巴嫩·贝鲁特",
+      "theater": "lebanon"
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
+      "link": "https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 17:11:59 GMT",
+      "summary": "Iran's deputy foreign minister says the US must choose between 'war and ceasefire'.",
+      "lang": "en",
+      "relevance_score": 75,
+      "entity_hits": [
+        "lebanon",
+        "iran",
+        "israel"
+      ],
+      "action_hits": [
+        "ceasefire",
+        "strike"
+      ],
+      "location": "伊朗",
+      "theater": "iran"
+    },
+    {
+      "source": "BBC中东",
+      "title": "How many ships are crossing the Strait of Hormuz?",
+      "link": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 10 Apr 2026 16:08:19 GMT",
+      "summary": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "strait",
+        "hormuz",
+        "iran"
+      ],
+      "action_hits": [
+        "ceasefire"
+      ],
+      "location": "霍尔木兹海峡",
+      "theater": "gulf"
+    },
+    {
+      "source": "BBC中东",
+      "title": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
+      "link": "https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 09 Apr 2026 11:39:56 GMT",
+      "summary": "The Israeli military claims Mohammed Wishah was a \"Hamas terrorist\" - which the Qatar-based network has previously denied.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "hamas",
+        "israel",
+        "qatar"
+      ],
+      "action_hits": [
+        "strike"
+      ],
+      "location": "以色列",
+      "theater": "gulf"
+    },
+    {
+      "source": "BBC中东",
+      "title": "What we know about the two-week ceasefire between the US and Iran",
+      "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 08 Apr 2026 20:25:49 GMT",
+      "summary": "The provisional truce comes more than a month after the US and Israel launched coordinated attacks on Iran.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "iran",
+        "israel"
+      ],
+      "action_hits": [
+        "ceasefire",
+        "launch",
+        "attack"
+      ],
+      "location": "伊朗",
+      "theater": "iran"
+    },
+    {
+      "source": "BBC中东",
+      "title": "Is conditional ceasefire a victory for US or Iran?",
+      "link": "https://www.bbc.com/news/videos/crm1x927gpno?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 08 Apr 2026 16:35:07 GMT",
+      "summary": "BBC correspondent Frank Gardner explains the current situation as both sides claim victory - Iran says it will reopen the Strait of Hormuz and that its \"victory in the field would also be consolidated",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "strait",
+        "hormuz",
+        "iran"
+      ],
+      "action_hits": [
+        "ceasefire"
+      ],
+      "location": "霍尔木兹海峡",
+      "theater": "gulf"
+    }
+  ],
+  "event_states": [
+    {
+      "event_id": "4833e3e99372",
+      "title": "How many ships are crossing the Strait of Hormuz?",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-04-09T07:10:00+00:00",
+      "last_updated_time": "2026-04-10T16:08:19+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 100,
+      "source_count": 5,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh",
+      "theater": "gulf"
+    },
+    {
+      "event_id": "b87710f66784",
+      "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
+      "location": "黎巴嫩·贝鲁特",
+      "first_seen_time": "2026-04-08T16:00:00+00:00",
+      "last_updated_time": "2026-04-08T20:54:59+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 100,
+      "source_count": 2,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001109403",
+      "lang": "zh",
+      "theater": "lebanon"
+    },
+    {
+      "event_id": "91077977adf7",
+      "title": "分析：特朗普宣稱飛行員救援行動勝利，但美國在伊朗面臨的威脅揮之不去",
+      "location": "伊朗",
+      "first_seen_time": "2026-04-06T09:45:48+00:00",
+      "last_updated_time": "2026-04-06T09:45:48+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 1,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/cnv8rr9yprlo/trad?at_medium=RSS&at_campaign=rss",
+      "lang": "zh",
+      "theater": "iran"
+    },
+    {
+      "event_id": "21fab955edb9",
+      "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-04-01T13:43:00+00:00",
+      "last_updated_time": "2026-04-04T10:42:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 80,
+      "source_count": 2,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh",
+      "theater": "gulf"
+    },
+    {
+      "event_id": "2644957093f6",
+      "title": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
+      "location": "伊朗",
+      "first_seen_time": "2026-04-09T02:10:55+00:00",
+      "last_updated_time": "2026-04-09T17:11:59+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 77,
+      "source_count": 3,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/cj0vee83q8go/trad?at_medium=RSS&at_campaign=rss",
+      "lang": "zh",
+      "theater": "iran"
+    },
+    {
+      "event_id": "86b4f481d9e2",
+      "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
+      "location": "黎巴嫩",
+      "first_seen_time": "2026-04-09T17:16:08+00:00",
+      "last_updated_time": "2026-04-09T17:16:08+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 75,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss",
+      "lang": "en",
+      "theater": "lebanon"
+    },
+    {
+      "event_id": "500222a7b314",
+      "title": "BBC at the site of Israeli air strikes in Beirut",
+      "location": "黎巴嫩·贝鲁特",
+      "first_seen_time": "2026-04-09T07:45:26+00:00",
+      "last_updated_time": "2026-04-09T07:45:26+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 75,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
+      "lang": "en",
+      "theater": "lebanon"
+    },
+    {
+      "event_id": "f7ea0060bd23",
+      "title": "德语媒体：谁在坐收渔利？",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-04-07T14:18:00+00:00",
+      "last_updated_time": "2026-04-07T14:18:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/德语媒体：谁在坐收渔利？/a-76695225?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh",
+      "theater": "iran"
+    },
+    {
+      "event_id": "37da0934ae18",
+      "title": "德国无意卷入伊战 默茨为何对特朗普说不？",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-03-17T15:17:00+00:00",
+      "last_updated_time": "2026-03-17T15:17:00+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/德国无意卷入伊战-默茨为何对特朗普说不？/a-76398388?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh",
+      "theater": "gulf"
+    },
+    {
+      "event_id": "5fd63f13b2c0",
+      "title": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
+      "location": "以色列",
+      "first_seen_time": "2026-04-09T11:39:56+00:00",
+      "last_updated_time": "2026-04-09T11:39:56+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&at_campaign=rss",
+      "lang": "en",
+      "theater": "gulf"
+    },
+    {
+      "event_id": "76bbf27802ec",
+      "title": "沙特对其原油收取创纪录溢价",
+      "location": "沙特阿拉伯",
+      "first_seen_time": "2026-04-06T16:00:00+00:00",
+      "last_updated_time": "2026-04-06T16:00:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "worsening",
+      "confidence": 68,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001109382",
+      "lang": "zh",
+      "theater": "gulf"
+    }
+  ],
   "shipping": {
     "hormuz": {
       "dates": [
@@ -286,72 +1228,16 @@
     "report_date_cn": "2026年04月11日",
     "war_day": 43,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-11T22:55:53.526620+08:00",
-    "generated_at_cn": "2026-04-11 22:55:53 北京时间"
+    "generated_at": "2026-04-11T23:02:05.892512+08:00",
+    "generated_at_cn": "2026-04-11 23:02:05 北京时间"
   },
   "history": [
-    {
-      "date": "2026-03-17",
-      "brent": 102.5999984741211,
-      "wti": 95.93000030517578,
-      "gold": 5009.7998046875,
-      "usd_cny": 6.868899822235107
-    },
-    {
-      "date": "2026-03-17",
-      "brent": 104.30999755859375,
-      "wti": 97.9000015258789,
-      "gold": 5016.10009765625,
-      "usd_cny": 6.888500213623047
-    },
-    {
-      "date": "2026-03-17",
-      "brent": 103.83000183105469,
-      "wti": 97.30999755859375,
-      "gold": 5010.2001953125,
-      "usd_cny": 6.888500213623047
-    },
-    {
-      "date": "2026-03-17",
-      "brent": 103.70999908447266,
-      "wti": 97.25,
-      "gold": 5014.89990234375,
-      "usd_cny": 6.888400077819824
-    },
     {
       "date": "2026-03-17",
       "brent": 103.56999969482422,
       "wti": 96.31999969482422,
       "gold": 5026.0,
       "usd_cny": 6.883399963378906
-    },
-    {
-      "date": "2026-03-18",
-      "brent": 103.41999816894531,
-      "wti": 96.20999908447266,
-      "gold": 5001.0,
-      "usd_cny": 6.880199909210205
-    },
-    {
-      "date": "2026-03-18",
-      "brent": 103.41999816894531,
-      "wti": 96.20999908447266,
-      "gold": 5001.0,
-      "usd_cny": 6.879799842834473
-    },
-    {
-      "date": "2026-03-18",
-      "brent": 102.8499984741211,
-      "wti": 94.02999877929688,
-      "gold": 4993.5,
-      "usd_cny": 6.872300148010254
-    },
-    {
-      "date": "2026-03-18",
-      "brent": 109.52999877929688,
-      "wti": 98.2300033569336,
-      "gold": 4873.89990234375,
-      "usd_cny": 6.872099876403809
     },
     {
       "date": "2026-03-18",
@@ -502,31 +1388,10 @@
     },
     {
       "date": "2026-04-09",
-      "brent": 96.69999694824219,
-      "wti": 97.08999633789062,
-      "gold": 4736.89990234375,
-      "usd_cny": 6.83459997177124
-    },
-    {
-      "date": "2026-04-09",
-      "brent": 98.04000091552734,
-      "wti": 97.4000015258789,
-      "gold": 4748.39990234375,
-      "usd_cny": 6.8394999504089355
-    },
-    {
-      "date": "2026-04-09",
       "brent": 97.9000015258789,
       "wti": 99.22000122070312,
       "gold": 4761.2998046875,
       "usd_cny": 6.83620023727417
-    },
-    {
-      "date": "2026-04-10",
-      "brent": 95.91999816894531,
-      "wti": 97.77999877929688,
-      "gold": 4791.5,
-      "usd_cny": 6.830100059509277
     },
     {
       "date": "2026-04-10",
@@ -541,13 +1406,6 @@
       "wti": 95.62999725341797,
       "gold": 4771.0,
       "usd_cny": 6.828400135040283
-    },
-    {
-      "date": "2026-04-11",
-      "brent": null,
-      "wti": null,
-      "gold": null,
-      "usd_cny": null
     }
   ]
 }

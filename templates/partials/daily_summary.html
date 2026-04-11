@@ -1,0 +1,13 @@
+<section class="py-10 md:py-14 px-4" id="dailySummary">
+  <div class="max-w-6xl mx-auto">
+    <div class="fade-up mb-8">
+      <div class="section-num mb-2">DAILY SUMMARY</div>
+      <h2 class="section-title">日报摘要</h2>
+      <div class="h-px bg-gradient-to-r from-neon via-ghost to-transparent mt-4"></div>
+      <div class="text-[10px] text-ghost font-mono mt-2">所有卡片均显示“依据条数 / 最近更新时间 / 是否估算值”等元信息，优先服务今日浏览。</div>
+    </div>
+    <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
+      {{ daily_summary_cards_html }}
+    </div>
+  </div>
+</section>
