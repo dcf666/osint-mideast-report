@@ -250,5 +250,12 @@
     "wti": 95.62999725341797,
     "gold": 4771.0,
     "usd_cny": 6.828400135040283
+  },
+  {
+    "date": "2026-04-11",
+    "brent": null,
+    "wti": null,
+    "gold": null,
+    "usd_cny": null
   }
 ]
