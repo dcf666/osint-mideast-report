@@ -5,6 +5,13 @@
       <h2 class="section-title">日报摘要</h2>
       <div class="h-px bg-gradient-to-r from-neon via-ghost to-transparent mt-4"></div>
       <div class="text-[10px] text-ghost font-mono mt-2">所有卡片均显示“依据条数 / 最近更新时间 / 是否估算值”等元信息，优先服务今日浏览。</div>
+      {% if data_stale %}
+      <div class="mt-3 inline-flex flex-wrap items-center gap-2 rounded-md border border-warn/40 bg-warn/10 px-3 py-2 text-[11px] text-warn font-mono">
+        <span>部分抓取失败，已回退到上次可用快照</span>
+        <span>模块: {{ fallback_sections|join(', ') }}</span>
+        {% if fallback_source_generated_at %}<span>来源时间: {{ fallback_source_generated_at }}</span>{% endif %}
+      </div>
+      {% endif %}
     </div>
     <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
       {{ daily_summary_cards_html }}

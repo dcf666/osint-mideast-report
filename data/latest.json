@@ -1228,8 +1228,16 @@
     "report_date_cn": "2026年04月11日",
     "war_day": 43,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-11T23:03:28.743634+08:00",
-    "generated_at_cn": "2026-04-11 23:03:28 北京时间"
+    "generated_at": "2026-04-11T23:06:37.763310+08:00",
+    "generated_at_cn": "2026-04-11 23:06:37 北京时间",
+    "data_stale": true,
+    "fallback_sections": [
+      "markets",
+      "stocks",
+      "sectors",
+      "news"
+    ],
+    "fallback_source_generated_at": "2026-04-11 23:03:28 北京时间"
   },
   "history": [
     {

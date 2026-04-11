@@ -578,6 +578,15 @@ _THEATER_RULES = [
 ]
 
 
+def _exclusion_result(score=0, entity_hits=None, action_hits=None):
+    return {
+        "score": score,
+        "entity_hits": entity_hits or [],
+        "action_hits": action_hits or [],
+        "excluded": True,
+    }
+
+
 def _load_json_file(path, default):
     try:
         if path.exists():
@@ -637,7 +646,7 @@ def score_relevance(title: str, summary: str = "") -> dict:
     # --- Exclusion check ---
     if any(kw in text_raw for kw in _EXCLUDE_CN) or \
        any(kw in text_lower for kw in _EXCLUDE_EN):
-        return {"score": 0, "entity_hits": [], "action_hits": [], "excluded": True}
+        return _exclusion_result()
 
     # --- Layer 1: Entity recognition ---
     entity_hits = []
@@ -688,13 +697,13 @@ def score_relevance(title: str, summary: str = "") -> dict:
     unique_entities = len(set(entity_hits))
 
     if has_distractor_geo and not has_mideast_anchor:
-        return {"score": 0, "entity_hits": [], "action_hits": [], "excluded": True}
+        return _exclusion_result()
 
     if not has_mideast_anchor and unique_entities < 3:
-        return {"score": 0, "entity_hits": list(set(entity_hits)), "action_hits": list(set(action_hits)), "excluded": True}
+        return _exclusion_result(0, list(set(entity_hits)), list(set(action_hits)))
 
     if not has_conflict_signal and unique_entities < 2:
-        return {"score": min(total, 50), "entity_hits": list(set(entity_hits)), "action_hits": list(set(action_hits)), "excluded": True}
+        return _exclusion_result(min(total, 50), list(set(entity_hits)), list(set(action_hits)))
 
     return {
         "score": total,
@@ -970,36 +979,42 @@ def main():
     prev_filtered_news = _load_json_file(DATA_DIR / "filtered_news.json", [])
     prev_events = _load_json_file(DATA_DIR / "events.json", [])
     result = {}
+    fallback_sections = []
 
     print("\n[1/5] Fetching market data (Yahoo Finance)...")
     result["markets"] = fetch_yahoo_finance()
     if not _has_meaningful_market_data(result["markets"]) and prev_latest.get("markets"):
         print("  [WARN] Market fetch returned no usable data, preserving previous snapshot")
         result["markets"] = prev_latest.get("markets", {})
+        fallback_sections.append("markets")
 
     print("\n[2/5] Fetching A-share stocks (Eastmoney)...")
     result["stocks"] = fetch_eastmoney_stocks()
     if not _has_meaningful_stock_data(result["stocks"]) and prev_latest.get("stocks"):
         print("  [WARN] Stock fetch returned no usable data, preserving previous snapshot")
         result["stocks"] = prev_latest.get("stocks", {})
+        fallback_sections.append("stocks")
 
     print("\n[3/5] Fetching sector indices (Eastmoney)...")
     result["sectors"] = fetch_eastmoney_sectors()
     if not _has_meaningful_sector_data(result["sectors"]) and prev_latest.get("sectors"):
         print("  [WARN] Sector fetch returned no usable data, preserving previous snapshot")
         result["sectors"] = prev_latest.get("sectors", {})
+        fallback_sections.append("sectors")
 
     print("\n[4/5] Fetching news (RSS) + relevance filter...")
     result["news"] = fetch_news()
     if not result["news"] and prev_filtered_news:
         print("  [WARN] RSS fetch returned no usable data, preserving previous filtered news")
         result["news"] = prev_filtered_news
+        fallback_sections.append("news")
 
     print("\n[4b/5] Building event state model...")
     result["event_states"] = build_event_states(result["news"])
     if not result["event_states"] and prev_events:
         print("  [WARN] Event model is empty, preserving previous event states")
         result["event_states"] = prev_events
+        fallback_sections.append("event_states")
     print(f"  [OK] {len(result['event_states'])} events tracked")
 
     print("\n[5/6] Fetching shipping/maritime data...")
@@ -1007,6 +1022,10 @@ def main():
 
     print("\n[6/6] Computing metadata...")
     result["meta"] = compute_meta()
+    result["meta"]["data_stale"] = bool(fallback_sections)
+    result["meta"]["fallback_sections"] = fallback_sections
+    if fallback_sections:
+        result["meta"]["fallback_source_generated_at"] = prev_latest.get("meta", {}).get("generated_at_cn", "")
 
     # Load previous data for historical continuity
     prev_file = DATA_DIR / "history.json"

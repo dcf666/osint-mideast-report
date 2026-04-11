@@ -37,11 +37,17 @@ HISTORY_FILE = PROJECT_DIR / "data" / "history.json"
 REFERENCE_META_FILE = PROJECT_DIR / "data" / "reference_meta.json"
 
 WAR_START = date(2026, 2, 28)
+TRUSTED_NEWS_DOMAINS = ("bbc.com", "dw.com", "ftchinese.com")
 
 
 def _safe_url(url):
     parsed = urlparse(url or "")
-    if parsed.scheme in {"http", "https"} and parsed.netloc:
+    hostname = (parsed.netloc or "").lower()
+    is_trusted = any(
+        hostname == domain or hostname.endswith("." + domain)
+        for domain in TRUSTED_NEWS_DOMAINS
+    )
+    if parsed.scheme in {"http", "https"} and hostname and is_trusted:
         return url
     return "#"
 
@@ -304,12 +310,19 @@ def build_daily_summary_cards(data, hero):
     ceasefire = len([e for e in events if e.get("current_status") in ("ceasefire", "de_escalating", "partially_restored")])
     shipping = data.get("shipping", {})
     freshness = shipping.get("freshness", {})
+    meta = data.get("meta", {})
     latest_hormuz = _get_hormuz_today(data)
     brent = data.get("markets", {}).get("brent", {})
     news = data.get("news", [])
     newest_news = sorted(news, key=_news_sort_key, reverse=True)[0] if news else {}
     hormuz_note = "估算值" if freshness.get("hormuz_is_estimate") else "抓取值"
     vlcc_note = "抓取值" if freshness.get("vlcc_is_scraped") else "历史/估算"
+    fallback_sections = meta.get("fallback_sections", [])
+    stale_meta = (
+        f"回退数据: {', '.join(fallback_sections)}"
+        if fallback_sections else
+        f"最新: {_safe_text(newest_news.get('source', '无'))} | {_safe_text((newest_news.get('published', '')[:16] or '未知'))}"
+    )
 
     cards = [
         {
@@ -338,10 +351,7 @@ def build_daily_summary_cards(data, hero):
             "tone": "neon",
             "label": "自动情报覆盖",
             "value": f"{len(news)} 条",
-            "meta": (
-                f"最新: {_safe_text(newest_news.get('source', '无'))} | "
-                f"{_safe_text((newest_news.get('published', '')[:16] or '未知'))}"
-            ),
+            "meta": stale_meta,
         },
     ]
 
@@ -733,6 +743,9 @@ def generate():
         "report_date_cn": meta.get("report_date_cn", meta["report_date"]),
         "report_date_dash": date.today().strftime("%Y-%m-%d"),
         "generated_at": meta.get("generated_at_cn", ""),
+        "data_stale": meta.get("data_stale", False),
+        "fallback_sections": meta.get("fallback_sections", []),
+        "fallback_source_generated_at": meta.get("fallback_source_generated_at", ""),
         # Market prices (current)
         "brent_price": brent.get("current", "N/A"),
         "wti_price": wti.get("current", "N/A"),
