@@ -8,17 +8,17 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "以色列",
+      "伊朗",
+      "黎巴嫩",
+      "霍爾木茲",
       "美伊",
       "海峽",
-      "伊朗",
-      "霍爾木茲",
-      "黎巴嫩"
+      "以色列"
     ],
     "action_hits": [
-      "談判",
       "封鎖",
       "空襲",
+      "談判",
       "停火"
     ]
   },
@@ -31,17 +31,17 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "真主党",
-      "贝鲁特",
       "伊朗",
-      "以色列",
-      "黎巴嫩"
+      "黎巴嫩",
+      "贝鲁特",
+      "真主党",
+      "以色列"
     ],
     "action_hits": [
-      "打击",
-      "轰炸",
+      "停火",
       "停火协议",
-      "停火"
+      "打击",
+      "轰炸"
     ]
   },
   {
@@ -53,37 +53,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "美軍",
       "伊朗",
-      "以色列",
-      "德黑蘭"
+      "美軍",
+      "德黑蘭",
+      "以色列"
     ],
     "action_hits": [
       "防空",
-      "打擊",
-      "擊落"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "以色列大规模袭击黎巴嫩 伊朗再次关闭霍尔木兹海峡",
-    "link": "https://www.dw.com/zh/以色列大规模袭击黎巴嫩-伊朗再次关闭霍尔木兹海峡/a-76721731?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 9 Apr 2026 12:03:00 GMT",
-    "summary": "以色列4月8日对黎巴嫩发动自与真主党交战以来最大规模的空袭之后，伊朗威胁要退出新近与美国达成的停火协议并再次关闭了霍尔木兹海峡。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "真主党",
-      "海峡",
-      "霍尔木兹",
-      "伊朗",
-      "以色列",
-      "黎巴嫩"
-    ],
-    "action_hits": [
-      "空袭",
-      "停火协议",
-      "停火"
+      "擊落",
+      "打擊"
     ]
   },
   {
@@ -95,34 +73,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "海峡",
       "伊朗",
       "油轮",
+      "海峡",
       "霍尔木兹"
     ],
     "action_hits": [
       "航运",
       "油轮",
       "停火"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "兩月內委內瑞拉伊朗接連巨變  中國原油進口體系面臨壓力測試",
-    "link": "https://www.bbc.com/zhongwen/articles/ckgznz79e0po/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 04 Mar 2026 00:20:48 GMT",
-    "summary": "中國石油對外依存度長期維持在70%以上，伊朗和委內瑞拉這兩個受制裁來源約佔中國海運原油進口的17%至18%。加上霍爾木茲海峽被封影響合法石油採購，中國原油進口正面臨巨大壓力。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "伊朗",
-      "海峽",
-      "霍爾木茲",
-      "原油"
-    ],
-    "action_hits": [
-      "原油",
-      "制裁"
     ]
   },
   {
@@ -134,9 +93,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峡",
       "伊朗",
       "原油",
+      "海峡",
       "霍尔木兹"
     ],
     "action_hits": [
@@ -157,8 +116,8 @@
       "美伊"
     ],
     "action_hits": [
-      "停火協議",
       "談判",
+      "停火協議",
       "停火"
     ]
   },
@@ -190,8 +149,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "海峽",
-      "霍爾木茲",
-      "伊朗"
+      "伊朗",
+      "霍爾木茲"
     ],
     "action_hits": [
       "停火"
@@ -206,8 +165,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "油价",
       "伊朗",
+      "油价",
       "德黑兰"
     ],
     "action_hits": [
@@ -223,12 +182,30 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峡",
       "伊朗",
+      "海峡",
       "霍尔木兹"
     ],
     "action_hits": [
       "航运"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "德国无意卷入伊战 默茨为何对特朗普说不？",
+    "link": "https://www.dw.com/zh/德国无意卷入伊战-默茨为何对特朗普说不？/a-76398388?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Tue, 17 Mar 2026 15:17:00 GMT",
+    "summary": "不久前访问白宫时，德国总理默茨还对美国和以色列对伊朗的攻击表示理解。但在霍尔木兹海峡被封锁十余天后他改变了立场，公开批评特朗普政府的策略，并强调德国不会卷入这场战争。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "伊朗",
+      "海峡",
+      "以色列",
+      "霍尔木兹"
+    ],
+    "action_hits": [
+      "封锁"
     ]
   },
   {
@@ -249,22 +226,6 @@
     ]
   },
   {
-    "source": "德国之声",
-    "title": "停火两周：美伊均宣布“赢了”",
-    "link": "https://www.dw.com/zh/停火两周：美伊均宣布-赢了/a-76705657?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 8 Apr 2026 10:33:00 GMT",
-    "summary": "美伊同意停火两周。特朗普表示这是美国“完全和彻底的胜利”。德黑兰则宣布敌人遭受“无可否认的历史性溃败”。在接受媒体采访时，特朗普表示北京也参与了斡旋。",
-    "lang": "zh",
-    "relevance_score": 62,
-    "entity_hits": [
-      "美伊",
-      "德黑兰"
-    ],
-    "action_hits": [
-      "停火"
-    ]
-  },
-  {
     "source": "BBC中东",
     "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
     "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
@@ -273,16 +234,16 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "israel",
       "lebanon",
       "iran",
-      "beirut",
-      "israel"
+      "beirut"
     ],
     "action_hits": [
-      "attack",
       "strike",
+      "killed",
       "ceasefire",
-      "killed"
+      "attack"
     ]
   },
   {
@@ -294,9 +255,9 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
+      "israel",
       "lebanon",
-      "iran",
-      "israel"
+      "iran"
     ],
     "action_hits": [
       "halt",
@@ -312,8 +273,8 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "beirut",
-      "israel"
+      "israel",
+      "beirut"
     ],
     "action_hits": [
       "strike",
@@ -330,9 +291,9 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
+      "israel",
       "lebanon",
-      "iran",
-      "israel"
+      "iran"
     ],
     "action_hits": [
       "strike",
@@ -341,16 +302,16 @@
   },
   {
     "source": "BBC中东",
-    "title": "Ships remain cautious approaching Strait of Hormuz amid fragile ceasefire",
+    "title": "How many ships are crossing the Strait of Hormuz?",
     "link": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 09 Apr 2026 13:58:43 GMT",
+    "published": "Fri, 10 Apr 2026 16:08:19 GMT",
     "summary": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
       "hormuz",
-      "iran",
-      "strait"
+      "strait",
+      "iran"
     ],
     "action_hits": [
       "ceasefire"
@@ -365,9 +326,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "qatar",
+      "israel",
       "hamas",
-      "israel"
+      "qatar"
     ],
     "action_hits": [
       "strike"
@@ -382,8 +343,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
       "attack",
@@ -401,8 +362,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "hormuz",
-      "iran",
-      "strait"
+      "strait",
+      "iran"
     ],
     "action_hits": [
       "ceasefire"

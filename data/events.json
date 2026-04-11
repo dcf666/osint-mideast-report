@@ -1,14 +1,14 @@
 [
   {
     "event_id": "4833e3e99372",
-    "title": "Ships remain cautious approaching Strait of Hormuz amid fragile ceasefire",
+    "title": "How many ships are crossing the Strait of Hormuz?",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-04-09T07:10:00+00:00",
-    "last_updated_time": "2026-04-09T13:58:43+00:00",
+    "last_updated_time": "2026-04-10T16:08:19+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 100,
-    "source_count": 6,
+    "source_count": 5,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
@@ -42,17 +42,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "ab62c39ffd5d",
+    "event_id": "21fab955edb9",
     "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-03-04T00:20:48+00:00",
+    "first_seen_time": "2026-04-01T13:43:00+00:00",
     "last_updated_time": "2026-04-04T10:42:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 3,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/ckgznz79e0po/trad?at_medium=RSS&at_campaign=rss",
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -98,6 +98,20 @@
     "lang": "en"
   },
   {
+    "event_id": "37da0934ae18",
+    "title": "德国无意卷入伊战 默茨为何对特朗普说不？",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-03-17T15:17:00+00:00",
+    "last_updated_time": "2026-03-17T15:17:00+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/德国无意卷入伊战-默茨为何对特朗普说不？/a-76398388?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
     "event_id": "5fd63f13b2c0",
     "title": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
     "location": "以色列",
@@ -123,20 +137,6 @@
     "source_count": 1,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001109382",
-    "lang": "zh"
-  },
-  {
-    "event_id": "c19fde3870d5",
-    "title": "停火两周：美伊均宣布“赢了”",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-04-08T10:33:00+00:00",
-    "last_updated_time": "2026-04-08T10:33:00+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 62,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/停火两周：美伊均宣布-赢了/a-76705657?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   }
 ]
