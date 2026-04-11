@@ -1,28 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "美伊停火瀕臨破局 中國成為關鍵調停者？",
-    "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 9 Apr 2026 07:10:00 GMT",
-    "summary": "在美伊同意暫時停火、為談判爭取空間之際，中國強調居中斡旋的外交角色。然而停火未滿48小時，以色列對黎巴嫩發動大規模空襲，伊朗亦再度封鎖霍爾木茲海峽，停火是否破局引發關注。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "伊朗",
-      "黎巴嫩",
-      "霍爾木茲",
-      "美伊",
-      "海峽",
-      "以色列"
-    ],
-    "action_hits": [
-      "封鎖",
-      "空襲",
-      "談判",
-      "停火"
-    ]
-  },
-  {
     "source": "FT中文网",
     "title": "以色列轰炸贝鲁特 不承认停火涵盖黎巴嫩",
     "link": "https://www.ftchinese.com/story/001109403",
@@ -31,17 +8,17 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "伊朗",
-      "黎巴嫩",
-      "贝鲁特",
+      "以色列",
       "真主党",
-      "以色列"
+      "贝鲁特",
+      "伊朗",
+      "黎巴嫩"
     ],
     "action_hits": [
-      "停火",
-      "停火协议",
+      "轰炸",
       "打击",
-      "轰炸"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -53,15 +30,36 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "伊朗",
       "美軍",
       "德黑蘭",
+      "伊朗",
       "以色列"
     ],
     "action_hits": [
+      "打擊",
       "防空",
-      "擊落",
-      "打擊"
+      "擊落"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "万斯赴伊斯兰堡与伊朗会谈 分歧巨大互不信任",
+    "link": "https://www.dw.com/zh/万斯赴伊斯兰堡与伊朗会谈-分歧巨大互不信任/a-76747534?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 11 Apr 2026 12:54:00 GMT",
+    "summary": "美国副总统万斯周六赴巴基斯坦与伊朗谈判。双方在解除制裁、霍尔木兹海峡控制权、驻军问题以及核计划等核心问题上分歧巨大立场对立。以色列在黎巴嫩的持续军事行动与停火范围争议也进一步加剧紧张局势。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "以色列",
+      "海峡",
+      "霍尔木兹",
+      "伊朗",
+      "黎巴嫩"
+    ],
+    "action_hits": [
+      "谈判",
+      "制裁",
+      "停火"
     ]
   },
   {
@@ -73,15 +71,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "伊朗",
-      "油轮",
       "海峡",
-      "霍尔木兹"
+      "霍尔木兹",
+      "伊朗",
+      "油轮"
     ],
     "action_hits": [
+      "停火",
       "航运",
-      "油轮",
-      "停火"
+      "油轮"
     ]
   },
   {
@@ -93,14 +91,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
-      "原油",
       "海峡",
-      "霍尔木兹"
+      "霍尔木兹",
+      "原油",
+      "伊朗"
     ],
     "action_hits": [
-      "原油",
-      "天然气"
+      "天然气",
+      "原油"
     ]
   },
   {
@@ -116,9 +114,9 @@
       "美伊"
     ],
     "action_hits": [
-      "談判",
       "停火協議",
-      "停火"
+      "停火",
+      "談判"
     ]
   },
   {
@@ -148,12 +146,31 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峽",
+      "霍爾木茲",
       "伊朗",
-      "霍爾木茲"
+      "海峽"
     ],
     "action_hits": [
       "停火"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "特朗普：“我们开始清理霍尔木兹海峡”",
+    "link": "https://www.dw.com/zh/特朗普：-我们开始清理霍尔木兹海峡/a-76748549?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 11 Apr 2026 14:59:00 GMT",
+    "summary": "美伊为结束中东战争而展开的谈判已于周六启动。与此同时，特朗普发帖表示，美国已开始\"清理\"霍尔木兹海峡，但承认伊朗水雷仍构成威胁。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "中东",
+      "海峡",
+      "霍尔木兹",
+      "伊朗",
+      "美伊"
+    ],
+    "action_hits": [
+      "谈判"
     ]
   },
   {
@@ -165,9 +182,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "德黑兰",
       "伊朗",
-      "油价",
-      "德黑兰"
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -182,30 +199,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "海峡",
-      "霍尔木兹"
+      "霍尔木兹",
+      "伊朗"
     ],
     "action_hits": [
       "航运"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "德国无意卷入伊战 默茨为何对特朗普说不？",
-    "link": "https://www.dw.com/zh/德国无意卷入伊战-默茨为何对特朗普说不？/a-76398388?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Tue, 17 Mar 2026 15:17:00 GMT",
-    "summary": "不久前访问白宫时，德国总理默茨还对美国和以色列对伊朗的攻击表示理解。但在霍尔木兹海峡被封锁十余天后他改变了立场，公开批评特朗普政府的策略，并强调德国不会卷入这场战争。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "伊朗",
-      "海峡",
-      "以色列",
-      "霍尔木兹"
-    ],
-    "action_hits": [
-      "封锁"
     ]
   },
   {
@@ -217,8 +216,8 @@
     "lang": "zh",
     "relevance_score": 68,
     "entity_hits": [
-      "伊朗",
       "原油",
+      "伊朗",
       "沙特"
     ],
     "action_hits": [
@@ -234,15 +233,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "beirut",
       "israel",
       "lebanon",
-      "iran",
-      "beirut"
+      "iran"
     ],
     "action_hits": [
       "strike",
-      "killed",
       "ceasefire",
+      "killed",
       "attack"
     ]
   },
@@ -260,8 +259,8 @@
       "iran"
     ],
     "action_hits": [
-      "halt",
-      "ceasefire"
+      "ceasefire",
+      "halt"
     ]
   },
   {
@@ -273,8 +272,8 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "israel",
-      "beirut"
+      "beirut",
+      "israel"
     ],
     "action_hits": [
       "strike",
@@ -347,9 +346,9 @@
       "iran"
     ],
     "action_hits": [
-      "attack",
+      "launch",
       "ceasefire",
-      "launch"
+      "attack"
     ]
   },
   {

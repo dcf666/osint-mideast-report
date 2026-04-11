@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "4833e3e99372",
-    "title": "How many ships are crossing the Strait of Hormuz?",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-09T07:10:00+00:00",
-    "last_updated_time": "2026-04-10T16:08:19+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 100,
-    "source_count": 5,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美伊停火瀕臨破局-中國成為關鍵調停者？/a-76716097?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "b87710f66784",
     "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
     "location": "黎巴嫩·贝鲁特",
@@ -42,15 +28,29 @@
     "lang": "zh"
   },
   {
+    "event_id": "21c82df942b5",
+    "title": "万斯赴伊斯兰堡与伊朗会谈 分歧巨大互不信任",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-04-11T12:54:00+00:00",
+    "last_updated_time": "2026-04-11T12:54:00+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 90,
+    "source_count": 5,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/万斯赴伊斯兰堡与伊朗会谈-分歧巨大互不信任/a-76747534?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
     "event_id": "21fab955edb9",
-    "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
+    "title": "特朗普：“我们开始清理霍尔木兹海峡”",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-04-01T13:43:00+00:00",
-    "last_updated_time": "2026-04-04T10:42:00+00:00",
+    "last_updated_time": "2026-04-11T14:59:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 3,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
@@ -96,20 +96,6 @@
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "37da0934ae18",
-    "title": "德国无意卷入伊战 默茨为何对特朗普说不？",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-03-17T15:17:00+00:00",
-    "last_updated_time": "2026-03-17T15:17:00+00:00",
-    "current_status": "shipping_disrupted",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/德国无意卷入伊战-默茨为何对特朗普说不？/a-76398388?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
   },
   {
     "event_id": "5fd63f13b2c0",
