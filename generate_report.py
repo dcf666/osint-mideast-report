@@ -518,6 +518,8 @@ def build_hero_summary(data):
     # Fragment 2: Hormuz status — event states take priority over stale shipping data
     hormuz_transits = shipping.get("hormuz", {}).get("transits", [])
     latest_hormuz = hormuz_transits[-1] if hormuz_transits else None
+    hormuz_is_zero = latest_hormuz == 0
+    hormuz_is_limited = latest_hormuz is not None and latest_hormuz < 10
     hormuz_events = [e for e in events if "霍尔木兹" in e.get("location", "")]
 
     # Check if event states indicate reopening/restoration (overrides stale transit=0)
@@ -532,20 +534,20 @@ def build_hero_summary(data):
     )
 
     if latest_hormuz is not None:
-        if latest_hormuz == 0 and (hormuz_reopened or hormuz_ceasefire):
+        if hormuz_is_zero and (hormuz_reopened or hormuz_ceasefire):
             fragments.append('霍尔木兹海峡<span class="text-warn font-bold">停火谈判中</span>，但商业通航仍受限')
             tags.append(("停火谈判", "yellow"))
             tags.append(("通航未恢复", "red"))
-        elif latest_hormuz == 0:
+        elif hormuz_is_zero:
             fragments.append('霍尔木兹海峡通航量降至<span class="text-alert font-bold">零</span>')
             tags.append(("霍尔木兹封锁", "red"))
-        elif (hormuz_reopened or hormuz_ceasefire) and latest_hormuz < 10:
+        elif (hormuz_reopened or hormuz_ceasefire) and hormuz_is_limited:
             fragments.append(f'霍尔木兹海峡<span class="text-neon font-bold">有限恢复</span>（{latest_hormuz}艘）')
             tags.append(("有限恢复", "yellow"))
         elif (hormuz_reopened or hormuz_ceasefire):
             fragments.append(f'霍尔木兹海峡<span class="text-neon font-bold">恢复通航</span>（{latest_hormuz}艘）')
             tags.append(("霍尔木兹重启", "green"))
-        elif latest_hormuz < 10:
+        elif hormuz_is_limited:
             fragments.append(f'霍尔木兹海峡仅<span class="text-alert font-bold">{latest_hormuz}</span>艘通过')
             tags.append(("霍尔木兹受限", "red"))
         else:
