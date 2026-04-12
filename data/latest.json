@@ -68,7 +68,7 @@
         95.92,
         95.2
       ],
-      "updated": "2026-04-11T15:22:45.271627"
+      "updated": "2026-04-12T04:13:44.794212"
     },
     "wti": {
       "current": 96.56999969482422,
@@ -138,12 +138,12 @@
         97.87,
         96.57
       ],
-      "updated": "2026-04-11T15:22:45.361725"
+      "updated": "2026-04-12T04:13:44.879666"
     },
     "gold": {
-      "current": 4761.89990234375,
-      "day_change_pct": -0.63,
-      "war_change_pct": -10.06,
+      "current": 4787.39990234375,
+      "day_change_pct": -0.1,
+      "war_change_pct": -9.58,
       "dates": [
         "02/27",
         "03/02",
@@ -206,9 +206,9 @@
         4657.1,
         4749.5,
         4792.2,
-        4761.9
+        4787.4
       ],
-      "updated": "2026-04-11T15:22:45.454604"
+      "updated": "2026-04-12T04:13:44.964373"
     },
     "usd_cny": {
       "current": 6.828400135040283,
@@ -278,7 +278,7 @@
         6.83,
         6.83
       ],
-      "updated": "2026-04-11T15:22:45.563740"
+      "updated": "2026-04-12T04:13:45.055071"
     },
     "nat_gas": {
       "current": 2.6480000019073486,
@@ -348,7 +348,7 @@
         2.67,
         2.65
       ],
-      "updated": "2026-04-11T15:22:45.699896"
+      "updated": "2026-04-12T04:13:45.138632"
     }
   },
   "stocks": {
@@ -540,17 +540,17 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "以色列",
+        "黎巴嫩",
         "真主党",
-        "贝鲁特",
         "伊朗",
-        "黎巴嫩"
+        "以色列",
+        "贝鲁特"
       ],
       "action_hits": [
-        "轰炸",
         "打击",
-        "停火协议",
-        "停火"
+        "停火",
+        "轰炸",
+        "停火协议"
       ]
     },
     {
@@ -568,9 +568,9 @@
         "以色列"
       ],
       "action_hits": [
-        "打擊",
         "防空",
-        "擊落"
+        "擊落",
+        "打擊"
       ]
     },
     {
@@ -582,16 +582,16 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "以色列",
-        "海峡",
+        "黎巴嫩",
         "霍尔木兹",
         "伊朗",
-        "黎巴嫩"
+        "以色列",
+        "海峡"
       ],
       "action_hits": [
-        "谈判",
         "制裁",
-        "停火"
+        "停火",
+        "谈判"
       ]
     },
     {
@@ -603,15 +603,15 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "海峡",
+        "油轮",
         "霍尔木兹",
         "伊朗",
-        "油轮"
+        "海峡"
       ],
       "action_hits": [
+        "油轮",
         "停火",
-        "航运",
-        "油轮"
+        "航运"
       ]
     },
     {
@@ -623,10 +623,10 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峡",
+        "伊朗",
         "霍尔木兹",
         "原油",
-        "伊朗"
+        "海峡"
       ],
       "action_hits": [
         "天然气",
@@ -642,8 +642,8 @@
       "lang": "zh",
       "relevance_score": 77,
       "entity_hits": [
-        "伊朗",
-        "美伊"
+        "美伊",
+        "伊朗"
       ],
       "action_hits": [
         "停火協議",
@@ -660,13 +660,13 @@
       "lang": "zh",
       "relevance_score": 76,
       "entity_hits": [
-        "原油",
-        "油轮"
+        "油轮",
+        "原油"
       ],
       "action_hits": [
         "禁运",
-        "原油",
-        "油轮"
+        "油轮",
+        "原油"
       ]
     },
     {
@@ -695,11 +695,11 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "中东",
-        "海峡",
         "霍尔木兹",
+        "美伊",
+        "中东",
         "伊朗",
-        "美伊"
+        "海峡"
       ],
       "action_hits": [
         "谈判"
@@ -714,8 +714,8 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "德黑兰",
         "伊朗",
+        "德黑兰",
         "油价"
       ],
       "action_hits": [
@@ -731,9 +731,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "海峡",
         "霍尔木兹",
-        "伊朗"
+        "伊朗",
+        "海峡"
       ],
       "action_hits": [
         "航运"
@@ -748,9 +748,9 @@
       "lang": "zh",
       "relevance_score": 68,
       "entity_hits": [
-        "原油",
         "伊朗",
-        "沙特"
+        "沙特",
+        "原油"
       ],
       "action_hits": [
         "原油"
@@ -765,14 +765,14 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "beirut",
         "israel",
-        "lebanon",
-        "iran"
+        "iran",
+        "beirut",
+        "lebanon"
       ],
       "action_hits": [
-        "strike",
         "ceasefire",
+        "strike",
         "killed",
         "attack"
       ]
@@ -787,8 +787,8 @@
       "relevance_score": 75,
       "entity_hits": [
         "israel",
-        "lebanon",
-        "iran"
+        "iran",
+        "lebanon"
       ],
       "action_hits": [
         "ceasefire",
@@ -804,8 +804,8 @@
       "lang": "en",
       "relevance_score": 75,
       "entity_hits": [
-        "beirut",
-        "israel"
+        "israel",
+        "beirut"
       ],
       "action_hits": [
         "strike",
@@ -823,12 +823,12 @@
       "relevance_score": 75,
       "entity_hits": [
         "israel",
-        "lebanon",
-        "iran"
+        "iran",
+        "lebanon"
       ],
       "action_hits": [
-        "strike",
-        "ceasefire"
+        "ceasefire",
+        "strike"
       ]
     },
     {
@@ -840,9 +840,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "iran",
         "hormuz",
-        "strait",
-        "iran"
+        "strait"
       ],
       "action_hits": [
         "ceasefire"
@@ -857,8 +857,8 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "israel",
         "hamas",
+        "israel",
         "qatar"
       ],
       "action_hits": [
@@ -878,8 +878,8 @@
         "iran"
       ],
       "action_hits": [
-        "launch",
         "ceasefire",
+        "launch",
         "attack"
       ]
     },
@@ -892,9 +892,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "iran",
         "hormuz",
-        "strait",
-        "iran"
+        "strait"
       ],
       "action_hits": [
         "ceasefire"
@@ -1032,7 +1032,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "3/13",
         "3/14",
         "3/15",
         "3/16",
@@ -1061,10 +1060,11 @@
         "4/8",
         "4/9",
         "4/10",
-        "4/11"
+        "4/11",
+        "4/12"
       ],
       "transits": [
-        4,
+        0,
         0,
         0,
         0,
@@ -1151,25 +1151,25 @@
         21,
         69
       ],
-      "date_label": "4月11日"
+      "date_label": "4月12日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-04-11",
+      "hormuz_last_date": "2026-04-12",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 29,
+      "vlcc_stale_days": 30,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-04-11"
+      "routes_date": "2026-04-12"
     }
   },
   "meta": {
-    "report_date": "2026.04.11",
-    "report_date_cn": "2026年04月11日",
-    "war_day": 43,
+    "report_date": "2026.04.12",
+    "report_date_cn": "2026年04月12日",
+    "war_day": 44,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-11T23:23:35.789327+08:00",
-    "generated_at_cn": "2026-04-11 23:23:35 北京时间"
+    "generated_at": "2026-04-12T12:14:30.953031+08:00",
+    "generated_at_cn": "2026-04-12 12:14:30 北京时间"
   },
   "history": [
     {
@@ -1429,6 +1429,13 @@
       "brent": 95.19999694824219,
       "wti": 96.56999969482422,
       "gold": 4761.89990234375,
+      "usd_cny": 6.828400135040283
+    },
+    {
+      "date": "2026-04-12",
+      "brent": 95.19999694824219,
+      "wti": 96.56999969482422,
+      "gold": 4787.39990234375,
       "usd_cny": 6.828400135040283
     }
   ]
