@@ -8,16 +8,16 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "黎巴嫩",
+      "贝鲁特",
       "真主党",
       "伊朗",
-      "以色列",
-      "贝鲁特"
+      "黎巴嫩",
+      "以色列"
     ],
     "action_hits": [
       "打击",
-      "停火",
       "轰炸",
+      "停火",
       "停火协议"
     ]
   },
@@ -30,15 +30,37 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "美軍",
-      "德黑蘭",
       "伊朗",
-      "以色列"
+      "德黑蘭",
+      "以色列",
+      "美軍"
     ],
     "action_hits": [
+      "打擊",
       "防空",
-      "擊落",
-      "打擊"
+      "擊落"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "国际航协：即便海峡重新开放 航油供应恢复仍需数月",
+    "link": "https://www.dw.com/zh/国际航协：即便海峡重新开放-航油供应恢复仍需数月/a-76710208?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sun, 12 Apr 2026 09:00:00 GMT",
+    "summary": "国际航空运输协会（IATA）总干事上周三表示，即便伊朗重新开放霍尔木兹海峡，考虑到中东地区炼油能力的受损情况，全球航空燃油供应的恢复仍需数月之久。尽管停火消息促使原油价格回落，但航油成本预计短期内仍将维持高位。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "霍尔木兹",
+      "油价",
+      "海峡",
+      "原油",
+      "伊朗",
+      "中东"
+    ],
+    "action_hits": [
+      "油价",
+      "停火",
+      "原油"
     ]
   },
   {
@@ -50,11 +72,11 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "黎巴嫩",
       "霍尔木兹",
+      "海峡",
       "伊朗",
-      "以色列",
-      "海峡"
+      "黎巴嫩",
+      "以色列"
     ],
     "action_hits": [
       "制裁",
@@ -71,15 +93,35 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "油轮",
-      "霍尔木兹",
       "伊朗",
-      "海峡"
+      "霍尔木兹",
+      "海峡",
+      "油轮"
     ],
     "action_hits": [
-      "油轮",
+      "航运",
       "停火",
-      "航运"
+      "油轮"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美伊谈判无果而终 美军宣布将封锁伊朗港口船只",
+    "link": "https://www.dw.com/zh/美伊谈判无果而终-美军宣布将封锁伊朗港口船只/a-76752963?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 13 Apr 2026 01:46:00 GMT",
+    "summary": "美国及伊朗在巴基斯坦的谈判失败，伊朗称，双边在在霍尔木兹海峡控制权、伊朗核计划方面分歧明显。此外，在特朗普宣称将封锁霍尔木兹海峡后，美军证实将在周一封锁“所有进出伊朗港口的海上交通”。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "霍尔木兹",
+      "美伊",
+      "海峡",
+      "伊朗",
+      "美军"
+    ],
+    "action_hits": [
+      "封锁",
+      "谈判"
     ]
   },
   {
@@ -93,8 +135,8 @@
     "entity_hits": [
       "伊朗",
       "霍尔木兹",
-      "原油",
-      "海峡"
+      "海峡",
+      "原油"
     ],
     "action_hits": [
       "天然气",
@@ -110,48 +152,30 @@
     "lang": "zh",
     "relevance_score": 77,
     "entity_hits": [
-      "美伊",
-      "伊朗"
+      "伊朗",
+      "美伊"
     ],
     "action_hits": [
-      "停火協議",
       "停火",
-      "談判"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "俄罗斯油轮抵达古巴",
-    "link": "https://www.ftchinese.com/story/001109334",
-    "published": "Tue, 31 Mar 2026 16:00:00 GMT",
-    "summary": "美国放松能源禁运后，古巴收到1月9日以来首批约70万桶原油。但对于一个日均原油需求量约为10万桶的国家，这很可能只能暂时缓解困难。",
-    "lang": "zh",
-    "relevance_score": 76,
-    "entity_hits": [
-      "油轮",
-      "原油"
-    ],
-    "action_hits": [
-      "禁运",
-      "油轮",
-      "原油"
+      "談判",
+      "停火協議"
     ]
   },
   {
     "source": "BBC中文",
-    "title": "中國試圖在伊朗戰爭中扮演和平調解者，這會奏效嗎？",
-    "link": "https://www.bbc.com/zhongwen/articles/cp8d61nl2j4o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 02 Apr 2026 03:59:47 GMT",
-    "summary": "北京與伊斯蘭堡的官員提出了一項五點計劃，旨在促成停火，並重新開放至關重要的霍爾木茲海峽。此前中國官方反應一直較為低調，為何選擇在此時介入？",
+    "title": "美伊馬拉松和談失敗　特朗普下令「封鎖」霍爾木茲海峽",
+    "link": "https://www.bbc.com/zhongwen/articles/cjw81e6q10yo/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 12 Apr 2026 14:47:40 GMT",
+    "summary": "美國總統特朗普宣佈即時封鎖霍爾木茲海峽。數小時前，副總統萬斯從伊斯蘭堡的馬拉松和談無功而還。",
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍爾木茲",
-      "伊朗",
-      "海峽"
+      "美伊",
+      "海峽",
+      "霍爾木茲"
     ],
     "action_hits": [
-      "停火"
+      "封鎖"
     ]
   },
   {
@@ -165,9 +189,9 @@
     "entity_hits": [
       "霍尔木兹",
       "美伊",
-      "中东",
+      "海峡",
       "伊朗",
-      "海峡"
+      "中东"
     ],
     "action_hits": [
       "谈判"
@@ -182,9 +206,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
+      "油价",
       "德黑兰",
-      "油价"
+      "伊朗"
     ],
     "action_hits": [
       "油价"
@@ -199,8 +223,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
       "伊朗",
+      "霍尔木兹",
       "海峡"
     ],
     "action_hits": [
@@ -233,16 +257,16 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "israel",
-      "iran",
+      "lebanon",
       "beirut",
-      "lebanon"
+      "israel",
+      "iran"
     ],
     "action_hits": [
+      "attack",
       "ceasefire",
       "strike",
-      "killed",
-      "attack"
+      "killed"
     ]
   },
   {
@@ -254,9 +278,9 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
+      "lebanon",
       "israel",
-      "iran",
-      "lebanon"
+      "iran"
     ],
     "action_hits": [
       "ceasefire",
@@ -272,12 +296,12 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "israel",
-      "beirut"
+      "beirut",
+      "israel"
     ],
     "action_hits": [
-      "strike",
       "wounded",
+      "strike",
       "killed"
     ]
   },
@@ -290,9 +314,9 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
+      "lebanon",
       "israel",
-      "iran",
-      "lebanon"
+      "iran"
     ],
     "action_hits": [
       "ceasefire",
@@ -308,9 +332,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
+      "strait",
       "hormuz",
-      "strait"
+      "iran"
     ],
     "action_hits": [
       "ceasefire"
@@ -325,9 +349,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "qatar",
       "hamas",
-      "israel",
-      "qatar"
+      "israel"
     ],
     "action_hits": [
       "strike"
@@ -346,9 +370,9 @@
       "iran"
     ],
     "action_hits": [
+      "attack",
       "ceasefire",
-      "launch",
-      "attack"
+      "launch"
     ]
   },
   {
@@ -360,9 +384,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
+      "strait",
       "hormuz",
-      "strait"
+      "iran"
     ],
     "action_hits": [
       "ceasefire"
