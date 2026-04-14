@@ -8,37 +8,17 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
+      "以色列",
       "贝鲁特",
       "真主党",
       "伊朗",
-      "黎巴嫩",
-      "以色列"
+      "黎巴嫩"
     ],
     "action_hits": [
+      "停火",
       "打击",
       "轰炸",
-      "停火",
       "停火协议"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "分析：特朗普宣稱飛行員救援行動勝利，但美國在伊朗面臨的威脅揮之不去",
-    "link": "https://www.bbc.com/zhongwen/articles/cnv8rr9yprlo/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 06 Apr 2026 09:45:48 GMT",
-    "summary": "儘管任務最終成功，但過去數天發生的事件——包括兩架飛機被擊落、至少一架直升機遭到槍擊——凸顯出，即便美國與以色列已對伊朗軍事基礎設施展開數週的猛烈打擊，且總統聲稱德黑蘭「已無防空設備」，美軍飛機與人員仍面臨持續威脅。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "伊朗",
-      "德黑蘭",
-      "以色列",
-      "美軍"
-    ],
-    "action_hits": [
-      "打擊",
-      "防空",
-      "擊落"
     ]
   },
   {
@@ -50,17 +30,17 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "霍尔木兹",
       "油价",
       "海峡",
       "原油",
-      "伊朗",
-      "中东"
+      "霍尔木兹",
+      "中东",
+      "伊朗"
     ],
     "action_hits": [
-      "油价",
       "停火",
-      "原油"
+      "原油",
+      "油价"
     ]
   },
   {
@@ -72,15 +52,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "霍尔木兹",
       "海峡",
+      "以色列",
+      "霍尔木兹",
       "伊朗",
-      "黎巴嫩",
-      "以色列"
+      "黎巴嫩"
     ],
     "action_hits": [
-      "制裁",
       "停火",
+      "制裁",
       "谈判"
     ]
   },
@@ -94,14 +74,32 @@
     "relevance_score": 90,
     "entity_hits": [
       "伊朗",
-      "霍尔木兹",
+      "油轮",
       "海峡",
-      "油轮"
+      "霍尔木兹"
     ],
     "action_hits": [
-      "航运",
       "停火",
-      "油轮"
+      "油轮",
+      "航运"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "觀察：特朗普的霍爾木茲海峽封鎖威脅加劇風險，同時難解困境",
+    "link": "https://www.bbc.com/zhongwen/articles/c1w458wqd3go/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 13 Apr 2026 06:25:09 GMT",
+    "summary": "這場衝突如今已成為一場意志的較量：伊朗承受打擊的能力，對比特朗普承受戰爭代價的耐力。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "海峽",
+      "霍爾木茲",
+      "伊朗"
+    ],
+    "action_hits": [
+      "封鎖",
+      "打擊"
     ]
   },
   {
@@ -113,9 +111,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍尔木兹",
-      "美伊",
       "海峡",
+      "美伊",
+      "霍尔木兹",
       "伊朗",
       "美军"
     ],
@@ -134,9 +132,9 @@
     "relevance_score": 80,
     "entity_hits": [
       "伊朗",
-      "霍尔木兹",
+      "原油",
       "海峡",
-      "原油"
+      "霍尔木兹"
     ],
     "action_hits": [
       "天然气",
@@ -152,8 +150,8 @@
     "lang": "zh",
     "relevance_score": 77,
     "entity_hits": [
-      "伊朗",
-      "美伊"
+      "美伊",
+      "伊朗"
     ],
     "action_hits": [
       "停火",
@@ -170,8 +168,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美伊",
       "海峽",
+      "美伊",
       "霍爾木茲"
     ],
     "action_hits": [
@@ -187,11 +185,11 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
-      "美伊",
       "海峡",
-      "伊朗",
-      "中东"
+      "美伊",
+      "霍尔木兹",
+      "中东",
+      "伊朗"
     ],
     "action_hits": [
       "谈判"
@@ -224,8 +222,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "伊朗",
-      "霍尔木兹",
-      "海峡"
+      "海峡",
+      "霍尔木兹"
     ],
     "action_hits": [
       "航运"
@@ -240,9 +238,9 @@
     "lang": "zh",
     "relevance_score": 68,
     "entity_hits": [
-      "伊朗",
+      "原油",
       "沙特",
-      "原油"
+      "伊朗"
     ],
     "action_hits": [
       "原油"
@@ -250,21 +248,39 @@
   },
   {
     "source": "BBC中东",
-    "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
-    "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 08 Apr 2026 20:54:59 GMT",
-    "summary": "Attacks hit the southern suburbs of Beirut, southern Lebanon and the eastern Bekaa Valley, hours after a US-Iran ceasefire was announced.",
+    "title": "Israel steps up strikes on Lebanon and Hezbollah attacks continue as talks loom",
+    "link": "https://www.bbc.com/news/articles/czd78q6r8jno?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 13 Apr 2026 13:55:09 GMT",
+    "summary": "More than 160 people have been killed since Friday in Lebanon, where Israel is pressing on with its campaign against Hezbollah despite the US-Iran ceasefire.",
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "lebanon",
-      "beirut",
+      "hezbollah",
       "israel",
-      "iran"
+      "iran",
+      "lebanon"
     ],
     "action_hits": [
-      "attack",
       "ceasefire",
+      "strike",
+      "killed",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "BBC at the site of Israeli air strikes in Beirut",
+    "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 09 Apr 2026 07:45:26 GMT",
+    "summary": "At least 182 people were killed and 890 others wounded, according to the Lebanese health ministry.",
+    "lang": "en",
+    "relevance_score": 75,
+    "entity_hits": [
+      "israel",
+      "beirut"
+    ],
+    "action_hits": [
+      "wounded",
       "strike",
       "killed"
     ]
@@ -278,9 +294,9 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "lebanon",
       "israel",
-      "iran"
+      "iran",
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire",
@@ -289,72 +305,19 @@
   },
   {
     "source": "BBC中东",
-    "title": "BBC at the site of Israeli air strikes in Beirut",
-    "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 09 Apr 2026 07:45:26 GMT",
-    "summary": "At least 182 people were killed and 890 others wounded, according to the Lebanese health ministry.",
-    "lang": "en",
-    "relevance_score": 75,
-    "entity_hits": [
-      "beirut",
-      "israel"
-    ],
-    "action_hits": [
-      "wounded",
-      "strike",
-      "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
-    "link": "https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 09 Apr 2026 17:11:59 GMT",
-    "summary": "Iran's deputy foreign minister says the US must choose between 'war and ceasefire'.",
-    "lang": "en",
-    "relevance_score": 75,
-    "entity_hits": [
-      "lebanon",
-      "israel",
-      "iran"
-    ],
-    "action_hits": [
-      "ceasefire",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
     "title": "How many ships are crossing the Strait of Hormuz?",
     "link": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 10 Apr 2026 16:08:19 GMT",
-    "summary": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
+    "published": "Mon, 13 Apr 2026 16:37:57 GMT",
+    "summary": "The first vessel has crossed the Strait of Hormuz after the US imposed a military blockade of Iran's ports.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
       "strait",
-      "hormuz",
-      "iran"
+      "iran",
+      "hormuz"
     ],
     "action_hits": [
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
-    "link": "https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 09 Apr 2026 11:39:56 GMT",
-    "summary": "The Israeli military claims Mohammed Wishah was a \"Hamas terrorist\" - which the Qatar-based network has previously denied.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "qatar",
-      "hamas",
-      "israel"
-    ],
-    "action_hits": [
-      "strike"
+      "blockade"
     ]
   },
   {
@@ -370,26 +333,43 @@
       "iran"
     ],
     "action_hits": [
-      "attack",
       "ceasefire",
-      "launch"
+      "launch",
+      "attack"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Is conditional ceasefire a victory for US or Iran?",
-    "link": "https://www.bbc.com/news/videos/crm1x927gpno?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 08 Apr 2026 16:35:07 GMT",
-    "summary": "BBC correspondent Frank Gardner explains the current situation as both sides claim victory - Iran says it will reopen the Strait of Hormuz and that its \"victory in the field would also be consolidated",
+    "title": "Iranians form human chains at bridges and power plants",
+    "link": "https://www.bbc.com/news/videos/c4g5j33p6vno?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 07 Apr 2026 19:36:03 GMT",
+    "summary": "Tehran had urged people to gather outside potential US and Israeli targets after Donald Trump threatened to attack civilian infrastructure.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
-      "hormuz",
-      "iran"
+      "israel",
+      "iran",
+      "tehran"
     ],
     "action_hits": [
-      "ceasefire"
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "BBC joins paramedics on duty in Lebanon after Israeli strikes",
+    "link": "https://www.bbc.com/news/videos/cwyk8rz1pzyo?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 13 Apr 2026 21:29:23 GMT",
+    "summary": "BBC Middle East correspondent Hugo Bachega joins paramedics on duty in Nabatieh - a city that was once vibrant, but is now abandoned.",
+    "lang": "en",
+    "relevance_score": 68,
+    "entity_hits": [
+      "israel",
+      "lebanon",
+      "middle east"
+    ],
+    "action_hits": [
+      "strike"
     ]
   }
 ]
