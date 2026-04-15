@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 98.13999938964844,
-      "day_change_pct": -1.23,
-      "war_change_pct": 26.24,
+      "current": 95.04000091552734,
+      "day_change_pct": 0.26,
+      "war_change_pct": 22.25,
       "dates": [
-        "03/03",
         "03/04",
         "03/05",
         "03/06",
@@ -34,10 +33,10 @@
         "04/09",
         "04/10",
         "04/13",
-        "04/14"
+        "04/14",
+        "04/15"
       ],
       "prices": [
-        81.4,
         81.4,
         85.41,
         92.69,
@@ -66,16 +65,16 @@
         95.92,
         95.2,
         99.36,
-        98.14
+        94.79,
+        95.04
       ],
-      "updated": "2026-04-14T04:12:21.124580"
+      "updated": "2026-04-15T04:11:34.863648"
     },
     "wti": {
-      "current": 96.91999816894531,
-      "day_change_pct": -2.18,
-      "war_change_pct": 36.07,
+      "current": 90.94999694824219,
+      "day_change_pct": -0.36,
+      "war_change_pct": 27.68,
       "dates": [
-        "03/03",
         "03/04",
         "03/05",
         "03/06",
@@ -104,10 +103,10 @@
         "04/09",
         "04/10",
         "04/13",
-        "04/14"
+        "04/14",
+        "04/15"
       ],
       "prices": [
-        74.56,
         74.66,
         81.01,
         90.9,
@@ -136,16 +135,16 @@
         97.87,
         96.57,
         99.08,
-        96.92
+        91.28,
+        90.95
       ],
-      "updated": "2026-04-14T04:12:21.205279"
+      "updated": "2026-04-15T04:11:34.954569"
     },
     "gold": {
-      "current": 4790.89990234375,
-      "day_change_pct": 1.02,
-      "war_change_pct": -9.51,
+      "current": 4845.10009765625,
+      "day_change_pct": 0.42,
+      "war_change_pct": -8.49,
       "dates": [
-        "03/03",
         "03/04",
         "03/05",
         "03/06",
@@ -174,10 +173,10 @@
         "04/09",
         "04/10",
         "04/13",
-        "04/14"
+        "04/14",
+        "04/15"
       ],
       "prices": [
-        5107.4,
         5120.2,
         5065.3,
         5146.1,
@@ -206,16 +205,16 @@
         4792.2,
         4761.9,
         4742.4,
-        4790.9
+        4825.0,
+        4845.1
       ],
-      "updated": "2026-04-14T04:12:21.279585"
+      "updated": "2026-04-15T04:11:35.043174"
     },
     "usd_cny": {
-      "current": 6.8165998458862305,
-      "day_change_pct": -0.16,
-      "war_change_pct": -0.6,
+      "current": 6.816299915313721,
+      "day_change_pct": -0.2,
+      "war_change_pct": -0.61,
       "dates": [
-        "03/04",
         "03/05",
         "03/06",
         "03/09",
@@ -244,10 +243,10 @@
         "04/09",
         "04/10",
         "04/13",
-        "04/14"
+        "04/14",
+        "04/15"
       ],
       "prices": [
-        6.9,
         6.9,
         6.9,
         6.9,
@@ -276,16 +275,16 @@
         6.83,
         6.83,
         6.83,
+        6.83,
         6.82
       ],
-      "updated": "2026-04-14T04:12:21.362164"
+      "updated": "2026-04-15T04:11:35.144860"
     },
     "nat_gas": {
-      "current": 2.6070001125335693,
-      "day_change_pct": -0.76,
-      "war_change_pct": -11.93,
+      "current": 2.5889999866485596,
+      "day_change_pct": -0.38,
+      "war_change_pct": -12.53,
       "dates": [
-        "03/03",
         "03/04",
         "03/05",
         "03/06",
@@ -314,10 +313,10 @@
         "04/09",
         "04/10",
         "04/13",
-        "04/14"
+        "04/14",
+        "04/15"
       ],
       "prices": [
-        3.05,
         2.92,
         3.0,
         3.19,
@@ -346,189 +345,189 @@
         2.67,
         2.65,
         2.63,
-        2.61
+        2.6,
+        2.59
       ],
-      "updated": "2026-04-14T04:12:21.436990"
+      "updated": "2026-04-15T04:11:35.235066"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 18.29,
-      "change_pct": 0.38,
-      "high": 18.44,
-      "low": 17.81,
-      "volume": 922742
+      "price": 18.74,
+      "change_pct": 1.13,
+      "high": 19.1,
+      "low": 17.95,
+      "volume": 986399
     },
     "600026": {
       "name": "中远海能",
-      "price": 22.68,
-      "change_pct": -1.09,
-      "high": 22.88,
-      "low": 22.3,
-      "volume": 473579
+      "price": 22.64,
+      "change_pct": -0.48,
+      "high": 23.02,
+      "low": 22.42,
+      "volume": 434836
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.59,
-      "change_pct": -0.86,
-      "high": 4.65,
-      "low": 4.52,
-      "volume": 1390847
+      "price": 4.55,
+      "change_pct": -0.66,
+      "high": 4.64,
+      "low": 4.48,
+      "volume": 1251924
     },
     "600938": {
       "name": "中国海油",
-      "price": 37.62,
-      "change_pct": -1.29,
-      "high": 38.0,
-      "low": 37.3,
-      "volume": 361600
+      "price": 36.81,
+      "change_pct": -2.36,
+      "high": 37.11,
+      "low": 36.28,
+      "volume": 481821
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.94,
-      "change_pct": -1.24,
-      "high": 11.99,
-      "low": 11.9,
-      "volume": 816689
+      "price": 11.77,
+      "change_pct": -1.34,
+      "high": 11.8,
+      "low": 11.64,
+      "volume": 1193597
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.78,
-      "change_pct": -0.86,
-      "high": 5.81,
-      "low": 5.76,
-      "volume": 841963
+      "price": 5.71,
+      "change_pct": -1.21,
+      "high": 5.77,
+      "low": 5.7,
+      "volume": 1133144
     },
     "603619": {
       "name": "中曼石油",
-      "price": 36.6,
-      "change_pct": -1.8,
-      "high": 36.68,
-      "low": 35.85,
-      "volume": 177031
+      "price": 34.86,
+      "change_pct": -3.38,
+      "high": 35.06,
+      "low": 34.08,
+      "volume": 210696
     },
     "600759": {
       "name": "洲际油气",
-      "price": 5.61,
-      "change_pct": -2.43,
-      "high": 5.72,
-      "low": 5.51,
-      "volume": 3148261
+      "price": 5.36,
+      "change_pct": -4.11,
+      "high": 5.52,
+      "low": 5.34,
+      "volume": 2248413
     },
     "601808": {
       "name": "中海油服",
-      "price": 15.68,
-      "change_pct": -2.12,
-      "high": 15.82,
-      "low": 15.6,
-      "volume": 149192
+      "price": 15.32,
+      "change_pct": -2.42,
+      "high": 15.48,
+      "low": 15.17,
+      "volume": 197117
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 111.3,
-      "change_pct": -0.38,
-      "high": 113.9,
-      "low": 110.01,
-      "volume": 124900
+      "price": 110.3,
+      "change_pct": -0.41,
+      "high": 113.89,
+      "low": 109.7,
+      "volume": 124389
     },
     "600803": {
       "name": "新奥股份",
-      "price": 20.91,
-      "change_pct": -0.48,
+      "price": 20.77,
+      "change_pct": -1.1,
       "high": 21.0,
-      "low": 20.82,
-      "volume": 47196
+      "low": 20.77,
+      "volume": 43667
     },
     "600256": {
       "name": "广汇能源",
-      "price": 6.59,
-      "change_pct": -2.8,
-      "high": 6.69,
-      "low": 6.55,
-      "volume": 1068339
+      "price": 6.37,
+      "change_pct": -3.34,
+      "high": 6.47,
+      "low": 6.32,
+      "volume": 1210305
     },
     "601919": {
       "name": "中远海控",
-      "price": 15.06,
-      "change_pct": -0.2,
-      "high": 15.16,
-      "low": 15.03,
-      "volume": 293702
+      "price": 15.19,
+      "change_pct": 0.26,
+      "high": 15.25,
+      "low": 15.14,
+      "volume": 335937
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 51.17,
-      "change_pct": -0.99,
-      "high": 51.47,
-      "low": 50.91,
-      "volume": 171200
+      "price": 50.94,
+      "change_pct": -0.88,
+      "high": 52.08,
+      "low": 50.78,
+      "volume": 138914
     },
     "600893": {
       "name": "航发动力",
-      "price": 51.99,
-      "change_pct": 1.11,
-      "high": 52.42,
-      "low": 51.45,
-      "volume": 175373
+      "price": 51.83,
+      "change_pct": 0.99,
+      "high": 52.36,
+      "low": 51.21,
+      "volume": 180779
     },
     "600150": {
       "name": "中国船舶",
-      "price": 32.9,
-      "change_pct": 0.73,
-      "high": 33.4,
-      "low": 32.71,
-      "volume": 333897
+      "price": 32.83,
+      "change_pct": -0.52,
+      "high": 33.2,
+      "low": 32.73,
+      "volume": 304396
     },
     "600547": {
       "name": "山东黄金",
-      "price": 39.41,
-      "change_pct": -0.23,
-      "high": 40.18,
-      "low": 39.36,
-      "volume": 200054
+      "price": 39.05,
+      "change_pct": -0.89,
+      "high": 40.28,
+      "low": 38.9,
+      "volume": 285454
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 44.24,
-      "change_pct": 0.14,
-      "high": 44.96,
-      "low": 43.99,
-      "volume": 201256
+      "price": 44.13,
+      "change_pct": 0.27,
+      "high": 45.2,
+      "low": 43.79,
+      "volume": 234275
     },
     "600489": {
       "name": "中金黄金",
-      "price": 26.95,
-      "change_pct": 0.04,
-      "high": 27.49,
-      "low": 26.9,
-      "volume": 308168
+      "price": 27.08,
+      "change_pct": 0.89,
+      "high": 27.66,
+      "low": 26.98,
+      "volume": 444546
     },
     "601088": {
       "name": "中国神华",
-      "price": 45.64,
-      "change_pct": -1.47,
-      "high": 46.22,
-      "low": 45.42,
-      "volume": 190916
+      "price": 45.63,
+      "change_pct": -0.07,
+      "high": 45.77,
+      "low": 45.0,
+      "volume": 167326
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": 0.32
+      "change_pct": 0.51
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": 1.13
-    },
-    "军工": {
       "change_pct": -0.34
     },
+    "军工": {
+      "change_pct": 0.04
+    },
     "黄金": {
-      "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "change_pct": -0.38
     }
   },
   "news": [
@@ -541,17 +540,17 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "以色列",
         "贝鲁特",
+        "以色列",
         "真主党",
-        "伊朗",
-        "黎巴嫩"
+        "黎巴嫩",
+        "伊朗"
       ],
       "action_hits": [
-        "停火",
         "打击",
+        "停火协议",
         "轰炸",
-        "停火协议"
+        "停火"
       ]
     },
     {
@@ -563,38 +562,17 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
+        "霍尔木兹",
         "油价",
-        "海峡",
         "原油",
-        "霍尔木兹",
-        "中东",
-        "伊朗"
-      ],
-      "action_hits": [
-        "停火",
-        "原油",
-        "油价"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "万斯赴伊斯兰堡与伊朗会谈 分歧巨大互不信任",
-      "link": "https://www.dw.com/zh/万斯赴伊斯兰堡与伊朗会谈-分歧巨大互不信任/a-76747534?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 11 Apr 2026 12:54:00 GMT",
-      "summary": "美国副总统万斯周六赴巴基斯坦与伊朗谈判。双方在解除制裁、霍尔木兹海峡控制权、驻军问题以及核计划等核心问题上分歧巨大立场对立。以色列在黎巴嫩的持续军事行动与停火范围争议也进一步加剧紧张局势。",
-      "lang": "zh",
-      "relevance_score": 90,
-      "entity_hits": [
-        "海峡",
-        "以色列",
-        "霍尔木兹",
         "伊朗",
-        "黎巴嫩"
+        "海峡",
+        "中东"
       ],
       "action_hits": [
-        "停火",
-        "制裁",
-        "谈判"
+        "油价",
+        "原油",
+        "停火"
       ]
     },
     {
@@ -606,15 +584,33 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "伊朗",
-        "油轮",
+        "霍尔木兹",
         "海峡",
-        "霍尔木兹"
+        "油轮",
+        "伊朗"
       ],
       "action_hits": [
-        "停火",
         "油轮",
-        "航运"
+        "航运",
+        "停火"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "到底有多少船隻正在冒險穿越霍爾木茲海峽？",
+      "link": "https://www.bbc.com/zhongwen/articles/ckgww2w3009o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 14 Apr 2026 05:52:26 GMT",
+      "summary": "BBC事實核查團隊追蹤到，自周六清晨伊朗與美國停火談判破裂以來，共有23艘船隻穿越霍爾木茲海峽。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "霍爾木茲",
+        "伊朗",
+        "海峽"
+      ],
+      "action_hits": [
+        "談判",
+        "停火"
       ]
     },
     {
@@ -626,33 +622,13 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峽",
         "霍爾木茲",
-        "伊朗"
-      ],
-      "action_hits": [
-        "封鎖",
-        "打擊"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "美伊谈判无果而终 美军宣布将封锁伊朗港口船只",
-      "link": "https://www.dw.com/zh/美伊谈判无果而终-美军宣布将封锁伊朗港口船只/a-76752963?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Mon, 13 Apr 2026 01:46:00 GMT",
-      "summary": "美国及伊朗在巴基斯坦的谈判失败，伊朗称，双边在在霍尔木兹海峡控制权、伊朗核计划方面分歧明显。此外，在特朗普宣称将封锁霍尔木兹海峡后，美军证实将在周一封锁“所有进出伊朗港口的海上交通”。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "海峡",
-        "美伊",
-        "霍尔木兹",
         "伊朗",
-        "美军"
+        "海峽"
       ],
       "action_hits": [
-        "封锁",
-        "谈判"
+        "打擊",
+        "封鎖"
       ]
     },
     {
@@ -664,10 +640,10 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "伊朗",
+        "霍尔木兹",
         "原油",
         "海峡",
-        "霍尔木兹"
+        "伊朗"
       ],
       "action_hits": [
         "天然气",
@@ -687,45 +663,9 @@
         "伊朗"
       ],
       "action_hits": [
-        "停火",
         "談判",
+        "停火",
         "停火協議"
-      ]
-    },
-    {
-      "source": "BBC中文",
-      "title": "美伊馬拉松和談失敗　特朗普下令「封鎖」霍爾木茲海峽",
-      "link": "https://www.bbc.com/zhongwen/articles/cjw81e6q10yo/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 12 Apr 2026 14:47:40 GMT",
-      "summary": "美國總統特朗普宣佈即時封鎖霍爾木茲海峽。數小時前，副總統萬斯從伊斯蘭堡的馬拉松和談無功而還。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "海峽",
-        "美伊",
-        "霍爾木茲"
-      ],
-      "action_hits": [
-        "封鎖"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "特朗普：“我们开始清理霍尔木兹海峡”",
-      "link": "https://www.dw.com/zh/特朗普：-我们开始清理霍尔木兹海峡/a-76748549?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 11 Apr 2026 14:59:00 GMT",
-      "summary": "美伊为结束中东战争而展开的谈判已于周六启动。与此同时，特朗普发帖表示，美国已开始\"清理\"霍尔木兹海峡，但承认伊朗水雷仍构成威胁。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "海峡",
-        "美伊",
-        "霍尔木兹",
-        "中东",
-        "伊朗"
-      ],
-      "action_hits": [
-        "谈判"
       ]
     },
     {
@@ -754,29 +694,12 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "伊朗",
+        "霍尔木兹",
         "海峡",
-        "霍尔木兹"
-      ],
-      "action_hits": [
-        "航运"
-      ]
-    },
-    {
-      "source": "FT中文网",
-      "title": "沙特对其原油收取创纪录溢价",
-      "link": "https://www.ftchinese.com/story/001109382",
-      "published": "Mon, 06 Apr 2026 16:00:00 GMT",
-      "summary": "在伊朗战争使全球能源供应紧张的背景下，沙特阿美5月将向亚洲客户收取每桶19.50美元的溢价，这一溢价在过去26年里从未超过每桶10美元。",
-      "lang": "zh",
-      "relevance_score": 68,
-      "entity_hits": [
-        "原油",
-        "沙特",
         "伊朗"
       ],
       "action_hits": [
-        "原油"
+        "航运"
       ]
     },
     {
@@ -790,32 +713,32 @@
       "entity_hits": [
         "hezbollah",
         "israel",
-        "iran",
-        "lebanon"
+        "lebanon",
+        "iran"
       ],
       "action_hits": [
-        "ceasefire",
+        "attack",
         "strike",
-        "killed",
-        "attack"
+        "ceasefire",
+        "killed"
       ]
     },
     {
       "source": "BBC中东",
-      "title": "BBC at the site of Israeli air strikes in Beirut",
-      "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 09 Apr 2026 07:45:26 GMT",
-      "summary": "At least 182 people were killed and 890 others wounded, according to the Lebanese health ministry.",
+      "title": "Israelis war-weary but most oppose Iran ceasefire, poll suggests",
+      "link": "https://www.bbc.com/news/articles/clyxgxyeqpgo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Apr 2026 19:20:08 GMT",
+      "summary": "The vast majority did not believe Hezbollah or Iran had been severely weakened by weeks of Israeli and US attacks, according to the poll.",
       "lang": "en",
-      "relevance_score": 75,
+      "relevance_score": 80,
       "entity_hits": [
+        "hezbollah",
         "israel",
-        "beirut"
+        "iran"
       ],
       "action_hits": [
-        "wounded",
-        "strike",
-        "killed"
+        "attack",
+        "ceasefire"
       ]
     },
     {
@@ -828,20 +751,20 @@
       "relevance_score": 75,
       "entity_hits": [
         "israel",
-        "iran",
-        "lebanon"
+        "lebanon",
+        "iran"
       ],
       "action_hits": [
-        "ceasefire",
-        "halt"
+        "halt",
+        "ceasefire"
       ]
     },
     {
       "source": "BBC中东",
       "title": "How many ships are crossing the Strait of Hormuz?",
       "link": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 13 Apr 2026 16:37:57 GMT",
-      "summary": "The first vessel has crossed the Strait of Hormuz after the US imposed a military blockade of Iran's ports.",
+      "published": "Tue, 14 Apr 2026 17:59:21 GMT",
+      "summary": "Four vessels with links to Iran have crossed the Strait of Hormuz despite the start of a US naval blockade, but two of those vessels appear to have reversed course.",
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
@@ -866,23 +789,23 @@
         "iran"
       ],
       "action_hits": [
-        "ceasefire",
+        "attack",
         "launch",
-        "attack"
+        "ceasefire"
       ]
     },
     {
       "source": "BBC中东",
-      "title": "Iranians form human chains at bridges and power plants",
-      "link": "https://www.bbc.com/news/videos/c4g5j33p6vno?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 07 Apr 2026 19:36:03 GMT",
-      "summary": "Tehran had urged people to gather outside potential US and Israeli targets after Donald Trump threatened to attack civilian infrastructure.",
+      "title": "Still in shock, Beirut tries to heal after deadly Israeli attacks",
+      "link": "https://www.bbc.com/news/videos/c0rx4ve0klyo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 11 Apr 2026 10:10:05 GMT",
+      "summary": "BBC Middle East Correspondent Hugo Bachega hears from people affected by this week's attacks.",
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "beirut",
         "israel",
-        "iran",
-        "tehran"
+        "middle east"
       ],
       "action_hits": [
         "attack"
@@ -890,7 +813,7 @@
     },
     {
       "source": "BBC中东",
-      "title": "BBC joins paramedics on duty in Lebanon after Israeli strikes",
+      "title": "'They are striking everywhere' - Paramedics in Lebanon speak to BBC after Israeli strikes",
       "link": "https://www.bbc.com/news/videos/cwyk8rz1pzyo?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 13 Apr 2026 21:29:23 GMT",
       "summary": "BBC Middle East correspondent Hugo Bachega joins paramedics on duty in Nabatieh - a city that was once vibrant, but is now abandoned.",
@@ -923,24 +846,24 @@
     },
     {
       "event_id": "2644957093f6",
-      "title": "Israel steps up strikes on Lebanon and Hezbollah attacks continue as talks loom",
+      "title": "Israelis war-weary but most oppose Iran ceasefire, poll suggests",
       "location": "伊朗",
       "first_seen_time": "2026-04-09T02:10:55+00:00",
-      "last_updated_time": "2026-04-13T13:55:09+00:00",
+      "last_updated_time": "2026-04-13T19:20:08+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 100,
-      "source_count": 4,
+      "source_count": 5,
       "source": "BBC中文",
       "link": "https://www.bbc.com/zhongwen/articles/cj0vee83q8go/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
       "event_id": "fe62b3df99c0",
-      "title": "国际航协：即便海峡重新开放 航油供应恢复仍需数月",
+      "title": "到底有多少船隻正在冒險穿越霍爾木茲海峽？",
       "location": "霍尔木兹海峡",
       "first_seen_time": "2026-04-12T09:00:00+00:00",
-      "last_updated_time": "2026-04-12T09:00:00+00:00",
+      "last_updated_time": "2026-04-14T05:52:26+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 90,
@@ -958,70 +881,56 @@
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 80,
-      "source_count": 5,
+      "source_count": 3,
       "source": "BBC中文",
       "link": "https://www.bbc.com/zhongwen/articles/c1w458wqd3go/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
-      "event_id": "1cc9c4beb8c2",
-      "title": "How many ships are crossing the Strait of Hormuz?",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-13T01:46:00+00:00",
-      "last_updated_time": "2026-04-13T16:37:57+00:00",
-      "current_status": "shipping_disrupted",
-      "trend": "improving",
-      "confidence": 80,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美伊谈判无果而终-美军宣布将封锁伊朗港口船只/a-76752963?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "500222a7b314",
-      "title": "BBC at the site of Israeli air strikes in Beirut",
-      "location": "黎巴嫩·贝鲁特",
-      "first_seen_time": "2026-04-09T07:45:26+00:00",
-      "last_updated_time": "2026-04-09T07:45:26+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 75,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/videos/cly9z7xp10wo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "f7ea0060bd23",
-      "title": "Iranians form human chains at bridges and power plants",
+      "title": "德语媒体：谁在坐收渔利？",
       "location": "伊朗·德黑兰",
       "first_seen_time": "2026-04-07T14:18:00+00:00",
-      "last_updated_time": "2026-04-07T19:36:03+00:00",
+      "last_updated_time": "2026-04-07T14:18:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 70,
-      "source_count": 2,
+      "source_count": 1,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/德语媒体：谁在坐收渔利？/a-76695225?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
-      "event_id": "76bbf27802ec",
-      "title": "沙特对其原油收取创纪录溢价",
-      "location": "伊朗",
-      "first_seen_time": "2026-04-06T16:00:00+00:00",
-      "last_updated_time": "2026-04-06T16:00:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "worsening",
-      "confidence": 68,
+      "event_id": "f944200a2526",
+      "title": "How many ships are crossing the Strait of Hormuz?",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-04-14T17:59:21+00:00",
+      "last_updated_time": "2026-04-14T17:59:21+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 70,
       "source_count": 1,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001109382",
-      "lang": "zh"
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
-      "event_id": "50de0b8c6c8a",
-      "title": "BBC joins paramedics on duty in Lebanon after Israeli strikes",
+      "event_id": "7c860bc81001",
+      "title": "Still in shock, Beirut tries to heal after deadly Israeli attacks",
+      "location": "黎巴嫩·贝鲁特",
+      "first_seen_time": "2026-04-11T10:10:05+00:00",
+      "last_updated_time": "2026-04-11T10:10:05+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/videos/c0rx4ve0klyo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "d9d979871bda",
+      "title": "'They are striking everywhere' - Paramedics in Lebanon speak to BBC after Israeli strikes",
       "location": "以色列",
       "first_seen_time": "2026-04-13T21:29:23+00:00",
       "last_updated_time": "2026-04-13T21:29:23+00:00",
@@ -1037,7 +946,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "3/16",
         "3/17",
         "3/18",
         "3/19",
@@ -1066,7 +974,8 @@
         "4/11",
         "4/12",
         "4/13",
-        "4/14"
+        "4/14",
+        "4/15"
       ],
       "transits": [
         0,
@@ -1156,25 +1065,25 @@
         21,
         69
       ],
-      "date_label": "4月14日"
+      "date_label": "4月15日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-04-14",
+      "hormuz_last_date": "2026-04-15",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 32,
+      "vlcc_stale_days": 33,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-04-14"
+      "routes_date": "2026-04-15"
     }
   },
   "meta": {
-    "report_date": "2026.04.14",
-    "report_date_cn": "2026年04月14日",
-    "war_day": 46,
+    "report_date": "2026.04.15",
+    "report_date_cn": "2026年04月15日",
+    "war_day": 47,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-14T12:13:35.464525+08:00",
-    "generated_at_cn": "2026-04-14 12:13:35 北京时间"
+    "generated_at": "2026-04-15T12:12:30.896400+08:00",
+    "generated_at_cn": "2026-04-15 12:12:30 北京时间"
   },
   "history": [
     {
@@ -1456,6 +1365,13 @@
       "wti": 96.91999816894531,
       "gold": 4790.89990234375,
       "usd_cny": 6.8165998458862305
+    },
+    {
+      "date": "2026-04-15",
+      "brent": 95.04000091552734,
+      "wti": 90.94999694824219,
+      "gold": 4845.10009765625,
+      "usd_cny": 6.816299915313721
     }
   ]
 }
