@@ -8,17 +8,36 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "贝鲁特",
       "以色列",
-      "真主党",
       "黎巴嫩",
+      "真主党",
+      "贝鲁特",
       "伊朗"
     ],
     "action_hits": [
       "打击",
-      "停火协议",
       "轰炸",
-      "停火"
+      "停火",
+      "停火协议"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "BBC記者從土耳其出發經陸路前往德黑蘭  脆弱停火協議下的伊朗現場采訪記",
+    "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 16 Apr 2026 03:53:57 GMT",
+    "summary": "BBC國際事務首席記者麗斯·杜塞特穿越伊朗西北部前往德黑蘭，一路觀察採訪戰爭帶來的影響和停戰談判的前景。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "土耳其",
+      "伊朗",
+      "德黑蘭"
+    ],
+    "action_hits": [
+      "談判",
+      "停火",
+      "停火協議"
     ]
   },
   {
@@ -30,17 +49,17 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "霍尔木兹",
       "油价",
-      "原油",
-      "伊朗",
       "海峡",
-      "中东"
+      "中东",
+      "霍尔木兹",
+      "原油",
+      "伊朗"
     ],
     "action_hits": [
       "油价",
-      "原油",
-      "停火"
+      "停火",
+      "原油"
     ]
   },
   {
@@ -52,15 +71,34 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "霍尔木兹",
       "海峡",
+      "伊朗",
       "油轮",
-      "伊朗"
+      "霍尔木兹"
     ],
     "action_hits": [
+      "停火",
       "油轮",
-      "航运",
-      "停火"
+      "航运"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "美國封鎖霍爾木茲首日：中國公司擁有的貨輪「富星號」穿越海峽後折返",
+    "link": "https://www.bbc.com/zhongwen/articles/cp8444l85yro/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 15 Apr 2026 08:10:22 GMT",
+    "summary": "美國正式封鎖所有進出伊朗港口的船隻。有貨船試圖突破封鎖，一度穿越霍爾木茲海峽，但最後被美軍攔截折返。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "霍爾木茲",
+      "海峽",
+      "伊朗",
+      "美軍"
+    ],
+    "action_hits": [
+      "封鎖",
+      "攔截"
     ]
   },
   {
@@ -73,8 +111,8 @@
     "relevance_score": 80,
     "entity_hits": [
       "霍爾木茲",
-      "伊朗",
-      "海峽"
+      "海峽",
+      "伊朗"
     ],
     "action_hits": [
       "談判",
@@ -82,40 +120,40 @@
     ]
   },
   {
-    "source": "BBC中文",
-    "title": "觀察：特朗普的霍爾木茲海峽封鎖威脅加劇風險，同時難解困境",
-    "link": "https://www.bbc.com/zhongwen/articles/c1w458wqd3go/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 13 Apr 2026 06:25:09 GMT",
-    "summary": "這場衝突如今已成為一場意志的較量：伊朗承受打擊的能力，對比特朗普承受戰爭代價的耐力。",
+    "source": "德国之声",
+    "title": "中国技术卷入中东战事？伊朗疑用中国“间谍卫星”",
+    "link": "https://www.dw.com/zh/中国技术卷入中东战事？伊朗疑用中国-间谍卫星/a-76788342?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 15 Apr 2026 09:56:00 GMT",
+    "summary": "根据《金融时报》最新曝光的文件显示，伊朗或在2024年底秘密获得一颗中国制造的卫星，并在近期冲突中用于监控美军基地。相关影像拍摄时间，恰逢无人机与导弹袭击前后。",
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍爾木茲",
+      "中东",
       "伊朗",
-      "海峽"
+      "美军"
     ],
     "action_hits": [
-      "打擊",
-      "封鎖"
+      "无人机",
+      "导弹"
     ]
   },
   {
     "source": "德国之声",
-    "title": "特朗普告诉欧洲“去自己取回原油\"",
-    "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 1 Apr 2026 13:43:00 GMT",
-    "summary": "美国总统特朗普称霍尔木兹海峡是否重新通航与美国无关，“我们没有理由插手此事”。伊朗战争爆发以来，欧洲天然气价格已上升了70%，原油上升近30%。",
+    "title": "美國封鎖霍爾木茲海峽 逼中國坐上談判桌？",
+    "link": "https://www.dw.com/zh/美國封鎖霍爾木茲海峽-逼中國坐上談判桌？/a-76785198?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 15 Apr 2026 06:31:00 GMT",
+    "summary": "美國財長貝森特週二譴責中國在中美伊戰爭期間大規模囤積石油、限制出口，稱北京為「不可靠夥伴」。隨著霍爾木茲海峽被封鎖，美方此舉也被視為施壓北京對德黑蘭發揮影響力，讓川普政府能在這場衝突「體面退場」。",
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍尔木兹",
-      "原油",
-      "海峡",
-      "伊朗"
+      "霍爾木茲",
+      "海峽",
+      "德黑蘭",
+      "美伊"
     ],
     "action_hits": [
-      "天然气",
-      "原油"
+      "談判",
+      "封鎖"
     ]
   },
   {
@@ -146,8 +184,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "油价",
-      "德黑兰",
-      "伊朗"
+      "伊朗",
+      "德黑兰"
     ],
     "action_hits": [
       "油价"
@@ -162,9 +200,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
       "海峡",
-      "伊朗"
+      "伊朗",
+      "霍尔木兹"
     ],
     "action_hits": [
       "航运"
@@ -179,16 +217,35 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "hezbollah",
       "israel",
-      "lebanon",
-      "iran"
+      "hezbollah",
+      "iran",
+      "lebanon"
     ],
     "action_hits": [
-      "attack",
-      "strike",
       "ceasefire",
-      "killed"
+      "killed",
+      "strike",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel and Hezbollah continue attacks after Israel-Lebanon talks in US",
+    "link": "https://www.bbc.com/news/articles/c87ww2z0z3zo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 15 Apr 2026 14:15:50 GMT",
+    "summary": "Israel strikes hit southern Lebanon and Hezbollah fires rockets at Israel, a day after rare direct negotiations.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "israel",
+      "hezbollah",
+      "lebanon"
+    ],
+    "action_hits": [
+      "negotiat",
+      "strike",
+      "attack"
     ]
   },
   {
@@ -200,8 +257,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "israel",
+      "hezbollah",
       "iran"
     ],
     "action_hits": [
@@ -219,8 +276,8 @@
     "relevance_score": 75,
     "entity_hits": [
       "israel",
-      "lebanon",
-      "iran"
+      "iran",
+      "lebanon"
     ],
     "action_hits": [
       "halt",
@@ -231,52 +288,17 @@
     "source": "BBC中东",
     "title": "How many ships are crossing the Strait of Hormuz?",
     "link": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 14 Apr 2026 17:59:21 GMT",
-    "summary": "Four vessels with links to Iran have crossed the Strait of Hormuz despite the start of a US naval blockade, but two of those vessels appear to have reversed course.",
+    "published": "Wed, 15 Apr 2026 13:12:52 GMT",
+    "summary": "Since the start of the US blockade on Monday, 15 vessels have crossed the Strait of Hormuz, nine of which have links to Iran, BBC Verify analysis of ship-tracking data suggests.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
+      "hormuz",
       "iran",
-      "hormuz"
+      "strait"
     ],
     "action_hits": [
       "blockade"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "What we know about the two-week ceasefire between the US and Iran",
-    "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 08 Apr 2026 20:25:49 GMT",
-    "summary": "The provisional truce comes more than a month after the US and Israel launched coordinated attacks on Iran.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "israel",
-      "iran"
-    ],
-    "action_hits": [
-      "attack",
-      "launch",
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Still in shock, Beirut tries to heal after deadly Israeli attacks",
-    "link": "https://www.bbc.com/news/videos/c0rx4ve0klyo?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 11 Apr 2026 10:10:05 GMT",
-    "summary": "BBC Middle East Correspondent Hugo Bachega hears from people affected by this week's attacks.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "beirut",
-      "israel",
-      "middle east"
-    ],
-    "action_hits": [
-      "attack"
     ]
   },
   {
@@ -289,11 +311,45 @@
     "relevance_score": 68,
     "entity_hits": [
       "israel",
-      "lebanon",
-      "middle east"
+      "middle east",
+      "lebanon"
     ],
     "action_hits": [
       "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "What does the blockade mean for oil prices?",
+    "link": "https://www.bbc.com/news/videos/c20ddq3y8n2o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 14 Apr 2026 16:43:48 GMT",
+    "summary": "The US has started a naval blockade of maritime traffic entering and leaving Iranian ports.",
+    "lang": "en",
+    "relevance_score": 63,
+    "entity_hits": [
+      "oil price",
+      "iran"
+    ],
+    "action_hits": [
+      "oil price",
+      "blockade"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel and Lebanon hold first direct talks since 1993",
+    "link": "https://www.bbc.com/news/articles/cp8ddydl18vo?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 14 Apr 2026 20:42:48 GMT",
+    "summary": "A US statement said the two sides had agreed to launch direct negotiations, at a time and place to be determined.",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "israel",
+      "lebanon"
+    ],
+    "action_hits": [
+      "launch",
+      "negotiat"
     ]
   }
 ]
