@@ -1,42 +1,20 @@
 [
   {
-    "source": "FT中文网",
-    "title": "以色列轰炸贝鲁特 不承认停火涵盖黎巴嫩",
-    "link": "https://www.ftchinese.com/story/001109403",
-    "published": "Wed, 08 Apr 2026 16:00:00 GMT",
-    "summary": "以色列军方称其打击了黎巴嫩全国100个与真主党有关的地点。内塔尼亚胡的办公室坚称美国、伊朗和以色列之间的停火协议并不涵盖黎巴嫩。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "以色列",
-      "黎巴嫩",
-      "真主党",
-      "贝鲁特",
-      "伊朗"
-    ],
-    "action_hits": [
-      "打击",
-      "轰炸",
-      "停火",
-      "停火协议"
-    ]
-  },
-  {
     "source": "BBC中文",
-    "title": "BBC記者從土耳其出發經陸路前往德黑蘭  脆弱停火協議下的伊朗現場采訪記",
+    "title": "BBC記者從土耳其經陸路前往德黑蘭  脆弱停火協議下的伊朗現場採訪記",
     "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
     "published": "Thu, 16 Apr 2026 03:53:57 GMT",
     "summary": "BBC國際事務首席記者麗斯·杜塞特穿越伊朗西北部前往德黑蘭，一路觀察採訪戰爭帶來的影響和停戰談判的前景。",
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "土耳其",
       "伊朗",
+      "土耳其",
       "德黑蘭"
     ],
     "action_hits": [
-      "談判",
       "停火",
+      "談判",
       "停火協議"
     ]
   },
@@ -49,37 +27,17 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "油价",
-      "海峡",
-      "中东",
-      "霍尔木兹",
-      "原油",
-      "伊朗"
-    ],
-    "action_hits": [
-      "油价",
-      "停火",
-      "原油"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "伊朗继续要求油轮支付通行费",
-    "link": "https://www.ftchinese.com/story/001109402",
-    "published": "Wed, 08 Apr 2026 16:00:00 GMT",
-    "summary": "尽管与美国达成两周停火，伊朗要求航运公司为通过霍尔木兹海峡的油轮支付通行费，并直接通过无线电警告海湾地区的船舶，要求其提交申请。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
       "海峡",
       "伊朗",
-      "油轮",
+      "原油",
+      "中东",
+      "油价",
       "霍尔木兹"
     ],
     "action_hits": [
       "停火",
-      "油轮",
-      "航运"
+      "油价",
+      "原油"
     ]
   },
   {
@@ -91,14 +49,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍爾木茲",
-      "海峽",
       "伊朗",
-      "美軍"
+      "美軍",
+      "霍爾木茲",
+      "海峽"
     ],
     "action_hits": [
-      "封鎖",
-      "攔截"
+      "攔截",
+      "封鎖"
     ]
   },
   {
@@ -110,13 +68,13 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "伊朗",
       "霍爾木茲",
-      "海峽",
-      "伊朗"
+      "海峽"
     ],
     "action_hits": [
-      "談判",
-      "停火"
+      "停火",
+      "談判"
     ]
   },
   {
@@ -129,12 +87,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "中东",
-      "伊朗",
-      "美军"
+      "美军",
+      "伊朗"
     ],
     "action_hits": [
-      "无人机",
-      "导弹"
+      "导弹",
+      "无人机"
     ]
   },
   {
@@ -146,10 +104,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "美伊",
       "霍爾木茲",
       "海峽",
-      "德黑蘭",
-      "美伊"
+      "德黑蘭"
     ],
     "action_hits": [
       "談判",
@@ -157,21 +115,40 @@
     ]
   },
   {
-    "source": "BBC中文",
-    "title": "美伊停火台前幕後  14日談判的焦點將是什麼",
-    "link": "https://www.bbc.com/zhongwen/articles/cj0vee83q8go/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 09 Apr 2026 02:10:55 GMT",
-    "summary": "特朗普威脅若伊朗拒絕妥協，「一整個文明將在今夜死掉」後，巴基斯坦出面斡旋並達成停火協議。",
+    "source": "德国之声",
+    "title": "美伊谈判无果而终 美军宣布将封锁伊朗港口船只",
+    "link": "https://www.dw.com/zh/美伊谈判无果而终-美军宣布将封锁伊朗港口船只/a-76752963?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 13 Apr 2026 01:46:00 GMT",
+    "summary": "美国及伊朗在巴基斯坦的谈判失败，伊朗称，双边在在霍尔木兹海峡控制权、伊朗核计划方面分歧明显。此外，在特朗普宣称将封锁霍尔木兹海峡后，美军证实将在周一封锁“所有进出伊朗港口的海上交通”。",
     "lang": "zh",
-    "relevance_score": 77,
+    "relevance_score": 80,
     "entity_hits": [
+      "海峡",
+      "伊朗",
       "美伊",
-      "伊朗"
+      "霍尔木兹",
+      "美军"
     ],
     "action_hits": [
-      "談判",
-      "停火",
-      "停火協議"
+      "谈判",
+      "封锁"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "德语媒体：伊朗战争带给中国哪些好处？",
+    "link": "https://www.dw.com/zh/德语媒体：伊朗战争带给中国哪些好处？/a-76812646?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Thu, 16 Apr 2026 14:16:00 GMT",
+    "summary": "油价飙升令全球大多国家不堪重负之际，中国却几乎毫发无损，《商报》客座评论称，这足以证明中国共产党长期推行“多元化和自主化”战略的成功。《新苏黎世报》分析文章称，霍尔木兹危机为中俄加强合作扩大影响提供了新的契机。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "伊朗",
+      "霍尔木兹",
+      "油价"
+    ],
+    "action_hits": [
+      "油价"
     ]
   },
   {
@@ -183,50 +160,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "油价",
       "伊朗",
-      "德黑兰"
+      "德黑兰",
+      "油价"
     ],
     "action_hits": [
       "油价"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
-    "link": "https://www.dw.com/zh/伊朗战争以来-日本、法国商船首次通过霍尔木兹海峡/a-76660245?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 4 Apr 2026 10:42:00 GMT",
-    "summary": "航运数据显示，包括一艘法国籍船只、一艘日本籍船只在内的数艘船舶近日穿越了霍尔木兹海峡，成为一个多月以来通过该海峡的两百余艘船只之一。路透社报道指出，这反映了伊朗允许其认为友好国家的船只通行的政策。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "海峡",
-      "伊朗",
-      "霍尔木兹"
-    ],
-    "action_hits": [
-      "航运"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel steps up strikes on Lebanon and Hezbollah attacks continue as talks loom",
-    "link": "https://www.bbc.com/news/articles/czd78q6r8jno?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 13 Apr 2026 13:55:09 GMT",
-    "summary": "More than 160 people have been killed since Friday in Lebanon, where Israel is pressing on with its campaign against Hezbollah despite the US-Iran ceasefire.",
-    "lang": "en",
-    "relevance_score": 100,
-    "entity_hits": [
-      "israel",
-      "hezbollah",
-      "iran",
-      "lebanon"
-    ],
-    "action_hits": [
-      "ceasefire",
-      "killed",
-      "strike",
-      "attack"
     ]
   },
   {
@@ -238,8 +177,8 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "israel",
       "hezbollah",
+      "israel",
       "lebanon"
     ],
     "action_hits": [
@@ -257,13 +196,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "hezbollah",
+      "israel",
       "iran"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -316,23 +255,6 @@
     ],
     "action_hits": [
       "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "What does the blockade mean for oil prices?",
-    "link": "https://www.bbc.com/news/videos/c20ddq3y8n2o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 14 Apr 2026 16:43:48 GMT",
-    "summary": "The US has started a naval blockade of maritime traffic entering and leaving Iranian ports.",
-    "lang": "en",
-    "relevance_score": 63,
-    "entity_hits": [
-      "oil price",
-      "iran"
-    ],
-    "action_hits": [
-      "oil price",
-      "blockade"
     ]
   },
   {
