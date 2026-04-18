@@ -14,6 +14,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "8af4aa9cf12e",
+    "title": "What we know about the Israel-Lebanon ceasefire",
+    "location": "伊朗",
+    "first_seen_time": "2026-04-17T08:10:00+00:00",
+    "last_updated_time": "2026-04-17T14:56:15+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 90,
+    "source_count": 4,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美伊談判現轉機？川普稱伊朗同意交出核材料/a-76819529?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
     "event_id": "fe62b3df99c0",
     "title": "到底有多少船隻正在冒險穿越霍爾木茲海峽？",
     "location": "霍尔木兹海峡",
@@ -36,7 +50,7 @@
     "current_status": "active_conflict",
     "trend": "improving",
     "confidence": 90,
-    "source_count": 3,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/c87ww2z0z3zo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -56,20 +70,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "680c74431c25",
-    "title": "中国技术卷入中东战事？伊朗疑用中国“间谍卫星”",
-    "location": "伊朗",
-    "first_seen_time": "2026-04-15T09:56:00+00:00",
-    "last_updated_time": "2026-04-15T09:56:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/中国技术卷入中东战事？伊朗疑用中国-间谍卫星/a-76788342?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "4b83b51e3a8f",
     "title": "美國封鎖霍爾木茲海峽 逼中國坐上談判桌？",
     "location": "伊朗·德黑兰",
@@ -78,17 +78,17 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 1,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/美國封鎖霍爾木茲海峽-逼中國坐上談判桌？/a-76785198?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
     "event_id": "1cc9c4beb8c2",
-    "title": "How many ships are crossing the Strait of Hormuz?",
+    "title": "德语媒体：突如其来的双重打击",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-04-13T01:46:00+00:00",
-    "last_updated_time": "2026-04-15T13:12:52+00:00",
+    "last_updated_time": "2026-04-17T14:18:00+00:00",
     "current_status": "shipping_disrupted",
     "trend": "improving",
     "confidence": 80,
@@ -98,17 +98,45 @@
     "lang": "zh"
   },
   {
-    "event_id": "320a7b62aadf",
-    "title": "Israelis war-weary but most oppose Iran ceasefire, poll suggests",
-    "location": "伊朗",
-    "first_seen_time": "2026-04-13T19:20:08+00:00",
-    "last_updated_time": "2026-04-13T19:20:08+00:00",
+    "event_id": "07f2b7bd6c15",
+    "title": "伊朗同意全面开放霍尔木兹海峡",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-04-17T14:23:00+00:00",
+    "last_updated_time": "2026-04-17T14:23:00+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/伊朗同意全面开放霍尔木兹海峡/a-76835621?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "8c170a4ac3ed",
+    "title": "IEA 警告：欧洲航油储备“仅剩六周”",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-04-17T12:42:00+00:00",
+    "last_updated_time": "2026-04-17T12:42:00+00:00",
+    "current_status": "partially_restored",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/iea-警告：欧洲航油储备-仅剩六周/a-76830377?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "448a3cbc1a7a",
+    "title": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain",
+    "location": "以色列",
+    "first_seen_time": "2026-04-17T14:31:51+00:00",
+    "last_updated_time": "2026-04-17T14:31:51+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
-    "confidence": 80,
-    "source_count": 2,
+    "confidence": 60,
+    "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/clyxgxyeqpgo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]
