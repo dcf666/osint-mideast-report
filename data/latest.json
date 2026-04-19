@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 91.87000274658203,
-      "day_change_pct": -7.57,
-      "war_change_pct": 18.18,
+      "current": 90.37999725341797,
+      "day_change_pct": -9.07,
+      "war_change_pct": 16.26,
       "dates": [
         "03/06",
         "03/09",
@@ -66,14 +66,14 @@
         94.79,
         94.93,
         99.39,
-        91.87
+        90.38
       ],
-      "updated": "2026-04-18T03:50:37.059692"
+      "updated": "2026-04-19T04:17:20.746871"
     },
     "wti": {
-      "current": 84.0,
-      "day_change_pct": -11.29,
-      "war_change_pct": 17.93,
+      "current": 82.58999633789062,
+      "day_change_pct": -12.78,
+      "war_change_pct": 15.95,
       "dates": [
         "03/06",
         "03/09",
@@ -136,14 +136,14 @@
         91.28,
         91.29,
         94.69,
-        84.0
+        82.59
       ],
-      "updated": "2026-04-18T03:50:37.123078"
+      "updated": "2026-04-19T04:17:20.823919"
     },
     "gold": {
-      "current": 4849.39990234375,
-      "day_change_pct": 1.34,
-      "war_change_pct": -8.41,
+      "current": 4879.60009765625,
+      "day_change_pct": 1.97,
+      "war_change_pct": -7.83,
       "dates": [
         "03/06",
         "03/09",
@@ -206,9 +206,9 @@
         4825.0,
         4800.0,
         4785.4,
-        4849.4
+        4879.6
       ],
-      "updated": "2026-04-18T03:50:37.188529"
+      "updated": "2026-04-19T04:17:20.899504"
     },
     "usd_cny": {
       "current": 6.816400051116943,
@@ -278,12 +278,12 @@
         6.82,
         6.82
       ],
-      "updated": "2026-04-18T03:50:37.309546"
+      "updated": "2026-04-19T04:17:20.984417"
     },
     "nat_gas": {
-      "current": 2.674999952316284,
-      "day_change_pct": 1.06,
-      "war_change_pct": -9.63,
+      "current": 2.6740000247955322,
+      "day_change_pct": 1.02,
+      "war_change_pct": -9.66,
       "dates": [
         "03/06",
         "03/09",
@@ -348,7 +348,7 @@
         2.65,
         2.67
       ],
-      "updated": "2026-04-18T03:50:37.373999"
+      "updated": "2026-04-19T04:17:21.061042"
     }
   },
   "stocks": {
@@ -532,25 +532,6 @@
   },
   "news": [
     {
-      "source": "BBC中文",
-      "title": "BBC記者從土耳其經陸路前往德黑蘭  脆弱停火協議下的伊朗現場採訪記",
-      "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 16 Apr 2026 03:53:57 GMT",
-      "summary": "BBC國際事務首席記者麗斯·杜塞特穿越伊朗西北部前往德黑蘭，一路觀察採訪戰爭帶來的影響和停戰談判的前景。",
-      "lang": "zh",
-      "relevance_score": 90,
-      "entity_hits": [
-        "德黑蘭",
-        "伊朗",
-        "土耳其"
-      ],
-      "action_hits": [
-        "談判",
-        "停火協議",
-        "停火"
-      ]
-    },
-    {
       "source": "德国之声",
       "title": "美伊談判現轉機？川普稱伊朗同意交出核材料",
       "link": "https://www.dw.com/zh/美伊談判現轉機？川普稱伊朗同意交出核材料/a-76819529?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -559,16 +540,16 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
+        "真主黨",
         "黎巴嫩",
         "以色列",
-        "真主黨",
         "伊朗",
         "美伊"
       ],
       "action_hits": [
         "談判",
-        "停火協議",
-        "停火"
+        "停火",
+        "停火協議"
       ]
     },
     {
@@ -581,35 +562,35 @@
       "relevance_score": 90,
       "entity_hits": [
         "海峡",
+        "中东",
         "伊朗",
         "油价",
-        "中东",
-        "霍尔木兹",
-        "原油"
+        "原油",
+        "霍尔木兹"
       ],
       "action_hits": [
-        "原油",
         "油价",
+        "原油",
         "停火"
       ]
     },
     {
       "source": "BBC中文",
-      "title": "美國封鎖霍爾木茲首日：中國公司擁有的貨輪「富星號」穿越海峽後折返",
+      "title": "美國封鎖霍爾木茲首日：中國公司貨輪「富星號」穿越海峽後折返",
       "link": "https://www.bbc.com/zhongwen/articles/cp8444l85yro/trad?at_medium=RSS&at_campaign=rss",
       "published": "Wed, 15 Apr 2026 08:10:22 GMT",
       "summary": "美國正式封鎖所有進出伊朗港口的船隻。有貨船試圖突破封鎖，一度穿越霍爾木茲海峽，但最後被美軍攔截折返。",
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峽",
         "美軍",
         "霍爾木茲",
-        "伊朗"
+        "伊朗",
+        "海峽"
       ],
       "action_hits": [
-        "封鎖",
-        "攔截"
+        "攔截",
+        "封鎖"
       ]
     },
     {
@@ -621,9 +602,9 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峽",
         "霍爾木茲",
-        "伊朗"
+        "伊朗",
+        "海峽"
       ],
       "action_hits": [
         "談判",
@@ -639,50 +620,63 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峽",
-        "霍爾木茲",
         "德黑蘭",
-        "美伊"
+        "霍爾木茲",
+        "美伊",
+        "海峽"
+      ],
+      "action_hits": [
+        "封鎖",
+        "談判"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "BBC記者經陸路前往德黑蘭  脆弱停火協議下的伊朗現場採訪記",
+      "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 16 Apr 2026 03:53:57 GMT",
+      "summary": "BBC國際事務首席記者麗斯·杜塞特穿越伊朗西北部前往德黑蘭，一路觀察採訪戰爭帶來的影響和停戰談判的前景。",
+      "lang": "zh",
+      "relevance_score": 75,
+      "entity_hits": [
+        "伊朗",
+        "德黑蘭"
       ],
       "action_hits": [
         "談判",
+        "停火",
+        "停火協議"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "霍爾木茲海峽開了又關　輪船報告遭伊朗槍擊　英法介入採取「防禦行動」",
+      "link": "https://www.bbc.com/zhongwen/articles/ce3de9pyd4do/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 19 Apr 2026 04:02:26 GMT",
+      "summary": "伊朗短暫重開霍爾木茲海峽後再度宣佈封航，國會議長加利巴夫表示，除非美國解除對伊朗港口的封鎖，否則這條關鍵水道通行仍將受限。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "霍爾木茲",
+        "伊朗",
+        "海峽"
+      ],
+      "action_hits": [
         "封鎖"
       ]
     },
     {
       "source": "德国之声",
-      "title": "美伊谈判无果而终 美军宣布将封锁伊朗港口船只",
-      "link": "https://www.dw.com/zh/美伊谈判无果而终-美军宣布将封锁伊朗港口船只/a-76752963?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Mon, 13 Apr 2026 01:46:00 GMT",
-      "summary": "美国及伊朗在巴基斯坦的谈判失败，伊朗称，双边在在霍尔木兹海峡控制权、伊朗核计划方面分歧明显。此外，在特朗普宣称将封锁霍尔木兹海峡后，美军证实将在周一封锁“所有进出伊朗港口的海上交通”。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "海峡",
-        "伊朗",
-        "霍尔木兹",
-        "美军",
-        "美伊"
-      ],
-      "action_hits": [
-        "封锁",
-        "谈判"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "伊朗同意全面开放霍尔木兹海峡",
-      "link": "https://www.dw.com/zh/伊朗同意全面开放霍尔木兹海峡/a-76835621?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 17 Apr 2026 14:23:00 GMT",
-      "summary": "自今年2月底美以对伊朗发动袭击以来，全球海运的咽喉要道霍尔木兹海峡基本处于封锁状态。周五德黑兰发出开放的信号，但美国称对伊朗港口继续封锁。",
+      "title": "伊朗斥美屡次失信 霍尔木兹海峡开而复封",
+      "link": "https://www.dw.com/zh/伊朗斥美屡次失信-霍尔木兹海峡开而复封/a-76841508?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 18 Apr 2026 10:39:00 GMT",
+      "summary": "据伊朗媒体报道，该国军方表示，由于美国持续封锁伊朗港口，伊朗已撤回此前重新开放霍尔木兹海峡的决定。 海事追踪数据显示，至少八艘油气轮船在短暂的开放期间穿越霍尔木兹海峡。",
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "德黑兰",
         "海峡",
         "伊朗",
-        "霍尔木兹",
-        "美以"
+        "霍尔木兹"
       ],
       "action_hits": [
         "封锁"
@@ -697,10 +691,10 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "伊朗",
-        "霍尔木兹",
+        "原油",
         "海峡",
-        "原油"
+        "伊朗",
+        "霍尔木兹"
       ],
       "action_hits": [
         "原油"
@@ -715,12 +709,29 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "霍尔木兹",
+        "油价",
         "伊朗",
-        "油价"
+        "霍尔木兹"
       ],
       "action_hits": [
         "油价"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
+      "link": "https://www.dw.com/zh/伊朗战争以来-日本、法国商船首次通过霍尔木兹海峡/a-76660245?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 4 Apr 2026 10:42:00 GMT",
+      "summary": "航运数据显示，包括一艘法国籍船只、一艘日本籍船只在内的数艘船舶近日穿越了霍尔木兹海峡，成为一个多月以来通过该海峡的两百余艘船只之一。路透社报道指出，这反映了伊朗允许其认为友好国家的船只通行的政策。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "海峡",
+        "伊朗",
+        "霍尔木兹"
+      ],
+      "action_hits": [
+        "航运"
       ]
     },
     {
@@ -732,12 +743,31 @@
       "lang": "zh",
       "relevance_score": 66,
       "entity_hits": [
-        "霍尔木兹",
-        "海峡"
+        "海峡",
+        "霍尔木兹"
       ],
       "action_hits": [
-        "打击",
-        "封锁"
+        "封锁",
+        "打击"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Strait of Hormuz closed again, Iran says, as ships attacked",
+      "link": "https://www.bbc.com/news/articles/cx2631x6nelo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 18 Apr 2026 21:19:46 GMT",
+      "summary": "Iran is blaming a US blockade for the closure, saying it breaches the ceasefire reached between the two countries.",
+      "lang": "en",
+      "relevance_score": 90,
+      "entity_hits": [
+        "hormuz",
+        "strait",
+        "iran"
+      ],
+      "action_hits": [
+        "attack",
+        "ceasefire",
+        "blockade"
       ]
     },
     {
@@ -749,14 +779,32 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "hezbollah",
+        "israel",
         "lebanon",
-        "israel"
+        "hezbollah"
       ],
       "action_hits": [
         "attack",
-        "strike",
-        "negotiat"
+        "negotiat",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "French peacekeeper killed in southern Lebanon",
+      "link": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 19 Apr 2026 03:14:45 GMT",
+      "summary": "President Macron blames the attack on Hezbollah. The Iran-backed armed group denies \"any connection\" to the incident.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "iran",
+        "lebanon",
+        "hezbollah"
+      ],
+      "action_hits": [
+        "attack",
+        "killed"
       ]
     },
     {
@@ -768,10 +816,10 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hezbollah",
-        "lebanon",
+        "israel",
         "iran",
-        "israel"
+        "lebanon",
+        "hezbollah"
       ],
       "action_hits": [
         "ceasefire",
@@ -787,9 +835,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hezbollah",
+        "israel",
         "iran",
-        "israel"
+        "hezbollah"
       ],
       "action_hits": [
         "attack",
@@ -805,9 +853,9 @@
       "lang": "en",
       "relevance_score": 75,
       "entity_hits": [
-        "lebanon",
+        "israel",
         "iran",
-        "israel"
+        "lebanon"
       ],
       "action_hits": [
         "ceasefire",
@@ -816,19 +864,19 @@
     },
     {
       "source": "BBC中东",
-      "title": "'They are striking everywhere' - Paramedics in Lebanon speak to BBC after Israeli strikes",
-      "link": "https://www.bbc.com/news/videos/cwyk8rz1pzyo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 13 Apr 2026 21:29:23 GMT",
-      "summary": "BBC Middle East correspondent Hugo Bachega joins paramedics on duty in Nabatieh - a city that was once vibrant, but is now abandoned.",
+      "title": "BBC reports from Lebanese border town as residents try to return home",
+      "link": "https://www.bbc.com/news/videos/cly90z9g5q3o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 18 Apr 2026 11:47:11 GMT",
+      "summary": "BBC Arabic's correspondent Carine Torbey reports from the border town of Khiam, as the ceasefire between Israel and Hezbollah in southern Lebanon goes into its second day.",
       "lang": "en",
-      "relevance_score": 68,
+      "relevance_score": 70,
       "entity_hits": [
-        "middle east",
+        "israel",
         "lebanon",
-        "israel"
+        "hezbollah"
       ],
       "action_hits": [
-        "strike"
+        "ceasefire"
       ]
     },
     {
@@ -840,8 +888,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
         "ceasefire",
@@ -850,20 +898,6 @@
     }
   ],
   "event_states": [
-    {
-      "event_id": "8e438ba624bc",
-      "title": "BBC記者從土耳其經陸路前往德黑蘭  脆弱停火協議下的伊朗現場採訪記",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-04-16T03:53:57+00:00",
-      "last_updated_time": "2026-04-16T03:53:57+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 90,
-      "source_count": 1,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
-      "lang": "zh"
-    },
     {
       "event_id": "8af4aa9cf12e",
       "title": "What we know about the Israel-Lebanon ceasefire",
@@ -880,14 +914,14 @@
     },
     {
       "event_id": "fe62b3df99c0",
-      "title": "到底有多少船隻正在冒險穿越霍爾木茲海峽？",
+      "title": "Strait of Hormuz closed again, Iran says, as ships attacked",
       "location": "霍尔木兹海峡",
       "first_seen_time": "2026-04-12T09:00:00+00:00",
-      "last_updated_time": "2026-04-14T05:52:26+00:00",
+      "last_updated_time": "2026-04-18T21:19:46+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 90,
-      "source_count": 2,
+      "source_count": 3,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/国际航协：即便海峡重新开放-航油供应恢复仍需数月/a-76710208?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
@@ -901,21 +935,21 @@
       "current_status": "active_conflict",
       "trend": "improving",
       "confidence": 90,
-      "source_count": 2,
+      "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/c87ww2z0z3zo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
-      "event_id": "51f1d2a95e8e",
-      "title": "德语媒体：伊朗战争带给中国哪些好处？",
+      "event_id": "1c1565848ae3",
+      "title": "霍爾木茲海峽開了又關　輪船報告遭伊朗槍擊　英法介入採取「防禦行動」",
       "location": "霍尔木兹海峡",
       "first_seen_time": "2026-04-15T08:10:22+00:00",
-      "last_updated_time": "2026-04-16T14:16:00+00:00",
+      "last_updated_time": "2026-04-19T04:02:26+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 80,
-      "source_count": 2,
+      "source_count": 4,
       "source": "BBC中文",
       "link": "https://www.bbc.com/zhongwen/articles/cp8444l85yro/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
@@ -935,31 +969,45 @@
       "lang": "zh"
     },
     {
-      "event_id": "1cc9c4beb8c2",
-      "title": "德语媒体：突如其来的双重打击",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-13T01:46:00+00:00",
-      "last_updated_time": "2026-04-17T14:18:00+00:00",
-      "current_status": "shipping_disrupted",
-      "trend": "improving",
+      "event_id": "5813870f05b6",
+      "title": "French peacekeeper killed in southern Lebanon",
+      "location": "伊朗",
+      "first_seen_time": "2026-04-19T03:14:45+00:00",
+      "last_updated_time": "2026-04-19T03:14:45+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
       "confidence": 80,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美伊谈判无果而终-美军宣布将封锁伊朗港口船只/a-76752963?maca=chi-rss-chi-all-1127-xml-mrss",
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "47be269c3e54",
+      "title": "BBC記者經陸路前往德黑蘭  脆弱停火協議下的伊朗現場採訪記",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-04-16T03:53:57+00:00",
+      "last_updated_time": "2026-04-16T03:53:57+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 75,
+      "source_count": 1,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
-      "event_id": "07f2b7bd6c15",
-      "title": "伊朗同意全面开放霍尔木兹海峡",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-04-17T14:23:00+00:00",
-      "last_updated_time": "2026-04-17T14:23:00+00:00",
+      "event_id": "d3e1900407e3",
+      "title": "伊朗斥美屡次失信 霍尔木兹海峡开而复封",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-04-18T10:39:00+00:00",
+      "last_updated_time": "2026-04-18T10:39:00+00:00",
       "current_status": "shipping_disrupted",
       "trend": "stable",
       "confidence": 70,
-      "source_count": 1,
+      "source_count": 2,
       "source": "德国之声",
-      "link": "https://www.dw.com/zh/伊朗同意全面开放霍尔木兹海峡/a-76835621?maca=chi-rss-chi-all-1127-xml-mrss",
+      "link": "https://www.dw.com/zh/伊朗斥美屡次失信-霍尔木兹海峡开而复封/a-76841508?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -977,24 +1025,23 @@
       "lang": "zh"
     },
     {
-      "event_id": "448a3cbc1a7a",
-      "title": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain",
+      "event_id": "01791006d51d",
+      "title": "BBC reports from Lebanese border town as residents try to return home",
       "location": "以色列",
-      "first_seen_time": "2026-04-17T14:31:51+00:00",
-      "last_updated_time": "2026-04-17T14:31:51+00:00",
+      "first_seen_time": "2026-04-18T11:47:11+00:00",
+      "last_updated_time": "2026-04-18T11:47:11+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
-      "confidence": 60,
-      "source_count": 1,
+      "confidence": 70,
+      "source_count": 2,
       "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/news/videos/cly90z9g5q3o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "3/20",
         "3/21",
         "3/22",
         "3/23",
@@ -1023,7 +1070,8 @@
         "4/15",
         "4/16",
         "4/17",
-        "4/18"
+        "4/18",
+        "4/19"
       ],
       "transits": [
         0,
@@ -1113,25 +1161,25 @@
         21,
         69
       ],
-      "date_label": "4月18日"
+      "date_label": "4月19日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-04-18",
+      "hormuz_last_date": "2026-04-19",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 36,
+      "vlcc_stale_days": 37,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-04-18"
+      "routes_date": "2026-04-19"
     }
   },
   "meta": {
-    "report_date": "2026.04.18",
-    "report_date_cn": "2026年04月18日",
-    "war_day": 50,
+    "report_date": "2026.04.19",
+    "report_date_cn": "2026年04月19日",
+    "war_day": 51,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-18T11:51:34.186153+08:00",
-    "generated_at_cn": "2026-04-18 11:51:34 北京时间"
+    "generated_at": "2026-04-19T12:18:21.547927+08:00",
+    "generated_at_cn": "2026-04-19 12:18:21 北京时间"
   },
   "history": [
     {
@@ -1440,6 +1488,13 @@
       "brent": 91.87000274658203,
       "wti": 84.0,
       "gold": 4849.39990234375,
+      "usd_cny": 6.816400051116943
+    },
+    {
+      "date": "2026-04-19",
+      "brent": 90.37999725341797,
+      "wti": 82.58999633789062,
+      "gold": 4879.60009765625,
       "usd_cny": 6.816400051116943
     }
   ]

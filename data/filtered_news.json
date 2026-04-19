@@ -1,24 +1,5 @@
 [
   {
-    "source": "BBC中文",
-    "title": "BBC記者從土耳其經陸路前往德黑蘭  脆弱停火協議下的伊朗現場採訪記",
-    "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 16 Apr 2026 03:53:57 GMT",
-    "summary": "BBC國際事務首席記者麗斯·杜塞特穿越伊朗西北部前往德黑蘭，一路觀察採訪戰爭帶來的影響和停戰談判的前景。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "德黑蘭",
-      "伊朗",
-      "土耳其"
-    ],
-    "action_hits": [
-      "談判",
-      "停火協議",
-      "停火"
-    ]
-  },
-  {
     "source": "德国之声",
     "title": "美伊談判現轉機？川普稱伊朗同意交出核材料",
     "link": "https://www.dw.com/zh/美伊談判現轉機？川普稱伊朗同意交出核材料/a-76819529?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -27,16 +8,16 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
+      "真主黨",
       "黎巴嫩",
       "以色列",
-      "真主黨",
       "伊朗",
       "美伊"
     ],
     "action_hits": [
       "談判",
-      "停火協議",
-      "停火"
+      "停火",
+      "停火協議"
     ]
   },
   {
@@ -49,35 +30,35 @@
     "relevance_score": 90,
     "entity_hits": [
       "海峡",
+      "中东",
       "伊朗",
       "油价",
-      "中东",
-      "霍尔木兹",
-      "原油"
+      "原油",
+      "霍尔木兹"
     ],
     "action_hits": [
-      "原油",
       "油价",
+      "原油",
       "停火"
     ]
   },
   {
     "source": "BBC中文",
-    "title": "美國封鎖霍爾木茲首日：中國公司擁有的貨輪「富星號」穿越海峽後折返",
+    "title": "美國封鎖霍爾木茲首日：中國公司貨輪「富星號」穿越海峽後折返",
     "link": "https://www.bbc.com/zhongwen/articles/cp8444l85yro/trad?at_medium=RSS&at_campaign=rss",
     "published": "Wed, 15 Apr 2026 08:10:22 GMT",
     "summary": "美國正式封鎖所有進出伊朗港口的船隻。有貨船試圖突破封鎖，一度穿越霍爾木茲海峽，但最後被美軍攔截折返。",
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峽",
       "美軍",
       "霍爾木茲",
-      "伊朗"
+      "伊朗",
+      "海峽"
     ],
     "action_hits": [
-      "封鎖",
-      "攔截"
+      "攔截",
+      "封鎖"
     ]
   },
   {
@@ -89,9 +70,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峽",
       "霍爾木茲",
-      "伊朗"
+      "伊朗",
+      "海峽"
     ],
     "action_hits": [
       "談判",
@@ -107,50 +88,63 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峽",
-      "霍爾木茲",
       "德黑蘭",
-      "美伊"
+      "霍爾木茲",
+      "美伊",
+      "海峽"
+    ],
+    "action_hits": [
+      "封鎖",
+      "談判"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "BBC記者經陸路前往德黑蘭  脆弱停火協議下的伊朗現場採訪記",
+    "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 16 Apr 2026 03:53:57 GMT",
+    "summary": "BBC國際事務首席記者麗斯·杜塞特穿越伊朗西北部前往德黑蘭，一路觀察採訪戰爭帶來的影響和停戰談判的前景。",
+    "lang": "zh",
+    "relevance_score": 75,
+    "entity_hits": [
+      "伊朗",
+      "德黑蘭"
     ],
     "action_hits": [
       "談判",
+      "停火",
+      "停火協議"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "霍爾木茲海峽開了又關　輪船報告遭伊朗槍擊　英法介入採取「防禦行動」",
+    "link": "https://www.bbc.com/zhongwen/articles/ce3de9pyd4do/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 19 Apr 2026 04:02:26 GMT",
+    "summary": "伊朗短暫重開霍爾木茲海峽後再度宣佈封航，國會議長加利巴夫表示，除非美國解除對伊朗港口的封鎖，否則這條關鍵水道通行仍將受限。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "霍爾木茲",
+      "伊朗",
+      "海峽"
+    ],
+    "action_hits": [
       "封鎖"
     ]
   },
   {
     "source": "德国之声",
-    "title": "美伊谈判无果而终 美军宣布将封锁伊朗港口船只",
-    "link": "https://www.dw.com/zh/美伊谈判无果而终-美军宣布将封锁伊朗港口船只/a-76752963?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Mon, 13 Apr 2026 01:46:00 GMT",
-    "summary": "美国及伊朗在巴基斯坦的谈判失败，伊朗称，双边在在霍尔木兹海峡控制权、伊朗核计划方面分歧明显。此外，在特朗普宣称将封锁霍尔木兹海峡后，美军证实将在周一封锁“所有进出伊朗港口的海上交通”。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "海峡",
-      "伊朗",
-      "霍尔木兹",
-      "美军",
-      "美伊"
-    ],
-    "action_hits": [
-      "封锁",
-      "谈判"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "伊朗同意全面开放霍尔木兹海峡",
-    "link": "https://www.dw.com/zh/伊朗同意全面开放霍尔木兹海峡/a-76835621?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 17 Apr 2026 14:23:00 GMT",
-    "summary": "自今年2月底美以对伊朗发动袭击以来，全球海运的咽喉要道霍尔木兹海峡基本处于封锁状态。周五德黑兰发出开放的信号，但美国称对伊朗港口继续封锁。",
+    "title": "伊朗斥美屡次失信 霍尔木兹海峡开而复封",
+    "link": "https://www.dw.com/zh/伊朗斥美屡次失信-霍尔木兹海峡开而复封/a-76841508?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 18 Apr 2026 10:39:00 GMT",
+    "summary": "据伊朗媒体报道，该国军方表示，由于美国持续封锁伊朗港口，伊朗已撤回此前重新开放霍尔木兹海峡的决定。 海事追踪数据显示，至少八艘油气轮船在短暂的开放期间穿越霍尔木兹海峡。",
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "德黑兰",
       "海峡",
       "伊朗",
-      "霍尔木兹",
-      "美以"
+      "霍尔木兹"
     ],
     "action_hits": [
       "封锁"
@@ -165,10 +159,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
-      "霍尔木兹",
+      "原油",
       "海峡",
-      "原油"
+      "伊朗",
+      "霍尔木兹"
     ],
     "action_hits": [
       "原油"
@@ -183,12 +177,29 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
+      "油价",
       "伊朗",
-      "油价"
+      "霍尔木兹"
     ],
     "action_hits": [
       "油价"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
+    "link": "https://www.dw.com/zh/伊朗战争以来-日本、法国商船首次通过霍尔木兹海峡/a-76660245?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 4 Apr 2026 10:42:00 GMT",
+    "summary": "航运数据显示，包括一艘法国籍船只、一艘日本籍船只在内的数艘船舶近日穿越了霍尔木兹海峡，成为一个多月以来通过该海峡的两百余艘船只之一。路透社报道指出，这反映了伊朗允许其认为友好国家的船只通行的政策。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "海峡",
+      "伊朗",
+      "霍尔木兹"
+    ],
+    "action_hits": [
+      "航运"
     ]
   },
   {
@@ -200,12 +211,31 @@
     "lang": "zh",
     "relevance_score": 66,
     "entity_hits": [
-      "霍尔木兹",
-      "海峡"
+      "海峡",
+      "霍尔木兹"
     ],
     "action_hits": [
-      "打击",
-      "封锁"
+      "封锁",
+      "打击"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Strait of Hormuz closed again, Iran says, as ships attacked",
+    "link": "https://www.bbc.com/news/articles/cx2631x6nelo?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 18 Apr 2026 21:19:46 GMT",
+    "summary": "Iran is blaming a US blockade for the closure, saying it breaches the ceasefire reached between the two countries.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "hormuz",
+      "strait",
+      "iran"
+    ],
+    "action_hits": [
+      "attack",
+      "ceasefire",
+      "blockade"
     ]
   },
   {
@@ -217,14 +247,32 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hezbollah",
+      "israel",
       "lebanon",
-      "israel"
+      "hezbollah"
     ],
     "action_hits": [
       "attack",
-      "strike",
-      "negotiat"
+      "negotiat",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "French peacekeeper killed in southern Lebanon",
+    "link": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 19 Apr 2026 03:14:45 GMT",
+    "summary": "President Macron blames the attack on Hezbollah. The Iran-backed armed group denies \"any connection\" to the incident.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "iran",
+      "lebanon",
+      "hezbollah"
+    ],
+    "action_hits": [
+      "attack",
+      "killed"
     ]
   },
   {
@@ -236,10 +284,10 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
-      "lebanon",
+      "israel",
       "iran",
-      "israel"
+      "lebanon",
+      "hezbollah"
     ],
     "action_hits": [
       "ceasefire",
@@ -255,9 +303,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
+      "israel",
       "iran",
-      "israel"
+      "hezbollah"
     ],
     "action_hits": [
       "attack",
@@ -273,9 +321,9 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "lebanon",
+      "israel",
       "iran",
-      "israel"
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire",
@@ -284,19 +332,19 @@
   },
   {
     "source": "BBC中东",
-    "title": "'They are striking everywhere' - Paramedics in Lebanon speak to BBC after Israeli strikes",
-    "link": "https://www.bbc.com/news/videos/cwyk8rz1pzyo?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 13 Apr 2026 21:29:23 GMT",
-    "summary": "BBC Middle East correspondent Hugo Bachega joins paramedics on duty in Nabatieh - a city that was once vibrant, but is now abandoned.",
+    "title": "BBC reports from Lebanese border town as residents try to return home",
+    "link": "https://www.bbc.com/news/videos/cly90z9g5q3o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 18 Apr 2026 11:47:11 GMT",
+    "summary": "BBC Arabic's correspondent Carine Torbey reports from the border town of Khiam, as the ceasefire between Israel and Hezbollah in southern Lebanon goes into its second day.",
     "lang": "en",
-    "relevance_score": 68,
+    "relevance_score": 70,
     "entity_hits": [
-      "middle east",
+      "israel",
       "lebanon",
-      "israel"
+      "hezbollah"
     ],
     "action_hits": [
-      "strike"
+      "ceasefire"
     ]
   },
   {
@@ -308,8 +356,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire",
