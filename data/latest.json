@@ -68,12 +68,12 @@
         99.39,
         90.38
       ],
-      "updated": "2026-04-19T04:17:20.746871"
+      "updated": "2026-04-20T04:23:15.314411"
     },
     "wti": {
-      "current": 82.58999633789062,
-      "day_change_pct": -12.78,
-      "war_change_pct": 15.95,
+      "current": 83.8499984741211,
+      "day_change_pct": -11.45,
+      "war_change_pct": 17.72,
       "dates": [
         "03/06",
         "03/09",
@@ -136,14 +136,14 @@
         91.28,
         91.29,
         94.69,
-        82.59
+        83.85
       ],
-      "updated": "2026-04-19T04:17:20.823919"
+      "updated": "2026-04-20T04:23:15.374546"
     },
     "gold": {
-      "current": 4879.60009765625,
-      "day_change_pct": 1.97,
-      "war_change_pct": -7.83,
+      "current": 4857.60009765625,
+      "day_change_pct": 1.51,
+      "war_change_pct": -8.25,
       "dates": [
         "03/06",
         "03/09",
@@ -206,16 +206,15 @@
         4825.0,
         4800.0,
         4785.4,
-        4879.6
+        4857.6
       ],
-      "updated": "2026-04-19T04:17:20.899504"
+      "updated": "2026-04-20T04:23:15.438780"
     },
     "usd_cny": {
-      "current": 6.816400051116943,
-      "day_change_pct": -0.02,
-      "war_change_pct": -0.61,
+      "current": 6.818299770355225,
+      "day_change_pct": -0.04,
+      "war_change_pct": -0.58,
       "dates": [
-        "03/09",
         "03/10",
         "03/11",
         "03/12",
@@ -244,10 +243,10 @@
         "04/14",
         "04/15",
         "04/16",
-        "04/17"
+        "04/17",
+        "04/20"
       ],
       "prices": [
-        6.9,
         6.91,
         6.88,
         6.87,
@@ -276,9 +275,10 @@
         6.83,
         6.82,
         6.82,
+        6.82,
         6.82
       ],
-      "updated": "2026-04-19T04:17:20.984417"
+      "updated": "2026-04-20T04:23:15.505325"
     },
     "nat_gas": {
       "current": 2.6740000247955322,
@@ -348,189 +348,188 @@
         2.65,
         2.67
       ],
-      "updated": "2026-04-19T04:17:21.061042"
+      "updated": "2026-04-20T04:23:15.568463"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 18.55,
-      "change_pct": 2.6,
-      "high": 18.66,
-      "low": 17.8,
-      "volume": 1413364
+      "price": 18.7,
+      "change_pct": 0.81,
+      "high": 19.06,
+      "low": 18.13,
+      "volume": 929746
     },
     "600026": {
       "name": "中远海能",
-      "price": 21.95,
-      "change_pct": -0.18,
-      "high": 22.02,
-      "low": 21.2,
-      "volume": 865523
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600026&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.32,
-      "change_pct": -1.14,
-      "high": 4.37,
-      "low": 4.25,
-      "volume": 1899582
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600938": {
       "name": "中国海油",
-      "price": 37.34,
-      "change_pct": 1.03,
-      "high": 37.45,
-      "low": 36.76,
-      "volume": 407175
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600938&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.53,
-      "change_pct": -1.03,
-      "high": 11.7,
-      "low": 11.48,
-      "volume": 1329297
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601857&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.56,
-      "change_pct": -1.77,
-      "high": 5.67,
-      "low": 5.56,
-      "volume": 2154576
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600028&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "603619": {
       "name": "中曼石油",
-      "price": 33.55,
-      "change_pct": -2.75,
-      "high": 34.84,
-      "low": 33.25,
-      "volume": 232266
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.603619&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "600759": {
       "name": "洲际油气",
-      "price": 5.17,
-      "change_pct": -1.9,
-      "high": 5.29,
-      "low": 5.11,
-      "volume": 2467667
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601808": {
       "name": "中海油服",
-      "price": 15.25,
-      "change_pct": -0.59,
-      "high": 15.35,
-      "low": 15.11,
-      "volume": 162694
+      "price": 15.17,
+      "change_pct": -0.52,
+      "high": 15.28,
+      "low": 15.03,
+      "volume": 111611
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 121.18,
-      "change_pct": 4.2,
-      "high": 123.83,
-      "low": 114.88,
-      "volume": 280638
+      "price": 119.32,
+      "change_pct": -1.53,
+      "high": 121.0,
+      "low": 116.1,
+      "volume": 118695
     },
     "600803": {
       "name": "新奥股份",
       "price": 20.71,
-      "change_pct": -1.15,
-      "high": 21.07,
-      "low": 20.67,
-      "volume": 128222
+      "change_pct": null,
+      "high": 21.08,
+      "low": 20.7,
+      "volume": 63794
     },
     "600256": {
       "name": "广汇能源",
-      "price": 6.15,
-      "change_pct": -2.69,
-      "high": 6.35,
+      "price": 6.13,
+      "change_pct": -0.33,
+      "high": 6.23,
       "low": 6.1,
-      "volume": 1859386
+      "volume": 743046
     },
     "601919": {
       "name": "中远海控",
-      "price": 14.72,
-      "change_pct": -1.34,
-      "high": 14.91,
-      "low": 14.65,
-      "volume": 641120
+      "price": 14.64,
+      "change_pct": -0.54,
+      "high": 14.73,
+      "low": 14.62,
+      "volume": 341649
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 50.93,
-      "change_pct": 0.85,
-      "high": 51.4,
-      "low": 50.21,
-      "volume": 202925
+      "price": 50.86,
+      "change_pct": -0.14,
+      "high": 51.15,
+      "low": 50.49,
+      "volume": 139928
     },
     "600893": {
       "name": "航发动力",
-      "price": 49.77,
-      "change_pct": -1.7,
-      "high": 50.48,
-      "low": 49.28,
-      "volume": 244362
+      "price": 50.24,
+      "change_pct": 0.94,
+      "high": 50.79,
+      "low": 48.88,
+      "volume": 182776
     },
     "600150": {
       "name": "中国船舶",
-      "price": 33.03,
-      "change_pct": 0.95,
-      "high": 33.12,
-      "low": 32.24,
-      "volume": 635352
+      "price": 33.93,
+      "change_pct": 2.72,
+      "high": 34.34,
+      "low": 33.09,
+      "volume": 763248
     },
     "600547": {
       "name": "山东黄金",
-      "price": 38.44,
-      "change_pct": -2.06,
-      "high": 38.9,
-      "low": 38.3,
-      "volume": 447608
+      "price": 38.32,
+      "change_pct": -0.31,
+      "high": 39.14,
+      "low": 38.1,
+      "volume": 325289
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 43.42,
-      "change_pct": -1.54,
-      "high": 43.95,
-      "low": 43.15,
-      "volume": 322408
+      "price": 43.84,
+      "change_pct": 0.97,
+      "high": 44.62,
+      "low": 43.02,
+      "volume": 284965
     },
     "600489": {
       "name": "中金黄金",
-      "price": 26.9,
-      "change_pct": -0.63,
-      "high": 27.25,
-      "low": 26.6,
-      "volume": 462633
+      "price": 27.14,
+      "change_pct": 0.89,
+      "high": 27.64,
+      "low": 26.93,
+      "volume": 341473
     },
     "601088": {
       "name": "中国神华",
-      "price": 45.55,
-      "change_pct": 0.04,
-      "high": 45.69,
-      "low": 45.33,
-      "volume": 214783
+      "price": 45.35,
+      "change_pct": -0.44,
+      "high": 45.74,
+      "low": 45.24,
+      "volume": 121632
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.17
+      "change_pct": 0.82
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": 1.21
+      "change_pct": 1.11
     },
     "军工": {
-      "change_pct": -1.02
+      "change_pct": 0.7
     },
     "黄金": {
-      "change_pct": -0.32
+      "change_pct": 0.07
     }
   },
   "news": [
+    {
+      "source": "德国之声",
+      "title": "美伊停火倒計時 德黑蘭批美軍向伊朗商船開火",
+      "link": "https://www.dw.com/zh/美伊停火倒計時-德黑蘭批美軍向伊朗商船開火/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Mon, 20 Apr 2026 04:02:00 GMT",
+      "summary": "在美伊預計進行新一輪談判之際，美國宣布扣押一艘從中國開往伊朗的伊朗商船。此舉引發伊朗不滿，批評美國破壞停火協議，揚言將做出回應。隨著雙邊局勢再度升級，伊朗官媒週日稱，當前無意參加與美國的第二輪會談。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "伊朗",
+        "美軍",
+        "美伊",
+        "德黑蘭"
+      ],
+      "action_hits": [
+        "停火協議",
+        "停火",
+        "談判"
+      ]
+    },
     {
       "source": "德国之声",
       "title": "美伊談判現轉機？川普稱伊朗同意交出核材料",
@@ -540,57 +539,16 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "真主黨",
-        "黎巴嫩",
         "以色列",
         "伊朗",
-        "美伊"
+        "美伊",
+        "黎巴嫩",
+        "真主黨"
       ],
       "action_hits": [
-        "談判",
+        "停火協議",
         "停火",
-        "停火協議"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "国际航协：即便海峡重新开放 航油供应恢复仍需数月",
-      "link": "https://www.dw.com/zh/国际航协：即便海峡重新开放-航油供应恢复仍需数月/a-76710208?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sun, 12 Apr 2026 09:00:00 GMT",
-      "summary": "国际航空运输协会（IATA）总干事上周三表示，即便伊朗重新开放霍尔木兹海峡，考虑到中东地区炼油能力的受损情况，全球航空燃油供应的恢复仍需数月之久。尽管停火消息促使原油价格回落，但航油成本预计短期内仍将维持高位。",
-      "lang": "zh",
-      "relevance_score": 90,
-      "entity_hits": [
-        "海峡",
-        "中东",
-        "伊朗",
-        "油价",
-        "原油",
-        "霍尔木兹"
-      ],
-      "action_hits": [
-        "油价",
-        "原油",
-        "停火"
-      ]
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國封鎖霍爾木茲首日：中國公司貨輪「富星號」穿越海峽後折返",
-      "link": "https://www.bbc.com/zhongwen/articles/cp8444l85yro/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 15 Apr 2026 08:10:22 GMT",
-      "summary": "美國正式封鎖所有進出伊朗港口的船隻。有貨船試圖突破封鎖，一度穿越霍爾木茲海峽，但最後被美軍攔截折返。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "美軍",
-        "霍爾木茲",
-        "伊朗",
-        "海峽"
-      ],
-      "action_hits": [
-        "攔截",
-        "封鎖"
+        "談判"
       ]
     },
     {
@@ -602,13 +560,13 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "霍爾木茲",
         "伊朗",
+        "霍爾木茲",
         "海峽"
       ],
       "action_hits": [
-        "談判",
-        "停火"
+        "停火",
+        "談判"
       ]
     },
     {
@@ -620,14 +578,51 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
+        "美伊",
         "德黑蘭",
         "霍爾木茲",
-        "美伊",
         "海峽"
       ],
       "action_hits": [
         "封鎖",
         "談判"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "特朗普告诉欧洲“去自己取回原油\"",
+      "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 1 Apr 2026 13:43:00 GMT",
+      "summary": "美国总统特朗普称霍尔木兹海峡是否重新通航与美国无关，“我们没有理由插手此事”。伊朗战争爆发以来，欧洲天然气价格已上升了70%，原油上升近30%。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "原油",
+        "海峡",
+        "霍尔木兹",
+        "伊朗"
+      ],
+      "action_hits": [
+        "原油",
+        "天然气"
+      ]
+    },
+    {
+      "source": "FT中文网",
+      "title": "特朗普：美国将与伊朗举行新一轮谈判",
+      "link": "https://www.ftchinese.com/story/001109496",
+      "published": "Sun, 19 Apr 2026 16:00:00 GMT",
+      "summary": "美国总统同时威胁称，如果伊方拒绝达成和平协议，美国将重启轰炸行动。但他扬言要炸毁伊朗民用基础设施，令人担忧美军会犯下战争罪。",
+      "lang": "zh",
+      "relevance_score": 77,
+      "entity_hits": [
+        "伊朗",
+        "美军"
+      ],
+      "action_hits": [
+        "重启",
+        "轰炸",
+        "谈判"
       ]
     },
     {
@@ -643,22 +638,22 @@
         "德黑蘭"
       ],
       "action_hits": [
-        "談判",
+        "停火協議",
         "停火",
-        "停火協議"
+        "談判"
       ]
     },
     {
       "source": "BBC中文",
-      "title": "霍爾木茲海峽開了又關　輪船報告遭伊朗槍擊　英法介入採取「防禦行動」",
+      "title": "霍爾木茲海峽開了又關　輪船報告遭伊朗槍擊",
       "link": "https://www.bbc.com/zhongwen/articles/ce3de9pyd4do/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 19 Apr 2026 04:02:26 GMT",
+      "published": "Sun, 19 Apr 2026 10:54:04 GMT",
       "summary": "伊朗短暫重開霍爾木茲海峽後再度宣佈封航，國會議長加利巴夫表示，除非美國解除對伊朗港口的封鎖，否則這條關鍵水道通行仍將受限。",
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "霍爾木茲",
         "伊朗",
+        "霍爾木茲",
         "海峽"
       ],
       "action_hits": [
@@ -675,29 +670,11 @@
       "relevance_score": 70,
       "entity_hits": [
         "海峡",
-        "伊朗",
-        "霍尔木兹"
+        "霍尔木兹",
+        "伊朗"
       ],
       "action_hits": [
         "封锁"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "IEA 警告：欧洲航油储备“仅剩六周”",
-      "link": "https://www.dw.com/zh/iea-警告：欧洲航油储备-仅剩六周/a-76830377?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 17 Apr 2026 12:42:00 GMT",
-      "summary": "由于伊朗战争导致霍尔木兹海峡实质性关闭，一场迫在眉睫的航空燃油短缺正席卷欧洲。国际能源署（IEA）署长周四发出严厉警告，称欧洲目前的航油储备“仅够维持约六周”。如果原油供应无法在短期内恢复，全球旅游业将在未来数周内遭遇剧震，大规模航班取消或已近在咫尺。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "原油",
-        "海峡",
-        "伊朗",
-        "霍尔木兹"
-      ],
-      "action_hits": [
-        "原油"
       ]
     },
     {
@@ -709,29 +686,12 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "油价",
         "伊朗",
-        "霍尔木兹"
+        "霍尔木兹",
+        "油价"
       ],
       "action_hits": [
         "油价"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
-      "link": "https://www.dw.com/zh/伊朗战争以来-日本、法国商船首次通过霍尔木兹海峡/a-76660245?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 4 Apr 2026 10:42:00 GMT",
-      "summary": "航运数据显示，包括一艘法国籍船只、一艘日本籍船只在内的数艘船舶近日穿越了霍尔木兹海峡，成为一个多月以来通过该海峡的两百余艘船只之一。路透社报道指出，这反映了伊朗允许其认为友好国家的船只通行的政策。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "海峡",
-        "伊朗",
-        "霍尔木兹"
-      ],
-      "action_hits": [
-        "航运"
       ]
     },
     {
@@ -753,54 +713,16 @@
     },
     {
       "source": "BBC中东",
-      "title": "Strait of Hormuz closed again, Iran says, as ships attacked",
-      "link": "https://www.bbc.com/news/articles/cx2631x6nelo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 18 Apr 2026 21:19:46 GMT",
-      "summary": "Iran is blaming a US blockade for the closure, saying it breaches the ceasefire reached between the two countries.",
-      "lang": "en",
-      "relevance_score": 90,
-      "entity_hits": [
-        "hormuz",
-        "strait",
-        "iran"
-      ],
-      "action_hits": [
-        "attack",
-        "ceasefire",
-        "blockade"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Israel and Hezbollah continue attacks after Israel-Lebanon talks in US",
-      "link": "https://www.bbc.com/news/articles/c87ww2z0z3zo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 15 Apr 2026 14:15:50 GMT",
-      "summary": "Israel strikes hit southern Lebanon and Hezbollah fires rockets at Israel, a day after rare direct negotiations.",
-      "lang": "en",
-      "relevance_score": 90,
-      "entity_hits": [
-        "israel",
-        "lebanon",
-        "hezbollah"
-      ],
-      "action_hits": [
-        "attack",
-        "negotiat",
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
       "title": "French peacekeeper killed in southern Lebanon",
       "link": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 19 Apr 2026 03:14:45 GMT",
+      "published": "Sun, 19 Apr 2026 11:39:47 GMT",
       "summary": "President Macron blames the attack on Hezbollah. The Iran-backed armed group denies \"any connection\" to the incident.",
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
         "iran",
-        "lebanon",
-        "hezbollah"
+        "hezbollah",
+        "lebanon"
       ],
       "action_hits": [
         "attack",
@@ -816,10 +738,10 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "israel",
         "iran",
-        "lebanon",
-        "hezbollah"
+        "hezbollah",
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
         "ceasefire",
@@ -835,13 +757,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "israel",
         "iran",
-        "hezbollah"
+        "hezbollah",
+        "israel"
       ],
       "action_hits": [
-        "attack",
-        "ceasefire"
+        "ceasefire",
+        "attack"
       ]
     },
     {
@@ -853,8 +775,8 @@
       "lang": "en",
       "relevance_score": 75,
       "entity_hits": [
-        "israel",
         "iran",
+        "israel",
         "lebanon"
       ],
       "action_hits": [
@@ -871,12 +793,29 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "hezbollah",
         "israel",
-        "lebanon",
-        "hezbollah"
+        "lebanon"
       ],
       "action_hits": [
         "ceasefire"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
+      "link": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 20 Apr 2026 01:38:17 GMT",
+      "summary": "Tehran vows retaliation soon for what it calls an \"act of armed piracy\", which comes as the US prepares for a second round of talks.",
+      "lang": "en",
+      "relevance_score": 65,
+      "entity_hits": [
+        "iran",
+        "tehran"
+      ],
+      "action_hits": [
+        "retaliat",
+        "intercept"
       ]
     },
     {
@@ -899,6 +838,20 @@
   ],
   "event_states": [
     {
+      "event_id": "c332d753593a",
+      "title": "美伊停火倒計時 德黑蘭批美軍向伊朗商船開火",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-04-20T04:02:00+00:00",
+      "last_updated_time": "2026-04-20T04:02:00+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 90,
+      "source_count": 2,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美伊停火倒計時-德黑蘭批美軍向伊朗商船開火/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
+    {
       "event_id": "8af4aa9cf12e",
       "title": "What we know about the Israel-Lebanon ceasefire",
       "location": "伊朗",
@@ -913,87 +866,59 @@
       "lang": "zh"
     },
     {
-      "event_id": "fe62b3df99c0",
-      "title": "Strait of Hormuz closed again, Iran says, as ships attacked",
+      "event_id": "29f8ff635c6d",
+      "title": "到底有多少船隻正在冒險穿越霍爾木茲海峽？",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-12T09:00:00+00:00",
-      "last_updated_time": "2026-04-18T21:19:46+00:00",
+      "first_seen_time": "2026-04-14T05:52:26+00:00",
+      "last_updated_time": "2026-04-14T05:52:26+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
-      "confidence": 90,
-      "source_count": 3,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/国际航协：即便海峡重新开放-航油供应恢复仍需数月/a-76710208?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "488d96d3285c",
-      "title": "Israel and Hezbollah continue attacks after Israel-Lebanon talks in US",
-      "location": "以色列",
-      "first_seen_time": "2026-04-15T14:15:50+00:00",
-      "last_updated_time": "2026-04-15T14:15:50+00:00",
-      "current_status": "active_conflict",
-      "trend": "improving",
-      "confidence": 90,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/c87ww2z0z3zo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "1c1565848ae3",
-      "title": "霍爾木茲海峽開了又關　輪船報告遭伊朗槍擊　英法介入採取「防禦行動」",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-15T08:10:22+00:00",
-      "last_updated_time": "2026-04-19T04:02:26+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
       "confidence": 80,
-      "source_count": 4,
+      "source_count": 1,
       "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/cp8444l85yro/trad?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/zhongwen/articles/ckgww2w3009o/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
       "event_id": "4b83b51e3a8f",
-      "title": "美國封鎖霍爾木茲海峽 逼中國坐上談判桌？",
+      "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
       "location": "伊朗·德黑兰",
       "first_seen_time": "2026-04-15T06:31:00+00:00",
-      "last_updated_time": "2026-04-15T06:31:00+00:00",
+      "last_updated_time": "2026-04-20T01:38:17+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 80,
-      "source_count": 1,
+      "source_count": 2,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/美國封鎖霍爾木茲海峽-逼中國坐上談判桌？/a-76785198?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
-      "event_id": "5813870f05b6",
-      "title": "French peacekeeper killed in southern Lebanon",
-      "location": "伊朗",
-      "first_seen_time": "2026-04-19T03:14:45+00:00",
-      "last_updated_time": "2026-04-19T03:14:45+00:00",
+      "event_id": "21fab955edb9",
+      "title": "霍爾木茲海峽開了又關　輪船報告遭伊朗槍擊",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-04-01T13:43:00+00:00",
+      "last_updated_time": "2026-04-19T10:54:04+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 80,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
+      "source_count": 3,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
     },
     {
-      "event_id": "47be269c3e54",
-      "title": "BBC記者經陸路前往德黑蘭  脆弱停火協議下的伊朗現場採訪記",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-04-16T03:53:57+00:00",
-      "last_updated_time": "2026-04-16T03:53:57+00:00",
-      "current_status": "ceasefire",
+      "event_id": "3253a1efef31",
+      "title": "特朗普：美国将与伊朗举行新一轮谈判",
+      "location": "伊朗",
+      "first_seen_time": "2026-04-19T16:00:00+00:00",
+      "last_updated_time": "2026-04-19T16:00:00+00:00",
+      "current_status": "active_conflict",
       "trend": "improving",
-      "confidence": 75,
-      "source_count": 1,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
+      "confidence": 80,
+      "source_count": 2,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001109496",
       "lang": "zh"
     },
     {
@@ -1008,20 +933,6 @@
       "source_count": 2,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/伊朗斥美屡次失信-霍尔木兹海峡开而复封/a-76841508?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "8c170a4ac3ed",
-      "title": "IEA 警告：欧洲航油储备“仅剩六周”",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-17T12:42:00+00:00",
-      "last_updated_time": "2026-04-17T12:42:00+00:00",
-      "current_status": "partially_restored",
-      "trend": "improving",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/iea-警告：欧洲航油储备-仅剩六周/a-76830377?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -1042,7 +953,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "3/21",
         "3/22",
         "3/23",
         "3/24",
@@ -1071,7 +981,8 @@
         "4/16",
         "4/17",
         "4/18",
-        "4/19"
+        "4/19",
+        "4/20"
       ],
       "transits": [
         0,
@@ -1161,25 +1072,25 @@
         21,
         69
       ],
-      "date_label": "4月19日"
+      "date_label": "4月20日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-04-19",
+      "hormuz_last_date": "2026-04-20",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 37,
+      "vlcc_stale_days": 38,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-04-19"
+      "routes_date": "2026-04-20"
     }
   },
   "meta": {
-    "report_date": "2026.04.19",
-    "report_date_cn": "2026年04月19日",
-    "war_day": 51,
+    "report_date": "2026.04.20",
+    "report_date_cn": "2026年04月20日",
+    "war_day": 52,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-19T12:18:21.547927+08:00",
-    "generated_at_cn": "2026-04-19 12:18:21 北京时间"
+    "generated_at": "2026-04-20T12:25:11.371374+08:00",
+    "generated_at_cn": "2026-04-20 12:25:11 北京时间"
   },
   "history": [
     {
@@ -1496,6 +1407,13 @@
       "wti": 82.58999633789062,
       "gold": 4879.60009765625,
       "usd_cny": 6.816400051116943
+    },
+    {
+      "date": "2026-04-20",
+      "brent": 90.37999725341797,
+      "wti": 83.8499984741211,
+      "gold": 4857.60009765625,
+      "usd_cny": 6.818299770355225
     }
   ]
 }

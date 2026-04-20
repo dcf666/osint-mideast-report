@@ -1,6 +1,26 @@
 [
   {
     "source": "德国之声",
+    "title": "美伊停火倒計時 德黑蘭批美軍向伊朗商船開火",
+    "link": "https://www.dw.com/zh/美伊停火倒計時-德黑蘭批美軍向伊朗商船開火/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 20 Apr 2026 04:02:00 GMT",
+    "summary": "在美伊預計進行新一輪談判之際，美國宣布扣押一艘從中國開往伊朗的伊朗商船。此舉引發伊朗不滿，批評美國破壞停火協議，揚言將做出回應。隨著雙邊局勢再度升級，伊朗官媒週日稱，當前無意參加與美國的第二輪會談。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "伊朗",
+      "美軍",
+      "美伊",
+      "德黑蘭"
+    ],
+    "action_hits": [
+      "停火協議",
+      "停火",
+      "談判"
+    ]
+  },
+  {
+    "source": "德国之声",
     "title": "美伊談判現轉機？川普稱伊朗同意交出核材料",
     "link": "https://www.dw.com/zh/美伊談判現轉機？川普稱伊朗同意交出核材料/a-76819529?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Fri, 17 Apr 2026 08:10:00 GMT",
@@ -8,57 +28,16 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "真主黨",
-      "黎巴嫩",
       "以色列",
       "伊朗",
-      "美伊"
+      "美伊",
+      "黎巴嫩",
+      "真主黨"
     ],
     "action_hits": [
-      "談判",
+      "停火協議",
       "停火",
-      "停火協議"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "国际航协：即便海峡重新开放 航油供应恢复仍需数月",
-    "link": "https://www.dw.com/zh/国际航协：即便海峡重新开放-航油供应恢复仍需数月/a-76710208?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sun, 12 Apr 2026 09:00:00 GMT",
-    "summary": "国际航空运输协会（IATA）总干事上周三表示，即便伊朗重新开放霍尔木兹海峡，考虑到中东地区炼油能力的受损情况，全球航空燃油供应的恢复仍需数月之久。尽管停火消息促使原油价格回落，但航油成本预计短期内仍将维持高位。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "海峡",
-      "中东",
-      "伊朗",
-      "油价",
-      "原油",
-      "霍尔木兹"
-    ],
-    "action_hits": [
-      "油价",
-      "原油",
-      "停火"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "美國封鎖霍爾木茲首日：中國公司貨輪「富星號」穿越海峽後折返",
-    "link": "https://www.bbc.com/zhongwen/articles/cp8444l85yro/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 15 Apr 2026 08:10:22 GMT",
-    "summary": "美國正式封鎖所有進出伊朗港口的船隻。有貨船試圖突破封鎖，一度穿越霍爾木茲海峽，但最後被美軍攔截折返。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "美軍",
-      "霍爾木茲",
-      "伊朗",
-      "海峽"
-    ],
-    "action_hits": [
-      "攔截",
-      "封鎖"
+      "談判"
     ]
   },
   {
@@ -70,13 +49,13 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍爾木茲",
       "伊朗",
+      "霍爾木茲",
       "海峽"
     ],
     "action_hits": [
-      "談判",
-      "停火"
+      "停火",
+      "談判"
     ]
   },
   {
@@ -88,14 +67,51 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "美伊",
       "德黑蘭",
       "霍爾木茲",
-      "美伊",
       "海峽"
     ],
     "action_hits": [
       "封鎖",
       "談判"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "特朗普告诉欧洲“去自己取回原油\"",
+    "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 1 Apr 2026 13:43:00 GMT",
+    "summary": "美国总统特朗普称霍尔木兹海峡是否重新通航与美国无关，“我们没有理由插手此事”。伊朗战争爆发以来，欧洲天然气价格已上升了70%，原油上升近30%。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "原油",
+      "海峡",
+      "霍尔木兹",
+      "伊朗"
+    ],
+    "action_hits": [
+      "原油",
+      "天然气"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "特朗普：美国将与伊朗举行新一轮谈判",
+    "link": "https://www.ftchinese.com/story/001109496",
+    "published": "Sun, 19 Apr 2026 16:00:00 GMT",
+    "summary": "美国总统同时威胁称，如果伊方拒绝达成和平协议，美国将重启轰炸行动。但他扬言要炸毁伊朗民用基础设施，令人担忧美军会犯下战争罪。",
+    "lang": "zh",
+    "relevance_score": 77,
+    "entity_hits": [
+      "伊朗",
+      "美军"
+    ],
+    "action_hits": [
+      "重启",
+      "轰炸",
+      "谈判"
     ]
   },
   {
@@ -111,22 +127,22 @@
       "德黑蘭"
     ],
     "action_hits": [
-      "談判",
+      "停火協議",
       "停火",
-      "停火協議"
+      "談判"
     ]
   },
   {
     "source": "BBC中文",
-    "title": "霍爾木茲海峽開了又關　輪船報告遭伊朗槍擊　英法介入採取「防禦行動」",
+    "title": "霍爾木茲海峽開了又關　輪船報告遭伊朗槍擊",
     "link": "https://www.bbc.com/zhongwen/articles/ce3de9pyd4do/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 19 Apr 2026 04:02:26 GMT",
+    "published": "Sun, 19 Apr 2026 10:54:04 GMT",
     "summary": "伊朗短暫重開霍爾木茲海峽後再度宣佈封航，國會議長加利巴夫表示，除非美國解除對伊朗港口的封鎖，否則這條關鍵水道通行仍將受限。",
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍爾木茲",
       "伊朗",
+      "霍爾木茲",
       "海峽"
     ],
     "action_hits": [
@@ -143,29 +159,11 @@
     "relevance_score": 70,
     "entity_hits": [
       "海峡",
-      "伊朗",
-      "霍尔木兹"
+      "霍尔木兹",
+      "伊朗"
     ],
     "action_hits": [
       "封锁"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "IEA 警告：欧洲航油储备“仅剩六周”",
-    "link": "https://www.dw.com/zh/iea-警告：欧洲航油储备-仅剩六周/a-76830377?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 17 Apr 2026 12:42:00 GMT",
-    "summary": "由于伊朗战争导致霍尔木兹海峡实质性关闭，一场迫在眉睫的航空燃油短缺正席卷欧洲。国际能源署（IEA）署长周四发出严厉警告，称欧洲目前的航油储备“仅够维持约六周”。如果原油供应无法在短期内恢复，全球旅游业将在未来数周内遭遇剧震，大规模航班取消或已近在咫尺。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "原油",
-      "海峡",
-      "伊朗",
-      "霍尔木兹"
-    ],
-    "action_hits": [
-      "原油"
     ]
   },
   {
@@ -177,29 +175,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "油价",
       "伊朗",
-      "霍尔木兹"
+      "霍尔木兹",
+      "油价"
     ],
     "action_hits": [
       "油价"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "伊朗战争以来 日本、法国商船首次通过霍尔木兹海峡",
-    "link": "https://www.dw.com/zh/伊朗战争以来-日本、法国商船首次通过霍尔木兹海峡/a-76660245?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 4 Apr 2026 10:42:00 GMT",
-    "summary": "航运数据显示，包括一艘法国籍船只、一艘日本籍船只在内的数艘船舶近日穿越了霍尔木兹海峡，成为一个多月以来通过该海峡的两百余艘船只之一。路透社报道指出，这反映了伊朗允许其认为友好国家的船只通行的政策。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "海峡",
-      "伊朗",
-      "霍尔木兹"
-    ],
-    "action_hits": [
-      "航运"
     ]
   },
   {
@@ -221,54 +202,16 @@
   },
   {
     "source": "BBC中东",
-    "title": "Strait of Hormuz closed again, Iran says, as ships attacked",
-    "link": "https://www.bbc.com/news/articles/cx2631x6nelo?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 18 Apr 2026 21:19:46 GMT",
-    "summary": "Iran is blaming a US blockade for the closure, saying it breaches the ceasefire reached between the two countries.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "hormuz",
-      "strait",
-      "iran"
-    ],
-    "action_hits": [
-      "attack",
-      "ceasefire",
-      "blockade"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel and Hezbollah continue attacks after Israel-Lebanon talks in US",
-    "link": "https://www.bbc.com/news/articles/c87ww2z0z3zo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 15 Apr 2026 14:15:50 GMT",
-    "summary": "Israel strikes hit southern Lebanon and Hezbollah fires rockets at Israel, a day after rare direct negotiations.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "israel",
-      "lebanon",
-      "hezbollah"
-    ],
-    "action_hits": [
-      "attack",
-      "negotiat",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
     "title": "French peacekeeper killed in southern Lebanon",
     "link": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 19 Apr 2026 03:14:45 GMT",
+    "published": "Sun, 19 Apr 2026 11:39:47 GMT",
     "summary": "President Macron blames the attack on Hezbollah. The Iran-backed armed group denies \"any connection\" to the incident.",
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
       "iran",
-      "lebanon",
-      "hezbollah"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
       "attack",
@@ -284,10 +227,10 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "iran",
-      "lebanon",
-      "hezbollah"
+      "hezbollah",
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire",
@@ -303,13 +246,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "iran",
-      "hezbollah"
+      "hezbollah",
+      "israel"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -321,8 +264,8 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "israel",
       "iran",
+      "israel",
       "lebanon"
     ],
     "action_hits": [
@@ -339,12 +282,29 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "hezbollah",
       "israel",
-      "lebanon",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
+    "link": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 20 Apr 2026 01:38:17 GMT",
+    "summary": "Tehran vows retaliation soon for what it calls an \"act of armed piracy\", which comes as the US prepares for a second round of talks.",
+    "lang": "en",
+    "relevance_score": 65,
+    "entity_hits": [
+      "iran",
+      "tehran"
+    ],
+    "action_hits": [
+      "retaliat",
+      "intercept"
     ]
   },
   {
