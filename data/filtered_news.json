@@ -1,21 +1,21 @@
 [
   {
     "source": "德国之声",
-    "title": "美伊停火倒計時 德黑蘭批美軍向伊朗商船開火",
-    "link": "https://www.dw.com/zh/美伊停火倒計時-德黑蘭批美軍向伊朗商船開火/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
+    "title": "美军扣押從中國開往伊朗的商船 万斯赴巴基斯坦准备谈判",
+    "link": "https://www.dw.com/zh/美军扣押從中國開往伊朗的商船-万斯赴巴基斯坦准备谈判/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Mon, 20 Apr 2026 04:02:00 GMT",
-    "summary": "在美伊預計進行新一輪談判之際，美國宣布扣押一艘從中國開往伊朗的伊朗商船。此舉引發伊朗不滿，批評美國破壞停火協議，揚言將做出回應。隨著雙邊局勢再度升級，伊朗官媒週日稱，當前無意參加與美國的第二輪會談。",
+    "summary": "在美伊預計進行新一輪談判之際，美國宣布扣押一艘從中國開往伊朗的伊朗商船。此舉引發伊朗不滿，批評美國破壞停火協議。尽管伊朗官媒稱當前無意參加與美國的第二輪會談。但是特朗普周一表示，万斯已在前往伊斯兰堡的途中，准备继续与伊朗的谈判。",
     "lang": "zh",
-    "relevance_score": 90,
+    "relevance_score": 100,
     "entity_hits": [
-      "伊朗",
-      "美軍",
       "美伊",
-      "德黑蘭"
+      "美军",
+      "伊朗"
     ],
     "action_hits": [
       "停火協議",
       "停火",
+      "谈判",
       "談判"
     ]
   },
@@ -41,6 +41,25 @@
     ]
   },
   {
+    "source": "FT中文网",
+    "title": "特朗普：美国海军扣押违反封锁令的伊朗船只",
+    "link": "https://www.ftchinese.com/story/001109503",
+    "published": "Sun, 19 Apr 2026 16:00:00 GMT",
+    "summary": "美伊双方对于是否将在巴基斯坦启动新的和平谈判给出了互相矛盾的说法，油价大涨。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "油价",
+      "美伊",
+      "伊朗"
+    ],
+    "action_hits": [
+      "封锁",
+      "油价",
+      "谈判"
+    ]
+  },
+  {
     "source": "BBC中文",
     "title": "到底有多少船隻正在冒險穿越霍爾木茲海峽？",
     "link": "https://www.bbc.com/zhongwen/articles/ckgww2w3009o/trad?at_medium=RSS&at_campaign=rss",
@@ -49,9 +68,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
       "霍爾木茲",
-      "海峽"
+      "海峽",
+      "伊朗"
     ],
     "action_hits": [
       "停火",
@@ -67,33 +86,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美伊",
-      "德黑蘭",
       "霍爾木茲",
-      "海峽"
+      "海峽",
+      "美伊",
+      "德黑蘭"
     ],
     "action_hits": [
-      "封鎖",
-      "談判"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "特朗普告诉欧洲“去自己取回原油\"",
-    "link": "https://www.dw.com/zh/特朗普告诉欧洲-去自己取回原油/a-76626337?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 1 Apr 2026 13:43:00 GMT",
-    "summary": "美国总统特朗普称霍尔木兹海峡是否重新通航与美国无关，“我们没有理由插手此事”。伊朗战争爆发以来，欧洲天然气价格已上升了70%，原油上升近30%。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "原油",
-      "海峡",
-      "霍尔木兹",
-      "伊朗"
-    ],
-    "action_hits": [
-      "原油",
-      "天然气"
+      "談判",
+      "封鎖"
     ]
   },
   {
@@ -105,13 +105,13 @@
     "lang": "zh",
     "relevance_score": 77,
     "entity_hits": [
-      "伊朗",
-      "美军"
+      "美军",
+      "伊朗"
     ],
     "action_hits": [
-      "重启",
       "轰炸",
-      "谈判"
+      "谈判",
+      "重启"
     ]
   },
   {
@@ -123,8 +123,8 @@
     "lang": "zh",
     "relevance_score": 75,
     "entity_hits": [
-      "伊朗",
-      "德黑蘭"
+      "德黑蘭",
+      "伊朗"
     ],
     "action_hits": [
       "停火協議",
@@ -141,29 +141,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "霍爾木茲",
-      "海峽"
-    ],
-    "action_hits": [
-      "封鎖"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "伊朗斥美屡次失信 霍尔木兹海峡开而复封",
-    "link": "https://www.dw.com/zh/伊朗斥美屡次失信-霍尔木兹海峡开而复封/a-76841508?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 18 Apr 2026 10:39:00 GMT",
-    "summary": "据伊朗媒体报道，该国军方表示，由于美国持续封锁伊朗港口，伊朗已撤回此前重新开放霍尔木兹海峡的决定。 海事追踪数据显示，至少八艘油气轮船在短暂的开放期间穿越霍尔木兹海峡。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "海峡",
-      "霍尔木兹",
+      "海峽",
       "伊朗"
     ],
     "action_hits": [
-      "封锁"
+      "封鎖"
     ]
   },
   {
@@ -175,9 +158,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
+      "油价",
       "霍尔木兹",
-      "油价"
+      "伊朗"
     ],
     "action_hits": [
       "油价"
@@ -192,12 +175,12 @@
     "lang": "zh",
     "relevance_score": 66,
     "entity_hits": [
-      "海峡",
-      "霍尔木兹"
+      "霍尔木兹",
+      "海峡"
     ],
     "action_hits": [
-      "封锁",
-      "打击"
+      "打击",
+      "封锁"
     ]
   },
   {
@@ -229,8 +212,8 @@
     "entity_hits": [
       "iran",
       "hezbollah",
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "ceasefire",
@@ -265,12 +248,30 @@
     "relevance_score": 75,
     "entity_hits": [
       "iran",
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "ceasefire",
       "halt"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
+    "link": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 19 Apr 2026 21:09:06 GMT",
+    "summary": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "iran",
+      "tehran",
+      "strait",
+      "hormuz"
+    ],
+    "action_hits": [
+      "shipping"
     ]
   },
   {
@@ -282,29 +283,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
       "israel",
+      "hezbollah",
       "lebanon"
     ],
     "action_hits": [
       "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-    "link": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 20 Apr 2026 01:38:17 GMT",
-    "summary": "Tehran vows retaliation soon for what it calls an \"act of armed piracy\", which comes as the US prepares for a second round of talks.",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "iran",
-      "tehran"
-    ],
-    "action_hits": [
-      "retaliat",
-      "intercept"
     ]
   },
   {
