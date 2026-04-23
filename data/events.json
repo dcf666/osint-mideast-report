@@ -8,7 +8,7 @@
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 100,
-    "source_count": 6,
+    "source_count": 5,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/特朗普宣布延长停火-美伊下一轮究竟谈不谈？/a-76884827?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
@@ -28,17 +28,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "29f8ff635c6d",
-    "title": "到底有多少船隻正在冒險穿越霍爾木茲海峽？",
+    "event_id": "85bc0c1138c8",
+    "title": "美中能源较量：“使劲钻”vs.新能源",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-14T05:52:26+00:00",
-    "last_updated_time": "2026-04-14T05:52:26+00:00",
-    "current_status": "ceasefire",
+    "first_seen_time": "2026-04-22T10:04:00+00:00",
+    "last_updated_time": "2026-04-22T10:04:00+00:00",
+    "current_status": "partially_restored",
     "trend": "improving",
     "confidence": 80,
     "source_count": 1,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/ckgww2w3009o/trad?at_medium=RSS&at_campaign=rss",
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美中能源较量：-使劲钻-vs-新能源/a-76893447?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -71,14 +71,14 @@
   },
   {
     "event_id": "f0c89722e5ea",
-    "title": "德语媒体：伊朗战争带给中国哪些好处？",
+    "title": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-04-16T14:16:00+00:00",
-    "last_updated_time": "2026-04-16T14:16:00+00:00",
+    "last_updated_time": "2026-04-22T18:32:47+00:00",
     "current_status": "active_conflict",
     "trend": "worsening",
     "confidence": 70,
-    "source_count": 1,
+    "source_count": 2,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/德语媒体：伊朗战争带给中国哪些好处？/a-76812646?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
