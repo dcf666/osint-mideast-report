@@ -13,10 +13,10 @@
       "伊朗"
     ],
     "action_hits": [
-      "谈判",
-      "停火",
+      "停火协议",
       "打击",
-      "停火协议"
+      "停火",
+      "谈判"
     ]
   },
   {
@@ -28,15 +28,15 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美伊",
       "美军",
+      "美伊",
       "伊朗"
     ],
     "action_hits": [
-      "谈判",
-      "停火",
       "談判",
-      "停火協議"
+      "停火協議",
+      "停火",
+      "谈判"
     ]
   },
   {
@@ -48,16 +48,16 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "美伊",
       "真主黨",
       "黎巴嫩",
       "以色列",
+      "美伊",
       "伊朗"
     ],
     "action_hits": [
-      "停火",
       "談判",
-      "停火協議"
+      "停火協議",
+      "停火"
     ]
   },
   {
@@ -69,14 +69,14 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "美伊",
       "油价",
+      "美伊",
       "伊朗"
     ],
     "action_hits": [
       "封锁",
-      "谈判",
-      "油价"
+      "油价",
+      "谈判"
     ]
   },
   {
@@ -91,12 +91,12 @@
       "美以",
       "油价",
       "霍尔木兹",
-      "海峡",
-      "伊朗"
+      "伊朗",
+      "海峡"
     ],
     "action_hits": [
-      "打击",
-      "油价"
+      "油价",
+      "打击"
     ]
   },
   {
@@ -108,10 +108,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峽",
       "美伊",
-      "德黑蘭",
-      "霍爾木茲"
+      "海峽",
+      "霍爾木茲",
+      "德黑蘭"
     ],
     "action_hits": [
       "封鎖",
@@ -134,6 +134,42 @@
       "重启",
       "谈判",
       "轰炸"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "美伊霍爾木茲相互鎖喉中國「意外」受到關注，特朗普訪華會再度延期嗎？",
+    "link": "https://www.bbc.com/zhongwen/articles/c1l962v7y22o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 23 Apr 2026 09:32:12 GMT",
+    "summary": "被指與中國有關聯的船舶接連成為焦點，這些船隻或嘗試突破美方封鎖後折返，或被美軍扣押。學者向BBC中文分析海灣局勢將如何影響特朗普下月的訪華行程及中美關係發展。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "美伊",
+      "美軍",
+      "霍爾木茲"
+    ],
+    "action_hits": [
+      "封鎖"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "五角大樓：美國海軍部長約翰・費蘭即時離任",
+    "link": "https://www.bbc.com/zhongwen/articles/c30re8eq41po/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 23 Apr 2026 07:47:50 GMT",
+    "summary": "他是近月來又一個離開政府的高級軍事領導人，他的離任正值美國與以色列和伊朗的戰爭持續，以及美方持續封鎖霍爾木茲海峽之際。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "海峽",
+      "以色列",
+      "五角大樓",
+      "伊朗",
+      "霍爾木茲"
+    ],
+    "action_hits": [
+      "封鎖"
     ]
   },
   {
@@ -162,8 +198,8 @@
     "lang": "zh",
     "relevance_score": 66,
     "entity_hits": [
-      "霍尔木兹",
-      "海峡"
+      "海峡",
+      "霍尔木兹"
     ],
     "action_hits": [
       "封锁",
@@ -172,20 +208,77 @@
   },
   {
     "source": "BBC中东",
-    "title": "French peacekeeper killed in southern Lebanon",
-    "link": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 19 Apr 2026 11:39:47 GMT",
-    "summary": "President Macron blames the attack on Hezbollah. The Iran-backed armed group denies \"any connection\" to the incident.",
+    "title": "Lebanon accuses Israel of targeting journalist killed in air strike",
+    "link": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 23 Apr 2026 04:25:30 GMT",
+    "summary": "Lebanon's prime minister accused Israel of war crimes after IDF attacks on Red Cross vehicles also stopped rescuers from reaching the site.",
     "lang": "en",
-    "relevance_score": 80,
+    "relevance_score": 90,
     "entity_hits": [
+      "IDF",
+      "idf",
       "lebanon",
-      "iran",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
       "killed",
+      "strike",
       "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches",
+    "link": "https://www.bbc.com/news/articles/c3w3vqv0edpo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 23 Apr 2026 01:09:19 GMT",
+    "summary": "Iran's chief negotiator says \"violations\" by the US and Israel make it impossible to open the strait.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "iran",
+      "hormuz",
+      "israel",
+      "strait"
+    ],
+    "action_hits": [
+      "negotiat",
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
+    "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 22 Apr 2026 16:19:36 GMT",
+    "summary": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "iran",
+      "hormuz",
+      "strait"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "blockade"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Tracking ships under fire in the Strait of Hormuz",
+    "link": "https://www.bbc.com/news/videos/c1l93gg7zmno?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 22 Apr 2026 20:12:03 GMT",
+    "summary": "Iran's top negotiator says it's \"not possible to reopen\" the strait due to \"blatent violations\" of US-Iran ceasefire.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "iran",
+      "hormuz",
+      "strait"
+    ],
+    "action_hits": [
+      "negotiat",
+      "ceasefire"
     ]
   },
   {
@@ -202,8 +295,8 @@
       "israel"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -215,8 +308,8 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "lebanon",
       "iran",
+      "lebanon",
       "israel"
     ],
     "action_hits": [
@@ -234,63 +327,11 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "strait",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
       "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-    "link": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 19 Apr 2026 21:09:06 GMT",
-    "summary": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "iran",
-      "tehran",
-      "strait",
-      "hormuz"
-    ],
-    "action_hits": [
-      "shipping"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "BBC reports from Lebanese border town as residents try to return home",
-    "link": "https://www.bbc.com/news/videos/cly90z9g5q3o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 18 Apr 2026 11:47:11 GMT",
-    "summary": "BBC Arabic's correspondent Carine Torbey reports from the border town of Khiam, as the ceasefire between Israel and Hezbollah in southern Lebanon goes into its second day.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "lebanon",
-      "hezbollah",
-      "israel"
-    ],
-    "action_hits": [
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-    "link": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 20 Apr 2026 01:38:17 GMT",
-    "summary": "Tehran vows retaliation soon for what it calls an \"act of armed piracy\", which comes as the US prepares for a second round of talks.",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "iran",
-      "tehran"
-    ],
-    "action_hits": [
-      "retaliat",
-      "intercept"
     ]
   },
   {

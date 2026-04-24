@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 103.19999694824219,
-      "day_change_pct": 1.27,
-      "war_change_pct": 32.75,
+      "current": 106.05999755859375,
+      "day_change_pct": 0.94,
+      "war_change_pct": 36.43,
       "dates": [
-        "03/12",
         "03/13",
         "03/16",
         "03/17",
@@ -34,10 +33,10 @@
         "04/20",
         "04/21",
         "04/22",
-        "04/23"
+        "04/23",
+        "04/24"
       ],
       "prices": [
-        100.46,
         103.14,
         100.21,
         103.42,
@@ -66,86 +65,16 @@
         95.48,
         98.48,
         101.91,
-        103.2
+        105.07,
+        106.06
       ],
-      "updated": "2026-04-23T04:15:39.348530"
+      "updated": "2026-04-24T04:20:08.123094"
     },
     "wti": {
-      "current": 94.44999694824219,
-      "day_change_pct": 2.52,
-      "war_change_pct": 32.6,
+      "current": 96.56999969482422,
+      "day_change_pct": 0.75,
+      "war_change_pct": 35.57,
       "dates": [
-        "03/11",
-        "03/12",
-        "03/13",
-        "03/16",
-        "03/17",
-        "03/18",
-        "03/19",
-        "03/20",
-        "03/23",
-        "03/24",
-        "03/25",
-        "03/26",
-        "03/27",
-        "03/30",
-        "03/31",
-        "04/01",
-        "04/02",
-        "04/06",
-        "04/07",
-        "04/08",
-        "04/09",
-        "04/10",
-        "04/13",
-        "04/14",
-        "04/15",
-        "04/16",
-        "04/17",
-        "04/20",
-        "04/21",
-        "04/23"
-      ],
-      "prices": [
-        87.25,
-        95.73,
-        98.71,
-        93.5,
-        96.21,
-        96.32,
-        96.14,
-        98.32,
-        88.13,
-        92.35,
-        90.32,
-        94.48,
-        99.64,
-        102.88,
-        101.38,
-        100.12,
-        111.54,
-        112.41,
-        112.95,
-        94.41,
-        97.87,
-        96.57,
-        99.08,
-        91.28,
-        91.29,
-        94.69,
-        83.85,
-        89.61,
-        92.13,
-        94.45
-      ],
-      "updated": "2026-04-23T04:15:39.437321"
-    },
-    "gold": {
-      "current": 4718.2998046875,
-      "day_change_pct": -0.3,
-      "war_change_pct": -10.88,
-      "dates": [
-        "03/12",
         "03/13",
         "03/16",
         "03/17",
@@ -174,10 +103,80 @@
         "04/20",
         "04/21",
         "04/22",
-        "04/23"
+        "04/23",
+        "04/24"
       ],
       "prices": [
-        5115.8,
+        98.71,
+        93.5,
+        96.21,
+        96.32,
+        96.14,
+        98.32,
+        88.13,
+        92.35,
+        90.32,
+        94.48,
+        99.64,
+        102.88,
+        101.38,
+        100.12,
+        111.54,
+        112.41,
+        112.95,
+        94.41,
+        97.87,
+        96.57,
+        99.08,
+        91.28,
+        91.29,
+        94.69,
+        83.85,
+        89.61,
+        92.13,
+        92.96,
+        95.85,
+        96.57
+      ],
+      "updated": "2026-04-24T04:20:08.243644"
+    },
+    "gold": {
+      "current": 4689.2001953125,
+      "day_change_pct": -0.34,
+      "war_change_pct": -11.43,
+      "dates": [
+        "03/13",
+        "03/16",
+        "03/17",
+        "03/18",
+        "03/19",
+        "03/20",
+        "03/23",
+        "03/24",
+        "03/25",
+        "03/26",
+        "03/27",
+        "03/30",
+        "03/31",
+        "04/01",
+        "04/02",
+        "04/06",
+        "04/07",
+        "04/08",
+        "04/09",
+        "04/10",
+        "04/13",
+        "04/14",
+        "04/15",
+        "04/16",
+        "04/17",
+        "04/20",
+        "04/21",
+        "04/22",
+        "04/23",
+        "04/24"
+      ],
+      "prices": [
         5052.5,
         4994.0,
         5001.0,
@@ -206,16 +205,16 @@
         4806.6,
         4698.4,
         4732.5,
-        4718.3
+        4705.1,
+        4689.2
       ],
-      "updated": "2026-04-23T04:15:39.575970"
+      "updated": "2026-04-24T04:20:08.380988"
     },
     "usd_cny": {
-      "current": 6.831500053405762,
+      "current": 6.83519983291626,
       "day_change_pct": 0.16,
-      "war_change_pct": -0.38,
+      "war_change_pct": -0.33,
       "dates": [
-        "03/13",
         "03/16",
         "03/17",
         "03/18",
@@ -244,10 +243,10 @@
         "04/20",
         "04/21",
         "04/22",
-        "04/23"
+        "04/23",
+        "04/24"
       ],
       "prices": [
-        6.87,
         6.9,
         6.96,
         6.89,
@@ -276,16 +275,16 @@
         6.82,
         6.82,
         6.82,
-        6.83
+        6.82,
+        6.84
       ],
-      "updated": "2026-04-23T04:15:39.666852"
+      "updated": "2026-04-24T04:20:08.588383"
     },
     "nat_gas": {
-      "current": 2.7170000076293945,
-      "day_change_pct": -0.18,
-      "war_change_pct": -8.21,
+      "current": 2.7209999561309814,
+      "day_change_pct": 4.09,
+      "war_change_pct": -8.07,
       "dates": [
-        "03/12",
         "03/13",
         "03/16",
         "03/17",
@@ -314,10 +313,10 @@
         "04/20",
         "04/21",
         "04/22",
-        "04/23"
+        "04/23",
+        "04/24"
       ],
       "prices": [
-        3.23,
         3.13,
         3.02,
         3.03,
@@ -346,140 +345,183 @@
         2.69,
         2.7,
         2.72,
+        2.61,
         2.72
       ],
-      "updated": "2026-04-23T04:15:39.752611"
+      "updated": "2026-04-24T04:20:08.796537"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601872&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 17.13,
+      "change_pct": -2.23,
+      "high": 17.6,
+      "low": 16.93,
+      "volume": 764429
     },
     "600026": {
       "name": "中远海能",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601975": {
       "name": "招商南油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601975&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600938&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 38.05,
+      "change_pct": 0.03,
+      "high": 38.77,
+      "low": 38.0,
+      "volume": 378309
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601857&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 11.85,
+      "change_pct": 0.25,
+      "high": 12.01,
+      "low": 11.7,
+      "volume": 1155364
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600028&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 5.37,
+      "change_pct": -1.47,
+      "high": 5.44,
+      "low": 5.35,
+      "volume": 1639059
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.603619&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 33.35,
+      "change_pct": -0.12,
+      "high": 34.35,
+      "low": 33.0,
+      "volume": 172710
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600759&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 5.14,
+      "change_pct": -2.65,
+      "high": 5.42,
+      "low": 5.13,
+      "volume": 3068047
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601808&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 14.96,
+      "change_pct": -1.84,
+      "high": 15.35,
+      "low": 14.94,
+      "volume": 155495
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=0.002353&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 129.04,
+      "change_pct": -1.04,
+      "high": 131.8,
+      "low": 124.1,
+      "volume": 121630
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600803&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 21.13,
+      "change_pct": 0.76,
+      "high": 21.58,
+      "low": 20.83,
+      "volume": 84703
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600256&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 6.03,
+      "change_pct": -8.5,
+      "high": 6.23,
+      "low": 6.0,
+      "volume": 3183246
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.601919&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 14.37,
+      "change_pct": -0.55,
+      "high": 14.49,
+      "low": 14.32,
+      "volume": 439374
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600760&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 48.44,
+      "change_pct": -1.8,
+      "high": 49.35,
+      "low": 48.33,
+      "volume": 95327
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/get?secid=1.600893&fields=f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f170,f171 (Caused by NewConnectionError(\"HTTPSConnection(host='push2delay.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "price": 49.06,
+      "change_pct": -2.58,
+      "high": 50.65,
+      "low": 48.82,
+      "volume": 212638
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 38.84,
+      "change_pct": 0.62,
+      "high": 39.2,
+      "low": 38.01,
+      "volume": 1112871
     },
     "600547": {
       "name": "山东黄金",
-      "price": 35.91,
-      "change_pct": -3.6,
-      "high": 37.13,
-      "low": 35.87,
-      "volume": 447146
+      "price": 34.97,
+      "change_pct": -2.43,
+      "high": 35.75,
+      "low": 34.88,
+      "volume": 291775
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 40.76,
-      "change_pct": -5.69,
-      "high": 42.89,
-      "low": 40.3,
-      "volume": 393289
+      "price": 39.84,
+      "change_pct": -3.23,
+      "high": 41.16,
+      "low": 39.78,
+      "volume": 207403
     },
     "600489": {
       "name": "中金黄金",
-      "price": 25.83,
-      "change_pct": -5.04,
-      "high": 27.21,
-      "low": 25.8,
-      "volume": 475022
+      "price": 25.02,
+      "change_pct": -3.14,
+      "high": 25.8,
+      "low": 24.95,
+      "volume": 371342
     },
     "601088": {
       "name": "中国神华",
-      "price": 46.59,
-      "change_pct": 1.57,
-      "high": 46.68,
-      "low": 45.45,
-      "volume": 234150
+      "price": 46.96,
+      "change_pct": -0.04,
+      "high": 47.55,
+      "low": 46.66,
+      "volume": 190046
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": 0.95
+      "change_pct": -0.56
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": -3.72
+      "change_pct": -0.71
     },
     "军工": {
-      "change_pct": 1.75
+      "change_pct": -0.12
     },
     "黄金": {
-      "change_pct": -1.0
+      "change_pct": -1.03
     }
   },
   "news": [
@@ -497,10 +539,10 @@
         "伊朗"
       ],
       "action_hits": [
-        "谈判",
-        "停火",
+        "停火协议",
         "打击",
-        "停火协议"
+        "停火",
+        "谈判"
       ]
     },
     {
@@ -512,15 +554,15 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "美伊",
         "美军",
+        "美伊",
         "伊朗"
       ],
       "action_hits": [
-        "谈判",
-        "停火",
         "談判",
-        "停火協議"
+        "停火協議",
+        "停火",
+        "谈判"
       ]
     },
     {
@@ -532,16 +574,16 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "美伊",
         "真主黨",
         "黎巴嫩",
         "以色列",
+        "美伊",
         "伊朗"
       ],
       "action_hits": [
-        "停火",
         "談判",
-        "停火協議"
+        "停火協議",
+        "停火"
       ]
     },
     {
@@ -553,14 +595,14 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "美伊",
         "油价",
+        "美伊",
         "伊朗"
       ],
       "action_hits": [
         "封锁",
-        "谈判",
-        "油价"
+        "油价",
+        "谈判"
       ]
     },
     {
@@ -575,12 +617,12 @@
         "美以",
         "油价",
         "霍尔木兹",
-        "海峡",
-        "伊朗"
+        "伊朗",
+        "海峡"
       ],
       "action_hits": [
-        "打击",
-        "油价"
+        "油价",
+        "打击"
       ]
     },
     {
@@ -592,10 +634,10 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峽",
         "美伊",
-        "德黑蘭",
-        "霍爾木茲"
+        "海峽",
+        "霍爾木茲",
+        "德黑蘭"
       ],
       "action_hits": [
         "封鎖",
@@ -618,6 +660,42 @@
         "重启",
         "谈判",
         "轰炸"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "美伊霍爾木茲相互鎖喉中國「意外」受到關注，特朗普訪華會再度延期嗎？",
+      "link": "https://www.bbc.com/zhongwen/articles/c1l962v7y22o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 23 Apr 2026 09:32:12 GMT",
+      "summary": "被指與中國有關聯的船舶接連成為焦點，這些船隻或嘗試突破美方封鎖後折返，或被美軍扣押。學者向BBC中文分析海灣局勢將如何影響特朗普下月的訪華行程及中美關係發展。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "美伊",
+        "美軍",
+        "霍爾木茲"
+      ],
+      "action_hits": [
+        "封鎖"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "五角大樓：美國海軍部長約翰・費蘭即時離任",
+      "link": "https://www.bbc.com/zhongwen/articles/c30re8eq41po/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 23 Apr 2026 07:47:50 GMT",
+      "summary": "他是近月來又一個離開政府的高級軍事領導人，他的離任正值美國與以色列和伊朗的戰爭持續，以及美方持續封鎖霍爾木茲海峽之際。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "海峽",
+        "以色列",
+        "五角大樓",
+        "伊朗",
+        "霍爾木茲"
+      ],
+      "action_hits": [
+        "封鎖"
       ]
     },
     {
@@ -646,8 +724,8 @@
       "lang": "zh",
       "relevance_score": 66,
       "entity_hits": [
-        "霍尔木兹",
-        "海峡"
+        "海峡",
+        "霍尔木兹"
       ],
       "action_hits": [
         "封锁",
@@ -656,20 +734,77 @@
     },
     {
       "source": "BBC中东",
-      "title": "French peacekeeper killed in southern Lebanon",
-      "link": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 19 Apr 2026 11:39:47 GMT",
-      "summary": "President Macron blames the attack on Hezbollah. The Iran-backed armed group denies \"any connection\" to the incident.",
+      "title": "Lebanon accuses Israel of targeting journalist killed in air strike",
+      "link": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 23 Apr 2026 04:25:30 GMT",
+      "summary": "Lebanon's prime minister accused Israel of war crimes after IDF attacks on Red Cross vehicles also stopped rescuers from reaching the site.",
       "lang": "en",
-      "relevance_score": 80,
+      "relevance_score": 90,
       "entity_hits": [
+        "IDF",
+        "idf",
         "lebanon",
-        "iran",
-        "hezbollah"
+        "israel"
       ],
       "action_hits": [
         "killed",
+        "strike",
         "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches",
+      "link": "https://www.bbc.com/news/articles/c3w3vqv0edpo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 23 Apr 2026 01:09:19 GMT",
+      "summary": "Iran's chief negotiator says \"violations\" by the US and Israel make it impossible to open the strait.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "iran",
+        "hormuz",
+        "israel",
+        "strait"
+      ],
+      "action_hits": [
+        "negotiat",
+        "ceasefire"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
+      "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 22 Apr 2026 16:19:36 GMT",
+      "summary": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "iran",
+        "hormuz",
+        "strait"
+      ],
+      "action_hits": [
+        "ceasefire",
+        "blockade"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Tracking ships under fire in the Strait of Hormuz",
+      "link": "https://www.bbc.com/news/videos/c1l93gg7zmno?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 22 Apr 2026 20:12:03 GMT",
+      "summary": "Iran's top negotiator says it's \"not possible to reopen\" the strait due to \"blatent violations\" of US-Iran ceasefire.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "iran",
+        "hormuz",
+        "strait"
+      ],
+      "action_hits": [
+        "negotiat",
+        "ceasefire"
       ]
     },
     {
@@ -686,8 +821,8 @@
         "israel"
       ],
       "action_hits": [
-        "attack",
-        "ceasefire"
+        "ceasefire",
+        "attack"
       ]
     },
     {
@@ -699,8 +834,8 @@
       "lang": "en",
       "relevance_score": 75,
       "entity_hits": [
-        "lebanon",
         "iran",
+        "lebanon",
         "israel"
       ],
       "action_hits": [
@@ -718,63 +853,11 @@
       "relevance_score": 70,
       "entity_hits": [
         "iran",
-        "strait",
-        "hormuz"
+        "hormuz",
+        "strait"
       ],
       "action_hits": [
         "attack"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-      "link": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 19 Apr 2026 21:09:06 GMT",
-      "summary": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "iran",
-        "tehran",
-        "strait",
-        "hormuz"
-      ],
-      "action_hits": [
-        "shipping"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "BBC reports from Lebanese border town as residents try to return home",
-      "link": "https://www.bbc.com/news/videos/cly90z9g5q3o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 18 Apr 2026 11:47:11 GMT",
-      "summary": "BBC Arabic's correspondent Carine Torbey reports from the border town of Khiam, as the ceasefire between Israel and Hezbollah in southern Lebanon goes into its second day.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "lebanon",
-        "hezbollah",
-        "israel"
-      ],
-      "action_hits": [
-        "ceasefire"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-      "link": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 20 Apr 2026 01:38:17 GMT",
-      "summary": "Tehran vows retaliation soon for what it calls an \"act of armed piracy\", which comes as the US prepares for a second round of talks.",
-      "lang": "en",
-      "relevance_score": 65,
-      "entity_hits": [
-        "iran",
-        "tehran"
-      ],
-      "action_hits": [
-        "retaliat",
-        "intercept"
       ]
     },
     {
@@ -825,6 +908,20 @@
       "lang": "zh"
     },
     {
+      "event_id": "cbcde542de36",
+      "title": "Lebanon accuses Israel of targeting journalist killed in air strike",
+      "location": "以色列",
+      "first_seen_time": "2026-04-23T04:25:30+00:00",
+      "last_updated_time": "2026-04-23T04:25:30+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
       "event_id": "85bc0c1138c8",
       "title": "美中能源较量：“使劲钻”vs.新能源",
       "location": "霍尔木兹海峡",
@@ -840,17 +937,31 @@
     },
     {
       "event_id": "4b83b51e3a8f",
-      "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
+      "title": "美國封鎖霍爾木茲海峽 逼中國坐上談判桌？",
       "location": "伊朗·德黑兰",
       "first_seen_time": "2026-04-15T06:31:00+00:00",
-      "last_updated_time": "2026-04-20T01:38:17+00:00",
+      "last_updated_time": "2026-04-15T06:31:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 80,
-      "source_count": 3,
+      "source_count": 1,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/美國封鎖霍爾木茲海峽-逼中國坐上談判桌？/a-76785198?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
+    },
+    {
+      "event_id": "dba23e2eb6eb",
+      "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-04-23T01:09:19+00:00",
+      "last_updated_time": "2026-04-23T01:09:19+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 80,
+      "source_count": 3,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/c3w3vqv0edpo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "3253a1efef31",
@@ -860,39 +971,25 @@
       "last_updated_time": "2026-04-19T16:00:00+00:00",
       "current_status": "active_conflict",
       "trend": "improving",
-      "confidence": 80,
-      "source_count": 2,
+      "confidence": 77,
+      "source_count": 1,
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001109496",
       "lang": "zh"
     },
     {
-      "event_id": "f0c89722e5ea",
-      "title": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
+      "event_id": "8499509ac295",
+      "title": "美伊霍爾木茲相互鎖喉中國「意外」受到關注，特朗普訪華會再度延期嗎？",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-16T14:16:00+00:00",
-      "last_updated_time": "2026-04-22T18:32:47+00:00",
+      "first_seen_time": "2026-04-23T09:32:12+00:00",
+      "last_updated_time": "2026-04-23T09:32:12+00:00",
       "current_status": "active_conflict",
-      "trend": "worsening",
+      "trend": "stable",
       "confidence": 70,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/德语媒体：伊朗战争带给中国哪些好处？/a-76812646?maca=chi-rss-chi-all-1127-xml-mrss",
+      "source_count": 4,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/c1l962v7y22o/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
-    },
-    {
-      "event_id": "01791006d51d",
-      "title": "BBC reports from Lebanese border town as residents try to return home",
-      "location": "以色列",
-      "first_seen_time": "2026-04-18T11:47:11+00:00",
-      "last_updated_time": "2026-04-18T11:47:11+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 70,
-      "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/videos/cly90z9g5q3o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
     },
     {
       "event_id": "cf4e70bc4572",
@@ -907,12 +1004,25 @@
       "source": "德国之声",
       "link": "https://www.dw.com/zh/德语媒体：突如其来的双重打击/a-76835591?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
+    },
+    {
+      "event_id": "448a3cbc1a7a",
+      "title": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain",
+      "location": "以色列",
+      "first_seen_time": "2026-04-17T14:31:51+00:00",
+      "last_updated_time": "2026-04-17T14:31:51+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 60,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "3/25",
         "3/26",
         "3/27",
         "3/28",
@@ -941,7 +1051,8 @@
         "4/20",
         "4/21",
         "4/22",
-        "4/23"
+        "4/23",
+        "4/24"
       ],
       "transits": [
         0,
@@ -1031,25 +1142,25 @@
         21,
         69
       ],
-      "date_label": "4月23日"
+      "date_label": "4月24日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-04-23",
+      "hormuz_last_date": "2026-04-24",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 41,
+      "vlcc_stale_days": 42,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-04-23"
+      "routes_date": "2026-04-24"
     }
   },
   "meta": {
-    "report_date": "2026.04.23",
-    "report_date_cn": "2026年04月23日",
-    "war_day": 55,
+    "report_date": "2026.04.24",
+    "report_date_cn": "2026年04月24日",
+    "war_day": 56,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-23T12:19:02.145771+08:00",
-    "generated_at_cn": "2026-04-23 12:19:02 北京时间"
+    "generated_at": "2026-04-24T12:21:56.774049+08:00",
+    "generated_at_cn": "2026-04-24 12:21:56 北京时间"
   },
   "history": [
     {
@@ -1394,6 +1505,13 @@
       "wti": 94.44999694824219,
       "gold": 4718.2998046875,
       "usd_cny": 6.831500053405762
+    },
+    {
+      "date": "2026-04-24",
+      "brent": 106.05999755859375,
+      "wti": 96.56999969482422,
+      "gold": 4689.2001953125,
+      "usd_cny": 6.83519983291626
     }
   ]
 }
