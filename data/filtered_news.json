@@ -14,9 +14,9 @@
     ],
     "action_hits": [
       "停火协议",
-      "打击",
       "停火",
-      "谈判"
+      "谈判",
+      "打击"
     ]
   },
   {
@@ -28,15 +28,15 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美军",
       "美伊",
+      "美军",
       "伊朗"
     ],
     "action_hits": [
       "談判",
-      "停火協議",
       "停火",
-      "谈判"
+      "谈判",
+      "停火協議"
     ]
   },
   {
@@ -48,16 +48,16 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "真主黨",
+      "伊朗",
       "黎巴嫩",
-      "以色列",
+      "真主黨",
       "美伊",
-      "伊朗"
+      "以色列"
     ],
     "action_hits": [
       "談判",
-      "停火協議",
-      "停火"
+      "停火",
+      "停火協議"
     ]
   },
   {
@@ -74,8 +74,8 @@
       "伊朗"
     ],
     "action_hits": [
-      "封锁",
       "油价",
+      "封锁",
       "谈判"
     ]
   },
@@ -88,34 +88,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美以",
-      "油价",
+      "海峡",
       "霍尔木兹",
-      "伊朗",
-      "海峡"
+      "油价",
+      "美以",
+      "伊朗"
     ],
     "action_hits": [
       "油价",
       "打击"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美國封鎖霍爾木茲海峽 逼中國坐上談判桌？",
-    "link": "https://www.dw.com/zh/美國封鎖霍爾木茲海峽-逼中國坐上談判桌？/a-76785198?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 15 Apr 2026 06:31:00 GMT",
-    "summary": "美國財長貝森特週二譴責中國在中美伊戰爭期間大規模囤積石油、限制出口，稱北京為「不可靠夥伴」。隨著霍爾木茲海峽被封鎖，美方此舉也被視為施壓北京對德黑蘭發揮影響力，讓川普政府能在這場衝突「體面退場」。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "美伊",
-      "海峽",
-      "霍爾木茲",
-      "德黑蘭"
-    ],
-    "action_hits": [
-      "封鎖",
-      "談判"
     ]
   },
   {
@@ -131,9 +112,9 @@
       "伊朗"
     ],
     "action_hits": [
+      "轰炸",
       "重启",
-      "谈判",
-      "轰炸"
+      "谈判"
     ]
   },
   {
@@ -163,10 +144,10 @@
     "relevance_score": 70,
     "entity_hits": [
       "海峽",
-      "以色列",
-      "五角大樓",
       "伊朗",
-      "霍爾木茲"
+      "五角大樓",
+      "霍爾木茲",
+      "以色列"
     ],
     "action_hits": [
       "封鎖"
@@ -181,8 +162,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "油价",
       "霍尔木兹",
+      "油价",
       "伊朗"
     ],
     "action_hits": [
@@ -215,15 +196,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "IDF",
       "idf",
       "lebanon",
+      "IDF",
       "israel"
     ],
     "action_hits": [
       "killed",
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -235,9 +216,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
-      "hormuz",
       "israel",
+      "hormuz",
+      "iran",
       "strait"
     ],
     "action_hits": [
@@ -254,13 +235,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "hormuz",
+      "iran",
       "strait"
     ],
     "action_hits": [
-      "ceasefire",
-      "blockade"
+      "blockade",
+      "ceasefire"
     ]
   },
   {
@@ -272,8 +253,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "hormuz",
+      "iran",
       "strait"
     ],
     "action_hits": [
@@ -290,13 +271,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "hezbollah",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
-      "ceasefire",
-      "attack"
+      "attack",
+      "ceasefire"
     ]
   },
   {
@@ -308,13 +289,13 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "iran",
       "lebanon",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
-      "ceasefire",
-      "halt"
+      "halt",
+      "ceasefire"
     ]
   },
   {
@@ -326,8 +307,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "hormuz",
+      "iran",
       "strait"
     ],
     "action_hits": [
@@ -347,8 +328,8 @@
       "israel"
     ],
     "action_hits": [
-      "ceasefire",
-      "halt"
+      "halt",
+      "ceasefire"
     ]
   }
 ]
