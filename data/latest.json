@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 99.77999877929688,
-      "day_change_pct": -5.03,
-      "war_change_pct": 28.35,
+      "current": 99.12999725341797,
+      "day_change_pct": -5.65,
+      "war_change_pct": 27.51,
       "dates": [
         "03/13",
         "03/16",
@@ -66,14 +66,14 @@
         98.48,
         101.91,
         105.07,
-        99.78
+        99.13
       ],
-      "updated": "2026-04-25T03:54:52.038489"
+      "updated": "2026-04-26T04:26:11.112933"
     },
     "wti": {
-      "current": 94.87999725341797,
-      "day_change_pct": -1.01,
-      "war_change_pct": 33.2,
+      "current": 94.4000015258789,
+      "day_change_pct": -1.51,
+      "war_change_pct": 32.53,
       "dates": [
         "03/13",
         "03/16",
@@ -136,14 +136,14 @@
         92.13,
         92.96,
         95.85,
-        94.88
+        94.4
       ],
-      "updated": "2026-04-25T03:54:52.112631"
+      "updated": "2026-04-26T04:26:11.179005"
     },
     "gold": {
-      "current": 4725.39990234375,
-      "day_change_pct": 0.43,
-      "war_change_pct": -10.75,
+      "current": 4740.89990234375,
+      "day_change_pct": 0.76,
+      "war_change_pct": -10.45,
       "dates": [
         "03/13",
         "03/16",
@@ -206,9 +206,9 @@
         4698.4,
         4732.5,
         4705.1,
-        4725.4
+        4740.9
       ],
-      "updated": "2026-04-25T03:54:52.179067"
+      "updated": "2026-04-26T04:26:11.244112"
     },
     "usd_cny": {
       "current": 6.835400104522705,
@@ -278,12 +278,12 @@
         6.83,
         6.84
       ],
-      "updated": "2026-04-25T03:54:52.253486"
+      "updated": "2026-04-26T04:26:11.314290"
     },
     "nat_gas": {
-      "current": 2.688999891281128,
-      "day_change_pct": 2.87,
-      "war_change_pct": -9.16,
+      "current": 2.683000087738037,
+      "day_change_pct": 2.64,
+      "war_change_pct": -9.36,
       "dates": [
         "03/13",
         "03/16",
@@ -346,9 +346,9 @@
         2.7,
         2.72,
         2.61,
-        2.69
+        2.68
       ],
-      "updated": "2026-04-25T03:54:52.321650"
+      "updated": "2026-04-26T04:26:11.377861"
     }
   },
   "stocks": {
@@ -362,11 +362,8 @@
     },
     "600026": {
       "name": "中远海能",
-      "price": 21.26,
-      "change_pct": -0.89,
-      "high": 21.57,
-      "low": 21.07,
-      "volume": 467270
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601975": {
       "name": "招商南油",
@@ -426,11 +423,8 @@
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 131.0,
-      "change_pct": 0.47,
-      "high": 132.22,
-      "low": 124.1,
-      "volume": 189087
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600803": {
       "name": "新奥股份",
@@ -533,26 +527,6 @@
   "news": [
     {
       "source": "德国之声",
-      "title": "特朗普宣布延长停火 美伊下一轮究竟谈不谈？",
-      "link": "https://www.dw.com/zh/特朗普宣布延长停火-美伊下一轮究竟谈不谈？/a-76884827?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 22 Apr 2026 03:00:00 GMT",
-      "summary": "美以对伊朗实施军事打击数周后直至本月8日起为期两周的停火协议即将到期，在第一轮和解谈判无果而终后，外界对于美国和伊朗是否会进行第二轮谈判格外关注。美国总统特朗普“善变”的表态，更让人摸不着头脑。",
-      "lang": "zh",
-      "relevance_score": 100,
-      "entity_hits": [
-        "美以",
-        "美伊",
-        "伊朗"
-      ],
-      "action_hits": [
-        "停火协议",
-        "停火",
-        "谈判",
-        "打击"
-      ]
-    },
-    {
-      "source": "德国之声",
       "title": "美军扣押從中國開往伊朗的商船 万斯赴巴基斯坦准备谈判",
       "link": "https://www.dw.com/zh/美军扣押從中國開往伊朗的商船-万斯赴巴基斯坦准备谈判/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
       "published": "Mon, 20 Apr 2026 04:02:00 GMT",
@@ -560,15 +534,15 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "美伊",
+        "伊朗",
         "美军",
-        "伊朗"
+        "美伊"
       ],
       "action_hits": [
         "談判",
-        "停火",
+        "停火協議",
         "谈判",
-        "停火協議"
+        "停火"
       ]
     },
     {
@@ -580,16 +554,16 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "伊朗",
         "黎巴嫩",
-        "真主黨",
         "美伊",
-        "以色列"
+        "伊朗",
+        "以色列",
+        "真主黨"
       ],
       "action_hits": [
         "談判",
-        "停火",
-        "停火協議"
+        "停火協議",
+        "停火"
       ]
     },
     {
@@ -602,13 +576,32 @@
       "relevance_score": 90,
       "entity_hits": [
         "油价",
-        "美伊",
-        "伊朗"
+        "伊朗",
+        "美伊"
       ],
       "action_hits": [
         "油价",
         "封锁",
         "谈判"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "协助霍尔木兹海峡护航：德国军舰将提前部署地中海",
+      "link": "https://www.dw.com/zh/协助霍尔木兹海峡护航：德国军舰将提前部署地中海/a-76934557?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 25 Apr 2026 14:16:00 GMT",
+      "summary": "德国与其他北约盟友一样，因拒绝参与伊朗战争而惹恼特朗普。但德国承诺协助保障霍尔木兹海峡的航运安全，已计划将军舰提前部署至地中海。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "伊朗",
+        "海峡",
+        "北约",
+        "霍尔木兹"
+      ],
+      "action_hits": [
+        "航运",
+        "部署"
       ]
     },
     {
@@ -620,11 +613,11 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峡",
-        "霍尔木兹",
         "油价",
-        "美以",
-        "伊朗"
+        "霍尔木兹",
+        "伊朗",
+        "海峡",
+        "美以"
       ],
       "action_hits": [
         "油价",
@@ -640,12 +633,12 @@
       "lang": "zh",
       "relevance_score": 77,
       "entity_hits": [
-        "美军",
-        "伊朗"
+        "伊朗",
+        "美军"
       ],
       "action_hits": [
-        "轰炸",
         "重启",
+        "轰炸",
         "谈判"
       ]
     },
@@ -658,48 +651,12 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "美伊",
-        "美軍",
-        "霍爾木茲"
-      ],
-      "action_hits": [
-        "封鎖"
-      ]
-    },
-    {
-      "source": "BBC中文",
-      "title": "五角大樓：美國海軍部長約翰・費蘭即時離任",
-      "link": "https://www.bbc.com/zhongwen/articles/c30re8eq41po/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 23 Apr 2026 07:47:50 GMT",
-      "summary": "他是近月來又一個離開政府的高級軍事領導人，他的離任正值美國與以色列和伊朗的戰爭持續，以及美方持續封鎖霍爾木茲海峽之際。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "海峽",
-        "伊朗",
-        "五角大樓",
         "霍爾木茲",
-        "以色列"
+        "美軍",
+        "美伊"
       ],
       "action_hits": [
         "封鎖"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "德语媒体：伊朗战争带给中国哪些好处？",
-      "link": "https://www.dw.com/zh/德语媒体：伊朗战争带给中国哪些好处？/a-76812646?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 16 Apr 2026 14:16:00 GMT",
-      "summary": "油价飙升令全球大多国家不堪重负之际，中国却几乎毫发无损，《商报》客座评论称，这足以证明中国共产党长期推行“多元化和自主化”战略的成功。《新苏黎世报》分析文章称，霍尔木兹危机为中俄加强合作扩大影响提供了新的契机。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "霍尔木兹",
-        "油价",
-        "伊朗"
-      ],
-      "action_hits": [
-        "油价"
       ]
     },
     {
@@ -728,15 +685,15 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "idf",
         "lebanon",
-        "IDF",
-        "israel"
+        "israel",
+        "idf",
+        "IDF"
       ],
       "action_hits": [
         "killed",
-        "attack",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -748,8 +705,8 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "israel",
         "hormuz",
+        "israel",
         "iran",
         "strait"
       ],
@@ -867,17 +824,17 @@
   ],
   "event_states": [
     {
-      "event_id": "804452de9d13",
-      "title": "特朗普宣布延长停火 美伊下一轮究竟谈不谈？",
+      "event_id": "f87cac984f3c",
+      "title": "美军扣押從中國開往伊朗的商船 万斯赴巴基斯坦准备谈判",
       "location": "伊朗",
-      "first_seen_time": "2026-04-22T03:00:00+00:00",
-      "last_updated_time": "2026-04-22T03:00:00+00:00",
+      "first_seen_time": "2026-04-20T04:02:00+00:00",
+      "last_updated_time": "2026-04-20T04:02:00+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 100,
-      "source_count": 5,
+      "source_count": 4,
       "source": "德国之声",
-      "link": "https://www.dw.com/zh/特朗普宣布延长停火-美伊下一轮究竟谈不谈？/a-76884827?maca=chi-rss-chi-all-1127-xml-mrss",
+      "link": "https://www.dw.com/zh/美军扣押從中國開往伊朗的商船-万斯赴巴基斯坦准备谈判/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -907,6 +864,20 @@
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
+    },
+    {
+      "event_id": "051943914ba3",
+      "title": "协助霍尔木兹海峡护航：德国军舰将提前部署地中海",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-04-25T14:16:00+00:00",
+      "last_updated_time": "2026-04-25T14:16:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 80,
+      "source_count": 3,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/协助霍尔木兹海峡护航：德国军舰将提前部署地中海/a-76934557?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
     },
     {
       "event_id": "85bc0c1138c8",
@@ -951,20 +922,6 @@
       "lang": "zh"
     },
     {
-      "event_id": "8499509ac295",
-      "title": "美伊霍爾木茲相互鎖喉中國「意外」受到關注，特朗普訪華會再度延期嗎？",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-23T09:32:12+00:00",
-      "last_updated_time": "2026-04-23T09:32:12+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 4,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/c1l962v7y22o/trad?at_medium=RSS&at_campaign=rss",
-      "lang": "zh"
-    },
-    {
       "event_id": "cf4e70bc4572",
       "title": "德语媒体：突如其来的双重打击",
       "location": "霍尔木兹海峡",
@@ -996,7 +953,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "3/27",
         "3/28",
         "3/29",
         "3/30",
@@ -1025,7 +981,8 @@
         "4/22",
         "4/23",
         "4/24",
-        "4/25"
+        "4/25",
+        "4/26"
       ],
       "transits": [
         0,
@@ -1115,25 +1072,25 @@
         21,
         69
       ],
-      "date_label": "4月25日"
+      "date_label": "4月26日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-04-25",
+      "hormuz_last_date": "2026-04-26",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 43,
+      "vlcc_stale_days": 44,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-04-25"
+      "routes_date": "2026-04-26"
     }
   },
   "meta": {
-    "report_date": "2026.04.25",
-    "report_date_cn": "2026年04月25日",
-    "war_day": 57,
+    "report_date": "2026.04.26",
+    "report_date_cn": "2026年04月26日",
+    "war_day": 58,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-25T11:55:46.964502+08:00",
-    "generated_at_cn": "2026-04-25 11:55:46 北京时间"
+    "generated_at": "2026-04-26T12:28:31.995788+08:00",
+    "generated_at_cn": "2026-04-26 12:28:31 北京时间"
   },
   "history": [
     {
@@ -1491,6 +1448,13 @@
       "brent": 99.77999877929688,
       "wti": 94.87999725341797,
       "gold": 4725.39990234375,
+      "usd_cny": 6.835400104522705
+    },
+    {
+      "date": "2026-04-26",
+      "brent": 99.12999725341797,
+      "wti": 94.4000015258789,
+      "gold": 4740.89990234375,
       "usd_cny": 6.835400104522705
     }
   ]

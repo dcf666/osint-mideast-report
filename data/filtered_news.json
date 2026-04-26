@@ -1,26 +1,6 @@
 [
   {
     "source": "德国之声",
-    "title": "特朗普宣布延长停火 美伊下一轮究竟谈不谈？",
-    "link": "https://www.dw.com/zh/特朗普宣布延长停火-美伊下一轮究竟谈不谈？/a-76884827?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 22 Apr 2026 03:00:00 GMT",
-    "summary": "美以对伊朗实施军事打击数周后直至本月8日起为期两周的停火协议即将到期，在第一轮和解谈判无果而终后，外界对于美国和伊朗是否会进行第二轮谈判格外关注。美国总统特朗普“善变”的表态，更让人摸不着头脑。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "美以",
-      "美伊",
-      "伊朗"
-    ],
-    "action_hits": [
-      "停火协议",
-      "停火",
-      "谈判",
-      "打击"
-    ]
-  },
-  {
-    "source": "德国之声",
     "title": "美军扣押從中國開往伊朗的商船 万斯赴巴基斯坦准备谈判",
     "link": "https://www.dw.com/zh/美军扣押從中國開往伊朗的商船-万斯赴巴基斯坦准备谈判/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Mon, 20 Apr 2026 04:02:00 GMT",
@@ -28,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美伊",
+      "伊朗",
       "美军",
-      "伊朗"
+      "美伊"
     ],
     "action_hits": [
       "談判",
-      "停火",
+      "停火協議",
       "谈判",
-      "停火協議"
+      "停火"
     ]
   },
   {
@@ -48,16 +28,16 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "伊朗",
       "黎巴嫩",
-      "真主黨",
       "美伊",
-      "以色列"
+      "伊朗",
+      "以色列",
+      "真主黨"
     ],
     "action_hits": [
       "談判",
-      "停火",
-      "停火協議"
+      "停火協議",
+      "停火"
     ]
   },
   {
@@ -70,13 +50,32 @@
     "relevance_score": 90,
     "entity_hits": [
       "油价",
-      "美伊",
-      "伊朗"
+      "伊朗",
+      "美伊"
     ],
     "action_hits": [
       "油价",
       "封锁",
       "谈判"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "协助霍尔木兹海峡护航：德国军舰将提前部署地中海",
+    "link": "https://www.dw.com/zh/协助霍尔木兹海峡护航：德国军舰将提前部署地中海/a-76934557?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 25 Apr 2026 14:16:00 GMT",
+    "summary": "德国与其他北约盟友一样，因拒绝参与伊朗战争而惹恼特朗普。但德国承诺协助保障霍尔木兹海峡的航运安全，已计划将军舰提前部署至地中海。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "伊朗",
+      "海峡",
+      "北约",
+      "霍尔木兹"
+    ],
+    "action_hits": [
+      "航运",
+      "部署"
     ]
   },
   {
@@ -88,11 +87,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峡",
-      "霍尔木兹",
       "油价",
-      "美以",
-      "伊朗"
+      "霍尔木兹",
+      "伊朗",
+      "海峡",
+      "美以"
     ],
     "action_hits": [
       "油价",
@@ -108,12 +107,12 @@
     "lang": "zh",
     "relevance_score": 77,
     "entity_hits": [
-      "美军",
-      "伊朗"
+      "伊朗",
+      "美军"
     ],
     "action_hits": [
-      "轰炸",
       "重启",
+      "轰炸",
       "谈判"
     ]
   },
@@ -126,48 +125,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美伊",
-      "美軍",
-      "霍爾木茲"
-    ],
-    "action_hits": [
-      "封鎖"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "五角大樓：美國海軍部長約翰・費蘭即時離任",
-    "link": "https://www.bbc.com/zhongwen/articles/c30re8eq41po/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 23 Apr 2026 07:47:50 GMT",
-    "summary": "他是近月來又一個離開政府的高級軍事領導人，他的離任正值美國與以色列和伊朗的戰爭持續，以及美方持續封鎖霍爾木茲海峽之際。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "海峽",
-      "伊朗",
-      "五角大樓",
       "霍爾木茲",
-      "以色列"
+      "美軍",
+      "美伊"
     ],
     "action_hits": [
       "封鎖"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "德语媒体：伊朗战争带给中国哪些好处？",
-    "link": "https://www.dw.com/zh/德语媒体：伊朗战争带给中国哪些好处？/a-76812646?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 16 Apr 2026 14:16:00 GMT",
-    "summary": "油价飙升令全球大多国家不堪重负之际，中国却几乎毫发无损，《商报》客座评论称，这足以证明中国共产党长期推行“多元化和自主化”战略的成功。《新苏黎世报》分析文章称，霍尔木兹危机为中俄加强合作扩大影响提供了新的契机。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "霍尔木兹",
-      "油价",
-      "伊朗"
-    ],
-    "action_hits": [
-      "油价"
     ]
   },
   {
@@ -196,15 +159,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "idf",
       "lebanon",
-      "IDF",
-      "israel"
+      "israel",
+      "idf",
+      "IDF"
     ],
     "action_hits": [
       "killed",
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -216,8 +179,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "hormuz",
+      "israel",
       "iran",
       "strait"
     ],

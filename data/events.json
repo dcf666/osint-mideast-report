@@ -1,16 +1,16 @@
 [
   {
-    "event_id": "804452de9d13",
-    "title": "特朗普宣布延长停火 美伊下一轮究竟谈不谈？",
+    "event_id": "f87cac984f3c",
+    "title": "美军扣押從中國開往伊朗的商船 万斯赴巴基斯坦准备谈判",
     "location": "伊朗",
-    "first_seen_time": "2026-04-22T03:00:00+00:00",
-    "last_updated_time": "2026-04-22T03:00:00+00:00",
+    "first_seen_time": "2026-04-20T04:02:00+00:00",
+    "last_updated_time": "2026-04-20T04:02:00+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 100,
-    "source_count": 5,
+    "source_count": 4,
     "source": "德国之声",
-    "link": "https://www.dw.com/zh/特朗普宣布延长停火-美伊下一轮究竟谈不谈？/a-76884827?maca=chi-rss-chi-all-1127-xml-mrss",
+    "link": "https://www.dw.com/zh/美军扣押從中國開往伊朗的商船-万斯赴巴基斯坦准备谈判/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -40,6 +40,20 @@
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "051943914ba3",
+    "title": "协助霍尔木兹海峡护航：德国军舰将提前部署地中海",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-04-25T14:16:00+00:00",
+    "last_updated_time": "2026-04-25T14:16:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 3,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/协助霍尔木兹海峡护航：德国军舰将提前部署地中海/a-76934557?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
   },
   {
     "event_id": "85bc0c1138c8",
@@ -81,20 +95,6 @@
     "source_count": 1,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001109496",
-    "lang": "zh"
-  },
-  {
-    "event_id": "8499509ac295",
-    "title": "美伊霍爾木茲相互鎖喉中國「意外」受到關注，特朗普訪華會再度延期嗎？",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-23T09:32:12+00:00",
-    "last_updated_time": "2026-04-23T09:32:12+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 4,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/c1l962v7y22o/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
   },
   {
