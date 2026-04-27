@@ -1,6 +1,26 @@
 [
   {
     "source": "德国之声",
+    "title": "特朗普宣布延长停火 美伊下一轮究竟谈不谈？",
+    "link": "https://www.dw.com/zh/特朗普宣布延长停火-美伊下一轮究竟谈不谈？/a-76884827?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 22 Apr 2026 03:00:00 GMT",
+    "summary": "美以对伊朗实施军事打击数周后直至本月8日起为期两周的停火协议即将到期，在第一轮和解谈判无果而终后，外界对于美国和伊朗是否会进行第二轮谈判格外关注。美国总统特朗普“善变”的表态，更让人摸不着头脑。",
+    "lang": "zh",
+    "relevance_score": 100,
+    "entity_hits": [
+      "美伊",
+      "美以",
+      "伊朗"
+    ],
+    "action_hits": [
+      "打击",
+      "停火",
+      "停火协议",
+      "谈判"
+    ]
+  },
+  {
+    "source": "德国之声",
     "title": "美军扣押從中國開往伊朗的商船 万斯赴巴基斯坦准备谈判",
     "link": "https://www.dw.com/zh/美军扣押從中國開往伊朗的商船-万斯赴巴基斯坦准备谈判/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Mon, 20 Apr 2026 04:02:00 GMT",
@@ -8,54 +28,14 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "伊朗",
       "美军",
-      "美伊"
-    ],
-    "action_hits": [
-      "談判",
-      "停火協議",
-      "谈判",
-      "停火"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美伊談判現轉機？川普稱伊朗同意交出核材料",
-    "link": "https://www.dw.com/zh/美伊談判現轉機？川普稱伊朗同意交出核材料/a-76819529?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 17 Apr 2026 08:10:00 GMT",
-    "summary": "以色列及黎巴嫩16日達成為期10天的停火協議，但主要交火方之一的真主黨並未參與該場停火談判，也尚未表示是否接受停火協議。與此同時，美國總統川普表示，他有信心能很快結束伊朗戰爭，並透露伊朗已同意交出部分核材料。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "黎巴嫩",
       "美伊",
-      "伊朗",
-      "以色列",
-      "真主黨"
+      "伊朗"
     ],
     "action_hits": [
-      "談判",
       "停火協議",
-      "停火"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "特朗普：美国海军扣押违反封锁令的伊朗船只",
-    "link": "https://www.ftchinese.com/story/001109503",
-    "published": "Sun, 19 Apr 2026 16:00:00 GMT",
-    "summary": "美伊双方对于是否将在巴基斯坦启动新的和平谈判给出了互相矛盾的说法，油价大涨。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "油价",
-      "伊朗",
-      "美伊"
-    ],
-    "action_hits": [
-      "油价",
-      "封锁",
+      "停火",
+      "談判",
       "谈判"
     ]
   },
@@ -68,14 +48,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
-      "海峡",
+      "霍尔木兹",
       "北约",
-      "霍尔木兹"
+      "伊朗",
+      "海峡"
     ],
     "action_hits": [
-      "航运",
-      "部署"
+      "部署",
+      "航运"
     ]
   },
   {
@@ -89,31 +69,13 @@
     "entity_hits": [
       "油价",
       "霍尔木兹",
+      "美以",
       "伊朗",
-      "海峡",
-      "美以"
+      "海峡"
     ],
     "action_hits": [
-      "油价",
-      "打击"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "特朗普：美国将与伊朗举行新一轮谈判",
-    "link": "https://www.ftchinese.com/story/001109496",
-    "published": "Sun, 19 Apr 2026 16:00:00 GMT",
-    "summary": "美国总统同时威胁称，如果伊方拒绝达成和平协议，美国将重启轰炸行动。但他扬言要炸毁伊朗民用基础设施，令人担忧美军会犯下战争罪。",
-    "lang": "zh",
-    "relevance_score": 77,
-    "entity_hits": [
-      "伊朗",
-      "美军"
-    ],
-    "action_hits": [
-      "重启",
-      "轰炸",
-      "谈判"
+      "打击",
+      "油价"
     ]
   },
   {
@@ -125,12 +87,29 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍爾木茲",
       "美軍",
-      "美伊"
+      "美伊",
+      "霍爾木茲"
     ],
     "action_hits": [
       "封鎖"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "英国坚称福克兰群岛主权“毋庸置疑”",
+    "link": "https://www.ftchinese.com/story/001109563",
+    "published": "Sun, 26 Apr 2026 16:00:00 GMT",
+    "summary": "此前媒体报道的五角大楼备忘录暗示，美国可能重审其对靠近阿根廷的这一南大西洋群岛主权的立场，以报复英国对美国打击伊朗的行动缺乏支持。",
+    "lang": "zh",
+    "relevance_score": 67,
+    "entity_hits": [
+      "五角大楼",
+      "伊朗"
+    ],
+    "action_hits": [
+      "打击",
+      "报复"
     ]
   },
   {
@@ -142,12 +121,12 @@
     "lang": "zh",
     "relevance_score": 66,
     "entity_hits": [
-      "海峡",
-      "霍尔木兹"
+      "霍尔木兹",
+      "海峡"
     ],
     "action_hits": [
-      "封锁",
-      "打击"
+      "打击",
+      "封锁"
     ]
   },
   {
@@ -159,15 +138,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "lebanon",
-      "israel",
       "idf",
-      "IDF"
+      "IDF",
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "killed",
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -179,10 +158,10 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hormuz",
       "israel",
       "iran",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "negotiat",
@@ -198,9 +177,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hormuz",
       "iran",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "blockade",
@@ -216,9 +195,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hormuz",
       "iran",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "negotiat",
@@ -239,8 +218,8 @@
       "iran"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -252,9 +231,9 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "lebanon",
       "israel",
-      "iran"
+      "iran",
+      "lebanon"
     ],
     "action_hits": [
       "halt",
@@ -270,9 +249,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
       "iran",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "attack"
@@ -287,8 +266,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "halt",
