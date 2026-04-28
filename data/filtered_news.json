@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美伊",
       "美以",
+      "美伊",
       "伊朗"
     ],
     "action_hits": [
-      "打击",
-      "停火",
       "停火协议",
-      "谈判"
+      "打击",
+      "谈判",
+      "停火"
     ]
   },
   {
@@ -33,49 +33,10 @@
       "伊朗"
     ],
     "action_hits": [
-      "停火協議",
-      "停火",
       "談判",
-      "谈判"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "协助霍尔木兹海峡护航：德国军舰将提前部署地中海",
-    "link": "https://www.dw.com/zh/协助霍尔木兹海峡护航：德国军舰将提前部署地中海/a-76934557?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 25 Apr 2026 14:16:00 GMT",
-    "summary": "德国与其他北约盟友一样，因拒绝参与伊朗战争而惹恼特朗普。但德国承诺协助保障霍尔木兹海峡的航运安全，已计划将军舰提前部署至地中海。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "霍尔木兹",
-      "北约",
-      "伊朗",
-      "海峡"
-    ],
-    "action_hits": [
-      "部署",
-      "航运"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美中能源较量：“使劲钻”vs.新能源",
-    "link": "https://www.dw.com/zh/美中能源较量：-使劲钻-vs-新能源/a-76893447?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 22 Apr 2026 10:04:00 GMT",
-    "summary": "全世界还在关注霍尔木兹海峡何时恢复畅通，以缓解油价飙升的局面。而在美以对伊朗联合军事打击的背后，还有另一场美中之间的能源较量：谁能保住能源大国的地位，谁就能在国际外交和全球经济的命脉领域“说一不二”。而美中在能源开发方面的战略侧重也有明显区别。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "油价",
-      "霍尔木兹",
-      "美以",
-      "伊朗",
-      "海峡"
-    ],
-    "action_hits": [
-      "打击",
-      "油价"
+      "停火協議",
+      "谈判",
+      "停火"
     ]
   },
   {
@@ -88,8 +49,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "美軍",
-      "美伊",
-      "霍爾木茲"
+      "霍爾木茲",
+      "美伊"
     ],
     "action_hits": [
       "封鎖"
@@ -108,25 +69,28 @@
       "伊朗"
     ],
     "action_hits": [
-      "打击",
-      "报复"
+      "报复",
+      "打击"
     ]
   },
   {
-    "source": "德国之声",
-    "title": "德语媒体：突如其来的双重打击",
-    "link": "https://www.dw.com/zh/德语媒体：突如其来的双重打击/a-76835591?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 17 Apr 2026 14:18:00 GMT",
-    "summary": "《南德意志报》分析文章指出，美国总统下令封锁霍尔木兹海峡的命令，令依赖能源进口和产品出口的中国经济陷入了两难境地。《新苏黎世报》评论称，随着能源价格的上升和外部环境的变化，中国高度依赖出口的经济模式正在失去平衡。",
-    "lang": "zh",
-    "relevance_score": 66,
+    "source": "BBC中东",
+    "title": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
+    "link": "https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 26 Apr 2026 00:34:21 GMT",
+    "summary": "The Israeli PM's directive comes as six people were killed by strikes in Lebanon despite a ceasefire being extended by three weeks.",
+    "lang": "en",
+    "relevance_score": 100,
     "entity_hits": [
-      "霍尔木兹",
-      "海峡"
+      "lebanon",
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
-      "打击",
-      "封锁"
+      "attack",
+      "strike",
+      "killed",
+      "ceasefire"
     ]
   },
   {
@@ -138,15 +102,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "idf",
+      "lebanon",
       "IDF",
       "israel",
-      "lebanon"
+      "idf"
     ],
     "action_hits": [
-      "killed",
       "attack",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -158,10 +122,28 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran",
+      "israel"
+    ],
+    "action_hits": [
+      "negotiat",
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Tracking ships under fire in the Strait of Hormuz",
+    "link": "https://www.bbc.com/news/videos/c1l93gg7zmno?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 22 Apr 2026 20:12:03 GMT",
+    "summary": "Iran's top negotiator says it's \"not possible to reopen\" the strait due to \"blatent violations\" of US-Iran ceasefire.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "strait",
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "negotiat",
@@ -177,30 +159,12 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "blockade",
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Tracking ships under fire in the Strait of Hormuz",
-    "link": "https://www.bbc.com/news/videos/c1l93gg7zmno?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 22 Apr 2026 20:12:03 GMT",
-    "summary": "Iran's top negotiator says it's \"not possible to reopen\" the strait due to \"blatent violations\" of US-Iran ceasefire.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "iran",
-      "strait",
-      "hormuz"
-    ],
-    "action_hits": [
-      "negotiat",
       "ceasefire"
     ]
   },
@@ -213,48 +177,30 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
-      "israel",
-      "iran"
-    ],
-    "action_hits": [
-      "ceasefire",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
-    "link": "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 09 Apr 2026 17:16:08 GMT",
-    "summary": "Israel says Lebanon is not included in the ceasefire the US agreed to halt the war with Iran.",
-    "lang": "en",
-    "relevance_score": 75,
-    "entity_hits": [
       "israel",
       "iran",
-      "lebanon"
+      "hezbollah"
     ],
     "action_hits": [
-      "halt",
+      "attack",
       "ceasefire"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
-    "link": "https://www.bbc.com/news/articles/cdxd074kr8go?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 22 Apr 2026 18:32:47 GMT",
-    "summary": "One of the cargo ships was 'heavily damaged' by Iranian forces, a British maritime agency reported on Wednesday.",
+    "title": "Israeli strikes kill 14 in Lebanon amid ongoing ceasefire",
+    "link": "https://www.bbc.com/news/articles/c4gxgv8j7zlo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 26 Apr 2026 22:02:45 GMT",
+    "summary": "The US announced three days ago that the ceasefire was extended by three weeks after talks.",
     "lang": "en",
-    "relevance_score": 70,
+    "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "strait",
-      "hormuz"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "attack"
+      "strike",
+      "ceasefire"
     ]
   },
   {
@@ -266,8 +212,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "halt",

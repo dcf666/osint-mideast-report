@@ -8,10 +8,24 @@
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 100,
-    "source_count": 4,
+    "source_count": 3,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/特朗普宣布延长停火-美伊下一轮究竟谈不谈？/a-76884827?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
+  },
+  {
+    "event_id": "1e0bac18234f",
+    "title": "Israeli strikes kill 14 in Lebanon amid ongoing ceasefire",
+    "location": "以色列",
+    "first_seen_time": "2026-04-26T00:34:21+00:00",
+    "last_updated_time": "2026-04-26T22:02:45+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 100,
+    "source_count": 3,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "cbcde542de36",
@@ -28,34 +42,6 @@
     "lang": "en"
   },
   {
-    "event_id": "051943914ba3",
-    "title": "协助霍尔木兹海峡护航：德国军舰将提前部署地中海",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-25T14:16:00+00:00",
-    "last_updated_time": "2026-04-25T14:16:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 3,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/协助霍尔木兹海峡护航：德国军舰将提前部署地中海/a-76934557?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
-    "event_id": "85bc0c1138c8",
-    "title": "美中能源较量：“使劲钻”vs.新能源",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-22T10:04:00+00:00",
-    "last_updated_time": "2026-04-22T10:04:00+00:00",
-    "current_status": "partially_restored",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美中能源较量：-使劲钻-vs-新能源/a-76893447?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "dba23e2eb6eb",
     "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches",
     "location": "霍尔木兹海峡",
@@ -70,6 +56,20 @@
     "lang": "en"
   },
   {
+    "event_id": "8499509ac295",
+    "title": "美伊霍爾木茲相互鎖喉中國「意外」受到關注，特朗普訪華會再度延期嗎？",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-04-23T09:32:12+00:00",
+    "last_updated_time": "2026-04-23T09:32:12+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/c1l962v7y22o/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
+  },
+  {
     "event_id": "3f3b01c90e54",
     "title": "英国坚称福克兰群岛主权“毋庸置疑”",
     "location": "伊朗",
@@ -82,33 +82,5 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001109563",
     "lang": "zh"
-  },
-  {
-    "event_id": "cf4e70bc4572",
-    "title": "德语媒体：突如其来的双重打击",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-17T14:18:00+00:00",
-    "last_updated_time": "2026-04-17T14:18:00+00:00",
-    "current_status": "shipping_disrupted",
-    "trend": "stable",
-    "confidence": 66,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/德语媒体：突如其来的双重打击/a-76835591?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
-    "event_id": "448a3cbc1a7a",
-    "title": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain",
-    "location": "以色列",
-    "first_seen_time": "2026-04-17T14:31:51+00:00",
-    "last_updated_time": "2026-04-17T14:31:51+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 60,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   }
 ]
