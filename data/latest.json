@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 102.62999725341797,
-      "day_change_pct": -5.17,
-      "war_change_pct": 32.02,
+      "current": 104.12000274658203,
+      "day_change_pct": -6.42,
+      "war_change_pct": 33.93,
       "dates": [
-        "03/17",
         "03/18",
         "03/19",
         "03/20",
@@ -34,10 +33,10 @@
         "04/23",
         "04/24",
         "04/27",
-        "04/28"
+        "04/28",
+        "04/29"
       ],
       "prices": [
-        103.42,
         107.38,
         108.65,
         112.19,
@@ -66,16 +65,16 @@
         105.07,
         105.33,
         108.23,
-        102.63
+        111.26,
+        104.12
       ],
-      "updated": "2026-04-28T04:37:14.673751"
+      "updated": "2026-04-29T04:33:15.712010"
     },
     "wti": {
-      "current": 97.41999816894531,
-      "day_change_pct": 1.09,
-      "war_change_pct": 36.77,
+      "current": 99.36000061035156,
+      "day_change_pct": -0.57,
+      "war_change_pct": 39.49,
       "dates": [
-        "03/17",
         "03/18",
         "03/19",
         "03/20",
@@ -104,10 +103,10 @@
         "04/23",
         "04/24",
         "04/27",
-        "04/28"
+        "04/28",
+        "04/29"
       ],
       "prices": [
-        96.21,
         96.32,
         96.14,
         98.32,
@@ -136,16 +135,16 @@
         95.85,
         94.4,
         96.37,
-        97.42
+        99.93,
+        99.36
       ],
-      "updated": "2026-04-28T04:37:14.749717"
+      "updated": "2026-04-29T04:33:15.776967"
     },
     "gold": {
-      "current": 4680.10009765625,
-      "day_change_pct": 0.1,
-      "war_change_pct": -11.6,
+      "current": 4613.7998046875,
+      "day_change_pct": 0.49,
+      "war_change_pct": -12.86,
       "dates": [
-        "03/17",
         "03/18",
         "03/19",
         "03/20",
@@ -174,10 +173,10 @@
         "04/23",
         "04/24",
         "04/27",
-        "04/28"
+        "04/28",
+        "04/29"
       ],
       "prices": [
-        5001.0,
         4889.9,
         4600.7,
         4570.4,
@@ -206,16 +205,16 @@
         4705.1,
         4722.3,
         4675.4,
-        4680.1
+        4591.5,
+        4613.8
       ],
-      "updated": "2026-04-28T04:37:14.827578"
+      "updated": "2026-04-29T04:33:15.842209"
     },
     "usd_cny": {
-      "current": 6.827700138092041,
-      "day_change_pct": -0.12,
-      "war_change_pct": -0.44,
+      "current": 6.835299968719482,
+      "day_change_pct": 0.18,
+      "war_change_pct": -0.33,
       "dates": [
-        "03/18",
         "03/19",
         "03/20",
         "03/23",
@@ -244,10 +243,10 @@
         "04/23",
         "04/24",
         "04/27",
-        "04/28"
+        "04/28",
+        "04/29"
       ],
       "prices": [
-        6.89,
         6.87,
         6.9,
         6.89,
@@ -276,16 +275,16 @@
         6.82,
         6.83,
         6.84,
-        6.83
+        6.82,
+        6.84
       ],
-      "updated": "2026-04-28T04:37:14.909917"
+      "updated": "2026-04-29T04:33:15.916314"
     },
     "nat_gas": {
-      "current": 2.7190001010894775,
-      "day_change_pct": 6.63,
-      "war_change_pct": -8.14,
+      "current": 2.6679999828338623,
+      "day_change_pct": 4.26,
+      "war_change_pct": -9.86,
       "dates": [
-        "03/17",
         "03/18",
         "03/19",
         "03/20",
@@ -314,10 +313,10 @@
         "04/23",
         "04/24",
         "04/27",
-        "04/28"
+        "04/28",
+        "04/29"
       ],
       "prices": [
-        3.03,
         3.07,
         3.17,
         3.1,
@@ -346,162 +345,185 @@
         2.61,
         2.52,
         2.55,
-        2.72
+        2.56,
+        2.67
       ],
-      "updated": "2026-04-28T04:37:14.985605"
+      "updated": "2026-04-29T04:33:15.985488"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 16.91,
-      "change_pct": -1.63,
-      "high": 17.43,
-      "low": 16.66,
-      "volume": 690931
+      "price": 17.27,
+      "change_pct": 2.8,
+      "high": 17.59,
+      "low": 17.0,
+      "volume": 749485
     },
     "600026": {
       "name": "中远海能",
-      "price": 20.91,
-      "change_pct": -2.74,
-      "high": 21.7,
-      "low": 20.6,
-      "volume": 517956
+      "price": 21.39,
+      "change_pct": 1.62,
+      "high": 21.66,
+      "low": 21.2,
+      "volume": 391430
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 4.43,
+      "change_pct": 3.75,
+      "high": 4.56,
+      "low": 4.38,
+      "volume": 1659787
     },
     "600938": {
       "name": "中国海油",
-      "price": 39.29,
-      "change_pct": 1.21,
-      "high": 39.35,
-      "low": 38.77,
-      "volume": 215777
+      "price": 39.6,
+      "change_pct": -0.43,
+      "high": 40.0,
+      "low": 39.44,
+      "volume": 308381
     },
     "601857": {
       "name": "中国石油",
-      "price": 12.03,
-      "change_pct": 0.59,
-      "high": 12.07,
-      "low": 11.87,
-      "volume": 863657
+      "price": 12.17,
+      "change_pct": -0.08,
+      "high": 12.36,
+      "low": 12.15,
+      "volume": 958960
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.31,
-      "change_pct": -0.56,
-      "high": 5.38,
-      "low": 5.27,
-      "volume": 2136838
+      "price": 5.39,
+      "change_pct": 0.75,
+      "high": 5.5,
+      "low": 5.38,
+      "volume": 4352384
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 34.53,
+      "change_pct": -0.95,
+      "high": 35.35,
+      "low": 34.21,
+      "volume": 124819
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "volume": 0
+      "price": 4.92,
+      "change_pct": -5.02,
+      "high": 4.92,
+      "low": 4.92,
+      "volume": 34397
     },
     "601808": {
       "name": "中海油服",
-      "price": 14.96,
-      "change_pct": null,
-      "high": 15.04,
-      "low": 14.81,
-      "volume": 95080
+      "price": 15.02,
+      "change_pct": -0.46,
+      "high": 15.23,
+      "low": 14.95,
+      "volume": 146115
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 127.98,
+      "change_pct": 2.36,
+      "high": 128.3,
+      "low": 123.4,
+      "volume": 70348
     },
     "600803": {
       "name": "新奥股份",
-      "price": 20.96,
-      "change_pct": -0.57,
-      "high": 21.32,
-      "low": 20.87,
-      "volume": 44468
+      "price": 21.14,
+      "change_pct": -0.42,
+      "high": 21.37,
+      "low": 21.0,
+      "volume": 45464
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 6.56,
+      "change_pct": 0.92,
+      "high": 6.66,
+      "low": 6.47,
+      "volume": 1150378
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 14.23,
+      "change_pct": null,
+      "high": 14.32,
+      "low": 14.22,
+      "volume": 618838
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 46.8,
+      "change_pct": -2.6,
+      "high": 47.12,
+      "low": 46.24,
+      "volume": 153086
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 45.43,
+      "change_pct": -0.37,
+      "high": 45.95,
+      "low": 45.11,
+      "volume": 157911
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 41.3,
+      "change_pct": -0.05,
+      "high": 41.48,
+      "low": 40.84,
+      "volume": 653988
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 35.21,
+      "change_pct": 1.21,
+      "high": 35.35,
+      "low": 34.33,
+      "volume": 224741
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 37.99,
-      "change_pct": -2.54,
-      "high": 39.22,
-      "low": 37.6,
-      "volume": 272582
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 25.53,
-      "change_pct": -0.78,
-      "high": 25.79,
-      "low": 25.3,
-      "volume": 234045
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601088": {
       "name": "中国神华",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "sectors": {
     "航运": {
       "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "天然气": {
       "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "军工": {
       "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "黄金": {
       "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "news": [
@@ -519,9 +541,9 @@
         "伊朗"
       ],
       "action_hits": [
-        "停火协议",
-        "打击",
         "谈判",
+        "打击",
+        "停火协议",
         "停火"
       ]
     },
@@ -534,14 +556,14 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "美军",
         "美伊",
+        "美军",
         "伊朗"
       ],
       "action_hits": [
-        "談判",
-        "停火協議",
         "谈判",
+        "停火協議",
+        "談判",
         "停火"
       ]
     },
@@ -554,9 +576,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "美軍",
         "霍爾木茲",
-        "美伊"
+        "美伊",
+        "美軍"
       ],
       "action_hits": [
         "封鎖"
@@ -575,8 +597,8 @@
         "伊朗"
       ],
       "action_hits": [
-        "报复",
-        "打击"
+        "打击",
+        "报复"
       ]
     },
     {
@@ -588,72 +610,15 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "lebanon",
         "israel",
-        "hezbollah"
+        "hezbollah",
+        "lebanon"
       ],
       "action_hits": [
-        "attack",
         "strike",
         "killed",
-        "ceasefire"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Lebanon accuses Israel of targeting journalist killed in air strike",
-      "link": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 23 Apr 2026 04:25:30 GMT",
-      "summary": "Lebanon's prime minister accused Israel of war crimes after IDF attacks on Red Cross vehicles also stopped rescuers from reaching the site.",
-      "lang": "en",
-      "relevance_score": 90,
-      "entity_hits": [
-        "lebanon",
-        "IDF",
-        "israel",
-        "idf"
-      ],
-      "action_hits": [
-        "attack",
-        "strike",
-        "killed"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches",
-      "link": "https://www.bbc.com/news/articles/c3w3vqv0edpo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 23 Apr 2026 01:09:19 GMT",
-      "summary": "Iran's chief negotiator says \"violations\" by the US and Israel make it impossible to open the strait.",
-      "lang": "en",
-      "relevance_score": 80,
-      "entity_hits": [
-        "strait",
-        "hormuz",
-        "iran",
-        "israel"
-      ],
-      "action_hits": [
-        "negotiat",
-        "ceasefire"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Tracking ships under fire in the Strait of Hormuz",
-      "link": "https://www.bbc.com/news/videos/c1l93gg7zmno?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 22 Apr 2026 20:12:03 GMT",
-      "summary": "Iran's top negotiator says it's \"not possible to reopen\" the strait due to \"blatent violations\" of US-Iran ceasefire.",
-      "lang": "en",
-      "relevance_score": 80,
-      "entity_hits": [
-        "strait",
-        "hormuz",
-        "iran"
-      ],
-      "action_hits": [
-        "negotiat",
-        "ceasefire"
+        "ceasefire",
+        "attack"
       ]
     },
     {
@@ -665,13 +630,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "strait",
+        "iran",
         "hormuz",
-        "iran"
+        "strait"
       ],
       "action_hits": [
-        "blockade",
-        "ceasefire"
+        "ceasefire",
+        "blockade"
       ]
     },
     {
@@ -683,13 +648,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "israel",
         "iran",
+        "israel",
         "hezbollah"
       ],
       "action_hits": [
-        "attack",
-        "ceasefire"
+        "ceasefire",
+        "attack"
       ]
     },
     {
@@ -701,8 +666,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
         "strike",
@@ -718,12 +683,12 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
-        "halt",
-        "ceasefire"
+        "ceasefire",
+        "halt"
       ]
     }
   ],
@@ -757,31 +722,17 @@
       "lang": "en"
     },
     {
-      "event_id": "cbcde542de36",
-      "title": "Lebanon accuses Israel of targeting journalist killed in air strike",
-      "location": "以色列",
-      "first_seen_time": "2026-04-23T04:25:30+00:00",
-      "last_updated_time": "2026-04-23T04:25:30+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 90,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "dba23e2eb6eb",
-      "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches",
+      "event_id": "6073d2809eb9",
+      "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-23T01:09:19+00:00",
-      "last_updated_time": "2026-04-23T01:09:19+00:00",
+      "first_seen_time": "2026-04-22T16:19:36+00:00",
+      "last_updated_time": "2026-04-22T16:19:36+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 80,
-      "source_count": 3,
+      "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/c3w3vqv0edpo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -816,7 +767,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "3/30",
         "3/31",
         "4/1",
         "4/2",
@@ -845,7 +795,8 @@
         "4/25",
         "4/26",
         "4/27",
-        "4/28"
+        "4/28",
+        "4/29"
       ],
       "transits": [
         0,
@@ -935,25 +886,25 @@
         21,
         69
       ],
-      "date_label": "4月28日"
+      "date_label": "4月29日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-04-28",
+      "hormuz_last_date": "2026-04-29",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 46,
+      "vlcc_stale_days": 47,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-04-28"
+      "routes_date": "2026-04-29"
     }
   },
   "meta": {
-    "report_date": "2026.04.28",
-    "report_date_cn": "2026年04月28日",
-    "war_day": 60,
+    "report_date": "2026.04.29",
+    "report_date_cn": "2026年04月29日",
+    "war_day": 61,
     "war_start": "2026-02-28",
-    "generated_at": "2026-04-28T12:40:29.971187+08:00",
-    "generated_at_cn": "2026-04-28 12:40:29 北京时间"
+    "generated_at": "2026-04-29T12:34:11.031810+08:00",
+    "generated_at_cn": "2026-04-29 12:34:11 北京时间"
   },
   "history": [
     {
@@ -1333,6 +1284,13 @@
       "wti": 97.41999816894531,
       "gold": 4680.10009765625,
       "usd_cny": 6.827700138092041
+    },
+    {
+      "date": "2026-04-29",
+      "brent": 104.12000274658203,
+      "wti": 99.36000061035156,
+      "gold": 4613.7998046875,
+      "usd_cny": 6.835299968719482
     }
   ]
 }

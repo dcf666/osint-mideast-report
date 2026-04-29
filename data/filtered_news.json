@@ -13,9 +13,9 @@
       "伊朗"
     ],
     "action_hits": [
-      "停火协议",
-      "打击",
       "谈判",
+      "打击",
+      "停火协议",
       "停火"
     ]
   },
@@ -28,14 +28,14 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美军",
       "美伊",
+      "美军",
       "伊朗"
     ],
     "action_hits": [
-      "談判",
-      "停火協議",
       "谈判",
+      "停火協議",
+      "談判",
       "停火"
     ]
   },
@@ -48,9 +48,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美軍",
       "霍爾木茲",
-      "美伊"
+      "美伊",
+      "美軍"
     ],
     "action_hits": [
       "封鎖"
@@ -69,8 +69,8 @@
       "伊朗"
     ],
     "action_hits": [
-      "报复",
-      "打击"
+      "打击",
+      "报复"
     ]
   },
   {
@@ -82,72 +82,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "lebanon",
       "israel",
-      "hezbollah"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
-      "attack",
       "strike",
       "killed",
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Lebanon accuses Israel of targeting journalist killed in air strike",
-    "link": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 23 Apr 2026 04:25:30 GMT",
-    "summary": "Lebanon's prime minister accused Israel of war crimes after IDF attacks on Red Cross vehicles also stopped rescuers from reaching the site.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "lebanon",
-      "IDF",
-      "israel",
-      "idf"
-    ],
-    "action_hits": [
-      "attack",
-      "strike",
-      "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches",
-    "link": "https://www.bbc.com/news/articles/c3w3vqv0edpo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 23 Apr 2026 01:09:19 GMT",
-    "summary": "Iran's chief negotiator says \"violations\" by the US and Israel make it impossible to open the strait.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "strait",
-      "hormuz",
-      "iran",
-      "israel"
-    ],
-    "action_hits": [
-      "negotiat",
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Tracking ships under fire in the Strait of Hormuz",
-    "link": "https://www.bbc.com/news/videos/c1l93gg7zmno?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 22 Apr 2026 20:12:03 GMT",
-    "summary": "Iran's top negotiator says it's \"not possible to reopen\" the strait due to \"blatent violations\" of US-Iran ceasefire.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "strait",
-      "hormuz",
-      "iran"
-    ],
-    "action_hits": [
-      "negotiat",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -159,13 +102,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "strait",
+      "iran",
       "hormuz",
-      "iran"
+      "strait"
     ],
     "action_hits": [
-      "blockade",
-      "ceasefire"
+      "ceasefire",
+      "blockade"
     ]
   },
   {
@@ -177,13 +120,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "iran",
+      "israel",
       "hezbollah"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -195,8 +138,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "strike",
@@ -212,12 +155,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
-      "halt",
-      "ceasefire"
+      "ceasefire",
+      "halt"
     ]
   }
 ]

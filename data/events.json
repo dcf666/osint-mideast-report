@@ -28,31 +28,17 @@
     "lang": "en"
   },
   {
-    "event_id": "cbcde542de36",
-    "title": "Lebanon accuses Israel of targeting journalist killed in air strike",
-    "location": "以色列",
-    "first_seen_time": "2026-04-23T04:25:30+00:00",
-    "last_updated_time": "2026-04-23T04:25:30+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "dba23e2eb6eb",
-    "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches",
+    "event_id": "6073d2809eb9",
+    "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-23T01:09:19+00:00",
-    "last_updated_time": "2026-04-23T01:09:19+00:00",
+    "first_seen_time": "2026-04-22T16:19:36+00:00",
+    "last_updated_time": "2026-04-22T16:19:36+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 3,
+    "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c3w3vqv0edpo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
