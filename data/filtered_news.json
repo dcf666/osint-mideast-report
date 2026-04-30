@@ -1,42 +1,24 @@
 [
   {
     "source": "德国之声",
-    "title": "特朗普宣布延长停火 美伊下一轮究竟谈不谈？",
-    "link": "https://www.dw.com/zh/特朗普宣布延长停火-美伊下一轮究竟谈不谈？/a-76884827?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 22 Apr 2026 03:00:00 GMT",
-    "summary": "美以对伊朗实施军事打击数周后直至本月8日起为期两周的停火协议即将到期，在第一轮和解谈判无果而终后，外界对于美国和伊朗是否会进行第二轮谈判格外关注。美国总统特朗普“善变”的表态，更让人摸不着头脑。",
+    "title": "阿聯酋退出OPEC 如何影響油價與全球油市版圖？",
+    "link": "https://www.dw.com/zh/阿聯酋退出opec-如何影響油價與全球油市版圖？/a-76974661?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 29 Apr 2026 04:38:00 GMT",
+    "summary": "阿拉伯聯合大公國宣布5月退出OPEC及OPEC+，可能削弱產油國聯盟調控原油供應與油價的穩定。分析指出，在霍爾木茲海峽仍受伊朗封鎖、全球原油供應緊張之際，阿聯酋此舉短期對油價影響有限，但長期恐引發產油國競逐市占，增添油價波動與地緣政治風險。",
     "lang": "zh",
-    "relevance_score": 100,
+    "relevance_score": 90,
     "entity_hits": [
-      "美以",
-      "美伊",
-      "伊朗"
+      "伊朗",
+      "海峽",
+      "油價",
+      "阿聯酋",
+      "霍爾木茲",
+      "原油"
     ],
     "action_hits": [
-      "谈判",
-      "打击",
-      "停火协议",
-      "停火"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美军扣押從中國開往伊朗的商船 万斯赴巴基斯坦准备谈判",
-    "link": "https://www.dw.com/zh/美军扣押從中國開往伊朗的商船-万斯赴巴基斯坦准备谈判/a-76852131?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Mon, 20 Apr 2026 04:02:00 GMT",
-    "summary": "在美伊預計進行新一輪談判之際，美國宣布扣押一艘從中國開往伊朗的伊朗商船。此舉引發伊朗不滿，批評美國破壞停火協議。尽管伊朗官媒稱當前無意參加與美國的第二輪會談。但是特朗普周一表示，万斯已在前往伊斯兰堡的途中，准备继续与伊朗的谈判。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "美伊",
-      "美军",
-      "伊朗"
-    ],
-    "action_hits": [
-      "谈判",
-      "停火協議",
-      "談判",
-      "停火"
+      "封鎖",
+      "原油",
+      "油價"
     ]
   },
   {
@@ -48,12 +30,47 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "美軍",
       "霍爾木茲",
-      "美伊",
-      "美軍"
+      "美伊"
     ],
     "action_hits": [
       "封鎖"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "极限施压：美国对伊朗及其“影子银行”网络实施新一轮制裁",
+    "link": "https://www.dw.com/zh/极限施压：美国对伊朗及其-影子银行-网络实施新一轮制裁/a-76985152?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 29 Apr 2026 14:44:00 GMT",
+    "summary": "美国政府周二（4月28日）进一步升级对德黑兰的压力，宣布对参与伊朗“影子银行”体系的35个实体和个人实施制裁。同时，美国财政部发出严厉警告，威胁将制裁那些向伊朗支付霍尔木兹海峡“通行费”的中国“茶壶”炼油厂及其相关业务银行。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "霍尔木兹",
+      "伊朗",
+      "海峡",
+      "德黑兰"
+    ],
+    "action_hits": [
+      "制裁"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "俄罗斯：阿联酋退出欧佩克将压低油价",
+    "link": "https://www.ftchinese.com/story/001109599",
+    "published": "Wed, 29 Apr 2026 16:00:00 GMT",
+    "summary": "俄罗斯将留在更广泛的欧佩克+联盟内，但警告称，阿联酋不受欧佩克产量配额的限制将在中东冲突结束后压低油价。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "中东",
+      "阿联酋",
+      "油价"
+    ],
+    "action_hits": [
+      "油价"
     ]
   },
   {
@@ -65,8 +82,8 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "五角大楼",
-      "伊朗"
+      "伊朗",
+      "五角大楼"
     ],
     "action_hits": [
       "打击",
@@ -82,15 +99,34 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "lebanon",
       "israel",
-      "hezbollah",
-      "lebanon"
+      "hezbollah"
     ],
     "action_hits": [
       "strike",
-      "killed",
       "ceasefire",
-      "attack"
+      "attack",
+      "killed"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli 'double-tap' strike kills three rescue workers in Lebanon, officials say",
+    "link": "https://www.bbc.com/news/articles/cvgz5rgv4n3o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 29 Apr 2026 15:30:50 GMT",
+    "summary": "They are among nine people killed in successive attacks on Tuesday, which Israel's military says targeted a Hezbollah commander.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "lebanon",
+      "israel",
+      "hezbollah"
+    ],
+    "action_hits": [
+      "strike",
+      "attack",
+      "killed"
     ]
   },
   {
@@ -102,9 +138,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
+      "strait",
       "hormuz",
-      "strait"
+      "iran"
     ],
     "action_hits": [
       "ceasefire",
@@ -120,12 +156,46 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
+      "israel",
+      "hezbollah",
+      "iran"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
+    "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 29 Apr 2026 14:41:26 GMT",
+    "summary": "Israel and Hezbollah are still fighting in Lebanon despite a US-brokered ceasefire that began 12 days ago.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "lebanon",
       "israel",
       "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+    "link": "https://www.bbc.com/news/articles/cwy2482pn0lo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 29 Apr 2026 02:01:50 GMT",
+    "summary": "In the two months since the deadly strike, the US defence department has said only that the incident is under investigation.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "pentagon",
+      "iran"
+    ],
+    "action_hits": [
+      "strike",
       "attack"
     ]
   },
@@ -138,8 +208,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "strike",
@@ -155,8 +225,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "ceasefire",
