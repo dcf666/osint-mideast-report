@@ -8,17 +8,34 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "伊朗",
-      "海峽",
-      "油價",
-      "阿聯酋",
       "霍爾木茲",
-      "原油"
+      "油價",
+      "海峽",
+      "伊朗",
+      "原油",
+      "阿聯酋"
     ],
     "action_hits": [
       "封鎖",
       "原油",
       "油價"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
+    "link": "https://www.bbc.com/zhongwen/articles/c1m297m15n9o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 01 May 2026 01:07:06 GMT",
+    "summary": "亞洲各國的播種季開始，但霍爾木茲海峽關閉和中國的出口限制已經對肥料供應造成打擊。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "霍爾木茲",
+      "海峽",
+      "伊朗"
+    ],
+    "action_hits": [
+      "打擊"
     ]
   },
   {
@@ -30,12 +47,29 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美軍",
+      "美伊",
       "霍爾木茲",
-      "美伊"
+      "美軍"
     ],
     "action_hits": [
       "封鎖"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "战费突破250亿、油价飙升：美防长听证会遭民主党围攻",
+    "link": "https://www.dw.com/zh/战费突破250亿、油价飙升：美防长听证会遭民主党围攻/a-76995902?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Thu, 30 Apr 2026 12:29:00 GMT",
+    "summary": "周三，美国国防部长赫格塞斯（Pete Hegseth）首次就伊朗战争接受国会议员质询。听证会披露，开战仅两个月，美军战费已烧掉250亿美元。面对民主党人关于国内油价“火箭式”上涨的抨击，海格塞斯表现出强硬姿态，坚称防止伊朗拥有核武器的优先级高于经济成本。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "油价",
+      "美军",
+      "伊朗"
+    ],
+    "action_hits": [
+      "油价"
     ]
   },
   {
@@ -47,10 +81,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
-      "伊朗",
+      "德黑兰",
       "海峡",
-      "德黑兰"
+      "伊朗",
+      "霍尔木兹"
     ],
     "action_hits": [
       "制裁"
@@ -65,9 +99,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "中东",
+      "油价",
       "阿联酋",
-      "油价"
+      "中东"
     ],
     "action_hits": [
       "油价"
@@ -82,12 +116,12 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "伊朗",
-      "五角大楼"
+      "五角大楼",
+      "伊朗"
     ],
     "action_hits": [
-      "打击",
-      "报复"
+      "报复",
+      "打击"
     ]
   },
   {
@@ -104,10 +138,10 @@
       "hezbollah"
     ],
     "action_hits": [
-      "strike",
-      "ceasefire",
+      "killed",
       "attack",
-      "killed"
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -124,9 +158,9 @@
       "hezbollah"
     ],
     "action_hits": [
-      "strike",
+      "killed",
       "attack",
-      "killed"
+      "strike"
     ]
   },
   {
@@ -138,8 +172,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "strait",
       "hormuz",
+      "strait",
       "iran"
     ],
     "action_hits": [
@@ -156,30 +190,31 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
+      "iran",
       "hezbollah",
-      "iran"
+      "israel"
     ],
     "action_hits": [
-      "ceasefire",
-      "attack"
+      "attack",
+      "ceasefire"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
-    "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 29 Apr 2026 14:41:26 GMT",
-    "summary": "Israel and Hezbollah are still fighting in Lebanon despite a US-brokered ceasefire that began 12 days ago.",
+    "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
+    "link": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 30 Apr 2026 20:14:48 GMT",
+    "summary": "At least nine people - including two children - were killed, according to Lebanon's health ministry.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
       "lebanon",
-      "israel",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
-      "ceasefire"
+      "killed",
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -191,12 +226,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "pentagon",
-      "iran"
+      "iran",
+      "pentagon"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -212,8 +247,8 @@
       "israel"
     ],
     "action_hits": [
-      "strike",
-      "ceasefire"
+      "ceasefire",
+      "strike"
     ]
   },
   {
