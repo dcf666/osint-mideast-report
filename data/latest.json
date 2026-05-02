@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 111.20999908447266,
-      "day_change_pct": -5.78,
-      "war_change_pct": 43.05,
+      "current": 108.16999816894531,
+      "day_change_pct": -5.12,
+      "war_change_pct": 39.14,
       "dates": [
-        "03/19",
         "03/20",
         "03/23",
         "03/24",
@@ -34,10 +33,10 @@
         "04/27",
         "04/28",
         "04/29",
+        "04/30",
         "05/01"
       ],
       "prices": [
-        108.65,
         112.19,
         99.94,
         104.49,
@@ -66,14 +65,15 @@
         108.23,
         111.26,
         118.03,
-        111.21
+        114.01,
+        108.17
       ],
-      "updated": "2026-05-01T04:53:17.450148"
+      "updated": "2026-05-02T04:21:07.913521"
     },
     "wti": {
-      "current": 105.27999877929688,
-      "day_change_pct": 0.2,
-      "war_change_pct": 47.8,
+      "current": 101.94000244140625,
+      "day_change_pct": -2.98,
+      "war_change_pct": 43.11,
       "dates": [
         "03/20",
         "03/23",
@@ -136,14 +136,14 @@
         99.93,
         106.88,
         105.07,
-        105.28
+        101.94
       ],
-      "updated": "2026-05-01T04:53:17.681654"
+      "updated": "2026-05-02T04:21:08.048969"
     },
     "gold": {
-      "current": 4624.39990234375,
-      "day_change_pct": 0.21,
-      "war_change_pct": -12.65,
+      "current": 4629.89990234375,
+      "day_change_pct": 0.33,
+      "war_change_pct": -12.55,
       "dates": [
         "03/20",
         "03/23",
@@ -206,16 +206,15 @@
         4591.5,
         4545.2,
         4614.7,
-        4624.4
+        4629.9
       ],
-      "updated": "2026-05-01T04:53:17.935816"
+      "updated": "2026-05-02T04:21:08.182796"
     },
     "usd_cny": {
-      "current": 6.8267998695373535,
-      "day_change_pct": -0.16,
+      "current": 6.827099800109863,
+      "day_change_pct": -0.0,
       "war_change_pct": -0.45,
       "dates": [
-        "03/23",
         "03/24",
         "03/25",
         "03/26",
@@ -244,10 +243,10 @@
         "04/28",
         "04/29",
         "04/30",
-        "05/01"
+        "05/01",
+        "05/02"
       ],
       "prices": [
-        6.89,
         6.88,
         6.89,
         6.9,
@@ -276,14 +275,15 @@
         6.82,
         6.84,
         6.84,
+        6.83,
         6.83
       ],
-      "updated": "2026-05-01T04:53:18.208647"
+      "updated": "2026-05-02T04:21:08.321649"
     },
     "nat_gas": {
-      "current": 2.7780001163482666,
-      "day_change_pct": 0.4,
-      "war_change_pct": -6.15,
+      "current": 2.7799999713897705,
+      "day_change_pct": 0.47,
+      "war_change_pct": -6.08,
       "dates": [
         "03/20",
         "03/23",
@@ -348,7 +348,7 @@
         2.77,
         2.78
       ],
-      "updated": "2026-05-01T04:53:18.553165"
+      "updated": "2026-05-02T04:21:08.454622"
     }
   },
   "stocks": {
@@ -490,44 +490,40 @@
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 38.0,
-      "change_pct": -2.26,
-      "high": 38.88,
-      "low": 37.61,
-      "volume": 412085
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 25.96,
-      "change_pct": -0.42,
-      "high": 26.25,
-      "low": 25.36,
-      "volume": 614399
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601088": {
       "name": "中国神华",
-      "price": 48.0,
-      "change_pct": 0.04,
-      "high": 48.18,
-      "low": 47.52,
-      "volume": 305251
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.63
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "天然气": {
-      "change_pct": 0.54
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "军工": {
-      "change_pct": -0.4
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "黄金": {
-      "change_pct": 0.45
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "news": [
@@ -541,11 +537,11 @@
       "relevance_score": 90,
       "entity_hits": [
         "霍爾木茲",
-        "油價",
-        "海峽",
-        "伊朗",
         "原油",
-        "阿聯酋"
+        "伊朗",
+        "阿聯酋",
+        "油價",
+        "海峽"
       ],
       "action_hits": [
         "封鎖",
@@ -562,9 +558,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "霍爾木茲",
+        "伊朗",
         "海峽",
-        "伊朗"
+        "霍爾木茲"
       ],
       "action_hits": [
         "打擊"
@@ -580,8 +576,8 @@
       "relevance_score": 70,
       "entity_hits": [
         "美伊",
-        "霍爾木茲",
-        "美軍"
+        "美軍",
+        "霍爾木茲"
       ],
       "action_hits": [
         "封鎖"
@@ -596,9 +592,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "油价",
         "美军",
-        "伊朗"
+        "伊朗",
+        "油价"
       ],
       "action_hits": [
         "油价"
@@ -613,10 +609,10 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "德黑兰",
         "海峡",
         "伊朗",
-        "霍尔木兹"
+        "霍尔木兹",
+        "德黑兰"
       ],
       "action_hits": [
         "制裁"
@@ -648,32 +644,12 @@
       "lang": "zh",
       "relevance_score": 67,
       "entity_hits": [
-        "五角大楼",
-        "伊朗"
+        "伊朗",
+        "五角大楼"
       ],
       "action_hits": [
-        "报复",
-        "打击"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-      "link": "https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 26 Apr 2026 00:34:21 GMT",
-      "summary": "The Israeli PM's directive comes as six people were killed by strikes in Lebanon despite a ceasefire being extended by three weeks.",
-      "lang": "en",
-      "relevance_score": 100,
-      "entity_hits": [
-        "lebanon",
-        "israel",
-        "hezbollah"
-      ],
-      "action_hits": [
-        "killed",
-        "attack",
-        "ceasefire",
-        "strike"
+        "打击",
+        "报复"
       ]
     },
     {
@@ -685,14 +661,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "lebanon",
+        "hezbollah",
         "israel",
-        "hezbollah"
+        "lebanon"
       ],
       "action_hits": [
-        "killed",
         "attack",
-        "strike"
+        "strike",
+        "killed"
       ]
     },
     {
@@ -704,13 +680,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hormuz",
+        "iran",
         "strait",
-        "iran"
+        "hormuz"
       ],
       "action_hits": [
-        "ceasefire",
-        "blockade"
+        "blockade",
+        "ceasefire"
       ]
     },
     {
@@ -735,18 +711,35 @@
       "source": "BBC中东",
       "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
       "link": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 30 Apr 2026 20:14:48 GMT",
-      "summary": "At least nine people - including two children - were killed, according to Lebanon's health ministry.",
+      "published": "Fri, 01 May 2026 08:12:04 GMT",
+      "summary": "Seventeen people - including two children - were killed, according to Lebanon's health ministry.",
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
-        "killed",
         "ceasefire",
-        "strike"
+        "strike",
+        "killed"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
+      "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 29 Apr 2026 14:41:26 GMT",
+      "summary": "Israel and Hezbollah are still fighting in Lebanon despite a US-brokered ceasefire that began 12 days ago.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "hezbollah",
+        "israel",
+        "lebanon"
+      ],
+      "action_hits": [
+        "ceasefire"
       ]
     },
     {
@@ -768,23 +761,6 @@
     },
     {
       "source": "BBC中东",
-      "title": "Israeli strikes kill 14 in Lebanon amid ongoing ceasefire",
-      "link": "https://www.bbc.com/news/articles/c4gxgv8j7zlo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 26 Apr 2026 22:02:45 GMT",
-      "summary": "The US announced three days ago that the ceasefire was extended by three weeks after talks.",
-      "lang": "en",
-      "relevance_score": 60,
-      "entity_hits": [
-        "lebanon",
-        "israel"
-      ],
-      "action_hits": [
-        "ceasefire",
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
       "title": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain",
       "link": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 17 Apr 2026 14:31:51 GMT",
@@ -792,30 +768,16 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
-        "ceasefire",
-        "halt"
+        "halt",
+        "ceasefire"
       ]
     }
   ],
   "event_states": [
-    {
-      "event_id": "1e0bac18234f",
-      "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
-      "location": "以色列",
-      "first_seen_time": "2026-04-26T00:34:21+00:00",
-      "last_updated_time": "2026-04-30T20:14:48+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 100,
-      "source_count": 4,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
     {
       "event_id": "4c778b350e36",
       "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
@@ -913,12 +875,25 @@
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001109599",
       "lang": "zh"
+    },
+    {
+      "event_id": "511a9d952105",
+      "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
+      "location": "以色列",
+      "first_seen_time": "2026-05-01T08:12:04+00:00",
+      "last_updated_time": "2026-05-01T08:12:04+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 70,
+      "source_count": 3,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "4/2",
         "4/3",
         "4/4",
         "4/5",
@@ -947,7 +922,8 @@
         "4/28",
         "4/29",
         "4/30",
-        "5/1"
+        "5/1",
+        "5/2"
       ],
       "transits": [
         0,
@@ -1037,25 +1013,25 @@
         21,
         69
       ],
-      "date_label": "5月1日"
+      "date_label": "5月2日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-05-01",
+      "hormuz_last_date": "2026-05-02",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 49,
+      "vlcc_stale_days": 50,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-05-01"
+      "routes_date": "2026-05-02"
     }
   },
   "meta": {
-    "report_date": "2026.05.01",
-    "report_date_cn": "2026年05月01日",
-    "war_day": 63,
+    "report_date": "2026.05.02",
+    "report_date_cn": "2026年05月02日",
+    "war_day": 64,
     "war_start": "2026-02-28",
-    "generated_at": "2026-05-01T12:54:10.757961+08:00",
-    "generated_at_cn": "2026-05-01 12:54:10 北京时间"
+    "generated_at": "2026-05-02T12:21:54.704545+08:00",
+    "generated_at_cn": "2026-05-02 12:21:54 北京时间"
   },
   "history": [
     {
@@ -1456,6 +1432,13 @@
       "wti": 105.27999877929688,
       "gold": 4624.39990234375,
       "usd_cny": 6.8267998695373535
+    },
+    {
+      "date": "2026-05-02",
+      "brent": 108.16999816894531,
+      "wti": 101.94000244140625,
+      "gold": 4629.89990234375,
+      "usd_cny": 6.827099800109863
     }
   ]
 }

@@ -9,11 +9,11 @@
     "relevance_score": 90,
     "entity_hits": [
       "霍爾木茲",
-      "油價",
-      "海峽",
-      "伊朗",
       "原油",
-      "阿聯酋"
+      "伊朗",
+      "阿聯酋",
+      "油價",
+      "海峽"
     ],
     "action_hits": [
       "封鎖",
@@ -30,9 +30,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍爾木茲",
+      "伊朗",
       "海峽",
-      "伊朗"
+      "霍爾木茲"
     ],
     "action_hits": [
       "打擊"
@@ -48,8 +48,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "美伊",
-      "霍爾木茲",
-      "美軍"
+      "美軍",
+      "霍爾木茲"
     ],
     "action_hits": [
       "封鎖"
@@ -64,9 +64,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "油价",
       "美军",
-      "伊朗"
+      "伊朗",
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -81,10 +81,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "德黑兰",
       "海峡",
       "伊朗",
-      "霍尔木兹"
+      "霍尔木兹",
+      "德黑兰"
     ],
     "action_hits": [
       "制裁"
@@ -116,32 +116,12 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "五角大楼",
-      "伊朗"
+      "伊朗",
+      "五角大楼"
     ],
     "action_hits": [
-      "报复",
-      "打击"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-    "link": "https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 26 Apr 2026 00:34:21 GMT",
-    "summary": "The Israeli PM's directive comes as six people were killed by strikes in Lebanon despite a ceasefire being extended by three weeks.",
-    "lang": "en",
-    "relevance_score": 100,
-    "entity_hits": [
-      "lebanon",
-      "israel",
-      "hezbollah"
-    ],
-    "action_hits": [
-      "killed",
-      "attack",
-      "ceasefire",
-      "strike"
+      "打击",
+      "报复"
     ]
   },
   {
@@ -153,14 +133,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "lebanon",
+      "hezbollah",
       "israel",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
-      "killed",
       "attack",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -172,13 +152,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hormuz",
+      "iran",
       "strait",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
-      "ceasefire",
-      "blockade"
+      "blockade",
+      "ceasefire"
     ]
   },
   {
@@ -203,18 +183,35 @@
     "source": "BBC中东",
     "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
     "link": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 30 Apr 2026 20:14:48 GMT",
-    "summary": "At least nine people - including two children - were killed, according to Lebanon's health ministry.",
+    "published": "Fri, 01 May 2026 08:12:04 GMT",
+    "summary": "Seventeen people - including two children - were killed, according to Lebanon's health ministry.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
-      "killed",
       "ceasefire",
-      "strike"
+      "strike",
+      "killed"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
+    "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 29 Apr 2026 14:41:26 GMT",
+    "summary": "Israel and Hezbollah are still fighting in Lebanon despite a US-brokered ceasefire that began 12 days ago.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "hezbollah",
+      "israel",
+      "lebanon"
+    ],
+    "action_hits": [
+      "ceasefire"
     ]
   },
   {
@@ -236,23 +233,6 @@
   },
   {
     "source": "BBC中东",
-    "title": "Israeli strikes kill 14 in Lebanon amid ongoing ceasefire",
-    "link": "https://www.bbc.com/news/articles/c4gxgv8j7zlo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 26 Apr 2026 22:02:45 GMT",
-    "summary": "The US announced three days ago that the ceasefire was extended by three weeks after talks.",
-    "lang": "en",
-    "relevance_score": 60,
-    "entity_hits": [
-      "lebanon",
-      "israel"
-    ],
-    "action_hits": [
-      "ceasefire",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
     "title": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain",
     "link": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
     "published": "Fri, 17 Apr 2026 14:31:51 GMT",
@@ -260,12 +240,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
-      "ceasefire",
-      "halt"
+      "halt",
+      "ceasefire"
     ]
   }
 ]

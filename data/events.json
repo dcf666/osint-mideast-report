@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "1e0bac18234f",
-    "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
-    "location": "以色列",
-    "first_seen_time": "2026-04-26T00:34:21+00:00",
-    "last_updated_time": "2026-04-30T20:14:48+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 100,
-    "source_count": 4,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "4c778b350e36",
     "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
     "location": "霍尔木兹海峡",
@@ -110,5 +96,19 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001109599",
     "lang": "zh"
+  },
+  {
+    "event_id": "511a9d952105",
+    "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
+    "location": "以色列",
+    "first_seen_time": "2026-05-01T08:12:04+00:00",
+    "last_updated_time": "2026-05-01T08:12:04+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 3,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   }
 ]
