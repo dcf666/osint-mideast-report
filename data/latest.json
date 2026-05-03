@@ -68,7 +68,7 @@
         114.01,
         108.17
       ],
-      "updated": "2026-05-02T04:21:07.913521"
+      "updated": "2026-05-03T04:43:54.874489"
     },
     "wti": {
       "current": 101.94000244140625,
@@ -138,12 +138,12 @@
         105.07,
         101.94
       ],
-      "updated": "2026-05-02T04:21:08.048969"
+      "updated": "2026-05-03T04:43:54.956242"
     },
     "gold": {
-      "current": 4629.89990234375,
-      "day_change_pct": 0.33,
-      "war_change_pct": -12.55,
+      "current": 4644.5,
+      "day_change_pct": 0.65,
+      "war_change_pct": -12.28,
       "dates": [
         "03/20",
         "03/23",
@@ -206,9 +206,9 @@
         4591.5,
         4545.2,
         4614.7,
-        4629.9
+        4644.5
       ],
-      "updated": "2026-05-02T04:21:08.182796"
+      "updated": "2026-05-03T04:43:55.035297"
     },
     "usd_cny": {
       "current": 6.827099800109863,
@@ -278,7 +278,7 @@
         6.83,
         6.83
       ],
-      "updated": "2026-05-02T04:21:08.321649"
+      "updated": "2026-05-03T04:43:55.117406"
     },
     "nat_gas": {
       "current": 2.7799999713897705,
@@ -348,17 +348,14 @@
         2.77,
         2.78
       ],
-      "updated": "2026-05-02T04:21:08.454622"
+      "updated": "2026-05-03T04:43:55.194016"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.6,
-      "change_pct": -0.06,
-      "high": 17.93,
-      "low": 16.88,
-      "volume": 1177278
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600026": {
       "name": "中远海能",
@@ -370,11 +367,8 @@
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.48,
-      "change_pct": -1.97,
-      "high": 4.62,
-      "low": 4.42,
-      "volume": 2131943
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600938": {
       "name": "中国海油",
@@ -490,43 +484,68 @@
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 38.0,
+      "change_pct": -2.26,
+      "high": 38.88,
+      "low": 37.61,
+      "volume": 412085
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 25.96,
+      "change_pct": -0.42,
+      "high": 26.25,
+      "low": 25.36,
+      "volume": 614399
     },
     "601088": {
       "name": "中国神华",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 48.0,
+      "change_pct": 0.04,
+      "high": 48.18,
+      "low": 47.52,
+      "volume": 305251
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -0.63
     },
     "石油": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 0.54
     },
     "军工": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -0.4
     },
     "黄金": {
       "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     }
   },
   "news": [
+    {
+      "source": "德国之声",
+      "title": "美国警告航运公司：支付伊朗“过路费”或遭制裁",
+      "link": "https://www.dw.com/zh/美国警告航运公司：支付伊朗-过路费-或遭制裁/a-77018362?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 2 May 2026 10:35:00 GMT",
+      "summary": "美国政府近日向全球航运业发出严厉警示：任何为寻求“安全通行”而向伊朗支付费用的行为，都可能触发美方制裁。自2月美以对伊开战以来，霍尔木兹海峡航道受阻，伊朗被指设立“收费站”榨取资金。美国财政部强调，制裁风险涵盖现金、虚拟货币等各类支付方式。与此同时，美方对伊实施的海军封锁仍在持续。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "伊朗",
+        "美以",
+        "霍尔木兹",
+        "海峡"
+      ],
+      "action_hits": [
+        "制裁",
+        "航运",
+        "封锁"
+      ]
+    },
     {
       "source": "德国之声",
       "title": "阿聯酋退出OPEC 如何影響油價與全球油市版圖？",
@@ -536,17 +555,17 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
+        "海峽",
         "霍爾木茲",
-        "原油",
-        "伊朗",
         "阿聯酋",
-        "油價",
-        "海峽"
-      ],
-      "action_hits": [
-        "封鎖",
+        "伊朗",
         "原油",
         "油價"
+      ],
+      "action_hits": [
+        "油價",
+        "原油",
+        "封鎖"
       ]
     },
     {
@@ -558,9 +577,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "伊朗",
         "海峽",
-        "霍爾木茲"
+        "霍爾木茲",
+        "伊朗"
       ],
       "action_hits": [
         "打擊"
@@ -575,9 +594,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "美伊",
+        "霍爾木茲",
         "美軍",
-        "霍爾木茲"
+        "美伊"
       ],
       "action_hits": [
         "封鎖"
@@ -592,9 +611,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "美军",
         "伊朗",
-        "油价"
+        "油价",
+        "美军"
       ],
       "action_hits": [
         "油价"
@@ -609,9 +628,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "海峡",
         "伊朗",
         "霍尔木兹",
+        "海峡",
         "德黑兰"
       ],
       "action_hits": [
@@ -627,9 +646,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
+        "中东",
         "油价",
-        "阿联酋",
-        "中东"
+        "阿联酋"
       ],
       "action_hits": [
         "油价"
@@ -654,6 +673,26 @@
     },
     {
       "source": "BBC中东",
+      "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
+      "link": "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 02 May 2026 16:51:18 GMT",
+      "summary": "Four women and a child are among the dead, as fighting between Israel and Iran-backed Hezbollah continues despite a ceasefire.",
+      "lang": "en",
+      "relevance_score": 90,
+      "entity_hits": [
+        "israel",
+        "hezbollah",
+        "lebanon",
+        "iran"
+      ],
+      "action_hits": [
+        "strike",
+        "killed",
+        "ceasefire"
+      ]
+    },
+    {
+      "source": "BBC中东",
       "title": "Israeli 'double-tap' strike kills three rescue workers in Lebanon, officials say",
       "link": "https://www.bbc.com/news/articles/cvgz5rgv4n3o?at_medium=RSS&at_campaign=rss",
       "published": "Wed, 29 Apr 2026 15:30:50 GMT",
@@ -662,13 +701,13 @@
       "relevance_score": 90,
       "entity_hits": [
         "hezbollah",
-        "israel",
-        "lebanon"
+        "lebanon",
+        "israel"
       ],
       "action_hits": [
-        "attack",
         "strike",
-        "killed"
+        "killed",
+        "attack"
       ]
     },
     {
@@ -680,9 +719,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "iran",
         "strait",
-        "hormuz"
+        "hormuz",
+        "iran"
       ],
       "action_hits": [
         "blockade",
@@ -698,31 +737,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "iran",
+        "israel",
         "hezbollah",
-        "israel"
+        "iran"
       ],
       "action_hits": [
         "attack",
         "ceasefire"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
-      "link": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 01 May 2026 08:12:04 GMT",
-      "summary": "Seventeen people - including two children - were killed, according to Lebanon's health ministry.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "israel",
-        "lebanon"
-      ],
-      "action_hits": [
-        "ceasefire",
-        "strike",
-        "killed"
       ]
     },
     {
@@ -735,8 +756,8 @@
       "relevance_score": 70,
       "entity_hits": [
         "hezbollah",
-        "israel",
-        "lebanon"
+        "lebanon",
+        "israel"
       ],
       "action_hits": [
         "ceasefire"
@@ -751,12 +772,12 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "iran",
-        "pentagon"
+        "pentagon",
+        "iran"
       ],
       "action_hits": [
-        "attack",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -768,8 +789,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "israel",
-        "lebanon"
+        "lebanon",
+        "israel"
       ],
       "action_hits": [
         "halt",
@@ -778,6 +799,20 @@
     }
   ],
   "event_states": [
+    {
+      "event_id": "635c41f57181",
+      "title": "美国警告航运公司：支付伊朗“过路费”或遭制裁",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-05-02T10:35:00+00:00",
+      "last_updated_time": "2026-05-02T10:35:00+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美国警告航运公司：支付伊朗-过路费-或遭制裁/a-77018362?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
     {
       "event_id": "4c778b350e36",
       "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
@@ -791,6 +826,20 @@
       "source": "德国之声",
       "link": "https://www.dw.com/zh/阿聯酋退出opec-如何影響油價與全球油市版圖？/a-76974661?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
+    },
+    {
+      "event_id": "fe7ea2bcd29d",
+      "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
+      "location": "伊朗",
+      "first_seen_time": "2026-05-02T16:51:18+00:00",
+      "last_updated_time": "2026-05-02T16:51:18+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 90,
+      "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "81b0ff5c2771",
@@ -818,20 +867,6 @@
       "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "320a7b62aadf",
-      "title": "Israelis war-weary but most oppose Iran ceasefire, poll suggests",
-      "location": "伊朗",
-      "first_seen_time": "2026-04-13T19:20:08+00:00",
-      "last_updated_time": "2026-04-13T19:20:08+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 80,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/clyxgxyeqpgo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -877,24 +912,23 @@
       "lang": "zh"
     },
     {
-      "event_id": "511a9d952105",
-      "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
+      "event_id": "0e55f24ad3e6",
+      "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
       "location": "以色列",
-      "first_seen_time": "2026-05-01T08:12:04+00:00",
-      "last_updated_time": "2026-05-01T08:12:04+00:00",
+      "first_seen_time": "2026-04-29T14:41:26+00:00",
+      "last_updated_time": "2026-04-29T14:41:26+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 70,
-      "source_count": 3,
+      "source_count": 2,
       "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "4/3",
         "4/4",
         "4/5",
         "4/6",
@@ -923,7 +957,8 @@
         "4/29",
         "4/30",
         "5/1",
-        "5/2"
+        "5/2",
+        "5/3"
       ],
       "transits": [
         0,
@@ -1013,25 +1048,25 @@
         21,
         69
       ],
-      "date_label": "5月2日"
+      "date_label": "5月3日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-05-02",
+      "hormuz_last_date": "2026-05-03",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 50,
+      "vlcc_stale_days": 51,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-05-02"
+      "routes_date": "2026-05-03"
     }
   },
   "meta": {
-    "report_date": "2026.05.02",
-    "report_date_cn": "2026年05月02日",
-    "war_day": 64,
+    "report_date": "2026.05.03",
+    "report_date_cn": "2026年05月03日",
+    "war_day": 65,
     "war_start": "2026-02-28",
-    "generated_at": "2026-05-02T12:21:54.704545+08:00",
-    "generated_at_cn": "2026-05-02 12:21:54 北京时间"
+    "generated_at": "2026-05-03T12:46:08.495559+08:00",
+    "generated_at_cn": "2026-05-03 12:46:08 北京时间"
   },
   "history": [
     {
@@ -1438,6 +1473,13 @@
       "brent": 108.16999816894531,
       "wti": 101.94000244140625,
       "gold": 4629.89990234375,
+      "usd_cny": 6.827099800109863
+    },
+    {
+      "date": "2026-05-03",
+      "brent": 108.16999816894531,
+      "wti": 101.94000244140625,
+      "gold": 4644.5,
       "usd_cny": 6.827099800109863
     }
   ]

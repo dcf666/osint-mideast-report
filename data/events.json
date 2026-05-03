@@ -1,5 +1,19 @@
 [
   {
+    "event_id": "635c41f57181",
+    "title": "美国警告航运公司：支付伊朗“过路费”或遭制裁",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-05-02T10:35:00+00:00",
+    "last_updated_time": "2026-05-02T10:35:00+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美国警告航运公司：支付伊朗-过路费-或遭制裁/a-77018362?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
     "event_id": "4c778b350e36",
     "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
     "location": "霍尔木兹海峡",
@@ -12,6 +26,20 @@
     "source": "德国之声",
     "link": "https://www.dw.com/zh/阿聯酋退出opec-如何影響油價與全球油市版圖？/a-76974661?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
+  },
+  {
+    "event_id": "fe7ea2bcd29d",
+    "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
+    "location": "伊朗",
+    "first_seen_time": "2026-05-02T16:51:18+00:00",
+    "last_updated_time": "2026-05-02T16:51:18+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 90,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "81b0ff5c2771",
@@ -39,20 +67,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "320a7b62aadf",
-    "title": "Israelis war-weary but most oppose Iran ceasefire, poll suggests",
-    "location": "伊朗",
-    "first_seen_time": "2026-04-13T19:20:08+00:00",
-    "last_updated_time": "2026-04-13T19:20:08+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/clyxgxyeqpgo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -98,17 +112,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "511a9d952105",
-    "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
+    "event_id": "0e55f24ad3e6",
+    "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
     "location": "以色列",
-    "first_seen_time": "2026-05-01T08:12:04+00:00",
-    "last_updated_time": "2026-05-01T08:12:04+00:00",
+    "first_seen_time": "2026-04-29T14:41:26+00:00",
+    "last_updated_time": "2026-04-29T14:41:26+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 70,
-    "source_count": 3,
+    "source_count": 2,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

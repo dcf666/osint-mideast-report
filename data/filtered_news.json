@@ -1,6 +1,26 @@
 [
   {
     "source": "德国之声",
+    "title": "美国警告航运公司：支付伊朗“过路费”或遭制裁",
+    "link": "https://www.dw.com/zh/美国警告航运公司：支付伊朗-过路费-或遭制裁/a-77018362?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 2 May 2026 10:35:00 GMT",
+    "summary": "美国政府近日向全球航运业发出严厉警示：任何为寻求“安全通行”而向伊朗支付费用的行为，都可能触发美方制裁。自2月美以对伊开战以来，霍尔木兹海峡航道受阻，伊朗被指设立“收费站”榨取资金。美国财政部强调，制裁风险涵盖现金、虚拟货币等各类支付方式。与此同时，美方对伊实施的海军封锁仍在持续。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "伊朗",
+      "美以",
+      "霍尔木兹",
+      "海峡"
+    ],
+    "action_hits": [
+      "制裁",
+      "航运",
+      "封锁"
+    ]
+  },
+  {
+    "source": "德国之声",
     "title": "阿聯酋退出OPEC 如何影響油價與全球油市版圖？",
     "link": "https://www.dw.com/zh/阿聯酋退出opec-如何影響油價與全球油市版圖？/a-76974661?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Wed, 29 Apr 2026 04:38:00 GMT",
@@ -8,17 +28,17 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
+      "海峽",
       "霍爾木茲",
-      "原油",
-      "伊朗",
       "阿聯酋",
-      "油價",
-      "海峽"
-    ],
-    "action_hits": [
-      "封鎖",
+      "伊朗",
       "原油",
       "油價"
+    ],
+    "action_hits": [
+      "油價",
+      "原油",
+      "封鎖"
     ]
   },
   {
@@ -30,9 +50,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "海峽",
-      "霍爾木茲"
+      "霍爾木茲",
+      "伊朗"
     ],
     "action_hits": [
       "打擊"
@@ -47,9 +67,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美伊",
+      "霍爾木茲",
       "美軍",
-      "霍爾木茲"
+      "美伊"
     ],
     "action_hits": [
       "封鎖"
@@ -64,9 +84,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美军",
       "伊朗",
-      "油价"
+      "油价",
+      "美军"
     ],
     "action_hits": [
       "油价"
@@ -81,9 +101,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峡",
       "伊朗",
       "霍尔木兹",
+      "海峡",
       "德黑兰"
     ],
     "action_hits": [
@@ -99,9 +119,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "中东",
       "油价",
-      "阿联酋",
-      "中东"
+      "阿联酋"
     ],
     "action_hits": [
       "油价"
@@ -126,6 +146,26 @@
   },
   {
     "source": "BBC中东",
+    "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
+    "link": "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 02 May 2026 16:51:18 GMT",
+    "summary": "Four women and a child are among the dead, as fighting between Israel and Iran-backed Hezbollah continues despite a ceasefire.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "israel",
+      "hezbollah",
+      "lebanon",
+      "iran"
+    ],
+    "action_hits": [
+      "strike",
+      "killed",
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
     "title": "Israeli 'double-tap' strike kills three rescue workers in Lebanon, officials say",
     "link": "https://www.bbc.com/news/articles/cvgz5rgv4n3o?at_medium=RSS&at_campaign=rss",
     "published": "Wed, 29 Apr 2026 15:30:50 GMT",
@@ -134,13 +174,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "hezbollah",
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "attack",
       "strike",
-      "killed"
+      "killed",
+      "attack"
     ]
   },
   {
@@ -152,9 +192,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "blockade",
@@ -170,31 +210,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
+      "israel",
       "hezbollah",
-      "israel"
+      "iran"
     ],
     "action_hits": [
       "attack",
       "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
-    "link": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 01 May 2026 08:12:04 GMT",
-    "summary": "Seventeen people - including two children - were killed, according to Lebanon's health ministry.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "israel",
-      "lebanon"
-    ],
-    "action_hits": [
-      "ceasefire",
-      "strike",
-      "killed"
     ]
   },
   {
@@ -207,8 +229,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "hezbollah",
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "ceasefire"
@@ -223,12 +245,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "iran",
-      "pentagon"
+      "pentagon",
+      "iran"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -240,8 +262,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "halt",
