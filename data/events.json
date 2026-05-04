@@ -70,20 +70,6 @@
     "lang": "en"
   },
   {
-    "event_id": "525fc7860c68",
-    "title": "战费突破250亿、油价飙升：美防长听证会遭民主党围攻",
-    "location": "伊朗",
-    "first_seen_time": "2026-04-30T12:29:00+00:00",
-    "last_updated_time": "2026-04-30T12:29:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 3,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/战费突破250亿、油价飙升：美防长听证会遭民主党围攻/a-76995902?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "985795e11b3f",
     "title": "极限施压：美国对伊朗及其“影子银行”网络实施新一轮制裁",
     "location": "伊朗·德黑兰",
@@ -124,5 +110,19 @@
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "3f3b01c90e54",
+    "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+    "location": "伊朗",
+    "first_seen_time": "2026-04-26T16:00:00+00:00",
+    "last_updated_time": "2026-04-29T02:01:50+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 2,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001109563",
+    "lang": "zh"
   }
 ]

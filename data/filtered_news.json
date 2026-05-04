@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
+      "霍尔木兹",
       "伊朗",
       "美以",
-      "霍尔木兹",
       "海峡"
     ],
     "action_hits": [
-      "制裁",
+      "封锁",
       "航运",
-      "封锁"
+      "制裁"
     ]
   },
   {
@@ -28,17 +28,17 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "海峽",
-      "霍爾木茲",
       "阿聯酋",
       "伊朗",
-      "原油",
-      "油價"
+      "霍爾木茲",
+      "海峽",
+      "油價",
+      "原油"
     ],
     "action_hits": [
+      "封鎖",
       "油價",
-      "原油",
-      "封鎖"
+      "原油"
     ]
   },
   {
@@ -50,8 +50,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峽",
       "霍爾木茲",
+      "海峽",
       "伊朗"
     ],
     "action_hits": [
@@ -68,28 +68,11 @@
     "relevance_score": 70,
     "entity_hits": [
       "霍爾木茲",
-      "美軍",
-      "美伊"
+      "美伊",
+      "美軍"
     ],
     "action_hits": [
       "封鎖"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "战费突破250亿、油价飙升：美防长听证会遭民主党围攻",
-    "link": "https://www.dw.com/zh/战费突破250亿、油价飙升：美防长听证会遭民主党围攻/a-76995902?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 30 Apr 2026 12:29:00 GMT",
-    "summary": "周三，美国国防部长赫格塞斯（Pete Hegseth）首次就伊朗战争接受国会议员质询。听证会披露，开战仅两个月，美军战费已烧掉250亿美元。面对民主党人关于国内油价“火箭式”上涨的抨击，海格塞斯表现出强硬姿态，坚称防止伊朗拥有核武器的优先级高于经济成本。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "伊朗",
-      "油价",
-      "美军"
-    ],
-    "action_hits": [
-      "油价"
     ]
   },
   {
@@ -101,10 +84,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "霍尔木兹",
-      "海峡",
-      "德黑兰"
+      "伊朗",
+      "德黑兰",
+      "海峡"
     ],
     "action_hits": [
       "制裁"
@@ -119,9 +102,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "中东",
       "油价",
-      "阿联酋"
+      "阿联酋",
+      "中东"
     ],
     "action_hits": [
       "油价"
@@ -136,8 +119,8 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "伊朗",
-      "五角大楼"
+      "五角大楼",
+      "伊朗"
     ],
     "action_hits": [
       "打击",
@@ -153,15 +136,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "israel",
-      "hezbollah",
       "lebanon",
-      "iran"
+      "iran",
+      "hezbollah",
+      "israel"
     ],
     "action_hits": [
-      "strike",
       "killed",
-      "ceasefire"
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -173,14 +156,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hezbollah",
       "lebanon",
+      "hezbollah",
       "israel"
     ],
     "action_hits": [
-      "strike",
       "killed",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -192,13 +175,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "iran",
       "strait",
-      "hormuz",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
-      "blockade",
-      "ceasefire"
+      "ceasefire",
+      "blockade"
     ]
   },
   {
@@ -210,13 +193,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "hezbollah",
-      "iran"
+      "iran",
+      "israel"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -228,8 +211,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
       "lebanon",
+      "hezbollah",
       "israel"
     ],
     "action_hits": [
@@ -245,12 +228,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "pentagon",
-      "iran"
+      "iran",
+      "pentagon"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -266,8 +249,8 @@
       "israel"
     ],
     "action_hits": [
-      "halt",
-      "ceasefire"
+      "ceasefire",
+      "halt"
     ]
   }
 ]
