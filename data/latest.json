@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 108.25,
-      "day_change_pct": 0.07,
-      "war_change_pct": 39.25,
+      "current": 113.22000122070312,
+      "day_change_pct": -1.07,
+      "war_change_pct": 45.64,
       "dates": [
-        "03/23",
         "03/24",
         "03/25",
         "03/26",
@@ -34,10 +33,10 @@
         "04/29",
         "04/30",
         "05/01",
-        "05/04"
+        "05/04",
+        "05/05"
       ],
       "prices": [
-        99.94,
         104.49,
         102.22,
         108.01,
@@ -66,16 +65,16 @@
         118.03,
         114.01,
         108.17,
-        108.25
+        114.44,
+        113.22
       ],
-      "updated": "2026-05-04T04:43:40.903681"
+      "updated": "2026-05-05T04:19:20.206673"
     },
     "wti": {
-      "current": 101.7300033569336,
-      "day_change_pct": -0.21,
-      "war_change_pct": 42.82,
+      "current": 104.36000061035156,
+      "day_change_pct": -1.94,
+      "war_change_pct": 46.51,
       "dates": [
-        "03/23",
         "03/24",
         "03/25",
         "03/26",
@@ -104,10 +103,10 @@
         "04/29",
         "04/30",
         "05/01",
-        "05/04"
+        "05/04",
+        "05/05"
       ],
       "prices": [
-        88.13,
         92.35,
         90.32,
         94.48,
@@ -136,16 +135,16 @@
         106.88,
         105.07,
         101.94,
-        101.73
+        106.42,
+        104.36
       ],
-      "updated": "2026-05-04T04:43:40.972167"
+      "updated": "2026-05-05T04:19:20.282220"
     },
     "gold": {
-      "current": 4621.5,
-      "day_change_pct": -0.18,
-      "war_change_pct": -12.71,
+      "current": 4543.60009765625,
+      "day_change_pct": 0.53,
+      "war_change_pct": -14.18,
       "dates": [
-        "03/23",
         "03/24",
         "03/25",
         "03/26",
@@ -174,10 +173,10 @@
         "04/29",
         "04/30",
         "05/01",
-        "05/04"
+        "05/04",
+        "05/05"
       ],
       "prices": [
-        4404.1,
         4399.3,
         4549.8,
         4375.5,
@@ -206,16 +205,16 @@
         4545.2,
         4614.7,
         4629.9,
-        4621.5
+        4519.5,
+        4543.6
       ],
-      "updated": "2026-05-04T04:43:41.040243"
+      "updated": "2026-05-05T04:19:20.391791"
     },
     "usd_cny": {
       "current": 6.827099800109863,
-      "day_change_pct": -0.0,
+      "day_change_pct": -0.01,
       "war_change_pct": -0.45,
       "dates": [
-        "03/24",
         "03/25",
         "03/26",
         "03/27",
@@ -244,10 +243,10 @@
         "04/29",
         "04/30",
         "05/01",
-        "05/04"
+        "05/04",
+        "05/05"
       ],
       "prices": [
-        6.88,
         6.89,
         6.9,
         6.91,
@@ -276,16 +275,16 @@
         6.84,
         6.84,
         6.83,
+        6.83,
         6.83
       ],
-      "updated": "2026-05-04T04:43:41.112435"
+      "updated": "2026-05-05T04:19:20.477165"
     },
     "nat_gas": {
-      "current": 2.8329999446868896,
-      "day_change_pct": 1.91,
-      "war_change_pct": -4.29,
+      "current": 2.8429999351501465,
+      "day_change_pct": -0.84,
+      "war_change_pct": -3.95,
       "dates": [
-        "03/23",
         "03/24",
         "03/25",
         "03/26",
@@ -314,10 +313,10 @@
         "04/29",
         "04/30",
         "05/01",
-        "05/04"
+        "05/04",
+        "05/05"
       ],
       "prices": [
-        2.89,
         2.94,
         2.95,
         3.0,
@@ -346,16 +345,20 @@
         2.65,
         2.77,
         2.78,
-        2.83
+        2.87,
+        2.84
       ],
-      "updated": "2026-05-04T04:43:41.180618"
+      "updated": "2026-05-05T04:19:20.555801"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 17.6,
+      "change_pct": -0.06,
+      "high": 17.93,
+      "low": 16.88,
+      "volume": 1177278
     },
     "600026": {
       "name": "中远海能",
@@ -537,14 +540,14 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "霍尔木兹",
+        "海峡",
         "伊朗",
         "美以",
-        "海峡"
+        "霍尔木兹"
       ],
       "action_hits": [
-        "封锁",
         "航运",
+        "封锁",
         "制裁"
       ]
     },
@@ -557,17 +560,53 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "阿聯酋",
-        "伊朗",
-        "霍爾木茲",
-        "海峽",
         "油價",
-        "原油"
+        "原油",
+        "阿聯酋",
+        "海峽",
+        "伊朗",
+        "霍爾木茲"
+      ],
+      "action_hits": [
+        "原油",
+        "封鎖",
+        "油價"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "川普宣布霍爾木茲海峽護航行動 伊朗：視為違反停火",
+      "link": "https://www.dw.com/zh/川普宣布霍爾木茲海峽護航行動-伊朗：視為違反停火/a-77027318?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Mon, 4 May 2026 05:30:00 GMT",
+      "summary": "霍爾木茲海峽遭伊朗封鎖2個多月，數百艘商船仍受困波斯灣，糧食及飲水等物資即將用盡。美國總統川普宣布，出於人道主義考量，決定展開護航行動，疏通引導船隻離開；不過，伊朗政府表示，若美方出手，就會被視為違反停火。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "海峽",
+        "伊朗",
+        "霍爾木茲"
       ],
       "action_hits": [
         "封鎖",
-        "油價",
-        "原油"
+        "停火"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "默茨：驻德美军撤离并不意外 与伊朗战争无关",
+      "link": "https://www.dw.com/zh/默茨：驻德美军撤离并不意外-与伊朗战争无关/a-77031918?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Mon, 4 May 2026 10:05:00 GMT",
+      "summary": "德国总理默茨表示，柏林与华盛顿在伊朗战争上的分歧与驻德美军部分撤离之间“没有任何关联”。他还证实，美国原计划向德国部署远程“战斧”巡航导弹的行动被搁置。但默茨强调，德美在对伊朗问题上有一个共同目标。",
+      "lang": "zh",
+      "relevance_score": 77,
+      "entity_hits": [
+        "美军",
+        "伊朗"
+      ],
+      "action_hits": [
+        "巡航导弹",
+        "部署",
+        "导弹"
       ]
     },
     {
@@ -579,9 +618,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "霍爾木茲",
         "海峽",
-        "伊朗"
+        "伊朗",
+        "霍爾木茲"
       ],
       "action_hits": [
         "打擊"
@@ -596,8 +635,8 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "霍爾木茲",
         "美伊",
+        "霍爾木茲",
         "美軍"
       ],
       "action_hits": [
@@ -613,10 +652,10 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "霍尔木兹",
-        "伊朗",
+        "海峡",
         "德黑兰",
-        "海峡"
+        "伊朗",
+        "霍尔木兹"
       ],
       "action_hits": [
         "制裁"
@@ -665,15 +704,15 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "lebanon",
-        "iran",
+        "israel",
         "hezbollah",
-        "israel"
+        "lebanon",
+        "iran"
       ],
       "action_hits": [
-        "killed",
+        "strike",
         "ceasefire",
-        "strike"
+        "killed"
       ]
     },
     {
@@ -685,14 +724,33 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
+        "israel",
         "lebanon",
-        "hezbollah",
-        "israel"
+        "hezbollah"
+      ],
+      "action_hits": [
+        "strike",
+        "attack",
+        "killed"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israeli attacks kill dozens within days in Lebanon despite ceasefire",
+      "link": "https://www.bbc.com/news/articles/cy523z7x0g5o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 04 May 2026 17:18:05 GMT",
+      "summary": "The health ministry says 110 people have been killed in Israeli strikes on southern Lebanon since Thursday.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
         "killed",
+        "strike",
         "attack",
-        "strike"
+        "ceasefire"
       ]
     },
     {
@@ -704,9 +762,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "iran",
         "strait",
-        "hormuz"
+        "hormuz",
+        "iran"
       ],
       "action_hits": [
         "ceasefire",
@@ -722,13 +780,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
+        "israel",
         "hezbollah",
-        "iran",
-        "israel"
+        "iran"
       ],
       "action_hits": [
-        "ceasefire",
-        "attack"
+        "attack",
+        "ceasefire"
       ]
     },
     {
@@ -740,9 +798,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "israel",
         "lebanon",
-        "hezbollah",
-        "israel"
+        "hezbollah"
       ],
       "action_hits": [
         "ceasefire"
@@ -757,12 +815,12 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "iran",
-        "pentagon"
+        "pentagon",
+        "iran"
       ],
       "action_hits": [
-        "attack",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -774,8 +832,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
         "ceasefire",
@@ -841,18 +899,46 @@
       "lang": "en"
     },
     {
-      "event_id": "6073d2809eb9",
-      "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
+      "event_id": "2df18ebff6c6",
+      "title": "川普宣布霍爾木茲海峽護航行動 伊朗：視為違反停火",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-04-22T16:19:36+00:00",
-      "last_updated_time": "2026-04-22T16:19:36+00:00",
+      "first_seen_time": "2026-05-04T05:30:00+00:00",
+      "last_updated_time": "2026-05-04T05:30:00+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 80,
-      "source_count": 1,
+      "source_count": 2,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/川普宣布霍爾木茲海峽護航行動-伊朗：視為違反停火/a-77027318?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "f67919dfe4a9",
+      "title": "Israeli attacks kill dozens within days in Lebanon despite ceasefire",
+      "location": "以色列",
+      "first_seen_time": "2026-05-04T17:18:05+00:00",
+      "last_updated_time": "2026-05-04T17:18:05+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 80,
+      "source_count": 3,
       "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/news/articles/cy523z7x0g5o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
+    },
+    {
+      "event_id": "489826264971",
+      "title": "默茨：驻德美军撤离并不意外 与伊朗战争无关",
+      "location": "伊朗",
+      "first_seen_time": "2026-05-04T10:05:00+00:00",
+      "last_updated_time": "2026-05-04T10:05:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 77,
+      "source_count": 3,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/默茨：驻德美军撤离并不意外-与伊朗战争无关/a-77031918?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
     },
     {
       "event_id": "985795e11b3f",
@@ -881,40 +967,11 @@
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001109599",
       "lang": "zh"
-    },
-    {
-      "event_id": "0e55f24ad3e6",
-      "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
-      "location": "以色列",
-      "first_seen_time": "2026-04-29T14:41:26+00:00",
-      "last_updated_time": "2026-04-29T14:41:26+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 70,
-      "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "3f3b01c90e54",
-      "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
-      "location": "伊朗",
-      "first_seen_time": "2026-04-26T16:00:00+00:00",
-      "last_updated_time": "2026-04-29T02:01:50+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 67,
-      "source_count": 2,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001109563",
-      "lang": "zh"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "4/5",
         "4/6",
         "4/7",
         "4/8",
@@ -943,7 +1000,8 @@
         "5/1",
         "5/2",
         "5/3",
-        "5/4"
+        "5/4",
+        "5/5"
       ],
       "transits": [
         0,
@@ -1033,25 +1091,25 @@
         21,
         69
       ],
-      "date_label": "5月4日"
+      "date_label": "5月5日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-05-04",
+      "hormuz_last_date": "2026-05-05",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 52,
+      "vlcc_stale_days": 53,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-05-04"
+      "routes_date": "2026-05-05"
     }
   },
   "meta": {
-    "report_date": "2026.05.04",
-    "report_date_cn": "2026年05月04日",
-    "war_day": 66,
+    "report_date": "2026.05.05",
+    "report_date_cn": "2026年05月05日",
+    "war_day": 67,
     "war_start": "2026-02-28",
-    "generated_at": "2026-05-04T12:45:27.373455+08:00",
-    "generated_at_cn": "2026-05-04 12:45:27 北京时间"
+    "generated_at": "2026-05-05T12:20:14.949764+08:00",
+    "generated_at_cn": "2026-05-05 12:20:14 北京时间"
   },
   "history": [
     {
@@ -1472,6 +1530,13 @@
       "brent": 108.25,
       "wti": 101.7300033569336,
       "gold": 4621.5,
+      "usd_cny": 6.827099800109863
+    },
+    {
+      "date": "2026-05-05",
+      "brent": 113.22000122070312,
+      "wti": 104.36000061035156,
+      "gold": 4543.60009765625,
       "usd_cny": 6.827099800109863
     }
   ]

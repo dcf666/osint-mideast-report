@@ -56,18 +56,46 @@
     "lang": "en"
   },
   {
-    "event_id": "6073d2809eb9",
-    "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
+    "event_id": "2df18ebff6c6",
+    "title": "川普宣布霍爾木茲海峽護航行動 伊朗：視為違反停火",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-22T16:19:36+00:00",
-    "last_updated_time": "2026-04-22T16:19:36+00:00",
+    "first_seen_time": "2026-05-04T05:30:00+00:00",
+    "last_updated_time": "2026-05-04T05:30:00+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 1,
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/川普宣布霍爾木茲海峽護航行動-伊朗：視為違反停火/a-77027318?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "f67919dfe4a9",
+    "title": "Israeli attacks kill dozens within days in Lebanon despite ceasefire",
+    "location": "以色列",
+    "first_seen_time": "2026-05-04T17:18:05+00:00",
+    "last_updated_time": "2026-05-04T17:18:05+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 80,
+    "source_count": 3,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/cy523z7x0g5o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "489826264971",
+    "title": "默茨：驻德美军撤离并不意外 与伊朗战争无关",
+    "location": "伊朗",
+    "first_seen_time": "2026-05-04T10:05:00+00:00",
+    "last_updated_time": "2026-05-04T10:05:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 77,
+    "source_count": 3,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/默茨：驻德美军撤离并不意外-与伊朗战争无关/a-77031918?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
   },
   {
     "event_id": "985795e11b3f",
@@ -95,34 +123,6 @@
     "source_count": 1,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001109599",
-    "lang": "zh"
-  },
-  {
-    "event_id": "0e55f24ad3e6",
-    "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
-    "location": "以色列",
-    "first_seen_time": "2026-04-29T14:41:26+00:00",
-    "last_updated_time": "2026-04-29T14:41:26+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "3f3b01c90e54",
-    "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
-    "location": "伊朗",
-    "first_seen_time": "2026-04-26T16:00:00+00:00",
-    "last_updated_time": "2026-04-29T02:01:50+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 2,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001109563",
     "lang": "zh"
   }
 ]

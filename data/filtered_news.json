@@ -8,14 +8,14 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "霍尔木兹",
+      "海峡",
       "伊朗",
       "美以",
-      "海峡"
+      "霍尔木兹"
     ],
     "action_hits": [
-      "封锁",
       "航运",
+      "封锁",
       "制裁"
     ]
   },
@@ -28,17 +28,53 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "阿聯酋",
-      "伊朗",
-      "霍爾木茲",
-      "海峽",
       "油價",
-      "原油"
+      "原油",
+      "阿聯酋",
+      "海峽",
+      "伊朗",
+      "霍爾木茲"
+    ],
+    "action_hits": [
+      "原油",
+      "封鎖",
+      "油價"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "川普宣布霍爾木茲海峽護航行動 伊朗：視為違反停火",
+    "link": "https://www.dw.com/zh/川普宣布霍爾木茲海峽護航行動-伊朗：視為違反停火/a-77027318?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 4 May 2026 05:30:00 GMT",
+    "summary": "霍爾木茲海峽遭伊朗封鎖2個多月，數百艘商船仍受困波斯灣，糧食及飲水等物資即將用盡。美國總統川普宣布，出於人道主義考量，決定展開護航行動，疏通引導船隻離開；不過，伊朗政府表示，若美方出手，就會被視為違反停火。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "海峽",
+      "伊朗",
+      "霍爾木茲"
     ],
     "action_hits": [
       "封鎖",
-      "油價",
-      "原油"
+      "停火"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "默茨：驻德美军撤离并不意外 与伊朗战争无关",
+    "link": "https://www.dw.com/zh/默茨：驻德美军撤离并不意外-与伊朗战争无关/a-77031918?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 4 May 2026 10:05:00 GMT",
+    "summary": "德国总理默茨表示，柏林与华盛顿在伊朗战争上的分歧与驻德美军部分撤离之间“没有任何关联”。他还证实，美国原计划向德国部署远程“战斧”巡航导弹的行动被搁置。但默茨强调，德美在对伊朗问题上有一个共同目标。",
+    "lang": "zh",
+    "relevance_score": 77,
+    "entity_hits": [
+      "美军",
+      "伊朗"
+    ],
+    "action_hits": [
+      "巡航导弹",
+      "部署",
+      "导弹"
     ]
   },
   {
@@ -50,9 +86,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍爾木茲",
       "海峽",
-      "伊朗"
+      "伊朗",
+      "霍爾木茲"
     ],
     "action_hits": [
       "打擊"
@@ -67,8 +103,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍爾木茲",
       "美伊",
+      "霍爾木茲",
       "美軍"
     ],
     "action_hits": [
@@ -84,10 +120,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
-      "伊朗",
+      "海峡",
       "德黑兰",
-      "海峡"
+      "伊朗",
+      "霍尔木兹"
     ],
     "action_hits": [
       "制裁"
@@ -136,15 +172,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "lebanon",
-      "iran",
+      "israel",
       "hezbollah",
-      "israel"
+      "lebanon",
+      "iran"
     ],
     "action_hits": [
-      "killed",
+      "strike",
       "ceasefire",
-      "strike"
+      "killed"
     ]
   },
   {
@@ -156,14 +192,33 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "israel",
       "lebanon",
-      "hezbollah",
-      "israel"
+      "hezbollah"
+    ],
+    "action_hits": [
+      "strike",
+      "attack",
+      "killed"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli attacks kill dozens within days in Lebanon despite ceasefire",
+    "link": "https://www.bbc.com/news/articles/cy523z7x0g5o?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 04 May 2026 17:18:05 GMT",
+    "summary": "The health ministry says 110 people have been killed in Israeli strikes on southern Lebanon since Thursday.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "killed",
+      "strike",
       "attack",
-      "strike"
+      "ceasefire"
     ]
   },
   {
@@ -175,9 +230,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "ceasefire",
@@ -193,13 +248,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "israel",
       "hezbollah",
-      "iran",
-      "israel"
+      "iran"
     ],
     "action_hits": [
-      "ceasefire",
-      "attack"
+      "attack",
+      "ceasefire"
     ]
   },
   {
@@ -211,9 +266,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "israel",
       "lebanon",
-      "hezbollah",
-      "israel"
+      "hezbollah"
     ],
     "action_hits": [
       "ceasefire"
@@ -228,12 +283,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "iran",
-      "pentagon"
+      "pentagon",
+      "iran"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -245,8 +300,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire",
