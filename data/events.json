@@ -1,28 +1,14 @@
 [
   {
-    "event_id": "635c41f57181",
-    "title": "美国警告航运公司：支付伊朗“过路费”或遭制裁",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-05-02T10:35:00+00:00",
-    "last_updated_time": "2026-05-02T10:35:00+00:00",
-    "current_status": "shipping_disrupted",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美国警告航运公司：支付伊朗-过路费-或遭制裁/a-77018362?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "4c778b350e36",
-    "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
+    "title": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-04-29T04:38:00+00:00",
-    "last_updated_time": "2026-05-01T01:07:06+00:00",
+    "last_updated_time": "2026-05-05T04:34:15+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 3,
+    "source_count": 4,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/阿聯酋退出opec-如何影響油價與全球油市版圖？/a-76974661?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
@@ -36,7 +22,7 @@
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 90,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -56,20 +42,6 @@
     "lang": "en"
   },
   {
-    "event_id": "2df18ebff6c6",
-    "title": "川普宣布霍爾木茲海峽護航行動 伊朗：視為違反停火",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-05-04T05:30:00+00:00",
-    "last_updated_time": "2026-05-04T05:30:00+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 2,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/川普宣布霍爾木茲海峽護航行動-伊朗：視為違反停火/a-77027318?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "f67919dfe4a9",
     "title": "Israeli attacks kill dozens within days in Lebanon despite ceasefire",
     "location": "以色列",
@@ -78,9 +50,23 @@
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 3,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cy523z7x0g5o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "6073d2809eb9",
+    "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-04-22T16:19:36+00:00",
+    "last_updated_time": "2026-05-05T11:38:03+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 80,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
