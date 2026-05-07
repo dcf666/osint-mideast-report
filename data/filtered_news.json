@@ -8,12 +8,12 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "阿聯酋",
-      "伊朗",
+      "原油",
       "霍爾木茲",
       "海峽",
-      "油價",
-      "原油"
+      "伊朗",
+      "阿聯酋",
+      "油價"
     ],
     "action_hits": [
       "封鎖",
@@ -22,21 +22,40 @@
     ]
   },
   {
-    "source": "德国之声",
-    "title": "默茨：驻德美军撤离并不意外 与伊朗战争无关",
-    "link": "https://www.dw.com/zh/默茨：驻德美军撤离并不意外-与伊朗战争无关/a-77031918?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Mon, 4 May 2026 10:05:00 GMT",
-    "summary": "德国总理默茨表示，柏林与华盛顿在伊朗战争上的分歧与驻德美军部分撤离之间“没有任何关联”。他还证实，美国原计划向德国部署远程“战斧”巡航导弹的行动被搁置。但默茨强调，德美在对伊朗问题上有一个共同目标。",
+    "source": "BBC中文",
+    "title": "美國伊朗可能達成終戰協議  油價股市作出快速反應",
+    "link": "https://www.bbc.com/zhongwen/articles/cy02d8p226ko/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 07 May 2026 04:19:27 GMT",
+    "summary": "據美國媒體透露，一份包含14項內容的諒解備忘錄可能包括暫停伊朗的鈾濃縮活動、解除制裁，以及恢復霍爾木茲海峽的自由通行。",
     "lang": "zh",
-    "relevance_score": 77,
+    "relevance_score": 80,
     "entity_hits": [
-      "美军",
-      "伊朗"
+      "海峽",
+      "伊朗",
+      "霍爾木茲",
+      "油價"
     ],
     "action_hits": [
-      "巡航导弹",
-      "导弹",
-      "部署"
+      "油價",
+      "制裁"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "霍爾木茲海峽的對峙，加劇了再次滑向全面戰爭的風險",
+    "link": "https://www.bbc.com/zhongwen/articles/cq8pkjje11go/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 06 May 2026 05:08:10 GMT",
+    "summary": "美國和伊朗決心繼續向對方施壓，這導致脆弱的海灣停火協議岌岌可危。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "海峽",
+      "伊朗",
+      "霍爾木茲"
+    ],
+    "action_hits": [
+      "停火協議",
+      "停火"
     ]
   },
   {
@@ -48,8 +67,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "海峽",
+      "伊朗",
       "霍爾木茲"
     ],
     "action_hits": [
@@ -65,12 +84,29 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美軍",
       "美伊",
-      "霍爾木茲"
+      "霍爾木茲",
+      "美軍"
     ],
     "action_hits": [
       "封鎖"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "伊朗外長出訪北京 盧比奧籲中國促伊朗開放海峽",
+    "link": "https://www.dw.com/zh/伊朗外長出訪北京-盧比奧籲中國促伊朗開放海峽/a-77060589?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 6 May 2026 05:24:00 GMT",
+    "summary": "美國和伊朗2月底爆發戰爭之後，伊朗外長如今首度造訪中國，外界關注中國能否促成伊朗開放霍爾木茲海峽。與此同時，川普宣告霍爾木茲海峽護航行動暫停，國務卿盧比奧則稱軍事行動已結束，接下來著重外交談判。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "海峽",
+      "伊朗",
+      "霍爾木茲"
+    ],
+    "action_hits": [
+      "談判"
     ]
   },
   {
@@ -82,10 +118,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "德黑兰",
-      "海峡",
       "霍尔木兹",
-      "伊朗"
+      "伊朗",
+      "德黑兰",
+      "海峡"
     ],
     "action_hits": [
       "制裁"
@@ -100,9 +136,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "阿联酋",
       "中东",
-      "油价",
-      "阿联酋"
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -134,15 +170,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "hormuz",
       "iran",
       "strait",
-      "hormuz",
       "uae"
     ],
     "action_hits": [
+      "attack",
       "shipping",
-      "strike",
-      "attack"
+      "strike"
     ]
   },
   {
@@ -156,13 +192,13 @@
     "entity_hits": [
       "lebanon",
       "iran",
-      "hezbollah",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
-      "strike",
+      "ceasefire",
       "killed",
-      "ceasefire"
+      "strike"
     ]
   },
   {
@@ -175,13 +211,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "lebanon",
-      "hezbollah",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
+      "attack",
       "killed",
-      "strike",
-      "attack"
+      "strike"
     ]
   },
   {
@@ -197,10 +233,10 @@
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike",
+      "ceasefire",
       "attack",
-      "ceasefire"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -212,13 +248,30 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "hormuz",
       "iran",
-      "strait",
-      "hormuz"
+      "strait"
     ],
     "action_hits": [
-      "blockade",
-      "ceasefire"
+      "ceasefire",
+      "blockade"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Trump says US to pause operation to guide vessels through Strait of Hormuz",
+    "link": "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 06 May 2026 02:18:45 GMT",
+    "summary": "\"Project Freedom\", which began on Monday, will be halted because progress has been made toward a deal with Iran, the US president says.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "hormuz",
+      "iran",
+      "strait"
+    ],
+    "action_hits": [
+      "halt"
     ]
   },
   {
@@ -230,9 +283,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "hormuz",
       "iran",
-      "strait",
-      "hormuz"
+      "strait"
     ],
     "action_hits": [
       "ceasefire"
@@ -247,29 +300,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "pentagon",
-      "iran"
+      "iran",
+      "pentagon"
     ],
     "action_hits": [
-      "strike",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain",
-    "link": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 17 Apr 2026 14:31:51 GMT",
-    "summary": "The halt to weeks of fighting is being celebrated in Lebanon, but it will be difficult to ensure it lasts.",
-    "lang": "en",
-    "relevance_score": 60,
-    "entity_hits": [
-      "lebanon",
-      "israel"
-    ],
-    "action_hits": [
-      "halt",
-      "ceasefire"
+      "attack",
+      "strike"
     ]
   }
 ]

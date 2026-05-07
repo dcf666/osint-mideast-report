@@ -1,14 +1,14 @@
 [
   {
     "event_id": "4c778b350e36",
-    "title": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
+    "title": "美國伊朗可能達成終戰協議  油價股市作出快速反應",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-04-29T04:38:00+00:00",
-    "last_updated_time": "2026-05-05T04:34:15+00:00",
+    "last_updated_time": "2026-05-07T04:19:27+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 4,
+    "source_count": 6,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/阿聯酋退出opec-如何影響油價與全球油市版圖？/a-76974661?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
@@ -42,6 +42,20 @@
     "lang": "en"
   },
   {
+    "event_id": "c6a143c60722",
+    "title": "霍爾木茲海峽的對峙，加劇了再次滑向全面戰爭的風險",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-05-06T05:08:10+00:00",
+    "last_updated_time": "2026-05-06T05:08:10+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 80,
+    "source_count": 3,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/cq8pkjje11go/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
+  },
+  {
     "event_id": "f67919dfe4a9",
     "title": "Israeli attacks kill dozens within days in Lebanon despite ceasefire",
     "location": "以色列",
@@ -50,38 +64,10 @@
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cy523z7x0g5o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "6073d2809eb9",
-    "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-22T16:19:36+00:00",
-    "last_updated_time": "2026-05-05T11:38:03+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "489826264971",
-    "title": "默茨：驻德美军撤离并不意外 与伊朗战争无关",
-    "location": "伊朗",
-    "first_seen_time": "2026-05-04T10:05:00+00:00",
-    "last_updated_time": "2026-05-04T10:05:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 77,
-    "source_count": 3,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/默茨：驻德美军撤离并不意外-与伊朗战争无关/a-77031918?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
   },
   {
     "event_id": "985795e11b3f",
@@ -109,6 +95,34 @@
     "source_count": 1,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001109599",
+    "lang": "zh"
+  },
+  {
+    "event_id": "da7f784e6e93",
+    "title": "Trump says US to pause operation to guide vessels through Strait of Hormuz",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-05-06T02:18:45+00:00",
+    "last_updated_time": "2026-05-06T02:18:45+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "3f3b01c90e54",
+    "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+    "location": "伊朗",
+    "first_seen_time": "2026-04-26T16:00:00+00:00",
+    "last_updated_time": "2026-04-29T02:01:50+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 2,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001109563",
     "lang": "zh"
   }
 ]
