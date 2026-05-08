@@ -8,17 +8,17 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "原油",
       "霍爾木茲",
-      "海峽",
       "伊朗",
+      "海峽",
       "阿聯酋",
+      "原油",
       "油價"
     ],
     "action_hits": [
       "封鎖",
-      "油價",
-      "原油"
+      "原油",
+      "油價"
     ]
   },
   {
@@ -30,14 +30,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峽",
-      "伊朗",
       "霍爾木茲",
+      "伊朗",
+      "海峽",
       "油價"
     ],
     "action_hits": [
-      "油價",
-      "制裁"
+      "制裁",
+      "油價"
     ]
   },
   {
@@ -49,13 +49,13 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峽",
+      "霍爾木茲",
       "伊朗",
-      "霍爾木茲"
+      "海峽"
     ],
     "action_hits": [
-      "停火協議",
-      "停火"
+      "停火",
+      "停火協議"
     ]
   },
   {
@@ -67,46 +67,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峽",
+      "霍爾木茲",
       "伊朗",
-      "霍爾木茲"
+      "海峽"
     ],
     "action_hits": [
       "打擊"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "美伊霍爾木茲相互鎖喉中國「意外」受到關注，特朗普訪華會再度延期嗎？",
-    "link": "https://www.bbc.com/zhongwen/articles/c1l962v7y22o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 23 Apr 2026 09:32:12 GMT",
-    "summary": "被指與中國有關聯的船舶接連成為焦點，這些船隻或嘗試突破美方封鎖後折返，或被美軍扣押。學者向BBC中文分析海灣局勢將如何影響特朗普下月的訪華行程及中美關係發展。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "美伊",
-      "霍爾木茲",
-      "美軍"
-    ],
-    "action_hits": [
-      "封鎖"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "伊朗外長出訪北京 盧比奧籲中國促伊朗開放海峽",
-    "link": "https://www.dw.com/zh/伊朗外長出訪北京-盧比奧籲中國促伊朗開放海峽/a-77060589?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 6 May 2026 05:24:00 GMT",
-    "summary": "美國和伊朗2月底爆發戰爭之後，伊朗外長如今首度造訪中國，外界關注中國能否促成伊朗開放霍爾木茲海峽。與此同時，川普宣告霍爾木茲海峽護航行動暫停，國務卿盧比奧則稱軍事行動已結束，接下來著重外交談判。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "海峽",
-      "伊朗",
-      "霍爾木茲"
-    ],
-    "action_hits": [
-      "談判"
     ]
   },
   {
@@ -118,10 +84,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
       "伊朗",
-      "德黑兰",
-      "海峡"
+      "海峡",
+      "霍尔木兹",
+      "德黑兰"
     ],
     "action_hits": [
       "制裁"
@@ -136,9 +102,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "阿联酋",
       "中东",
-      "油价"
+      "油价",
+      "阿联酋"
     ],
     "action_hits": [
       "油价"
@@ -153,90 +119,30 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "五角大楼",
-      "伊朗"
+      "伊朗",
+      "五角大楼"
     ],
     "action_hits": [
-      "报复",
-      "打击"
+      "打击",
+      "报复"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
-    "link": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 05 May 2026 04:34:15 GMT",
-    "summary": "Shipping company Maersk says one of its US-flagged commercial vessels has successfully exited the Strait of Hormuz under US military protection.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "hormuz",
-      "iran",
-      "strait",
-      "uae"
-    ],
-    "action_hits": [
-      "attack",
-      "shipping",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
-    "link": "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 02 May 2026 16:51:18 GMT",
-    "summary": "Four women and a child are among the dead, as fighting between Israel and Iran-backed Hezbollah continues despite a ceasefire.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "lebanon",
-      "iran",
-      "israel",
-      "hezbollah"
-    ],
-    "action_hits": [
-      "ceasefire",
-      "killed",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israeli 'double-tap' strike kills three rescue workers in Lebanon, officials say",
-    "link": "https://www.bbc.com/news/articles/cvgz5rgv4n3o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 29 Apr 2026 15:30:50 GMT",
-    "summary": "They are among nine people killed in successive attacks on Tuesday, which Israel's military says targeted a Hezbollah commander.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "lebanon",
-      "israel",
-      "hezbollah"
-    ],
-    "action_hits": [
-      "attack",
-      "killed",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israeli attacks kill dozens within days in Lebanon despite ceasefire",
-    "link": "https://www.bbc.com/news/articles/cy523z7x0g5o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 04 May 2026 17:18:05 GMT",
-    "summary": "The health ministry says 110 people have been killed in Israeli strikes on southern Lebanon since Thursday.",
+    "title": "Israel strikes Beirut for first time since Hezbollah ceasefire",
+    "link": "https://www.bbc.com/news/articles/crmpjjl02l2o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 06 May 2026 19:58:04 GMT",
+    "summary": "Israel says it targeted a senior Hezbollah figure in the capital, the first strike of its kind since mid-April.",
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "lebanon",
+      "hezbollah",
+      "beirut",
       "israel"
     ],
     "action_hits": [
-      "ceasefire",
-      "attack",
-      "killed",
-      "strike"
+      "strike",
+      "ceasefire"
     ]
   },
   {
@@ -248,9 +154,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "strait",
       "hormuz",
-      "iran",
-      "strait"
+      "iran"
     ],
     "action_hits": [
       "ceasefire",
@@ -266,9 +172,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "strait",
       "hormuz",
-      "iran",
-      "strait"
+      "iran"
     ],
     "action_hits": [
       "halt"
@@ -283,9 +189,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "strait",
       "hormuz",
-      "iran",
-      "strait"
+      "iran"
     ],
     "action_hits": [
       "ceasefire"
@@ -293,19 +199,36 @@
   },
   {
     "source": "BBC中东",
-    "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
-    "link": "https://www.bbc.com/news/articles/cwy2482pn0lo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 29 Apr 2026 02:01:50 GMT",
-    "summary": "In the two months since the deadly strike, the US defence department has said only that the incident is under investigation.",
+    "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
+    "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 29 Apr 2026 14:41:26 GMT",
+    "summary": "Israel and Hezbollah are still fighting in Lebanon despite a US-brokered ceasefire that began 12 days ago.",
     "lang": "en",
-    "relevance_score": 67,
+    "relevance_score": 70,
     "entity_hits": [
-      "iran",
-      "pentagon"
+      "lebanon",
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain",
+    "link": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 17 Apr 2026 14:31:51 GMT",
+    "summary": "The halt to weeks of fighting is being celebrated in Lebanon, but it will be difficult to ensure it lasts.",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "lebanon",
+      "israel"
+    ],
+    "action_hits": [
+      "halt",
+      "ceasefire"
     ]
   }
 ]
