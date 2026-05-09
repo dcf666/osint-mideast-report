@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 101.13999938964844,
-      "day_change_pct": 1.08,
-      "war_change_pct": 30.1,
+      "current": 101.29000091552734,
+      "day_change_pct": 1.23,
+      "war_change_pct": 30.29,
       "dates": [
         "03/27",
         "03/30",
@@ -66,14 +66,14 @@
         109.87,
         101.27,
         100.06,
-        101.14
+        101.29
       ],
-      "updated": "2026-05-08T04:19:04.667221"
+      "updated": "2026-05-09T04:28:11.798623"
     },
     "wti": {
-      "current": 95.77999877929688,
-      "day_change_pct": 1.02,
-      "war_change_pct": 34.47,
+      "current": 95.41999816894531,
+      "day_change_pct": 0.64,
+      "war_change_pct": 33.96,
       "dates": [
         "03/27",
         "03/30",
@@ -136,14 +136,14 @@
         102.27,
         95.08,
         94.81,
-        95.78
+        95.42
       ],
-      "updated": "2026-05-08T04:19:04.752273"
+      "updated": "2026-05-09T04:28:11.985465"
     },
     "gold": {
-      "current": 4726.7998046875,
-      "day_change_pct": 0.57,
-      "war_change_pct": -10.72,
+      "current": 4720.39990234375,
+      "day_change_pct": 0.44,
+      "war_change_pct": -10.84,
       "dates": [
         "03/27",
         "03/30",
@@ -206,14 +206,14 @@
         4555.8,
         4681.9,
         4699.8,
-        4726.8
+        4720.4
       ],
-      "updated": "2026-05-08T04:19:04.841903"
+      "updated": "2026-05-09T04:28:12.233059"
     },
     "usd_cny": {
-      "current": 6.803500175476074,
-      "day_change_pct": -0.11,
-      "war_change_pct": -0.79,
+      "current": 6.800000190734863,
+      "day_change_pct": -0.16,
+      "war_change_pct": -0.84,
       "dates": [
         "03/30",
         "03/31",
@@ -278,12 +278,12 @@
         6.81,
         6.8
       ],
-      "updated": "2026-05-08T04:19:04.936671"
+      "updated": "2026-05-09T04:28:12.518650"
     },
     "nat_gas": {
-      "current": 2.7739999294281006,
-      "day_change_pct": 0.18,
-      "war_change_pct": -6.28,
+      "current": 2.756999969482422,
+      "day_change_pct": -0.43,
+      "war_change_pct": -6.86,
       "dates": [
         "03/27",
         "03/30",
@@ -346,67 +346,49 @@
         2.79,
         2.73,
         2.77,
-        2.77
+        2.76
       ],
-      "updated": "2026-05-08T04:19:05.078002"
+      "updated": "2026-05-09T04:28:12.763816"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 19.84,
-      "change_pct": 7.65,
-      "high": 19.86,
-      "low": 18.09,
-      "volume": 1690448
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600026": {
       "name": "中远海能",
-      "price": 23.61,
-      "change_pct": 4.05,
-      "high": 23.66,
-      "low": 22.25,
-      "volume": 673193
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601975": {
       "name": "招商南油",
-      "price": 5.09,
-      "change_pct": 3.88,
-      "high": 5.13,
+      "price": 5.0,
+      "change_pct": 2.04,
+      "high": 5.14,
       "low": 4.77,
-      "volume": 3001852
+      "volume": 4573586
     },
     "600938": {
       "name": "中国海油",
-      "price": 36.53,
-      "change_pct": 0.47,
-      "high": 36.82,
-      "low": 36.28,
-      "volume": 236790
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.17,
-      "change_pct": -0.89,
-      "high": 11.34,
-      "low": 11.03,
-      "volume": 1187734
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.27,
-      "change_pct": null,
-      "high": 5.3,
-      "low": 5.25,
-      "volume": 1412429
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "603619": {
       "name": "中曼石油",
-      "price": 29.42,
-      "change_pct": 0.72,
-      "high": 29.73,
-      "low": 29.21,
-      "volume": 112240
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600759": {
       "name": "洲际油气",
@@ -414,123 +396,140 @@
       "change_pct": -4.98,
       "high": 4.01,
       "low": 4.01,
-      "volume": 31229
+      "volume": 47026
     },
     "601808": {
       "name": "中海油服",
-      "price": 14.43,
-      "change_pct": null,
-      "high": 14.55,
-      "low": 14.38,
-      "volume": 105916
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 144.0,
-      "change_pct": -4.51,
+      "price": 146.38,
+      "change_pct": -2.93,
       "high": 149.6,
       "low": 142.79,
-      "volume": 117046
+      "volume": 176352
     },
     "600803": {
       "name": "新奥股份",
-      "price": 20.07,
-      "change_pct": 0.3,
+      "price": 20.28,
+      "change_pct": 1.35,
       "high": 20.34,
       "low": 19.98,
-      "volume": 47074
+      "volume": 82462
     },
     "600256": {
       "name": "广汇能源",
-      "price": 6.16,
-      "change_pct": null,
+      "price": 6.13,
+      "change_pct": -0.49,
       "high": 6.35,
       "low": 6.12,
-      "volume": 1063534
+      "volume": 1654307
     },
     "601919": {
       "name": "中远海控",
-      "price": 14.09,
-      "change_pct": 0.14,
+      "price": 14.03,
+      "change_pct": -0.28,
       "high": 14.12,
-      "low": 14.05,
-      "volume": 453884
+      "low": 14.03,
+      "volume": 905822
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 49.13,
-      "change_pct": 2.35,
-      "high": 49.7,
+      "price": 49.7,
+      "change_pct": 3.54,
+      "high": 49.82,
       "low": 48.45,
-      "volume": 252016
+      "volume": 401736
     },
     "600893": {
       "name": "航发动力",
-      "price": 48.97,
-      "change_pct": 1.32,
-      "high": 49.9,
+      "price": 50.1,
+      "change_pct": 3.66,
+      "high": 51.31,
       "low": 47.34,
-      "volume": 267121
+      "volume": 559133
     },
     "600150": {
       "name": "中国船舶",
-      "price": 41.32,
-      "change_pct": 1.75,
+      "price": 41.15,
+      "change_pct": 1.33,
       "high": 41.8,
       "low": 39.93,
-      "volume": 922064
+      "volume": 1340817
     },
     "600547": {
       "name": "山东黄金",
-      "price": 36.15,
-      "change_pct": 0.5,
-      "high": 36.5,
+      "price": 36.5,
+      "change_pct": 1.47,
+      "high": 36.95,
       "low": 35.5,
-      "volume": 444340
+      "volume": 909467
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 42.82,
-      "change_pct": 1.09,
-      "high": 43.14,
+      "price": 44.4,
+      "change_pct": 4.82,
+      "high": 44.88,
       "low": 41.64,
-      "volume": 317835
+      "volume": 690784
     },
     "600489": {
       "name": "中金黄金",
-      "price": 27.74,
-      "change_pct": -0.04,
-      "high": 28.22,
+      "price": 28.22,
+      "change_pct": 1.69,
+      "high": 28.48,
       "low": 27.45,
-      "volume": 427563
+      "volume": 758878
     },
     "601088": {
       "name": "中国神华",
-      "price": 45.45,
-      "change_pct": -0.31,
+      "price": 45.18,
+      "change_pct": -0.9,
       "high": 45.89,
-      "low": 45.3,
-      "volume": 149488
+      "low": 45.13,
+      "volume": 285197
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.15
+      "change_pct": -0.3
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": -0.5
+      "change_pct": 0.66
     },
     "军工": {
-      "change_pct": 0.08
+      "change_pct": 0.33
     },
     "黄金": {
-      "change_pct": -0.62
+      "change_pct": -0.46
     }
   },
   "news": [
+    {
+      "source": "FT中文网",
+      "title": "特朗普：美伊停火“仍然有效”",
+      "link": "https://www.ftchinese.com/story/001109656",
+      "published": "Fri, 08 May 2026 16:00:00 GMT",
+      "summary": "此前美国与伊朗互相指责对方在周四挑起交火事件。伊朗称美国对伊朗油轮开火，而美国称伊朗“无端”向美国军舰发动导弹、无人机和小艇袭击。",
+      "lang": "zh",
+      "relevance_score": 100,
+      "entity_hits": [
+        "伊朗",
+        "美伊",
+        "油轮"
+      ],
+      "action_hits": [
+        "无人机",
+        "油轮",
+        "停火",
+        "导弹"
+      ]
+    },
     {
       "source": "德国之声",
       "title": "阿聯酋退出OPEC 如何影響油價與全球油市版圖？",
@@ -540,17 +539,17 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "霍爾木茲",
+        "油價",
         "伊朗",
         "海峽",
+        "霍爾木茲",
         "阿聯酋",
-        "原油",
-        "油價"
+        "原油"
       ],
       "action_hits": [
         "封鎖",
-        "原油",
-        "油價"
+        "油價",
+        "原油"
       ]
     },
     {
@@ -564,8 +563,8 @@
       "entity_hits": [
         "霍爾木茲",
         "伊朗",
-        "海峽",
-        "油價"
+        "油價",
+        "海峽"
       ],
       "action_hits": [
         "制裁",
@@ -586,8 +585,28 @@
         "海峽"
       ],
       "action_hits": [
-        "停火",
-        "停火協議"
+        "停火協議",
+        "停火"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "美伊再交火 伊朗控違反停火協議",
+      "link": "https://www.dw.com/zh/美伊再交火-伊朗控違反停火協議/a-77090781?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 8 May 2026 07:11:00 GMT",
+      "summary": "中東緊張局勢繼續升級。5月7日，美國稱伊朗攻擊了美軍船艦，伊朗則指控是美方先開火。儘管巴基斯坦持續在扮演美伊之間調停，但有伊朗民眾對美伊達成協議不抱太大希望。與此同時，伊朗在霍爾木茲海峽設立了新的徵稅機構。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "伊朗",
+        "美伊",
+        "美軍",
+        "海峽",
+        "霍爾木茲"
+      ],
+      "action_hits": [
+        "停火協議",
+        "停火"
       ]
     },
     {
@@ -616,10 +635,10 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
+        "德黑兰",
         "伊朗",
-        "海峡",
         "霍尔木兹",
-        "德黑兰"
+        "海峡"
       ],
       "action_hits": [
         "制裁"
@@ -643,23 +662,6 @@
       ]
     },
     {
-      "source": "FT中文网",
-      "title": "英国坚称福克兰群岛主权“毋庸置疑”",
-      "link": "https://www.ftchinese.com/story/001109563",
-      "published": "Sun, 26 Apr 2026 16:00:00 GMT",
-      "summary": "此前媒体报道的五角大楼备忘录暗示，美国可能重审其对靠近阿根廷的这一南大西洋群岛主权的立场，以报复英国对美国打击伊朗的行动缺乏支持。",
-      "lang": "zh",
-      "relevance_score": 67,
-      "entity_hits": [
-        "伊朗",
-        "五角大楼"
-      ],
-      "action_hits": [
-        "打击",
-        "报复"
-      ]
-    },
-    {
       "source": "BBC中东",
       "title": "Israel strikes Beirut for first time since Hezbollah ceasefire",
       "link": "https://www.bbc.com/news/articles/crmpjjl02l2o?at_medium=RSS&at_campaign=rss",
@@ -668,9 +670,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
+        "israel",
         "hezbollah",
-        "beirut",
-        "israel"
+        "beirut"
       ],
       "action_hits": [
         "strike",
@@ -738,9 +740,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "lebanon",
         "israel",
-        "hezbollah"
+        "hezbollah",
+        "lebanon"
       ],
       "action_hits": [
         "ceasefire"
@@ -755,8 +757,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
         "halt",
@@ -765,6 +767,20 @@
     }
   ],
   "event_states": [
+    {
+      "event_id": "5e51fa3a877e",
+      "title": "特朗普：美伊停火“仍然有效”",
+      "location": "伊朗",
+      "first_seen_time": "2026-05-08T16:00:00+00:00",
+      "last_updated_time": "2026-05-08T16:00:00+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 100,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001109656",
+      "lang": "zh"
+    },
     {
       "event_id": "4c778b350e36",
       "title": "美國伊朗可能達成終戰協議  油價股市作出快速反應",
@@ -781,14 +797,14 @@
     },
     {
       "event_id": "c6a143c60722",
-      "title": "霍爾木茲海峽的對峙，加劇了再次滑向全面戰爭的風險",
+      "title": "美伊再交火 伊朗控違反停火協議",
       "location": "霍尔木兹海峡",
       "first_seen_time": "2026-05-06T05:08:10+00:00",
-      "last_updated_time": "2026-05-06T05:08:10+00:00",
+      "last_updated_time": "2026-05-08T07:11:00+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 80,
-      "source_count": 3,
+      "source_count": 4,
       "source": "BBC中文",
       "link": "https://www.bbc.com/zhongwen/articles/cq8pkjje11go/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
@@ -862,26 +878,11 @@
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
-    },
-    {
-      "event_id": "3f3b01c90e54",
-      "title": "英国坚称福克兰群岛主权“毋庸置疑”",
-      "location": "伊朗",
-      "first_seen_time": "2026-04-26T16:00:00+00:00",
-      "last_updated_time": "2026-04-26T16:00:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 67,
-      "source_count": 1,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001109563",
-      "lang": "zh"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "4/9",
         "4/10",
         "4/11",
         "4/12",
@@ -910,7 +911,8 @@
         "5/5",
         "5/6",
         "5/7",
-        "5/8"
+        "5/8",
+        "5/9"
       ],
       "transits": [
         0,
@@ -1000,25 +1002,25 @@
         21,
         69
       ],
-      "date_label": "5月8日"
+      "date_label": "5月9日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-05-08",
+      "hormuz_last_date": "2026-05-09",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 56,
+      "vlcc_stale_days": 57,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-05-08"
+      "routes_date": "2026-05-09"
     }
   },
   "meta": {
-    "report_date": "2026.05.08",
-    "report_date_cn": "2026年05月08日",
-    "war_day": 70,
+    "report_date": "2026.05.09",
+    "report_date_cn": "2026年05月09日",
+    "war_day": 71,
     "war_start": "2026-02-28",
-    "generated_at": "2026-05-08T12:19:55.465210+08:00",
-    "generated_at_cn": "2026-05-08 12:19:55 北京时间"
+    "generated_at": "2026-05-09T12:30:45.414465+08:00",
+    "generated_at_cn": "2026-05-09 12:30:45 北京时间"
   },
   "history": [
     {
@@ -1468,6 +1470,13 @@
       "wti": 95.77999877929688,
       "gold": 4726.7998046875,
       "usd_cny": 6.803500175476074
+    },
+    {
+      "date": "2026-05-09",
+      "brent": 101.29000091552734,
+      "wti": 95.41999816894531,
+      "gold": 4720.39990234375,
+      "usd_cny": 6.800000190734863
     }
   ]
 }
