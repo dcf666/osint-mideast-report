@@ -1,16 +1,30 @@
 [
   {
     "event_id": "5e51fa3a877e",
-    "title": "特朗普：美伊停火“仍然有效”",
+    "title": "中美元首峰会在即：北京想要什么？",
     "location": "伊朗",
     "first_seen_time": "2026-05-08T16:00:00+00:00",
-    "last_updated_time": "2026-05-08T16:00:00+00:00",
+    "last_updated_time": "2026-05-09T10:22:00+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 100,
-    "source_count": 1,
+    "source_count": 2,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001109656",
+    "lang": "zh"
+  },
+  {
+    "event_id": "aa7664fd0702",
+    "title": "美伊仍在零星交火 数家中企遭美制裁",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-05-09T10:37:00+00:00",
+    "last_updated_time": "2026-05-09T10:37:00+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美伊仍在零星交火-数家中企遭美制裁/a-77103989?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -28,32 +42,46 @@
     "lang": "zh"
   },
   {
+    "event_id": "50b9427f95c6",
+    "title": "Lebanon says Israeli strikes killed 39",
+    "location": "以色列",
+    "first_seen_time": "2026-05-09T21:23:14+00:00",
+    "last_updated_time": "2026-05-09T21:23:14+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 90,
+    "source_count": 3,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cn4pjegk358o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "c6a143c60722",
-    "title": "美伊再交火 伊朗控違反停火協議",
+    "title": "霍爾木茲海峽的對峙，加劇了再次滑向全面戰爭的風險",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-05-06T05:08:10+00:00",
-    "last_updated_time": "2026-05-08T07:11:00+00:00",
+    "last_updated_time": "2026-05-06T05:08:10+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 4,
+    "source_count": 3,
     "source": "BBC中文",
     "link": "https://www.bbc.com/zhongwen/articles/cq8pkjje11go/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
   },
   {
-    "event_id": "3d24b62286b9",
-    "title": "Israel strikes Beirut for first time since Hezbollah ceasefire",
-    "location": "黎巴嫩·贝鲁特",
-    "first_seen_time": "2026-05-06T19:58:04+00:00",
-    "last_updated_time": "2026-05-06T19:58:04+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
+    "event_id": "b879cbee7114",
+    "title": "美国制裁三家中国商业卫星公司",
+    "location": "伊朗",
+    "first_seen_time": "2026-05-08T16:00:00+00:00",
+    "last_updated_time": "2026-05-08T16:00:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
     "confidence": 80,
     "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/crmpjjl02l2o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001109660",
+    "lang": "zh"
   },
   {
     "event_id": "985795e11b3f",
@@ -95,20 +123,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "0e55f24ad3e6",
-    "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
-    "location": "以色列",
-    "first_seen_time": "2026-04-29T14:41:26+00:00",
-    "last_updated_time": "2026-04-29T14:41:26+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

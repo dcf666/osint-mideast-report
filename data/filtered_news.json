@@ -8,15 +8,35 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "伊朗",
       "美伊",
+      "伊朗",
       "油轮"
     ],
     "action_hits": [
+      "导弹",
       "无人机",
       "油轮",
-      "停火",
-      "导弹"
+      "停火"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美伊仍在零星交火 数家中企遭美制裁",
+    "link": "https://www.dw.com/zh/美伊仍在零星交火-数家中企遭美制裁/a-77103989?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 9 May 2026 10:37:00 GMT",
+    "summary": "美国中央情报局的最新报告显示，美军对伊朗港口的封锁并无法迫使德黑兰投降。现在，华盛顿宣布制裁那些为伊朗军工产业提供协助的实体，其中包括数家涉嫌向伊朗提供无人机零件的中国企业。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "美伊",
+      "伊朗",
+      "德黑兰",
+      "美军"
+    ],
+    "action_hits": [
+      "制裁",
+      "无人机",
+      "封锁"
     ]
   },
   {
@@ -28,12 +48,12 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "油價",
+      "原油",
       "伊朗",
-      "海峽",
+      "油價",
       "霍爾木茲",
       "阿聯酋",
-      "原油"
+      "海峽"
     ],
     "action_hits": [
       "封鎖",
@@ -50,10 +70,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍爾木茲",
       "伊朗",
-      "油價",
-      "海峽"
+      "霍爾木茲",
+      "海峽",
+      "油價"
     ],
     "action_hits": [
       "制裁",
@@ -69,8 +89,8 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍爾木茲",
       "伊朗",
+      "霍爾木茲",
       "海峽"
     ],
     "action_hits": [
@@ -79,23 +99,21 @@
     ]
   },
   {
-    "source": "德国之声",
-    "title": "美伊再交火 伊朗控違反停火協議",
-    "link": "https://www.dw.com/zh/美伊再交火-伊朗控違反停火協議/a-77090781?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 8 May 2026 07:11:00 GMT",
-    "summary": "中東緊張局勢繼續升級。5月7日，美國稱伊朗攻擊了美軍船艦，伊朗則指控是美方先開火。儘管巴基斯坦持續在扮演美伊之間調停，但有伊朗民眾對美伊達成協議不抱太大希望。與此同時，伊朗在霍爾木茲海峽設立了新的徵稅機構。",
+    "source": "FT中文网",
+    "title": "美国制裁三家中国商业卫星公司",
+    "link": "https://www.ftchinese.com/story/001109660",
+    "published": "Fri, 08 May 2026 16:00:00 GMT",
+    "summary": "美国国务院表示，三家公司提供的卫星图像帮助伊朗对驻中东美军发动了军事打击。",
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
       "伊朗",
-      "美伊",
-      "美軍",
-      "海峽",
-      "霍爾木茲"
+      "中东",
+      "美军"
     ],
     "action_hits": [
-      "停火協議",
-      "停火"
+      "制裁",
+      "打击"
     ]
   },
   {
@@ -107,8 +125,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍爾木茲",
       "伊朗",
+      "霍爾木茲",
       "海峽"
     ],
     "action_hits": [
@@ -124,8 +142,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "德黑兰",
       "伊朗",
+      "德黑兰",
       "霍尔木兹",
       "海峡"
     ],
@@ -142,28 +160,46 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "阿联酋",
       "中东",
-      "油价",
-      "阿联酋"
+      "油价"
     ],
     "action_hits": [
       "油价"
     ]
   },
   {
-    "source": "BBC中东",
-    "title": "Israel strikes Beirut for first time since Hezbollah ceasefire",
-    "link": "https://www.bbc.com/news/articles/crmpjjl02l2o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 06 May 2026 19:58:04 GMT",
-    "summary": "Israel says it targeted a senior Hezbollah figure in the capital, the first strike of its kind since mid-April.",
-    "lang": "en",
-    "relevance_score": 80,
+    "source": "德国之声",
+    "title": "中美元首峰会在即：北京想要什么？",
+    "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 9 May 2026 10:22:00 GMT",
+    "summary": "美国总统特朗普将于5月14日至15日访问北京，与习近平举行受伊朗战争影响而推迟的会晤。尽管面临高额关税压力，中国4月出口仍逆势增长14.1%。面对特朗普变幻莫测的风格，北京将如何利用稀土筹码与多元化贸易布局，在贸易停火协议延期与中东局势博弈中寻求突破？",
+    "lang": "zh",
+    "relevance_score": 63,
     "entity_hits": [
-      "israel",
-      "hezbollah",
-      "beirut"
+      "伊朗",
+      "中东"
     ],
     "action_hits": [
+      "停火协议",
+      "停火"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Lebanon says Israeli strikes killed 39",
+    "link": "https://www.bbc.com/news/articles/cn4pjegk358o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 09 May 2026 21:23:14 GMT",
+    "summary": "Israel and Hezbollah have continued to trade fire despite a ceasefire deal being announced last month.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "lebanon",
+      "israel",
+      "hezbollah"
+    ],
+    "action_hits": [
+      "killed",
       "strike",
       "ceasefire"
     ]
@@ -178,8 +214,8 @@
     "relevance_score": 80,
     "entity_hits": [
       "strait",
-      "hormuz",
-      "iran"
+      "iran",
+      "hormuz"
     ],
     "action_hits": [
       "ceasefire",
@@ -196,8 +232,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "strait",
-      "hormuz",
-      "iran"
+      "iran",
+      "hormuz"
     ],
     "action_hits": [
       "halt"
@@ -213,8 +249,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "strait",
-      "hormuz",
-      "iran"
+      "iran",
+      "hormuz"
     ],
     "action_hits": [
       "ceasefire"
@@ -229,9 +265,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "lebanon",
       "israel",
-      "hezbollah",
-      "lebanon"
+      "hezbollah"
     ],
     "action_hits": [
       "ceasefire"
@@ -246,8 +282,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "halt",
