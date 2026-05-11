@@ -28,20 +28,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "4c778b350e36",
-    "title": "美國伊朗可能達成終戰協議  油價股市作出快速反應",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-04-29T04:38:00+00:00",
-    "last_updated_time": "2026-05-07T04:19:27+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 3,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/阿聯酋退出opec-如何影響油價與全球油市版圖？/a-76974661?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "50b9427f95c6",
     "title": "Lebanon says Israeli strikes killed 39",
     "location": "以色列",
@@ -54,6 +40,20 @@
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cn4pjegk358o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "6d9b87e45974",
+    "title": "沙特阿美首季盈利增长",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-05-07T04:19:27+00:00",
+    "last_updated_time": "2026-05-10T16:00:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 3,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/cy02d8p226ko/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
   },
   {
     "event_id": "c6a143c60722",
@@ -70,17 +70,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "b879cbee7114",
-    "title": "美国制裁三家中国商业卫星公司",
+    "event_id": "4720175ffc4f",
+    "title": "德国再度争取购买美国战斧导弹",
     "location": "伊朗",
-    "first_seen_time": "2026-05-08T16:00:00+00:00",
-    "last_updated_time": "2026-05-08T16:00:00+00:00",
+    "first_seen_time": "2026-05-10T10:02:00+00:00",
+    "last_updated_time": "2026-05-10T16:00:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001109660",
+    "source_count": 3,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/向伊朗提供卫星图像-美国再制裁三家中资企业/a-77109744?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -96,33 +96,5 @@
     "source": "德国之声",
     "link": "https://www.dw.com/zh/极限施压：美国对伊朗及其-影子银行-网络实施新一轮制裁/a-76985152?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
-  },
-  {
-    "event_id": "d048c875c290",
-    "title": "俄罗斯：阿联酋退出欧佩克将压低油价",
-    "location": "中东地区",
-    "first_seen_time": "2026-04-29T16:00:00+00:00",
-    "last_updated_time": "2026-04-29T16:00:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001109599",
-    "lang": "zh"
-  },
-  {
-    "event_id": "da7f784e6e93",
-    "title": "Trump says US to pause operation to guide vessels through Strait of Hormuz",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-05-06T02:18:45+00:00",
-    "last_updated_time": "2026-05-06T02:18:45+00:00",
-    "current_status": "shipping_disrupted",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   }
 ]

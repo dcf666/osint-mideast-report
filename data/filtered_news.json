@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
+      "油轮",
       "美伊",
-      "伊朗",
-      "油轮"
+      "伊朗"
     ],
     "action_hits": [
-      "导弹",
-      "无人机",
+      "停火",
       "油轮",
-      "停火"
+      "导弹",
+      "无人机"
     ]
   },
   {
@@ -28,37 +28,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
+      "美军",
       "美伊",
       "伊朗",
-      "德黑兰",
-      "美军"
+      "德黑兰"
     ],
     "action_hits": [
       "制裁",
       "无人机",
       "封锁"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "阿聯酋退出OPEC 如何影響油價與全球油市版圖？",
-    "link": "https://www.dw.com/zh/阿聯酋退出opec-如何影響油價與全球油市版圖？/a-76974661?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 29 Apr 2026 04:38:00 GMT",
-    "summary": "阿拉伯聯合大公國宣布5月退出OPEC及OPEC+，可能削弱產油國聯盟調控原油供應與油價的穩定。分析指出，在霍爾木茲海峽仍受伊朗封鎖、全球原油供應緊張之際，阿聯酋此舉短期對油價影響有限，但長期恐引發產油國競逐市占，增添油價波動與地緣政治風險。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "原油",
-      "伊朗",
-      "油價",
-      "霍爾木茲",
-      "阿聯酋",
-      "海峽"
-    ],
-    "action_hits": [
-      "封鎖",
-      "油價",
-      "原油"
     ]
   },
   {
@@ -70,9 +48,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
       "霍爾木茲",
       "海峽",
+      "伊朗",
       "油價"
     ],
     "action_hits": [
@@ -89,13 +67,49 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
       "霍爾木茲",
-      "海峽"
+      "海峽",
+      "伊朗"
     ],
     "action_hits": [
-      "停火協議",
-      "停火"
+      "停火",
+      "停火協議"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "向伊朗提供卫星图像 美国再制裁三家中资企业",
+    "link": "https://www.dw.com/zh/向伊朗提供卫星图像-美国再制裁三家中资企业/a-77109744?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sun, 10 May 2026 10:02:00 GMT",
+    "summary": "美国对三家中国企业实施制裁，指控它们向伊朗提供卫星图像，从而帮助伊朗打击美军在中东的基地。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "美军",
+      "伊朗",
+      "中东"
+    ],
+    "action_hits": [
+      "制裁",
+      "打击"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "德国再度争取购买美国战斧导弹",
+    "link": "https://www.ftchinese.com/story/001109671",
+    "published": "Sun, 10 May 2026 16:00:00 GMT",
+    "summary": "德国总理批评特朗普对伊朗开战后，五角大楼取消将一个美军远程火力营部署到德国的计划，使欧洲针对俄罗斯的威慑出现一个缺口。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "五角大楼",
+      "伊朗",
+      "美军"
+    ],
+    "action_hits": [
+      "部署",
+      "导弹"
     ]
   },
   {
@@ -107,9 +121,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "美军",
       "伊朗",
-      "中东",
-      "美军"
+      "中东"
     ],
     "action_hits": [
       "制裁",
@@ -125,9 +139,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "霍爾木茲",
-      "海峽"
+      "海峽",
+      "伊朗"
     ],
     "action_hits": [
       "打擊"
@@ -142,10 +156,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
-      "德黑兰",
       "霍尔木兹",
-      "海峡"
+      "海峡",
+      "伊朗",
+      "德黑兰"
     ],
     "action_hits": [
       "制裁"
@@ -153,16 +167,18 @@
   },
   {
     "source": "FT中文网",
-    "title": "俄罗斯：阿联酋退出欧佩克将压低油价",
-    "link": "https://www.ftchinese.com/story/001109599",
-    "published": "Wed, 29 Apr 2026 16:00:00 GMT",
-    "summary": "俄罗斯将留在更广泛的欧佩克+联盟内，但警告称，阿联酋不受欧佩克产量配额的限制将在中东冲突结束后压低油价。",
+    "title": "沙特阿美首季盈利增长",
+    "link": "https://www.ftchinese.com/story/001109670",
+    "published": "Sun, 10 May 2026 16:00:00 GMT",
+    "summary": "横贯阿拉伯半岛的东-西输油管道使该公司得以从红海港口发运石油，减少了对霍尔木兹海峡的依赖。该公司还受益于油价上涨。",
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "阿联酋",
-      "中东",
-      "油价"
+      "沙特",
+      "红海",
+      "油价",
+      "霍尔木兹",
+      "海峡"
     ],
     "action_hits": [
       "油价"
@@ -181,8 +197,8 @@
       "中东"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "停火",
+      "停火协议"
     ]
   },
   {
@@ -194,14 +210,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "lebanon",
+      "hezbollah",
       "israel",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
-      "killed",
       "strike",
-      "ceasefire"
+      "ceasefire",
+      "killed"
     ]
   },
   {
@@ -213,30 +229,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "strait",
+      "hormuz",
       "iran",
-      "hormuz"
+      "strait"
     ],
     "action_hits": [
       "ceasefire",
       "blockade"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Trump says US to pause operation to guide vessels through Strait of Hormuz",
-    "link": "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 06 May 2026 02:18:45 GMT",
-    "summary": "\"Project Freedom\", which began on Monday, will be halted because progress has been made toward a deal with Iran, the US president says.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "strait",
-      "iran",
-      "hormuz"
-    ],
-    "action_hits": [
-      "halt"
     ]
   },
   {
@@ -248,9 +247,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
+      "hormuz",
       "iran",
-      "hormuz"
+      "strait"
     ],
     "action_hits": [
       "ceasefire"
@@ -265,9 +264,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "lebanon",
+      "hezbollah",
       "israel",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire"
@@ -282,12 +281,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
-      "halt",
-      "ceasefire"
+      "ceasefire",
+      "halt"
     ]
   }
 ]
