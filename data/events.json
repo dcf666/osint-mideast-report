@@ -84,17 +84,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "985795e11b3f",
-    "title": "极限施压：美国对伊朗及其“影子银行”网络实施新一轮制裁",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-04-29T14:44:00+00:00",
-    "last_updated_time": "2026-04-29T14:44:00+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
+    "event_id": "1b0f8e1ba3f5",
+    "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-05-11T01:55:13+00:00",
+    "last_updated_time": "2026-05-11T01:55:13+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
     "confidence": 70,
     "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/极限施压：美国对伊朗及其-影子银行-网络实施新一轮制裁/a-76985152?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   }
 ]

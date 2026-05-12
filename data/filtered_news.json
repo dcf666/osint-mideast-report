@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "油轮",
       "美伊",
-      "伊朗"
+      "伊朗",
+      "油轮"
     ],
     "action_hits": [
-      "停火",
       "油轮",
+      "无人机",
       "导弹",
-      "无人机"
+      "停火"
     ]
   },
   {
@@ -28,8 +28,8 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "美军",
       "美伊",
+      "美军",
       "伊朗",
       "德黑兰"
     ],
@@ -48,14 +48,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "油價",
       "霍爾木茲",
-      "海峽",
       "伊朗",
-      "油價"
+      "海峽"
     ],
     "action_hits": [
-      "制裁",
-      "油價"
+      "油價",
+      "制裁"
     ]
   },
   {
@@ -68,12 +68,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "霍爾木茲",
-      "海峽",
-      "伊朗"
+      "伊朗",
+      "海峽"
     ],
     "action_hits": [
-      "停火",
-      "停火協議"
+      "停火協議",
+      "停火"
     ]
   },
   {
@@ -85,9 +85,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美军",
+      "中东",
       "伊朗",
-      "中东"
+      "美军"
     ],
     "action_hits": [
       "制裁",
@@ -103,9 +103,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "五角大楼",
+      "美军",
       "伊朗",
-      "美军"
+      "五角大楼"
     ],
     "action_hits": [
       "部署",
@@ -121,9 +121,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美军",
+      "中东",
       "伊朗",
-      "中东"
+      "美军"
     ],
     "action_hits": [
       "制裁",
@@ -140,29 +140,11 @@
     "relevance_score": 70,
     "entity_hits": [
       "霍爾木茲",
-      "海峽",
-      "伊朗"
+      "伊朗",
+      "海峽"
     ],
     "action_hits": [
       "打擊"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "极限施压：美国对伊朗及其“影子银行”网络实施新一轮制裁",
-    "link": "https://www.dw.com/zh/极限施压：美国对伊朗及其-影子银行-网络实施新一轮制裁/a-76985152?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 29 Apr 2026 14:44:00 GMT",
-    "summary": "美国政府周二（4月28日）进一步升级对德黑兰的压力，宣布对参与伊朗“影子银行”体系的35个实体和个人实施制裁。同时，美国财政部发出严厉警告，威胁将制裁那些向伊朗支付霍尔木兹海峡“通行费”的中国“茶壶”炼油厂及其相关业务银行。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "霍尔木兹",
-      "海峡",
-      "伊朗",
-      "德黑兰"
-    ],
-    "action_hits": [
-      "制裁"
     ]
   },
   {
@@ -174,11 +156,11 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "沙特",
+      "霍尔木兹",
       "红海",
       "油价",
-      "霍尔木兹",
-      "海峡"
+      "海峡",
+      "沙特"
     ],
     "action_hits": [
       "油价"
@@ -193,12 +175,12 @@
     "lang": "zh",
     "relevance_score": 63,
     "entity_hits": [
-      "伊朗",
-      "中东"
+      "中东",
+      "伊朗"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -210,14 +192,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hezbollah",
       "israel",
+      "hezbollah",
       "lebanon"
     ],
     "action_hits": [
+      "killed",
       "strike",
-      "ceasefire",
-      "killed"
+      "ceasefire"
     ]
   },
   {
@@ -229,12 +211,29 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hormuz",
       "iran",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
-      "ceasefire",
+      "blockade",
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
+    "link": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 11 May 2026 01:55:13 GMT",
+    "summary": "Iran is reported to want lifting of the US naval blockade, recognition of Iranian sovereignty over the Strait of Hormuz and compensation for war damage.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "iran",
+      "strait",
+      "hormuz"
+    ],
+    "action_hits": [
       "blockade"
     ]
   },
@@ -247,9 +246,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
       "iran",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "ceasefire"
@@ -264,8 +263,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
       "israel",
+      "hezbollah",
       "lebanon"
     ],
     "action_hits": [
@@ -285,8 +284,8 @@
       "lebanon"
     ],
     "action_hits": [
-      "ceasefire",
-      "halt"
+      "halt",
+      "ceasefire"
     ]
   }
 ]
