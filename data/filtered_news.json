@@ -13,10 +13,10 @@
       "油轮"
     ],
     "action_hits": [
-      "油轮",
-      "无人机",
+      "停火",
       "导弹",
-      "停火"
+      "油轮",
+      "无人机"
     ]
   },
   {
@@ -30,13 +30,13 @@
     "entity_hits": [
       "美伊",
       "美军",
-      "伊朗",
-      "德黑兰"
+      "德黑兰",
+      "伊朗"
     ],
     "action_hits": [
       "制裁",
-      "无人机",
-      "封锁"
+      "封锁",
+      "无人机"
     ]
   },
   {
@@ -49,9 +49,9 @@
     "relevance_score": 80,
     "entity_hits": [
       "油價",
+      "海峽",
       "霍爾木茲",
-      "伊朗",
-      "海峽"
+      "伊朗"
     ],
     "action_hits": [
       "油價",
@@ -67,13 +67,13 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "海峽",
       "霍爾木茲",
-      "伊朗",
-      "海峽"
+      "伊朗"
     ],
     "action_hits": [
-      "停火協議",
-      "停火"
+      "停火",
+      "停火協議"
     ]
   },
   {
@@ -85,9 +85,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "中东",
+      "美军",
       "伊朗",
-      "美军"
+      "中东"
     ],
     "action_hits": [
       "制裁",
@@ -104,12 +104,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "美军",
-      "伊朗",
-      "五角大楼"
+      "五角大楼",
+      "伊朗"
     ],
     "action_hits": [
-      "部署",
-      "导弹"
+      "导弹",
+      "部署"
     ]
   },
   {
@@ -121,9 +121,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "中东",
+      "美军",
       "伊朗",
-      "美军"
+      "中东"
     ],
     "action_hits": [
       "制裁",
@@ -139,9 +139,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "海峽",
       "霍爾木茲",
-      "伊朗",
-      "海峽"
+      "伊朗"
     ],
     "action_hits": [
       "打擊"
@@ -156,11 +156,11 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
-      "红海",
-      "油价",
       "海峡",
-      "沙特"
+      "油价",
+      "红海",
+      "沙特",
+      "霍尔木兹"
     ],
     "action_hits": [
       "油价"
@@ -175,12 +175,12 @@
     "lang": "zh",
     "relevance_score": 63,
     "entity_hits": [
-      "中东",
-      "伊朗"
+      "伊朗",
+      "中东"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "停火",
+      "停火协议"
     ]
   },
   {
@@ -211,9 +211,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "blockade",
@@ -229,9 +229,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "blockade"
@@ -246,9 +246,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "ceasefire"
