@@ -8,35 +8,15 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美伊",
-      "伊朗",
-      "油轮"
-    ],
-    "action_hits": [
-      "停火",
-      "导弹",
       "油轮",
-      "无人机"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美伊仍在零星交火 数家中企遭美制裁",
-    "link": "https://www.dw.com/zh/美伊仍在零星交火-数家中企遭美制裁/a-77103989?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 9 May 2026 10:37:00 GMT",
-    "summary": "美国中央情报局的最新报告显示，美军对伊朗港口的封锁并无法迫使德黑兰投降。现在，华盛顿宣布制裁那些为伊朗军工产业提供协助的实体，其中包括数家涉嫌向伊朗提供无人机零件的中国企业。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "美伊",
-      "美军",
-      "德黑兰",
-      "伊朗"
+      "伊朗",
+      "美伊"
     ],
     "action_hits": [
-      "制裁",
-      "封锁",
-      "无人机"
+      "无人机",
+      "油轮",
+      "导弹",
+      "停火"
     ]
   },
   {
@@ -48,50 +28,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "油價",
-      "海峽",
       "霍爾木茲",
-      "伊朗"
-    ],
-    "action_hits": [
-      "油價",
-      "制裁"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "霍爾木茲海峽的對峙，加劇了再次滑向全面戰爭的風險",
-    "link": "https://www.bbc.com/zhongwen/articles/cq8pkjje11go/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 06 May 2026 05:08:10 GMT",
-    "summary": "美國和伊朗決心繼續向對方施壓，這導致脆弱的海灣停火協議岌岌可危。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "海峽",
-      "霍爾木茲",
-      "伊朗"
-    ],
-    "action_hits": [
-      "停火",
-      "停火協議"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "向伊朗提供卫星图像 美国再制裁三家中资企业",
-    "link": "https://www.dw.com/zh/向伊朗提供卫星图像-美国再制裁三家中资企业/a-77109744?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sun, 10 May 2026 10:02:00 GMT",
-    "summary": "美国对三家中国企业实施制裁，指控它们向伊朗提供卫星图像，从而帮助伊朗打击美军在中东的基地。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "美军",
       "伊朗",
-      "中东"
+      "海峽",
+      "油價"
     ],
     "action_hits": [
       "制裁",
-      "打击"
+      "油價"
     ]
   },
   {
@@ -104,12 +48,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "美军",
-      "五角大楼",
-      "伊朗"
+      "伊朗",
+      "五角大楼"
     ],
     "action_hits": [
-      "导弹",
-      "部署"
+      "部署",
+      "导弹"
     ]
   },
   {
@@ -139,9 +83,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峽",
       "霍爾木茲",
-      "伊朗"
+      "伊朗",
+      "海峽"
     ],
     "action_hits": [
       "打擊"
@@ -156,14 +100,31 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峡",
-      "油价",
       "红海",
+      "海峡",
+      "霍尔木兹",
       "沙特",
-      "霍尔木兹"
+      "油价"
     ],
     "action_hits": [
       "油价"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "川普抵达北京 此前稱「不需中國幫忙處理伊朗問題」",
+    "link": "https://www.dw.com/zh/川普抵达北京-此前稱「不需中國幫忙處理伊朗問題」/a-77140936?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 13 May 2026 13:21:00 GMT",
+    "summary": "川普周三晚抵达北京。他啟程訪中前表示，美國「不需要中國幫忙處理伊朗問題」。美國財政部近期制裁多家採購伊朗石油的中國企業，外界預期川習會仍將觸及伊朗議題；中國外長王毅則與巴基斯坦外長通話，稱將持續支持巴方斡旋美伊談判。",
+    "lang": "zh",
+    "relevance_score": 67,
+    "entity_hits": [
+      "美伊",
+      "伊朗"
+    ],
+    "action_hits": [
+      "制裁",
+      "談判"
     ]
   },
   {
@@ -179,8 +140,8 @@
       "中东"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -192,9 +153,9 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "lebanon",
       "israel",
-      "hezbollah",
-      "lebanon"
+      "hezbollah"
     ],
     "action_hits": [
       "killed",
@@ -204,20 +165,55 @@
   },
   {
     "source": "BBC中东",
-    "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
-    "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 22 Apr 2026 16:19:36 GMT",
-    "summary": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
+    "title": "Hezbollah support endures in south Lebanon as ceasefire fails to stop war with Israel",
+    "link": "https://www.bbc.com/news/articles/c9d3g6deljyo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 13 May 2026 23:22:07 GMT",
+    "summary": "Despite continuing Israeli attacks and occupation, many people in the south still believe the armed group is the only force capable of defending them.",
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "strait",
-      "hormuz",
-      "iran"
+      "lebanon",
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
-      "blockade",
+      "attack",
       "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli strikes in southern Lebanon kill 22 people, health ministry says",
+    "link": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 13 May 2026 21:14:45 GMT",
+    "summary": "Eight children are among those reported dead after a series of air strikes hit the south of Beirut.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "lebanon",
+      "israel",
+      "beirut"
+    ],
+    "action_hits": [
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Lebanon says two paramedics among 13 killed in Israeli strikes",
+    "link": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 12 May 2026 20:00:05 GMT",
+    "summary": "Lebanon's health ministry says the paramedics were carrying out a rescue mission in Nabatieh in response to an earlier attack that killed one person.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "lebanon",
+      "israel"
+    ],
+    "action_hits": [
+      "killed",
+      "attack",
+      "strike"
     ]
   },
   {
@@ -229,9 +225,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "iran",
       "strait",
-      "hormuz",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
       "blockade"
@@ -246,9 +242,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "iran",
       "strait",
-      "hormuz",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
       "ceasefire"
@@ -263,28 +259,11 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "lebanon",
       "israel",
-      "hezbollah",
-      "lebanon"
+      "hezbollah"
     ],
     "action_hits": [
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Ceasefire with Israel brings respite to Lebanon, but obstacles to peace remain",
-    "link": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 17 Apr 2026 14:31:51 GMT",
-    "summary": "The halt to weeks of fighting is being celebrated in Lebanon, but it will be difficult to ensure it lasts.",
-    "lang": "en",
-    "relevance_score": 60,
-    "entity_hits": [
-      "israel",
-      "lebanon"
-    ],
-    "action_hits": [
-      "halt",
       "ceasefire"
     ]
   }
