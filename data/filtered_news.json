@@ -1,25 +1,5 @@
 [
   {
-    "source": "FT中文网",
-    "title": "特朗普：美伊停火“仍然有效”",
-    "link": "https://www.ftchinese.com/story/001109656",
-    "published": "Fri, 08 May 2026 16:00:00 GMT",
-    "summary": "此前美国与伊朗互相指责对方在周四挑起交火事件。伊朗称美国对伊朗油轮开火，而美国称伊朗“无端”向美国军舰发动导弹、无人机和小艇袭击。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "油轮",
-      "伊朗",
-      "美伊"
-    ],
-    "action_hits": [
-      "无人机",
-      "油轮",
-      "导弹",
-      "停火"
-    ]
-  },
-  {
     "source": "BBC中文",
     "title": "美國伊朗可能達成終戰協議  油價股市作出快速反應",
     "link": "https://www.bbc.com/zhongwen/articles/cy02d8p226ko/trad?at_medium=RSS&at_campaign=rss",
@@ -28,50 +8,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "伊朗",
+      "油價",
       "霍爾木茲",
-      "伊朗",
-      "海峽",
-      "油價"
+      "海峽"
     ],
     "action_hits": [
-      "制裁",
-      "油價"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "德国再度争取购买美国战斧导弹",
-    "link": "https://www.ftchinese.com/story/001109671",
-    "published": "Sun, 10 May 2026 16:00:00 GMT",
-    "summary": "德国总理批评特朗普对伊朗开战后，五角大楼取消将一个美军远程火力营部署到德国的计划，使欧洲针对俄罗斯的威慑出现一个缺口。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "美军",
-      "伊朗",
-      "五角大楼"
-    ],
-    "action_hits": [
-      "部署",
-      "导弹"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "美国制裁三家中国商业卫星公司",
-    "link": "https://www.ftchinese.com/story/001109660",
-    "published": "Fri, 08 May 2026 16:00:00 GMT",
-    "summary": "美国国务院表示，三家公司提供的卫星图像帮助伊朗对驻中东美军发动了军事打击。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "美军",
-      "伊朗",
-      "中东"
-    ],
-    "action_hits": [
-      "制裁",
-      "打击"
+      "油價",
+      "制裁"
     ]
   },
   {
@@ -83,31 +27,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍爾木茲",
       "伊朗",
+      "霍爾木茲",
       "海峽"
     ],
     "action_hits": [
       "打擊"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "沙特阿美首季盈利增长",
-    "link": "https://www.ftchinese.com/story/001109670",
-    "published": "Sun, 10 May 2026 16:00:00 GMT",
-    "summary": "横贯阿拉伯半岛的东-西输油管道使该公司得以从红海港口发运石油，减少了对霍尔木兹海峡的依赖。该公司还受益于油价上涨。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "红海",
-      "海峡",
-      "霍尔木兹",
-      "沙特",
-      "油价"
-    ],
-    "action_hits": [
-      "油价"
     ]
   },
   {
@@ -119,12 +44,12 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "美伊",
-      "伊朗"
+      "伊朗",
+      "美伊"
     ],
     "action_hits": [
-      "制裁",
-      "談判"
+      "談判",
+      "制裁"
     ]
   },
   {
@@ -153,14 +78,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "lebanon",
+      "hezbollah",
       "israel",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
-      "killed",
+      "ceasefire",
       "strike",
-      "ceasefire"
+      "killed"
     ]
   },
   {
@@ -172,13 +97,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "lebanon",
+      "hezbollah",
       "israel",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -190,8 +115,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "lebanon",
       "israel",
+      "lebanon",
       "beirut"
     ],
     "action_hits": [
@@ -207,13 +132,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
+      "strike",
       "killed",
-      "attack",
-      "strike"
+      "attack"
     ]
   },
   {
@@ -225,9 +150,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "hormuz",
       "iran",
-      "strait",
-      "hormuz"
+      "strait"
     ],
     "action_hits": [
       "blockade"
@@ -242,9 +167,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "hormuz",
       "iran",
-      "strait",
-      "hormuz"
+      "strait"
     ],
     "action_hits": [
       "ceasefire"
@@ -259,9 +184,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "lebanon",
+      "hezbollah",
       "israel",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire"
