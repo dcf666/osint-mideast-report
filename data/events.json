@@ -1,16 +1,16 @@
 [
   {
-    "event_id": "50b9427f95c6",
-    "title": "Hezbollah support endures in south Lebanon as ceasefire fails to stop war with Israel",
+    "event_id": "2d35a5595fd1",
+    "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
     "location": "以色列",
-    "first_seen_time": "2026-05-09T21:23:14+00:00",
-    "last_updated_time": "2026-05-13T23:22:07+00:00",
+    "first_seen_time": "2026-05-15T23:59:07+00:00",
+    "last_updated_time": "2026-05-15T23:59:07+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 90,
-    "source_count": 3,
+    "source_count": 2,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cn4pjegk358o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -43,14 +43,14 @@
   },
   {
     "event_id": "651a4f6cfa66",
-    "title": "Lebanon says two paramedics among 13 killed in Israeli strikes",
+    "title": "Israel says it has killed Hamas commander in Gaza air strike",
     "location": "以色列",
     "first_seen_time": "2026-05-12T20:00:05+00:00",
-    "last_updated_time": "2026-05-12T20:00:05+00:00",
+    "last_updated_time": "2026-05-15T19:38:38+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 70,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -82,20 +82,6 @@
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "ffd6fcd0b3e9",
-    "title": "川普抵达北京 此前稱「不需中國幫忙處理伊朗問題」",
-    "location": "伊朗",
-    "first_seen_time": "2026-05-13T13:21:00+00:00",
-    "last_updated_time": "2026-05-13T13:21:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/川普抵达北京-此前稱「不需中國幫忙處理伊朗問題」/a-77140936?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
   },
   {
     "event_id": "f4515bfdf306",

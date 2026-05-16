@@ -9,13 +9,13 @@
     "relevance_score": 80,
     "entity_hits": [
       "伊朗",
+      "海峽",
       "油價",
-      "霍爾木茲",
-      "海峽"
+      "霍爾木茲"
     ],
     "action_hits": [
-      "油價",
-      "制裁"
+      "制裁",
+      "油價"
     ]
   },
   {
@@ -27,29 +27,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "海峽",
       "伊朗",
-      "霍爾木茲",
-      "海峽"
+      "霍爾木茲"
     ],
     "action_hits": [
       "打擊"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "川普抵达北京 此前稱「不需中國幫忙處理伊朗問題」",
-    "link": "https://www.dw.com/zh/川普抵达北京-此前稱「不需中國幫忙處理伊朗問題」/a-77140936?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 13 May 2026 13:21:00 GMT",
-    "summary": "川普周三晚抵达北京。他啟程訪中前表示，美國「不需要中國幫忙處理伊朗問題」。美國財政部近期制裁多家採購伊朗石油的中國企業，外界預期川習會仍將觸及伊朗議題；中國外長王毅則與巴基斯坦外長通話，稱將持續支持巴方斡旋美伊談判。",
-    "lang": "zh",
-    "relevance_score": 67,
-    "entity_hits": [
-      "伊朗",
-      "美伊"
-    ],
-    "action_hits": [
-      "談判",
-      "制裁"
     ]
   },
   {
@@ -61,8 +44,8 @@
     "lang": "zh",
     "relevance_score": 63,
     "entity_hits": [
-      "伊朗",
-      "中东"
+      "中东",
+      "伊朗"
     ],
     "action_hits": [
       "停火协议",
@@ -71,21 +54,21 @@
   },
   {
     "source": "BBC中东",
-    "title": "Lebanon says Israeli strikes killed 39",
-    "link": "https://www.bbc.com/news/articles/cn4pjegk358o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 09 May 2026 21:23:14 GMT",
-    "summary": "Israel and Hezbollah have continued to trade fire despite a ceasefire deal being announced last month.",
+    "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
+    "link": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 15 May 2026 23:59:07 GMT",
+    "summary": "President Trump announced the truce last month, but Israel and Hezbollah have continued to exchange fire since then.",
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hezbollah",
       "israel",
-      "lebanon"
+      "lebanon",
+      "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
       "strike",
-      "killed"
+      "killed",
+      "ceasefire"
     ]
   },
   {
@@ -97,9 +80,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "israel",
-      "lebanon"
+      "lebanon",
+      "hezbollah"
     ],
     "action_hits": [
       "ceasefire",
@@ -115,9 +98,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "beirut",
       "israel",
-      "lebanon",
-      "beirut"
+      "lebanon"
     ],
     "action_hits": [
       "strike"
@@ -150,8 +133,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
       "iran",
+      "hormuz",
       "strait"
     ],
     "action_hits": [
@@ -167,8 +150,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
       "iran",
+      "hormuz",
       "strait"
     ],
     "action_hits": [
@@ -177,19 +160,19 @@
   },
   {
     "source": "BBC中东",
-    "title": "Watch: There's a ceasefire in Lebanon - but the fighting hasn't stopped",
-    "link": "https://www.bbc.com/news/videos/cpdpql7d839o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 29 Apr 2026 14:41:26 GMT",
-    "summary": "Israel and Hezbollah are still fighting in Lebanon despite a US-brokered ceasefire that began 12 days ago.",
+    "title": "Israel says it has killed Hamas commander in Gaza air strike",
+    "link": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 15 May 2026 19:38:38 GMT",
+    "summary": "Izz ad-Din al-Haddad, described as \"one of the architects of the October 7 massacre\", was killed in Gaza City, Israel says.",
     "lang": "en",
-    "relevance_score": 70,
+    "relevance_score": 67,
     "entity_hits": [
-      "hezbollah",
       "israel",
-      "lebanon"
+      "hamas"
     ],
     "action_hits": [
-      "ceasefire"
+      "strike",
+      "killed"
     ]
   }
 ]
