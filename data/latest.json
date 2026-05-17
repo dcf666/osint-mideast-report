@@ -68,12 +68,12 @@
         105.72,
         109.26
       ],
-      "updated": "2026-05-16T04:32:53.053831"
+      "updated": "2026-05-17T04:56:26.957790"
     },
     "wti": {
-      "current": 105.41999816894531,
-      "day_change_pct": 4.2,
-      "war_change_pct": 48.0,
+      "current": 101.0199966430664,
+      "day_change_pct": -0.15,
+      "war_change_pct": 41.82,
       "dates": [
         "04/06",
         "04/07",
@@ -136,14 +136,14 @@
         102.18,
         101.02,
         101.17,
-        105.42
+        101.02
       ],
-      "updated": "2026-05-16T04:32:53.272589"
+      "updated": "2026-05-17T04:56:27.045972"
     },
     "gold": {
-      "current": 4555.7998046875,
-      "day_change_pct": -2.61,
-      "war_change_pct": -13.95,
+      "current": 4561.89990234375,
+      "day_change_pct": -2.48,
+      "war_change_pct": -13.84,
       "dates": [
         "04/06",
         "04/07",
@@ -206,9 +206,9 @@
         4677.6,
         4697.7,
         4678.1,
-        4555.8
+        4561.9
       ],
-      "updated": "2026-05-16T04:32:53.487652"
+      "updated": "2026-05-17T04:56:27.133017"
     },
     "usd_cny": {
       "current": 6.808700084686279,
@@ -278,7 +278,7 @@
         6.79,
         6.81
       ],
-      "updated": "2026-05-16T04:32:53.759435"
+      "updated": "2026-05-17T04:56:27.221889"
     },
     "nat_gas": {
       "current": 2.9600000381469727,
@@ -348,177 +348,119 @@
         2.89,
         2.96
       ],
-      "updated": "2026-05-16T04:32:54.027457"
+      "updated": "2026-05-17T04:56:27.307542"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.44,
-      "change_pct": -3.11,
-      "high": 17.98,
-      "low": 17.26,
-      "volume": 1177861
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600026": {
       "name": "中远海能",
-      "price": 21.87,
-      "change_pct": -4.12,
-      "high": 23.0,
-      "low": 21.62,
-      "volume": 617325
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.95,
-      "change_pct": -7.48,
-      "high": 5.38,
-      "low": 4.82,
-      "volume": 6202180
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600938": {
       "name": "中国海油",
-      "price": 36.51,
-      "change_pct": 1.25,
-      "high": 36.67,
-      "low": 35.65,
-      "volume": 433350
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.51,
-      "change_pct": 2.31,
-      "high": 11.6,
-      "low": 11.19,
-      "volume": 2336426
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.13,
-      "change_pct": -0.39,
-      "high": 5.17,
-      "low": 5.09,
-      "volume": 2813431
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "603619": {
       "name": "中曼石油",
-      "price": 28.95,
-      "change_pct": 0.59,
-      "high": 29.23,
-      "low": 28.42,
-      "volume": 163416
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600759": {
       "name": "洲际油气",
-      "price": 3.11,
-      "change_pct": -4.89,
-      "high": 3.11,
-      "low": 3.11,
-      "volume": 48954
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601808": {
       "name": "中海油服",
-      "price": 14.1,
-      "change_pct": -0.14,
-      "high": 14.25,
-      "low": 14.07,
-      "volume": 176621
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 137.86,
-      "change_pct": -0.58,
-      "high": 144.76,
-      "low": 136.8,
-      "volume": 165154
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600803": {
       "name": "新奥股份",
-      "price": 20.87,
-      "change_pct": -1.0,
-      "high": 21.19,
-      "low": 20.78,
-      "volume": 73484
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600256": {
       "name": "广汇能源",
-      "price": 6.4,
-      "change_pct": 3.73,
-      "high": 6.54,
-      "low": 6.13,
-      "volume": 2417973
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601919": {
       "name": "中远海控",
-      "price": 14.17,
-      "change_pct": -0.91,
-      "high": 14.36,
-      "low": 14.05,
-      "volume": 1008873
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 47.29,
-      "change_pct": -1.27,
-      "high": 47.89,
-      "low": 47.13,
-      "volume": 161933
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600893": {
       "name": "航发动力",
-      "price": 47.12,
-      "change_pct": -2.97,
-      "high": 49.09,
-      "low": 46.62,
-      "volume": 360768
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600150": {
       "name": "中国船舶",
-      "price": 40.55,
-      "change_pct": 0.82,
-      "high": 41.66,
-      "low": 40.1,
-      "volume": 1004478
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600547": {
       "name": "山东黄金",
-      "price": 31.9,
-      "change_pct": -5.03,
-      "high": 33.0,
-      "low": 31.5,
-      "volume": 726727
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 37.64,
-      "change_pct": -5.14,
-      "high": 38.86,
-      "low": 37.25,
-      "volume": 644465
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 24.36,
-      "change_pct": -6.38,
-      "high": 25.5,
-      "low": 24.12,
-      "volume": 979323
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601088": {
       "name": "中国神华",
-      "price": 45.7,
-      "change_pct": 1.17,
-      "high": 45.9,
-      "low": 44.77,
-      "volume": 406673
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.85
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "天然气": {
       "change_pct": null,
@@ -536,25 +478,6 @@
   "news": [
     {
       "source": "BBC中文",
-      "title": "美國伊朗可能達成終戰協議  油價股市作出快速反應",
-      "link": "https://www.bbc.com/zhongwen/articles/cy02d8p226ko/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 07 May 2026 04:19:27 GMT",
-      "summary": "據美國媒體透露，一份包含14項內容的諒解備忘錄可能包括暫停伊朗的鈾濃縮活動、解除制裁，以及恢復霍爾木茲海峽的自由通行。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "伊朗",
-        "海峽",
-        "油價",
-        "霍爾木茲"
-      ],
-      "action_hits": [
-        "制裁",
-        "油價"
-      ]
-    },
-    {
-      "source": "BBC中文",
       "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
       "link": "https://www.bbc.com/zhongwen/articles/c1m297m15n9o/trad?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 01 May 2026 01:07:06 GMT",
@@ -562,12 +485,30 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "海峽",
         "伊朗",
-        "霍爾木茲"
+        "霍爾木茲",
+        "海峽"
       ],
       "action_hits": [
         "打擊"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "伊朗：欧洲国家正就霍尔木兹海峡进行谈判",
+      "link": "https://www.dw.com/zh/伊朗：欧洲国家正就霍尔木兹海峡进行谈判/a-77180589?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 16 May 2026 14:17:00 GMT",
+      "summary": "伊朗官方电视台周六报道，欧洲国家正就船只通过霍尔木兹海峡的过境问题与德黑兰展开谈判。伊朗议会官员表示，伊朗\"已准备好一套专业机制来管理\"霍尔木兹海峡的通行，\"将对专业服务收取相应费用\"。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "德黑兰",
+        "伊朗",
+        "海峡",
+        "霍尔木兹"
+      ],
+      "action_hits": [
+        "谈判"
       ]
     },
     {
@@ -579,31 +520,50 @@
       "lang": "zh",
       "relevance_score": 63,
       "entity_hits": [
-        "中东",
-        "伊朗"
+        "伊朗",
+        "中东"
       ],
       "action_hits": [
-        "停火协议",
-        "停火"
+        "停火",
+        "停火协议"
       ]
     },
     {
       "source": "BBC中东",
       "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
       "link": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 15 May 2026 23:59:07 GMT",
+      "published": "Sat, 16 May 2026 22:27:44 GMT",
       "summary": "President Trump announced the truce last month, but Israel and Hezbollah have continued to exchange fire since then.",
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
         "israel",
-        "lebanon",
-        "hezbollah"
+        "hezbollah",
+        "lebanon"
       ],
       "action_hits": [
-        "strike",
+        "ceasefire",
         "killed",
-        "ceasefire"
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Hamas confirms top commander killed in Israeli air strike",
+      "link": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 16 May 2026 10:12:16 GMT",
+      "summary": "Friday's strike is the latest launched by Israel on Gaza despite a ceasefire with Hamas.",
+      "lang": "en",
+      "relevance_score": 87,
+      "entity_hits": [
+        "hamas",
+        "israel"
+      ],
+      "action_hits": [
+        "ceasefire",
+        "killed",
+        "launch",
+        "strike"
       ]
     },
     {
@@ -616,12 +576,48 @@
       "relevance_score": 80,
       "entity_hits": [
         "israel",
-        "lebanon",
-        "hezbollah"
+        "hezbollah",
+        "lebanon"
       ],
       "action_hits": [
         "ceasefire",
         "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Hezbollah drone strike videos show evolving tactics against Israel",
+      "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 16 May 2026 23:10:19 GMT",
+      "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
+      "lang": "en",
+      "relevance_score": 77,
+      "entity_hits": [
+        "israel",
+        "hezbollah"
+      ],
+      "action_hits": [
+        "strike",
+        "attack",
+        "drone"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US charges Iraqi with plots to target Jews in cities from London to LA",
+      "link": "https://www.bbc.com/news/articles/c7v918j6nj0o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 16 May 2026 00:14:37 GMT",
+      "summary": "Mohammad Baqer Saad Dawood al-Saadi allegedly \"directed and urged others to attack US and Israeli interests\", in retaliation for the Iran war.",
+      "lang": "en",
+      "relevance_score": 75,
+      "entity_hits": [
+        "iraq",
+        "israel",
+        "iran"
+      ],
+      "action_hits": [
+        "attack",
+        "retaliat"
       ]
     },
     {
@@ -633,9 +629,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "beirut",
         "israel",
-        "lebanon"
+        "lebanon",
+        "beirut"
       ],
       "action_hits": [
         "strike"
@@ -654,26 +650,9 @@
         "lebanon"
       ],
       "action_hits": [
-        "strike",
         "killed",
+        "strike",
         "attack"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
-      "link": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 11 May 2026 01:55:13 GMT",
-      "summary": "Iran is reported to want lifting of the US naval blockade, recognition of Iranian sovereignty over the Strait of Hormuz and compensation for war damage.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "iran",
-        "hormuz",
-        "strait"
-      ],
-      "action_hits": [
-        "blockade"
       ]
     },
     {
@@ -685,29 +664,12 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "iran",
+        "strait",
         "hormuz",
-        "strait"
+        "iran"
       ],
       "action_hits": [
         "ceasefire"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Israel says it has killed Hamas commander in Gaza air strike",
-      "link": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 15 May 2026 19:38:38 GMT",
-      "summary": "Izz ad-Din al-Haddad, described as \"one of the architects of the October 7 massacre\", was killed in Gaza City, Israel says.",
-      "lang": "en",
-      "relevance_score": 67,
-      "entity_hits": [
-        "israel",
-        "hamas"
-      ],
-      "action_hits": [
-        "strike",
-        "killed"
       ]
     }
   ],
@@ -716,28 +678,70 @@
       "event_id": "2d35a5595fd1",
       "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
       "location": "以色列",
-      "first_seen_time": "2026-05-15T23:59:07+00:00",
-      "last_updated_time": "2026-05-15T23:59:07+00:00",
+      "first_seen_time": "2026-05-16T22:27:44+00:00",
+      "last_updated_time": "2026-05-16T22:27:44+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 90,
-      "source_count": 2,
+      "source_count": 3,
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
-      "event_id": "6d9b87e45974",
-      "title": "美國伊朗可能達成終戰協議  油價股市作出快速反應",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-05-07T04:19:27+00:00",
-      "last_updated_time": "2026-05-07T04:19:27+00:00",
+      "event_id": "54ca868ac32b",
+      "title": "Hezbollah drone strike videos show evolving tactics against Israel",
+      "location": "以色列",
+      "first_seen_time": "2026-05-16T23:10:19+00:00",
+      "last_updated_time": "2026-05-16T23:10:19+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
-      "confidence": 80,
+      "confidence": 77,
       "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "6f46cfb6da3d",
+      "title": "US charges Iraqi with plots to target Jews in cities from London to LA",
+      "location": "伊朗",
+      "first_seen_time": "2026-05-16T00:14:37+00:00",
+      "last_updated_time": "2026-05-16T00:14:37+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 75,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/c7v918j6nj0o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "731df6af90cd",
+      "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-05-01T01:07:06+00:00",
+      "last_updated_time": "2026-05-01T01:07:06+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
       "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/cy02d8p226ko/trad?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/zhongwen/articles/c1m297m15n9o/trad?at_medium=RSS&at_campaign=rss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "57c7e6808dbb",
+      "title": "伊朗：欧洲国家正就霍尔木兹海峡进行谈判",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-05-16T14:17:00+00:00",
+      "last_updated_time": "2026-05-16T14:17:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "improving",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/伊朗：欧洲国家正就霍尔木兹海峡进行谈判/a-77180589?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -752,34 +756,6 @@
       "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "651a4f6cfa66",
-      "title": "Israel says it has killed Hamas commander in Gaza air strike",
-      "location": "以色列",
-      "first_seen_time": "2026-05-12T20:00:05+00:00",
-      "last_updated_time": "2026-05-15T19:38:38+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "1b0f8e1ba3f5",
-      "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-05-11T01:55:13+00:00",
-      "last_updated_time": "2026-05-11T01:55:13+00:00",
-      "current_status": "shipping_disrupted",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -814,7 +790,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "4/17",
         "4/18",
         "4/19",
         "4/20",
@@ -843,7 +818,8 @@
         "5/13",
         "5/14",
         "5/15",
-        "5/16"
+        "5/16",
+        "5/17"
       ],
       "transits": [
         0,
@@ -933,25 +909,25 @@
         21,
         69
       ],
-      "date_label": "5月16日"
+      "date_label": "5月17日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-05-16",
+      "hormuz_last_date": "2026-05-17",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 64,
+      "vlcc_stale_days": 65,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-05-16"
+      "routes_date": "2026-05-17"
     }
   },
   "meta": {
-    "report_date": "2026.05.16",
-    "report_date_cn": "2026年05月16日",
-    "war_day": 78,
+    "report_date": "2026.05.17",
+    "report_date_cn": "2026年05月17日",
+    "war_day": 79,
     "war_start": "2026-02-28",
-    "generated_at": "2026-05-16T12:33:49.784779+08:00",
-    "generated_at_cn": "2026-05-16 12:33:49 北京时间"
+    "generated_at": "2026-05-17T12:56:56.148555+08:00",
+    "generated_at_cn": "2026-05-17 12:56:56 北京时间"
   },
   "history": [
     {
@@ -1456,6 +1432,13 @@
       "brent": 109.26000213623047,
       "wti": 105.41999816894531,
       "gold": 4555.7998046875,
+      "usd_cny": 6.808700084686279
+    },
+    {
+      "date": "2026-05-17",
+      "brent": 109.26000213623047,
+      "wti": 101.0199966430664,
+      "gold": 4561.89990234375,
       "usd_cny": 6.808700084686279
     }
   ]

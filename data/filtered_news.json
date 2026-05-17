@@ -1,25 +1,6 @@
 [
   {
     "source": "BBC中文",
-    "title": "美國伊朗可能達成終戰協議  油價股市作出快速反應",
-    "link": "https://www.bbc.com/zhongwen/articles/cy02d8p226ko/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 07 May 2026 04:19:27 GMT",
-    "summary": "據美國媒體透露，一份包含14項內容的諒解備忘錄可能包括暫停伊朗的鈾濃縮活動、解除制裁，以及恢復霍爾木茲海峽的自由通行。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "伊朗",
-      "海峽",
-      "油價",
-      "霍爾木茲"
-    ],
-    "action_hits": [
-      "制裁",
-      "油價"
-    ]
-  },
-  {
-    "source": "BBC中文",
     "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
     "link": "https://www.bbc.com/zhongwen/articles/c1m297m15n9o/trad?at_medium=RSS&at_campaign=rss",
     "published": "Fri, 01 May 2026 01:07:06 GMT",
@@ -27,12 +8,30 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峽",
       "伊朗",
-      "霍爾木茲"
+      "霍爾木茲",
+      "海峽"
     ],
     "action_hits": [
       "打擊"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "伊朗：欧洲国家正就霍尔木兹海峡进行谈判",
+    "link": "https://www.dw.com/zh/伊朗：欧洲国家正就霍尔木兹海峡进行谈判/a-77180589?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 16 May 2026 14:17:00 GMT",
+    "summary": "伊朗官方电视台周六报道，欧洲国家正就船只通过霍尔木兹海峡的过境问题与德黑兰展开谈判。伊朗议会官员表示，伊朗\"已准备好一套专业机制来管理\"霍尔木兹海峡的通行，\"将对专业服务收取相应费用\"。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "德黑兰",
+      "伊朗",
+      "海峡",
+      "霍尔木兹"
+    ],
+    "action_hits": [
+      "谈判"
     ]
   },
   {
@@ -44,31 +43,50 @@
     "lang": "zh",
     "relevance_score": 63,
     "entity_hits": [
-      "中东",
-      "伊朗"
+      "伊朗",
+      "中东"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "停火",
+      "停火协议"
     ]
   },
   {
     "source": "BBC中东",
     "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
     "link": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 15 May 2026 23:59:07 GMT",
+    "published": "Sat, 16 May 2026 22:27:44 GMT",
     "summary": "President Trump announced the truce last month, but Israel and Hezbollah have continued to exchange fire since then.",
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
       "israel",
-      "lebanon",
-      "hezbollah"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
-      "strike",
+      "ceasefire",
       "killed",
-      "ceasefire"
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Hamas confirms top commander killed in Israeli air strike",
+    "link": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 16 May 2026 10:12:16 GMT",
+    "summary": "Friday's strike is the latest launched by Israel on Gaza despite a ceasefire with Hamas.",
+    "lang": "en",
+    "relevance_score": 87,
+    "entity_hits": [
+      "hamas",
+      "israel"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "killed",
+      "launch",
+      "strike"
     ]
   },
   {
@@ -81,12 +99,48 @@
     "relevance_score": 80,
     "entity_hits": [
       "israel",
-      "lebanon",
-      "hezbollah"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire",
       "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Hezbollah drone strike videos show evolving tactics against Israel",
+    "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 16 May 2026 23:10:19 GMT",
+    "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
+    "lang": "en",
+    "relevance_score": 77,
+    "entity_hits": [
+      "israel",
+      "hezbollah"
+    ],
+    "action_hits": [
+      "strike",
+      "attack",
+      "drone"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US charges Iraqi with plots to target Jews in cities from London to LA",
+    "link": "https://www.bbc.com/news/articles/c7v918j6nj0o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 16 May 2026 00:14:37 GMT",
+    "summary": "Mohammad Baqer Saad Dawood al-Saadi allegedly \"directed and urged others to attack US and Israeli interests\", in retaliation for the Iran war.",
+    "lang": "en",
+    "relevance_score": 75,
+    "entity_hits": [
+      "iraq",
+      "israel",
+      "iran"
+    ],
+    "action_hits": [
+      "attack",
+      "retaliat"
     ]
   },
   {
@@ -98,9 +152,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "beirut",
       "israel",
-      "lebanon"
+      "lebanon",
+      "beirut"
     ],
     "action_hits": [
       "strike"
@@ -119,26 +173,9 @@
       "lebanon"
     ],
     "action_hits": [
-      "strike",
       "killed",
+      "strike",
       "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
-    "link": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 11 May 2026 01:55:13 GMT",
-    "summary": "Iran is reported to want lifting of the US naval blockade, recognition of Iranian sovereignty over the Strait of Hormuz and compensation for war damage.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "iran",
-      "hormuz",
-      "strait"
-    ],
-    "action_hits": [
-      "blockade"
     ]
   },
   {
@@ -150,29 +187,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
+      "strait",
       "hormuz",
-      "strait"
+      "iran"
     ],
     "action_hits": [
       "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel says it has killed Hamas commander in Gaza air strike",
-    "link": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 15 May 2026 19:38:38 GMT",
-    "summary": "Izz ad-Din al-Haddad, described as \"one of the architects of the October 7 massacre\", was killed in Gaza City, Israel says.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "israel",
-      "hamas"
-    ],
-    "action_hits": [
-      "strike",
-      "killed"
     ]
   }
 ]
