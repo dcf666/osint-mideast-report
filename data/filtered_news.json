@@ -8,30 +8,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "霍爾木茲",
-      "海峽"
+      "海峽",
+      "伊朗"
     ],
     "action_hits": [
       "打擊"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "伊朗：欧洲国家正就霍尔木兹海峡进行谈判",
-    "link": "https://www.dw.com/zh/伊朗：欧洲国家正就霍尔木兹海峡进行谈判/a-77180589?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 16 May 2026 14:17:00 GMT",
-    "summary": "伊朗官方电视台周六报道，欧洲国家正就船只通过霍尔木兹海峡的过境问题与德黑兰展开谈判。伊朗议会官员表示，伊朗\"已准备好一套专业机制来管理\"霍尔木兹海峡的通行，\"将对专业服务收取相应费用\"。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "德黑兰",
-      "伊朗",
-      "海峡",
-      "霍尔木兹"
-    ],
-    "action_hits": [
-      "谈判"
     ]
   },
   {
@@ -43,12 +25,12 @@
     "lang": "zh",
     "relevance_score": 63,
     "entity_hits": [
-      "伊朗",
-      "中东"
+      "中东",
+      "伊朗"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -61,12 +43,12 @@
     "relevance_score": 90,
     "entity_hits": [
       "israel",
-      "hezbollah",
-      "lebanon"
+      "lebanon",
+      "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
       "killed",
+      "ceasefire",
       "strike"
     ]
   },
@@ -99,12 +81,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "israel",
-      "hezbollah",
-      "lebanon"
+      "lebanon",
+      "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
-      "attack"
+      "attack",
+      "ceasefire"
     ]
   },
   {
@@ -120,9 +102,9 @@
       "hezbollah"
     ],
     "action_hits": [
-      "strike",
+      "drone",
       "attack",
-      "drone"
+      "strike"
     ]
   },
   {
@@ -174,8 +156,8 @@
     ],
     "action_hits": [
       "killed",
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -187,9 +169,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "iran",
       "strait",
-      "hormuz",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
       "ceasefire"
