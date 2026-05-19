@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 111.19999694824219,
-      "day_change_pct": 1.78,
-      "war_change_pct": 43.04,
+      "current": 109.80000305175781,
+      "day_change_pct": -2.05,
+      "war_change_pct": 41.24,
       "dates": [
-        "04/07",
         "04/08",
         "04/09",
         "04/10",
@@ -34,10 +33,10 @@
         "05/13",
         "05/14",
         "05/15",
-        "05/18"
+        "05/18",
+        "05/19"
       ],
       "prices": [
-        109.27,
         94.75,
         95.92,
         95.2,
@@ -66,16 +65,16 @@
         105.63,
         105.72,
         109.26,
-        111.2
+        112.1,
+        109.8
       ],
-      "updated": "2026-05-18T05:11:27.328388"
+      "updated": "2026-05-19T05:06:55.211147"
     },
     "wti": {
-      "current": 103.12000274658203,
-      "day_change_pct": -2.18,
-      "war_change_pct": 44.77,
+      "current": 102.61000061035156,
+      "day_change_pct": -5.57,
+      "war_change_pct": 44.05,
       "dates": [
-        "04/07",
         "04/08",
         "04/09",
         "04/10",
@@ -104,10 +103,10 @@
         "05/13",
         "05/14",
         "05/15",
-        "05/18"
+        "05/18",
+        "05/19"
       ],
       "prices": [
-        112.95,
         94.41,
         97.87,
         96.57,
@@ -136,16 +135,16 @@
         101.02,
         101.17,
         105.42,
-        103.12
+        108.66,
+        102.61
       ],
-      "updated": "2026-05-18T05:11:27.607394"
+      "updated": "2026-05-19T05:06:55.295147"
     },
     "gold": {
-      "current": 4540.2998046875,
-      "day_change_pct": -0.34,
-      "war_change_pct": -14.24,
+      "current": 4546.60009765625,
+      "day_change_pct": -0.13,
+      "war_change_pct": -14.12,
       "dates": [
-        "04/07",
         "04/08",
         "04/09",
         "04/10",
@@ -174,10 +173,10 @@
         "05/13",
         "05/14",
         "05/15",
-        "05/18"
+        "05/18",
+        "05/19"
       ],
       "prices": [
-        4657.1,
         4749.5,
         4792.2,
         4761.9,
@@ -206,16 +205,16 @@
         4697.7,
         4678.1,
         4555.8,
-        4540.3
+        4552.5,
+        4546.6
       ],
-      "updated": "2026-05-18T05:11:27.855741"
+      "updated": "2026-05-19T05:06:55.381585"
     },
     "usd_cny": {
-      "current": 6.812300205230713,
-      "day_change_pct": 0.4,
-      "war_change_pct": -0.66,
+      "current": 6.801300048828125,
+      "day_change_pct": -0.12,
+      "war_change_pct": -0.83,
       "dates": [
-        "04/07",
         "04/08",
         "04/09",
         "04/10",
@@ -244,10 +243,10 @@
         "05/13",
         "05/14",
         "05/15",
-        "05/18"
+        "05/18",
+        "05/19"
       ],
       "prices": [
-        6.88,
         6.86,
         6.83,
         6.83,
@@ -276,16 +275,16 @@
         6.79,
         6.79,
         6.79,
-        6.81
+        6.81,
+        6.8
       ],
-      "updated": "2026-05-18T05:11:28.159433"
+      "updated": "2026-05-19T05:06:55.528388"
     },
     "nat_gas": {
-      "current": 3.0339999198913574,
-      "day_change_pct": 2.5,
-      "war_change_pct": 2.5,
+      "current": 3.0190000534057617,
+      "day_change_pct": -0.17,
+      "war_change_pct": 1.99,
       "dates": [
-        "04/07",
         "04/08",
         "04/09",
         "04/10",
@@ -314,10 +313,10 @@
         "05/13",
         "05/14",
         "05/15",
-        "05/18"
+        "05/18",
+        "05/19"
       ],
       "prices": [
-        2.87,
         2.72,
         2.67,
         2.65,
@@ -346,208 +345,194 @@
         2.86,
         2.89,
         2.96,
-        3.03
+        3.02,
+        3.02
       ],
-      "updated": "2026-05-18T05:11:28.410534"
+      "updated": "2026-05-19T05:06:55.610471"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.1,
-      "change_pct": -1.95,
-      "high": 17.19,
-      "low": 16.4,
-      "volume": 1198152
+      "price": 17.37,
+      "change_pct": 1.88,
+      "high": 17.88,
+      "low": 17.1,
+      "volume": 692459
     },
     "600026": {
       "name": "中远海能",
-      "price": 21.45,
-      "change_pct": -1.92,
-      "high": 21.7,
-      "low": 20.82,
-      "volume": 382618
+      "price": 21.73,
+      "change_pct": 1.16,
+      "high": 22.22,
+      "low": 21.46,
+      "volume": 277956
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.8,
-      "change_pct": -3.03,
-      "high": 4.9,
-      "low": 4.73,
-      "volume": 2091628
+      "price": 4.96,
+      "change_pct": 4.64,
+      "high": 5.11,
+      "low": 4.72,
+      "volume": 2942471
     },
     "600938": {
       "name": "中国海油",
-      "price": 36.85,
-      "change_pct": 0.93,
-      "high": 37.35,
-      "low": 36.7,
-      "volume": 327302
+      "price": 36.56,
+      "change_pct": -0.92,
+      "high": 36.83,
+      "low": 36.37,
+      "volume": 213847
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.48,
-      "change_pct": -0.26,
-      "high": 11.75,
-      "low": 11.43,
-      "volume": 1080621
+      "price": 11.5,
+      "change_pct": -0.35,
+      "high": 11.54,
+      "low": 11.38,
+      "volume": 702632
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.13,
-      "change_pct": null,
+      "price": 5.11,
+      "change_pct": -0.58,
       "high": 5.15,
-      "low": 5.09,
-      "volume": 1422272
+      "low": 5.11,
+      "volume": 983112
     },
     "603619": {
       "name": "中曼石油",
-      "price": 30.13,
-      "change_pct": 4.08,
-      "high": 30.5,
-      "low": 29.31,
-      "volume": 203990
+      "price": 29.1,
+      "change_pct": -3.8,
+      "high": 29.98,
+      "low": 28.95,
+      "volume": 112901
     },
     "600759": {
       "name": "洲际油气",
-      "price": 2.95,
-      "change_pct": -5.14,
-      "high": 2.95,
-      "low": 2.95,
-      "volume": 61664
+      "price": 2.8,
+      "change_pct": -5.08,
+      "high": 2.8,
+      "low": 2.8,
+      "volume": 43315
     },
     "601808": {
       "name": "中海油服",
-      "price": 14.22,
-      "change_pct": 0.85,
-      "high": 14.39,
+      "price": 14.21,
+      "change_pct": -0.07,
+      "high": 14.29,
       "low": 14.06,
-      "volume": 193194
+      "volume": 135353
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 140.14,
-      "change_pct": 1.65,
-      "high": 141.75,
-      "low": 134.96,
-      "volume": 86148
+      "price": 137.7,
+      "change_pct": -1.04,
+      "high": 139.44,
+      "low": 135.28,
+      "volume": 63707
     },
     "600803": {
       "name": "新奥股份",
-      "price": 20.6,
-      "change_pct": -1.29,
-      "high": 20.93,
-      "low": 20.55,
-      "volume": 38291
+      "price": 20.66,
+      "change_pct": -0.91,
+      "high": 20.95,
+      "low": 20.58,
+      "volume": 22642
     },
     "600256": {
       "name": "广汇能源",
-      "price": 6.53,
-      "change_pct": 2.03,
-      "high": 6.59,
-      "low": 6.31,
-      "volume": 1334544
+      "price": 6.29,
+      "change_pct": -3.97,
+      "high": 6.46,
+      "low": 6.28,
+      "volume": 799365
     },
     "601919": {
       "name": "中远海控",
-      "price": 14.03,
-      "change_pct": -0.99,
-      "high": 14.21,
-      "low": 14.01,
-      "volume": 518391
+      "price": 14.02,
+      "change_pct": 0.14,
+      "high": 14.09,
+      "low": 13.97,
+      "volume": 342244
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 46.91,
-      "change_pct": -0.8,
-      "high": 47.63,
-      "low": 46.8,
-      "volume": 95440
+      "price": 46.58,
+      "change_pct": -0.11,
+      "high": 46.95,
+      "low": 46.51,
+      "volume": 62776
     },
     "600893": {
       "name": "航发动力",
-      "price": 46.24,
-      "change_pct": -1.87,
-      "high": 47.51,
-      "low": 46.11,
-      "volume": 193167
+      "price": 46.07,
+      "change_pct": -0.84,
+      "high": 46.85,
+      "low": 45.72,
+      "volume": 145820
     },
     "600150": {
       "name": "中国船舶",
-      "price": 38.7,
-      "change_pct": -4.56,
-      "high": 40.55,
-      "low": 38.6,
-      "volume": 911448
+      "price": 37.52,
+      "change_pct": -1.7,
+      "high": 38.52,
+      "low": 37.4,
+      "volume": 582878
     },
     "600547": {
       "name": "山东黄金",
-      "price": 31.14,
-      "change_pct": -2.38,
-      "high": 31.4,
-      "low": 30.84,
-      "volume": 423408
+      "price": 30.53,
+      "change_pct": -2.34,
+      "high": 31.42,
+      "low": 30.47,
+      "volume": 264129
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 36.39,
-      "change_pct": -3.32,
-      "high": 36.81,
-      "low": 35.96,
-      "volume": 411851
+      "price": 36.09,
+      "change_pct": -1.55,
+      "high": 37.18,
+      "low": 36.06,
+      "volume": 236365
     },
     "600489": {
       "name": "中金黄金",
-      "price": 23.7,
-      "change_pct": -2.71,
-      "high": 24.0,
-      "low": 23.55,
-      "volume": 478041
+      "price": 23.28,
+      "change_pct": -2.14,
+      "high": 23.85,
+      "low": 23.25,
+      "volume": 282819
     },
     "601088": {
       "name": "中国神华",
-      "price": 45.76,
-      "change_pct": 0.13,
-      "high": 46.18,
-      "low": 45.26,
-      "volume": 226720
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.75
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "天然气": {
-      "change_pct": -0.34
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "军工": {
-      "change_pct": -0.65
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "黄金": {
-      "change_pct": -0.14
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     }
   },
   "news": [
-    {
-      "source": "BBC中文",
-      "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
-      "link": "https://www.bbc.com/zhongwen/articles/c1m297m15n9o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 01 May 2026 01:07:06 GMT",
-      "summary": "亞洲各國的播種季開始，但霍爾木茲海峽關閉和中國的出口限制已經對肥料供應造成打擊。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "霍爾木茲",
-        "海峽",
-        "伊朗"
-      ],
-      "action_hits": [
-        "打擊"
-      ]
-    },
     {
       "source": "德国之声",
       "title": "中美元首峰会在即：北京想要什么？",
@@ -561,8 +546,8 @@
         "伊朗"
       ],
       "action_hits": [
-        "停火协议",
-        "停火"
+        "停火",
+        "停火协议"
       ]
     },
     {
@@ -575,13 +560,13 @@
       "relevance_score": 90,
       "entity_hits": [
         "israel",
-        "lebanon",
-        "hezbollah"
+        "hezbollah",
+        "lebanon"
       ],
       "action_hits": [
-        "killed",
+        "strike",
         "ceasefire",
-        "strike"
+        "killed"
       ]
     },
     {
@@ -593,14 +578,14 @@
       "lang": "en",
       "relevance_score": 87,
       "entity_hits": [
-        "hamas",
-        "israel"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
+        "strike",
         "ceasefire",
-        "killed",
         "launch",
-        "strike"
+        "killed"
       ]
     },
     {
@@ -613,12 +598,12 @@
       "relevance_score": 80,
       "entity_hits": [
         "israel",
-        "lebanon",
-        "hezbollah"
+        "hezbollah",
+        "lebanon"
       ],
       "action_hits": [
-        "attack",
-        "ceasefire"
+        "ceasefire",
+        "attack"
       ]
     },
     {
@@ -634,9 +619,9 @@
         "hezbollah"
       ],
       "action_hits": [
-        "drone",
+        "strike",
         "attack",
-        "strike"
+        "drone"
       ]
     },
     {
@@ -649,47 +634,12 @@
       "relevance_score": 75,
       "entity_hits": [
         "iraq",
-        "israel",
-        "iran"
+        "iran",
+        "israel"
       ],
       "action_hits": [
-        "attack",
-        "retaliat"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Israeli strikes in southern Lebanon kill 22 people, health ministry says",
-      "link": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 13 May 2026 21:14:45 GMT",
-      "summary": "Eight children are among those reported dead after a series of air strikes hit the south of Beirut.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "israel",
-        "lebanon",
-        "beirut"
-      ],
-      "action_hits": [
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Lebanon says two paramedics among 13 killed in Israeli strikes",
-      "link": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 12 May 2026 20:00:05 GMT",
-      "summary": "Lebanon's health ministry says the paramedics were carrying out a rescue mission in Nabatieh in response to an earlier attack that killed one person.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "israel",
-        "lebanon"
-      ],
-      "action_hits": [
-        "killed",
-        "attack",
-        "strike"
+        "retaliat",
+        "attack"
       ]
     },
     {
@@ -701,12 +651,29 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "iran",
         "strait",
+        "iran",
         "hormuz"
       ],
       "action_hits": [
         "ceasefire"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "UAE reports strike near Abu Dhabi nuclear power plant",
+      "link": "https://www.bbc.com/news/articles/cwy27pkj1l1o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 17 May 2026 20:53:45 GMT",
+      "summary": "The country is investigating the source of the strike, which it calls a \"dangerous escalation\".",
+      "lang": "en",
+      "relevance_score": 65,
+      "entity_hits": [
+        "uae",
+        "abu dhabi"
+      ],
+      "action_hits": [
+        "escalat",
+        "strike"
       ]
     }
   ],
@@ -734,7 +701,7 @@
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 77,
-      "source_count": 2,
+      "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
       "lang": "en"
@@ -754,34 +721,6 @@
       "lang": "en"
     },
     {
-      "event_id": "731df6af90cd",
-      "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-05-01T01:07:06+00:00",
-      "last_updated_time": "2026-05-01T01:07:06+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/c1m297m15n9o/trad?at_medium=RSS&at_campaign=rss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "1ff2bc15652d",
-      "title": "Israeli strikes in southern Lebanon kill 22 people, health ministry says",
-      "location": "黎巴嫩·贝鲁特",
-      "first_seen_time": "2026-05-13T21:14:45+00:00",
-      "last_updated_time": "2026-05-13T21:14:45+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "e421ad7d4eff",
       "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
       "location": "霍尔木兹海峡",
@@ -793,6 +732,20 @@
       "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "bc1b35c8e04e",
+      "title": "UAE reports strike near Abu Dhabi nuclear power plant",
+      "location": "中东地区",
+      "first_seen_time": "2026-05-17T20:53:45+00:00",
+      "last_updated_time": "2026-05-17T20:53:45+00:00",
+      "current_status": "escalating",
+      "trend": "worsening",
+      "confidence": 65,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cwy27pkj1l1o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -813,7 +766,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "4/19",
         "4/20",
         "4/21",
         "4/22",
@@ -842,7 +794,8 @@
         "5/15",
         "5/16",
         "5/17",
-        "5/18"
+        "5/18",
+        "5/19"
       ],
       "transits": [
         0,
@@ -932,25 +885,25 @@
         21,
         69
       ],
-      "date_label": "5月18日"
+      "date_label": "5月19日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-05-18",
+      "hormuz_last_date": "2026-05-19",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 66,
+      "vlcc_stale_days": 67,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-05-18"
+      "routes_date": "2026-05-19"
     }
   },
   "meta": {
-    "report_date": "2026.05.18",
-    "report_date_cn": "2026年05月18日",
-    "war_day": 80,
+    "report_date": "2026.05.19",
+    "report_date_cn": "2026年05月19日",
+    "war_day": 81,
     "war_start": "2026-02-28",
-    "generated_at": "2026-05-18T13:12:30.287876+08:00",
-    "generated_at_cn": "2026-05-18 13:12:30 北京时间"
+    "generated_at": "2026-05-19T13:08:01.379417+08:00",
+    "generated_at_cn": "2026-05-19 13:08:01 北京时间"
   },
   "history": [
     {
@@ -1470,6 +1423,13 @@
       "wti": 103.12000274658203,
       "gold": 4540.2998046875,
       "usd_cny": 6.812300205230713
+    },
+    {
+      "date": "2026-05-19",
+      "brent": 109.80000305175781,
+      "wti": 102.61000061035156,
+      "gold": 4546.60009765625,
+      "usd_cny": 6.801300048828125
     }
   ]
 }

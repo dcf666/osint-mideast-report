@@ -22,7 +22,7 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 77,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -42,34 +42,6 @@
     "lang": "en"
   },
   {
-    "event_id": "731df6af90cd",
-    "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-05-01T01:07:06+00:00",
-    "last_updated_time": "2026-05-01T01:07:06+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/c1m297m15n9o/trad?at_medium=RSS&at_campaign=rss",
-    "lang": "zh"
-  },
-  {
-    "event_id": "1ff2bc15652d",
-    "title": "Israeli strikes in southern Lebanon kill 22 people, health ministry says",
-    "location": "黎巴嫩·贝鲁特",
-    "first_seen_time": "2026-05-13T21:14:45+00:00",
-    "last_updated_time": "2026-05-13T21:14:45+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "e421ad7d4eff",
     "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
     "location": "霍尔木兹海峡",
@@ -81,6 +53,20 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "bc1b35c8e04e",
+    "title": "UAE reports strike near Abu Dhabi nuclear power plant",
+    "location": "中东地区",
+    "first_seen_time": "2026-05-17T20:53:45+00:00",
+    "last_updated_time": "2026-05-17T20:53:45+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 65,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cwy27pkj1l1o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {

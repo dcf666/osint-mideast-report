@@ -1,22 +1,5 @@
 [
   {
-    "source": "BBC中文",
-    "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
-    "link": "https://www.bbc.com/zhongwen/articles/c1m297m15n9o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 01 May 2026 01:07:06 GMT",
-    "summary": "亞洲各國的播種季開始，但霍爾木茲海峽關閉和中國的出口限制已經對肥料供應造成打擊。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "霍爾木茲",
-      "海峽",
-      "伊朗"
-    ],
-    "action_hits": [
-      "打擊"
-    ]
-  },
-  {
     "source": "德国之声",
     "title": "中美元首峰会在即：北京想要什么？",
     "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -29,8 +12,8 @@
       "伊朗"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "停火",
+      "停火协议"
     ]
   },
   {
@@ -43,13 +26,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "israel",
-      "lebanon",
-      "hezbollah"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
-      "killed",
+      "strike",
       "ceasefire",
-      "strike"
+      "killed"
     ]
   },
   {
@@ -61,14 +44,14 @@
     "lang": "en",
     "relevance_score": 87,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
+      "strike",
       "ceasefire",
-      "killed",
       "launch",
-      "strike"
+      "killed"
     ]
   },
   {
@@ -81,12 +64,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "israel",
-      "lebanon",
-      "hezbollah"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -102,9 +85,9 @@
       "hezbollah"
     ],
     "action_hits": [
-      "drone",
+      "strike",
       "attack",
-      "strike"
+      "drone"
     ]
   },
   {
@@ -117,47 +100,12 @@
     "relevance_score": 75,
     "entity_hits": [
       "iraq",
-      "israel",
-      "iran"
+      "iran",
+      "israel"
     ],
     "action_hits": [
-      "attack",
-      "retaliat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israeli strikes in southern Lebanon kill 22 people, health ministry says",
-    "link": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 13 May 2026 21:14:45 GMT",
-    "summary": "Eight children are among those reported dead after a series of air strikes hit the south of Beirut.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "israel",
-      "lebanon",
-      "beirut"
-    ],
-    "action_hits": [
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Lebanon says two paramedics among 13 killed in Israeli strikes",
-    "link": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 12 May 2026 20:00:05 GMT",
-    "summary": "Lebanon's health ministry says the paramedics were carrying out a rescue mission in Nabatieh in response to an earlier attack that killed one person.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "israel",
-      "lebanon"
-    ],
-    "action_hits": [
-      "killed",
-      "attack",
-      "strike"
+      "retaliat",
+      "attack"
     ]
   },
   {
@@ -169,12 +117,29 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "strait",
+      "iran",
       "hormuz"
     ],
     "action_hits": [
       "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "UAE reports strike near Abu Dhabi nuclear power plant",
+    "link": "https://www.bbc.com/news/articles/cwy27pkj1l1o?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 17 May 2026 20:53:45 GMT",
+    "summary": "The country is investigating the source of the strike, which it calls a \"dangerous escalation\".",
+    "lang": "en",
+    "relevance_score": 65,
+    "entity_hits": [
+      "uae",
+      "abu dhabi"
+    ],
+    "action_hits": [
+      "escalat",
+      "strike"
     ]
   }
 ]
