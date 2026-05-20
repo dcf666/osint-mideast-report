@@ -28,20 +28,6 @@
     "lang": "en"
   },
   {
-    "event_id": "6f46cfb6da3d",
-    "title": "US charges Iraqi with plots to target Jews in cities from London to LA",
-    "location": "伊朗",
-    "first_seen_time": "2026-05-16T00:14:37+00:00",
-    "last_updated_time": "2026-05-16T00:14:37+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 75,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c7v918j6nj0o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "e421ad7d4eff",
     "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
     "location": "霍尔木兹海峡",

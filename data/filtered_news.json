@@ -8,12 +8,12 @@
     "lang": "zh",
     "relevance_score": 63,
     "entity_hits": [
-      "中东",
-      "伊朗"
+      "伊朗",
+      "中东"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -25,14 +25,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "lebanon",
       "israel",
-      "hezbollah",
-      "lebanon"
+      "hezbollah"
     ],
     "action_hits": [
+      "killed",
       "strike",
-      "ceasefire",
-      "killed"
+      "ceasefire"
     ]
   },
   {
@@ -44,14 +44,14 @@
     "lang": "en",
     "relevance_score": 87,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "strike",
-      "ceasefire",
       "launch",
-      "killed"
+      "killed",
+      "strike",
+      "ceasefire"
     ]
   },
   {
@@ -63,13 +63,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "lebanon",
       "israel",
-      "hezbollah",
-      "lebanon"
+      "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
-      "attack"
+      "attack",
+      "ceasefire"
     ]
   },
   {
@@ -85,27 +85,9 @@
       "hezbollah"
     ],
     "action_hits": [
-      "strike",
       "attack",
-      "drone"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US charges Iraqi with plots to target Jews in cities from London to LA",
-    "link": "https://www.bbc.com/news/articles/c7v918j6nj0o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 16 May 2026 00:14:37 GMT",
-    "summary": "Mohammad Baqer Saad Dawood al-Saadi allegedly \"directed and urged others to attack US and Israeli interests\", in retaliation for the Iran war.",
-    "lang": "en",
-    "relevance_score": 75,
-    "entity_hits": [
-      "iraq",
-      "iran",
-      "israel"
-    ],
-    "action_hits": [
-      "retaliat",
-      "attack"
+      "drone",
+      "strike"
     ]
   },
   {
@@ -117,9 +99,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
       "iran",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
       "ceasefire"
@@ -138,8 +120,8 @@
       "abu dhabi"
     ],
     "action_hits": [
-      "escalat",
-      "strike"
+      "strike",
+      "escalat"
     ]
   }
 ]
