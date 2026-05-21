@@ -12,8 +12,8 @@
       "中东"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "停火",
+      "停火协议"
     ]
   },
   {
@@ -25,9 +25,9 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "hezbollah",
       "lebanon",
-      "israel",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
       "killed",
@@ -48,8 +48,8 @@
       "israel"
     ],
     "action_hits": [
-      "launch",
       "killed",
+      "launch",
       "strike",
       "ceasefire"
     ]
@@ -63,9 +63,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "hezbollah",
       "lebanon",
-      "israel",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
       "attack",
@@ -76,18 +76,18 @@
     "source": "BBC中东",
     "title": "Hezbollah drone strike videos show evolving tactics against Israel",
     "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 16 May 2026 23:10:19 GMT",
+    "published": "Wed, 20 May 2026 16:36:30 GMT",
     "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "israel",
-      "hezbollah"
+      "hezbollah",
+      "israel"
     ],
     "action_hits": [
+      "strike",
       "attack",
-      "drone",
-      "strike"
+      "drone"
     ]
   },
   {
@@ -100,8 +100,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "hormuz",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "ceasefire"
@@ -116,12 +116,29 @@
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "uae",
-      "abu dhabi"
+      "abu dhabi",
+      "uae"
     ],
     "action_hits": [
-      "strike",
-      "escalat"
+      "escalat",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Lebanon says 21 killed, including children, in Israeli air strikes",
+    "link": "https://www.bbc.com/news/articles/ce9p1l7yp2lo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 20 May 2026 10:42:03 GMT",
+    "summary": "Twelve people were killed in a single strike on a house, including three children and three women, Lebanon's state-run news agency says.",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "lebanon",
+      "israel"
+    ],
+    "action_hits": [
+      "killed",
+      "strike"
     ]
   }
 ]
