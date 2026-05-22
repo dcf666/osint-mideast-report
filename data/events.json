@@ -1,16 +1,16 @@
 [
   {
-    "event_id": "2d35a5595fd1",
-    "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
+    "event_id": "c1fa4580690c",
+    "title": "Hezbollah support endures in south Lebanon as ceasefire fails to stop war with Israel",
     "location": "以色列",
-    "first_seen_time": "2026-05-16T22:27:44+00:00",
-    "last_updated_time": "2026-05-16T22:27:44+00:00",
+    "first_seen_time": "2026-05-13T23:22:07+00:00",
+    "last_updated_time": "2026-05-13T23:22:07+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
-    "confidence": 90,
-    "source_count": 3,
+    "confidence": 80,
+    "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/c9d3g6deljyo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {

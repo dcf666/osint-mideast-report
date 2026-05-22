@@ -12,46 +12,8 @@
       "中东"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
-    "link": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 16 May 2026 22:27:44 GMT",
-    "summary": "President Trump announced the truce last month, but Israel and Hezbollah have continued to exchange fire since then.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "hezbollah",
-      "lebanon",
-      "israel"
-    ],
-    "action_hits": [
-      "killed",
-      "strike",
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Hamas confirms top commander killed in Israeli air strike",
-    "link": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 16 May 2026 10:12:16 GMT",
-    "summary": "Friday's strike is the latest launched by Israel on Gaza despite a ceasefire with Hamas.",
-    "lang": "en",
-    "relevance_score": 87,
-    "entity_hits": [
-      "hamas",
-      "israel"
-    ],
-    "action_hits": [
-      "killed",
-      "launch",
-      "strike",
-      "ceasefire"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -99,8 +61,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "strait",
+      "iran",
       "hormuz"
     ],
     "action_hits": [
@@ -116,12 +78,12 @@
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "abu dhabi",
-      "uae"
+      "uae",
+      "abu dhabi"
     ],
     "action_hits": [
-      "escalat",
-      "strike"
+      "strike",
+      "escalat"
     ]
   },
   {
@@ -137,8 +99,8 @@
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   }
 ]

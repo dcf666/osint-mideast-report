@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 105.58999633789062,
-      "day_change_pct": 0.54,
-      "war_change_pct": 35.82,
+      "current": 104.2699966430664,
+      "day_change_pct": 1.65,
+      "war_change_pct": 34.13,
       "dates": [
-        "04/10",
         "04/13",
         "04/14",
         "04/15",
@@ -34,10 +33,10 @@
         "05/18",
         "05/19",
         "05/20",
-        "05/21"
+        "05/21",
+        "05/22"
       ],
       "prices": [
-        95.2,
         99.36,
         94.79,
         94.93,
@@ -66,16 +65,16 @@
         112.1,
         111.28,
         105.02,
-        105.59
+        102.58,
+        104.27
       ],
-      "updated": "2026-05-21T05:13:22.029910"
+      "updated": "2026-05-22T05:07:07.533293"
     },
     "wti": {
-      "current": 98.95999908447266,
-      "day_change_pct": 0.71,
-      "war_change_pct": 38.93,
+      "current": 97.36000061035156,
+      "day_change_pct": 1.05,
+      "war_change_pct": 36.68,
       "dates": [
-        "04/10",
         "04/13",
         "04/14",
         "04/15",
@@ -104,10 +103,10 @@
         "05/18",
         "05/19",
         "05/20",
-        "05/21"
+        "05/21",
+        "05/22"
       ],
       "prices": [
-        96.57,
         99.08,
         91.28,
         91.29,
@@ -136,16 +135,16 @@
         108.66,
         107.77,
         98.26,
-        98.96
+        96.35,
+        97.36
       ],
-      "updated": "2026-05-21T05:13:22.324065"
+      "updated": "2026-05-22T05:07:07.613361"
     },
     "gold": {
-      "current": 4538.7001953125,
-      "day_change_pct": 0.16,
-      "war_change_pct": -14.27,
+      "current": 4530.10009765625,
+      "day_change_pct": -0.21,
+      "war_change_pct": -14.44,
       "dates": [
-        "04/10",
         "04/13",
         "04/14",
         "04/15",
@@ -174,10 +173,10 @@
         "05/18",
         "05/19",
         "05/20",
-        "05/21"
+        "05/21",
+        "05/22"
       ],
       "prices": [
-        4761.9,
         4742.4,
         4825.0,
         4800.0,
@@ -206,16 +205,16 @@
         4552.5,
         4506.3,
         4531.3,
-        4538.7
+        4539.8,
+        4530.1
       ],
-      "updated": "2026-05-21T05:13:22.494083"
+      "updated": "2026-05-22T05:07:07.690660"
     },
     "usd_cny": {
-      "current": 6.799699783325195,
-      "day_change_pct": -0.22,
-      "war_change_pct": -0.85,
+      "current": 6.7982001304626465,
+      "day_change_pct": -0.03,
+      "war_change_pct": -0.87,
       "dates": [
-        "04/10",
         "04/13",
         "04/14",
         "04/15",
@@ -244,12 +243,12 @@
         "05/18",
         "05/19",
         "05/20",
-        "05/21"
+        "05/21",
+        "05/22"
       ],
       "prices": [
         6.83,
         6.83,
-        6.83,
         6.82,
         6.82,
         6.82,
@@ -276,16 +275,16 @@
         6.81,
         6.8,
         6.81,
+        6.8,
         6.8
       ],
-      "updated": "2026-05-21T05:13:22.697341"
+      "updated": "2026-05-22T05:07:07.799368"
     },
     "nat_gas": {
-      "current": 3.0269999504089355,
-      "day_change_pct": 0.77,
-      "war_change_pct": 2.26,
+      "current": 3.138000011444092,
+      "day_change_pct": 3.98,
+      "war_change_pct": 6.01,
       "dates": [
-        "04/10",
         "04/13",
         "04/14",
         "04/15",
@@ -314,10 +313,10 @@
         "05/18",
         "05/19",
         "05/20",
-        "05/21"
+        "05/21",
+        "05/22"
       ],
       "prices": [
-        2.65,
         2.63,
         2.6,
         2.61,
@@ -346,147 +345,148 @@
         3.02,
         3.11,
         3.0,
-        3.03
+        3.02,
+        3.14
       ],
-      "updated": "2026-05-21T05:13:22.966847"
+      "updated": "2026-05-22T05:07:07.877428"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 18.26,
-      "change_pct": 2.99,
-      "high": 18.89,
-      "low": 17.72,
-      "volume": 1100962
+      "price": 17.85,
+      "change_pct": 0.28,
+      "high": 18.38,
+      "low": 17.65,
+      "volume": 678845
     },
     "600026": {
       "name": "中远海能",
-      "price": 23.26,
-      "change_pct": 2.74,
-      "high": 23.85,
-      "low": 22.57,
-      "volume": 579005
+      "price": 22.54,
+      "change_pct": -0.35,
+      "high": 23.2,
+      "low": 22.26,
+      "volume": 361724
     },
     "601975": {
       "name": "招商南油",
-      "price": 5.86,
-      "change_pct": 9.94,
-      "high": 5.86,
-      "low": 5.33,
-      "volume": 4049019
+      "price": 5.75,
+      "change_pct": 0.35,
+      "high": 6.0,
+      "low": 5.6,
+      "volume": 3595631
     },
     "600938": {
       "name": "中国海油",
-      "price": 36.58,
-      "change_pct": -2.66,
-      "high": 36.7,
-      "low": 36.3,
-      "volume": 307864
+      "price": 35.71,
+      "change_pct": -1.41,
+      "high": 36.24,
+      "low": 35.5,
+      "volume": 227937
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.33,
-      "change_pct": -2.58,
-      "high": 11.48,
-      "low": 11.17,
-      "volume": 1192421
+      "price": 11.14,
+      "change_pct": -1.33,
+      "high": 11.31,
+      "low": 11.01,
+      "volume": 877176
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.07,
-      "change_pct": -0.59,
-      "high": 5.1,
-      "low": 5.05,
-      "volume": 1244996
+      "price": 4.98,
+      "change_pct": -0.99,
+      "high": 5.04,
+      "low": 4.97,
+      "volume": 1366917
     },
     "603619": {
       "name": "中曼石油",
-      "price": 29.19,
-      "change_pct": -2.64,
-      "high": 29.3,
-      "low": 28.63,
-      "volume": 103173
+      "price": 28.08,
+      "change_pct": -1.54,
+      "high": 28.47,
+      "low": 27.83,
+      "volume": 86597
     },
     "600759": {
       "name": "洲际油气",
-      "price": 2.79,
-      "change_pct": -5.1,
-      "high": 2.87,
-      "low": 2.79,
-      "volume": 2589458
+      "price": 2.65,
+      "change_pct": -5.02,
+      "high": 2.65,
+      "low": 2.65,
+      "volume": 412302
     },
     "601808": {
       "name": "中海油服",
-      "price": 13.93,
-      "change_pct": -1.76,
-      "high": 14.01,
-      "low": 13.8,
-      "volume": 135089
+      "price": 13.68,
+      "change_pct": null,
+      "high": 13.74,
+      "low": 13.53,
+      "volume": 93069
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 135.5,
-      "change_pct": -0.39,
-      "high": 139.8,
-      "low": 135.18,
-      "volume": 88975
+      "price": 132.24,
+      "change_pct": -0.56,
+      "high": 136.28,
+      "low": 131.23,
+      "volume": 95228
     },
     "600803": {
       "name": "新奥股份",
-      "price": 20.36,
-      "change_pct": -2.44,
-      "high": 20.85,
-      "low": 20.3,
-      "volume": 50117
+      "price": 19.98,
+      "change_pct": -1.14,
+      "high": 20.38,
+      "low": 19.94,
+      "volume": 38225
     },
     "600256": {
       "name": "广汇能源",
-      "price": 6.31,
-      "change_pct": -2.77,
-      "high": 6.37,
-      "low": 6.2,
-      "volume": 917242
+      "price": 5.97,
+      "change_pct": -3.86,
+      "high": 6.21,
+      "low": 5.96,
+      "volume": 1096742
     },
     "601919": {
       "name": "中远海控",
-      "price": 14.75,
-      "change_pct": 1.79,
-      "high": 14.84,
-      "low": 14.42,
-      "volume": 1033734
+      "price": 14.68,
+      "change_pct": 0.07,
+      "high": 14.74,
+      "low": 14.46,
+      "volume": 627020
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 45.95,
-      "change_pct": 0.13,
-      "high": 46.33,
-      "low": 45.88,
-      "volume": 80730
+      "price": 45.36,
+      "change_pct": -1.31,
+      "high": 46.26,
+      "low": 45.27,
+      "volume": 104848
     },
     "600893": {
       "name": "航发动力",
-      "price": 47.22,
-      "change_pct": 0.15,
-      "high": 48.1,
-      "low": 46.4,
-      "volume": 174467
+      "price": 45.38,
+      "change_pct": -0.46,
+      "high": 46.38,
+      "low": 45.1,
+      "volume": 162548
     },
     "600150": {
       "name": "中国船舶",
-      "price": 39.47,
-      "change_pct": 1.99,
-      "high": 40.44,
-      "low": 38.5,
-      "volume": 830294
+      "price": 38.43,
+      "change_pct": 0.08,
+      "high": 39.48,
+      "low": 38.42,
+      "volume": 536137
     },
     "600547": {
       "name": "山东黄金",
-      "price": 30.38,
-      "change_pct": -0.23,
-      "high": 31.18,
-      "low": 30.34,
-      "volume": 257945
+      "price": 29.9,
+      "change_pct": 1.01,
+      "high": 30.08,
+      "low": 29.5,
+      "volume": 235525
     },
     "600988": {
       "name": "赤峰黄金",
@@ -510,8 +510,7 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": null
     },
     "天然气": {
       "change_pct": null,
@@ -540,46 +539,8 @@
         "中东"
       ],
       "action_hits": [
-        "停火",
-        "停火协议"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
-      "link": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 16 May 2026 22:27:44 GMT",
-      "summary": "President Trump announced the truce last month, but Israel and Hezbollah have continued to exchange fire since then.",
-      "lang": "en",
-      "relevance_score": 90,
-      "entity_hits": [
-        "hezbollah",
-        "lebanon",
-        "israel"
-      ],
-      "action_hits": [
-        "killed",
-        "strike",
-        "ceasefire"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Hamas confirms top commander killed in Israeli air strike",
-      "link": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 16 May 2026 10:12:16 GMT",
-      "summary": "Friday's strike is the latest launched by Israel on Gaza despite a ceasefire with Hamas.",
-      "lang": "en",
-      "relevance_score": 87,
-      "entity_hits": [
-        "hamas",
-        "israel"
-      ],
-      "action_hits": [
-        "killed",
-        "launch",
-        "strike",
-        "ceasefire"
+        "停火协议",
+        "停火"
       ]
     },
     {
@@ -627,8 +588,8 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "iran",
         "strait",
+        "iran",
         "hormuz"
       ],
       "action_hits": [
@@ -644,12 +605,12 @@
       "lang": "en",
       "relevance_score": 65,
       "entity_hits": [
-        "abu dhabi",
-        "uae"
+        "uae",
+        "abu dhabi"
       ],
       "action_hits": [
-        "escalat",
-        "strike"
+        "strike",
+        "escalat"
       ]
     },
     {
@@ -665,24 +626,24 @@
         "israel"
       ],
       "action_hits": [
-        "killed",
-        "strike"
+        "strike",
+        "killed"
       ]
     }
   ],
   "event_states": [
     {
-      "event_id": "2d35a5595fd1",
-      "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
+      "event_id": "c1fa4580690c",
+      "title": "Hezbollah support endures in south Lebanon as ceasefire fails to stop war with Israel",
       "location": "以色列",
-      "first_seen_time": "2026-05-16T22:27:44+00:00",
-      "last_updated_time": "2026-05-16T22:27:44+00:00",
+      "first_seen_time": "2026-05-13T23:22:07+00:00",
+      "last_updated_time": "2026-05-13T23:22:07+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
-      "confidence": 90,
-      "source_count": 3,
+      "confidence": 80,
+      "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/news/articles/c9d3g6deljyo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -745,7 +706,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "4/22",
         "4/23",
         "4/24",
         "4/25",
@@ -774,7 +734,8 @@
         "5/18",
         "5/19",
         "5/20",
-        "5/21"
+        "5/21",
+        "5/22"
       ],
       "transits": [
         0,
@@ -864,25 +825,25 @@
         21,
         69
       ],
-      "date_label": "5月21日"
+      "date_label": "5月22日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-05-21",
+      "hormuz_last_date": "2026-05-22",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 69,
+      "vlcc_stale_days": 70,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-05-21"
+      "routes_date": "2026-05-22"
     }
   },
   "meta": {
-    "report_date": "2026.05.21",
-    "report_date_cn": "2026年05月21日",
-    "war_day": 83,
+    "report_date": "2026.05.22",
+    "report_date_cn": "2026年05月22日",
+    "war_day": 84,
     "war_start": "2026-02-28",
-    "generated_at": "2026-05-21T13:14:14.312645+08:00",
-    "generated_at_cn": "2026-05-21 13:14:14 北京时间"
+    "generated_at": "2026-05-22T13:08:04.451439+08:00",
+    "generated_at_cn": "2026-05-22 13:08:04 北京时间"
   },
   "history": [
     {
@@ -1423,6 +1384,13 @@
       "wti": 98.95999908447266,
       "gold": 4538.7001953125,
       "usd_cny": 6.799699783325195
+    },
+    {
+      "date": "2026-05-22",
+      "brent": 104.2699966430664,
+      "wti": 97.36000061035156,
+      "gold": 4530.10009765625,
+      "usd_cny": 6.7982001304626465
     }
   ]
 }
