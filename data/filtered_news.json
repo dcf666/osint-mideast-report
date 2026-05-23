@@ -8,8 +8,8 @@
     "lang": "zh",
     "relevance_score": 63,
     "entity_hits": [
-      "伊朗",
-      "中东"
+      "中东",
+      "伊朗"
     ],
     "action_hits": [
       "停火协议",
@@ -25,13 +25,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "lebanon",
+      "hezbollah",
       "israel"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -47,9 +47,9 @@
       "israel"
     ],
     "action_hits": [
+      "drone",
       "strike",
-      "attack",
-      "drone"
+      "attack"
     ]
   },
   {
@@ -61,9 +61,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
       "iran",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
       "ceasefire"
@@ -99,8 +99,8 @@
       "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   }
 ]
