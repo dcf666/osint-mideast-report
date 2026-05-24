@@ -1,6 +1,44 @@
 [
   {
     "source": "德国之声",
+    "title": "美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？",
+    "link": "https://www.dw.com/zh/美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？/a-77273755?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 23 May 2026 13:51:00 GMT",
+    "summary": "德黑兰正押注于：在长期制裁下被“锻炼出来”的经济，能够挺得过霍尔木兹海峡危机。华盛顿则疲于面对油价高企、通胀压力以及全球经济衰退风险上升的问题。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "德黑兰",
+      "伊朗",
+      "海峡",
+      "霍尔木兹",
+      "油价"
+    ],
+    "action_hits": [
+      "油价",
+      "封锁",
+      "制裁"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "川普抵达北京 此前稱「不需中國幫忙處理伊朗問題」",
+    "link": "https://www.dw.com/zh/川普抵达北京-此前稱「不需中國幫忙處理伊朗問題」/a-77140936?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 13 May 2026 13:21:00 GMT",
+    "summary": "川普周三晚抵达北京。他啟程訪中前表示，美國「不需要中國幫忙處理伊朗問題」。美國財政部近期制裁多家採購伊朗石油的中國企業，外界預期川習會仍將觸及伊朗議題；中國外長王毅則與巴基斯坦外長通話，稱將持續支持巴方斡旋美伊談判。",
+    "lang": "zh",
+    "relevance_score": 67,
+    "entity_hits": [
+      "美伊",
+      "伊朗"
+    ],
+    "action_hits": [
+      "制裁",
+      "談判"
+    ]
+  },
+  {
+    "source": "德国之声",
     "title": "中美元首峰会在即：北京想要什么？",
     "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Sat, 9 May 2026 10:22:00 GMT",
@@ -8,12 +46,31 @@
     "lang": "zh",
     "relevance_score": 63,
     "entity_hits": [
-      "中东",
-      "伊朗"
+      "伊朗",
+      "中东"
     ],
     "action_hits": [
       "停火协议",
       "停火"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
+    "link": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 23 May 2026 23:24:03 GMT",
+    "summary": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "iran",
+      "strait",
+      "hormuz"
+    ],
+    "action_hits": [
+      "strike",
+      "missile",
+      "tanker"
     ]
   },
   {
@@ -25,13 +82,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "israel",
       "lebanon",
-      "hezbollah",
-      "israel"
+      "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
-      "attack"
+      "attack",
+      "ceasefire"
     ]
   },
   {
@@ -43,12 +100,12 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "hezbollah",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
-      "drone",
       "strike",
+      "drone",
       "attack"
     ]
   },
@@ -62,8 +119,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "hormuz",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "ceasefire"
@@ -95,12 +152,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   }
 ]

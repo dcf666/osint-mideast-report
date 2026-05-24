@@ -1,5 +1,33 @@
 [
   {
+    "event_id": "771f0ad08793",
+    "title": "美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-05-23T13:51:00+00:00",
+    "last_updated_time": "2026-05-23T13:51:00+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "worsening",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？/a-77273755?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "31b5276d078b",
+    "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-05-23T23:24:03+00:00",
+    "last_updated_time": "2026-05-23T23:24:03+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "c1fa4580690c",
     "title": "Hezbollah support endures in south Lebanon as ceasefire fails to stop war with Israel",
     "location": "以色列",
@@ -40,6 +68,20 @@
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "ffd6fcd0b3e9",
+    "title": "川普抵达北京 此前稱「不需中國幫忙處理伊朗問題」",
+    "location": "伊朗",
+    "first_seen_time": "2026-05-13T13:21:00+00:00",
+    "last_updated_time": "2026-05-13T13:21:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/川普抵达北京-此前稱「不需中國幫忙處理伊朗問題」/a-77140936?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
   },
   {
     "event_id": "bc1b35c8e04e",
