@@ -1,5 +1,25 @@
 [
   {
+    "source": "BBC中文",
+    "title": "特朗普指示談判代表「不要急於與伊朗達成協議」 油價大幅下跌",
+    "link": "https://www.bbc.com/zhongwen/articles/ckgpxkg35kwo/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 25 May 2026 03:26:10 GMT",
+    "summary": "據美國媒體報道，正在討論的協議包括將停火期限延長60天，在此期間將重新開放霍爾木茲海峽。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "油價",
+      "海峽",
+      "伊朗",
+      "霍爾木茲"
+    ],
+    "action_hits": [
+      "談判",
+      "停火",
+      "油價"
+    ]
+  },
+  {
     "source": "德国之声",
     "title": "美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？",
     "link": "https://www.dw.com/zh/美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？/a-77273755?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -9,32 +29,15 @@
     "relevance_score": 90,
     "entity_hits": [
       "德黑兰",
-      "伊朗",
-      "海峡",
-      "霍尔木兹",
-      "油价"
-    ],
-    "action_hits": [
       "油价",
-      "封锁",
-      "制裁"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "川普抵达北京 此前稱「不需中國幫忙處理伊朗問題」",
-    "link": "https://www.dw.com/zh/川普抵达北京-此前稱「不需中國幫忙處理伊朗問題」/a-77140936?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 13 May 2026 13:21:00 GMT",
-    "summary": "川普周三晚抵达北京。他啟程訪中前表示，美國「不需要中國幫忙處理伊朗問題」。美國財政部近期制裁多家採購伊朗石油的中國企業，外界預期川習會仍將觸及伊朗議題；中國外長王毅則與巴基斯坦外長通話，稱將持續支持巴方斡旋美伊談判。",
-    "lang": "zh",
-    "relevance_score": 67,
-    "entity_hits": [
-      "美伊",
+      "霍尔木兹",
+      "海峡",
       "伊朗"
     ],
     "action_hits": [
       "制裁",
-      "談判"
+      "油价",
+      "封锁"
     ]
   },
   {
@@ -50,8 +53,8 @@
       "中东"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "停火",
+      "停火协议"
     ]
   },
   {
@@ -63,14 +66,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
-      "strike",
       "missile",
-      "tanker"
+      "tanker",
+      "strike"
     ]
   },
   {
@@ -82,13 +85,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
+      "hezbollah",
       "lebanon",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -100,13 +103,13 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "israel",
-      "hezbollah"
+      "hezbollah",
+      "israel"
     ],
     "action_hits": [
-      "strike",
       "drone",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -118,9 +121,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "ceasefire"
@@ -139,8 +142,8 @@
       "abu dhabi"
     ],
     "action_hits": [
-      "strike",
-      "escalat"
+      "escalat",
+      "strike"
     ]
   },
   {
@@ -152,12 +155,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   }
 ]
