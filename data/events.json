@@ -1,14 +1,28 @@
 [
   {
+    "event_id": "ce939c5c27b0",
+    "title": "US launches new strikes on Iran, targeting missile sites and boats",
+    "location": "伊朗",
+    "first_seen_time": "2026-05-26T03:50:46+00:00",
+    "last_updated_time": "2026-05-26T04:31:31+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 2,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/cwy22pde88po/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
+  },
+  {
     "event_id": "c90394ff97ff",
-    "title": "特朗普指示談判代表「不要急於與伊朗達成協議」 油價大幅下跌",
+    "title": "伊朗谈判代表前往卡塔尔 美伊有望谈拢",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-05-25T03:26:10+00:00",
-    "last_updated_time": "2026-05-25T03:26:10+00:00",
+    "last_updated_time": "2026-05-25T16:00:00+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 90,
-    "source_count": 2,
+    "source_count": 4,
     "source": "BBC中文",
     "link": "https://www.bbc.com/zhongwen/articles/ckgpxkg35kwo/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
@@ -70,31 +84,17 @@
     "lang": "en"
   },
   {
-    "event_id": "bc1b35c8e04e",
-    "title": "UAE reports strike near Abu Dhabi nuclear power plant",
-    "location": "中东地区",
-    "first_seen_time": "2026-05-17T20:53:45+00:00",
-    "last_updated_time": "2026-05-17T20:53:45+00:00",
+    "event_id": "dfd388cdbd48",
+    "title": "Netanyahu says Israel will intensify strikes against Hezbollah",
+    "location": "以色列",
+    "first_seen_time": "2026-05-26T01:17:46+00:00",
+    "last_updated_time": "2026-05-26T01:17:46+00:00",
     "current_status": "escalating",
     "trend": "worsening",
-    "confidence": 65,
+    "confidence": 70,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cwy27pkj1l1o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/cewppdk1187o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "f4515bfdf306",
-    "title": "中美元首峰会在即：北京想要什么？",
-    "location": "伊朗",
-    "first_seen_time": "2026-05-09T10:22:00+00:00",
-    "last_updated_time": "2026-05-09T10:22:00+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 63,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
   }
 ]
