@@ -1,21 +1,22 @@
 [
   {
     "source": "BBC中文",
-    "title": "美軍稱已對伊朗南部發動新一輪空襲",
+    "title": "伊朗譴責美國最新軍事打擊嚴重違反停火協議",
     "link": "https://www.bbc.com/zhongwen/articles/cwy22pde88po/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 26 May 2026 03:50:46 GMT",
-    "summary": "美國中央司令部表示，對伊朗南部飛彈發射場與船隻的打擊屬於「自衛」行動。",
+    "published": "Wed, 27 May 2026 04:12:18 GMT",
+    "summary": "這些攻擊發生時，伊朗談判代表正與另一調解方卡塔爾在多哈會談。",
     "lang": "zh",
-    "relevance_score": 90,
+    "relevance_score": 100,
     "entity_hits": [
-      "伊朗",
-      "中央司令部",
-      "美軍"
+      "卡塔爾",
+      "多哈",
+      "伊朗"
     ],
     "action_hits": [
+      "談判",
+      "停火",
       "打擊",
-      "空襲",
-      "發射"
+      "停火協議"
     ]
   },
   {
@@ -29,34 +30,13 @@
     "entity_hits": [
       "海峽",
       "霍爾木茲",
-      "伊朗",
-      "油價"
-    ],
-    "action_hits": [
-      "談判",
       "油價",
-      "停火"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？",
-    "link": "https://www.dw.com/zh/美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？/a-77273755?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 23 May 2026 13:51:00 GMT",
-    "summary": "德黑兰正押注于：在长期制裁下被“锻炼出来”的经济，能够挺得过霍尔木兹海峡危机。华盛顿则疲于面对油价高企、通胀压力以及全球经济衰退风险上升的问题。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "德黑兰",
-      "伊朗",
-      "海峡",
-      "油价",
-      "霍尔木兹"
+      "伊朗"
     ],
     "action_hits": [
-      "封锁",
-      "制裁",
-      "油价"
+      "停火",
+      "談判",
+      "油價"
     ]
   },
   {
@@ -68,15 +48,70 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "卡塔尔",
-      "美伊",
-      "伊朗",
       "海峡",
-      "霍尔木兹"
+      "卡塔尔",
+      "霍尔木兹",
+      "美伊",
+      "伊朗"
     ],
     "action_hits": [
       "谈判",
       "停火"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美军打击伊朗导弹基地及布雷船",
+    "link": "https://www.dw.com/zh/美军打击伊朗导弹基地及布雷船/a-77296679?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Tue, 26 May 2026 10:29:00 GMT",
+    "summary": "美军称，对伊朗南部导弹发射基地以及布设水雷的船只进行了打击。美军称之为“自卫性打击”。与此同时，伊朗官方媒体发布最高领袖穆杰塔巴·哈梅内伊的书面声明，只是他本人仍未露面。",
+    "lang": "zh",
+    "relevance_score": 77,
+    "entity_hits": [
+      "美军",
+      "伊朗"
+    ],
+    "action_hits": [
+      "导弹",
+      "打击",
+      "发射"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "中美元首峰会在即：北京想要什么？",
+    "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 9 May 2026 10:22:00 GMT",
+    "summary": "美国总统特朗普将于5月14日至15日访问北京，与习近平举行受伊朗战争影响而推迟的会晤。尽管面临高额关税压力，中国4月出口仍逆势增长14.1%。面对特朗普变幻莫测的风格，北京将如何利用稀土筹码与多元化贸易布局，在贸易停火协议延期与中东局势博弈中寻求突破？",
+    "lang": "zh",
+    "relevance_score": 63,
+    "entity_hits": [
+      "中东",
+      "伊朗"
+    ],
+    "action_hits": [
+      "停火",
+      "停火协议"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran condemns US strikes as 'gross violation' of ceasefire",
+    "link": "https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 26 May 2026 15:15:29 GMT",
+    "summary": "The attacks took place while Iranian and Qatari negotiators were in Doha for peace talks.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "doha",
+      "iran",
+      "qatar"
+    ],
+    "action_hits": [
+      "attack",
+      "ceasefire",
+      "strike",
+      "negotiat"
     ]
   },
   {
@@ -88,33 +123,33 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
+      "tanker",
       "strike",
-      "missile",
-      "tanker"
+      "missile"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "US launches new strikes on Iran, targeting missile sites and boats",
-    "link": "https://www.bbc.com/news/articles/cvgzzn4y1n8o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 26 May 2026 04:31:31 GMT",
-    "summary": "US Central Command says the strikes were taken in \"self-defense\". It comes as senior Iranian negotiators arrive in Qatar for talks to end the war.",
+    "title": "Dozens killed in Lebanon as Israel intensifies strikes",
+    "link": "https://www.bbc.com/news/articles/cx211rgngp0o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 27 May 2026 04:07:27 GMT",
+    "summary": "Israel says it struck 100 Hezbollah infrastructure sites and fighters in Lebanon, after PM Benjamin Netanyahu vows to \"crush\" the Iran-backed group.",
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "lebanon",
+      "hezbollah",
       "iran",
-      "qatar"
+      "israel"
     ],
     "action_hits": [
       "strike",
-      "launch",
-      "negotiat",
-      "missile"
+      "killed"
     ]
   },
   {
@@ -126,31 +161,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "strait",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
-      "negotiat",
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Hezbollah support endures in south Lebanon as ceasefire fails to stop war with Israel",
-    "link": "https://www.bbc.com/news/articles/c9d3g6deljyo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 13 May 2026 23:22:07 GMT",
-    "summary": "Despite continuing Israeli attacks and occupation, many people in the south still believe the armed group is the only force capable of defending them.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "israel",
-      "hezbollah",
-      "lebanon"
-    ],
-    "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "negotiat"
     ]
   },
   {
@@ -162,27 +179,27 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "israel",
-      "hezbollah"
+      "hezbollah",
+      "israel"
     ],
     "action_hits": [
-      "strike",
+      "attack",
       "drone",
-      "attack"
+      "strike"
     ]
   },
   {
     "source": "BBC中东",
     "title": "Netanyahu says Israel will intensify strikes against Hezbollah",
     "link": "https://www.bbc.com/news/articles/cewppdk1187o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 26 May 2026 01:17:46 GMT",
+    "published": "Tue, 26 May 2026 10:48:55 GMT",
     "summary": "The Israeli military hits targets in eastern Lebanon after the prime minister announces further strikes.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
+      "lebanon",
       "hezbollah",
-      "lebanon"
+      "israel"
     ],
     "action_hits": [
       "strike"
@@ -190,19 +207,20 @@
   },
   {
     "source": "BBC中东",
-    "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
-    "link": "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 05 May 2026 11:38:03 GMT",
-    "summary": "The US and Iran's determination to keep the pressure on each other has put the fragile Gulf ceasefire in serious jeopardy.",
+    "title": "US launches new strikes on Iran, targeting missile sites and boats",
+    "link": "https://www.bbc.com/news/articles/cvgzzn4y1n8o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 26 May 2026 15:04:45 GMT",
+    "summary": "US Central Command says the strikes were taken in \"self-defence\", while Iran reports it downed a US drone that entered its airspace.",
     "lang": "en",
-    "relevance_score": 70,
+    "relevance_score": 65,
     "entity_hits": [
-      "iran",
-      "strait",
-      "hormuz"
+      "iran"
     ],
     "action_hits": [
-      "ceasefire"
+      "missile",
+      "drone",
+      "strike",
+      "launch"
     ]
   },
   {
@@ -214,8 +232,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "strike",
