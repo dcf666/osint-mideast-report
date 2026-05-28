@@ -28,17 +28,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "31b5276d078b",
-    "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-05-23T23:24:03+00:00",
-    "last_updated_time": "2026-05-23T23:24:03+00:00",
+    "event_id": "a08af46e895f",
+    "title": "Israel issues evacuation order for swathes of southern Lebanon",
+    "location": "以色列",
+    "first_seen_time": "2026-05-28T04:44:52+00:00",
+    "last_updated_time": "2026-05-28T04:44:52+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 90,
-    "source_count": 1,
+    "confidence": 80,
+    "source_count": 3,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -68,20 +68,6 @@
     "source": "德国之声",
     "link": "https://www.dw.com/zh/美军打击伊朗导弹基地及布雷船/a-77296679?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
-  },
-  {
-    "event_id": "54ca868ac32b",
-    "title": "Hezbollah drone strike videos show evolving tactics against Israel",
-    "location": "以色列",
-    "first_seen_time": "2026-05-20T16:36:30+00:00",
-    "last_updated_time": "2026-05-20T16:36:30+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 77,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   },
   {
     "event_id": "dfd388cdbd48",

@@ -9,14 +9,14 @@
     "relevance_score": 100,
     "entity_hits": [
       "卡塔爾",
-      "多哈",
-      "伊朗"
+      "伊朗",
+      "多哈"
     ],
     "action_hits": [
       "談判",
-      "停火",
       "打擊",
-      "停火協議"
+      "停火協議",
+      "停火"
     ]
   },
   {
@@ -28,15 +28,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "海峽",
-      "霍爾木茲",
       "油價",
-      "伊朗"
+      "海峽",
+      "伊朗",
+      "霍爾木茲"
     ],
     "action_hits": [
-      "停火",
       "談判",
-      "油價"
+      "油價",
+      "停火"
     ]
   },
   {
@@ -48,11 +48,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峡",
-      "卡塔尔",
       "霍尔木兹",
+      "卡塔尔",
       "美伊",
-      "伊朗"
+      "伊朗",
+      "海峡"
     ],
     "action_hits": [
       "谈判",
@@ -73,8 +73,8 @@
     ],
     "action_hits": [
       "导弹",
-      "打击",
-      "发射"
+      "发射",
+      "打击"
     ]
   },
   {
@@ -90,8 +90,8 @@
       "伊朗"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -103,34 +103,33 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "qatar",
       "doha",
-      "iran",
-      "qatar"
+      "iran"
     ],
     "action_hits": [
+      "negotiat",
       "attack",
-      "ceasefire",
       "strike",
-      "negotiat"
+      "ceasefire"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
-    "link": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 23 May 2026 23:24:03 GMT",
-    "summary": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
+    "title": "Israel issues evacuation order for swathes of southern Lebanon",
+    "link": "https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 28 May 2026 04:44:52 GMT",
+    "summary": "The military says areas south of the Zahrani River are now \"combat zones\" as it threatens Hezbollah with fresh strikes.",
     "lang": "en",
-    "relevance_score": 90,
+    "relevance_score": 80,
     "entity_hits": [
-      "strait",
-      "hormuz",
-      "iran"
+      "hezbollah",
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "tanker",
       "strike",
-      "missile"
+      "evacuat"
     ]
   },
   {
@@ -142,14 +141,14 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "lebanon",
       "hezbollah",
-      "iran",
-      "israel"
+      "lebanon",
+      "israel",
+      "iran"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -161,31 +160,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "strait",
       "hormuz",
+      "strait",
       "iran"
     ],
     "action_hits": [
-      "ceasefire",
-      "negotiat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Hezbollah drone strike videos show evolving tactics against Israel",
-    "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 20 May 2026 16:36:30 GMT",
-    "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
-    "lang": "en",
-    "relevance_score": 77,
-    "entity_hits": [
-      "hezbollah",
-      "israel"
-    ],
-    "action_hits": [
-      "attack",
-      "drone",
-      "strike"
+      "negotiat",
+      "ceasefire"
     ]
   },
   {
@@ -197,11 +178,28 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "lebanon",
       "hezbollah",
+      "lebanon",
       "israel"
     ],
     "action_hits": [
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli strike in Gaza City kills new head of Hamas's military wing",
+    "link": "https://www.bbc.com/news/articles/cjwppj1yn7go?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 27 May 2026 13:15:26 GMT",
+    "summary": "Hamas says Mohammed Odeh was killed alongside his wife and two children in a strike on a residential building.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "israel",
+      "hamas"
+    ],
+    "action_hits": [
+      "killed",
       "strike"
     ]
   },
@@ -217,10 +215,10 @@
       "iran"
     ],
     "action_hits": [
-      "missile",
-      "drone",
       "strike",
-      "launch"
+      "missile",
+      "launch",
+      "drone"
     ]
   },
   {
@@ -236,8 +234,8 @@
       "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   }
 ]
