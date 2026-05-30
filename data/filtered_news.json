@@ -1,21 +1,21 @@
 [
   {
-    "source": "BBC中文",
-    "title": "伊朗譴責美國最新軍事打擊嚴重違反停火協議",
-    "link": "https://www.bbc.com/zhongwen/articles/cwy22pde88po/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 27 May 2026 04:12:18 GMT",
-    "summary": "這些攻擊發生時，伊朗談判代表正與另一調解方卡塔爾在多哈會談。",
+    "source": "德国之声",
+    "title": "傳美伊達成諒解備忘錄 同意開放海峽、重啟核談判",
+    "link": "https://www.dw.com/zh/傳美伊達成諒解備忘錄-同意開放海峽、重啟核談判/a-77338731?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Fri, 29 May 2026 04:59:00 GMT",
+    "summary": "據多家國際媒體消息，美伊之間已達成初步協議，預計延長停火、開放霍爾木茲海峽，並恢復核談判。不過，川普政府此前也曾多次聲稱即將敲定協議。與此同時，兩國連日來也繼續相互襲擊，彼此都指控對方違反先前的停火協議。",
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "伊朗",
-      "卡塔爾",
-      "多哈"
+      "美伊",
+      "霍爾木茲",
+      "海峽"
     ],
     "action_hits": [
-      "打擊",
       "停火",
       "談判",
+      "重啟",
       "停火協議"
     ]
   },
@@ -29,14 +29,14 @@
     "relevance_score": 90,
     "entity_hits": [
       "油價",
+      "伊朗",
       "霍爾木茲",
-      "海峽",
-      "伊朗"
+      "海峽"
     ],
     "action_hits": [
-      "油價",
       "停火",
-      "談判"
+      "談判",
+      "油價"
     ]
   },
   {
@@ -48,11 +48,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美伊",
+      "霍尔木兹",
       "卡塔尔",
-      "伊朗",
+      "美伊",
       "海峡",
-      "霍尔木兹"
+      "伊朗"
     ],
     "action_hits": [
       "停火",
@@ -68,8 +68,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "美伊",
+      "伊朗",
       "德黑兰"
     ],
     "action_hits": [
@@ -85,9 +85,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "伊拉克",
-      "美以"
+      "美以",
+      "伊朗"
     ],
     "action_hits": [
       "天然气"
@@ -102,15 +102,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "doha",
       "qatar",
-      "iran",
-      "doha"
+      "iran"
     ],
     "action_hits": [
       "strike",
-      "attack",
       "negotiat",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -122,8 +122,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "beirut",
+      "israel",
       "lebanon"
     ],
     "action_hits": [
@@ -140,10 +140,10 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "hezbollah",
       "israel",
       "iran",
-      "lebanon",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
       "strike",
@@ -159,12 +159,30 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hormuz",
+      "strait",
       "iran",
-      "strait"
+      "hormuz"
     ],
     "action_hits": [
       "negotiat",
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Netanyahu says he has directed IDF to increase control of Gaza to 70%",
+    "link": "https://www.bbc.com/news/articles/ceqpelq5reqo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 29 May 2026 02:24:52 GMT",
+    "summary": "The expansion in control by Israel would contradict the terms of the ceasefire  Israel and Hamas agreed to in October 2025.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "idf",
+      "IDF",
+      "hamas",
+      "israel"
+    ],
+    "action_hits": [
       "ceasefire"
     ]
   },
@@ -177,9 +195,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "hezbollah",
       "israel",
-      "lebanon",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
       "strike"
@@ -194,8 +212,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
       "strike",
@@ -215,26 +233,9 @@
     ],
     "action_hits": [
       "strike",
+      "drone",
       "launch",
-      "missile",
-      "drone"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Lebanon says 21 killed, including children, in Israeli air strikes",
-    "link": "https://www.bbc.com/news/articles/ce9p1l7yp2lo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 20 May 2026 10:42:03 GMT",
-    "summary": "Twelve people were killed in a single strike on a house, including three children and three women, Lebanon's state-run news agency says.",
-    "lang": "en",
-    "relevance_score": 60,
-    "entity_hits": [
-      "israel",
-      "lebanon"
-    ],
-    "action_hits": [
-      "strike",
-      "killed"
+      "missile"
     ]
   }
 ]

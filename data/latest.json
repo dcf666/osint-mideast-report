@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 91.72000122070312,
-      "day_change_pct": -2.12,
-      "war_change_pct": 17.98,
+      "current": 92.05000305175781,
+      "day_change_pct": -1.77,
+      "war_change_pct": 18.41,
       "dates": [
         "04/17",
         "04/20",
@@ -66,14 +66,14 @@
         99.58,
         94.29,
         93.71,
-        91.72
+        92.05
       ],
-      "updated": "2026-05-29T05:17:26.714702"
+      "updated": "2026-05-30T04:55:41.238982"
     },
     "wti": {
-      "current": 87.7699966430664,
-      "day_change_pct": -1.27,
-      "war_change_pct": 23.22,
+      "current": 87.36000061035156,
+      "day_change_pct": -1.73,
+      "war_change_pct": 22.64,
       "dates": [
         "04/17",
         "04/20",
@@ -136,14 +136,14 @@
         93.89,
         88.68,
         88.9,
-        87.77
+        87.36
       ],
-      "updated": "2026-05-29T05:17:26.798603"
+      "updated": "2026-05-30T04:55:41.307072"
     },
     "gold": {
-      "current": 4541.39990234375,
-      "day_change_pct": 0.94,
-      "war_change_pct": -14.22,
+      "current": 4560.5,
+      "day_change_pct": 1.36,
+      "war_change_pct": -13.86,
       "dates": [
         "04/17",
         "04/20",
@@ -206,14 +206,14 @@
         4500.4,
         4447.5,
         4499.3,
-        4541.4
+        4560.5
       ],
-      "updated": "2026-05-29T05:17:26.883315"
+      "updated": "2026-05-30T04:55:41.372812"
     },
     "usd_cny": {
-      "current": 6.769700050354004,
-      "day_change_pct": -0.13,
-      "war_change_pct": -1.29,
+      "current": 6.765699863433838,
+      "day_change_pct": -0.19,
+      "war_change_pct": -1.34,
       "dates": [
         "04/20",
         "04/21",
@@ -278,12 +278,12 @@
         6.78,
         6.77
       ],
-      "updated": "2026-05-29T05:17:26.963440"
+      "updated": "2026-05-30T04:55:41.441873"
     },
     "nat_gas": {
-      "current": 3.3010001182556152,
-      "day_change_pct": 0.49,
-      "war_change_pct": 11.52,
+      "current": 3.2899999618530273,
+      "day_change_pct": 0.15,
+      "war_change_pct": 11.15,
       "dates": [
         "04/17",
         "04/20",
@@ -346,67 +346,67 @@
         2.89,
         3.04,
         3.29,
-        3.3
+        3.29
       ],
-      "updated": "2026-05-29T05:17:27.046516"
+      "updated": "2026-05-30T04:55:41.507801"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 15.9,
-      "change_pct": -1.18,
+      "price": 15.86,
+      "change_pct": -1.43,
       "high": 16.3,
       "low": 15.56,
-      "volume": 675517
+      "volume": 1085634
     },
     "600026": {
       "name": "中远海能",
-      "price": 19.44,
-      "change_pct": -2.07,
+      "price": 19.48,
+      "change_pct": -1.86,
       "high": 19.95,
-      "low": 19.31,
-      "volume": 372020
+      "low": 19.25,
+      "volume": 670406
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.92,
-      "change_pct": 0.82,
+      "price": 4.86,
+      "change_pct": -0.41,
       "high": 5.22,
       "low": 4.8,
-      "volume": 2833651
+      "volume": 3932205
     },
     "600938": {
       "name": "中国海油",
-      "price": 34.44,
-      "change_pct": -0.06,
-      "high": 34.52,
+      "price": 34.4,
+      "change_pct": -0.17,
+      "high": 34.56,
       "low": 33.63,
-      "volume": 274282
+      "volume": 390947
     },
     "601857": {
       "name": "中国石油",
-      "price": 10.72,
-      "change_pct": -0.74,
-      "high": 10.85,
+      "price": 10.87,
+      "change_pct": 0.65,
+      "high": 10.94,
       "low": 10.66,
-      "volume": 777567
+      "volume": 1896970
     },
     "600028": {
       "name": "中国石化",
-      "price": 4.82,
-      "change_pct": 0.21,
-      "high": 4.83,
+      "price": 4.85,
+      "change_pct": 0.83,
+      "high": 4.86,
       "low": 4.78,
-      "volume": 2047082
+      "volume": 3306658
     },
     "603619": {
       "name": "中曼石油",
-      "price": 26.04,
-      "change_pct": -0.65,
+      "price": 25.95,
+      "change_pct": -0.99,
       "high": 26.34,
       "low": 25.54,
-      "volume": 98834
+      "volume": 149200
     },
     "600759": {
       "name": "洲际油气",
@@ -414,140 +414,141 @@
       "change_pct": 4.94,
       "high": 2.76,
       "low": 2.76,
-      "volume": 319636
+      "volume": 367481
     },
     "601808": {
       "name": "中海油服",
-      "price": 13.06,
-      "change_pct": 0.08,
+      "price": 13.03,
+      "change_pct": -0.15,
       "high": 13.12,
       "low": 12.95,
-      "volume": 97877
+      "volume": 157132
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 145.32,
-      "change_pct": -1.86,
+      "price": 140.4,
+      "change_pct": -5.19,
       "high": 147.98,
       "low": 139.23,
-      "volume": 138217
+      "volume": 191741
     },
     "600803": {
       "name": "新奥股份",
-      "price": 19.58,
-      "change_pct": 1.56,
-      "high": 19.61,
+      "price": 19.55,
+      "change_pct": 1.4,
+      "high": 19.68,
       "low": 19.15,
-      "volume": 43510
+      "volume": 85017
     },
     "600256": {
       "name": "广汇能源",
-      "price": 6.37,
-      "change_pct": null,
+      "price": 6.31,
+      "change_pct": -0.94,
       "high": 6.38,
       "low": 6.26,
-      "volume": 846325
+      "volume": 1321626
     },
     "601919": {
       "name": "中远海控",
-      "price": 14.25,
-      "change_pct": 0.56,
-      "high": 14.27,
+      "price": 14.14,
+      "change_pct": -0.21,
+      "high": 14.3,
       "low": 14.14,
-      "volume": 397620
+      "volume": 753758
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 43.1,
-      "change_pct": 0.63,
+      "price": 42.98,
+      "change_pct": 0.35,
       "high": 43.35,
       "low": 41.98,
-      "volume": 117700
+      "volume": 176854
     },
     "600893": {
       "name": "航发动力",
-      "price": 42.23,
-      "change_pct": -3.52,
+      "price": 41.52,
+      "change_pct": -5.14,
       "high": 43.77,
-      "low": 41.8,
-      "volume": 275336
+      "low": 41.07,
+      "volume": 432259
     },
     "600150": {
       "name": "中国船舶",
-      "price": 37.73,
-      "change_pct": -1.18,
+      "price": 37.38,
+      "change_pct": -2.1,
       "high": 38.46,
-      "low": 37.32,
-      "volume": 480585
+      "low": 37.12,
+      "volume": 810830
     },
     "600547": {
       "name": "山东黄金",
-      "price": 29.36,
-      "change_pct": 1.38,
+      "price": 28.87,
+      "change_pct": -0.31,
       "high": 29.9,
-      "low": 28.91,
-      "volume": 316038
+      "low": 28.87,
+      "volume": 493213
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 33.83,
-      "change_pct": -0.5,
+      "price": 33.37,
+      "change_pct": -1.85,
       "high": 35.1,
-      "low": 33.4,
-      "volume": 322486
+      "low": 33.23,
+      "volume": 478838
     },
     "600489": {
       "name": "中金黄金",
-      "price": 22.78,
-      "change_pct": 1.74,
+      "price": 22.42,
+      "change_pct": 0.13,
       "high": 23.28,
-      "low": 22.36,
-      "volume": 489215
+      "low": 22.25,
+      "volume": 764536
     },
     "601088": {
       "name": "中国神华",
-      "price": 47.23,
-      "change_pct": 2.34,
-      "high": 47.36,
+      "price": 46.92,
+      "change_pct": 1.67,
+      "high": 47.89,
       "low": 45.9,
-      "volume": 354841
+      "volume": 584495
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": 1.49
+      "change_pct": 1.6
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": -1.76
+      "change_pct": -3.23
     },
     "军工": {
-      "change_pct": 2.91
+      "change_pct": 2.28
     },
     "黄金": {
-      "change_pct": 0.98
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "news": [
     {
-      "source": "BBC中文",
-      "title": "伊朗譴責美國最新軍事打擊嚴重違反停火協議",
-      "link": "https://www.bbc.com/zhongwen/articles/cwy22pde88po/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 27 May 2026 04:12:18 GMT",
-      "summary": "這些攻擊發生時，伊朗談判代表正與另一調解方卡塔爾在多哈會談。",
+      "source": "德国之声",
+      "title": "傳美伊達成諒解備忘錄 同意開放海峽、重啟核談判",
+      "link": "https://www.dw.com/zh/傳美伊達成諒解備忘錄-同意開放海峽、重啟核談判/a-77338731?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 29 May 2026 04:59:00 GMT",
+      "summary": "據多家國際媒體消息，美伊之間已達成初步協議，預計延長停火、開放霍爾木茲海峽，並恢復核談判。不過，川普政府此前也曾多次聲稱即將敲定協議。與此同時，兩國連日來也繼續相互襲擊，彼此都指控對方違反先前的停火協議。",
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "伊朗",
-        "卡塔爾",
-        "多哈"
+        "美伊",
+        "霍爾木茲",
+        "海峽"
       ],
       "action_hits": [
-        "打擊",
         "停火",
         "談判",
+        "重啟",
         "停火協議"
       ]
     },
@@ -561,14 +562,14 @@
       "relevance_score": 90,
       "entity_hits": [
         "油價",
+        "伊朗",
         "霍爾木茲",
-        "海峽",
-        "伊朗"
+        "海峽"
       ],
       "action_hits": [
-        "油價",
         "停火",
-        "談判"
+        "談判",
+        "油價"
       ]
     },
     {
@@ -580,11 +581,11 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "美伊",
+        "霍尔木兹",
         "卡塔尔",
-        "伊朗",
+        "美伊",
         "海峡",
-        "霍尔木兹"
+        "伊朗"
       ],
       "action_hits": [
         "停火",
@@ -600,8 +601,8 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "伊朗",
         "美伊",
+        "伊朗",
         "德黑兰"
       ],
       "action_hits": [
@@ -617,9 +618,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "伊朗",
         "伊拉克",
-        "美以"
+        "美以",
+        "伊朗"
       ],
       "action_hits": [
         "天然气"
@@ -634,15 +635,15 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
+        "doha",
         "qatar",
-        "iran",
-        "doha"
+        "iran"
       ],
       "action_hits": [
         "strike",
-        "attack",
         "negotiat",
-        "ceasefire"
+        "ceasefire",
+        "attack"
       ]
     },
     {
@@ -654,8 +655,8 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "israel",
         "beirut",
+        "israel",
         "lebanon"
       ],
       "action_hits": [
@@ -672,10 +673,10 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
+        "hezbollah",
         "israel",
         "iran",
-        "lebanon",
-        "hezbollah"
+        "lebanon"
       ],
       "action_hits": [
         "strike",
@@ -691,12 +692,30 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hormuz",
+        "strait",
         "iran",
-        "strait"
+        "hormuz"
       ],
       "action_hits": [
         "negotiat",
+        "ceasefire"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Netanyahu says he has directed IDF to increase control of Gaza to 70%",
+      "link": "https://www.bbc.com/news/articles/ceqpelq5reqo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 29 May 2026 02:24:52 GMT",
+      "summary": "The expansion in control by Israel would contradict the terms of the ceasefire  Israel and Hamas agreed to in October 2025.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "idf",
+        "IDF",
+        "hamas",
+        "israel"
+      ],
+      "action_hits": [
         "ceasefire"
       ]
     },
@@ -709,9 +728,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "hezbollah",
         "israel",
-        "lebanon",
-        "hezbollah"
+        "lebanon"
       ],
       "action_hits": [
         "strike"
@@ -726,8 +745,8 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
         "strike",
@@ -747,57 +766,40 @@
       ],
       "action_hits": [
         "strike",
+        "drone",
         "launch",
-        "missile",
-        "drone"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Lebanon says 21 killed, including children, in Israeli air strikes",
-      "link": "https://www.bbc.com/news/articles/ce9p1l7yp2lo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 20 May 2026 10:42:03 GMT",
-      "summary": "Twelve people were killed in a single strike on a house, including three children and three women, Lebanon's state-run news agency says.",
-      "lang": "en",
-      "relevance_score": 60,
-      "entity_hits": [
-        "israel",
-        "lebanon"
-      ],
-      "action_hits": [
-        "strike",
-        "killed"
+        "missile"
       ]
     }
   ],
   "event_states": [
     {
-      "event_id": "f5ffda358bc4",
-      "title": "伊朗譴責美國最新軍事打擊嚴重違反停火協議",
-      "location": "伊朗",
-      "first_seen_time": "2026-05-27T04:12:18+00:00",
-      "last_updated_time": "2026-05-27T04:12:18+00:00",
+      "event_id": "042bb4438777",
+      "title": "傳美伊達成諒解備忘錄 同意開放海峽、重啟核談判",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-05-29T04:59:00+00:00",
+      "last_updated_time": "2026-05-29T04:59:00+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 100,
-      "source_count": 2,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/cwy22pde88po/trad?at_medium=RSS&at_campaign=rss",
+      "source_count": 4,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/傳美伊達成諒解備忘錄-同意開放海峽、重啟核談判/a-77338731?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
-      "event_id": "c90394ff97ff",
-      "title": "伊朗谈判代表前往卡塔尔 美伊有望谈拢",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-05-25T03:26:10+00:00",
-      "last_updated_time": "2026-05-25T16:00:00+00:00",
+      "event_id": "067a77b51d81",
+      "title": "Iran condemns US strikes as 'gross violation' of ceasefire",
+      "location": "伊朗",
+      "first_seen_time": "2026-05-26T15:15:29+00:00",
+      "last_updated_time": "2026-05-26T15:15:29+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
-      "confidence": 90,
-      "source_count": 3,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/ckgpxkg35kwo/trad?at_medium=RSS&at_campaign=rss",
-      "lang": "zh"
+      "confidence": 100,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "bf3cf94d9b67",
@@ -842,6 +844,20 @@
       "lang": "zh"
     },
     {
+      "event_id": "954db3f88df6",
+      "title": "Netanyahu says he has directed IDF to increase control of Gaza to 70%",
+      "location": "以色列",
+      "first_seen_time": "2026-05-29T02:24:52+00:00",
+      "last_updated_time": "2026-05-29T02:24:52+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/ceqpelq5reqo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
       "event_id": "dfd388cdbd48",
       "title": "Netanyahu says Israel will intensify strikes against Hezbollah",
       "location": "以色列",
@@ -864,7 +880,7 @@
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 67,
-      "source_count": 2,
+      "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/cjwppj1yn7go?at_medium=RSS&at_campaign=rss",
       "lang": "en"
@@ -887,7 +903,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "4/30",
         "5/1",
         "5/2",
         "5/3",
@@ -916,7 +931,8 @@
         "5/26",
         "5/27",
         "5/28",
-        "5/29"
+        "5/29",
+        "5/30"
       ],
       "transits": [
         0,
@@ -1006,25 +1022,25 @@
         21,
         69
       ],
-      "date_label": "5月29日"
+      "date_label": "5月30日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-05-29",
+      "hormuz_last_date": "2026-05-30",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 77,
+      "vlcc_stale_days": 78,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-05-29"
+      "routes_date": "2026-05-30"
     }
   },
   "meta": {
-    "report_date": "2026.05.29",
-    "report_date_cn": "2026年05月29日",
-    "war_day": 91,
+    "report_date": "2026.05.30",
+    "report_date_cn": "2026年05月30日",
+    "war_day": 92,
     "war_start": "2026-02-28",
-    "generated_at": "2026-05-29T13:18:28.698464+08:00",
-    "generated_at_cn": "2026-05-29 13:18:28 北京时间"
+    "generated_at": "2026-05-30T12:56:42.898809+08:00",
+    "generated_at_cn": "2026-05-30 12:56:42 北京时间"
   },
   "history": [
     {
@@ -1621,6 +1637,13 @@
       "wti": 87.7699966430664,
       "gold": 4541.39990234375,
       "usd_cny": 6.769700050354004
+    },
+    {
+      "date": "2026-05-30",
+      "brent": 92.05000305175781,
+      "wti": 87.36000061035156,
+      "gold": 4560.5,
+      "usd_cny": 6.765699863433838
     }
   ]
 }
