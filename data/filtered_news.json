@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美伊",
       "霍爾木茲",
-      "海峽"
+      "海峽",
+      "美伊"
     ],
     "action_hits": [
-      "停火",
-      "談判",
+      "停火協議",
       "重啟",
-      "停火協議"
+      "談判",
+      "停火"
     ]
   },
   {
@@ -28,15 +28,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "油價",
       "伊朗",
       "霍爾木茲",
+      "油價",
       "海峽"
     ],
     "action_hits": [
-      "停火",
       "談判",
-      "油價"
+      "油價",
+      "停火"
     ]
   },
   {
@@ -48,15 +48,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍尔木兹",
       "卡塔尔",
-      "美伊",
+      "霍尔木兹",
       "海峡",
-      "伊朗"
+      "伊朗",
+      "美伊"
     ],
     "action_hits": [
-      "停火",
-      "谈判"
+      "谈判",
+      "停火"
     ]
   },
   {
@@ -68,9 +68,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美伊",
+      "德黑兰",
       "伊朗",
-      "德黑兰"
+      "美伊"
     ],
     "action_hits": [
       "报复"
@@ -86,8 +86,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "伊拉克",
-      "美以",
-      "伊朗"
+      "伊朗",
+      "美以"
     ],
     "action_hits": [
       "天然气"
@@ -102,15 +102,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "iran",
       "doha",
-      "qatar",
-      "iran"
+      "qatar"
     ],
     "action_hits": [
-      "strike",
       "negotiat",
-      "ceasefire",
-      "attack"
+      "strike",
+      "attack",
+      "ceasefire"
     ]
   },
   {
@@ -122,13 +122,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "beirut",
       "israel",
-      "lebanon"
+      "lebanon",
+      "beirut"
     ],
     "action_hits": [
-      "strike",
-      "evacuat"
+      "evacuat",
+      "strike"
     ]
   },
   {
@@ -140,14 +140,14 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "israel",
+      "hezbollah",
       "iran",
       "lebanon"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -160,8 +160,8 @@
     "relevance_score": 80,
     "entity_hits": [
       "strait",
-      "iran",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "negotiat",
@@ -177,10 +177,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "idf",
+      "israel",
       "IDF",
       "hamas",
-      "israel"
+      "idf"
     ],
     "action_hits": [
       "ceasefire"
@@ -195,8 +195,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
       "israel",
+      "hezbollah",
       "lebanon"
     ],
     "action_hits": [
@@ -212,12 +212,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -233,9 +233,9 @@
     ],
     "action_hits": [
       "strike",
-      "drone",
+      "missile",
       "launch",
-      "missile"
+      "drone"
     ]
   }
 ]
