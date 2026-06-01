@@ -1,25 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "傳美伊達成諒解備忘錄 同意開放海峽、重啟核談判",
-    "link": "https://www.dw.com/zh/傳美伊達成諒解備忘錄-同意開放海峽、重啟核談判/a-77338731?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 29 May 2026 04:59:00 GMT",
-    "summary": "據多家國際媒體消息，美伊之間已達成初步協議，預計延長停火、開放霍爾木茲海峽，並恢復核談判。不過，川普政府此前也曾多次聲稱即將敲定協議。與此同時，兩國連日來也繼續相互襲擊，彼此都指控對方違反先前的停火協議。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "霍爾木茲",
-      "海峽",
-      "美伊"
-    ],
-    "action_hits": [
-      "停火協議",
-      "重啟",
-      "談判",
-      "停火"
-    ]
-  },
-  {
     "source": "BBC中文",
     "title": "特朗普指示談判代表「不要急於與伊朗達成協議」 油價大幅下跌",
     "link": "https://www.bbc.com/zhongwen/articles/ckgpxkg35kwo/trad?at_medium=RSS&at_campaign=rss",
@@ -28,10 +8,10 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "伊朗",
+      "海峽",
       "霍爾木茲",
-      "油價",
-      "海峽"
+      "伊朗",
+      "油價"
     ],
     "action_hits": [
       "談判",
@@ -48,32 +28,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "伊朗",
+      "海峡",
       "卡塔尔",
       "霍尔木兹",
-      "海峡",
-      "伊朗",
       "美伊"
     ],
     "action_hits": [
       "谈判",
       "停火"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美伊互袭击军事设施 特朗普：不怕与德黑兰耗时间",
-    "link": "https://www.dw.com/zh/美伊互袭击军事设施-特朗普：不怕与德黑兰耗时间/a-77328306?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 28 May 2026 10:15:00 GMT",
-    "summary": "美国周三袭击了位于伊朗阿巴斯港的一处军事设施。华盛顿称此次袭击 “纯属防御性质”。伊朗随后发动报复性袭击。特朗普表示，他不会因担心冲突延宕而软化立场。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "德黑兰",
-      "伊朗",
-      "美伊"
-    ],
-    "action_hits": [
-      "报复"
     ]
   },
   {
@@ -85,12 +48,29 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊拉克",
       "伊朗",
-      "美以"
+      "美以",
+      "伊拉克"
     ],
     "action_hits": [
       "天然气"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "中美元首峰会在即：北京想要什么？",
+    "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 9 May 2026 10:22:00 GMT",
+    "summary": "美国总统特朗普将于5月14日至15日访问北京，与习近平举行受伊朗战争影响而推迟的会晤。尽管面临高额关税压力，中国4月出口仍逆势增长14.1%。面对特朗普变幻莫测的风格，北京将如何利用稀土筹码与多元化贸易布局，在贸易停火协议延期与中东局势博弈中寻求突破？",
+    "lang": "zh",
+    "relevance_score": 63,
+    "entity_hits": [
+      "中东",
+      "伊朗"
+    ],
+    "action_hits": [
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -103,14 +83,14 @@
     "relevance_score": 100,
     "entity_hits": [
       "iran",
-      "doha",
-      "qatar"
+      "qatar",
+      "doha"
     ],
     "action_hits": [
       "negotiat",
-      "strike",
       "attack",
-      "ceasefire"
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -122,9 +102,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "beirut",
       "israel",
-      "lebanon",
-      "beirut"
+      "lebanon"
     ],
     "action_hits": [
       "evacuat",
@@ -140,9 +120,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "iran",
       "israel",
       "hezbollah",
-      "iran",
       "lebanon"
     ],
     "action_hits": [
@@ -152,20 +132,37 @@
   },
   {
     "source": "BBC中东",
-    "title": "Trump tells US negotiators 'not to rush' into deal with Iran",
-    "link": "https://www.bbc.com/news/articles/clyp0040x7po?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 25 May 2026 04:16:33 GMT",
-    "summary": "The deal under discussion would involve a 60-day ceasefire extension during which the Strait of Hormuz would be reopened, according to US media.",
+    "title": "Israel seizes castle in Lebanon as it expands ground offensive",
+    "link": "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 31 May 2026 22:39:12 GMT",
+    "summary": "Prime Minister Benjamin Netanyahu calls the capture of the strategic fortress a \"decisive shift\" in Israel's campaign against Hezbollah, as European governments criticise the escalation.",
     "lang": "en",
-    "relevance_score": 80,
+    "relevance_score": 70,
     "entity_hits": [
-      "strait",
-      "hormuz",
-      "iran"
+      "israel",
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
-      "negotiat",
-      "ceasefire"
+      "escalat"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran and US report new wave of air strikes in Gulf",
+    "link": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 01 Jun 2026 05:11:41 GMT",
+    "summary": "Washington and Tehran targeted each other's military facilities around the Strait of Hormuz.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "hormuz",
+      "iran",
+      "strait",
+      "tehran"
+    ],
+    "action_hits": [
+      "strike"
     ]
   },
   {
@@ -177,30 +174,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
       "IDF",
+      "israel",
       "hamas",
       "idf"
     ],
     "action_hits": [
       "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Netanyahu says Israel will intensify strikes against Hezbollah",
-    "link": "https://www.bbc.com/news/articles/cewppdk1187o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 26 May 2026 10:48:55 GMT",
-    "summary": "The Israeli military hits targets in eastern Lebanon after the prime minister announces further strikes.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "israel",
-      "hezbollah",
-      "lebanon"
-    ],
-    "action_hits": [
-      "strike"
     ]
   },
   {
@@ -232,9 +212,9 @@
       "iran"
     ],
     "action_hits": [
-      "strike",
       "missile",
       "launch",
+      "strike",
       "drone"
     ]
   }

@@ -1,31 +1,31 @@
 [
   {
-    "event_id": "042bb4438777",
-    "title": "傳美伊達成諒解備忘錄 同意開放海峽、重啟核談判",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-05-29T04:59:00+00:00",
-    "last_updated_time": "2026-05-29T04:59:00+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 100,
-    "source_count": 4,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/傳美伊達成諒解備忘錄-同意開放海峽、重啟核談判/a-77338731?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
-    "event_id": "067a77b51d81",
+    "event_id": "f4515bfdf306",
     "title": "Iran condemns US strikes as 'gross violation' of ceasefire",
     "location": "伊朗",
-    "first_seen_time": "2026-05-26T15:15:29+00:00",
+    "first_seen_time": "2026-05-09T10:22:00+00:00",
     "last_updated_time": "2026-05-26T15:15:29+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 100,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "c90394ff97ff",
+    "title": "伊朗谈判代表前往卡塔尔 美伊有望谈拢",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-05-25T03:26:10+00:00",
+    "last_updated_time": "2026-05-25T16:00:00+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 90,
+    "source_count": 2,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/ckgpxkg35kwo/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
   },
   {
     "event_id": "bf3cf94d9b67",
@@ -56,18 +56,32 @@
     "lang": "en"
   },
   {
-    "event_id": "2b1861d7a61f",
-    "title": "美伊互袭击军事设施 特朗普：不怕与德黑兰耗时间",
+    "event_id": "97693d09de23",
+    "title": "Israel seizes castle in Lebanon as it expands ground offensive",
+    "location": "以色列",
+    "first_seen_time": "2026-05-31T22:39:12+00:00",
+    "last_updated_time": "2026-05-31T22:39:12+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "ca3714facc60",
+    "title": "Iran and US report new wave of air strikes in Gulf",
     "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-05-28T10:15:00+00:00",
-    "last_updated_time": "2026-05-28T10:15:00+00:00",
+    "first_seen_time": "2026-06-01T05:11:41+00:00",
+    "last_updated_time": "2026-06-01T05:11:41+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 70,
     "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美伊互袭击军事设施-特朗普：不怕与德黑兰耗时间/a-77328306?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "954db3f88df6",
@@ -81,20 +95,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/ceqpelq5reqo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "dfd388cdbd48",
-    "title": "Netanyahu says Israel will intensify strikes against Hezbollah",
-    "location": "以色列",
-    "first_seen_time": "2026-05-26T10:48:55+00:00",
-    "last_updated_time": "2026-05-26T10:48:55+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cewppdk1187o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
