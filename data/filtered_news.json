@@ -1,25 +1,5 @@
 [
   {
-    "source": "BBC中文",
-    "title": "特朗普指示談判代表「不要急於與伊朗達成協議」 油價大幅下跌",
-    "link": "https://www.bbc.com/zhongwen/articles/ckgpxkg35kwo/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 25 May 2026 03:26:10 GMT",
-    "summary": "據美國媒體報道，正在討論的協議包括將停火期限延長60天，在此期間將重新開放霍爾木茲海峽。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "海峽",
-      "霍爾木茲",
-      "伊朗",
-      "油價"
-    ],
-    "action_hits": [
-      "談判",
-      "油價",
-      "停火"
-    ]
-  },
-  {
     "source": "FT中文网",
     "title": "伊朗谈判代表前往卡塔尔 美伊有望谈拢",
     "link": "https://www.ftchinese.com/story/001109834",
@@ -28,11 +8,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
       "海峡",
       "卡塔尔",
+      "美伊",
       "霍尔木兹",
-      "美伊"
+      "伊朗"
     ],
     "action_hits": [
       "谈判",
@@ -69,28 +49,64 @@
       "伊朗"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "停火",
+      "停火协议"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Iran condemns US strikes as 'gross violation' of ceasefire",
-    "link": "https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 26 May 2026 15:15:29 GMT",
-    "summary": "The attacks took place while Iranian and Qatari negotiators were in Doha for peace talks.",
+    "title": "Lebanon says Hezbollah agrees reciprocal halt to attacks on Israel",
+    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 01 Jun 2026 23:50:03 GMT",
+    "summary": "Hours after the pause was announced, the Israeli military said it had intercepted projectiles fired from Lebanon.",
     "lang": "en",
-    "relevance_score": 100,
+    "relevance_score": 90,
     "entity_hits": [
-      "iran",
-      "qatar",
-      "doha"
+      "hezbollah",
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "negotiat",
-      "attack",
-      "ceasefire",
-      "strike"
+      "halt",
+      "intercept",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US says it struck Iranian radar sites as Iran targets American forces in Kuwait",
+    "link": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 01 Jun 2026 13:12:26 GMT",
+    "summary": "Iran and the US say they have carried out fresh strikes around the Strait of Hormuz, with Kuwait condemning \"repeated\" Iranian attacks.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "strait",
+      "iran",
+      "kuwait",
+      "hormuz"
+    ],
+    "action_hits": [
+      "strike",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel hits Lebanese capital in 'targeted strike'",
+    "link": "https://www.bbc.com/news/articles/cgqpjwdv7xeo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 28 May 2026 17:39:16 GMT",
+    "summary": "Beirut had until now largely been spared even as both Israel and Hezbollah accused each other of breaking last month's ceasefire.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "hezbollah",
+      "israel",
+      "beirut"
+    ],
+    "action_hits": [
+      "strike",
+      "ceasefire"
     ]
   },
   {
@@ -102,32 +118,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "beirut",
+      "lebanon",
       "israel",
-      "lebanon"
+      "beirut"
     ],
     "action_hits": [
-      "evacuat",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Dozens killed in Lebanon as Israel intensifies strikes",
-    "link": "https://www.bbc.com/news/articles/cx211rgngp0o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 27 May 2026 04:07:27 GMT",
-    "summary": "Israel says it struck 100 Hezbollah infrastructure sites and fighters in Lebanon, after PM Benjamin Netanyahu vows to \"crush\" the Iran-backed group.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "iran",
-      "israel",
-      "hezbollah",
-      "lebanon"
-    ],
-    "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "evacuat"
     ]
   },
   {
@@ -139,30 +136,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
       "hezbollah",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "escalat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iran and US report new wave of air strikes in Gulf",
-    "link": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 01 Jun 2026 05:11:41 GMT",
-    "summary": "Washington and Tehran targeted each other's military facilities around the Strait of Hormuz.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "hormuz",
-      "iran",
-      "strait",
-      "tehran"
-    ],
-    "action_hits": [
-      "strike"
     ]
   },
   {
@@ -174,10 +153,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "IDF",
-      "israel",
       "hamas",
-      "idf"
+      "idf",
+      "israel",
+      "IDF"
     ],
     "action_hits": [
       "ceasefire"
@@ -185,10 +164,10 @@
   },
   {
     "source": "BBC中东",
-    "title": "Israeli strike in Gaza City kills new head of Hamas's military wing",
-    "link": "https://www.bbc.com/news/articles/cjwppj1yn7go?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 27 May 2026 13:15:26 GMT",
-    "summary": "Hamas says Mohammed Odeh was killed alongside his wife and two children in a strike on a residential building.",
+    "title": "Gaza City hospitals say several killed in strike, as Israel targets Hamas leaders",
+    "link": "https://www.bbc.com/news/articles/cn9p40en4ngo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 28 May 2026 16:20:50 GMT",
+    "summary": "At least five children were reportedly killed in the strike, which appears to have targeted a Hamas commander.",
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
@@ -196,26 +175,25 @@
       "hamas"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "US launches new strikes on Iran, targeting missile sites and boats",
-    "link": "https://www.bbc.com/news/articles/cvgzzn4y1n8o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 26 May 2026 15:04:45 GMT",
-    "summary": "US Central Command says the strikes were taken in \"self-defence\", while Iran reports it downed a US drone that entered its airspace.",
+    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
+    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 01 Jun 2026 05:33:18 GMT",
+    "summary": "Analysts told BBC Verify that Tehran's strikes were more extensive than publicly acknowledged.",
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "iran"
+      "iran",
+      "tehran"
     ],
     "action_hits": [
-      "missile",
-      "launch",
       "strike",
-      "drone"
+      "attack"
     ]
   }
 ]
