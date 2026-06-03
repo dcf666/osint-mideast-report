@@ -1,21 +1,21 @@
 [
   {
-    "source": "FT中文网",
-    "title": "伊朗谈判代表前往卡塔尔 美伊有望谈拢",
-    "link": "https://www.ftchinese.com/story/001109834",
-    "published": "Mon, 25 May 2026 16:00:00 GMT",
-    "summary": "伊朗议会议长加利巴夫和外交部长阿拉格齐周一前往卡塔尔。各方正努力敲定美伊协议，以延长停火60天并重新开放霍尔木兹海峡。",
+    "source": "BBC中文",
+    "title": "停火談判陷入僵局，美伊再次發動新一輪襲擊",
+    "link": "https://www.bbc.com/zhongwen/articles/cp3peyw524po/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 03 Jun 2026 06:00:08 GMT",
+    "summary": "美國對伊朗和一艘油輪發動新一輪襲擊，德黑蘭方面稱其襲擊了美國在海灣的基地。",
     "lang": "zh",
-    "relevance_score": 80,
+    "relevance_score": 90,
     "entity_hits": [
-      "海峡",
-      "卡塔尔",
+      "德黑蘭",
+      "油輪",
       "美伊",
-      "霍尔木兹",
       "伊朗"
     ],
     "action_hits": [
-      "谈判",
+      "談判",
+      "油輪",
       "停火"
     ]
   },
@@ -28,9 +28,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
+      "伊拉克",
       "美以",
-      "伊拉克"
+      "伊朗"
     ],
     "action_hits": [
       "天然气"
@@ -49,27 +49,29 @@
       "伊朗"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
+      "停火协议",
+      "停火"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Lebanon says Hezbollah agrees reciprocal halt to attacks on Israel",
-    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 01 Jun 2026 23:50:03 GMT",
-    "summary": "Hours after the pause was announced, the Israeli military said it had intercepted projectiles fired from Lebanon.",
+    "title": "US and Iran launch new strikes as ceasefire negotiations stalled",
+    "link": "https://www.bbc.com/news/articles/c5yx135yg53o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 03 Jun 2026 03:40:53 GMT",
+    "summary": "US launches fresh strikes on Iran and an oil tanker as Tehran says it attacked US bases in the Gulf.",
     "lang": "en",
-    "relevance_score": 90,
+    "relevance_score": 85,
     "entity_hits": [
-      "hezbollah",
-      "lebanon",
-      "israel"
+      "iran",
+      "tehran"
     ],
     "action_hits": [
-      "halt",
-      "intercept",
-      "attack"
+      "tanker",
+      "strike",
+      "attack",
+      "ceasefire",
+      "negotiat",
+      "launch"
     ]
   },
   {
@@ -81,50 +83,67 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "strait",
-      "iran",
       "kuwait",
-      "hormuz"
+      "iran",
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Israel hits Lebanese capital in 'targeted strike'",
-    "link": "https://www.bbc.com/news/articles/cgqpjwdv7xeo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 28 May 2026 17:39:16 GMT",
-    "summary": "Beirut had until now largely been spared even as both Israel and Hezbollah accused each other of breaking last month's ceasefire.",
+    "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
+    "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 02 Jun 2026 23:40:27 GMT",
+    "summary": "The uncertainty has weighed heavily on the 20,000 seafarers trapped in the Iran war zone.",
     "lang": "en",
-    "relevance_score": 80,
+    "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
-      "israel",
-      "beirut"
+      "iran",
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
-      "strike",
-      "ceasefire"
+      "blockade"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Israel strikes Beirut and southern Lebanon after large-scale evacuation orders",
-    "link": "https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 28 May 2026 11:31:59 GMT",
-    "summary": "The Israeli military has ordered Lebanese residents to leave some 17% of the country's territory.",
+    "title": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
+    "link": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 02 Jun 2026 21:51:20 GMT",
+    "summary": "Israel continues its campaign in the south, though has not struck Beirut after a deal announced by the US.",
     "lang": "en",
-    "relevance_score": 80,
+    "relevance_score": 70,
     "entity_hits": [
+      "beirut",
       "lebanon",
       "israel",
-      "beirut"
+      "hezbollah"
     ],
     "action_hits": [
-      "strike",
-      "evacuat"
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
+    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 02 Jun 2026 07:31:10 GMT",
+    "summary": "A cessation of hostilities between Israel and Hezbollah is seen as crucial to the peace process with Iran.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "israel",
+      "lebanon",
+      "iran",
+      "hezbollah"
+    ],
+    "action_hits": [
+      "ceasefire"
     ]
   },
   {
@@ -136,9 +155,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
       "lebanon",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
       "escalat"
@@ -154,29 +173,12 @@
     "relevance_score": 70,
     "entity_hits": [
       "hamas",
-      "idf",
+      "IDF",
       "israel",
-      "IDF"
+      "idf"
     ],
     "action_hits": [
       "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Gaza City hospitals say several killed in strike, as Israel targets Hamas leaders",
-    "link": "https://www.bbc.com/news/articles/cn9p40en4ngo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 28 May 2026 16:20:50 GMT",
-    "summary": "At least five children were reportedly killed in the strike, which appears to have targeted a Hamas commander.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "israel",
-      "hamas"
-    ],
-    "action_hits": [
-      "strike",
-      "killed"
     ]
   },
   {
@@ -192,8 +194,8 @@
       "tehran"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   }
 ]

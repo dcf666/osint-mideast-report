@@ -1,30 +1,16 @@
 [
   {
-    "event_id": "bf28ba382f7b",
-    "title": "Lebanon says Hezbollah agrees reciprocal halt to attacks on Israel",
-    "location": "以色列",
-    "first_seen_time": "2026-06-01T23:50:03+00:00",
-    "last_updated_time": "2026-06-01T23:50:03+00:00",
-    "current_status": "shipping_disrupted",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "ea07cae2bd7b",
-    "title": "伊朗谈判代表前往卡塔尔 美伊有望谈拢",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-05-25T16:00:00+00:00",
-    "last_updated_time": "2026-05-25T16:00:00+00:00",
+    "event_id": "f20a3428c40f",
+    "title": "停火談判陷入僵局，美伊再次發動新一輪襲擊",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-06-03T06:00:08+00:00",
+    "last_updated_time": "2026-06-03T06:00:08+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001109834",
+    "confidence": 90,
+    "source_count": 2,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/cp3peyw524po/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
   },
   {
@@ -42,34 +28,6 @@
     "lang": "en"
   },
   {
-    "event_id": "7bcce337fdd0",
-    "title": "Israel hits Lebanese capital in 'targeted strike'",
-    "location": "黎巴嫩·贝鲁特",
-    "first_seen_time": "2026-05-28T17:39:16+00:00",
-    "last_updated_time": "2026-05-28T17:39:16+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cgqpjwdv7xeo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "77ae547a3434",
-    "title": "Israel strikes Beirut and southern Lebanon after large-scale evacuation orders",
-    "location": "黎巴嫩·贝鲁特",
-    "first_seen_time": "2026-05-28T11:31:59+00:00",
-    "last_updated_time": "2026-05-28T11:31:59+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "bf3cf94d9b67",
     "title": "酷夏临近，伊拉克面临严峻的停电形势",
     "location": "伊朗",
@@ -82,6 +40,48 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001109876",
     "lang": "zh"
+  },
+  {
+    "event_id": "f4515bfdf306",
+    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
+    "location": "伊朗",
+    "first_seen_time": "2026-05-09T10:22:00+00:00",
+    "last_updated_time": "2026-06-02T07:31:10+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "55f2bfe37c4e",
+    "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-06-02T23:40:27+00:00",
+    "last_updated_time": "2026-06-02T23:40:27+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "e82f436dfb57",
+    "title": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
+    "location": "黎巴嫩·贝鲁特",
+    "first_seen_time": "2026-06-02T21:51:20+00:00",
+    "last_updated_time": "2026-06-02T21:51:20+00:00",
+    "current_status": "ceasefire",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "97693d09de23",
@@ -112,20 +112,6 @@
     "lang": "en"
   },
   {
-    "event_id": "c2abdffd9198",
-    "title": "Gaza City hospitals say several killed in strike, as Israel targets Hamas leaders",
-    "location": "以色列",
-    "first_seen_time": "2026-05-28T16:20:50+00:00",
-    "last_updated_time": "2026-05-28T16:20:50+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cn9p40en4ngo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "ee01c68aa369",
     "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
     "location": "伊朗·德黑兰",
@@ -138,19 +124,5 @@
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "f4515bfdf306",
-    "title": "中美元首峰会在即：北京想要什么？",
-    "location": "伊朗",
-    "first_seen_time": "2026-05-09T10:22:00+00:00",
-    "last_updated_time": "2026-05-09T10:22:00+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 63,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
   }
 ]
