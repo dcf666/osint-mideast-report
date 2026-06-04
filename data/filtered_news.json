@@ -3,20 +3,40 @@
     "source": "BBC中文",
     "title": "停火談判陷入僵局，美伊再次發動新一輪襲擊",
     "link": "https://www.bbc.com/zhongwen/articles/cp3peyw524po/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 03 Jun 2026 06:00:08 GMT",
+    "published": "Wed, 03 Jun 2026 07:10:48 GMT",
     "summary": "美國對伊朗和一艘油輪發動新一輪襲擊，德黑蘭方面稱其襲擊了美國在海灣的基地。",
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "德黑蘭",
+      "伊朗",
       "油輪",
-      "美伊",
-      "伊朗"
+      "德黑蘭",
+      "美伊"
     ],
     "action_hits": [
-      "談判",
       "油輪",
-      "停火"
+      "停火",
+      "談判"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美伊在中东再次交火 经合组织下调全球增长预期",
+    "link": "https://www.dw.com/zh/美伊在中东再次交火-经合组织下调全球增长预期/a-77409970?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 3 Jun 2026 14:18:00 GMT",
+    "summary": "值美伊谈判陷入停滞之际，周三，美国与伊朗在中东地区再次交火。科威特机场遭到伊朗无人机袭击，至少一人死亡，60多人受伤。鉴于中东地区冲突在持续时间和波及范围上存在不确定性，经合组织针对全球经济提出了两种情景假设。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "伊朗",
+      "中东",
+      "科威特",
+      "美伊"
+    ],
+    "action_hits": [
+      "谈判",
+      "死亡",
+      "无人机"
     ]
   },
   {
@@ -28,50 +48,51 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊拉克",
+      "伊朗",
       "美以",
-      "伊朗"
+      "伊拉克"
     ],
     "action_hits": [
       "天然气"
     ]
   },
   {
-    "source": "德国之声",
-    "title": "中美元首峰会在即：北京想要什么？",
-    "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 9 May 2026 10:22:00 GMT",
-    "summary": "美国总统特朗普将于5月14日至15日访问北京，与习近平举行受伊朗战争影响而推迟的会晤。尽管面临高额关税压力，中国4月出口仍逆势增长14.1%。面对特朗普变幻莫测的风格，北京将如何利用稀土筹码与多元化贸易布局，在贸易停火协议延期与中东局势博弈中寻求突破？",
-    "lang": "zh",
-    "relevance_score": 63,
+    "source": "BBC中东",
+    "title": "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
+    "link": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 04 Jun 2026 00:16:44 GMT",
+    "summary": "The countries reject \"any attempt, by any state or non-state actor, to hold Lebanon's future hostage\", the US State Department says.",
+    "lang": "en",
+    "relevance_score": 80,
     "entity_hits": [
-      "中东",
-      "伊朗"
+      "israel",
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "ceasefire",
+      "attack"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "US and Iran launch new strikes as ceasefire negotiations stalled",
+    "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
     "link": "https://www.bbc.com/news/articles/c5yx135yg53o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 03 Jun 2026 03:40:53 GMT",
-    "summary": "US launches fresh strikes on Iran and an oil tanker as Tehran says it attacked US bases in the Gulf.",
+    "published": "Wed, 03 Jun 2026 20:05:58 GMT",
+    "summary": "Iran says the attack on Kuwait was in retaliation for earlier US strikes on an Iranian oil tanker and island.",
     "lang": "en",
-    "relevance_score": 85,
+    "relevance_score": 80,
     "entity_hits": [
       "iran",
-      "tehran"
+      "kuwait"
     ],
     "action_hits": [
+      "retaliat",
       "tanker",
-      "strike",
+      "killed",
       "attack",
-      "ceasefire",
-      "negotiat",
-      "launch"
+      "drone",
+      "strike"
     ]
   },
   {
@@ -83,14 +104,14 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "kuwait",
       "iran",
-      "hormuz",
-      "strait"
+      "strait",
+      "kuwait",
+      "hormuz"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -103,8 +124,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "hormuz",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "blockade"
@@ -119,10 +140,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "beirut",
-      "lebanon",
       "israel",
-      "hezbollah"
+      "hezbollah",
+      "lebanon",
+      "beirut"
     ],
     "action_hits": [
       "strike"
@@ -137,10 +158,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
-      "lebanon",
       "iran",
-      "hezbollah"
+      "israel",
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire"
@@ -155,30 +176,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "lebanon",
       "israel",
-      "hezbollah"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
       "escalat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Netanyahu says he has directed IDF to increase control of Gaza to 70%",
-    "link": "https://www.bbc.com/news/articles/ceqpelq5reqo?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 29 May 2026 02:24:52 GMT",
-    "summary": "The expansion in control by Israel would contradict the terms of the ceasefire  Israel and Hamas agreed to in October 2025.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "hamas",
-      "IDF",
-      "israel",
-      "idf"
-    ],
-    "action_hits": [
-      "ceasefire"
     ]
   },
   {
@@ -194,8 +197,8 @@
       "tehran"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   }
 ]

@@ -3,15 +3,43 @@
     "event_id": "f20a3428c40f",
     "title": "停火談判陷入僵局，美伊再次發動新一輪襲擊",
     "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-03T06:00:08+00:00",
-    "last_updated_time": "2026-06-03T06:00:08+00:00",
+    "first_seen_time": "2026-06-03T07:10:48+00:00",
+    "last_updated_time": "2026-06-03T07:10:48+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 90,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中文",
     "link": "https://www.bbc.com/zhongwen/articles/cp3peyw524po/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
+  },
+  {
+    "event_id": "0aed5977e504",
+    "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-03T14:18:00+00:00",
+    "last_updated_time": "2026-06-03T20:05:58+00:00",
+    "current_status": "active_conflict",
+    "trend": "improving",
+    "confidence": 90,
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美伊在中东再次交火-经合组织下调全球增长预期/a-77409970?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "e85c15d65d47",
+    "title": "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
+    "location": "以色列",
+    "first_seen_time": "2026-06-04T00:16:44+00:00",
+    "last_updated_time": "2026-06-04T00:16:44+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "75392e5a2d6b",
@@ -39,20 +67,6 @@
     "source_count": 1,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001109876",
-    "lang": "zh"
-  },
-  {
-    "event_id": "f4515bfdf306",
-    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
-    "location": "伊朗",
-    "first_seen_time": "2026-05-09T10:22:00+00:00",
-    "last_updated_time": "2026-06-02T07:31:10+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 2,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/中美元首峰会在即：北京想要什么？/a-77103967?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -84,6 +98,20 @@
     "lang": "en"
   },
   {
+    "event_id": "a7b2dfea816f",
+    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-02T07:31:10+00:00",
+    "last_updated_time": "2026-06-02T07:31:10+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "97693d09de23",
     "title": "Israel seizes castle in Lebanon as it expands ground offensive",
     "location": "以色列",
@@ -95,20 +123,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "954db3f88df6",
-    "title": "Netanyahu says he has directed IDF to increase control of Gaza to 70%",
-    "location": "以色列",
-    "first_seen_time": "2026-05-29T02:24:52+00:00",
-    "last_updated_time": "2026-05-29T02:24:52+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/ceqpelq5reqo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
