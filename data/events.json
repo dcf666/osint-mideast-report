@@ -29,30 +29,30 @@
   },
   {
     "event_id": "e85c15d65d47",
-    "title": "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
+    "title": "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
     "location": "以色列",
-    "first_seen_time": "2026-06-04T00:16:44+00:00",
-    "last_updated_time": "2026-06-04T00:16:44+00:00",
+    "first_seen_time": "2026-06-04T07:49:33+00:00",
+    "last_updated_time": "2026-06-05T01:44:16+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
-    "event_id": "75392e5a2d6b",
-    "title": "US says it struck Iranian radar sites as Iran targets American forces in Kuwait",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-01T13:12:26+00:00",
-    "last_updated_time": "2026-06-01T13:12:26+00:00",
+    "event_id": "631f4a5556c6",
+    "title": "Israeli strikes kill 11 people in Gaza City, medics say",
+    "location": "以色列",
+    "first_seen_time": "2026-06-04T17:50:20+00:00",
+    "last_updated_time": "2026-06-04T17:50:20+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 80,
+    "confidence": 77,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -70,6 +70,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "b0110440a6d6",
+    "title": "Watch: Lebanon-Israel ceasefire deal made in 'hope rather than expectation'",
+    "location": "黎巴嫩·贝鲁特",
+    "first_seen_time": "2026-06-04T11:02:17+00:00",
+    "last_updated_time": "2026-06-04T11:02:17+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/videos/cwy20yggenxo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "55f2bfe37c4e",
     "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
     "location": "霍尔木兹海峡",
@@ -84,20 +98,6 @@
     "lang": "en"
   },
   {
-    "event_id": "e82f436dfb57",
-    "title": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
-    "location": "黎巴嫩·贝鲁特",
-    "first_seen_time": "2026-06-02T21:51:20+00:00",
-    "last_updated_time": "2026-06-02T21:51:20+00:00",
-    "current_status": "ceasefire",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "a7b2dfea816f",
     "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
     "location": "伊朗",
@@ -109,34 +109,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "97693d09de23",
-    "title": "Israel seizes castle in Lebanon as it expands ground offensive",
-    "location": "以色列",
-    "first_seen_time": "2026-05-31T22:39:12+00:00",
-    "last_updated_time": "2026-05-31T22:39:12+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "ee01c68aa369",
-    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-01T05:33:18+00:00",
-    "last_updated_time": "2026-06-01T05:33:18+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 65,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

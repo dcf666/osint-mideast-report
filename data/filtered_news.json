@@ -8,14 +8,14 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
+      "美伊",
       "伊朗",
-      "油輪",
       "德黑蘭",
-      "美伊"
+      "油輪"
     ],
     "action_hits": [
-      "油輪",
       "停火",
+      "油輪",
       "談判"
     ]
   },
@@ -28,15 +28,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
+      "美伊",
       "伊朗",
-      "中东",
       "科威特",
-      "美伊"
+      "中东"
     ],
     "action_hits": [
-      "谈判",
+      "无人机",
       "死亡",
-      "无人机"
+      "谈判"
     ]
   },
   {
@@ -48,9 +48,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "伊拉克",
       "伊朗",
-      "美以",
-      "伊拉克"
+      "美以"
     ],
     "action_hits": [
       "天然气"
@@ -60,18 +60,18 @@
     "source": "BBC中东",
     "title": "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
     "link": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 04 Jun 2026 00:16:44 GMT",
-    "summary": "The countries reject \"any attempt, by any state or non-state actor, to hold Lebanon's future hostage\", the US State Department says.",
+    "published": "Thu, 04 Jun 2026 07:49:33 GMT",
+    "summary": "The countries reject \"any attempt, by any state or non-state actor, to hold Lebanon's future hostage\", the US says.",
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "hezbollah",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "ceasefire",
-      "attack"
+      "attack",
+      "ceasefire"
     ]
   },
   {
@@ -88,30 +88,64 @@
     ],
     "action_hits": [
       "retaliat",
-      "tanker",
+      "killed",
+      "strike",
+      "drone",
+      "attack",
+      "tanker"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli strikes kill 11 people in Gaza City, medics say",
+    "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 04 Jun 2026 17:50:20 GMT",
+    "summary": "Women and children were among those killed in the attacks on four residential buildings, which Israel's military says killed four Hamas security officials.",
+    "lang": "en",
+    "relevance_score": 77,
+    "entity_hits": [
+      "hamas",
+      "israel"
+    ],
+    "action_hits": [
       "killed",
       "attack",
-      "drone",
       "strike"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "US says it struck Iranian radar sites as Iran targets American forces in Kuwait",
-    "link": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 01 Jun 2026 13:12:26 GMT",
-    "summary": "Iran and the US say they have carried out fresh strikes around the Strait of Hormuz, with Kuwait condemning \"repeated\" Iranian attacks.",
+    "title": "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
+    "link": "https://www.bbc.com/news/articles/c052343r812o?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 05 Jun 2026 01:44:16 GMT",
+    "summary": "The United States announced the ceasefire agreement on Wednesday night following a fresh round of talks.",
     "lang": "en",
-    "relevance_score": 80,
+    "relevance_score": 70,
     "entity_hits": [
-      "iran",
-      "strait",
-      "kuwait",
-      "hormuz"
+      "hezbollah",
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Watch: Lebanon-Israel ceasefire deal made in 'hope rather than expectation'",
+    "link": "https://www.bbc.com/news/videos/cwy20yggenxo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 04 Jun 2026 11:02:17 GMT",
+    "summary": "BBC correspondent John Sudworth reports from the Beirut stronghold of Hezbollah support, Dahieh.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "hezbollah",
+      "beirut",
+      "lebanon",
+      "israel"
+    ],
+    "action_hits": [
+      "ceasefire"
     ]
   },
   {
@@ -123,8 +157,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "strait",
+      "iran",
       "hormuz"
     ],
     "action_hits": [
@@ -140,10 +174,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
       "hezbollah",
+      "beirut",
       "lebanon",
-      "beirut"
+      "israel"
     ],
     "action_hits": [
       "strike"
@@ -158,47 +192,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
-      "israel",
       "hezbollah",
-      "lebanon"
+      "iran",
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel seizes castle in Lebanon as it expands ground offensive",
-    "link": "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 31 May 2026 22:39:12 GMT",
-    "summary": "Prime Minister Benjamin Netanyahu calls the capture of the strategic fortress a \"decisive shift\" in Israel's campaign against Hezbollah, as European governments criticise the escalation.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "israel",
-      "hezbollah",
-      "lebanon"
-    ],
-    "action_hits": [
-      "escalat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
-    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 01 Jun 2026 05:33:18 GMT",
-    "summary": "Analysts told BBC Verify that Tehran's strikes were more extensive than publicly acknowledged.",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "iran",
-      "tehran"
-    ],
-    "action_hits": [
-      "strike",
-      "attack"
     ]
   }
 ]
