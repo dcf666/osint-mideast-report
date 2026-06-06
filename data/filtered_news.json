@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "美伊",
       "伊朗",
       "德黑蘭",
-      "油輪"
+      "油輪",
+      "美伊"
     ],
     "action_hits": [
+      "談判",
       "停火",
-      "油輪",
-      "談判"
+      "油輪"
     ]
   },
   {
@@ -28,10 +28,10 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "美伊",
       "伊朗",
+      "中东",
       "科威特",
-      "中东"
+      "美伊"
     ],
     "action_hits": [
       "无人机",
@@ -48,8 +48,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊拉克",
       "伊朗",
+      "伊拉克",
       "美以"
     ],
     "action_hits": [
@@ -65,13 +65,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
+      "israel",
       "lebanon",
-      "israel"
+      "hezbollah"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -87,12 +87,12 @@
       "kuwait"
     ],
     "action_hits": [
-      "retaliat",
-      "killed",
-      "strike",
       "drone",
+      "strike",
+      "killed",
       "attack",
-      "tanker"
+      "tanker",
+      "retaliat"
     ]
   },
   {
@@ -104,13 +104,13 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
+      "strike",
       "killed",
-      "attack",
-      "strike"
+      "attack"
     ]
   },
   {
@@ -122,9 +122,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
+      "israel",
       "lebanon",
-      "israel"
+      "hezbollah"
     ],
     "action_hits": [
       "ceasefire"
@@ -139,10 +139,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
-      "beirut",
+      "israel",
       "lebanon",
-      "israel"
+      "hezbollah",
+      "beirut"
     ],
     "action_hits": [
       "ceasefire"
@@ -174,10 +174,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
-      "beirut",
+      "israel",
       "lebanon",
-      "israel"
+      "hezbollah",
+      "beirut"
     ],
     "action_hits": [
       "strike"
@@ -192,10 +192,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
-      "iran",
+      "israel",
       "lebanon",
-      "israel"
+      "iran",
+      "hezbollah"
     ],
     "action_hits": [
       "ceasefire"
