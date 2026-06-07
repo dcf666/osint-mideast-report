@@ -3,7 +3,7 @@
     "brent": {
       "current": 93.08999633789062,
       "day_change_pct": -2.04,
-      "war_change_pct": 0.43,
+      "war_change_pct": -5.93,
       "dates": [
         "04/24",
         "04/27",
@@ -68,12 +68,12 @@
         95.03,
         93.09
       ],
-      "updated": "2026-06-06T04:59:02.977667"
+      "updated": "2026-06-07T05:44:01.897403"
     },
     "wti": {
       "current": 90.54000091552734,
       "day_change_pct": -2.69,
-      "war_change_pct": -0.4,
+      "war_change_pct": -4.46,
       "dates": [
         "04/24",
         "04/27",
@@ -138,12 +138,12 @@
         93.04,
         90.54
       ],
-      "updated": "2026-06-06T04:59:03.044981"
+      "updated": "2026-06-07T05:44:02.031436"
     },
     "gold": {
-      "current": 4337.10009765625,
-      "day_change_pct": -3.1,
-      "war_change_pct": -15.72,
+      "current": 4365.2998046875,
+      "day_change_pct": -2.47,
+      "war_change_pct": -14.26,
       "dates": [
         "04/24",
         "04/27",
@@ -206,9 +206,9 @@
         4489.1,
         4436.7,
         4475.8,
-        4337.1
+        4365.3
       ],
-      "updated": "2026-06-06T04:59:03.111417"
+      "updated": "2026-06-07T05:44:02.162684"
     },
     "usd_cny": {
       "current": 6.765999794006348,
@@ -278,12 +278,12 @@
         6.77,
         6.77
       ],
-      "updated": "2026-06-06T04:59:03.188291"
+      "updated": "2026-06-07T05:44:02.301174"
     },
     "nat_gas": {
       "current": 3.2290000915527344,
       "day_change_pct": -3.21,
-      "war_change_pct": 1.35,
+      "war_change_pct": 3.49,
       "dates": [
         "04/24",
         "04/27",
@@ -348,7 +348,7 @@
         3.34,
         3.23
       ],
-      "updated": "2026-06-06T04:59:03.271853"
+      "updated": "2026-06-07T05:44:02.432171"
     }
   },
   "stocks": {
@@ -478,6 +478,28 @@
   "news": [
     {
       "source": "BBC中文",
+      "title": "美伊在波斯灣地區互相打擊，停火協議再受考驗",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gyz94jrw6o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 07 Jun 2026 04:53:38 GMT",
+      "summary": "美國軍方襲擊伊朗無人機和雷達站，德黑蘭方面則表示已襲擊了位於科威特和巴林的美國基地。",
+      "lang": "zh",
+      "relevance_score": 100,
+      "entity_hits": [
+        "科威特",
+        "伊朗",
+        "美伊",
+        "德黑蘭",
+        "巴林"
+      ],
+      "action_hits": [
+        "打擊",
+        "停火協議",
+        "無人機",
+        "停火"
+      ]
+    },
+    {
+      "source": "BBC中文",
       "title": "停火談判陷入僵局，美伊再次發動新一輪襲擊",
       "link": "https://www.bbc.com/zhongwen/articles/cp3peyw524po/trad?at_medium=RSS&at_campaign=rss",
       "published": "Wed, 03 Jun 2026 07:10:48 GMT",
@@ -485,15 +507,36 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "伊朗",
+        "美伊",
         "德黑蘭",
         "油輪",
-        "美伊"
+        "伊朗"
       ],
       "action_hits": [
+        "油輪",
         "談判",
-        "停火",
-        "油輪"
+        "停火"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "美军打击伊朗雷达站 伊朗袭击美军基地",
+      "link": "https://www.dw.com/zh/美军打击伊朗雷达站-伊朗袭击美军基地/a-77445792?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 6 Jun 2026 16:39:00 GMT",
+      "summary": "美伊两国停战临时协议谈判再次面临困难：美军周六对伊朗海岸雷达站实施了打击，伊朗则对科威特和巴林的美军基地实施报复性进攻。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "科威特",
+        "伊朗",
+        "美军",
+        "美伊",
+        "巴林"
+      ],
+      "action_hits": [
+        "报复",
+        "打击",
+        "谈判"
       ]
     },
     {
@@ -505,15 +548,15 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "伊朗",
-        "中东",
         "科威特",
-        "美伊"
+        "中东",
+        "美伊",
+        "伊朗"
       ],
       "action_hits": [
-        "无人机",
         "死亡",
-        "谈判"
+        "谈判",
+        "无人机"
       ]
     },
     {
@@ -525,12 +568,50 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "伊朗",
         "伊拉克",
-        "美以"
+        "美以",
+        "伊朗"
       ],
       "action_hits": [
         "天然气"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US and Iran exchange strikes in Gulf in latest test of ceasefire",
+      "link": "https://www.bbc.com/news/articles/cvgzgyjk2weo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 06 Jun 2026 14:46:20 GMT",
+      "summary": "The US military strikes Iranian drones and radar sites and Tehran says it has targeted US bases in Kuwait and Bahrain.",
+      "lang": "en",
+      "relevance_score": 90,
+      "entity_hits": [
+        "bahrain",
+        "tehran",
+        "kuwait",
+        "iran"
+      ],
+      "action_hits": [
+        "ceasefire",
+        "strike",
+        "drone"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Lebanese general among three soldiers killed in Israeli attack on car",
+      "link": "https://www.bbc.com/news/articles/cj0g8jymg92o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 06 Jun 2026 21:23:03 GMT",
+      "summary": "The Israeli military is investigating the incident in south Lebanon, where it is fighting Hezbollah.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "hezbollah",
+        "lebanon",
+        "israel"
+      ],
+      "action_hits": [
+        "attack",
+        "killed"
       ]
     },
     {
@@ -542,9 +623,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "israel",
+        "hezbollah",
         "lebanon",
-        "hezbollah"
+        "israel"
       ],
       "action_hits": [
         "ceasefire",
@@ -560,16 +641,16 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "iran",
-        "kuwait"
+        "kuwait",
+        "iran"
       ],
       "action_hits": [
-        "drone",
-        "strike",
-        "killed",
-        "attack",
         "tanker",
-        "retaliat"
+        "retaliat",
+        "strike",
+        "attack",
+        "killed",
+        "drone"
       ]
     },
     {
@@ -581,8 +662,8 @@
       "lang": "en",
       "relevance_score": 77,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
         "strike",
@@ -599,27 +680,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "israel",
-        "lebanon",
-        "hezbollah"
-      ],
-      "action_hits": [
-        "ceasefire"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Watch: Lebanon-Israel ceasefire deal made in 'hope rather than expectation'",
-      "link": "https://www.bbc.com/news/videos/cwy20yggenxo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 04 Jun 2026 11:02:17 GMT",
-      "summary": "BBC correspondent John Sudworth reports from the Beirut stronghold of Hezbollah support, Dahieh.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "israel",
-        "lebanon",
         "hezbollah",
-        "beirut"
+        "lebanon",
+        "israel"
       ],
       "action_hits": [
         "ceasefire"
@@ -634,9 +697,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "strait",
         "iran",
-        "hormuz"
+        "hormuz",
+        "strait"
       ],
       "action_hits": [
         "blockade"
@@ -651,62 +714,58 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "israel",
+        "beirut",
         "lebanon",
         "hezbollah",
-        "beirut"
+        "israel"
       ],
       "action_hits": [
         "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
-      "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 02 Jun 2026 07:31:10 GMT",
-      "summary": "A cessation of hostilities between Israel and Hezbollah is seen as crucial to the peace process with Iran.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "israel",
-        "lebanon",
-        "iran",
-        "hezbollah"
-      ],
-      "action_hits": [
-        "ceasefire"
       ]
     }
   ],
   "event_states": [
     {
-      "event_id": "f20a3428c40f",
-      "title": "停火談判陷入僵局，美伊再次發動新一輪襲擊",
+      "event_id": "6dc14d86978e",
+      "title": "美伊在波斯灣地區互相打擊，停火協議再受考驗",
       "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-06-03T07:10:48+00:00",
-      "last_updated_time": "2026-06-03T07:10:48+00:00",
+      "first_seen_time": "2026-06-07T04:53:38+00:00",
+      "last_updated_time": "2026-06-07T04:53:38+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
-      "confidence": 90,
-      "source_count": 1,
+      "confidence": 100,
+      "source_count": 3,
       "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/cp3peyw524po/trad?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gyz94jrw6o/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
-      "event_id": "0aed5977e504",
-      "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+      "event_id": "b6eb3f9080a0",
+      "title": "美军打击伊朗雷达站 伊朗袭击美军基地",
       "location": "伊朗",
-      "first_seen_time": "2026-06-03T14:18:00+00:00",
-      "last_updated_time": "2026-06-03T20:05:58+00:00",
+      "first_seen_time": "2026-06-06T16:39:00+00:00",
+      "last_updated_time": "2026-06-06T16:39:00+00:00",
       "current_status": "active_conflict",
       "trend": "improving",
       "confidence": 90,
-      "source_count": 2,
+      "source_count": 3,
       "source": "德国之声",
-      "link": "https://www.dw.com/zh/美伊在中东再次交火-经合组织下调全球增长预期/a-77409970?maca=chi-rss-chi-all-1127-xml-mrss",
+      "link": "https://www.dw.com/zh/美军打击伊朗雷达站-伊朗袭击美军基地/a-77445792?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
+    },
+    {
+      "event_id": "a1336e7e03ae",
+      "title": "Lebanese general among three soldiers killed in Israeli attack on car",
+      "location": "以色列",
+      "first_seen_time": "2026-06-06T21:23:03+00:00",
+      "last_updated_time": "2026-06-06T21:23:03+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 80,
+      "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cj0g8jymg92o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "e85c15d65d47",
@@ -720,20 +779,6 @@
       "source_count": 2,
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "631f4a5556c6",
-      "title": "Israeli strikes kill 11 people in Gaza City, medics say",
-      "location": "以色列",
-      "first_seen_time": "2026-06-04T17:50:20+00:00",
-      "last_updated_time": "2026-06-04T17:50:20+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 77,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -751,20 +796,6 @@
       "lang": "zh"
     },
     {
-      "event_id": "b0110440a6d6",
-      "title": "Watch: Lebanon-Israel ceasefire deal made in 'hope rather than expectation'",
-      "location": "黎巴嫩·贝鲁特",
-      "first_seen_time": "2026-06-04T11:02:17+00:00",
-      "last_updated_time": "2026-06-04T11:02:17+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 70,
-      "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/videos/cwy20yggenxo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "55f2bfe37c4e",
       "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
       "location": "霍尔木兹海峡",
@@ -779,24 +810,23 @@
       "lang": "en"
     },
     {
-      "event_id": "a7b2dfea816f",
-      "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
-      "location": "伊朗",
-      "first_seen_time": "2026-06-02T07:31:10+00:00",
-      "last_updated_time": "2026-06-02T07:31:10+00:00",
+      "event_id": "e82f436dfb57",
+      "title": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
+      "location": "黎巴嫩·贝鲁特",
+      "first_seen_time": "2026-06-02T21:51:20+00:00",
+      "last_updated_time": "2026-06-02T21:51:20+00:00",
       "current_status": "ceasefire",
-      "trend": "improving",
+      "trend": "stable",
       "confidence": 70,
       "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "5/8",
         "5/9",
         "5/10",
         "5/11",
@@ -825,7 +855,8 @@
         "6/3",
         "6/4",
         "6/5",
-        "6/6"
+        "6/6",
+        "6/7"
       ],
       "transits": [
         0,
@@ -915,34 +946,27 @@
         21,
         69
       ],
-      "date_label": "6月6日"
+      "date_label": "6月7日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-06-06",
+      "hormuz_last_date": "2026-06-07",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 85,
+      "vlcc_stale_days": 86,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-06-06"
+      "routes_date": "2026-06-07"
     }
   },
   "meta": {
-    "report_date": "2026.06.06",
-    "report_date_cn": "2026年06月06日",
-    "war_day": 99,
+    "report_date": "2026.06.07",
+    "report_date_cn": "2026年06月07日",
+    "war_day": 100,
     "war_start": "2026-02-28",
-    "generated_at": "2026-06-06T12:59:40.510493+08:00",
-    "generated_at_cn": "2026-06-06 12:59:40 北京时间"
+    "generated_at": "2026-06-07T13:44:31.722593+08:00",
+    "generated_at_cn": "2026-06-07 13:44:31 北京时间"
   },
   "history": [
-    {
-      "date": "2026-03-17",
-      "brent": 103.70999908447266,
-      "wti": 97.25,
-      "gold": 5014.89990234375,
-      "usd_cny": 6.888400077819824
-    },
     {
       "date": "2026-03-17",
       "brent": 103.56999969482422,
@@ -1564,6 +1588,13 @@
       "brent": 93.08999633789062,
       "wti": 90.54000091552734,
       "gold": 4337.10009765625,
+      "usd_cny": 6.765999794006348
+    },
+    {
+      "date": "2026-06-07",
+      "brent": 93.08999633789062,
+      "wti": 90.54000091552734,
+      "gold": 4365.2998046875,
       "usd_cny": 6.765999794006348
     }
   ]

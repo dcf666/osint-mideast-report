@@ -1,31 +1,45 @@
 [
   {
-    "event_id": "f20a3428c40f",
-    "title": "停火談判陷入僵局，美伊再次發動新一輪襲擊",
+    "event_id": "6dc14d86978e",
+    "title": "美伊在波斯灣地區互相打擊，停火協議再受考驗",
     "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-03T07:10:48+00:00",
-    "last_updated_time": "2026-06-03T07:10:48+00:00",
+    "first_seen_time": "2026-06-07T04:53:38+00:00",
+    "last_updated_time": "2026-06-07T04:53:38+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
-    "confidence": 90,
-    "source_count": 1,
+    "confidence": 100,
+    "source_count": 3,
     "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/cp3peyw524po/trad?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/zhongwen/articles/c4gyz94jrw6o/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
   },
   {
-    "event_id": "0aed5977e504",
-    "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+    "event_id": "b6eb3f9080a0",
+    "title": "美军打击伊朗雷达站 伊朗袭击美军基地",
     "location": "伊朗",
-    "first_seen_time": "2026-06-03T14:18:00+00:00",
-    "last_updated_time": "2026-06-03T20:05:58+00:00",
+    "first_seen_time": "2026-06-06T16:39:00+00:00",
+    "last_updated_time": "2026-06-06T16:39:00+00:00",
     "current_status": "active_conflict",
     "trend": "improving",
     "confidence": 90,
-    "source_count": 2,
+    "source_count": 3,
     "source": "德国之声",
-    "link": "https://www.dw.com/zh/美伊在中东再次交火-经合组织下调全球增长预期/a-77409970?maca=chi-rss-chi-all-1127-xml-mrss",
+    "link": "https://www.dw.com/zh/美军打击伊朗雷达站-伊朗袭击美军基地/a-77445792?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
+  },
+  {
+    "event_id": "a1336e7e03ae",
+    "title": "Lebanese general among three soldiers killed in Israeli attack on car",
+    "location": "以色列",
+    "first_seen_time": "2026-06-06T21:23:03+00:00",
+    "last_updated_time": "2026-06-06T21:23:03+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cj0g8jymg92o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "e85c15d65d47",
@@ -39,20 +53,6 @@
     "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "631f4a5556c6",
-    "title": "Israeli strikes kill 11 people in Gaza City, medics say",
-    "location": "以色列",
-    "first_seen_time": "2026-06-04T17:50:20+00:00",
-    "last_updated_time": "2026-06-04T17:50:20+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 77,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -70,20 +70,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "b0110440a6d6",
-    "title": "Watch: Lebanon-Israel ceasefire deal made in 'hope rather than expectation'",
-    "location": "黎巴嫩·贝鲁特",
-    "first_seen_time": "2026-06-04T11:02:17+00:00",
-    "last_updated_time": "2026-06-04T11:02:17+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/videos/cwy20yggenxo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "55f2bfe37c4e",
     "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
     "location": "霍尔木兹海峡",
@@ -98,17 +84,17 @@
     "lang": "en"
   },
   {
-    "event_id": "a7b2dfea816f",
-    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
-    "location": "伊朗",
-    "first_seen_time": "2026-06-02T07:31:10+00:00",
-    "last_updated_time": "2026-06-02T07:31:10+00:00",
+    "event_id": "e82f436dfb57",
+    "title": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
+    "location": "黎巴嫩·贝鲁特",
+    "first_seen_time": "2026-06-02T21:51:20+00:00",
+    "last_updated_time": "2026-06-02T21:51:20+00:00",
     "current_status": "ceasefire",
-    "trend": "improving",
+    "trend": "stable",
     "confidence": 70,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

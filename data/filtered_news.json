@@ -1,6 +1,28 @@
 [
   {
     "source": "BBC中文",
+    "title": "美伊在波斯灣地區互相打擊，停火協議再受考驗",
+    "link": "https://www.bbc.com/zhongwen/articles/c4gyz94jrw6o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 07 Jun 2026 04:53:38 GMT",
+    "summary": "美國軍方襲擊伊朗無人機和雷達站，德黑蘭方面則表示已襲擊了位於科威特和巴林的美國基地。",
+    "lang": "zh",
+    "relevance_score": 100,
+    "entity_hits": [
+      "科威特",
+      "伊朗",
+      "美伊",
+      "德黑蘭",
+      "巴林"
+    ],
+    "action_hits": [
+      "打擊",
+      "停火協議",
+      "無人機",
+      "停火"
+    ]
+  },
+  {
+    "source": "BBC中文",
     "title": "停火談判陷入僵局，美伊再次發動新一輪襲擊",
     "link": "https://www.bbc.com/zhongwen/articles/cp3peyw524po/trad?at_medium=RSS&at_campaign=rss",
     "published": "Wed, 03 Jun 2026 07:10:48 GMT",
@@ -8,15 +30,36 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "伊朗",
+      "美伊",
       "德黑蘭",
       "油輪",
-      "美伊"
+      "伊朗"
     ],
     "action_hits": [
+      "油輪",
       "談判",
-      "停火",
-      "油輪"
+      "停火"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美军打击伊朗雷达站 伊朗袭击美军基地",
+    "link": "https://www.dw.com/zh/美军打击伊朗雷达站-伊朗袭击美军基地/a-77445792?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 6 Jun 2026 16:39:00 GMT",
+    "summary": "美伊两国停战临时协议谈判再次面临困难：美军周六对伊朗海岸雷达站实施了打击，伊朗则对科威特和巴林的美军基地实施报复性进攻。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "科威特",
+      "伊朗",
+      "美军",
+      "美伊",
+      "巴林"
+    ],
+    "action_hits": [
+      "报复",
+      "打击",
+      "谈判"
     ]
   },
   {
@@ -28,15 +71,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "伊朗",
-      "中东",
       "科威特",
-      "美伊"
+      "中东",
+      "美伊",
+      "伊朗"
     ],
     "action_hits": [
-      "无人机",
       "死亡",
-      "谈判"
+      "谈判",
+      "无人机"
     ]
   },
   {
@@ -48,12 +91,50 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "伊拉克",
-      "美以"
+      "美以",
+      "伊朗"
     ],
     "action_hits": [
       "天然气"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US and Iran exchange strikes in Gulf in latest test of ceasefire",
+    "link": "https://www.bbc.com/news/articles/cvgzgyjk2weo?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 06 Jun 2026 14:46:20 GMT",
+    "summary": "The US military strikes Iranian drones and radar sites and Tehran says it has targeted US bases in Kuwait and Bahrain.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "bahrain",
+      "tehran",
+      "kuwait",
+      "iran"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "strike",
+      "drone"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Lebanese general among three soldiers killed in Israeli attack on car",
+    "link": "https://www.bbc.com/news/articles/cj0g8jymg92o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 06 Jun 2026 21:23:03 GMT",
+    "summary": "The Israeli military is investigating the incident in south Lebanon, where it is fighting Hezbollah.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "hezbollah",
+      "lebanon",
+      "israel"
+    ],
+    "action_hits": [
+      "attack",
+      "killed"
     ]
   },
   {
@@ -65,9 +146,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
+      "hezbollah",
       "lebanon",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
       "ceasefire",
@@ -83,16 +164,16 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
-      "kuwait"
+      "kuwait",
+      "iran"
     ],
     "action_hits": [
-      "drone",
-      "strike",
-      "killed",
-      "attack",
       "tanker",
-      "retaliat"
+      "retaliat",
+      "strike",
+      "attack",
+      "killed",
+      "drone"
     ]
   },
   {
@@ -104,8 +185,8 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
       "strike",
@@ -122,27 +203,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
-      "lebanon",
-      "hezbollah"
-    ],
-    "action_hits": [
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Watch: Lebanon-Israel ceasefire deal made in 'hope rather than expectation'",
-    "link": "https://www.bbc.com/news/videos/cwy20yggenxo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 04 Jun 2026 11:02:17 GMT",
-    "summary": "BBC correspondent John Sudworth reports from the Beirut stronghold of Hezbollah support, Dahieh.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "israel",
-      "lebanon",
       "hezbollah",
-      "beirut"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "ceasefire"
@@ -157,9 +220,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
       "iran",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
       "blockade"
@@ -174,31 +237,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
+      "beirut",
       "lebanon",
       "hezbollah",
-      "beirut"
+      "israel"
     ],
     "action_hits": [
       "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
-    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 02 Jun 2026 07:31:10 GMT",
-    "summary": "A cessation of hostilities between Israel and Hezbollah is seen as crucial to the peace process with Iran.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "israel",
-      "lebanon",
-      "iran",
-      "hezbollah"
-    ],
-    "action_hits": [
-      "ceasefire"
     ]
   }
 ]
