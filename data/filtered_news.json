@@ -8,17 +8,17 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "科威特",
-      "伊朗",
       "美伊",
+      "巴林",
       "德黑蘭",
-      "巴林"
+      "科威特",
+      "伊朗"
     ],
     "action_hits": [
-      "打擊",
       "停火協議",
-      "無人機",
-      "停火"
+      "停火",
+      "打擊",
+      "無人機"
     ]
   },
   {
@@ -30,9 +30,9 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "美伊",
       "德黑蘭",
       "油輪",
+      "美伊",
       "伊朗"
     ],
     "action_hits": [
@@ -50,16 +50,16 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "科威特",
-      "伊朗",
-      "美军",
       "美伊",
-      "巴林"
+      "美军",
+      "巴林",
+      "科威特",
+      "伊朗"
     ],
     "action_hits": [
+      "谈判",
       "报复",
-      "打击",
-      "谈判"
+      "打击"
     ]
   },
   {
@@ -71,9 +71,9 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
+      "美伊",
       "科威特",
       "中东",
-      "美伊",
       "伊朗"
     ],
     "action_hits": [
@@ -91,8 +91,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊拉克",
       "美以",
+      "伊拉克",
       "伊朗"
     ],
     "action_hits": [
@@ -108,15 +108,33 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "bahrain",
-      "tehran",
       "kuwait",
-      "iran"
+      "bahrain",
+      "iran",
+      "tehran"
     ],
     "action_hits": [
       "ceasefire",
       "strike",
       "drone"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel strikes Beirut suburb days after US-brokered truce",
+    "link": "https://www.bbc.com/news/articles/c0qyevk8139o?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 07 Jun 2026 20:56:09 GMT",
+    "summary": "Israel says the attacks on the Lebanese capital were ordered  \"in response to Hezbollah's firing at Israeli territory\".",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "beirut",
+      "israel",
+      "hezbollah"
+    ],
+    "action_hits": [
+      "attack",
+      "strike"
     ]
   },
   {
@@ -129,30 +147,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "hezbollah",
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "attack",
       "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
-    "link": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 04 Jun 2026 07:49:33 GMT",
-    "summary": "The countries reject \"any attempt, by any state or non-state actor, to hold Lebanon's future hostage\", the US says.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "hezbollah",
-      "lebanon",
-      "israel"
-    ],
-    "action_hits": [
-      "ceasefire",
-      "attack"
     ]
   },
   {
@@ -170,8 +170,8 @@
     "action_hits": [
       "tanker",
       "retaliat",
-      "strike",
       "attack",
+      "strike",
       "killed",
       "drone"
     ]
@@ -185,30 +185,13 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
+      "attack",
       "strike",
-      "killed",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
-    "link": "https://www.bbc.com/news/articles/c052343r812o?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 05 Jun 2026 01:44:16 GMT",
-    "summary": "The United States announced the ceasefire agreement on Wednesday night following a fresh round of talks.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "hezbollah",
-      "lebanon",
-      "israel"
-    ],
-    "action_hits": [
-      "ceasefire"
+      "killed"
     ]
   },
   {
@@ -220,9 +203,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "strait",
       "iran",
-      "hormuz",
-      "strait"
+      "hormuz"
     ],
     "action_hits": [
       "blockade"
@@ -238,12 +221,30 @@
     "relevance_score": 70,
     "entity_hits": [
       "beirut",
-      "lebanon",
+      "israel",
       "hezbollah",
-      "israel"
+      "lebanon"
     ],
     "action_hits": [
       "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
+    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 02 Jun 2026 07:31:10 GMT",
+    "summary": "A cessation of hostilities between Israel and Hezbollah is seen as crucial to the peace process with Iran.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "hezbollah",
+      "israel",
+      "iran",
+      "lebanon"
+    ],
+    "action_hits": [
+      "ceasefire"
     ]
   }
 ]

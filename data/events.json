@@ -28,6 +28,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "5d2434d82f90",
+    "title": "Israel strikes Beirut suburb days after US-brokered truce",
+    "location": "黎巴嫩·贝鲁特",
+    "first_seen_time": "2026-06-07T20:56:09+00:00",
+    "last_updated_time": "2026-06-07T20:56:09+00:00",
+    "current_status": "ceasefire",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c0qyevk8139o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "a1336e7e03ae",
     "title": "Lebanese general among three soldiers killed in Israeli attack on car",
     "location": "以色列",
@@ -39,20 +53,6 @@
     "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cj0g8jymg92o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "e85c15d65d47",
-    "title": "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
-    "location": "以色列",
-    "first_seen_time": "2026-06-04T07:49:33+00:00",
-    "last_updated_time": "2026-06-05T01:44:16+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -84,17 +84,17 @@
     "lang": "en"
   },
   {
-    "event_id": "e82f436dfb57",
-    "title": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
-    "location": "黎巴嫩·贝鲁特",
-    "first_seen_time": "2026-06-02T21:51:20+00:00",
-    "last_updated_time": "2026-06-02T21:51:20+00:00",
+    "event_id": "a7b2dfea816f",
+    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-02T07:31:10+00:00",
+    "last_updated_time": "2026-06-02T07:31:10+00:00",
     "current_status": "ceasefire",
-    "trend": "stable",
+    "trend": "improving",
     "confidence": 70,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]
