@@ -8,16 +8,16 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美伊",
-      "巴林",
-      "德黑蘭",
       "科威特",
-      "伊朗"
+      "巴林",
+      "伊朗",
+      "德黑蘭",
+      "美伊"
     ],
     "action_hits": [
+      "打擊",
       "停火協議",
       "停火",
-      "打擊",
       "無人機"
     ]
   },
@@ -30,36 +30,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
+      "油輪",
       "德黑蘭",
-      "油輪",
       "美伊",
       "伊朗"
     ],
     "action_hits": [
       "油輪",
-      "談判",
-      "停火"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美军打击伊朗雷达站 伊朗袭击美军基地",
-    "link": "https://www.dw.com/zh/美军打击伊朗雷达站-伊朗袭击美军基地/a-77445792?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 6 Jun 2026 16:39:00 GMT",
-    "summary": "美伊两国停战临时协议谈判再次面临困难：美军周六对伊朗海岸雷达站实施了打击，伊朗则对科威特和巴林的美军基地实施报复性进攻。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "美伊",
-      "美军",
-      "巴林",
-      "科威特",
-      "伊朗"
-    ],
-    "action_hits": [
-      "谈判",
-      "报复",
-      "打击"
+      "停火",
+      "談判"
     ]
   },
   {
@@ -73,12 +52,12 @@
     "entity_hits": [
       "美伊",
       "科威特",
-      "中东",
-      "伊朗"
+      "伊朗",
+      "中东"
     ],
     "action_hits": [
-      "死亡",
       "谈判",
+      "死亡",
       "无人机"
     ]
   },
@@ -91,8 +70,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美以",
       "伊拉克",
+      "美以",
       "伊朗"
     ],
     "action_hits": [
@@ -108,10 +87,10 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "tehran",
       "kuwait",
-      "bahrain",
       "iran",
-      "tehran"
+      "bahrain"
     ],
     "action_hits": [
       "ceasefire",
@@ -128,9 +107,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "beirut",
       "israel",
-      "hezbollah"
+      "hezbollah",
+      "beirut"
     ],
     "action_hits": [
       "attack",
@@ -146,9 +125,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
+      "lebanon",
       "israel",
-      "lebanon"
+      "hezbollah"
     ],
     "action_hits": [
       "attack",
@@ -168,12 +147,12 @@
       "iran"
     ],
     "action_hits": [
+      "attack",
+      "drone",
       "tanker",
       "retaliat",
-      "attack",
       "strike",
-      "killed",
-      "drone"
+      "killed"
     ]
   },
   {
@@ -192,6 +171,24 @@
       "attack",
       "strike",
       "killed"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran and Israel say they will pause strikes but warn of retaliation if ceasefire breached again",
+    "link": "https://www.bbc.com/news/articles/cj6ge150z5go?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 08 Jun 2026 22:47:29 GMT",
+    "summary": "Israel's PM says his country is holding fire \"at the moment\", after Iran's armed forces said they had stopped military action.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "israel",
+      "iran"
+    ],
+    "action_hits": [
+      "retaliat",
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -220,31 +217,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "beirut",
+      "lebanon",
       "israel",
       "hezbollah",
-      "lebanon"
+      "beirut"
     ],
     "action_hits": [
       "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
-    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 02 Jun 2026 07:31:10 GMT",
-    "summary": "A cessation of hostilities between Israel and Hezbollah is seen as crucial to the peace process with Iran.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "hezbollah",
-      "israel",
-      "iran",
-      "lebanon"
-    ],
-    "action_hits": [
-      "ceasefire"
     ]
   }
 ]
