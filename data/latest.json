@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 93.52999877929688,
-      "day_change_pct": -0.76,
-      "war_change_pct": -5.49,
+      "current": 91.8499984741211,
+      "day_change_pct": 0.44,
+      "war_change_pct": 4.61,
       "dates": [
-        "04/28",
         "04/29",
         "04/30",
         "05/01",
@@ -34,10 +33,10 @@
         "06/04",
         "06/05",
         "06/08",
-        "06/09"
+        "06/09",
+        "06/10"
       ],
       "prices": [
-        111.26,
         118.03,
         114.01,
         108.17,
@@ -66,16 +65,16 @@
         95.03,
         93.09,
         94.25,
-        93.53
+        91.45,
+        91.85
       ],
-      "updated": "2026-06-09T05:11:55.764992"
+      "updated": "2026-06-10T05:24:16.702758"
     },
     "wti": {
-      "current": 90.29000091552734,
-      "day_change_pct": -1.11,
-      "war_change_pct": -4.73,
+      "current": 88.58999633789062,
+      "day_change_pct": 0.44,
+      "war_change_pct": 6.16,
       "dates": [
-        "04/28",
         "04/29",
         "04/30",
         "05/01",
@@ -104,10 +103,10 @@
         "06/04",
         "06/05",
         "06/08",
-        "06/09"
+        "06/09",
+        "06/10"
       ],
       "prices": [
-        99.93,
         106.88,
         105.07,
         101.94,
@@ -136,16 +135,16 @@
         93.04,
         90.54,
         91.3,
-        90.29
+        88.2,
+        88.59
       ],
-      "updated": "2026-06-09T05:11:55.846870"
+      "updated": "2026-06-10T05:24:16.773973"
     },
     "gold": {
-      "current": 4358.89990234375,
-      "day_change_pct": 0.53,
-      "war_change_pct": -14.39,
+      "current": 4202.5,
+      "day_change_pct": -1.35,
+      "war_change_pct": -19.64,
       "dates": [
-        "04/28",
         "04/29",
         "04/30",
         "05/01",
@@ -174,10 +173,10 @@
         "06/04",
         "06/05",
         "06/08",
-        "06/09"
+        "06/09",
+        "06/10"
       ],
       "prices": [
-        4591.5,
         4545.2,
         4614.7,
         4629.9,
@@ -206,16 +205,16 @@
         4475.8,
         4337.1,
         4335.9,
-        4358.9
+        4260.0,
+        4202.5
       ],
-      "updated": "2026-06-09T05:11:55.935179"
+      "updated": "2026-06-10T05:24:16.846962"
     },
     "usd_cny": {
-      "current": 6.775000095367432,
-      "day_change_pct": 0.14,
-      "war_change_pct": -1.76,
+      "current": 6.774199962615967,
+      "day_change_pct": 0.13,
+      "war_change_pct": -1.98,
       "dates": [
-        "04/29",
         "04/30",
         "05/01",
         "05/04",
@@ -244,11 +243,11 @@
         "06/04",
         "06/05",
         "06/08",
-        "06/09"
+        "06/09",
+        "06/10"
       ],
       "prices": [
         6.84,
-        6.84,
         6.83,
         6.83,
         6.83,
@@ -276,16 +275,16 @@
         6.77,
         6.77,
         6.77,
-        6.78
+        6.77,
+        6.77
       ],
-      "updated": "2026-06-09T05:11:56.024102"
+      "updated": "2026-06-10T05:24:16.918655"
     },
     "nat_gas": {
-      "current": 3.1589999198913574,
-      "day_change_pct": 0.38,
-      "war_change_pct": 1.25,
+      "current": 3.0840001106262207,
+      "day_change_pct": -1.78,
+      "war_change_pct": 2.12,
       "dates": [
-        "04/28",
         "04/29",
         "04/30",
         "05/01",
@@ -314,10 +313,10 @@
         "06/04",
         "06/05",
         "06/08",
-        "06/09"
+        "06/09",
+        "06/10"
       ],
       "prices": [
-        2.56,
         2.65,
         2.77,
         2.78,
@@ -346,39 +345,49 @@
         3.34,
         3.23,
         3.15,
-        3.16
+        3.14,
+        3.08
       ],
-      "updated": "2026-06-09T05:11:56.115029"
+      "updated": "2026-06-10T05:24:16.987669"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 14.04,
-      "change_pct": -0.71,
-      "high": 14.2,
-      "low": 13.91,
-      "volume": 549285
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 16.48,
+      "change_pct": -1.96,
+      "high": 17.41,
+      "low": 16.37,
+      "volume": 391399
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 3.98,
+      "change_pct": -3.4,
+      "high": 4.16,
+      "low": 3.96,
+      "volume": 1755565
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 34.43,
+      "change_pct": -1.74,
+      "high": 35.15,
+      "low": 34.3,
+      "volume": 228820
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 10.29,
+      "change_pct": -0.48,
+      "high": 10.34,
+      "low": 10.14,
+      "volume": 924800
     },
     "600028": {
       "name": "中国石化",
@@ -402,19 +411,13 @@
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 149.84,
-      "change_pct": 1.78,
-      "high": 151.98,
-      "low": 144.46,
-      "volume": 94826
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600803": {
       "name": "新奥股份",
-      "price": 18.41,
-      "change_pct": -2.85,
-      "high": 19.14,
-      "low": 18.37,
-      "volume": 43243
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600256": {
       "name": "广汇能源",
@@ -423,27 +426,18 @@
     },
     "601919": {
       "name": "中远海控",
-      "price": 14.69,
-      "change_pct": -2.2,
-      "high": 14.97,
-      "low": 14.67,
-      "volume": 627417
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 40.46,
-      "change_pct": -0.34,
-      "high": 40.59,
-      "low": 39.91,
-      "volume": 91750
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600893": {
       "name": "航发动力",
-      "price": 39.41,
-      "change_pct": -0.38,
-      "high": 40.38,
-      "low": 39.01,
-      "volume": 155253
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600150": {
       "name": "中国船舶",
@@ -468,21 +462,20 @@
     "601088": {
       "name": "中国神华",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     }
   },
   "sectors": {
     "航运": {
       "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "石油": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": null
     },
     "天然气": {
       "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "军工": {
       "change_pct": null,
@@ -503,11 +496,11 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "科威特",
-        "巴林",
         "伊朗",
-        "德黑蘭",
-        "美伊"
+        "巴林",
+        "美伊",
+        "科威特",
+        "德黑蘭"
       ],
       "action_hits": [
         "打擊",
@@ -517,23 +510,52 @@
       ]
     },
     {
-      "source": "BBC中文",
-      "title": "停火談判陷入僵局，美伊再次發動新一輪襲擊",
-      "link": "https://www.bbc.com/zhongwen/articles/cp3peyw524po/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 03 Jun 2026 07:10:48 GMT",
-      "summary": "美國對伊朗和一艘油輪發動新一輪襲擊，德黑蘭方面稱其襲擊了美國在海灣的基地。",
+      "source": "德国之声",
+      "title": "美軍阿帕契直升機墜海後 美伊互襲擴及多國",
+      "link": "https://www.dw.com/zh/美軍阿帕契直升機墜海後-美伊互襲擴及多國/a-77482637?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 10 Jun 2026 04:44:00 GMT",
+      "summary": "美軍週二對伊朗發動空襲，以報復伊朗在霍爾木茲海峽附近擊落美國阿帕契直升機；伊朗翌日則以飛彈和無人機攻擊美軍駐巴林、約旦及科威特一帶的設施作為回應。雙方最新一輪軍事衝突不僅使停火面臨考驗，也為霍爾木茲海峽航運與美伊和平談判再添變數。",
+      "lang": "zh",
+      "relevance_score": 100,
+      "entity_hits": [
+        "伊朗",
+        "巴林",
+        "美伊",
+        "科威特",
+        "約旦",
+        "美軍",
+        "霍爾木茲",
+        "海峽"
+      ],
+      "action_hits": [
+        "談判",
+        "無人機",
+        "報復",
+        "空襲",
+        "停火",
+        "擊落",
+        "航運"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "美军打击伊朗雷达站 伊朗袭击美军基地",
+      "link": "https://www.dw.com/zh/美军打击伊朗雷达站-伊朗袭击美军基地/a-77445792?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 6 Jun 2026 16:39:00 GMT",
+      "summary": "美伊两国停战临时协议谈判再次面临困难：美军周六对伊朗海岸雷达站实施了打击，伊朗则对科威特和巴林的美军基地实施报复性进攻。",
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "油輪",
-        "德黑蘭",
+        "伊朗",
+        "巴林",
+        "美军",
         "美伊",
-        "伊朗"
+        "科威特"
       ],
       "action_hits": [
-        "油輪",
-        "停火",
-        "談判"
+        "谈判",
+        "报复",
+        "打击"
       ]
     },
     {
@@ -545,32 +567,32 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
+        "伊朗",
         "美伊",
         "科威特",
-        "伊朗",
         "中东"
       ],
       "action_hits": [
-        "谈判",
         "死亡",
+        "谈判",
         "无人机"
       ]
     },
     {
-      "source": "FT中文网",
-      "title": "酷夏临近，伊拉克面临严峻的停电形势",
-      "link": "https://www.ftchinese.com/story/001109876",
-      "published": "Thu, 28 May 2026 16:00:00 GMT",
-      "summary": "伊拉克在发电方面依赖从伊朗进口的天然气，但美以的军事行动切断了这一供应，加剧了这个石油资源丰富国家的能源危机。",
+      "source": "BBC中文",
+      "title": "美國軍方稱已襲擊伊朗　回應直升機在霍爾木茲海峽遭擊落",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gy7pke22ro/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 09 Jun 2026 22:18:42 GMT",
+      "summary": "美國總統特朗普早前指責伊朗在霍爾木茲海峽上空擊落美國直升機，並誓言作出回應。",
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "伊拉克",
-        "美以",
-        "伊朗"
+        "伊朗",
+        "霍爾木茲",
+        "海峽"
       ],
       "action_hits": [
-        "天然气"
+        "擊落"
       ]
     },
     {
@@ -582,15 +604,33 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "tehran",
         "kuwait",
-        "iran",
-        "bahrain"
+        "tehran",
+        "bahrain",
+        "iran"
       ],
       "action_hits": [
         "ceasefire",
-        "strike",
-        "drone"
+        "drone",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks",
+      "link": "https://www.bbc.com/news/articles/c36y16nkr5no?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 09 Jun 2026 17:47:41 GMT",
+      "summary": "Iran warned Israel on Monday that it could resume hostilities if attacks on its Lebanese ally Hezbollah do not stop.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "israel",
+        "iran",
+        "hezbollah"
+      ],
+      "action_hits": [
+        "attack",
+        "strike"
       ]
     },
     {
@@ -620,8 +660,8 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "lebanon",
         "israel",
+        "lebanon",
         "hezbollah"
       ],
       "action_hits": [
@@ -642,10 +682,10 @@
         "iran"
       ],
       "action_hits": [
-        "attack",
-        "drone",
-        "tanker",
         "retaliat",
+        "attack",
+        "tanker",
+        "drone",
         "strike",
         "killed"
       ]
@@ -670,9 +710,26 @@
     },
     {
       "source": "BBC中东",
+      "title": "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
+      "link": "https://www.bbc.com/news/articles/cp8lm75186lo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 09 Jun 2026 05:07:44 GMT",
+      "summary": "Iran appears emboldened by the outcome and its leaders may sense Trump's appetite for risk is low.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "tehran",
+        "israel",
+        "iran"
+      ],
+      "action_hits": [
+        "negotiat"
+      ]
+    },
+    {
+      "source": "BBC中东",
       "title": "Iran and Israel say they will pause strikes but warn of retaliation if ceasefire breached again",
       "link": "https://www.bbc.com/news/articles/cj6ge150z5go?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 08 Jun 2026 22:47:29 GMT",
+      "published": "Tue, 09 Jun 2026 10:51:24 GMT",
       "summary": "Israel's PM says his country is holding fire \"at the moment\", after Iran's armed forces said they had stopped military action.",
       "lang": "en",
       "relevance_score": 70,
@@ -681,44 +738,9 @@
         "iran"
       ],
       "action_hits": [
-        "retaliat",
         "ceasefire",
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
-      "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 02 Jun 2026 23:40:27 GMT",
-      "summary": "The uncertainty has weighed heavily on the 20,000 seafarers trapped in the Iran war zone.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "strait",
-        "iran",
-        "hormuz"
-      ],
-      "action_hits": [
-        "blockade"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
-      "link": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 02 Jun 2026 21:51:20 GMT",
-      "summary": "Israel continues its campaign in the south, though has not struck Beirut after a deal announced by the US.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "lebanon",
-        "israel",
-        "hezbollah",
-        "beirut"
-      ],
-      "action_hits": [
-        "strike"
+        "strike",
+        "retaliat"
       ]
     }
   ],
@@ -732,24 +754,52 @@
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 100,
-      "source_count": 3,
+      "source_count": 2,
       "source": "BBC中文",
       "link": "https://www.bbc.com/zhongwen/articles/c4gyz94jrw6o/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
-      "event_id": "0aed5977e504",
-      "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+      "event_id": "27ffc4d0a332",
+      "title": "美軍阿帕契直升機墜海後 美伊互襲擴及多國",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-06-10T04:44:00+00:00",
+      "last_updated_time": "2026-06-10T04:44:00+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 100,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美軍阿帕契直升機墜海後-美伊互襲擴及多國/a-77482637?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "b6eb3f9080a0",
+      "title": "美军打击伊朗雷达站 伊朗袭击美军基地",
       "location": "伊朗",
-      "first_seen_time": "2026-06-03T14:18:00+00:00",
-      "last_updated_time": "2026-06-03T20:05:58+00:00",
+      "first_seen_time": "2026-06-06T16:39:00+00:00",
+      "last_updated_time": "2026-06-06T16:39:00+00:00",
       "current_status": "active_conflict",
       "trend": "improving",
       "confidence": 90,
-      "source_count": 2,
+      "source_count": 3,
       "source": "德国之声",
-      "link": "https://www.dw.com/zh/美伊在中东再次交火-经合组织下调全球增长预期/a-77409970?maca=chi-rss-chi-all-1127-xml-mrss",
+      "link": "https://www.dw.com/zh/美军打击伊朗雷达站-伊朗袭击美军基地/a-77445792?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
+    },
+    {
+      "event_id": "79f9b8a79689",
+      "title": "Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks",
+      "location": "伊朗",
+      "first_seen_time": "2026-06-09T17:47:41+00:00",
+      "last_updated_time": "2026-06-09T17:47:41+00:00",
+      "current_status": "partially_restored",
+      "trend": "stable",
+      "confidence": 80,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/c36y16nkr5no?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "5d2434d82f90",
@@ -760,7 +810,7 @@
       "current_status": "ceasefire",
       "trend": "stable",
       "confidence": 80,
-      "source_count": 2,
+      "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/c0qyevk8139o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
@@ -780,25 +830,39 @@
       "lang": "en"
     },
     {
-      "event_id": "bf3cf94d9b67",
-      "title": "酷夏临近，伊拉克面临严峻的停电形势",
-      "location": "伊朗",
-      "first_seen_time": "2026-05-28T16:00:00+00:00",
-      "last_updated_time": "2026-05-28T16:00:00+00:00",
-      "current_status": "escalating",
-      "trend": "worsening",
+      "event_id": "f87415d65be8",
+      "title": "美國軍方稱已襲擊伊朗　回應直升機在霍爾木茲海峽遭擊落",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-06-09T22:18:42+00:00",
+      "last_updated_time": "2026-06-09T22:18:42+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
       "confidence": 70,
       "source_count": 1,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001109876",
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gy7pke22ro/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
+    },
+    {
+      "event_id": "19b64c43e2f8",
+      "title": "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-06-09T05:07:44+00:00",
+      "last_updated_time": "2026-06-09T05:07:44+00:00",
+      "current_status": "active_conflict",
+      "trend": "improving",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cp8lm75186lo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "69cf5337117b",
       "title": "Iran and Israel say they will pause strikes but warn of retaliation if ceasefire breached again",
       "location": "伊朗",
-      "first_seen_time": "2026-06-08T22:47:29+00:00",
-      "last_updated_time": "2026-06-08T22:47:29+00:00",
+      "first_seen_time": "2026-06-09T10:51:24+00:00",
+      "last_updated_time": "2026-06-09T10:51:24+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 70,
@@ -806,26 +870,11 @@
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/cj6ge150z5go?at_medium=RSS&at_campaign=rss",
       "lang": "en"
-    },
-    {
-      "event_id": "55f2bfe37c4e",
-      "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-06-02T23:40:27+00:00",
-      "last_updated_time": "2026-06-02T23:40:27+00:00",
-      "current_status": "shipping_disrupted",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "5/11",
         "5/12",
         "5/13",
         "5/14",
@@ -854,7 +903,8 @@
         "6/6",
         "6/7",
         "6/8",
-        "6/9"
+        "6/9",
+        "6/10"
       ],
       "transits": [
         0,
@@ -944,34 +994,27 @@
         21,
         69
       ],
-      "date_label": "6月9日"
+      "date_label": "6月10日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-06-09",
+      "hormuz_last_date": "2026-06-10",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 88,
+      "vlcc_stale_days": 89,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-06-09"
+      "routes_date": "2026-06-10"
     }
   },
   "meta": {
-    "report_date": "2026.06.09",
-    "report_date_cn": "2026年06月09日",
-    "war_day": 102,
+    "report_date": "2026.06.10",
+    "report_date_cn": "2026年06月10日",
+    "war_day": 103,
     "war_start": "2026-02-28",
-    "generated_at": "2026-06-09T13:12:31.290496+08:00",
-    "generated_at_cn": "2026-06-09 13:12:31 北京时间"
+    "generated_at": "2026-06-10T13:25:39.589060+08:00",
+    "generated_at_cn": "2026-06-10 13:25:39 北京时间"
   },
   "history": [
-    {
-      "date": "2026-03-18",
-      "brent": 103.41999816894531,
-      "wti": 96.20999908447266,
-      "gold": 5001.0,
-      "usd_cny": 6.879799842834473
-    },
     {
       "date": "2026-03-18",
       "brent": 102.8499984741211,
@@ -1594,6 +1637,13 @@
       "wti": 90.29000091552734,
       "gold": 4358.89990234375,
       "usd_cny": 6.775000095367432
+    },
+    {
+      "date": "2026-06-10",
+      "brent": 91.8499984741211,
+      "wti": 88.58999633789062,
+      "gold": 4202.5,
+      "usd_cny": 6.774199962615967
     }
   ]
 }
