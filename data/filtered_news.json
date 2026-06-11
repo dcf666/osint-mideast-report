@@ -8,17 +8,17 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
+      "美伊",
       "伊朗",
       "巴林",
-      "美伊",
-      "科威特",
-      "德黑蘭"
+      "德黑蘭",
+      "科威特"
     ],
     "action_hits": [
-      "打擊",
-      "停火協議",
       "停火",
-      "無人機"
+      "無人機",
+      "打擊",
+      "停火協議"
     ]
   },
   {
@@ -30,81 +30,43 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "伊朗",
-      "巴林",
       "美伊",
-      "科威特",
-      "約旦",
+      "伊朗",
+      "霍爾木茲",
+      "巴林",
       "美軍",
-      "霍爾木茲",
-      "海峽"
-    ],
-    "action_hits": [
-      "談判",
-      "無人機",
-      "報復",
-      "空襲",
-      "停火",
-      "擊落",
-      "航運"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美军打击伊朗雷达站 伊朗袭击美军基地",
-    "link": "https://www.dw.com/zh/美军打击伊朗雷达站-伊朗袭击美军基地/a-77445792?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 6 Jun 2026 16:39:00 GMT",
-    "summary": "美伊两国停战临时协议谈判再次面临困难：美军周六对伊朗海岸雷达站实施了打击，伊朗则对科威特和巴林的美军基地实施报复性进攻。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "伊朗",
-      "巴林",
-      "美军",
-      "美伊",
-      "科威特"
-    ],
-    "action_hits": [
-      "谈判",
-      "报复",
-      "打击"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美伊在中东再次交火 经合组织下调全球增长预期",
-    "link": "https://www.dw.com/zh/美伊在中东再次交火-经合组织下调全球增长预期/a-77409970?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 3 Jun 2026 14:18:00 GMT",
-    "summary": "值美伊谈判陷入停滞之际，周三，美国与伊朗在中东地区再次交火。科威特机场遭到伊朗无人机袭击，至少一人死亡，60多人受伤。鉴于中东地区冲突在持续时间和波及范围上存在不确定性，经合组织针对全球经济提出了两种情景假设。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "伊朗",
-      "美伊",
       "科威特",
-      "中东"
+      "海峽",
+      "約旦"
     ],
     "action_hits": [
-      "死亡",
-      "谈判",
-      "无人机"
+      "停火",
+      "報復",
+      "無人機",
+      "航運",
+      "擊落",
+      "談判",
+      "空襲"
     ]
   },
   {
-    "source": "BBC中文",
-    "title": "美國軍方稱已襲擊伊朗　回應直升機在霍爾木茲海峽遭擊落",
-    "link": "https://www.bbc.com/zhongwen/articles/c4gy7pke22ro/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 09 Jun 2026 22:18:42 GMT",
-    "summary": "美國總統特朗普早前指責伊朗在霍爾木茲海峽上空擊落美國直升機，並誓言作出回應。",
+    "source": "德国之声",
+    "title": "伊朗稱徹底封閉霍爾木茲海峽 美軍否認",
+    "link": "https://www.dw.com/zh/伊朗稱徹底封閉霍爾木茲海峽-美軍否認/a-77498294?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Thu, 11 Jun 2026 04:30:00 GMT",
+    "summary": "美國和伊朗停火協議再一次瀕臨破裂，雙方本週第三度互襲。10日，川普批評伊朗拖延談判，「一直在耍我們」；伊朗則稱不會屈服，並表示已徹底封閉霍爾木茲海峽，但美方否認。川普還稱美國上個月就開始在該海峽執行「秘密任務」。",
     "lang": "zh",
-    "relevance_score": 70,
+    "relevance_score": 90,
     "entity_hits": [
+      "海峽",
       "伊朗",
-      "霍爾木茲",
-      "海峽"
+      "美軍",
+      "霍爾木茲"
     ],
     "action_hits": [
-      "擊落"
+      "停火",
+      "談判",
+      "停火協議"
     ]
   },
   {
@@ -116,14 +78,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "kuwait",
+      "iran",
       "tehran",
       "bahrain",
-      "iran"
+      "kuwait"
     ],
     "action_hits": [
-      "ceasefire",
       "drone",
+      "ceasefire",
       "strike"
     ]
   },
@@ -136,9 +98,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
+      "hezbollah",
       "iran",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
       "attack",
@@ -154,8 +116,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "hezbollah",
+      "israel",
       "beirut"
     ],
     "action_hits": [
@@ -165,59 +127,37 @@
   },
   {
     "source": "BBC中东",
-    "title": "Lebanese general among three soldiers killed in Israeli attack on car",
-    "link": "https://www.bbc.com/news/articles/cj0g8jymg92o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 06 Jun 2026 21:23:03 GMT",
-    "summary": "The Israeli military is investigating the incident in south Lebanon, where it is fighting Hezbollah.",
+    "title": "Israeli strikes in southern Lebanon kill 17, reports say",
+    "link": "https://www.bbc.com/news/articles/cpq3d44l907o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 10 Jun 2026 14:44:49 GMT",
+    "summary": "Nine of them were killed in a series of attacks in the town of Tayr Debba, according to Lebanon's state news agency.",
     "lang": "en",
-    "relevance_score": 80,
+    "relevance_score": 70,
     "entity_hits": [
       "israel",
-      "lebanon",
-      "hezbollah"
+      "lebanon"
     ],
     "action_hits": [
       "attack",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
-    "link": "https://www.bbc.com/news/articles/c5yx135yg53o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 03 Jun 2026 20:05:58 GMT",
-    "summary": "Iran says the attack on Kuwait was in retaliation for earlier US strikes on an Iranian oil tanker and island.",
+    "title": "US strikes Iran in response to downing of military helicopter",
+    "link": "https://www.bbc.com/news/articles/cze9359gglyo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 10 Jun 2026 09:39:35 GMT",
+    "summary": "President Donald Trump earlier accused Iran of shooting down the US helicopter over the Strait of Hormuz and vowed to respond.",
     "lang": "en",
-    "relevance_score": 80,
+    "relevance_score": 70,
     "entity_hits": [
-      "kuwait",
-      "iran"
+      "iran",
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
-      "retaliat",
-      "attack",
-      "tanker",
-      "drone",
-      "strike",
-      "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israeli strikes kill 11 people in Gaza City, medics say",
-    "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 04 Jun 2026 17:50:20 GMT",
-    "summary": "Women and children were among those killed in the attacks on four residential buildings, which Israel's military says killed four Hamas security officials.",
-    "lang": "en",
-    "relevance_score": 77,
-    "entity_hits": [
-      "israel",
-      "hamas"
-    ],
-    "action_hits": [
-      "attack",
-      "strike",
-      "killed"
+      "strike"
     ]
   },
   {
@@ -229,9 +169,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "tehran",
+      "iran",
       "israel",
-      "iran"
+      "tehran"
     ],
     "action_hits": [
       "negotiat"
@@ -246,12 +186,29 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
-      "iran"
+      "iran",
+      "israel"
     ],
     "action_hits": [
       "ceasefire",
-      "strike",
+      "retaliat",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Trump says US will hit Iran 'hard' again today",
+    "link": "https://www.bbc.com/news/articles/ce371kw2ex2o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 10 Jun 2026 21:49:57 GMT",
+    "summary": "The US president warns Iran \"will have to pay the price\" for taking too long to agree a deal, after Tehran vows retaliation to any attacks.",
+    "lang": "en",
+    "relevance_score": 65,
+    "entity_hits": [
+      "iran",
+      "tehran"
+    ],
+    "action_hits": [
+      "attack",
       "retaliat"
     ]
   }
