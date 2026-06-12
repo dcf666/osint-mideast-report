@@ -1,27 +1,5 @@
 [
   {
-    "source": "BBC中文",
-    "title": "美伊在波斯灣地區互相打擊，停火協議再受考驗",
-    "link": "https://www.bbc.com/zhongwen/articles/c4gyz94jrw6o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 07 Jun 2026 04:53:38 GMT",
-    "summary": "美國軍方襲擊伊朗無人機和雷達站，德黑蘭方面則表示已襲擊了位於科威特和巴林的美國基地。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "美伊",
-      "伊朗",
-      "巴林",
-      "德黑蘭",
-      "科威特"
-    ],
-    "action_hits": [
-      "停火",
-      "無人機",
-      "打擊",
-      "停火協議"
-    ]
-  },
-  {
     "source": "德国之声",
     "title": "美軍阿帕契直升機墜海後 美伊互襲擴及多國",
     "link": "https://www.dw.com/zh/美軍阿帕契直升機墜海後-美伊互襲擴及多國/a-77482637?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -30,23 +8,23 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美伊",
-      "伊朗",
       "霍爾木茲",
-      "巴林",
-      "美軍",
+      "約旦",
       "科威特",
+      "伊朗",
+      "美伊",
+      "美軍",
       "海峽",
-      "約旦"
+      "巴林"
     ],
     "action_hits": [
-      "停火",
-      "報復",
       "無人機",
-      "航運",
-      "擊落",
       "談判",
-      "空襲"
+      "空襲",
+      "報復",
+      "停火",
+      "航運",
+      "擊落"
     ]
   },
   {
@@ -58,15 +36,69 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "海峽",
       "伊朗",
-      "美軍",
-      "霍爾木茲"
+      "海峽",
+      "霍爾木茲",
+      "美軍"
     ],
     "action_hits": [
       "停火",
       "談判",
       "停火協議"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "揚言重擊伊朗後取消空襲 川普稱最快週末簽和平協議",
+    "link": "https://www.dw.com/zh/揚言重擊伊朗後取消空襲-川普稱最快週末簽和平協議/a-77516215?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Fri, 12 Jun 2026 04:20:00 GMT",
+    "summary": "美國總統川普表示，美國與伊朗最快可能於本週末簽署和平協議，重新開放霍爾木茲海峽航運，並稱已獲伊朗最高領袖同意。不過德黑蘭強調，協議仍在審議中，尚未作出最終決定。雙方本週持續互相攻擊，和談前景存在變數。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "伊朗",
+      "海峽",
+      "霍爾木茲",
+      "德黑蘭"
+    ],
+    "action_hits": [
+      "航運",
+      "空襲"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "伊朗與美國難以維持停火的四大原因",
+    "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 11 Jun 2026 06:51:27 GMT",
+    "summary": "美國與伊朗4月初達成的停火協議，在新一波地區攻擊後嚴重動搖。特朗普與伊朗互放狠話，衝突升級。專家指出四大原因：伊朗認為停火未解決核心問題、以色列持續軍事行動、升級已成談判策略，以及美國影響力有限。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "伊朗",
+      "以色列"
+    ],
+    "action_hits": [
+      "停火",
+      "談判",
+      "停火協議"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "特朗普扬言要“全面接管”伊朗主要油气枢纽",
+    "link": "https://www.ftchinese.com/story/001110013",
+    "published": "Thu, 11 Jun 2026 16:00:00 GMT",
+    "summary": "分析人士警告，夺取哈尔克岛将意味着战争大幅升级，使美军面临伤亡风险。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "伊朗",
+      "哈尔克",
+      "美军"
+    ],
+    "action_hits": [
+      "伤亡"
     ]
   },
   {
@@ -79,13 +111,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "iran",
-      "tehran",
+      "kuwait",
       "bahrain",
-      "kuwait"
+      "tehran"
     ],
     "action_hits": [
-      "drone",
       "ceasefire",
+      "drone",
       "strike"
     ]
   },
@@ -98,9 +130,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "iran",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
       "attack",
@@ -116,12 +148,31 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
+      "beirut",
       "israel",
-      "beirut"
+      "hezbollah"
     ],
     "action_hits": [
       "attack",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US and Iran exchange strikes across Middle East for second day in a row",
+    "link": "https://www.bbc.com/news/articles/c4gyp9v0e93o?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 11 Jun 2026 12:09:44 GMT",
+    "summary": "Iran says it responded to US strikes by targeting American assets in Kuwait, Jordan and Bahrain, which reported damage to its capital city overnight.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "iran",
+      "kuwait",
+      "jordan",
+      "middle east",
+      "bahrain"
+    ],
+    "action_hits": [
       "strike"
     ]
   },
@@ -170,8 +221,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "israel",
-      "tehran"
+      "tehran",
+      "israel"
     ],
     "action_hits": [
       "negotiat"
@@ -193,23 +244,6 @@
       "ceasefire",
       "retaliat",
       "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Trump says US will hit Iran 'hard' again today",
-    "link": "https://www.bbc.com/news/articles/ce371kw2ex2o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 10 Jun 2026 21:49:57 GMT",
-    "summary": "The US president warns Iran \"will have to pay the price\" for taking too long to agree a deal, after Tehran vows retaliation to any attacks.",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "iran",
-      "tehran"
-    ],
-    "action_hits": [
-      "attack",
-      "retaliat"
     ]
   }
 ]

@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "6dc14d86978e",
-    "title": "美伊在波斯灣地區互相打擊，停火協議再受考驗",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-07T04:53:38+00:00",
-    "last_updated_time": "2026-06-07T04:53:38+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 100,
-    "source_count": 2,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/c4gyz94jrw6o/trad?at_medium=RSS&at_campaign=rss",
-    "lang": "zh"
-  },
-  {
     "event_id": "27ffc4d0a332",
     "title": "伊朗稱徹底封閉霍爾木茲海峽 美軍否認",
     "location": "霍尔木兹海峡",
@@ -25,6 +11,34 @@
     "source_count": 2,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/美軍阿帕契直升機墜海後-美伊互襲擴及多國/a-77482637?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "f3f99160c688",
+    "title": "US and Iran exchange strikes in Gulf in latest test of ceasefire",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-06-06T14:46:20+00:00",
+    "last_updated_time": "2026-06-06T14:46:20+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cvgzgyjk2weo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "9047c2d6ce81",
+    "title": "揚言重擊伊朗後取消空襲 川普稱最快週末簽和平協議",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-06-12T04:20:00+00:00",
+    "last_updated_time": "2026-06-12T04:20:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/揚言重擊伊朗後取消空襲-川普稱最快週末簽和平協議/a-77516215?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -56,6 +70,48 @@
     "lang": "en"
   },
   {
+    "event_id": "961409f7fc8d",
+    "title": "伊朗與美國難以維持停火的四大原因",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-11T06:51:27+00:00",
+    "last_updated_time": "2026-06-11T06:51:27+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 2,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "cd4b9f73ab94",
+    "title": "特朗普扬言要“全面接管”伊朗主要油气枢纽",
+    "location": "伊朗·哈尔克岛",
+    "first_seen_time": "2026-06-11T16:00:00+00:00",
+    "last_updated_time": "2026-06-11T16:00:00+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110013",
+    "lang": "zh"
+  },
+  {
+    "event_id": "13aed324e153",
+    "title": "US and Iran exchange strikes across Middle East for second day in a row",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-11T12:09:44+00:00",
+    "last_updated_time": "2026-06-11T12:09:44+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c4gyp9v0e93o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "54ac17349702",
     "title": "Israeli strikes in southern Lebanon kill 17, reports say",
     "location": "以色列",
@@ -81,34 +137,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cze9359gglyo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "19b64c43e2f8",
-    "title": "Trump says US will hit Iran 'hard' again today",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-09T05:07:44+00:00",
-    "last_updated_time": "2026-06-10T21:49:57+00:00",
-    "current_status": "active_conflict",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cp8lm75186lo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "69cf5337117b",
-    "title": "Iran and Israel say they will pause strikes but warn of retaliation if ceasefire breached again",
-    "location": "伊朗",
-    "first_seen_time": "2026-06-09T10:51:24+00:00",
-    "last_updated_time": "2026-06-09T10:51:24+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cj6ge150z5go?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]
