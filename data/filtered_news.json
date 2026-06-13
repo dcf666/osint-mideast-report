@@ -8,22 +8,22 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "霍爾木茲",
-      "約旦",
-      "科威特",
-      "伊朗",
-      "美伊",
       "美軍",
+      "科威特",
+      "巴林",
+      "伊朗",
       "海峽",
-      "巴林"
+      "美伊",
+      "霍爾木茲",
+      "約旦"
     ],
     "action_hits": [
-      "無人機",
+      "停火",
+      "航運",
       "談判",
       "空襲",
       "報復",
-      "停火",
-      "航運",
+      "無人機",
       "擊落"
     ]
   },
@@ -36,14 +36,14 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "伊朗",
-      "海峽",
+      "美軍",
       "霍爾木茲",
-      "美軍"
+      "伊朗",
+      "海峽"
     ],
     "action_hits": [
-      "停火",
       "談判",
+      "停火",
       "停火協議"
     ]
   },
@@ -56,9 +56,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "霍爾木茲",
       "伊朗",
       "海峽",
-      "霍爾木茲",
       "德黑蘭"
     ],
     "action_hits": [
@@ -79,8 +79,8 @@
       "以色列"
     ],
     "action_hits": [
-      "停火",
       "談判",
+      "停火",
       "停火協議"
     ]
   },
@@ -94,8 +94,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "伊朗",
-      "哈尔克",
-      "美军"
+      "美军",
+      "哈尔克"
     ],
     "action_hits": [
       "伤亡"
@@ -110,14 +110,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
-      "kuwait",
       "bahrain",
+      "kuwait",
+      "iran",
       "tehran"
     ],
     "action_hits": [
-      "ceasefire",
       "drone",
+      "ceasefire",
       "strike"
     ]
   },
@@ -130,8 +130,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "israel",
+      "iran",
       "hezbollah"
     ],
     "action_hits": [
@@ -166,11 +166,11 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
-      "kuwait",
       "jordan",
+      "iran",
+      "bahrain",
       "middle east",
-      "bahrain"
+      "kuwait"
     ],
     "action_hits": [
       "strike"
@@ -185,8 +185,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "attack",
@@ -204,8 +204,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "hormuz",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "strike"
@@ -220,9 +220,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "israel",
       "iran",
-      "tehran",
-      "israel"
+      "tehran"
     ],
     "action_hits": [
       "negotiat"
@@ -237,12 +237,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
-      "ceasefire",
       "retaliat",
+      "ceasefire",
       "strike"
     ]
   }
