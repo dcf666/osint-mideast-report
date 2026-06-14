@@ -1,14 +1,14 @@
 [
   {
     "event_id": "27ffc4d0a332",
-    "title": "伊朗稱徹底封閉霍爾木茲海峽 美軍否認",
+    "title": "美軍阿帕契直升機墜海後 美伊互襲擴及多國",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-06-10T04:44:00+00:00",
-    "last_updated_time": "2026-06-11T04:30:00+00:00",
+    "last_updated_time": "2026-06-10T04:44:00+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 100,
-    "source_count": 2,
+    "source_count": 1,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/美軍阿帕契直升機墜海後-美伊互襲擴及多國/a-77482637?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
@@ -26,20 +26,6 @@
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cvgzgyjk2weo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "9047c2d6ce81",
-    "title": "揚言重擊伊朗後取消空襲 川普稱最快週末簽和平協議",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-12T04:20:00+00:00",
-    "last_updated_time": "2026-06-12T04:20:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 2,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/揚言重擊伊朗後取消空襲-川普稱最快週末簽和平協議/a-77516215?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
   },
   {
     "event_id": "79f9b8a79689",
@@ -98,20 +84,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "13aed324e153",
-    "title": "US and Iran exchange strikes across Middle East for second day in a row",
-    "location": "伊朗",
-    "first_seen_time": "2026-06-11T12:09:44+00:00",
-    "last_updated_time": "2026-06-11T12:09:44+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c4gyp9v0e93o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "54ac17349702",
     "title": "Israeli strikes in southern Lebanon kill 17, reports say",
     "location": "以色列",
@@ -126,17 +98,45 @@
     "lang": "en"
   },
   {
-    "event_id": "194f86b1da97",
-    "title": "US strikes Iran in response to downing of military helicopter",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-10T09:39:35+00:00",
-    "last_updated_time": "2026-06-10T09:39:35+00:00",
+    "event_id": "19b64c43e2f8",
+    "title": "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-06-09T05:07:44+00:00",
+    "last_updated_time": "2026-06-09T05:07:44+00:00",
     "current_status": "active_conflict",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cp8lm75186lo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "55f2bfe37c4e",
+    "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-06-02T23:40:27+00:00",
+    "last_updated_time": "2026-06-02T23:40:27+00:00",
+    "current_status": "shipping_disrupted",
     "trend": "stable",
     "confidence": 70,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cze9359gglyo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "62d771f3cb4c",
+    "title": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-13T11:15:18+00:00",
+    "last_updated_time": "2026-06-13T11:15:18+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 65,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

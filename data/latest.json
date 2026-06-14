@@ -3,7 +3,7 @@
     "brent": {
       "current": 87.33000183105469,
       "day_change_pct": -3.37,
-      "war_change_pct": -15.33,
+      "war_change_pct": -12.85,
       "dates": [
         "05/01",
         "05/04",
@@ -68,12 +68,12 @@
         90.38,
         87.33
       ],
-      "updated": "2026-06-13T05:24:44.593919"
+      "updated": "2026-06-14T05:57:18.728508"
     },
     "wti": {
       "current": 84.87999725341797,
       "day_change_pct": -3.23,
-      "war_change_pct": -14.01,
+      "war_change_pct": -9.22,
       "dates": [
         "05/01",
         "05/04",
@@ -138,12 +138,12 @@
         87.71,
         84.88
       ],
-      "updated": "2026-06-13T05:24:44.684015"
+      "updated": "2026-06-14T05:57:18.841264"
     },
     "gold": {
-      "current": 4215.0,
-      "day_change_pct": 3.05,
-      "war_change_pct": -16.58,
+      "current": 4238.7998046875,
+      "day_change_pct": 3.63,
+      "war_change_pct": -15.12,
       "dates": [
         "05/01",
         "05/04",
@@ -206,9 +206,9 @@
         4260.0,
         4108.2,
         4090.3,
-        4215.0
+        4238.8
       ],
-      "updated": "2026-06-13T05:24:44.774616"
+      "updated": "2026-06-14T05:57:18.908637"
     },
     "usd_cny": {
       "current": 6.7621002197265625,
@@ -278,12 +278,12 @@
         6.77,
         6.76
       ],
-      "updated": "2026-06-13T05:24:44.871024"
+      "updated": "2026-06-14T05:57:18.983209"
     },
     "nat_gas": {
       "current": 3.119999885559082,
       "day_change_pct": 1.07,
-      "war_change_pct": -0.35,
+      "war_change_pct": 3.21,
       "dates": [
         "05/01",
         "05/04",
@@ -348,17 +348,14 @@
         3.09,
         3.12
       ],
-      "updated": "2026-06-13T05:24:45.006541"
+      "updated": "2026-06-14T05:57:19.052891"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 15.6,
-      "change_pct": 8.18,
-      "high": 15.86,
-      "low": 14.77,
-      "volume": 1823232
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600026": {
       "name": "中远海能",
@@ -489,61 +486,22 @@
       "relevance_score": 100,
       "entity_hits": [
         "美軍",
-        "科威特",
-        "巴林",
-        "伊朗",
-        "海峽",
         "美伊",
-        "霍爾木茲",
-        "約旦"
-      ],
-      "action_hits": [
-        "停火",
-        "航運",
-        "談判",
-        "空襲",
-        "報復",
-        "無人機",
-        "擊落"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "伊朗稱徹底封閉霍爾木茲海峽 美軍否認",
-      "link": "https://www.dw.com/zh/伊朗稱徹底封閉霍爾木茲海峽-美軍否認/a-77498294?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 11 Jun 2026 04:30:00 GMT",
-      "summary": "美國和伊朗停火協議再一次瀕臨破裂，雙方本週第三度互襲。10日，川普批評伊朗拖延談判，「一直在耍我們」；伊朗則稱不會屈服，並表示已徹底封閉霍爾木茲海峽，但美方否認。川普還稱美國上個月就開始在該海峽執行「秘密任務」。",
-      "lang": "zh",
-      "relevance_score": 90,
-      "entity_hits": [
-        "美軍",
-        "霍爾木茲",
-        "伊朗",
-        "海峽"
-      ],
-      "action_hits": [
-        "談判",
-        "停火",
-        "停火協議"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "揚言重擊伊朗後取消空襲 川普稱最快週末簽和平協議",
-      "link": "https://www.dw.com/zh/揚言重擊伊朗後取消空襲-川普稱最快週末簽和平協議/a-77516215?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 12 Jun 2026 04:20:00 GMT",
-      "summary": "美國總統川普表示，美國與伊朗最快可能於本週末簽署和平協議，重新開放霍爾木茲海峽航運，並稱已獲伊朗最高領袖同意。不過德黑蘭強調，協議仍在審議中，尚未作出最終決定。雙方本週持續互相攻擊，和談前景存在變數。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "霍爾木茲",
-        "伊朗",
         "海峽",
-        "德黑蘭"
+        "霍爾木茲",
+        "約旦",
+        "巴林",
+        "科威特",
+        "伊朗"
       ],
       "action_hits": [
+        "擊落",
+        "停火",
         "航運",
-        "空襲"
+        "空襲",
+        "無人機",
+        "報復",
+        "談判"
       ]
     },
     {
@@ -559,9 +517,9 @@
         "以色列"
       ],
       "action_hits": [
-        "談判",
         "停火",
-        "停火協議"
+        "停火協議",
+        "談判"
       ]
     },
     {
@@ -573,9 +531,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
+        "哈尔克",
         "伊朗",
-        "美军",
-        "哈尔克"
+        "美军"
       ],
       "action_hits": [
         "伤亡"
@@ -590,15 +548,15 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "bahrain",
-        "kuwait",
         "iran",
-        "tehran"
+        "tehran",
+        "kuwait",
+        "bahrain"
       ],
       "action_hits": [
+        "strike",
         "drone",
-        "ceasefire",
-        "strike"
+        "ceasefire"
       ]
     },
     {
@@ -610,13 +568,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "israel",
         "iran",
+        "israel",
         "hezbollah"
       ],
       "action_hits": [
-        "attack",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -633,27 +591,8 @@
         "hezbollah"
       ],
       "action_hits": [
-        "attack",
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US and Iran exchange strikes across Middle East for second day in a row",
-      "link": "https://www.bbc.com/news/articles/c4gyp9v0e93o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 11 Jun 2026 12:09:44 GMT",
-      "summary": "Iran says it responded to US strikes by targeting American assets in Kuwait, Jordan and Bahrain, which reported damage to its capital city overnight.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "jordan",
-        "iran",
-        "bahrain",
-        "middle east",
-        "kuwait"
-      ],
-      "action_hits": [
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -665,30 +604,13 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
+        "strike",
         "attack",
-        "killed",
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US strikes Iran in response to downing of military helicopter",
-      "link": "https://www.bbc.com/news/articles/cze9359gglyo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 10 Jun 2026 09:39:35 GMT",
-      "summary": "President Donald Trump earlier accused Iran of shooting down the US helicopter over the Strait of Hormuz and vowed to respond.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "iran",
-        "strait",
-        "hormuz"
-      ],
-      "action_hits": [
-        "strike"
+        "killed"
       ]
     },
     {
@@ -700,8 +622,8 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "israel",
         "iran",
+        "israel",
         "tehran"
       ],
       "action_hits": [
@@ -717,12 +639,46 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "israel",
+        "iran",
+        "israel"
+      ],
+      "action_hits": [
+        "strike",
+        "retaliat",
+        "ceasefire"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
+      "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 02 Jun 2026 23:40:27 GMT",
+      "summary": "The uncertainty has weighed heavily on the 20,000 seafarers trapped in the Iran war zone.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "strait",
+        "hormuz",
         "iran"
       ],
       "action_hits": [
-        "retaliat",
-        "ceasefire",
+        "blockade"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
+      "link": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 13 Jun 2026 11:15:18 GMT",
+      "summary": "The strikes come as Iran's foreign minister says a deal to end fighting with the US is close.",
+      "lang": "en",
+      "relevance_score": 65,
+      "entity_hits": [
+        "iran",
+        "israel",
+        "lebanon"
+      ],
+      "action_hits": [
         "strike"
       ]
     }
@@ -730,14 +686,14 @@
   "event_states": [
     {
       "event_id": "27ffc4d0a332",
-      "title": "伊朗稱徹底封閉霍爾木茲海峽 美軍否認",
+      "title": "美軍阿帕契直升機墜海後 美伊互襲擴及多國",
       "location": "霍尔木兹海峡",
       "first_seen_time": "2026-06-10T04:44:00+00:00",
-      "last_updated_time": "2026-06-11T04:30:00+00:00",
+      "last_updated_time": "2026-06-10T04:44:00+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
       "confidence": 100,
-      "source_count": 2,
+      "source_count": 1,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/美軍阿帕契直升機墜海後-美伊互襲擴及多國/a-77482637?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
@@ -755,20 +711,6 @@
       "source": "BBC中东",
       "link": "https://www.bbc.com/news/articles/cvgzgyjk2weo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
-    },
-    {
-      "event_id": "9047c2d6ce81",
-      "title": "揚言重擊伊朗後取消空襲 川普稱最快週末簽和平協議",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-06-12T04:20:00+00:00",
-      "last_updated_time": "2026-06-12T04:20:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 80,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/揚言重擊伊朗後取消空襲-川普稱最快週末簽和平協議/a-77516215?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
     },
     {
       "event_id": "79f9b8a79689",
@@ -827,20 +769,6 @@
       "lang": "zh"
     },
     {
-      "event_id": "13aed324e153",
-      "title": "US and Iran exchange strikes across Middle East for second day in a row",
-      "location": "伊朗",
-      "first_seen_time": "2026-06-11T12:09:44+00:00",
-      "last_updated_time": "2026-06-11T12:09:44+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/c4gyp9v0e93o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "54ac17349702",
       "title": "Israeli strikes in southern Lebanon kill 17, reports say",
       "location": "以色列",
@@ -855,24 +783,51 @@
       "lang": "en"
     },
     {
-      "event_id": "194f86b1da97",
-      "title": "US strikes Iran in response to downing of military helicopter",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-06-10T09:39:35+00:00",
-      "last_updated_time": "2026-06-10T09:39:35+00:00",
+      "event_id": "19b64c43e2f8",
+      "title": "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-06-09T05:07:44+00:00",
+      "last_updated_time": "2026-06-09T05:07:44+00:00",
       "current_status": "active_conflict",
+      "trend": "improving",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cp8lm75186lo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "55f2bfe37c4e",
+      "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-06-02T23:40:27+00:00",
+      "last_updated_time": "2026-06-02T23:40:27+00:00",
+      "current_status": "shipping_disrupted",
       "trend": "stable",
       "confidence": 70,
       "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/cze9359gglyo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "62d771f3cb4c",
+      "title": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
+      "location": "伊朗",
+      "first_seen_time": "2026-06-13T11:15:18+00:00",
+      "last_updated_time": "2026-06-13T11:15:18+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 65,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "5/15",
         "5/16",
         "5/17",
         "5/18",
@@ -901,7 +856,8 @@
         "6/10",
         "6/11",
         "6/12",
-        "6/13"
+        "6/13",
+        "6/14"
       ],
       "transits": [
         0,
@@ -991,34 +947,27 @@
         21,
         69
       ],
-      "date_label": "6月13日"
+      "date_label": "6月14日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-06-13",
+      "hormuz_last_date": "2026-06-14",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 92,
+      "vlcc_stale_days": 93,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-06-13"
+      "routes_date": "2026-06-14"
     }
   },
   "meta": {
-    "report_date": "2026.06.13",
-    "report_date_cn": "2026年06月13日",
-    "war_day": 106,
+    "report_date": "2026.06.14",
+    "report_date_cn": "2026年06月14日",
+    "war_day": 107,
     "war_start": "2026-02-28",
-    "generated_at": "2026-06-13T13:25:14.399718+08:00",
-    "generated_at_cn": "2026-06-13 13:25:14 北京时间"
+    "generated_at": "2026-06-14T13:57:54.122370+08:00",
+    "generated_at_cn": "2026-06-14 13:57:54 北京时间"
   },
   "history": [
-    {
-      "date": "2026-03-20",
-      "brent": 103.30000305175781,
-      "wti": 94.0,
-      "gold": 4699.0,
-      "usd_cny": 6.882400035858154
-    },
     {
       "date": "2026-03-21",
       "brent": 106.7699966430664,
@@ -1640,6 +1589,13 @@
       "brent": 87.33000183105469,
       "wti": 84.87999725341797,
       "gold": 4215.0,
+      "usd_cny": 6.7621002197265625
+    },
+    {
+      "date": "2026-06-14",
+      "brent": 87.33000183105469,
+      "wti": 84.87999725341797,
+      "gold": 4238.7998046875,
       "usd_cny": 6.7621002197265625
     }
   ]
