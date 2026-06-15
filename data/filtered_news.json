@@ -8,23 +8,82 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美軍",
+      "約旦",
+      "美伊",
+      "霍爾木茲",
+      "科威特",
+      "伊朗",
+      "巴林",
+      "海峽",
+      "美軍"
+    ],
+    "action_hits": [
+      "空襲",
+      "停火",
+      "航運",
+      "報復",
+      "擊落",
+      "無人機",
+      "談判"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美伊達成初步協議 將於瑞士簽署",
+    "link": "https://www.dw.com/zh/美伊達成初步協議-將於瑞士簽署/a-77551654?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 15 Jun 2026 04:52:00 GMT",
+    "summary": "美國與伊朗宣布達成初步和平協議框架，雙方同意停戰、重新開放霍爾木茲海峽，以及解除美國對伊朗港口的海上封鎖。協議預計於19日在瑞士正式簽署，不過伊朗核武問題仍留待未來60天談判解決。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "伊朗",
       "美伊",
       "海峽",
-      "霍爾木茲",
-      "約旦",
-      "巴林",
-      "科威特",
+      "霍爾木茲"
+    ],
+    "action_hits": [
+      "封鎖",
+      "談判"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美伊停战框架协议周日签署？以色列轰炸黎巴嫩",
+    "link": "https://www.dw.com/zh/美伊停战框架协议周日签署？以色列轰炸黎巴嫩/a-77542744?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sun, 14 Jun 2026 08:23:00 GMT",
+    "summary": "巴基斯坦与美国均表示周日将签署有关结束战争的协议，但伊朗对此持怀疑态度。以色列军方周日对贝鲁特发动了针对真主党​​的打击，为签署协议再增不确定性。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "真主党",
+      "美伊",
+      "贝鲁特",
+      "黎巴嫩",
+      "以色列",
       "伊朗"
     ],
     "action_hits": [
-      "擊落",
-      "停火",
+      "打击",
+      "轰炸"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "揚言重擊伊朗後取消空襲 川普稱最快週末簽和平協議",
+    "link": "https://www.dw.com/zh/揚言重擊伊朗後取消空襲-川普稱最快週末簽和平協議/a-77516215?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Fri, 12 Jun 2026 04:20:00 GMT",
+    "summary": "美國總統川普表示，美國與伊朗最快可能於本週末簽署和平協議，重新開放霍爾木茲海峽航運，並稱已獲伊朗最高領袖同意。不過德黑蘭強調，協議仍在審議中，尚未作出最終決定。雙方本週持續互相攻擊，和談前景存在變數。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "伊朗",
+      "德黑蘭",
+      "海峽",
+      "霍爾木茲"
+    ],
+    "action_hits": [
       "航運",
-      "空襲",
-      "無人機",
-      "報復",
-      "談判"
+      "空襲"
     ]
   },
   {
@@ -40,9 +99,9 @@
       "以色列"
     ],
     "action_hits": [
-      "停火",
       "停火協議",
-      "談判"
+      "談判",
+      "停火"
     ]
   },
   {
@@ -54,9 +113,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "哈尔克",
       "伊朗",
-      "美军"
+      "美军",
+      "哈尔克"
     ],
     "action_hits": [
       "伤亡"
@@ -78,8 +137,8 @@
     ],
     "action_hits": [
       "strike",
-      "drone",
-      "ceasefire"
+      "ceasefire",
+      "drone"
     ]
   },
   {
@@ -127,13 +186,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "strike",
-      "attack",
-      "killed"
+      "killed",
+      "attack"
     ]
   },
   {
@@ -167,8 +226,8 @@
     ],
     "action_hits": [
       "strike",
-      "retaliat",
-      "ceasefire"
+      "ceasefire",
+      "retaliat"
     ]
   },
   {
@@ -180,9 +239,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "iran",
       "strait",
-      "hormuz",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
       "blockade"
@@ -198,8 +257,8 @@
     "relevance_score": 65,
     "entity_hits": [
       "iran",
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "strike"
