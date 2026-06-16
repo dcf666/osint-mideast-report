@@ -14,20 +14,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "f3f99160c688",
-    "title": "US and Iran exchange strikes in Gulf in latest test of ceasefire",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-06T14:46:20+00:00",
-    "last_updated_time": "2026-06-06T14:46:20+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cvgzgyjk2weo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "3fb312810804",
     "title": "美伊達成初步協議 將於瑞士簽署",
     "location": "霍尔木兹海峡",
@@ -35,8 +21,8 @@
     "last_updated_time": "2026-06-15T04:52:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
+    "confidence": 90,
+    "source_count": 2,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/美伊達成初步協議-將於瑞士簽署/a-77551654?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
@@ -64,7 +50,7 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 3,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/揚言重擊伊朗後取消空襲-川普稱最快週末簽和平協議/a-77516215?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
@@ -84,20 +70,6 @@
     "lang": "en"
   },
   {
-    "event_id": "5d2434d82f90",
-    "title": "Israel strikes Beirut suburb days after US-brokered truce",
-    "location": "黎巴嫩·贝鲁特",
-    "first_seen_time": "2026-06-07T20:56:09+00:00",
-    "last_updated_time": "2026-06-07T20:56:09+00:00",
-    "current_status": "ceasefire",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c0qyevk8139o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "961409f7fc8d",
     "title": "伊朗與美國難以維持停火的四大原因",
     "location": "伊朗",
@@ -106,7 +78,7 @@
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 70,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中文",
     "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
@@ -124,6 +96,20 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110013",
     "lang": "zh"
+  },
+  {
+    "event_id": "e6cd02ec4d07",
+    "title": "Oil prices fall and shares jump after US-Iran deal announced",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-06-15T14:21:22+00:00",
+    "last_updated_time": "2026-06-15T14:21:22+00:00",
+    "current_status": "partially_restored",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "54ac17349702",
