@@ -8,42 +8,23 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "美伊",
       "美軍",
-      "海峽",
-      "霍爾木茲",
-      "巴林",
+      "美伊",
       "約旦",
+      "海峽",
       "伊朗",
+      "巴林",
+      "霍爾木茲",
       "科威特"
     ],
     "action_hits": [
-      "談判",
-      "停火",
       "擊落",
-      "空襲",
+      "無人機",
       "報復",
-      "航運",
-      "無人機"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美伊達成初步協議 將於瑞士簽署",
-    "link": "https://www.dw.com/zh/美伊達成初步協議-將於瑞士簽署/a-77551654?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Mon, 15 Jun 2026 04:52:00 GMT",
-    "summary": "美國與伊朗宣布達成初步和平協議框架，雙方同意停戰、重新開放霍爾木茲海峽，以及解除美國對伊朗港口的海上封鎖。協議預計於19日在瑞士正式簽署，不過伊朗核武問題仍留待未來60天談判解決。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "海峽",
-      "伊朗",
-      "美伊",
-      "霍爾木茲"
-    ],
-    "action_hits": [
+      "停火",
       "談判",
-      "封鎖"
+      "空襲",
+      "航運"
     ]
   },
   {
@@ -55,15 +36,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美伊",
       "黎巴嫩",
+      "美伊",
       "以色列",
-      "真主党",
-      "叙利亚"
+      "叙利亚",
+      "真主党"
     ],
     "action_hits": [
-      "谈判",
-      "打击"
+      "打击",
+      "谈判"
     ]
   },
   {
@@ -79,9 +60,26 @@
       "伊朗"
     ],
     "action_hits": [
-      "談判",
       "停火",
+      "談判",
       "停火協議"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美伊停火框架协议里到底写了什么？",
+    "link": "https://www.dw.com/zh/美伊停火框架协议里到底写了什么？/a-77592746?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 17 Jun 2026 15:03:00 GMT",
+    "summary": "在美国与伊朗达成框架协议三天后，彭博社（Bloomberg）和阿拉伯电视台（Al-Arabiya）公布了该备忘录的文本。有媒体解读这份文件是美国向德黑兰政权做出的重大让步。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "美伊",
+      "德黑兰",
+      "伊朗"
+    ],
+    "action_hits": [
+      "停火"
     ]
   },
   {
@@ -93,8 +91,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "哈尔克",
       "美军",
+      "哈尔克",
       "伊朗"
     ],
     "action_hits": [
@@ -110,14 +108,33 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
+      "strait",
       "iran",
-      "strait"
+      "hormuz"
     ],
     "action_hits": [
-      "missile",
       "tanker",
+      "missile",
       "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran sends tankers loaded with oil past US military blockade",
+    "link": "https://www.bbc.com/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 17 Jun 2026 13:27:47 GMT",
+    "summary": "Three Iranian tankers loaded with crude oil have passed the US blockade line in the Gulf of Oman, ship-tracking data shows.",
+    "lang": "en",
+    "relevance_score": 88,
+    "entity_hits": [
+      "iran",
+      "crude oil",
+      "oman"
+    ],
+    "action_hits": [
+      "tanker",
+      "crude",
+      "blockade"
     ]
   },
   {
@@ -129,13 +146,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "hezbollah",
       "lebanon",
-      "israel",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -147,8 +164,8 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "israel",
-      "hezbollah"
+      "hezbollah",
+      "israel"
     ],
     "action_hits": [
       "attack",
@@ -165,9 +182,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
-      "iran",
       "strait",
+      "iran",
+      "hormuz",
       "oil price"
     ],
     "action_hits": [
@@ -183,29 +200,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
+      "strait",
       "iran",
-      "strait"
+      "hormuz"
     ],
     "action_hits": [
       "blockade"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
-    "link": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 13 Jun 2026 11:15:18 GMT",
-    "summary": "The strikes come as Iran's foreign minister says a deal to end fighting with the US is close.",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "iran",
-      "lebanon",
-      "israel"
-    ],
-    "action_hits": [
-      "strike"
     ]
   },
   {
@@ -222,6 +222,23 @@
     ],
     "action_hits": [
       "attack",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
+    "link": "https://www.bbc.com/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 17 Jun 2026 10:01:42 GMT",
+    "summary": "Speaking on Tuesday, Trump said Israel's PM Benjamin Netanyahu needed \"to be more responsible with respect to Lebanon\".",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "lebanon",
+      "israel"
+    ],
+    "action_hits": [
+      "launch",
       "strike"
     ]
   }

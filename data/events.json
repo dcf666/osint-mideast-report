@@ -14,29 +14,43 @@
     "lang": "zh"
   },
   {
-    "event_id": "3fb312810804",
-    "title": "美伊達成初步協議 將於瑞士簽署",
+    "event_id": "31b5276d078b",
+    "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-15T04:52:00+00:00",
-    "last_updated_time": "2026-06-15T04:52:00+00:00",
+    "first_seen_time": "2026-05-23T23:24:03+00:00",
+    "last_updated_time": "2026-05-23T23:24:03+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 2,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美伊達成初步協議-將於瑞士簽署/a-77551654?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "7c364f18cdf8",
+    "title": "Iran sends tankers loaded with oil past US military blockade",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-17T13:27:47+00:00",
+    "last_updated_time": "2026-06-17T13:27:47+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 88,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "008484c889d4",
-    "title": "特朗普提议由叙利亚代替以色列打击真主党",
+    "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
     "location": "以色列",
     "first_seen_time": "2026-06-16T16:00:00+00:00",
-    "last_updated_time": "2026-06-16T16:00:00+00:00",
+    "last_updated_time": "2026-06-17T10:01:42+00:00",
     "current_status": "active_conflict",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 3,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110062",
     "lang": "zh"
@@ -67,6 +81,20 @@
     "source_count": 1,
     "source": "BBC中文",
     "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "c1c292b8a004",
+    "title": "美伊停火框架协议里到底写了什么？",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-06-17T15:03:00+00:00",
+    "last_updated_time": "2026-06-17T15:03:00+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美伊停火框架协议里到底写了什么？/a-77592746?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -109,20 +137,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "62d771f3cb4c",
-    "title": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
-    "location": "伊朗",
-    "first_seen_time": "2026-06-13T11:15:18+00:00",
-    "last_updated_time": "2026-06-13T11:15:18+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 65,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {

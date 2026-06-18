@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 79.16999816894531,
-      "day_change_pct": -4.81,
-      "war_change_pct": -21.0,
+      "current": 78.41000366210938,
+      "day_change_pct": -0.7,
+      "war_change_pct": -24.18,
       "dates": [
-        "05/05",
         "05/06",
         "05/07",
         "05/08",
@@ -34,10 +33,10 @@
         "06/11",
         "06/12",
         "06/15",
-        "06/16"
+        "06/16",
+        "06/17"
       ],
       "prices": [
-        109.87,
         101.27,
         100.06,
         101.29,
@@ -66,16 +65,16 @@
         90.38,
         87.33,
         83.17,
-        79.17
+        78.96,
+        78.41
       ],
-      "updated": "2026-06-17T01:57:20.618145"
+      "updated": "2026-06-18T01:57:53.421862"
     },
     "wti": {
-      "current": 75.61000061035156,
-      "day_change_pct": -6.37,
-      "war_change_pct": -19.13,
+      "current": 74.8499984741211,
+      "day_change_pct": -1.58,
+      "war_change_pct": -22.2,
       "dates": [
-        "05/05",
         "05/06",
         "05/07",
         "05/08",
@@ -104,10 +103,10 @@
         "06/11",
         "06/12",
         "06/15",
-        "06/16"
+        "06/16",
+        "06/17"
       ],
       "prices": [
-        102.27,
         95.08,
         94.81,
         95.42,
@@ -136,16 +135,16 @@
         87.71,
         84.88,
         80.75,
-        75.61
+        76.05,
+        74.85
       ],
-      "updated": "2026-06-17T01:57:20.846087"
+      "updated": "2026-06-18T01:57:53.512909"
     },
     "gold": {
-      "current": 4359.60009765625,
-      "day_change_pct": 0.73,
-      "war_change_pct": -12.7,
+      "current": 4343.0,
+      "day_change_pct": 0.28,
+      "war_change_pct": -13.16,
       "dates": [
-        "05/05",
         "05/06",
         "05/07",
         "05/08",
@@ -174,10 +173,10 @@
         "06/11",
         "06/12",
         "06/15",
-        "06/16"
+        "06/16",
+        "06/17"
       ],
       "prices": [
-        4555.8,
         4681.9,
         4699.8,
         4720.4,
@@ -206,16 +205,16 @@
         4090.3,
         4215.0,
         4328.0,
-        4359.6
+        4330.9,
+        4343.0
       ],
-      "updated": "2026-06-17T01:57:21.089861"
+      "updated": "2026-06-18T01:57:53.599094"
     },
     "usd_cny": {
-      "current": 6.755899906158447,
-      "day_change_pct": -0.02,
-      "war_change_pct": -2.87,
+      "current": 6.764599800109863,
+      "day_change_pct": 0.11,
+      "war_change_pct": -1.77,
       "dates": [
-        "05/07",
         "05/08",
         "05/11",
         "05/12",
@@ -244,10 +243,10 @@
         "06/12",
         "06/15",
         "06/16",
-        "06/17"
+        "06/17",
+        "06/18"
       ],
       "prices": [
-        6.81,
         6.8,
         6.8,
         6.79,
@@ -275,17 +274,17 @@
         6.77,
         6.78,
         6.77,
+        6.76,
         6.76,
         6.76
       ],
-      "updated": "2026-06-17T01:57:21.281970"
+      "updated": "2026-06-18T01:57:53.756461"
     },
     "nat_gas": {
-      "current": 3.253000020980835,
-      "day_change_pct": 3.37,
-      "war_change_pct": 7.61,
+      "current": 3.1710000038146973,
+      "day_change_pct": -2.1,
+      "war_change_pct": 4.55,
       "dates": [
-        "05/05",
         "05/06",
         "05/07",
         "05/08",
@@ -314,10 +313,10 @@
         "06/11",
         "06/12",
         "06/15",
-        "06/16"
+        "06/16",
+        "06/17"
       ],
       "prices": [
-        2.79,
         2.73,
         2.77,
         2.76,
@@ -346,35 +345,33 @@
         3.09,
         3.12,
         3.15,
-        3.25
+        3.24,
+        3.17
       ],
-      "updated": "2026-06-17T01:57:21.484904"
+      "updated": "2026-06-18T01:57:53.846995"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.09,
-      "change_pct": 4.33,
-      "high": 17.2,
-      "low": 16.3,
-      "volume": 614128
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600026": {
       "name": "中远海能",
-      "price": 19.22,
-      "change_pct": 7.37,
-      "high": 19.5,
-      "low": 18.0,
-      "volume": 684093
+      "price": 19.44,
+      "change_pct": -1.27,
+      "high": 20.1,
+      "low": 19.3,
+      "volume": 424177
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.52,
-      "change_pct": 3.2,
-      "high": 4.61,
-      "low": 4.36,
-      "volume": 1538244
+      "price": 4.54,
+      "change_pct": -2.58,
+      "high": 4.7,
+      "low": 4.5,
+      "volume": 947614
     },
     "600938": {
       "name": "中国海油",
@@ -383,120 +380,117 @@
     },
     "601857": {
       "name": "中国石油",
-      "price": 9.88,
-      "change_pct": -0.7,
-      "high": 9.93,
-      "low": 9.84,
-      "volume": 283314
+      "price": 9.71,
+      "change_pct": -0.61,
+      "high": 9.8,
+      "low": 9.68,
+      "volume": 273056
     },
     "600028": {
       "name": "中国石化",
-      "price": 4.89,
-      "change_pct": 0.62,
-      "high": 4.91,
-      "low": 4.86,
-      "volume": 650499
+      "price": 4.79,
+      "change_pct": -1.24,
+      "high": 4.85,
+      "low": 4.78,
+      "volume": 511787
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 22.64,
+      "change_pct": 0.18,
+      "high": 22.92,
+      "low": 22.4,
+      "volume": 39146
     },
     "600759": {
       "name": "洲际油气",
-      "price": 2.47,
-      "change_pct": 2.92,
-      "high": 2.51,
-      "low": 2.36,
-      "volume": 957948
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601808": {
       "name": "中海油服",
-      "price": 11.99,
-      "change_pct": -0.66,
-      "high": 12.04,
-      "low": 11.9,
-      "volume": 40149
+      "price": 11.96,
+      "change_pct": -0.33,
+      "high": 11.98,
+      "low": 11.86,
+      "volume": 28308
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 156.16,
-      "change_pct": 2.39,
-      "high": 158.46,
-      "low": 150.53,
-      "volume": 47145
+      "price": 171.52,
+      "change_pct": 8.8,
+      "high": 172.28,
+      "low": 159.28,
+      "volume": 89487
     },
     "600803": {
       "name": "新奥股份",
-      "price": 16.86,
-      "change_pct": -0.18,
-      "high": 17.05,
-      "low": 16.73,
-      "volume": 28716
+      "price": 16.52,
+      "change_pct": -0.42,
+      "high": 16.67,
+      "low": 16.44,
+      "volume": 19244
     },
     "600256": {
       "name": "广汇能源",
-      "price": 5.36,
-      "change_pct": -4.29,
-      "high": 5.55,
-      "low": 5.36,
-      "volume": 580175
+      "price": 5.28,
+      "change_pct": -2.22,
+      "high": 5.38,
+      "low": 5.27,
+      "volume": 346158
     },
     "601919": {
       "name": "中远海控",
-      "price": 14.12,
-      "change_pct": -0.84,
-      "high": 14.25,
-      "low": 14.1,
-      "volume": 255966
+      "price": 13.98,
+      "change_pct": -0.43,
+      "high": 14.12,
+      "low": 13.98,
+      "volume": 278432
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 42.27,
-      "change_pct": -0.49,
-      "high": 42.54,
-      "low": 41.88,
-      "volume": 41757
+      "price": 41.98,
+      "change_pct": -0.38,
+      "high": 42.1,
+      "low": 41.38,
+      "volume": 35106
     },
     "600893": {
       "name": "航发动力",
-      "price": 39.77,
-      "change_pct": 0.71,
-      "high": 39.83,
-      "low": 39.01,
-      "volume": 61431
+      "price": 40.33,
+      "change_pct": 1.28,
+      "high": 40.46,
+      "low": 39.21,
+      "volume": 91999
     },
     "600150": {
       "name": "中国船舶",
-      "price": 36.97,
-      "change_pct": 2.72,
-      "high": 37.12,
-      "low": 35.88,
-      "volume": 388416
+      "price": 36.95,
+      "change_pct": -0.54,
+      "high": 37.43,
+      "low": 36.75,
+      "volume": 291982
     },
     "600547": {
       "name": "山东黄金",
-      "price": 28.38,
-      "change_pct": 0.46,
-      "high": 28.54,
-      "low": 28.13,
-      "volume": 90828
+      "price": 27.98,
+      "change_pct": -0.99,
+      "high": 28.09,
+      "low": 27.71,
+      "volume": 229244
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 32.3,
-      "change_pct": 1.0,
-      "high": 32.42,
-      "low": 31.8,
-      "volume": 81310
+      "price": 32.35,
+      "change_pct": -0.46,
+      "high": 32.5,
+      "low": 31.35,
+      "volume": 160993
     },
     "600489": {
       "name": "中金黄金",
-      "price": 22.68,
-      "change_pct": 0.71,
-      "high": 22.85,
-      "low": 22.4,
-      "volume": 124054
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601088": {
       "name": "中国神华",
@@ -506,19 +500,23 @@
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.4
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": -0.13
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "军工": {
-      "change_pct": -1.44
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "黄金": {
-      "change_pct": 0.59
+      "change_pct": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     }
   },
   "news": [
@@ -531,42 +529,23 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "美伊",
         "美軍",
-        "海峽",
-        "霍爾木茲",
-        "巴林",
+        "美伊",
         "約旦",
+        "海峽",
         "伊朗",
+        "巴林",
+        "霍爾木茲",
         "科威特"
       ],
       "action_hits": [
-        "談判",
-        "停火",
         "擊落",
-        "空襲",
+        "無人機",
         "報復",
-        "航運",
-        "無人機"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "美伊達成初步協議 將於瑞士簽署",
-      "link": "https://www.dw.com/zh/美伊達成初步協議-將於瑞士簽署/a-77551654?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Mon, 15 Jun 2026 04:52:00 GMT",
-      "summary": "美國與伊朗宣布達成初步和平協議框架，雙方同意停戰、重新開放霍爾木茲海峽，以及解除美國對伊朗港口的海上封鎖。協議預計於19日在瑞士正式簽署，不過伊朗核武問題仍留待未來60天談判解決。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "海峽",
-        "伊朗",
-        "美伊",
-        "霍爾木茲"
-      ],
-      "action_hits": [
+        "停火",
         "談判",
-        "封鎖"
+        "空襲",
+        "航運"
       ]
     },
     {
@@ -578,15 +557,15 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "美伊",
         "黎巴嫩",
+        "美伊",
         "以色列",
-        "真主党",
-        "叙利亚"
+        "叙利亚",
+        "真主党"
       ],
       "action_hits": [
-        "谈判",
-        "打击"
+        "打击",
+        "谈判"
       ]
     },
     {
@@ -602,9 +581,26 @@
         "伊朗"
       ],
       "action_hits": [
-        "談判",
         "停火",
+        "談判",
         "停火協議"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "美伊停火框架协议里到底写了什么？",
+      "link": "https://www.dw.com/zh/美伊停火框架协议里到底写了什么？/a-77592746?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 17 Jun 2026 15:03:00 GMT",
+      "summary": "在美国与伊朗达成框架协议三天后，彭博社（Bloomberg）和阿拉伯电视台（Al-Arabiya）公布了该备忘录的文本。有媒体解读这份文件是美国向德黑兰政权做出的重大让步。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "美伊",
+        "德黑兰",
+        "伊朗"
+      ],
+      "action_hits": [
+        "停火"
       ]
     },
     {
@@ -616,8 +612,8 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "哈尔克",
         "美军",
+        "哈尔克",
         "伊朗"
       ],
       "action_hits": [
@@ -633,14 +629,33 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "hormuz",
+        "strait",
         "iran",
-        "strait"
+        "hormuz"
       ],
       "action_hits": [
-        "missile",
         "tanker",
+        "missile",
         "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iran sends tankers loaded with oil past US military blockade",
+      "link": "https://www.bbc.com/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 17 Jun 2026 13:27:47 GMT",
+      "summary": "Three Iranian tankers loaded with crude oil have passed the US blockade line in the Gulf of Oman, ship-tracking data shows.",
+      "lang": "en",
+      "relevance_score": 88,
+      "entity_hits": [
+        "iran",
+        "crude oil",
+        "oman"
+      ],
+      "action_hits": [
+        "tanker",
+        "crude",
+        "blockade"
       ]
     },
     {
@@ -652,13 +667,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
+        "hezbollah",
         "lebanon",
-        "israel",
-        "hezbollah"
+        "israel"
       ],
       "action_hits": [
-        "attack",
-        "ceasefire"
+        "ceasefire",
+        "attack"
       ]
     },
     {
@@ -670,8 +685,8 @@
       "lang": "en",
       "relevance_score": 77,
       "entity_hits": [
-        "israel",
-        "hezbollah"
+        "hezbollah",
+        "israel"
       ],
       "action_hits": [
         "attack",
@@ -688,9 +703,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "hormuz",
-        "iran",
         "strait",
+        "iran",
+        "hormuz",
         "oil price"
       ],
       "action_hits": [
@@ -706,29 +721,12 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "hormuz",
+        "strait",
         "iran",
-        "strait"
+        "hormuz"
       ],
       "action_hits": [
         "blockade"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
-      "link": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 13 Jun 2026 11:15:18 GMT",
-      "summary": "The strikes come as Iran's foreign minister says a deal to end fighting with the US is close.",
-      "lang": "en",
-      "relevance_score": 65,
-      "entity_hits": [
-        "iran",
-        "lebanon",
-        "israel"
-      ],
-      "action_hits": [
-        "strike"
       ]
     },
     {
@@ -745,6 +743,23 @@
       ],
       "action_hits": [
         "attack",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
+      "link": "https://www.bbc.com/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 17 Jun 2026 10:01:42 GMT",
+      "summary": "Speaking on Tuesday, Trump said Israel's PM Benjamin Netanyahu needed \"to be more responsible with respect to Lebanon\".",
+      "lang": "en",
+      "relevance_score": 60,
+      "entity_hits": [
+        "lebanon",
+        "israel"
+      ],
+      "action_hits": [
+        "launch",
         "strike"
       ]
     }
@@ -765,29 +780,43 @@
       "lang": "zh"
     },
     {
-      "event_id": "3fb312810804",
-      "title": "美伊達成初步協議 將於瑞士簽署",
+      "event_id": "31b5276d078b",
+      "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-06-15T04:52:00+00:00",
-      "last_updated_time": "2026-06-15T04:52:00+00:00",
+      "first_seen_time": "2026-05-23T23:24:03+00:00",
+      "last_updated_time": "2026-05-23T23:24:03+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 90,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美伊達成初步協議-將於瑞士簽署/a-77551654?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "7c364f18cdf8",
+      "title": "Iran sends tankers loaded with oil past US military blockade",
+      "location": "伊朗",
+      "first_seen_time": "2026-06-17T13:27:47+00:00",
+      "last_updated_time": "2026-06-17T13:27:47+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 88,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.com/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "008484c889d4",
-      "title": "特朗普提议由叙利亚代替以色列打击真主党",
+      "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
       "location": "以色列",
       "first_seen_time": "2026-06-16T16:00:00+00:00",
-      "last_updated_time": "2026-06-16T16:00:00+00:00",
+      "last_updated_time": "2026-06-17T10:01:42+00:00",
       "current_status": "active_conflict",
       "trend": "improving",
       "confidence": 80,
-      "source_count": 2,
+      "source_count": 3,
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001110062",
       "lang": "zh"
@@ -818,6 +847,20 @@
       "source_count": 1,
       "source": "BBC中文",
       "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "c1c292b8a004",
+      "title": "美伊停火框架协议里到底写了什么？",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-06-17T15:03:00+00:00",
+      "last_updated_time": "2026-06-17T15:03:00+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美伊停火框架协议里到底写了什么？/a-77592746?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -863,20 +906,6 @@
       "lang": "en"
     },
     {
-      "event_id": "62d771f3cb4c",
-      "title": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
-      "location": "伊朗",
-      "first_seen_time": "2026-06-13T11:15:18+00:00",
-      "last_updated_time": "2026-06-13T11:15:18+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 65,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "ee01c68aa369",
       "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
       "location": "伊朗·德黑兰",
@@ -894,7 +923,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "5/19",
         "5/20",
         "5/21",
         "5/22",
@@ -923,7 +951,8 @@
         "6/14",
         "6/15",
         "6/16",
-        "6/17"
+        "6/17",
+        "6/18"
       ],
       "transits": [
         0,
@@ -1013,34 +1042,27 @@
         21,
         69
       ],
-      "date_label": "6月17日"
+      "date_label": "6月18日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-06-17",
+      "hormuz_last_date": "2026-06-18",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 96,
+      "vlcc_stale_days": 97,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-06-17"
+      "routes_date": "2026-06-18"
     }
   },
   "meta": {
-    "report_date": "2026.06.17",
-    "report_date_cn": "2026年06月17日",
-    "war_day": 110,
+    "report_date": "2026.06.18",
+    "report_date_cn": "2026年06月18日",
+    "war_day": 111,
     "war_start": "2026-02-28",
-    "generated_at": "2026-06-17T10:00:18.330501+08:00",
-    "generated_at_cn": "2026-06-17 10:00:18 北京时间"
+    "generated_at": "2026-06-18T10:00:51.331606+08:00",
+    "generated_at_cn": "2026-06-18 10:00:51 北京时间"
   },
   "history": [
-    {
-      "date": "2026-03-24",
-      "brent": 103.81999969482422,
-      "wti": 91.4800033569336,
-      "gold": 4362.0,
-      "usd_cny": 6.8933000564575195
-    },
     {
       "date": "2026-03-25",
       "brent": 99.61000061035156,
@@ -1663,6 +1685,13 @@
       "wti": 75.61000061035156,
       "gold": 4359.60009765625,
       "usd_cny": 6.755899906158447
+    },
+    {
+      "date": "2026-06-18",
+      "brent": 78.41000366210938,
+      "wti": 74.8499984741211,
+      "gold": 4343.0,
+      "usd_cny": 6.764599800109863
     }
   ]
 }
