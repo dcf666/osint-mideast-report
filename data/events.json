@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "27ffc4d0a332",
-    "title": "美軍阿帕契直升機墜海後 美伊互襲擴及多國",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-10T04:44:00+00:00",
-    "last_updated_time": "2026-06-10T04:44:00+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 100,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美軍阿帕契直升機墜海後-美伊互襲擴及多國/a-77482637?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "31b5276d078b",
     "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
     "location": "霍尔木兹海峡",
@@ -56,20 +42,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "c1fa4580690c",
-    "title": "Hezbollah support endures in south Lebanon as ceasefire fails to stop war with Israel",
-    "location": "以色列",
-    "first_seen_time": "2026-05-13T23:22:07+00:00",
-    "last_updated_time": "2026-05-13T23:22:07+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c9d3g6deljyo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "961409f7fc8d",
     "title": "伊朗與美國難以維持停火的四大原因",
     "location": "伊朗",
@@ -81,6 +53,20 @@
     "source_count": 1,
     "source": "BBC中文",
     "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "655b3e15d03a",
+    "title": "美军对伊朗的轰炸中使用了马斯克的Grok",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-18T11:54:00+00:00",
+    "last_updated_time": "2026-06-18T11:54:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -110,20 +96,6 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110013",
     "lang": "zh"
-  },
-  {
-    "event_id": "e6cd02ec4d07",
-    "title": "Oil prices fall and shares jump after US-Iran deal announced",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-15T14:21:22+00:00",
-    "last_updated_time": "2026-06-15T14:21:22+00:00",
-    "current_status": "partially_restored",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   },
   {
     "event_id": "55f2bfe37c4e",

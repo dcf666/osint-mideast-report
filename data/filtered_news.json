@@ -1,33 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "美軍阿帕契直升機墜海後 美伊互襲擴及多國",
-    "link": "https://www.dw.com/zh/美軍阿帕契直升機墜海後-美伊互襲擴及多國/a-77482637?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 10 Jun 2026 04:44:00 GMT",
-    "summary": "美軍週二對伊朗發動空襲，以報復伊朗在霍爾木茲海峽附近擊落美國阿帕契直升機；伊朗翌日則以飛彈和無人機攻擊美軍駐巴林、約旦及科威特一帶的設施作為回應。雙方最新一輪軍事衝突不僅使停火面臨考驗，也為霍爾木茲海峽航運與美伊和平談判再添變數。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "美軍",
-      "美伊",
-      "約旦",
-      "海峽",
-      "伊朗",
-      "巴林",
-      "霍爾木茲",
-      "科威特"
-    ],
-    "action_hits": [
-      "擊落",
-      "無人機",
-      "報復",
-      "停火",
-      "談判",
-      "空襲",
-      "航運"
-    ]
-  },
-  {
     "source": "FT中文网",
     "title": "特朗普提议由叙利亚代替以色列打击真主党",
     "link": "https://www.ftchinese.com/story/001110062",
@@ -36,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "黎巴嫩",
-      "美伊",
-      "以色列",
       "叙利亚",
-      "真主党"
+      "美伊",
+      "黎巴嫩",
+      "真主党",
+      "以色列"
     ],
     "action_hits": [
-      "打击",
-      "谈判"
+      "谈判",
+      "打击"
     ]
   },
   {
@@ -56,13 +28,30 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "以色列",
-      "伊朗"
+      "伊朗",
+      "以色列"
     ],
     "action_hits": [
-      "停火",
+      "停火協議",
       "談判",
-      "停火協議"
+      "停火"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美军对伊朗的轰炸中使用了马斯克的Grok",
+    "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Thu, 18 Jun 2026 11:54:00 GMT",
+    "summary": "在Anthropic拒绝美国军方使用其工具进行全自动袭击后，五角大楼开始同其它美国人工智能的佼佼者进行合作，其中包括马斯克旗下的Grok。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "伊朗",
+      "美军",
+      "五角大楼"
+    ],
+    "action_hits": [
+      "轰炸"
     ]
   },
   {
@@ -74,9 +63,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美伊",
+      "伊朗",
       "德黑兰",
-      "伊朗"
+      "美伊"
     ],
     "action_hits": [
       "停火"
@@ -91,9 +80,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美军",
+      "伊朗",
       "哈尔克",
-      "伊朗"
+      "美军"
     ],
     "action_hits": [
       "伤亡"
@@ -108,14 +97,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "hormuz",
       "strait",
-      "iran",
-      "hormuz"
+      "iran"
     ],
     "action_hits": [
-      "tanker",
       "missile",
-      "strike"
+      "strike",
+      "tanker"
     ]
   },
   {
@@ -139,24 +128,6 @@
   },
   {
     "source": "BBC中东",
-    "title": "Hezbollah support endures in south Lebanon as ceasefire fails to stop war with Israel",
-    "link": "https://www.bbc.com/news/articles/c9d3g6deljyo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 13 May 2026 23:22:07 GMT",
-    "summary": "Despite continuing Israeli attacks and occupation, many people in the south still believe the armed group is the only force capable of defending them.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "hezbollah",
-      "lebanon",
-      "israel"
-    ],
-    "action_hits": [
-      "ceasefire",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
     "title": "Hezbollah drone strike videos show evolving tactics against Israel",
     "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
     "published": "Wed, 20 May 2026 16:36:30 GMT",
@@ -169,26 +140,8 @@
     ],
     "action_hits": [
       "attack",
-      "drone",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Oil prices fall and shares jump after US-Iran deal announced",
-    "link": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 15 Jun 2026 14:21:22 GMT",
-    "summary": "Under the agreement, the key Strait of Hormuz waterway will be reopened, US President Donald Trump said.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "strait",
-      "iran",
-      "hormuz",
-      "oil price"
-    ],
-    "action_hits": [
-      "oil price"
+      "strike",
+      "drone"
     ]
   },
   {
@@ -200,9 +153,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "hormuz",
       "strait",
-      "iran",
-      "hormuz"
+      "iran"
     ],
     "action_hits": [
       "blockade"
