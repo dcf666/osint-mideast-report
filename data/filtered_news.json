@@ -1,5 +1,26 @@
 [
   {
+    "source": "德国之声",
+    "title": "美伊達初步協議後鬆綁海上封鎖 重啟霍爾木茲海峽",
+    "link": "https://www.dw.com/zh/美伊達初步協議後鬆綁海上封鎖-重啟霍爾木茲海峽/a-77621530?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Fri, 19 Jun 2026 07:12:00 GMT",
+    "summary": "封閉了3個多月，伊朗如今重新開放霍爾木茲海峽，美方則宣布解除對伊朗的海上封鎖。此前，川普突然在法國凡爾賽宮簽署了美伊停火的諒解備忘錄；根據雙方的停戰備忘錄，接下來60天是談判期。不過，原定19日在瑞士舉行的會談遭到取消。",
+    "lang": "zh",
+    "relevance_score": 100,
+    "entity_hits": [
+      "伊朗",
+      "美伊",
+      "海峽",
+      "霍爾木茲"
+    ],
+    "action_hits": [
+      "重啟",
+      "談判",
+      "停火",
+      "封鎖"
+    ]
+  },
+  {
     "source": "FT中文网",
     "title": "特朗普提议由叙利亚代替以色列打击真主党",
     "link": "https://www.ftchinese.com/story/001110062",
@@ -8,11 +29,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "叙利亚",
       "美伊",
       "黎巴嫩",
+      "以色列",
       "真主党",
-      "以色列"
+      "叙利亚"
     ],
     "action_hits": [
       "谈判",
@@ -32,8 +53,8 @@
       "以色列"
     ],
     "action_hits": [
-      "停火協議",
       "談判",
+      "停火協議",
       "停火"
     ]
   },
@@ -55,23 +76,6 @@
     ]
   },
   {
-    "source": "德国之声",
-    "title": "美伊停火框架协议里到底写了什么？",
-    "link": "https://www.dw.com/zh/美伊停火框架协议里到底写了什么？/a-77592746?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 17 Jun 2026 15:03:00 GMT",
-    "summary": "在美国与伊朗达成框架协议三天后，彭博社（Bloomberg）和阿拉伯电视台（Al-Arabiya）公布了该备忘录的文本。有媒体解读这份文件是美国向德黑兰政权做出的重大让步。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "伊朗",
-      "德黑兰",
-      "美伊"
-    ],
-    "action_hits": [
-      "停火"
-    ]
-  },
-  {
     "source": "FT中文网",
     "title": "特朗普扬言要“全面接管”伊朗主要油气枢纽",
     "link": "https://www.ftchinese.com/story/001110013",
@@ -81,11 +85,31 @@
     "relevance_score": 70,
     "entity_hits": [
       "伊朗",
-      "哈尔克",
-      "美军"
+      "美军",
+      "哈尔克"
     ],
     "action_hits": [
       "伤亡"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US-Iran talks postponed as Israel launches deadly strikes in Lebanon",
+    "link": "https://www.bbc.com/news/articles/c8r2eme2n5do?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 19 Jun 2026 15:16:39 GMT",
+    "summary": "JD Vance has not travelled to Switzerland as the Israeli military said it was targeting Hezbollah and that four of its own soldiers had been killed.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "lebanon",
+      "hezbollah",
+      "israel",
+      "iran"
+    ],
+    "action_hits": [
+      "killed",
+      "strike",
+      "launch"
     ]
   },
   {
@@ -97,14 +121,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
+      "iran",
       "strait",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
       "missile",
-      "strike",
-      "tanker"
+      "tanker",
+      "strike"
     ]
   },
   {
@@ -117,8 +141,8 @@
     "relevance_score": 88,
     "entity_hits": [
       "iran",
-      "crude oil",
-      "oman"
+      "oman",
+      "crude oil"
     ],
     "action_hits": [
       "tanker",
@@ -128,20 +152,21 @@
   },
   {
     "source": "BBC中东",
-    "title": "Hezbollah drone strike videos show evolving tactics against Israel",
-    "link": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 20 May 2026 16:36:30 GMT",
-    "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
+    "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
+    "link": "https://www.bbc.com/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 19 Jun 2026 19:27:12 GMT",
+    "summary": "The agreement followed concerns that continued clashes would undermine the deal to end the war between the US and Iran.",
     "lang": "en",
-    "relevance_score": 77,
+    "relevance_score": 80,
     "entity_hits": [
+      "lebanon",
       "hezbollah",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
-      "attack",
-      "strike",
-      "drone"
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -153,9 +178,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
+      "iran",
       "strait",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
       "blockade"
@@ -170,8 +195,8 @@
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "iran",
-      "tehran"
+      "tehran",
+      "iran"
     ],
     "action_hits": [
       "attack",
@@ -191,8 +216,25 @@
       "israel"
     ],
     "action_hits": [
-      "launch",
-      "strike"
+      "strike",
+      "launch"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Thousands killed in US-Israeli war on Iran - but experts say true total may never be known",
+    "link": "https://www.bbc.com/news/articles/cy735xlv50ko?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 19 Jun 2026 05:33:59 GMT",
+    "summary": "Experts say internet, media and government restrictions have all hampered casualty reporting across the region.",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "israel",
+      "iran"
+    ],
+    "action_hits": [
+      "killed",
+      "casualt"
     ]
   }
 ]
