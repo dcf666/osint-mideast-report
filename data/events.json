@@ -14,6 +14,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "08660ba926a3",
+    "title": "以色列与真主党同意停火  特朗普特使赴瑞士谈判",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-20T10:11:00+00:00",
+    "last_updated_time": "2026-06-20T10:11:00+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 90,
+    "source_count": 3,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/以色列与真主党同意停火-特朗普特使赴瑞士谈判/a-77636087?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
     "event_id": "655b3e15d03a",
     "title": "US-Iran talks postponed as Israel launches deadly strikes in Lebanon",
     "location": "伊朗",
@@ -28,17 +42,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "31b5276d078b",
-    "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-05-23T23:24:03+00:00",
-    "last_updated_time": "2026-05-23T23:24:03+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
+    "event_id": "39e88d1a063d",
+    "title": "Israel and Hezbollah continue strikes despite ceasefire agreement",
+    "location": "以色列",
+    "first_seen_time": "2026-06-20T18:36:19+00:00",
+    "last_updated_time": "2026-06-20T18:36:19+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
     "confidence": 90,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.com/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -56,6 +70,20 @@
     "lang": "en"
   },
   {
+    "event_id": "3503ff862361",
+    "title": "協議剛簽談判在即海峽再度封航 美國質疑伊朗吹噓",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-06-21T00:05:05+00:00",
+    "last_updated_time": "2026-06-21T00:05:05+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/cy8dkpmn570o/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
+  },
+  {
     "event_id": "008484c889d4",
     "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
     "location": "以色列",
@@ -67,20 +95,6 @@
     "source_count": 2,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110062",
-    "lang": "zh"
-  },
-  {
-    "event_id": "961409f7fc8d",
-    "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
-    "location": "伊朗",
-    "first_seen_time": "2026-06-11T06:51:27+00:00",
-    "last_updated_time": "2026-06-19T19:27:12+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 2,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
   },
   {
@@ -98,6 +112,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "8704db78d37c",
+    "title": "US-Iran talks to begin in Switzerland as Tehran says it has closed Hormuz Strait",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-06-21T01:46:31+00:00",
+    "last_updated_time": "2026-06-21T01:46:31+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/cwyekkwm1mmo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "55f2bfe37c4e",
     "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
     "location": "霍尔木兹海峡",
@@ -109,20 +137,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "ee01c68aa369",
-    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-01T05:33:18+00:00",
-    "last_updated_time": "2026-06-01T05:33:18+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 65,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

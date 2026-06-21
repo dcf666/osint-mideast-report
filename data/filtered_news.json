@@ -8,15 +8,55 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "伊朗",
-      "美伊",
+      "霍爾木茲",
       "海峽",
-      "霍爾木茲"
+      "伊朗",
+      "美伊"
     ],
     "action_hits": [
+      "停火",
       "重啟",
       "談判",
+      "封鎖"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "以色列与真主党同意停火  特朗普特使赴瑞士谈判",
+    "link": "https://www.dw.com/zh/以色列与真主党同意停火-特朗普特使赴瑞士谈判/a-77636087?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 20 Jun 2026 10:11:00 GMT",
+    "summary": "据报道，以色列与真主党已达成新的停火协议，特朗普特使威特科夫正前往瑞士，与伊朗就可能达成的核协议举行首轮谈判。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "伊朗",
+      "真主党",
+      "以色列"
+    ],
+    "action_hits": [
       "停火",
+      "停火协议",
+      "谈判"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "協議剛簽談判在即海峽再度封航 美國質疑伊朗吹噓",
+    "link": "https://www.bbc.com/zhongwen/articles/cy8dkpmn570o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 21 Jun 2026 00:05:05 GMT",
+    "summary": "伊朗海軍以黎巴嫩仍遭以色列轟擊為由，在瑞士談判前夕再度宣佈封鎖霍爾木茲海峽。美軍反駁稱區內船舶正常航行。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "黎巴嫩",
+      "伊朗",
+      "海峽",
+      "以色列",
+      "霍爾木茲",
+      "美軍"
+    ],
+    "action_hits": [
+      "談判",
       "封鎖"
     ]
   },
@@ -29,15 +69,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美伊",
-      "黎巴嫩",
-      "以色列",
       "真主党",
-      "叙利亚"
+      "黎巴嫩",
+      "叙利亚",
+      "以色列",
+      "美伊"
     ],
     "action_hits": [
-      "谈判",
-      "打击"
+      "打击",
+      "谈判"
     ]
   },
   {
@@ -53,9 +93,9 @@
       "以色列"
     ],
     "action_hits": [
+      "停火",
       "談判",
-      "停火協議",
-      "停火"
+      "停火協議"
     ]
   },
   {
@@ -68,8 +108,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "伊朗",
-      "美军",
-      "五角大楼"
+      "五角大楼",
+      "美军"
     ],
     "action_hits": [
       "轰炸"
@@ -85,11 +125,30 @@
     "relevance_score": 70,
     "entity_hits": [
       "伊朗",
-      "美军",
-      "哈尔克"
+      "哈尔克",
+      "美军"
     ],
     "action_hits": [
       "伤亡"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel and Hezbollah continue strikes despite ceasefire agreement",
+    "link": "https://www.bbc.com/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 20 Jun 2026 18:36:19 GMT",
+    "summary": "At least 20 people have reportedly been killed by Israeli air strikes as the Israeli military said Hezbollah had fired at Israeli troops in southern Lebanon.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "israel",
+      "hezbollah",
+      "lebanon"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "strike",
+      "killed"
     ]
   },
   {
@@ -101,34 +160,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "lebanon",
-      "hezbollah",
       "israel",
-      "iran"
+      "hezbollah",
+      "iran",
+      "lebanon"
     ],
     "action_hits": [
       "killed",
       "strike",
       "launch"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
-    "link": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 23 May 2026 23:24:03 GMT",
-    "summary": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "iran",
-      "strait",
-      "hormuz"
-    ],
-    "action_hits": [
-      "missile",
-      "tanker",
-      "strike"
     ]
   },
   {
@@ -140,14 +180,14 @@
     "lang": "en",
     "relevance_score": 88,
     "entity_hits": [
+      "crude oil",
       "iran",
-      "oman",
-      "crude oil"
+      "oman"
     ],
     "action_hits": [
-      "tanker",
+      "blockade",
       "crude",
-      "blockade"
+      "tanker"
     ]
   },
   {
@@ -159,14 +199,34 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "lebanon",
-      "hezbollah",
       "israel",
-      "iran"
+      "hezbollah",
+      "iran",
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire",
       "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US-Iran talks to begin in Switzerland as Tehran says it has closed Hormuz Strait",
+    "link": "https://www.bbc.com/news/articles/cwyekkwm1mmo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 21 Jun 2026 01:46:31 GMT",
+    "summary": "The US military has disputed Tehran's claim, as Iran said it closed the Strait over deadly Israeli attacks in Lebanon.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "strait",
+      "lebanon",
+      "iran",
+      "tehran",
+      "israel",
+      "hormuz"
+    ],
+    "action_hits": [
+      "attack"
     ]
   },
   {
@@ -188,23 +248,6 @@
   },
   {
     "source": "BBC中东",
-    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
-    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 01 Jun 2026 05:33:18 GMT",
-    "summary": "Analysts told BBC Verify that Tehran's strikes were more extensive than publicly acknowledged.",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "tehran",
-      "iran"
-    ],
-    "action_hits": [
-      "attack",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
     "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
     "link": "https://www.bbc.com/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
     "published": "Wed, 17 Jun 2026 10:01:42 GMT",
@@ -212,8 +255,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "strike",
