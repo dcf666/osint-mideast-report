@@ -1,23 +1,25 @@
 [
   {
     "source": "德国之声",
-    "title": "美伊達初步協議後鬆綁海上封鎖 重啟霍爾木茲海峽",
-    "link": "https://www.dw.com/zh/美伊達初步協議後鬆綁海上封鎖-重啟霍爾木茲海峽/a-77621530?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 19 Jun 2026 07:12:00 GMT",
-    "summary": "封閉了3個多月，伊朗如今重新開放霍爾木茲海峽，美方則宣布解除對伊朗的海上封鎖。此前，川普突然在法國凡爾賽宮簽署了美伊停火的諒解備忘錄；根據雙方的停戰備忘錄，接下來60天是談判期。不過，原定19日在瑞士舉行的會談遭到取消。",
+    "title": "万斯抵达瑞士谈判 伊朗称再度封锁霍尔木兹",
+    "link": "https://www.dw.com/zh/万斯抵达瑞士谈判-伊朗称再度封锁霍尔木兹/a-77645736?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sun, 21 Jun 2026 11:38:00 GMT",
+    "summary": "美国和伊朗代表团周日（6月21日）齐聚瑞士举行和谈。谈判前夕，伊朗称鉴于以色列对黎巴嫩南部发动袭击，已再次关闭霍尔木兹海峡，但遭美方否认，称海峡通行“仍在持续”。与此同时，真主党与以色列互相指责对方违反最新停火协议。",
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "霍爾木茲",
-      "海峽",
-      "伊朗",
-      "美伊"
+      "以色列",
+      "霍尔木兹",
+      "真主党",
+      "海峡",
+      "黎巴嫩",
+      "伊朗"
     ],
     "action_hits": [
+      "封锁",
       "停火",
-      "重啟",
-      "談判",
-      "封鎖"
+      "谈判",
+      "停火协议"
     ]
   },
   {
@@ -29,14 +31,14 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "伊朗",
+      "以色列",
       "真主党",
-      "以色列"
+      "伊朗"
     ],
     "action_hits": [
       "停火",
-      "停火协议",
-      "谈判"
+      "谈判",
+      "停火协议"
     ]
   },
   {
@@ -48,16 +50,34 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "黎巴嫩",
-      "伊朗",
       "海峽",
       "以色列",
       "霍爾木茲",
-      "美軍"
+      "黎巴嫩",
+      "美軍",
+      "伊朗"
     ],
     "action_hits": [
-      "談判",
-      "封鎖"
+      "封鎖",
+      "談判"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "美国前驻日大使：特朗普被伊朗“上了一课”",
+    "link": "https://www.ftchinese.com/story/001110099",
+    "published": "Sun, 21 Jun 2026 16:00:00 GMT",
+    "summary": "拉姆•伊曼纽尔称，美国总统与伊朗达成的停火协议就像一份“误解备忘录”。与此同时，伊朗宣布再次关闭霍尔木兹海峡。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "霍尔木兹",
+      "海峡",
+      "伊朗"
+    ],
+    "action_hits": [
+      "停火",
+      "停火协议"
     ]
   },
   {
@@ -69,11 +89,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "真主党",
-      "黎巴嫩",
-      "叙利亚",
       "以色列",
-      "美伊"
+      "真主党",
+      "叙利亚",
+      "美伊",
+      "黎巴嫩"
     ],
     "action_hits": [
       "打击",
@@ -89,8 +109,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
-      "以色列"
+      "以色列",
+      "伊朗"
     ],
     "action_hits": [
       "停火",
@@ -107,12 +127,29 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "五角大楼",
-      "美军"
+      "美军",
+      "伊朗"
     ],
     "action_hits": [
       "轰炸"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美伊停火框架协议里到底写了什么？",
+    "link": "https://www.dw.com/zh/美伊停火框架协议里到底写了什么？/a-77592746?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 17 Jun 2026 15:03:00 GMT",
+    "summary": "在美国与伊朗达成框架协议三天后，彭博社（Bloomberg）和阿拉伯电视台（Al-Arabiya）公布了该备忘录的文本。有媒体解读这份文件是美国向德黑兰政权做出的重大让步。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "美伊",
+      "德黑兰",
+      "伊朗"
+    ],
+    "action_hits": [
+      "停火"
     ]
   },
   {
@@ -124,9 +161,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
+      "美军",
       "哈尔克",
-      "美军"
+      "伊朗"
     ],
     "action_hits": [
       "伤亡"
@@ -141,13 +178,13 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "lebanon",
       "israel",
-      "hezbollah",
-      "lebanon"
+      "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
       "strike",
+      "ceasefire",
       "killed"
     ]
   },
@@ -160,14 +197,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "israel",
-      "hezbollah",
+      "lebanon",
       "iran",
-      "lebanon"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
-      "killed",
       "strike",
+      "killed",
       "launch"
     ]
   },
@@ -180,14 +217,14 @@
     "lang": "en",
     "relevance_score": 88,
     "entity_hits": [
-      "crude oil",
+      "oman",
       "iran",
-      "oman"
+      "crude oil"
     ],
     "action_hits": [
-      "blockade",
       "crude",
-      "tanker"
+      "tanker",
+      "blockade"
     ]
   },
   {
@@ -199,34 +236,32 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
-      "hezbollah",
+      "lebanon",
       "iran",
-      "lebanon"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
-      "strike"
+      "strike",
+      "ceasefire"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "US-Iran talks to begin in Switzerland as Tehran says it has closed Hormuz Strait",
-    "link": "https://www.bbc.com/news/articles/cwyekkwm1mmo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 21 Jun 2026 01:46:31 GMT",
-    "summary": "The US military has disputed Tehran's claim, as Iran said it closed the Strait over deadly Israeli attacks in Lebanon.",
+    "title": "First round of direct US-Iran talks since deal expected to continue through the night",
+    "link": "https://www.bbc.com/news/articles/cwy0q41v1lzo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 21 Jun 2026 23:55:06 GMT",
+    "summary": "The US president, who is not at the talks, had earlier exchanged warnings with Iran's negotiator over clashes between Israel and Hezbollah in Lebanon.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
       "lebanon",
       "iran",
-      "tehran",
       "israel",
-      "hormuz"
+      "hezbollah"
     ],
     "action_hits": [
-      "attack"
+      "negotiat"
     ]
   },
   {
@@ -238,9 +273,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "hormuz",
       "iran",
-      "strait",
-      "hormuz"
+      "strait"
     ],
     "action_hits": [
       "blockade"
@@ -255,8 +290,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "strike",
@@ -272,8 +307,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "iran"
+      "iran",
+      "israel"
     ],
     "action_hits": [
       "killed",
