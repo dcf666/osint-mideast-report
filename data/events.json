@@ -14,29 +14,15 @@
     "lang": "zh"
   },
   {
-    "event_id": "08660ba926a3",
-    "title": "以色列与真主党同意停火  特朗普特使赴瑞士谈判",
-    "location": "伊朗",
-    "first_seen_time": "2026-06-20T10:11:00+00:00",
-    "last_updated_time": "2026-06-20T10:11:00+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 90,
-    "source_count": 3,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/以色列与真主党同意停火-特朗普特使赴瑞士谈判/a-77636087?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "655b3e15d03a",
-    "title": "First round of direct US-Iran talks since deal expected to continue through the night",
+    "title": "US-Iran talks postponed as Israel launches deadly strikes in Lebanon",
     "location": "伊朗",
     "first_seen_time": "2026-06-18T11:54:00+00:00",
-    "last_updated_time": "2026-06-21T23:55:06+00:00",
+    "last_updated_time": "2026-06-19T15:16:39+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 4,
+    "source_count": 3,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
@@ -70,20 +56,6 @@
     "lang": "en"
   },
   {
-    "event_id": "3503ff862361",
-    "title": "協議剛簽談判在即海峽再度封航 美國質疑伊朗吹噓",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-21T00:05:05+00:00",
-    "last_updated_time": "2026-06-21T00:05:05+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/cy8dkpmn570o/trad?at_medium=RSS&at_campaign=rss",
-    "lang": "zh"
-  },
-  {
     "event_id": "008484c889d4",
     "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
     "location": "以色列",
@@ -98,31 +70,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "c1c292b8a004",
-    "title": "美伊停火框架协议里到底写了什么？",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-17T15:03:00+00:00",
-    "last_updated_time": "2026-06-17T15:03:00+00:00",
+    "event_id": "961409f7fc8d",
+    "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
+    "location": "伊朗",
+    "first_seen_time": "2026-06-11T06:51:27+00:00",
+    "last_updated_time": "2026-06-19T19:27:12+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美伊停火框架协议里到底写了什么？/a-77592746?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
-    "event_id": "cd4b9f73ab94",
-    "title": "特朗普扬言要“全面接管”伊朗主要油气枢纽",
-    "location": "伊朗·哈尔克岛",
-    "first_seen_time": "2026-06-11T16:00:00+00:00",
-    "last_updated_time": "2026-06-11T16:00:00+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110013",
+    "confidence": 80,
+    "source_count": 2,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
   },
   {
@@ -137,6 +95,20 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "ee01c68aa369",
+    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-06-01T05:33:18+00:00",
+    "last_updated_time": "2026-06-01T05:33:18+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 65,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

@@ -8,58 +8,18 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
+      "海峡",
       "以色列",
+      "黎巴嫩",
       "霍尔木兹",
       "真主党",
-      "海峡",
-      "黎巴嫩",
       "伊朗"
     ],
     "action_hits": [
+      "谈判",
+      "停火协议",
       "封锁",
-      "停火",
-      "谈判",
-      "停火协议"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "以色列与真主党同意停火  特朗普特使赴瑞士谈判",
-    "link": "https://www.dw.com/zh/以色列与真主党同意停火-特朗普特使赴瑞士谈判/a-77636087?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 20 Jun 2026 10:11:00 GMT",
-    "summary": "据报道，以色列与真主党已达成新的停火协议，特朗普特使威特科夫正前往瑞士，与伊朗就可能达成的核协议举行首轮谈判。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "以色列",
-      "真主党",
-      "伊朗"
-    ],
-    "action_hits": [
-      "停火",
-      "谈判",
-      "停火协议"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "協議剛簽談判在即海峽再度封航 美國質疑伊朗吹噓",
-    "link": "https://www.bbc.com/zhongwen/articles/cy8dkpmn570o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 21 Jun 2026 00:05:05 GMT",
-    "summary": "伊朗海軍以黎巴嫩仍遭以色列轟擊為由，在瑞士談判前夕再度宣佈封鎖霍爾木茲海峽。美軍反駁稱區內船舶正常航行。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "海峽",
-      "以色列",
-      "霍爾木茲",
-      "黎巴嫩",
-      "美軍",
-      "伊朗"
-    ],
-    "action_hits": [
-      "封鎖",
-      "談判"
+      "停火"
     ]
   },
   {
@@ -71,13 +31,13 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍尔木兹",
       "海峡",
+      "霍尔木兹",
       "伊朗"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -89,15 +49,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "以色列",
-      "真主党",
       "叙利亚",
+      "以色列",
       "美伊",
-      "黎巴嫩"
+      "黎巴嫩",
+      "真主党"
     ],
     "action_hits": [
-      "打击",
-      "谈判"
+      "谈判",
+      "打击"
     ]
   },
   {
@@ -113,9 +73,9 @@
       "伊朗"
     ],
     "action_hits": [
-      "停火",
       "談判",
-      "停火協議"
+      "停火協議",
+      "停火"
     ]
   },
   {
@@ -127,46 +87,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "五角大楼",
       "美军",
+      "五角大楼",
       "伊朗"
     ],
     "action_hits": [
       "轰炸"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美伊停火框架协议里到底写了什么？",
-    "link": "https://www.dw.com/zh/美伊停火框架协议里到底写了什么？/a-77592746?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 17 Jun 2026 15:03:00 GMT",
-    "summary": "在美国与伊朗达成框架协议三天后，彭博社（Bloomberg）和阿拉伯电视台（Al-Arabiya）公布了该备忘录的文本。有媒体解读这份文件是美国向德黑兰政权做出的重大让步。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "美伊",
-      "德黑兰",
-      "伊朗"
-    ],
-    "action_hits": [
-      "停火"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "特朗普扬言要“全面接管”伊朗主要油气枢纽",
-    "link": "https://www.ftchinese.com/story/001110013",
-    "published": "Thu, 11 Jun 2026 16:00:00 GMT",
-    "summary": "分析人士警告，夺取哈尔克岛将意味着战争大幅升级，使美军面临伤亡风险。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "美军",
-      "哈尔克",
-      "伊朗"
-    ],
-    "action_hits": [
-      "伤亡"
     ]
   },
   {
@@ -178,13 +104,13 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "lebanon",
       "israel",
+      "lebanon",
       "hezbollah"
     ],
     "action_hits": [
-      "strike",
       "ceasefire",
+      "strike",
       "killed"
     ]
   },
@@ -197,9 +123,9 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "lebanon",
-      "iran",
       "israel",
+      "iran",
+      "lebanon",
       "hezbollah"
     ],
     "action_hits": [
@@ -217,13 +143,13 @@
     "lang": "en",
     "relevance_score": 88,
     "entity_hits": [
-      "oman",
       "iran",
+      "oman",
       "crude oil"
     ],
     "action_hits": [
-      "crude",
       "tanker",
+      "crude",
       "blockade"
     ]
   },
@@ -236,32 +162,14 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "lebanon",
-      "iran",
       "israel",
+      "iran",
+      "lebanon",
       "hezbollah"
     ],
     "action_hits": [
-      "strike",
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "First round of direct US-Iran talks since deal expected to continue through the night",
-    "link": "https://www.bbc.com/news/articles/cwy0q41v1lzo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 21 Jun 2026 23:55:06 GMT",
-    "summary": "The US president, who is not at the talks, had earlier exchanged warnings with Iran's negotiator over clashes between Israel and Hezbollah in Lebanon.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "lebanon",
-      "iran",
-      "israel",
-      "hezbollah"
-    ],
-    "action_hits": [
-      "negotiat"
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -274,11 +182,28 @@
     "relevance_score": 70,
     "entity_hits": [
       "hormuz",
-      "iran",
-      "strait"
+      "strait",
+      "iran"
     ],
     "action_hits": [
       "blockade"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
+    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 01 Jun 2026 05:33:18 GMT",
+    "summary": "Analysts told BBC Verify that Tehran's strikes were more extensive than publicly acknowledged.",
+    "lang": "en",
+    "relevance_score": 65,
+    "entity_hits": [
+      "iran",
+      "tehran"
+    ],
+    "action_hits": [
+      "strike",
+      "attack"
     ]
   },
   {
@@ -290,8 +215,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "strike",
@@ -307,12 +232,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
-      "killed",
-      "casualt"
+      "casualt",
+      "killed"
     ]
   }
 ]
