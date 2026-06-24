@@ -1,28 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "万斯抵达瑞士谈判 伊朗称再度封锁霍尔木兹",
-    "link": "https://www.dw.com/zh/万斯抵达瑞士谈判-伊朗称再度封锁霍尔木兹/a-77645736?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sun, 21 Jun 2026 11:38:00 GMT",
-    "summary": "美国和伊朗代表团周日（6月21日）齐聚瑞士举行和谈。谈判前夕，伊朗称鉴于以色列对黎巴嫩南部发动袭击，已再次关闭霍尔木兹海峡，但遭美方否认，称海峡通行“仍在持续”。与此同时，真主党与以色列互相指责对方违反最新停火协议。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "海峡",
-      "以色列",
-      "黎巴嫩",
-      "霍尔木兹",
-      "真主党",
-      "伊朗"
-    ],
-    "action_hits": [
-      "谈判",
-      "停火协议",
-      "封锁",
-      "停火"
-    ]
-  },
-  {
     "source": "FT中文网",
     "title": "美国前驻日大使：特朗普被伊朗“上了一课”",
     "link": "https://www.ftchinese.com/story/001110099",
@@ -31,13 +8,13 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峡",
       "霍尔木兹",
-      "伊朗"
+      "伊朗",
+      "海峡"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "停火",
+      "停火协议"
     ]
   },
   {
@@ -49,10 +26,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "叙利亚",
       "以色列",
-      "美伊",
+      "叙利亚",
       "黎巴嫩",
+      "美伊",
       "真主党"
     ],
     "action_hits": [
@@ -74,8 +51,8 @@
     ],
     "action_hits": [
       "談判",
-      "停火協議",
-      "停火"
+      "停火",
+      "停火協議"
     ]
   },
   {
@@ -88,8 +65,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "美军",
-      "五角大楼",
-      "伊朗"
+      "伊朗",
+      "五角大楼"
     ],
     "action_hits": [
       "轰炸"
@@ -98,7 +75,7 @@
   {
     "source": "BBC中东",
     "title": "Israel and Hezbollah continue strikes despite ceasefire agreement",
-    "link": "https://www.bbc.com/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
     "published": "Sat, 20 Jun 2026 18:36:19 GMT",
     "summary": "At least 20 people have reportedly been killed by Israeli air strikes as the Israeli military said Hezbollah had fired at Israeli troops in southern Lebanon.",
     "lang": "en",
@@ -109,15 +86,15 @@
       "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
       "strike",
-      "killed"
+      "killed",
+      "ceasefire"
     ]
   },
   {
     "source": "BBC中东",
     "title": "US-Iran talks postponed as Israel launches deadly strikes in Lebanon",
-    "link": "https://www.bbc.com/news/articles/c8r2eme2n5do?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/c8r2eme2n5do?at_medium=RSS&at_campaign=rss",
     "published": "Fri, 19 Jun 2026 15:16:39 GMT",
     "summary": "JD Vance has not travelled to Switzerland as the Israeli military said it was targeting Hezbollah and that four of its own soldiers had been killed.",
     "lang": "en",
@@ -129,34 +106,34 @@
       "hezbollah"
     ],
     "action_hits": [
+      "launch",
       "strike",
-      "killed",
-      "launch"
+      "killed"
     ]
   },
   {
     "source": "BBC中东",
     "title": "Iran sends tankers loaded with oil past US military blockade",
-    "link": "https://www.bbc.com/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
     "published": "Wed, 17 Jun 2026 13:27:47 GMT",
     "summary": "Three Iranian tankers loaded with crude oil have passed the US blockade line in the Gulf of Oman, ship-tracking data shows.",
     "lang": "en",
     "relevance_score": 88,
     "entity_hits": [
-      "iran",
       "oman",
-      "crude oil"
+      "crude oil",
+      "iran"
     ],
     "action_hits": [
-      "tanker",
       "crude",
+      "tanker",
       "blockade"
     ]
   },
   {
     "source": "BBC中东",
     "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
-    "link": "https://www.bbc.com/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
     "published": "Fri, 19 Jun 2026 19:27:12 GMT",
     "summary": "The agreement followed concerns that continued clashes would undermine the deal to end the war between the US and Iran.",
     "lang": "en",
@@ -168,48 +145,50 @@
       "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
-      "strike"
+      "strike",
+      "ceasefire"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
-    "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 02 Jun 2026 23:40:27 GMT",
-    "summary": "The uncertainty has weighed heavily on the 20,000 seafarers trapped in the Iran war zone.",
+    "title": "Israeli troops kill two in south Lebanon after lull in fighting, authorities say",
+    "link": "https://www.bbc.co.uk/news/articles/c36ykpw0yego?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 23 Jun 2026 16:47:45 GMT",
+    "summary": "Israel's military says the two men were Hezbollah operatives, but the Iran-backed group accuses it of a ceasefire violation.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
-      "strait",
-      "iran"
+      "israel",
+      "iran",
+      "lebanon",
+      "hezbollah"
     ],
     "action_hits": [
-      "blockade"
+      "ceasefire"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
-    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 01 Jun 2026 05:33:18 GMT",
-    "summary": "Analysts told BBC Verify that Tehran's strikes were more extensive than publicly acknowledged.",
+    "title": "At least 13 killed and dozens injured after Qatar gas explosion",
+    "link": "https://www.bbc.co.uk/news/articles/cwy05llpjpno?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 22 Jun 2026 15:15:42 GMT",
+    "summary": "The city's main liquified natural gas (LNG) processing site suffered a \"technical accident\" in the Ras Laffan industrial zone.",
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "iran",
-      "tehran"
+      "qatar"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "LNG",
+      "killed",
+      "lng",
+      "natural gas"
     ]
   },
   {
     "source": "BBC中东",
     "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
-    "link": "https://www.bbc.com/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
     "published": "Wed, 17 Jun 2026 10:01:42 GMT",
     "summary": "Speaking on Tuesday, Trump said Israel's PM Benjamin Netanyahu needed \"to be more responsible with respect to Lebanon\".",
     "lang": "en",
@@ -219,14 +198,14 @@
       "lebanon"
     ],
     "action_hits": [
-      "strike",
-      "launch"
+      "launch",
+      "strike"
     ]
   },
   {
     "source": "BBC中东",
     "title": "Thousands killed in US-Israeli war on Iran - but experts say true total may never be known",
-    "link": "https://www.bbc.com/news/articles/cy735xlv50ko?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cy735xlv50ko?at_medium=RSS&at_campaign=rss",
     "published": "Fri, 19 Jun 2026 05:33:59 GMT",
     "summary": "Experts say internet, media and government restrictions have all hampered casualty reporting across the region.",
     "lang": "en",

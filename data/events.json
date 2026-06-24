@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "fbe1b101fbbe",
-    "title": "美国前驻日大使：特朗普被伊朗“上了一课”",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-21T11:38:00+00:00",
-    "last_updated_time": "2026-06-21T16:00:00+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 100,
-    "source_count": 2,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/万斯抵达瑞士谈判-伊朗称再度封锁霍尔木兹/a-77645736?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "655b3e15d03a",
     "title": "US-Iran talks postponed as Israel launches deadly strikes in Lebanon",
     "location": "伊朗",
@@ -38,7 +24,7 @@
     "confidence": 90,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -52,8 +38,22 @@
     "confidence": 88,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "fdeca934fd5a",
+    "title": "美国前驻日大使：特朗普被伊朗“上了一课”",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-06-21T16:00:00+00:00",
+    "last_updated_time": "2026-06-21T16:00:00+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110099",
+    "lang": "zh"
   },
   {
     "event_id": "008484c889d4",
@@ -71,44 +71,30 @@
   },
   {
     "event_id": "961409f7fc8d",
-    "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
+    "title": "Israeli troops kill two in south Lebanon after lull in fighting, authorities say",
     "location": "伊朗",
     "first_seen_time": "2026-06-11T06:51:27+00:00",
-    "last_updated_time": "2026-06-19T19:27:12+00:00",
+    "last_updated_time": "2026-06-23T16:47:45+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 3,
     "source": "BBC中文",
     "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
   },
   {
-    "event_id": "55f2bfe37c4e",
-    "title": "Sailors stressed and exhausted after months trapped by Strait of Hormuz blockade",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-02T23:40:27+00:00",
-    "last_updated_time": "2026-06-02T23:40:27+00:00",
-    "current_status": "shipping_disrupted",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/cy02rz27l32o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "ee01c68aa369",
-    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-06-01T05:33:18+00:00",
-    "last_updated_time": "2026-06-01T05:33:18+00:00",
+    "event_id": "56a183be0195",
+    "title": "At least 13 killed and dozens injured after Qatar gas explosion",
+    "location": "中东地区",
+    "first_seen_time": "2026-06-22T15:15:42+00:00",
+    "last_updated_time": "2026-06-22T15:15:42+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 65,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cwy05llpjpno?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]
