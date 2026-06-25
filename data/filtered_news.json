@@ -8,33 +8,13 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍尔木兹",
       "伊朗",
+      "霍尔木兹",
       "海峡"
     ],
     "action_hits": [
       "停火",
       "停火协议"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "特朗普提议由叙利亚代替以色列打击真主党",
-    "link": "https://www.ftchinese.com/story/001110062",
-    "published": "Tue, 16 Jun 2026 16:00:00 GMT",
-    "summary": "这项异想天开的提议是特朗普迄今最公开的推动叙利亚干预黎巴嫩局势的表态，突显他对以色列在黎巴嫩狂轰滥炸、危及美伊谈判感到恼火。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "以色列",
-      "叙利亚",
-      "黎巴嫩",
-      "美伊",
-      "真主党"
-    ],
-    "action_hits": [
-      "谈判",
-      "打击"
     ]
   },
   {
@@ -46,13 +26,13 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "以色列",
-      "伊朗"
+      "伊朗",
+      "以色列"
     ],
     "action_hits": [
       "談判",
-      "停火",
-      "停火協議"
+      "停火協議",
+      "停火"
     ]
   },
   {
@@ -73,6 +53,23 @@
     ]
   },
   {
+    "source": "FT中文网",
+    "title": "“意大利在伊朗战争期间允许美国军机使用境内基地”",
+    "link": "https://www.ftchinese.com/story/001110141",
+    "published": "Wed, 24 Jun 2026 16:00:00 GMT",
+    "summary": "北约秘书长吕特透露，意大利曾允许“500架次的美军飞机”在境内基地起降，参加对伊朗轰炸行动。此言将意大利总理梅洛尼推入一场政治风暴。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "美军",
+      "伊朗",
+      "北约"
+    ],
+    "action_hits": [
+      "轰炸"
+    ]
+  },
+  {
     "source": "BBC中东",
     "title": "Israel and Hezbollah continue strikes despite ceasefire agreement",
     "link": "https://www.bbc.co.uk/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
@@ -81,14 +78,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "israel",
+      "hezbollah",
       "lebanon",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
+      "ceasefire",
       "strike",
-      "killed",
-      "ceasefire"
+      "killed"
     ]
   },
   {
@@ -100,34 +97,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "israel",
       "iran",
+      "hezbollah",
       "lebanon",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
       "launch",
       "strike",
       "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iran sends tankers loaded with oil past US military blockade",
-    "link": "https://www.bbc.co.uk/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 17 Jun 2026 13:27:47 GMT",
-    "summary": "Three Iranian tankers loaded with crude oil have passed the US blockade line in the Gulf of Oman, ship-tracking data shows.",
-    "lang": "en",
-    "relevance_score": 88,
-    "entity_hits": [
-      "oman",
-      "crude oil",
-      "iran"
-    ],
-    "action_hits": [
-      "crude",
-      "tanker",
-      "blockade"
     ]
   },
   {
@@ -139,14 +117,49 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "iran",
+      "hezbollah",
       "lebanon",
-      "hezbollah"
+      "israel"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Southern Lebanon hit by 'intense' Israeli airstrikes",
+    "link": "https://www.bbc.co.uk/news/videos/c1kyv17724eo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 19 Jun 2026 13:50:08 GMT",
+    "summary": "Lebanon says Israeli strikes kill 18 as Israel says four soldiers killed by Hezbollah",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "hezbollah",
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "strike",
-      "ceasefire"
+      "killed"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "UN says it will evacuate sailors stranded in Strait of Hormuz, as Rubio warns against tolls",
+    "link": "https://www.bbc.co.uk/news/articles/c24yr796emzo?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 23 Jun 2026 21:04:11 GMT",
+    "summary": "US Secretary of State Marco Rubio warned Iran that no country can charge fees for ships to travel through the strait.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "iran",
+      "hormuz",
+      "strait"
+    ],
+    "action_hits": [
+      "evacuat"
     ]
   },
   {
@@ -158,10 +171,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
       "iran",
+      "hezbollah",
       "lebanon",
-      "hezbollah"
+      "israel"
     ],
     "action_hits": [
       "ceasefire"
@@ -180,26 +193,9 @@
     ],
     "action_hits": [
       "LNG",
+      "natural gas",
       "killed",
-      "lng",
-      "natural gas"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
-    "link": "https://www.bbc.co.uk/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 17 Jun 2026 10:01:42 GMT",
-    "summary": "Speaking on Tuesday, Trump said Israel's PM Benjamin Netanyahu needed \"to be more responsible with respect to Lebanon\".",
-    "lang": "en",
-    "relevance_score": 60,
-    "entity_hits": [
-      "israel",
-      "lebanon"
-    ],
-    "action_hits": [
-      "launch",
-      "strike"
+      "lng"
     ]
   },
   {
@@ -211,12 +207,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "iran"
+      "iran",
+      "israel"
     ],
     "action_hits": [
-      "casualt",
-      "killed"
+      "killed",
+      "casualt"
     ]
   }
 ]
