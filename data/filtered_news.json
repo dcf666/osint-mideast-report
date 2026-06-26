@@ -8,31 +8,13 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
       "霍尔木兹",
-      "海峡"
+      "海峡",
+      "伊朗"
     ],
     "action_hits": [
       "停火",
       "停火协议"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "伊朗與美國難以維持停火的四大原因",
-    "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 11 Jun 2026 06:51:27 GMT",
-    "summary": "美國與伊朗4月初達成的停火協議，在新一波地區攻擊後嚴重動搖。特朗普與伊朗互放狠話，衝突升級。專家指出四大原因：伊朗認為停火未解決核心問題、以色列持續軍事行動、升級已成談判策略，以及美國影響力有限。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "伊朗",
-      "以色列"
-    ],
-    "action_hits": [
-      "談判",
-      "停火協議",
-      "停火"
     ]
   },
   {
@@ -44,8 +26,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美军",
       "伊朗",
+      "美军",
       "五角大楼"
     ],
     "action_hits": [
@@ -61,12 +43,31 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美军",
       "伊朗",
+      "美军",
       "北约"
     ],
     "action_hits": [
       "轰炸"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
+    "link": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 26 Jun 2026 00:28:02 GMT",
+    "summary": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "hormuz",
+      "strait",
+      "oman"
+    ],
+    "action_hits": [
+      "evacuat",
+      "attack",
+      "casualt"
     ]
   },
   {
@@ -78,14 +79,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hezbollah",
+      "israel",
       "lebanon",
-      "israel"
+      "hezbollah"
     ],
     "action_hits": [
       "ceasefire",
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -97,15 +98,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
       "hezbollah",
+      "israel",
       "lebanon",
-      "israel"
+      "iran"
     ],
     "action_hits": [
+      "killed",
       "launch",
-      "strike",
-      "killed"
+      "strike"
     ]
   },
   {
@@ -117,32 +118,14 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "iran",
       "hezbollah",
+      "israel",
       "lebanon",
-      "israel"
+      "iran"
     ],
     "action_hits": [
       "ceasefire",
       "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Southern Lebanon hit by 'intense' Israeli airstrikes",
-    "link": "https://www.bbc.co.uk/news/videos/c1kyv17724eo?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 19 Jun 2026 13:50:08 GMT",
-    "summary": "Lebanon says Israeli strikes kill 18 as Israel says four soldiers killed by Hezbollah",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "hezbollah",
-      "lebanon",
-      "israel"
-    ],
-    "action_hits": [
-      "strike",
-      "killed"
     ]
   },
   {
@@ -154,9 +137,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "hormuz",
-      "strait"
+      "strait",
+      "iran"
     ],
     "action_hits": [
       "evacuat"
@@ -171,10 +154,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "hezbollah",
+      "israel",
       "lebanon",
-      "israel"
+      "iran"
     ],
     "action_hits": [
       "ceasefire"
@@ -192,10 +175,10 @@
       "qatar"
     ],
     "action_hits": [
-      "LNG",
-      "natural gas",
       "killed",
-      "lng"
+      "natural gas",
+      "lng",
+      "LNG"
     ]
   },
   {
@@ -207,8 +190,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
       "killed",

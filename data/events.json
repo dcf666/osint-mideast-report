@@ -14,6 +14,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "66045223b4e2",
+    "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-06-26T00:28:02+00:00",
+    "last_updated_time": "2026-06-26T00:28:02+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "39e88d1a063d",
     "title": "Israel and Hezbollah continue strikes despite ceasefire agreement",
     "location": "以色列",
@@ -42,45 +56,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "961409f7fc8d",
+    "event_id": "2cfae6e797cc",
     "title": "Israeli troops kill two in south Lebanon after lull in fighting, authorities say",
     "location": "伊朗",
-    "first_seen_time": "2026-06-11T06:51:27+00:00",
+    "first_seen_time": "2026-06-19T19:27:12+00:00",
     "last_updated_time": "2026-06-23T16:47:45+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 3,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/c5yzxn14z3wo/trad?at_medium=RSS&at_campaign=rss",
-    "lang": "zh"
-  },
-  {
-    "event_id": "9ed8841fccad",
-    "title": "Southern Lebanon hit by 'intense' Israeli airstrikes",
-    "location": "以色列",
-    "first_seen_time": "2026-06-19T13:50:08+00:00",
-    "last_updated_time": "2026-06-19T13:50:08+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/videos/c1kyv17724eo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "75c812457d96",
-    "title": "UN says it will evacuate sailors stranded in Strait of Hormuz, as Rubio warns against tolls",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-23T21:04:11+00:00",
-    "last_updated_time": "2026-06-23T21:04:11+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c24yr796emzo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
