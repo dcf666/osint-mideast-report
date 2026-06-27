@@ -8,13 +8,30 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍尔木兹",
       "海峡",
-      "伊朗"
+      "伊朗",
+      "霍尔木兹"
     ],
     "action_hits": [
       "停火",
       "停火协议"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "聯合國暫停霍爾木茲海峽撤離行動　一貨船遭襲觸發安全疑慮",
+    "link": "https://www.bbc.com/zhongwen/articles/ce8kge0xw44o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 26 Jun 2026 03:59:33 GMT",
+    "summary": "據報這艘船在接近阿曼海域時遭「不明彈體」擊中，但並無人員傷亡。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "霍爾木茲",
+      "海峽",
+      "阿曼"
+    ],
+    "action_hits": [
+      "傷亡"
     ]
   },
   {
@@ -26,8 +43,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "美军",
+      "伊朗",
       "五角大楼"
     ],
     "action_hits": [
@@ -43,8 +60,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "美军",
+      "伊朗",
       "北约"
     ],
     "action_hits": [
@@ -53,9 +70,28 @@
   },
   {
     "source": "BBC中东",
+    "title": "Trump accuses Iran of ceasefire breach after Strait of Hormuz attack",
+    "link": "https://www.bbc.co.uk/news/articles/ckg54g0ry0vo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 26 Jun 2026 18:03:32 GMT",
+    "summary": "A Singapore-flagged ship was struck crossing the waterway on Thursday, prompting a large-scale evacuation to be paused.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "hormuz",
+      "strait",
+      "iran"
+    ],
+    "action_hits": [
+      "attack",
+      "evacuat",
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
     "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
     "link": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 26 Jun 2026 00:28:02 GMT",
+    "published": "Fri, 26 Jun 2026 11:27:59 GMT",
     "summary": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported.",
     "lang": "en",
     "relevance_score": 90,
@@ -65,8 +101,8 @@
       "oman"
     ],
     "action_hits": [
-      "evacuat",
       "attack",
+      "evacuat",
       "casualt"
     ]
   },
@@ -80,13 +116,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "israel",
-      "lebanon",
-      "hezbollah"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
+      "strike",
       "ceasefire",
-      "killed",
-      "strike"
+      "killed"
     ]
   },
   {
@@ -98,51 +134,33 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hezbollah",
       "israel",
+      "hezbollah",
       "lebanon",
       "iran"
     ],
     "action_hits": [
-      "killed",
       "launch",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
-    "link": "https://www.bbc.co.uk/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 19 Jun 2026 19:27:12 GMT",
-    "summary": "The agreement followed concerns that continued clashes would undermine the deal to end the war between the US and Iran.",
+    "title": "Israel and Lebanon sign framework agreement after US-brokered talks",
+    "link": "https://www.bbc.co.uk/news/articles/cg5315n1v5go?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 26 Jun 2026 22:55:28 GMT",
+    "summary": "Hezbollah is not party to Friday's agreement, and previous ceasefires between Israel and Lebanon have still seen near-daily cross-border strikes.",
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "israel",
-      "lebanon",
-      "iran"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
-      "ceasefire",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "UN says it will evacuate sailors stranded in Strait of Hormuz, as Rubio warns against tolls",
-    "link": "https://www.bbc.co.uk/news/articles/c24yr796emzo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 23 Jun 2026 21:04:11 GMT",
-    "summary": "US Secretary of State Marco Rubio warned Iran that no country can charge fees for ships to travel through the strait.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "hormuz",
-      "strait",
-      "iran"
-    ],
-    "action_hits": [
-      "evacuat"
+      "strike",
+      "ceasefire"
     ]
   },
   {
@@ -154,13 +172,31 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hezbollah",
       "israel",
+      "hezbollah",
       "lebanon",
       "iran"
     ],
     "action_hits": [
       "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US conducts strikes on Iran after attack on cargo ship",
+    "link": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 27 Jun 2026 00:34:08 GMT",
+    "summary": "US Central Command says it has struck missile and drone storage facilities and coastal radar positions.",
+    "lang": "en",
+    "relevance_score": 65,
+    "entity_hits": [
+      "iran"
+    ],
+    "action_hits": [
+      "attack",
+      "drone",
+      "strike",
+      "missile"
     ]
   },
   {
@@ -175,27 +211,10 @@
       "qatar"
     ],
     "action_hits": [
-      "killed",
+      "LNG",
       "natural gas",
       "lng",
-      "LNG"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Thousands killed in US-Israeli war on Iran - but experts say true total may never be known",
-    "link": "https://www.bbc.co.uk/news/articles/cy735xlv50ko?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 19 Jun 2026 05:33:59 GMT",
-    "summary": "Experts say internet, media and government restrictions have all hampered casualty reporting across the region.",
-    "lang": "en",
-    "relevance_score": 60,
-    "entity_hits": [
-      "israel",
-      "iran"
-    ],
-    "action_hits": [
-      "killed",
-      "casualt"
+      "killed"
     ]
   }
 ]
