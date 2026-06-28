@@ -8,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峡",
       "伊朗",
-      "霍尔木兹"
+      "霍尔木兹",
+      "海峡"
     ],
     "action_hits": [
       "停火",
@@ -43,8 +43,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美军",
       "伊朗",
+      "美军",
       "五角大楼"
     ],
     "action_hits": [
@@ -60,9 +60,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美军",
+      "北约",
       "伊朗",
-      "北约"
+      "美军"
     ],
     "action_hits": [
       "轰炸"
@@ -77,13 +77,13 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
       "strait",
+      "hormuz",
       "iran"
     ],
     "action_hits": [
-      "attack",
       "evacuat",
+      "attack",
       "ceasefire"
     ]
   },
@@ -96,13 +96,13 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
       "strait",
+      "hormuz",
       "oman"
     ],
     "action_hits": [
-      "attack",
       "evacuat",
+      "attack",
       "casualt"
     ]
   },
@@ -136,26 +136,45 @@
     "entity_hits": [
       "israel",
       "hezbollah",
-      "lebanon",
-      "iran"
+      "iran",
+      "lebanon"
     ],
     "action_hits": [
+      "strike",
       "launch",
+      "killed"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel strikes southern Lebanon as Hezbollah condemns new deal",
+    "link": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 27 Jun 2026 21:35:40 GMT",
+    "summary": "Strikes have killed at least one person, state media say a day after Lebanon and Israel signed a framework agreement.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "israel",
+      "hezbollah",
+      "lebanon"
+    ],
+    "action_hits": [
       "strike",
       "killed"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Israel and Lebanon sign framework agreement after US-brokered talks",
-    "link": "https://www.bbc.co.uk/news/articles/cg5315n1v5go?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 26 Jun 2026 22:55:28 GMT",
-    "summary": "Hezbollah is not party to Friday's agreement, and previous ceasefires between Israel and Lebanon have still seen near-daily cross-border strikes.",
+    "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
+    "link": "https://www.bbc.co.uk/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 19 Jun 2026 19:27:12 GMT",
+    "summary": "The agreement followed concerns that continued clashes would undermine the deal to end the war between the US and Iran.",
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
       "israel",
       "hezbollah",
+      "iran",
       "lebanon"
     ],
     "action_hits": [
@@ -174,29 +193,11 @@
     "entity_hits": [
       "israel",
       "hezbollah",
-      "lebanon",
-      "iran"
+      "iran",
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US conducts strikes on Iran after attack on cargo ship",
-    "link": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 27 Jun 2026 00:34:08 GMT",
-    "summary": "US Central Command says it has struck missile and drone storage facilities and coastal radar positions.",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "iran"
-    ],
-    "action_hits": [
-      "attack",
-      "drone",
-      "strike",
-      "missile"
     ]
   },
   {
@@ -211,9 +212,9 @@
       "qatar"
     ],
     "action_hits": [
-      "LNG",
-      "natural gas",
       "lng",
+      "natural gas",
+      "LNG",
       "killed"
     ]
   }
