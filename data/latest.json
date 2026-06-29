@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 71.98999786376953,
-      "day_change_pct": -4.34,
-      "war_change_pct": -36.05,
+      "current": 73.33000183105469,
+      "day_change_pct": 1.86,
+      "war_change_pct": -34.98,
       "dates": [
-        "05/14",
         "05/15",
         "05/18",
         "05/19",
@@ -34,10 +33,10 @@
         "06/23",
         "06/24",
         "06/25",
-        "06/26"
+        "06/26",
+        "06/28"
       ],
       "prices": [
-        105.72,
         109.26,
         112.1,
         111.28,
@@ -66,16 +65,16 @@
         77.08,
         73.74,
         75.26,
-        71.99
+        71.99,
+        73.33
       ],
-      "updated": "2026-06-28T01:48:58.970656"
+      "updated": "2026-06-29T01:51:23.124113"
     },
     "wti": {
-      "current": 69.2300033569336,
-      "day_change_pct": -3.74,
-      "war_change_pct": -30.52,
+      "current": 70.12000274658203,
+      "day_change_pct": 1.29,
+      "war_change_pct": -31.84,
       "dates": [
-        "05/14",
         "05/15",
         "05/18",
         "05/19",
@@ -104,10 +103,10 @@
         "06/23",
         "06/24",
         "06/25",
-        "06/26"
+        "06/26",
+        "06/28"
       ],
       "prices": [
-        101.17,
         105.42,
         108.66,
         107.77,
@@ -136,16 +135,16 @@
         73.21,
         70.34,
         71.92,
-        69.23
+        69.23,
+        70.12
       ],
-      "updated": "2026-06-28T01:48:59.062932"
+      "updated": "2026-06-29T01:51:23.203628"
     },
     "gold": {
-      "current": 4078.699951171875,
-      "day_change_pct": 1.2,
-      "war_change_pct": -9.2,
+      "current": 4078.39990234375,
+      "day_change_pct": -0.01,
+      "war_change_pct": -9.89,
       "dates": [
-        "05/14",
         "05/15",
         "05/18",
         "05/19",
@@ -174,10 +173,10 @@
         "06/23",
         "06/24",
         "06/25",
-        "06/26"
+        "06/26",
+        "06/28"
       ],
       "prices": [
-        4678.1,
         4555.8,
         4552.5,
         4506.3,
@@ -206,14 +205,15 @@
         4129.9,
         3990.3,
         4030.5,
-        4078.7
+        4078.7,
+        4078.4
       ],
-      "updated": "2026-06-28T01:48:59.153707"
+      "updated": "2026-06-29T01:51:23.286578"
     },
     "usd_cny": {
-      "current": 6.789700031280518,
-      "day_change_pct": -0.0,
-      "war_change_pct": -1.61,
+      "current": 6.802999973297119,
+      "day_change_pct": 0.19,
+      "war_change_pct": -1.57,
       "dates": [
         "05/19",
         "05/20",
@@ -244,7 +244,7 @@
         "06/24",
         "06/25",
         "06/26",
-        "06/27"
+        "06/29"
       ],
       "prices": [
         6.8,
@@ -276,16 +276,15 @@
         6.79,
         6.79,
         6.79,
-        6.79
+        6.8
       ],
-      "updated": "2026-06-28T01:48:59.251284"
+      "updated": "2026-06-29T01:51:23.384739"
     },
     "nat_gas": {
-      "current": 3.2309999465942383,
-      "day_change_pct": -3.35,
-      "war_change_pct": 4.39,
+      "current": 3.309999942779541,
+      "day_change_pct": 2.45,
+      "war_change_pct": 14.65,
       "dates": [
-        "05/14",
         "05/15",
         "05/18",
         "05/19",
@@ -314,10 +313,10 @@
         "06/23",
         "06/24",
         "06/25",
-        "06/26"
+        "06/26",
+        "06/28"
       ],
       "prices": [
-        2.89,
         2.96,
         3.02,
         3.11,
@@ -346,191 +345,234 @@
         3.15,
         3.22,
         3.34,
-        3.23
+        3.23,
+        3.31
       ],
-      "updated": "2026-06-28T01:48:59.342786"
+      "updated": "2026-06-29T01:51:23.464357"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 19.56,
-      "change_pct": -9.44,
-      "high": 21.1,
-      "low": 19.44,
-      "volume": 2348643
+      "price": 18.75,
+      "change_pct": -4.14,
+      "high": 19.49,
+      "low": 18.73,
+      "volume": 579444
     },
     "600026": {
       "name": "中远海能",
-      "price": 19.96,
-      "change_pct": -8.36,
-      "high": 20.95,
-      "low": 19.73,
-      "volume": 1073491
+      "price": 19.0,
+      "change_pct": -4.81,
+      "high": 19.66,
+      "low": 18.99,
+      "volume": 259277
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.16,
-      "change_pct": -8.57,
-      "high": 4.43,
-      "low": 4.12,
-      "volume": 3027755
+      "price": 3.99,
+      "change_pct": -4.09,
+      "high": 4.14,
+      "low": 3.99,
+      "volume": 727968
     },
     "600938": {
       "name": "中国海油",
-      "price": 27.37,
-      "change_pct": -1.3,
-      "high": 28.1,
-      "low": 26.98,
-      "volume": 637661
+      "price": 27.12,
+      "change_pct": -0.91,
+      "high": 27.7,
+      "low": 27.0,
+      "volume": 153158
     },
     "601857": {
       "name": "中国石油",
-      "price": 8.93,
-      "change_pct": 1.36,
-      "high": 9.0,
-      "low": 8.76,
-      "volume": 1971272
+      "price": 8.75,
+      "change_pct": -2.02,
+      "high": 8.99,
+      "low": 8.74,
+      "volume": 341647
     },
     "600028": {
       "name": "中国石化",
-      "price": 4.52,
-      "change_pct": -0.66,
-      "high": 4.59,
-      "low": 4.45,
-      "volume": 2706827
+      "price": 4.44,
+      "change_pct": -1.77,
+      "high": 4.52,
+      "low": 4.43,
+      "volume": 502838
     },
     "603619": {
       "name": "中曼石油",
-      "price": 18.74,
-      "change_pct": -3.95,
-      "high": 19.75,
-      "low": 18.68,
-      "volume": 195237
+      "price": 18.42,
+      "change_pct": -1.71,
+      "high": 19.17,
+      "low": 18.4,
+      "volume": 55239
     },
     "600759": {
       "name": "洲际油气",
-      "price": 2.02,
-      "change_pct": 1.0,
-      "high": 2.08,
-      "low": 1.96,
-      "volume": 1872644
+      "price": 1.93,
+      "change_pct": -4.46,
+      "high": 2.01,
+      "low": 1.92,
+      "volume": 711352
     },
     "601808": {
       "name": "中海油服",
-      "price": 10.79,
-      "change_pct": -2.71,
-      "high": 11.18,
-      "low": 10.77,
-      "volume": 150866
+      "price": 10.56,
+      "change_pct": -2.13,
+      "high": 10.82,
+      "low": 10.53,
+      "volume": 34636
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 161.53,
-      "change_pct": -1.21,
-      "high": 166.7,
-      "low": 160.03,
-      "volume": 115972
+      "price": 155.0,
+      "change_pct": -4.04,
+      "high": 165.63,
+      "low": 154.9,
+      "volume": 48057
     },
     "600803": {
       "name": "新奥股份",
-      "price": 15.9,
-      "change_pct": -0.75,
-      "high": 16.1,
-      "low": 15.72,
-      "volume": 78246
+      "price": 15.51,
+      "change_pct": -2.45,
+      "high": 16.05,
+      "low": 15.5,
+      "volume": 12636
     },
     "600256": {
       "name": "广汇能源",
-      "price": 4.72,
-      "change_pct": -2.68,
-      "high": 4.9,
-      "low": 4.67,
-      "volume": 1099199
+      "price": 4.68,
+      "change_pct": -0.85,
+      "high": 4.8,
+      "low": 4.65,
+      "volume": 280177
     },
     "601919": {
       "name": "中远海控",
-      "price": 13.39,
-      "change_pct": 0.07,
-      "high": 13.51,
-      "low": 13.25,
-      "volume": 817503
+      "price": 13.12,
+      "change_pct": -2.02,
+      "high": 13.45,
+      "low": 13.1,
+      "volume": 180884
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 40.59,
-      "change_pct": 1.63,
-      "high": 40.77,
-      "low": 38.6,
-      "volume": 257438
+      "price": 39.45,
+      "change_pct": -2.81,
+      "high": 40.4,
+      "low": 39.42,
+      "volume": 40601
     },
     "600893": {
       "name": "航发动力",
-      "price": 37.31,
-      "change_pct": -3.04,
-      "high": 38.4,
-      "low": 36.45,
-      "volume": 462335
+      "price": 36.28,
+      "change_pct": -2.76,
+      "high": 37.6,
+      "low": 36.14,
+      "volume": 72357
     },
     "600150": {
       "name": "中国船舶",
-      "price": 33.4,
-      "change_pct": -5.46,
-      "high": 35.29,
-      "low": 33.21,
-      "volume": 1220541
+      "price": 32.97,
+      "change_pct": -1.29,
+      "high": 33.53,
+      "low": 32.88,
+      "volume": 223552
     },
     "600547": {
       "name": "山东黄金",
-      "price": 23.0,
-      "change_pct": -3.89,
-      "high": 24.26,
-      "low": 22.82,
-      "volume": 598051
+      "price": 22.83,
+      "change_pct": -0.74,
+      "high": 23.33,
+      "low": 22.7,
+      "volume": 143220
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 25.93,
-      "change_pct": -2.59,
-      "high": 26.9,
-      "low": 25.0,
-      "volume": 600244
+      "price": 25.47,
+      "change_pct": -1.77,
+      "high": 26.44,
+      "low": 25.38,
+      "volume": 134276
     },
     "600489": {
       "name": "中金黄金",
-      "price": 18.3,
-      "change_pct": -3.12,
-      "high": 19.23,
-      "low": 18.05,
-      "volume": 840577
+      "price": 18.22,
+      "change_pct": -0.44,
+      "high": 18.66,
+      "low": 18.11,
+      "volume": 198226
     },
     "601088": {
       "name": "中国神华",
-      "price": 39.57,
-      "change_pct": 0.43,
-      "high": 39.75,
-      "low": 38.86,
-      "volume": 435101
+      "price": 38.96,
+      "change_pct": -1.54,
+      "high": 39.65,
+      "low": 38.85,
+      "volume": 76148
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -1.11
+      "change_pct": -1.92
     },
     "石油": {
       "change_pct": null
     },
     "天然气": {
-      "change_pct": -3.97
+      "change_pct": -0.32
     },
     "军工": {
-      "change_pct": -2.39
+      "change_pct": -2.34
     },
     "黄金": {
-      "change_pct": -3.89
+      "change_pct": 0.11
     }
   },
   "news": [
+    {
+      "source": "德国之声",
+      "title": "万斯抵达瑞士谈判 伊朗称再度封锁霍尔木兹",
+      "link": "https://www.dw.com/zh/万斯抵达瑞士谈判-伊朗称再度封锁霍尔木兹/a-77645736?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sun, 21 Jun 2026 11:38:00 GMT",
+      "summary": "美国和伊朗代表团周日（6月21日）齐聚瑞士举行和谈。谈判前夕，伊朗称鉴于以色列对黎巴嫩南部发动袭击，已再次关闭霍尔木兹海峡，但遭美方否认，称海峡通行“仍在持续”。与此同时，真主党与以色列互相指责对方违反最新停火协议。",
+      "lang": "zh",
+      "relevance_score": 100,
+      "entity_hits": [
+        "伊朗",
+        "霍尔木兹",
+        "海峡",
+        "以色列",
+        "真主党",
+        "黎巴嫩"
+      ],
+      "action_hits": [
+        "停火",
+        "停火协议",
+        "封锁",
+        "谈判"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
+      "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Mon, 29 Jun 2026 01:31:00 GMT",
+      "summary": "美国和伊朗之间再度爆发军事冲突。美方表示，此次发起行动是对伊朗袭击货轮做出的回应，而德黑兰则以攻击美国在巴林和科威特的军事基地作为报复。周日，多家媒体消息指攻势暂歇，双方6月30日将在卡达举行技术谈判。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "德黑兰",
+        "科威特",
+        "伊朗",
+        "巴林"
+      ],
+      "action_hits": [
+        "报复",
+        "谈判"
+      ]
+    },
     {
       "source": "FT中文网",
       "title": "美国前驻日大使：特朗普被伊朗“上了一课”",
@@ -550,23 +592,6 @@
       ]
     },
     {
-      "source": "BBC中文",
-      "title": "聯合國暫停霍爾木茲海峽撤離行動　一貨船遭襲觸發安全疑慮",
-      "link": "https://www.bbc.com/zhongwen/articles/ce8kge0xw44o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 26 Jun 2026 03:59:33 GMT",
-      "summary": "據報這艘船在接近阿曼海域時遭「不明彈體」擊中，但並無人員傷亡。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "霍爾木茲",
-        "海峽",
-        "阿曼"
-      ],
-      "action_hits": [
-        "傷亡"
-      ]
-    },
-    {
       "source": "德国之声",
       "title": "美军对伊朗的轰炸中使用了马斯克的Grok",
       "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -575,9 +600,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
+        "五角大楼",
         "伊朗",
-        "美军",
-        "五角大楼"
+        "美军"
       ],
       "action_hits": [
         "轰炸"
@@ -609,14 +634,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
         "hormuz",
+        "strait",
         "iran"
       ],
       "action_hits": [
         "evacuat",
-        "attack",
-        "ceasefire"
+        "ceasefire",
+        "attack"
       ]
     },
     {
@@ -628,14 +653,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
         "hormuz",
-        "oman"
+        "oman",
+        "strait"
       ],
       "action_hits": [
+        "casualt",
         "evacuat",
-        "attack",
-        "casualt"
+        "attack"
       ]
     },
     {
@@ -652,8 +677,8 @@
         "lebanon"
       ],
       "action_hits": [
-        "strike",
         "ceasefire",
+        "strike",
         "killed"
       ]
     },
@@ -668,13 +693,13 @@
       "entity_hits": [
         "israel",
         "hezbollah",
-        "iran",
-        "lebanon"
+        "lebanon",
+        "iran"
       ],
       "action_hits": [
         "strike",
-        "launch",
-        "killed"
+        "killed",
+        "launch"
       ]
     },
     {
@@ -706,12 +731,12 @@
       "entity_hits": [
         "israel",
         "hezbollah",
-        "iran",
-        "lebanon"
+        "lebanon",
+        "iran"
       ],
       "action_hits": [
-        "strike",
-        "ceasefire"
+        "ceasefire",
+        "strike"
       ]
     },
     {
@@ -725,8 +750,8 @@
       "entity_hits": [
         "israel",
         "hezbollah",
-        "iran",
-        "lebanon"
+        "lebanon",
+        "iran"
       ],
       "action_hits": [
         "ceasefire"
@@ -744,40 +769,26 @@
         "qatar"
       ],
       "action_hits": [
-        "lng",
-        "natural gas",
         "LNG",
+        "natural gas",
+        "lng",
         "killed"
       ]
     }
   ],
   "event_states": [
     {
-      "event_id": "fdeca934fd5a",
+      "event_id": "fbe1b101fbbe",
       "title": "Trump accuses Iran of ceasefire breach after Strait of Hormuz attack",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-06-21T16:00:00+00:00",
+      "first_seen_time": "2026-06-21T11:38:00+00:00",
       "last_updated_time": "2026-06-26T18:03:32+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
-      "confidence": 90,
-      "source_count": 2,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110099",
-      "lang": "zh"
-    },
-    {
-      "event_id": "870c58a3e89a",
-      "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-06-26T03:59:33+00:00",
-      "last_updated_time": "2026-06-26T11:27:59+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 90,
-      "source_count": 2,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/ce8kge0xw44o/trad?at_medium=RSS&at_campaign=rss",
+      "confidence": 100,
+      "source_count": 3,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/万斯抵达瑞士谈判-伊朗称再度封锁霍尔木兹/a-77645736?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -795,6 +806,20 @@
       "lang": "zh"
     },
     {
+      "event_id": "66045223b4e2",
+      "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-06-26T11:27:59+00:00",
+      "last_updated_time": "2026-06-26T11:27:59+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
       "event_id": "39e88d1a063d",
       "title": "Israel and Hezbollah continue strikes despite ceasefire agreement",
       "location": "以色列",
@@ -807,6 +832,20 @@
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
+    },
+    {
+      "event_id": "4fffe919c8c5",
+      "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-06-29T01:31:00+00:00",
+      "last_updated_time": "2026-06-29T01:31:00+00:00",
+      "current_status": "partially_restored",
+      "trend": "improving",
+      "confidence": 80,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
     },
     {
       "event_id": "bbff8d0971b0",
@@ -854,7 +893,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "5/30",
         "5/31",
         "6/1",
         "6/2",
@@ -883,7 +921,8 @@
         "6/25",
         "6/26",
         "6/27",
-        "6/28"
+        "6/28",
+        "6/29"
       ],
       "transits": [
         0,
@@ -973,34 +1012,27 @@
         21,
         69
       ],
-      "date_label": "6月28日"
+      "date_label": "6月29日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-06-28",
+      "hormuz_last_date": "2026-06-29",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 107,
+      "vlcc_stale_days": 108,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-06-28"
+      "routes_date": "2026-06-29"
     }
   },
   "meta": {
-    "report_date": "2026.06.28",
-    "report_date_cn": "2026年06月28日",
-    "war_day": 121,
+    "report_date": "2026.06.29",
+    "report_date_cn": "2026年06月29日",
+    "war_day": 122,
     "war_start": "2026-02-28",
-    "generated_at": "2026-06-28T09:49:49.402658+08:00",
-    "generated_at_cn": "2026-06-28 09:49:49 北京时间"
+    "generated_at": "2026-06-29T09:52:30.696717+08:00",
+    "generated_at_cn": "2026-06-29 09:52:30 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-04",
-      "brent": 109.02999877929688,
-      "wti": 111.54000091552734,
-      "gold": 4651.5,
-      "usd_cny": 6.894199848175049
-    },
     {
       "date": "2026-04-05",
       "brent": 109.02999877929688,
@@ -1623,6 +1655,13 @@
       "wti": 69.2300033569336,
       "gold": 4078.699951171875,
       "usd_cny": 6.789700031280518
+    },
+    {
+      "date": "2026-06-29",
+      "brent": 73.33000183105469,
+      "wti": 70.12000274658203,
+      "gold": 4078.39990234375,
+      "usd_cny": 6.802999973297119
     }
   ]
 }

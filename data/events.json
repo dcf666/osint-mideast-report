@@ -1,30 +1,16 @@
 [
   {
-    "event_id": "fdeca934fd5a",
+    "event_id": "fbe1b101fbbe",
     "title": "Trump accuses Iran of ceasefire breach after Strait of Hormuz attack",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-21T16:00:00+00:00",
+    "first_seen_time": "2026-06-21T11:38:00+00:00",
     "last_updated_time": "2026-06-26T18:03:32+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
-    "confidence": 90,
-    "source_count": 2,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110099",
-    "lang": "zh"
-  },
-  {
-    "event_id": "870c58a3e89a",
-    "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-26T03:59:33+00:00",
-    "last_updated_time": "2026-06-26T11:27:59+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 2,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/ce8kge0xw44o/trad?at_medium=RSS&at_campaign=rss",
+    "confidence": 100,
+    "source_count": 3,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/万斯抵达瑞士谈判-伊朗称再度封锁霍尔木兹/a-77645736?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -42,6 +28,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "66045223b4e2",
+    "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-06-26T11:27:59+00:00",
+    "last_updated_time": "2026-06-26T11:27:59+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "39e88d1a063d",
     "title": "Israel and Hezbollah continue strikes despite ceasefire agreement",
     "location": "以色列",
@@ -54,6 +54,20 @@
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "4fffe919c8c5",
+    "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-06-29T01:31:00+00:00",
+    "last_updated_time": "2026-06-29T01:31:00+00:00",
+    "current_status": "partially_restored",
+    "trend": "improving",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
   },
   {
     "event_id": "bbff8d0971b0",

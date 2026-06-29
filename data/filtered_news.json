@@ -1,5 +1,47 @@
 [
   {
+    "source": "德国之声",
+    "title": "万斯抵达瑞士谈判 伊朗称再度封锁霍尔木兹",
+    "link": "https://www.dw.com/zh/万斯抵达瑞士谈判-伊朗称再度封锁霍尔木兹/a-77645736?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sun, 21 Jun 2026 11:38:00 GMT",
+    "summary": "美国和伊朗代表团周日（6月21日）齐聚瑞士举行和谈。谈判前夕，伊朗称鉴于以色列对黎巴嫩南部发动袭击，已再次关闭霍尔木兹海峡，但遭美方否认，称海峡通行“仍在持续”。与此同时，真主党与以色列互相指责对方违反最新停火协议。",
+    "lang": "zh",
+    "relevance_score": 100,
+    "entity_hits": [
+      "伊朗",
+      "霍尔木兹",
+      "海峡",
+      "以色列",
+      "真主党",
+      "黎巴嫩"
+    ],
+    "action_hits": [
+      "停火",
+      "停火协议",
+      "封锁",
+      "谈判"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
+    "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 29 Jun 2026 01:31:00 GMT",
+    "summary": "美国和伊朗之间再度爆发军事冲突。美方表示，此次发起行动是对伊朗袭击货轮做出的回应，而德黑兰则以攻击美国在巴林和科威特的军事基地作为报复。周日，多家媒体消息指攻势暂歇，双方6月30日将在卡达举行技术谈判。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "德黑兰",
+      "科威特",
+      "伊朗",
+      "巴林"
+    ],
+    "action_hits": [
+      "报复",
+      "谈判"
+    ]
+  },
+  {
     "source": "FT中文网",
     "title": "美国前驻日大使：特朗普被伊朗“上了一课”",
     "link": "https://www.ftchinese.com/story/001110099",
@@ -18,23 +60,6 @@
     ]
   },
   {
-    "source": "BBC中文",
-    "title": "聯合國暫停霍爾木茲海峽撤離行動　一貨船遭襲觸發安全疑慮",
-    "link": "https://www.bbc.com/zhongwen/articles/ce8kge0xw44o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 26 Jun 2026 03:59:33 GMT",
-    "summary": "據報這艘船在接近阿曼海域時遭「不明彈體」擊中，但並無人員傷亡。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "霍爾木茲",
-      "海峽",
-      "阿曼"
-    ],
-    "action_hits": [
-      "傷亡"
-    ]
-  },
-  {
     "source": "德国之声",
     "title": "美军对伊朗的轰炸中使用了马斯克的Grok",
     "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -43,9 +68,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "五角大楼",
       "伊朗",
-      "美军",
-      "五角大楼"
+      "美军"
     ],
     "action_hits": [
       "轰炸"
@@ -77,14 +102,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "strait",
       "hormuz",
+      "strait",
       "iran"
     ],
     "action_hits": [
       "evacuat",
-      "attack",
-      "ceasefire"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -96,14 +121,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "strait",
       "hormuz",
-      "oman"
+      "oman",
+      "strait"
     ],
     "action_hits": [
+      "casualt",
       "evacuat",
-      "attack",
-      "casualt"
+      "attack"
     ]
   },
   {
@@ -120,8 +145,8 @@
       "lebanon"
     ],
     "action_hits": [
-      "strike",
       "ceasefire",
+      "strike",
       "killed"
     ]
   },
@@ -136,13 +161,13 @@
     "entity_hits": [
       "israel",
       "hezbollah",
-      "iran",
-      "lebanon"
+      "lebanon",
+      "iran"
     ],
     "action_hits": [
       "strike",
-      "launch",
-      "killed"
+      "killed",
+      "launch"
     ]
   },
   {
@@ -174,12 +199,12 @@
     "entity_hits": [
       "israel",
       "hezbollah",
-      "iran",
-      "lebanon"
+      "lebanon",
+      "iran"
     ],
     "action_hits": [
-      "strike",
-      "ceasefire"
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -193,8 +218,8 @@
     "entity_hits": [
       "israel",
       "hezbollah",
-      "iran",
-      "lebanon"
+      "lebanon",
+      "iran"
     ],
     "action_hits": [
       "ceasefire"
@@ -212,9 +237,9 @@
       "qatar"
     ],
     "action_hits": [
-      "lng",
-      "natural gas",
       "LNG",
+      "natural gas",
+      "lng",
       "killed"
     ]
   }
