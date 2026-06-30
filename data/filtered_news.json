@@ -1,29 +1,6 @@
 [
   {
     "source": "德国之声",
-    "title": "万斯抵达瑞士谈判 伊朗称再度封锁霍尔木兹",
-    "link": "https://www.dw.com/zh/万斯抵达瑞士谈判-伊朗称再度封锁霍尔木兹/a-77645736?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sun, 21 Jun 2026 11:38:00 GMT",
-    "summary": "美国和伊朗代表团周日（6月21日）齐聚瑞士举行和谈。谈判前夕，伊朗称鉴于以色列对黎巴嫩南部发动袭击，已再次关闭霍尔木兹海峡，但遭美方否认，称海峡通行“仍在持续”。与此同时，真主党与以色列互相指责对方违反最新停火协议。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "伊朗",
-      "霍尔木兹",
-      "海峡",
-      "以色列",
-      "真主党",
-      "黎巴嫩"
-    ],
-    "action_hits": [
-      "停火",
-      "停火协议",
-      "封锁",
-      "谈判"
-    ]
-  },
-  {
-    "source": "德国之声",
     "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
     "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Mon, 29 Jun 2026 01:31:00 GMT",
@@ -31,32 +8,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "伊朗",
       "德黑兰",
-      "科威特",
-      "伊朗",
-      "巴林"
+      "巴林",
+      "科威特"
     ],
     "action_hits": [
-      "报复",
-      "谈判"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "美国前驻日大使：特朗普被伊朗“上了一课”",
-    "link": "https://www.ftchinese.com/story/001110099",
-    "published": "Sun, 21 Jun 2026 16:00:00 GMT",
-    "summary": "拉姆•伊曼纽尔称，美国总统与伊朗达成的停火协议就像一份“误解备忘录”。与此同时，伊朗宣布再次关闭霍尔木兹海峡。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "伊朗",
-      "霍尔木兹",
-      "海峡"
-    ],
-    "action_hits": [
-      "停火",
-      "停火协议"
+      "谈判",
+      "报复"
     ]
   },
   {
@@ -68,8 +27,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "五角大楼",
       "伊朗",
+      "五角大楼",
       "美军"
     ],
     "action_hits": [
@@ -85,12 +44,33 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "北约",
       "伊朗",
+      "北约",
       "美军"
     ],
     "action_hits": [
       "轰炸"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US and Iran exchange strikes and accuse each other of violating ceasefire",
+    "link": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 28 Jun 2026 04:54:50 GMT",
+    "summary": "Iran says it has launched retaliatory attacks at US infrastructure in Kuwait and Bahrain after the US said it hit multiple targets across Iran.",
+    "lang": "en",
+    "relevance_score": 95,
+    "entity_hits": [
+      "kuwait",
+      "bahrain",
+      "iran"
+    ],
+    "action_hits": [
+      "attack",
+      "strike",
+      "ceasefire",
+      "retaliat",
+      "launch"
     ]
   },
   {
@@ -102,14 +82,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
+      "iran",
       "strait",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
-      "evacuat",
+      "attack",
       "ceasefire",
-      "attack"
+      "evacuat"
     ]
   },
   {
@@ -121,53 +101,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
       "oman",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "casualt",
-      "evacuat",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel and Hezbollah continue strikes despite ceasefire agreement",
-    "link": "https://www.bbc.co.uk/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 20 Jun 2026 18:36:19 GMT",
-    "summary": "At least 20 people have reportedly been killed by Israeli air strikes as the Israeli military said Hezbollah had fired at Israeli troops in southern Lebanon.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "israel",
-      "hezbollah",
-      "lebanon"
-    ],
-    "action_hits": [
-      "ceasefire",
-      "strike",
-      "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US-Iran talks postponed as Israel launches deadly strikes in Lebanon",
-    "link": "https://www.bbc.co.uk/news/articles/c8r2eme2n5do?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 19 Jun 2026 15:16:39 GMT",
-    "summary": "JD Vance has not travelled to Switzerland as the Israeli military said it was targeting Hezbollah and that four of its own soldiers had been killed.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "israel",
-      "hezbollah",
-      "lebanon",
-      "iran"
-    ],
-    "action_hits": [
-      "strike",
-      "killed",
-      "launch"
+      "attack",
+      "evacuat"
     ]
   },
   {
@@ -179,8 +120,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "hezbollah",
+      "israel",
       "lebanon"
     ],
     "action_hits": [
@@ -190,21 +131,38 @@
   },
   {
     "source": "BBC中东",
-    "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
-    "link": "https://www.bbc.co.uk/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 19 Jun 2026 19:27:12 GMT",
-    "summary": "The agreement followed concerns that continued clashes would undermine the deal to end the war between the US and Iran.",
+    "title": "Israel and Lebanon sign framework agreement after US-brokered talks",
+    "link": "https://www.bbc.co.uk/news/articles/cg5315n1v5go?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 26 Jun 2026 22:55:28 GMT",
+    "summary": "Hezbollah is not party to Friday's agreement, and previous ceasefires between Israel and Lebanon have still seen near-daily cross-border strikes.",
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "hezbollah",
-      "lebanon",
-      "iran"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
-      "ceasefire",
-      "strike"
+      "strike",
+      "ceasefire"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Southern Lebanon hit by 'intense' Israeli airstrikes",
+    "link": "https://www.bbc.co.uk/news/videos/c1kyv17724eo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 19 Jun 2026 13:50:08 GMT",
+    "summary": "Lebanon says Israeli strikes kill 18 as Israel says four soldiers killed by Hezbollah",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "hezbollah",
+      "israel",
+      "lebanon"
+    ],
+    "action_hits": [
+      "strike",
+      "killed"
     ]
   },
   {
@@ -216,8 +174,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
       "hezbollah",
+      "israel",
       "lebanon",
       "iran"
     ],
@@ -227,19 +185,18 @@
   },
   {
     "source": "BBC中东",
-    "title": "At least 13 killed and dozens injured after Qatar gas explosion",
-    "link": "https://www.bbc.co.uk/news/articles/cwy05llpjpno?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 22 Jun 2026 15:15:42 GMT",
-    "summary": "The city's main liquified natural gas (LNG) processing site suffered a \"technical accident\" in the Ras Laffan industrial zone.",
+    "title": "Thousands killed in US-Israeli war on Iran - but experts say true total may never be known",
+    "link": "https://www.bbc.co.uk/news/articles/cy735xlv50ko?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 19 Jun 2026 05:33:59 GMT",
+    "summary": "Experts say internet, media and government restrictions have all hampered casualty reporting across the region.",
     "lang": "en",
-    "relevance_score": 65,
+    "relevance_score": 60,
     "entity_hits": [
-      "qatar"
+      "israel",
+      "iran"
     ],
     "action_hits": [
-      "LNG",
-      "natural gas",
-      "lng",
+      "casualt",
       "killed"
     ]
   }
