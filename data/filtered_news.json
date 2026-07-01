@@ -8,31 +8,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
-      "德黑兰",
       "巴林",
+      "德黑兰",
+      "伊朗",
       "科威特"
     ],
     "action_hits": [
-      "谈判",
-      "报复"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美军对伊朗的轰炸中使用了马斯克的Grok",
-    "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 18 Jun 2026 11:54:00 GMT",
-    "summary": "在Anthropic拒绝美国军方使用其工具进行全自动袭击后，五角大楼开始同其它美国人工智能的佼佼者进行合作，其中包括马斯克旗下的Grok。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "伊朗",
-      "五角大楼",
-      "美军"
-    ],
-    "action_hits": [
-      "轰炸"
+      "报复",
+      "谈判"
     ]
   },
   {
@@ -44,8 +27,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "北约",
+      "伊朗",
       "美军"
     ],
     "action_hits": [
@@ -62,14 +45,14 @@
     "relevance_score": 95,
     "entity_hits": [
       "kuwait",
-      "bahrain",
-      "iran"
+      "iran",
+      "bahrain"
     ],
     "action_hits": [
-      "attack",
-      "strike",
-      "ceasefire",
       "retaliat",
+      "ceasefire",
+      "strike",
+      "attack",
       "launch"
     ]
   },
@@ -82,14 +65,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
+      "hormuz",
       "strait",
-      "hormuz"
+      "iran"
     ],
     "action_hits": [
-      "attack",
+      "evacuat",
       "ceasefire",
-      "evacuat"
+      "attack"
     ]
   },
   {
@@ -101,14 +84,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "oman",
+      "hormuz",
       "strait",
-      "hormuz"
+      "oman"
     ],
     "action_hits": [
+      "evacuat",
       "casualt",
-      "attack",
-      "evacuat"
+      "attack"
     ]
   },
   {
@@ -125,8 +108,8 @@
       "lebanon"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -161,8 +144,8 @@
       "lebanon"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -175,9 +158,9 @@
     "relevance_score": 70,
     "entity_hits": [
       "hezbollah",
+      "iran",
       "israel",
-      "lebanon",
-      "iran"
+      "lebanon"
     ],
     "action_hits": [
       "ceasefire"
@@ -192,12 +175,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "iran"
+      "iran",
+      "israel"
     ],
     "action_hits": [
-      "casualt",
-      "killed"
+      "killed",
+      "casualt"
     ]
   }
 ]
