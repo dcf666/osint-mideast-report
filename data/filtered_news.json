@@ -8,14 +8,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "巴林",
-      "德黑兰",
       "伊朗",
-      "科威特"
+      "巴林",
+      "科威特",
+      "德黑兰"
     ],
     "action_hits": [
-      "报复",
-      "谈判"
+      "谈判",
+      "报复"
     ]
   },
   {
@@ -27,9 +27,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "北约",
+      "美军",
       "伊朗",
-      "美军"
+      "北约"
     ],
     "action_hits": [
       "轰炸"
@@ -44,16 +44,16 @@
     "lang": "en",
     "relevance_score": 95,
     "entity_hits": [
-      "kuwait",
+      "bahrain",
       "iran",
-      "bahrain"
+      "kuwait"
     ],
     "action_hits": [
       "retaliat",
-      "ceasefire",
-      "strike",
+      "launch",
       "attack",
-      "launch"
+      "strike",
+      "ceasefire"
     ]
   },
   {
@@ -65,14 +65,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
+      "iran",
       "strait",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
-      "evacuat",
       "ceasefire",
-      "attack"
+      "attack",
+      "evacuat"
     ]
   },
   {
@@ -84,14 +84,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
       "strait",
-      "oman"
+      "oman",
+      "hormuz"
     ],
     "action_hits": [
-      "evacuat",
       "casualt",
-      "attack"
+      "attack",
+      "evacuat"
     ]
   },
   {
@@ -108,8 +108,8 @@
       "lebanon"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -144,8 +144,8 @@
       "lebanon"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -158,8 +158,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "hezbollah",
-      "iran",
       "israel",
+      "iran",
       "lebanon"
     ],
     "action_hits": [
@@ -175,12 +175,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
-      "killed",
-      "casualt"
+      "casualt",
+      "killed"
     ]
   }
 ]
