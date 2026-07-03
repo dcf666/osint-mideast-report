@@ -9,13 +9,13 @@
     "relevance_score": 80,
     "entity_hits": [
       "伊朗",
-      "巴林",
       "科威特",
-      "德黑兰"
+      "德黑兰",
+      "巴林"
     ],
     "action_hits": [
-      "谈判",
-      "报复"
+      "报复",
+      "谈判"
     ]
   },
   {
@@ -27,8 +27,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美军",
       "伊朗",
+      "美军",
       "北约"
     ],
     "action_hits": [
@@ -44,16 +44,16 @@
     "lang": "en",
     "relevance_score": 95,
     "entity_hits": [
-      "bahrain",
       "iran",
-      "kuwait"
+      "kuwait",
+      "bahrain"
     ],
     "action_hits": [
-      "retaliat",
+      "ceasefire",
       "launch",
       "attack",
-      "strike",
-      "ceasefire"
+      "retaliat",
+      "strike"
     ]
   },
   {
@@ -65,14 +65,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "hormuz",
       "iran",
-      "strait",
-      "hormuz"
+      "strait"
     ],
     "action_hits": [
+      "evacuat",
       "ceasefire",
-      "attack",
-      "evacuat"
+      "attack"
     ]
   },
   {
@@ -84,14 +84,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "hormuz",
       "strait",
-      "oman",
-      "hormuz"
+      "oman"
     ],
     "action_hits": [
+      "evacuat",
       "casualt",
-      "attack",
-      "evacuat"
+      "attack"
     ]
   },
   {
@@ -150,24 +150,6 @@
   },
   {
     "source": "BBC中东",
-    "title": "Israeli troops kill two in south Lebanon after lull in fighting, authorities say",
-    "link": "https://www.bbc.co.uk/news/articles/c36ykpw0yego?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 23 Jun 2026 16:47:45 GMT",
-    "summary": "Israel's military says the two men were Hezbollah operatives, but the Iran-backed group accuses it of a ceasefire violation.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "hezbollah",
-      "israel",
-      "iran",
-      "lebanon"
-    ],
-    "action_hits": [
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
     "title": "Thousands killed in US-Israeli war on Iran - but experts say true total may never be known",
     "link": "https://www.bbc.co.uk/news/articles/cy735xlv50ko?at_medium=RSS&at_campaign=rss",
     "published": "Fri, 19 Jun 2026 05:33:59 GMT",
@@ -175,8 +157,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "iran"
+      "iran",
+      "israel"
     ],
     "action_hits": [
       "casualt",
