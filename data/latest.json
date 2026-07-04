@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 72.30000305175781,
-      "day_change_pct": 0.7,
-      "war_change_pct": -34.14,
+      "current": 72.12999725341797,
+      "day_change_pct": 0.46,
+      "war_change_pct": -34.29,
       "dates": [
         "05/21",
         "05/22",
@@ -66,14 +66,14 @@
         72.92,
         71.57,
         71.8,
-        72.3
+        72.13
       ],
-      "updated": "2026-07-03T04:48:49.735360"
+      "updated": "2026-07-04T04:40:26.903718"
     },
     "wti": {
-      "current": 69.05999755859375,
-      "day_change_pct": 0.54,
-      "war_change_pct": -38.56,
+      "current": 68.77999877929688,
+      "day_change_pct": 0.13,
+      "war_change_pct": -38.81,
       "dates": [
         "05/21",
         "05/22",
@@ -136,14 +136,14 @@
         69.5,
         68.58,
         68.69,
-        69.06
+        68.78
       ],
-      "updated": "2026-07-03T04:48:49.823954"
+      "updated": "2026-07-04T04:40:26.994157"
     },
     "gold": {
-      "current": 4188.5,
-      "day_change_pct": 1.84,
-      "war_change_pct": -10.06,
+      "current": 4187.2998046875,
+      "day_change_pct": 1.81,
+      "war_change_pct": -10.08,
       "dates": [
         "05/21",
         "05/22",
@@ -206,16 +206,15 @@
         4022.9,
         4068.3,
         4112.7,
-        4188.5
+        4187.3
       ],
-      "updated": "2026-07-03T04:48:49.913865"
+      "updated": "2026-07-04T04:40:27.083008"
     },
     "usd_cny": {
-      "current": 6.780300140380859,
-      "day_change_pct": -0.2,
-      "war_change_pct": -1.52,
+      "current": 6.770199775695801,
+      "day_change_pct": -0.27,
+      "war_change_pct": -1.67,
       "dates": [
-        "05/25",
         "05/26",
         "05/27",
         "05/28",
@@ -244,10 +243,10 @@
         "06/30",
         "07/01",
         "07/02",
-        "07/03"
+        "07/03",
+        "07/04"
       ],
       "prices": [
-        6.79,
         6.79,
         6.79,
         6.78,
@@ -276,14 +275,15 @@
         6.79,
         6.79,
         6.79,
-        6.78
+        6.79,
+        6.77
       ],
-      "updated": "2026-07-03T04:48:50.067857"
+      "updated": "2026-07-04T04:40:27.170380"
     },
     "nat_gas": {
-      "current": 3.2279999256134033,
-      "day_change_pct": 1.0,
-      "war_change_pct": 14.83,
+      "current": 3.244999885559082,
+      "day_change_pct": 1.53,
+      "war_change_pct": 15.44,
       "dates": [
         "05/21",
         "05/22",
@@ -346,32 +346,35 @@
         3.28,
         3.22,
         3.2,
-        3.23
+        3.24
       ],
-      "updated": "2026-07-03T04:48:50.156273"
+      "updated": "2026-07-04T04:40:27.255400"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.3,
-      "change_pct": 4.66,
+      "price": 17.0,
+      "change_pct": 2.84,
       "high": 18.17,
-      "low": 17.12,
-      "volume": 1061482
+      "low": 16.88,
+      "volume": 1516942
     },
     "600026": {
       "name": "中远海能",
-      "price": 17.57,
-      "change_pct": 6.48,
+      "price": 17.37,
+      "change_pct": 5.27,
       "high": 17.81,
       "low": 17.1,
-      "volume": 660182
+      "volume": 907386
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 3.69,
+      "change_pct": 0.27,
+      "high": 3.95,
+      "low": 3.66,
+      "volume": 2401899
     },
     "600938": {
       "name": "中国海油",
@@ -483,25 +486,6 @@
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
-      "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Mon, 29 Jun 2026 01:31:00 GMT",
-      "summary": "美国和伊朗之间再度爆发军事冲突。美方表示，此次发起行动是对伊朗袭击货轮做出的回应，而德黑兰则以攻击美国在巴林和科威特的军事基地作为报复。周日，多家媒体消息指攻势暂歇，双方6月30日将在卡达举行技术谈判。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "伊朗",
-        "科威特",
-        "德黑兰",
-        "巴林"
-      ],
-      "action_hits": [
-        "报复",
-        "谈判"
-      ]
-    },
-    {
       "source": "FT中文网",
       "title": "“意大利在伊朗战争期间允许美国军机使用境内基地”",
       "link": "https://www.ftchinese.com/story/001110141",
@@ -510,9 +494,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "伊朗",
         "美军",
-        "北约"
+        "北约",
+        "伊朗"
       ],
       "action_hits": [
         "轰炸"
@@ -527,16 +511,16 @@
       "lang": "en",
       "relevance_score": 95,
       "entity_hits": [
-        "iran",
+        "bahrain",
         "kuwait",
-        "bahrain"
+        "iran"
       ],
       "action_hits": [
-        "ceasefire",
-        "launch",
-        "attack",
+        "strike",
         "retaliat",
-        "strike"
+        "attack",
+        "launch",
+        "ceasefire"
       ]
     },
     {
@@ -548,14 +532,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "hormuz",
         "iran",
-        "strait"
+        "strait",
+        "hormuz"
       ],
       "action_hits": [
         "evacuat",
-        "ceasefire",
-        "attack"
+        "attack",
+        "ceasefire"
       ]
     },
     {
@@ -567,9 +551,9 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "hormuz",
+        "oman",
         "strait",
-        "oman"
+        "hormuz"
       ],
       "action_hits": [
         "evacuat",
@@ -586,13 +570,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hezbollah",
         "israel",
-        "lebanon"
+        "lebanon",
+        "hezbollah"
       ],
       "action_hits": [
-        "strike",
-        "killed"
+        "killed",
+        "strike"
       ]
     },
     {
@@ -604,13 +588,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hezbollah",
         "israel",
-        "lebanon"
+        "lebanon",
+        "hezbollah"
       ],
       "action_hits": [
-        "strike",
-        "ceasefire"
+        "ceasefire",
+        "strike"
       ]
     },
     {
@@ -622,13 +606,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hezbollah",
         "israel",
-        "lebanon"
+        "lebanon",
+        "hezbollah"
       ],
       "action_hits": [
-        "strike",
-        "killed"
+        "killed",
+        "strike"
       ]
     },
     {
@@ -640,8 +624,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "iran",
-        "israel"
+        "israel",
+        "iran"
       ],
       "action_hits": [
         "casualt",
@@ -693,20 +677,6 @@
       "lang": "en"
     },
     {
-      "event_id": "4fffe919c8c5",
-      "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-06-29T01:31:00+00:00",
-      "last_updated_time": "2026-06-29T01:31:00+00:00",
-      "current_status": "partially_restored",
-      "trend": "improving",
-      "confidence": 80,
-      "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
       "event_id": "bbff8d0971b0",
       "title": "Israel strikes southern Lebanon as Hezbollah condemns new deal",
       "location": "以色列",
@@ -752,7 +722,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/4",
         "6/5",
         "6/6",
         "6/7",
@@ -781,7 +750,8 @@
         "6/30",
         "7/1",
         "7/2",
-        "7/3"
+        "7/3",
+        "7/4"
       ],
       "transits": [
         0,
@@ -871,34 +841,27 @@
         21,
         69
       ],
-      "date_label": "7月3日"
+      "date_label": "7月4日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-03",
+      "hormuz_last_date": "2026-07-04",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 112,
+      "vlcc_stale_days": 113,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-03"
+      "routes_date": "2026-07-04"
     }
   },
   "meta": {
-    "report_date": "2026.07.03",
-    "report_date_cn": "2026年07月03日",
-    "war_day": 126,
+    "report_date": "2026.07.04",
+    "report_date_cn": "2026年07月04日",
+    "war_day": 127,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-03T12:49:22.930523+08:00",
-    "generated_at_cn": "2026-07-03 12:49:22 北京时间"
+    "generated_at": "2026-07-04T12:40:54.926625+08:00",
+    "generated_at_cn": "2026-07-04 12:40:54 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-09",
-      "brent": 96.69999694824219,
-      "wti": 97.08999633789062,
-      "gold": 4736.89990234375,
-      "usd_cny": 6.83459997177124
-    },
     {
       "date": "2026-04-09",
       "brent": 98.04000091552734,
@@ -1521,6 +1484,13 @@
       "wti": 69.05999755859375,
       "gold": 4188.5,
       "usd_cny": 6.780300140380859
+    },
+    {
+      "date": "2026-07-04",
+      "brent": 72.12999725341797,
+      "wti": 68.77999877929688,
+      "gold": 4187.2998046875,
+      "usd_cny": 6.770199775695801
     }
   ]
 }

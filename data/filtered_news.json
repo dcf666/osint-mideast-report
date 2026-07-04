@@ -1,24 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
-    "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Mon, 29 Jun 2026 01:31:00 GMT",
-    "summary": "美国和伊朗之间再度爆发军事冲突。美方表示，此次发起行动是对伊朗袭击货轮做出的回应，而德黑兰则以攻击美国在巴林和科威特的军事基地作为报复。周日，多家媒体消息指攻势暂歇，双方6月30日将在卡达举行技术谈判。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "伊朗",
-      "科威特",
-      "德黑兰",
-      "巴林"
-    ],
-    "action_hits": [
-      "报复",
-      "谈判"
-    ]
-  },
-  {
     "source": "FT中文网",
     "title": "“意大利在伊朗战争期间允许美国军机使用境内基地”",
     "link": "https://www.ftchinese.com/story/001110141",
@@ -27,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "美军",
-      "北约"
+      "北约",
+      "伊朗"
     ],
     "action_hits": [
       "轰炸"
@@ -44,16 +25,16 @@
     "lang": "en",
     "relevance_score": 95,
     "entity_hits": [
-      "iran",
+      "bahrain",
       "kuwait",
-      "bahrain"
+      "iran"
     ],
     "action_hits": [
-      "ceasefire",
-      "launch",
-      "attack",
+      "strike",
       "retaliat",
-      "strike"
+      "attack",
+      "launch",
+      "ceasefire"
     ]
   },
   {
@@ -65,14 +46,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
       "iran",
-      "strait"
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "evacuat",
-      "ceasefire",
-      "attack"
+      "attack",
+      "ceasefire"
     ]
   },
   {
@@ -84,9 +65,9 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
+      "oman",
       "strait",
-      "oman"
+      "hormuz"
     ],
     "action_hits": [
       "evacuat",
@@ -103,13 +84,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "israel",
-      "lebanon"
+      "lebanon",
+      "hezbollah"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -121,13 +102,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "israel",
-      "lebanon"
+      "lebanon",
+      "hezbollah"
     ],
     "action_hits": [
-      "strike",
-      "ceasefire"
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -139,13 +120,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "israel",
-      "lebanon"
+      "lebanon",
+      "hezbollah"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -157,8 +138,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
       "casualt",
