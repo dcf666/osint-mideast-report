@@ -68,7 +68,7 @@
         71.8,
         72.13
       ],
-      "updated": "2026-07-04T04:40:26.903718"
+      "updated": "2026-07-05T05:02:06.147297"
     },
     "wti": {
       "current": 68.77999877929688,
@@ -138,7 +138,7 @@
         68.69,
         68.78
       ],
-      "updated": "2026-07-04T04:40:26.994157"
+      "updated": "2026-07-05T05:02:06.243324"
     },
     "gold": {
       "current": 4187.2998046875,
@@ -208,7 +208,7 @@
         4112.7,
         4187.3
       ],
-      "updated": "2026-07-04T04:40:27.083008"
+      "updated": "2026-07-05T05:02:06.338263"
     },
     "usd_cny": {
       "current": 6.770199775695801,
@@ -244,7 +244,7 @@
         "07/01",
         "07/02",
         "07/03",
-        "07/04"
+        "07/05"
       ],
       "prices": [
         6.79,
@@ -278,7 +278,7 @@
         6.79,
         6.77
       ],
-      "updated": "2026-07-04T04:40:27.170380"
+      "updated": "2026-07-05T05:02:06.439410"
     },
     "nat_gas": {
       "current": 3.244999885559082,
@@ -348,33 +348,24 @@
         3.2,
         3.24
       ],
-      "updated": "2026-07-04T04:40:27.255400"
+      "updated": "2026-07-05T05:02:06.532540"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.0,
-      "change_pct": 2.84,
-      "high": 18.17,
-      "low": 16.88,
-      "volume": 1516942
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600026": {
       "name": "中远海能",
-      "price": 17.37,
-      "change_pct": 5.27,
-      "high": 17.81,
-      "low": 17.1,
-      "volume": 907386
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601975": {
       "name": "招商南油",
-      "price": 3.69,
-      "change_pct": 0.27,
-      "high": 3.95,
-      "low": 3.66,
-      "volume": 2401899
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600938": {
       "name": "中国海油",
@@ -486,6 +477,23 @@
   },
   "news": [
     {
+      "source": "德国之声",
+      "title": "美军对伊朗的轰炸中使用了马斯克的Grok",
+      "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Thu, 18 Jun 2026 11:54:00 GMT",
+      "summary": "在Anthropic拒绝美国军方使用其工具进行全自动袭击后，五角大楼开始同其它美国人工智能的佼佼者进行合作，其中包括马斯克旗下的Grok。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "五角大楼",
+        "美军",
+        "伊朗"
+      ],
+      "action_hits": [
+        "轰炸"
+      ]
+    },
+    {
       "source": "FT中文网",
       "title": "“意大利在伊朗战争期间允许美国军机使用境内基地”",
       "link": "https://www.ftchinese.com/story/001110141",
@@ -494,8 +502,8 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "美军",
         "北约",
+        "美军",
         "伊朗"
       ],
       "action_hits": [
@@ -511,15 +519,15 @@
       "lang": "en",
       "relevance_score": 95,
       "entity_hits": [
-        "bahrain",
+        "iran",
         "kuwait",
-        "iran"
+        "bahrain"
       ],
       "action_hits": [
-        "strike",
-        "retaliat",
-        "attack",
         "launch",
+        "attack",
+        "retaliat",
+        "strike",
         "ceasefire"
       ]
     },
@@ -532,14 +540,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "iran",
         "strait",
+        "iran",
         "hormuz"
       ],
       "action_hits": [
-        "evacuat",
+        "ceasefire",
         "attack",
-        "ceasefire"
+        "evacuat"
       ]
     },
     {
@@ -551,14 +559,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "oman",
         "strait",
-        "hormuz"
+        "hormuz",
+        "oman"
       ],
       "action_hits": [
         "evacuat",
-        "casualt",
-        "attack"
+        "attack",
+        "casualt"
       ]
     },
     {
@@ -570,13 +578,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
+        "hezbollah",
         "israel",
-        "lebanon",
-        "hezbollah"
+        "lebanon"
       ],
       "action_hits": [
-        "killed",
-        "strike"
+        "strike",
+        "killed"
       ]
     },
     {
@@ -588,9 +596,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
+        "hezbollah",
         "israel",
-        "lebanon",
-        "hezbollah"
+        "lebanon"
       ],
       "action_hits": [
         "ceasefire",
@@ -606,13 +614,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
+        "hezbollah",
         "israel",
-        "lebanon",
-        "hezbollah"
+        "lebanon"
       ],
       "action_hits": [
-        "killed",
-        "strike"
+        "strike",
+        "killed"
       ]
     },
     {
@@ -624,12 +632,12 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "israel",
-        "iran"
+        "iran",
+        "israel"
       ],
       "action_hits": [
-        "casualt",
-        "killed"
+        "killed",
+        "casualt"
       ]
     }
   ],
@@ -705,24 +713,23 @@
       "lang": "en"
     },
     {
-      "event_id": "3829ff4e3150",
+      "event_id": "655b3e15d03a",
       "title": "“意大利在伊朗战争期间允许美国军机使用境内基地”",
       "location": "伊朗",
-      "first_seen_time": "2026-06-24T16:00:00+00:00",
+      "first_seen_time": "2026-06-18T11:54:00+00:00",
       "last_updated_time": "2026-06-24T16:00:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 70,
-      "source_count": 2,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110141",
+      "source_count": 3,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/5",
         "6/6",
         "6/7",
         "6/8",
@@ -751,7 +758,8 @@
         "7/1",
         "7/2",
         "7/3",
-        "7/4"
+        "7/4",
+        "7/5"
       ],
       "transits": [
         0,
@@ -841,34 +849,27 @@
         21,
         69
       ],
-      "date_label": "7月4日"
+      "date_label": "7月5日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-04",
+      "hormuz_last_date": "2026-07-05",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 113,
+      "vlcc_stale_days": 114,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-04"
+      "routes_date": "2026-07-05"
     }
   },
   "meta": {
-    "report_date": "2026.07.04",
-    "report_date_cn": "2026年07月04日",
-    "war_day": 127,
+    "report_date": "2026.07.05",
+    "report_date_cn": "2026年07月05日",
+    "war_day": 128,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-04T12:40:54.926625+08:00",
-    "generated_at_cn": "2026-07-04 12:40:54 北京时间"
+    "generated_at": "2026-07-05T13:02:34.041332+08:00",
+    "generated_at_cn": "2026-07-05 13:02:34 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-09",
-      "brent": 98.04000091552734,
-      "wti": 97.4000015258789,
-      "gold": 4748.39990234375,
-      "usd_cny": 6.8394999504089355
-    },
     {
       "date": "2026-04-09",
       "brent": 97.9000015258789,
@@ -1487,6 +1488,13 @@
     },
     {
       "date": "2026-07-04",
+      "brent": 72.12999725341797,
+      "wti": 68.77999877929688,
+      "gold": 4187.2998046875,
+      "usd_cny": 6.770199775695801
+    },
+    {
+      "date": "2026-07-05",
       "brent": 72.12999725341797,
       "wti": 68.77999877929688,
       "gold": 4187.2998046875,

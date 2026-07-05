@@ -70,17 +70,17 @@
     "lang": "en"
   },
   {
-    "event_id": "3829ff4e3150",
+    "event_id": "655b3e15d03a",
     "title": "“意大利在伊朗战争期间允许美国军机使用境内基地”",
     "location": "伊朗",
-    "first_seen_time": "2026-06-24T16:00:00+00:00",
+    "first_seen_time": "2026-06-18T11:54:00+00:00",
     "last_updated_time": "2026-06-24T16:00:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 70,
-    "source_count": 2,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110141",
+    "source_count": 3,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   }
 ]
