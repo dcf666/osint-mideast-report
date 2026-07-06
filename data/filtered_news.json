@@ -1,36 +1,20 @@
 [
   {
-    "source": "德国之声",
-    "title": "美军对伊朗的轰炸中使用了马斯克的Grok",
-    "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 18 Jun 2026 11:54:00 GMT",
-    "summary": "在Anthropic拒绝美国军方使用其工具进行全自动袭击后，五角大楼开始同其它美国人工智能的佼佼者进行合作，其中包括马斯克旗下的Grok。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "五角大楼",
-      "美军",
-      "伊朗"
-    ],
-    "action_hits": [
-      "轰炸"
-    ]
-  },
-  {
     "source": "FT中文网",
-    "title": "“意大利在伊朗战争期间允许美国军机使用境内基地”",
-    "link": "https://www.ftchinese.com/story/001110141",
-    "published": "Wed, 24 Jun 2026 16:00:00 GMT",
-    "summary": "北约秘书长吕特透露，意大利曾允许“500架次的美军飞机”在境内基地起降，参加对伊朗轰炸行动。此言将意大利总理梅洛尼推入一场政治风暴。",
+    "title": "英法加大拦截力度 俄影子油轮避开英吉利海峡",
+    "link": "https://www.ftchinese.com/story/001110236",
+    "published": "Sun, 05 Jul 2026 16:00:00 GMT",
+    "summary": "船舶追踪数据显示，五艘曾靠泊俄罗斯最大石油装载港的受制裁油轮，上周五在北大西洋绕开英国航行，而不走英吉利海峡这一捷径。",
     "lang": "zh",
-    "relevance_score": 70,
+    "relevance_score": 76,
     "entity_hits": [
-      "北约",
-      "美军",
-      "伊朗"
+      "海峡",
+      "油轮"
     ],
     "action_hits": [
-      "轰炸"
+      "拦截",
+      "制裁",
+      "油轮"
     ]
   },
   {
@@ -42,15 +26,15 @@
     "lang": "en",
     "relevance_score": 95,
     "entity_hits": [
-      "iran",
+      "bahrain",
       "kuwait",
-      "bahrain"
+      "iran"
     ],
     "action_hits": [
-      "launch",
       "attack",
-      "retaliat",
+      "launch",
       "strike",
+      "retaliat",
       "ceasefire"
     ]
   },
@@ -63,14 +47,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "strait",
       "iran",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
+      "evacuat",
       "ceasefire",
-      "attack",
-      "evacuat"
+      "attack"
     ]
   },
   {
@@ -82,9 +66,9 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "strait",
       "hormuz",
-      "oman"
+      "oman",
+      "strait"
     ],
     "action_hits": [
       "evacuat",
@@ -102,12 +86,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "hezbollah",
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -120,12 +104,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "hezbollah",
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "ceasefire",
-      "strike"
+      "strike",
+      "ceasefire"
     ]
   },
   {
@@ -138,12 +122,29 @@
     "relevance_score": 80,
     "entity_hits": [
       "hezbollah",
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
+    "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 05 Jul 2026 17:58:01 GMT",
+    "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the outset of the US-Israel war with Iran.",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "israel",
+      "iran"
+    ],
+    "action_hits": [
+      "killed",
+      "attack"
     ]
   },
   {
@@ -155,8 +156,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
       "killed",

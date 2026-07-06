@@ -34,7 +34,7 @@
         "06/30",
         "07/01",
         "07/02",
-        "07/03"
+        "07/06"
       ],
       "prices": [
         102.58,
@@ -68,12 +68,12 @@
         71.8,
         72.13
       ],
-      "updated": "2026-07-05T05:02:06.147297"
+      "updated": "2026-07-06T05:17:39.637986"
     },
     "wti": {
-      "current": 68.77999877929688,
-      "day_change_pct": 0.13,
-      "war_change_pct": -38.81,
+      "current": 68.69000244140625,
+      "day_change_pct": 0.0,
+      "war_change_pct": -38.89,
       "dates": [
         "05/21",
         "05/22",
@@ -104,7 +104,7 @@
         "06/30",
         "07/01",
         "07/02",
-        "07/03"
+        "07/06"
       ],
       "prices": [
         96.35,
@@ -136,14 +136,14 @@
         69.5,
         68.58,
         68.69,
-        68.78
+        68.69
       ],
-      "updated": "2026-07-05T05:02:06.243324"
+      "updated": "2026-07-06T05:17:39.845703"
     },
     "gold": {
-      "current": 4187.2998046875,
-      "day_change_pct": 1.81,
-      "war_change_pct": -10.08,
+      "current": 4167.2998046875,
+      "day_change_pct": 1.33,
+      "war_change_pct": -10.51,
       "dates": [
         "05/21",
         "05/22",
@@ -174,7 +174,7 @@
         "06/30",
         "07/01",
         "07/02",
-        "07/03"
+        "07/06"
       ],
       "prices": [
         4539.8,
@@ -206,14 +206,14 @@
         4022.9,
         4068.3,
         4112.7,
-        4187.3
+        4167.3
       ],
-      "updated": "2026-07-05T05:02:06.338263"
+      "updated": "2026-07-06T05:17:40.025476"
     },
     "usd_cny": {
-      "current": 6.770199775695801,
-      "day_change_pct": -0.27,
-      "war_change_pct": -1.67,
+      "current": 6.787499904632568,
+      "day_change_pct": -0.02,
+      "war_change_pct": -1.38,
       "dates": [
         "05/26",
         "05/27",
@@ -244,7 +244,7 @@
         "07/01",
         "07/02",
         "07/03",
-        "07/05"
+        "07/06"
       ],
       "prices": [
         6.79,
@@ -276,14 +276,14 @@
         6.79,
         6.79,
         6.79,
-        6.77
+        6.79
       ],
-      "updated": "2026-07-05T05:02:06.439410"
+      "updated": "2026-07-06T05:17:40.239539"
     },
     "nat_gas": {
-      "current": 3.244999885559082,
-      "day_change_pct": 1.53,
-      "war_change_pct": 15.44,
+      "current": 3.174999952316284,
+      "day_change_pct": -0.66,
+      "war_change_pct": 12.95,
       "dates": [
         "05/21",
         "05/22",
@@ -314,7 +314,7 @@
         "06/30",
         "07/01",
         "07/02",
-        "07/03"
+        "07/06"
       ],
       "prices": [
         3.02,
@@ -346,168 +346,207 @@
         3.28,
         3.22,
         3.2,
-        3.24
+        3.17
       ],
-      "updated": "2026-07-05T05:02:06.532540"
+      "updated": "2026-07-06T05:17:40.523710"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.89,
+      "change_pct": 5.24,
+      "high": 18.25,
+      "low": 17.38,
+      "volume": 1475969
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.49,
+      "change_pct": 0.69,
+      "high": 18.2,
+      "low": 17.24,
+      "volume": 640808
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 3.73,
+      "change_pct": 1.08,
+      "high": 3.79,
+      "low": 3.66,
+      "volume": 1548037
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 27.88,
+      "change_pct": 0.69,
+      "high": 28.29,
+      "low": 27.38,
+      "volume": 428982
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 9.05,
+      "change_pct": 0.89,
+      "high": 9.14,
+      "low": 8.85,
+      "volume": 898644
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 4.78,
+      "change_pct": 1.7,
+      "high": 4.79,
+      "low": 4.67,
+      "volume": 1748708
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 18.9,
+      "change_pct": -1.36,
+      "high": 19.35,
+      "low": 18.85,
+      "volume": 96027
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 2.23,
+      "change_pct": 5.19,
+      "high": 2.32,
+      "low": 2.08,
+      "volume": 2446746
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 11.32,
+      "change_pct": 1.07,
+      "high": 11.34,
+      "low": 11.08,
+      "volume": 96065
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 170.38,
+      "change_pct": 5.52,
+      "high": 176.59,
+      "low": 161.88,
+      "volume": 177494
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 16.9,
+      "change_pct": 2.42,
+      "high": 16.96,
+      "low": 16.3,
+      "volume": 67577
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.33,
+      "change_pct": 2.9,
+      "high": 5.37,
+      "low": 5.09,
+      "volume": 1102047
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 13.87,
+      "change_pct": 1.09,
+      "high": 13.9,
+      "low": 13.62,
+      "volume": 520158
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 40.98,
+      "change_pct": -1.56,
+      "high": 41.89,
+      "low": 40.94,
+      "volume": 105199
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 38.7,
+      "change_pct": -1.55,
+      "high": 40.23,
+      "low": 38.37,
+      "volume": 227096
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 37.62,
+      "change_pct": 1.27,
+      "high": 38.09,
+      "low": 36.95,
+      "volume": 1115700
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 25.94,
+      "change_pct": -0.54,
+      "high": 27.33,
+      "low": 25.55,
+      "volume": 918628
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 32.34,
+      "change_pct": 3.55,
+      "high": 33.59,
+      "low": 31.23,
+      "volume": 1174004
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 20.7,
+      "change_pct": 1.77,
+      "high": 21.49,
+      "low": 19.88,
+      "volume": 1233215
     },
     "601088": {
       "name": "中国神华",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 41.48,
+      "change_pct": 1.92,
+      "high": 41.99,
+      "low": 40.2,
+      "volume": 330539
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 1.4
     },
     "石油": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -1.77
     },
     "军工": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 0.44
     },
     "黄金": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -0.36
     }
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "美军对伊朗的轰炸中使用了马斯克的Grok",
-      "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 18 Jun 2026 11:54:00 GMT",
-      "summary": "在Anthropic拒绝美国军方使用其工具进行全自动袭击后，五角大楼开始同其它美国人工智能的佼佼者进行合作，其中包括马斯克旗下的Grok。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "五角大楼",
-        "美军",
-        "伊朗"
-      ],
-      "action_hits": [
-        "轰炸"
-      ]
-    },
-    {
       "source": "FT中文网",
-      "title": "“意大利在伊朗战争期间允许美国军机使用境内基地”",
-      "link": "https://www.ftchinese.com/story/001110141",
-      "published": "Wed, 24 Jun 2026 16:00:00 GMT",
-      "summary": "北约秘书长吕特透露，意大利曾允许“500架次的美军飞机”在境内基地起降，参加对伊朗轰炸行动。此言将意大利总理梅洛尼推入一场政治风暴。",
+      "title": "英法加大拦截力度 俄影子油轮避开英吉利海峡",
+      "link": "https://www.ftchinese.com/story/001110236",
+      "published": "Sun, 05 Jul 2026 16:00:00 GMT",
+      "summary": "船舶追踪数据显示，五艘曾靠泊俄罗斯最大石油装载港的受制裁油轮，上周五在北大西洋绕开英国航行，而不走英吉利海峡这一捷径。",
       "lang": "zh",
-      "relevance_score": 70,
+      "relevance_score": 76,
       "entity_hits": [
-        "北约",
-        "美军",
-        "伊朗"
+        "海峡",
+        "油轮"
       ],
       "action_hits": [
-        "轰炸"
+        "拦截",
+        "制裁",
+        "油轮"
       ]
     },
     {
@@ -519,15 +558,15 @@
       "lang": "en",
       "relevance_score": 95,
       "entity_hits": [
-        "iran",
+        "bahrain",
         "kuwait",
-        "bahrain"
+        "iran"
       ],
       "action_hits": [
-        "launch",
         "attack",
-        "retaliat",
+        "launch",
         "strike",
+        "retaliat",
         "ceasefire"
       ]
     },
@@ -540,14 +579,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
         "iran",
-        "hormuz"
+        "hormuz",
+        "strait"
       ],
       "action_hits": [
+        "evacuat",
         "ceasefire",
-        "attack",
-        "evacuat"
+        "attack"
       ]
     },
     {
@@ -559,9 +598,9 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
         "hormuz",
-        "oman"
+        "oman",
+        "strait"
       ],
       "action_hits": [
         "evacuat",
@@ -579,12 +618,12 @@
       "relevance_score": 80,
       "entity_hits": [
         "hezbollah",
-        "israel",
-        "lebanon"
+        "lebanon",
+        "israel"
       ],
       "action_hits": [
-        "strike",
-        "killed"
+        "killed",
+        "strike"
       ]
     },
     {
@@ -597,12 +636,12 @@
       "relevance_score": 80,
       "entity_hits": [
         "hezbollah",
-        "israel",
-        "lebanon"
+        "lebanon",
+        "israel"
       ],
       "action_hits": [
-        "ceasefire",
-        "strike"
+        "strike",
+        "ceasefire"
       ]
     },
     {
@@ -615,12 +654,29 @@
       "relevance_score": 80,
       "entity_hits": [
         "hezbollah",
-        "israel",
-        "lebanon"
+        "lebanon",
+        "israel"
       ],
       "action_hits": [
-        "strike",
-        "killed"
+        "killed",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
+      "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 05 Jul 2026 17:58:01 GMT",
+      "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the outset of the US-Israel war with Iran.",
+      "lang": "en",
+      "relevance_score": 60,
+      "entity_hits": [
+        "israel",
+        "iran"
+      ],
+      "action_hits": [
+        "killed",
+        "attack"
       ]
     },
     {
@@ -632,8 +688,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "iran",
-        "israel"
+        "israel",
+        "iran"
       ],
       "action_hits": [
         "killed",
@@ -713,24 +769,37 @@
       "lang": "en"
     },
     {
-      "event_id": "655b3e15d03a",
-      "title": "“意大利在伊朗战争期间允许美国军机使用境内基地”",
-      "location": "伊朗",
-      "first_seen_time": "2026-06-18T11:54:00+00:00",
-      "last_updated_time": "2026-06-24T16:00:00+00:00",
+      "event_id": "2392a8d47231",
+      "title": "英法加大拦截力度 俄影子油轮避开英吉利海峡",
+      "location": "中东地区",
+      "first_seen_time": "2026-07-05T16:00:00+00:00",
+      "last_updated_time": "2026-07-05T16:00:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
-      "confidence": 70,
-      "source_count": 3,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美军对伊朗的轰炸中使用了马斯克的grok/a-77606513?maca=chi-rss-chi-all-1127-xml-mrss",
+      "confidence": 76,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110236",
       "lang": "zh"
+    },
+    {
+      "event_id": "3e8cf5135da2",
+      "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
+      "location": "伊朗",
+      "first_seen_time": "2026-07-05T17:58:01+00:00",
+      "last_updated_time": "2026-07-05T17:58:01+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 60,
+      "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/6",
         "6/7",
         "6/8",
         "6/9",
@@ -759,7 +828,8 @@
         "7/2",
         "7/3",
         "7/4",
-        "7/5"
+        "7/5",
+        "7/6"
       ],
       "transits": [
         0,
@@ -849,34 +919,27 @@
         21,
         69
       ],
-      "date_label": "7月5日"
+      "date_label": "7月6日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-05",
+      "hormuz_last_date": "2026-07-06",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 114,
+      "vlcc_stale_days": 115,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-05"
+      "routes_date": "2026-07-06"
     }
   },
   "meta": {
-    "report_date": "2026.07.05",
-    "report_date_cn": "2026年07月05日",
-    "war_day": 128,
+    "report_date": "2026.07.06",
+    "report_date_cn": "2026年07月06日",
+    "war_day": 129,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-05T13:02:34.041332+08:00",
-    "generated_at_cn": "2026-07-05 13:02:34 北京时间"
+    "generated_at": "2026-07-06T13:18:34.623579+08:00",
+    "generated_at_cn": "2026-07-06 13:18:34 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-09",
-      "brent": 97.9000015258789,
-      "wti": 99.22000122070312,
-      "gold": 4761.2998046875,
-      "usd_cny": 6.83620023727417
-    },
     {
       "date": "2026-04-10",
       "brent": 95.91999816894531,
@@ -1499,6 +1562,13 @@
       "wti": 68.77999877929688,
       "gold": 4187.2998046875,
       "usd_cny": 6.770199775695801
+    },
+    {
+      "date": "2026-07-06",
+      "brent": 72.12999725341797,
+      "wti": 68.69000244140625,
+      "gold": 4167.2998046875,
+      "usd_cny": 6.787499904632568
     }
   ]
 }
