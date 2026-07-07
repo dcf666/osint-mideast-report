@@ -14,34 +14,6 @@
     "lang": "en"
   },
   {
-    "event_id": "58cda423b54e",
-    "title": "Trump accuses Iran of ceasefire breach after Strait of Hormuz attack",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-26T18:03:32+00:00",
-    "last_updated_time": "2026-06-26T18:03:32+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/ckg54g0ry0vo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "66045223b4e2",
-    "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-06-26T11:27:59+00:00",
-    "last_updated_time": "2026-06-26T11:27:59+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "bbff8d0971b0",
     "title": "Israel strikes southern Lebanon as Hezbollah condemns new deal",
     "location": "以色列",
@@ -57,14 +29,14 @@
   },
   {
     "event_id": "7cedbfee362b",
-    "title": "Israel and Lebanon sign framework agreement after US-brokered talks",
+    "title": "Headteacher among four killed in deadliest Israeli attack on Lebanon since latest ceasefire",
     "location": "以色列",
     "first_seen_time": "2026-06-26T22:55:28+00:00",
-    "last_updated_time": "2026-06-26T22:55:28+00:00",
+    "last_updated_time": "2026-07-06T17:44:57+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cg5315n1v5go?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -84,6 +56,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "6c03eae694c7",
+    "title": "BBC reports from the Strait of Hormuz during fragile ceasefire",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-07-02T22:46:41+00:00",
+    "last_updated_time": "2026-07-02T22:46:41+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/videos/c04yxq2dldpo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "3e8cf5135da2",
     "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
     "location": "伊朗",
@@ -92,7 +78,7 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 60,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
