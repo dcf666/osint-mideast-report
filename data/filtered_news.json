@@ -12,9 +12,26 @@
       "海峡"
     ],
     "action_hits": [
+      "制裁",
       "拦截",
-      "油轮",
-      "制裁"
+      "油轮"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "油价下降，中国加紧从中东采购",
+    "link": "https://www.ftchinese.com/story/001110249",
+    "published": "Mon, 06 Jul 2026 16:00:00 GMT",
+    "summary": "沙特阿美目前给亚洲买家打的折扣，是自2020年6月以来力度最大的，分析师认为此举将促使中国加大采购。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "沙特",
+      "中东",
+      "油价"
+    ],
+    "action_hits": [
+      "油价"
     ]
   },
   {
@@ -26,16 +43,16 @@
     "lang": "en",
     "relevance_score": 95,
     "entity_hits": [
-      "bahrain",
       "kuwait",
-      "iran"
+      "iran",
+      "bahrain"
     ],
     "action_hits": [
-      "ceasefire",
+      "launch",
       "retaliat",
-      "attack",
       "strike",
-      "launch"
+      "ceasefire",
+      "attack"
     ]
   },
   {
@@ -47,9 +64,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "lebanon",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
       "strike",
@@ -65,13 +82,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "lebanon",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
-      "ceasefire",
-      "strike"
+      "strike",
+      "ceasefire"
     ]
   },
   {
@@ -83,9 +100,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "lebanon",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
       "strike",
@@ -106,8 +123,8 @@
     ],
     "action_hits": [
       "ceasefire",
-      "attack",
-      "killed"
+      "killed",
+      "attack"
     ]
   },
   {
@@ -119,8 +136,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
       "iran",
+      "strait",
       "hormuz"
     ],
     "action_hits": [
@@ -140,8 +157,8 @@
       "israel"
     ],
     "action_hits": [
-      "attack",
-      "killed"
+      "killed",
+      "attack"
     ]
   }
 ]

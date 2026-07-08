@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 72.48999786376953,
-      "day_change_pct": 0.69,
-      "war_change_pct": -33.66,
+      "current": 76.12000274658203,
+      "day_change_pct": 2.64,
+      "war_change_pct": -19.66,
       "dates": [
-        "05/22",
         "05/26",
         "05/27",
         "05/28",
@@ -34,10 +33,10 @@
         "07/01",
         "07/02",
         "07/06",
-        "07/07"
+        "07/07",
+        "07/08"
       ],
       "prices": [
-        103.54,
         99.58,
         94.29,
         93.71,
@@ -66,16 +65,16 @@
         71.57,
         71.8,
         71.99,
-        72.49
+        74.16,
+        76.12
       ],
-      "updated": "2026-07-07T04:59:11.668508"
+      "updated": "2026-07-08T04:19:41.117772"
     },
     "wti": {
-      "current": 69.0,
-      "day_change_pct": 0.66,
-      "war_change_pct": -38.91,
+      "current": 72.2699966430664,
+      "day_change_pct": 2.6,
+      "war_change_pct": -23.45,
       "dates": [
-        "05/22",
         "05/26",
         "05/27",
         "05/28",
@@ -104,10 +103,10 @@
         "07/01",
         "07/02",
         "07/06",
-        "07/07"
+        "07/07",
+        "07/08"
       ],
       "prices": [
-        96.6,
         93.89,
         88.68,
         88.9,
@@ -136,16 +135,16 @@
         68.58,
         68.69,
         68.55,
-        69.0
+        70.44,
+        72.27
       ],
-      "updated": "2026-07-07T04:59:11.808194"
+      "updated": "2026-07-08T04:19:41.217319"
     },
     "gold": {
-      "current": 4141.7001953125,
-      "day_change_pct": -0.32,
-      "war_change_pct": -11.07,
+      "current": 4139.0,
+      "day_change_pct": -0.15,
+      "war_change_pct": -12.85,
       "dates": [
-        "05/22",
         "05/26",
         "05/27",
         "05/28",
@@ -174,10 +173,10 @@
         "07/01",
         "07/02",
         "07/06",
-        "07/07"
+        "07/07",
+        "07/08"
       ],
       "prices": [
-        4521.0,
         4500.4,
         4447.5,
         4499.3,
@@ -206,16 +205,16 @@
         4068.3,
         4112.7,
         4155.1,
-        4141.7
+        4145.3,
+        4139.0
       ],
-      "updated": "2026-07-07T04:59:11.896342"
+      "updated": "2026-07-08T04:19:41.285518"
     },
     "usd_cny": {
-      "current": 6.792900085449219,
-      "day_change_pct": 0.06,
-      "war_change_pct": -1.3,
+      "current": 6.79580020904541,
+      "day_change_pct": 0.0,
+      "war_change_pct": -0.89,
       "dates": [
-        "05/27",
         "05/28",
         "05/29",
         "06/01",
@@ -244,10 +243,10 @@
         "07/02",
         "07/03",
         "07/06",
-        "07/07"
+        "07/07",
+        "07/08"
       ],
       "prices": [
-        6.79,
         6.78,
         6.78,
         6.77,
@@ -276,16 +275,16 @@
         6.79,
         6.79,
         6.79,
-        6.79
+        6.8,
+        6.8
       ],
-      "updated": "2026-07-07T04:59:12.001060"
+      "updated": "2026-07-08T04:19:41.356521"
     },
     "nat_gas": {
-      "current": 3.2239999771118164,
-      "day_change_pct": -0.65,
-      "war_change_pct": 12.33,
+      "current": 3.2730000019073486,
+      "day_change_pct": 0.25,
+      "war_change_pct": 20.15,
       "dates": [
-        "05/22",
         "05/26",
         "05/27",
         "05/28",
@@ -314,10 +313,10 @@
         "07/01",
         "07/02",
         "07/06",
-        "07/07"
+        "07/07",
+        "07/08"
       ],
       "prices": [
-        2.91,
         2.89,
         3.04,
         3.29,
@@ -346,43 +345,32 @@
         3.22,
         3.2,
         3.24,
-        3.22
+        3.27,
+        3.27
       ],
-      "updated": "2026-07-07T04:59:12.154956"
+      "updated": "2026-07-08T04:19:41.424277"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 16.47,
-      "change_pct": -6.84,
-      "high": 17.92,
-      "low": 16.14,
-      "volume": 1114254
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600026": {
       "name": "中远海能",
-      "price": 16.58,
-      "change_pct": -4.55,
-      "high": 17.56,
-      "low": 16.34,
-      "volume": 558440
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601975": {
       "name": "招商南油",
-      "price": 3.49,
-      "change_pct": -6.68,
-      "high": 3.72,
-      "low": 3.48,
-      "volume": 1701306
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600938": {
       "name": "中国海油",
-      "price": 28.01,
-      "change_pct": -0.92,
-      "high": 28.37,
-      "low": 27.83,
-      "volume": 262857
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601857": {
       "name": "中国石油",
@@ -397,7 +385,7 @@
     "603619": {
       "name": "中曼石油",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600759": {
       "name": "洲际油气",
@@ -417,7 +405,7 @@
     "600803": {
       "name": "新奥股份",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600256": {
       "name": "广汇能源",
@@ -501,9 +489,26 @@
         "海峡"
       ],
       "action_hits": [
+        "制裁",
         "拦截",
-        "油轮",
-        "制裁"
+        "油轮"
+      ]
+    },
+    {
+      "source": "FT中文网",
+      "title": "油价下降，中国加紧从中东采购",
+      "link": "https://www.ftchinese.com/story/001110249",
+      "published": "Mon, 06 Jul 2026 16:00:00 GMT",
+      "summary": "沙特阿美目前给亚洲买家打的折扣，是自2020年6月以来力度最大的，分析师认为此举将促使中国加大采购。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "沙特",
+        "中东",
+        "油价"
+      ],
+      "action_hits": [
+        "油价"
       ]
     },
     {
@@ -515,16 +520,16 @@
       "lang": "en",
       "relevance_score": 95,
       "entity_hits": [
-        "bahrain",
         "kuwait",
-        "iran"
+        "iran",
+        "bahrain"
       ],
       "action_hits": [
-        "ceasefire",
+        "launch",
         "retaliat",
-        "attack",
         "strike",
-        "launch"
+        "ceasefire",
+        "attack"
       ]
     },
     {
@@ -536,9 +541,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hezbollah",
         "lebanon",
-        "israel"
+        "israel",
+        "hezbollah"
       ],
       "action_hits": [
         "strike",
@@ -554,13 +559,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hezbollah",
         "lebanon",
-        "israel"
+        "israel",
+        "hezbollah"
       ],
       "action_hits": [
-        "ceasefire",
-        "strike"
+        "strike",
+        "ceasefire"
       ]
     },
     {
@@ -572,9 +577,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "hezbollah",
         "lebanon",
-        "israel"
+        "israel",
+        "hezbollah"
       ],
       "action_hits": [
         "strike",
@@ -595,8 +600,8 @@
       ],
       "action_hits": [
         "ceasefire",
-        "attack",
-        "killed"
+        "killed",
+        "attack"
       ]
     },
     {
@@ -608,8 +613,8 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "strait",
         "iran",
+        "strait",
         "hormuz"
       ],
       "action_hits": [
@@ -629,8 +634,8 @@
         "israel"
       ],
       "action_hits": [
-        "attack",
-        "killed"
+        "killed",
+        "attack"
       ]
     }
   ],
@@ -692,6 +697,20 @@
       "lang": "zh"
     },
     {
+      "event_id": "1a69b983e5cd",
+      "title": "油价下降，中国加紧从中东采购",
+      "location": "沙特阿拉伯",
+      "first_seen_time": "2026-07-06T16:00:00+00:00",
+      "last_updated_time": "2026-07-06T16:00:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110249",
+      "lang": "zh"
+    },
+    {
       "event_id": "6c03eae694c7",
       "title": "BBC reports from the Strait of Hormuz during fragile ceasefire",
       "location": "霍尔木兹海峡",
@@ -723,7 +742,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/8",
         "6/9",
         "6/10",
         "6/11",
@@ -752,7 +770,8 @@
         "7/4",
         "7/5",
         "7/6",
-        "7/7"
+        "7/7",
+        "7/8"
       ],
       "transits": [
         0,
@@ -842,34 +861,27 @@
         21,
         69
       ],
-      "date_label": "7月7日"
+      "date_label": "7月8日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-07",
+      "hormuz_last_date": "2026-07-08",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 116,
+      "vlcc_stale_days": 117,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-07"
+      "routes_date": "2026-07-08"
     }
   },
   "meta": {
-    "report_date": "2026.07.07",
-    "report_date_cn": "2026年07月07日",
-    "war_day": 130,
+    "report_date": "2026.07.08",
+    "report_date_cn": "2026年07月08日",
+    "war_day": 131,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-07T12:59:43.069262+08:00",
-    "generated_at_cn": "2026-07-07 12:59:43 北京时间"
+    "generated_at": "2026-07-08T12:21:37.627415+08:00",
+    "generated_at_cn": "2026-07-08 12:21:37 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-10",
-      "brent": 96.87999725341797,
-      "wti": 98.5999984741211,
-      "gold": 4790.39990234375,
-      "usd_cny": 6.829999923706055
-    },
     {
       "date": "2026-04-11",
       "brent": 94.44999694824219,
@@ -1492,6 +1504,13 @@
       "wti": 69.0,
       "gold": 4141.7001953125,
       "usd_cny": 6.792900085449219
+    },
+    {
+      "date": "2026-07-08",
+      "brent": 76.12000274658203,
+      "wti": 72.2699966430664,
+      "gold": 4139.0,
+      "usd_cny": 6.79580020904541
     }
   ]
 }
