@@ -1,5 +1,46 @@
 [
   {
+    "source": "德国之声",
+    "title": "美國空襲伊朗、撤售油許可 川普：諒解備忘錄「已終結」",
+    "link": "https://www.dw.com/zh/美國空襲伊朗、撤售油許可-川普：諒解備忘錄「已終結」/a-77869987?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 8 Jul 2026 10:04:00 GMT",
+    "summary": "美軍週二對伊朗發動新一波空襲，指控德黑蘭攻擊霍爾木茲海峽3艘商船，並撤銷允許伊朗出口石油的許可證。此前，霍爾木茲海峽有3艘油輪遭不明飛彈擊中，使原本脆弱的停火局勢進一步承受壓力。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "油輪",
+      "海峽",
+      "德黑蘭",
+      "霍爾木茲",
+      "伊朗",
+      "美軍"
+    ],
+    "action_hits": [
+      "油輪",
+      "停火",
+      "空襲"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
+    "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 29 Jun 2026 01:31:00 GMT",
+    "summary": "美国和伊朗之间再度爆发军事冲突。美方表示，此次发起行动是对伊朗袭击货轮做出的回应，而德黑兰则以攻击美国在巴林和科威特的军事基地作为报复。周日，多家媒体消息指攻势暂歇，双方6月30日将在卡达举行技术谈判。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "伊朗",
+      "科威特",
+      "德黑兰",
+      "巴林"
+    ],
+    "action_hits": [
+      "谈判",
+      "报复"
+    ]
+  },
+  {
     "source": "FT中文网",
     "title": "英法加大拦截力度 俄影子油轮避开英吉利海峡",
     "link": "https://www.ftchinese.com/story/001110236",
@@ -15,6 +56,23 @@
       "制裁",
       "拦截",
       "油轮"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "美伊徹夜交火 特朗普稱停火協議「完了」",
+    "link": "https://www.bbc.com/zhongwen/articles/cvg5xypkl80o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 08 Jul 2026 12:23:07 GMT",
+    "summary": "美國總統稱不想再與德黑蘭政權接觸，甚至形容對方為「人渣」；至少三艘國際船舶被砲火擊中。",
+    "lang": "zh",
+    "relevance_score": 72,
+    "entity_hits": [
+      "德黑蘭",
+      "美伊"
+    ],
+    "action_hits": [
+      "停火協議",
+      "停火"
     ]
   },
   {
@@ -36,6 +94,46 @@
   },
   {
     "source": "BBC中东",
+    "title": "US and Iran trade strikes after tankers hit in Strait of Hormuz",
+    "link": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 08 Jul 2026 08:11:50 GMT",
+    "summary": "The US military says it hit missile sites and command centres while Iran says it attacked US bases.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "iran",
+      "hormuz",
+      "strait"
+    ],
+    "action_hits": [
+      "tanker",
+      "attack",
+      "missile",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US strikes target Iranian military boats",
+    "link": "https://www.bbc.co.uk/news/videos/cn94nqzwpxwo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 08 Jul 2026 05:42:37 GMT",
+    "summary": "The US has launched the strikes on Iran in response to attacks on three oil tankers in the Strait of Hormuz.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "iran",
+      "hormuz",
+      "strait"
+    ],
+    "action_hits": [
+      "tanker",
+      "attack",
+      "strike",
+      "launch"
+    ]
+  },
+  {
+    "source": "BBC中东",
     "title": "US and Iran exchange strikes and accuse each other of violating ceasefire",
     "link": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
     "published": "Sun, 28 Jun 2026 04:54:50 GMT",
@@ -43,16 +141,16 @@
     "lang": "en",
     "relevance_score": 95,
     "entity_hits": [
-      "kuwait",
       "iran",
-      "bahrain"
+      "bahrain",
+      "kuwait"
     ],
     "action_hits": [
-      "launch",
+      "attack",
       "retaliat",
-      "strike",
       "ceasefire",
-      "attack"
+      "strike",
+      "launch"
     ]
   },
   {
@@ -64,13 +162,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "lebanon",
       "israel",
+      "lebanon",
       "hezbollah"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -82,31 +180,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "lebanon",
       "israel",
+      "lebanon",
       "hezbollah"
     ],
     "action_hits": [
-      "strike",
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Southern Lebanon hit by 'intense' Israeli airstrikes",
-    "link": "https://www.bbc.co.uk/news/videos/c1kyv17724eo?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 19 Jun 2026 13:50:08 GMT",
-    "summary": "Lebanon says Israeli strikes kill 18 as Israel says four soldiers killed by Hezbollah",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "lebanon",
-      "israel",
-      "hezbollah"
-    ],
-    "action_hits": [
-      "strike",
-      "killed"
+      "ceasefire",
+      "strike"
     ]
   },
   {
@@ -118,29 +198,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
-      "ceasefire",
+      "attack",
       "killed",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "BBC reports from the Strait of Hormuz during fragile ceasefire",
-    "link": "https://www.bbc.co.uk/news/videos/c04yxq2dldpo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 02 Jul 2026 22:46:41 GMT",
-    "summary": "Dozens of boats are still anchored in the Strait, while ordinary Iranians try to continue to their lives.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "iran",
-      "strait",
-      "hormuz"
-    ],
-    "action_hits": [
       "ceasefire"
     ]
   },
@@ -157,8 +220,8 @@
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "attack"
+      "attack",
+      "killed"
     ]
   }
 ]

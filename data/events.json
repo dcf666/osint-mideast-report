@@ -1,5 +1,19 @@
 [
   {
+    "event_id": "5c9c980b589b",
+    "title": "US and Iran trade strikes after tankers hit in Strait of Hormuz",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-07-08T08:11:50+00:00",
+    "last_updated_time": "2026-07-08T08:11:50+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 100,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "b778d677f8c7",
     "title": "US and Iran exchange strikes and accuse each other of violating ceasefire",
     "location": "伊朗",
@@ -14,6 +28,34 @@
     "lang": "en"
   },
   {
+    "event_id": "ea6b61a44139",
+    "title": "美伊徹夜交火 特朗普稱停火協議「完了」",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-07-08T10:04:00+00:00",
+    "last_updated_time": "2026-07-08T12:23:07+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 90,
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美國空襲伊朗、撤售油許可-川普：諒解備忘錄「已終結」/a-77869987?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "4fffe919c8c5",
+    "title": "美国与伊朗暂缓攻势 将于卡达恢复技术谈判",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-06-29T01:31:00+00:00",
+    "last_updated_time": "2026-06-29T01:31:00+00:00",
+    "current_status": "partially_restored",
+    "trend": "improving",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美国与伊朗暂缓攻势-将于卡达恢复技术谈判/a-77744016?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
     "event_id": "bbff8d0971b0",
     "title": "Israel strikes southern Lebanon as Hezbollah condemns new deal",
     "location": "以色列",
@@ -22,7 +64,7 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -68,20 +110,6 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110249",
     "lang": "zh"
-  },
-  {
-    "event_id": "6c03eae694c7",
-    "title": "BBC reports from the Strait of Hormuz during fragile ceasefire",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-02T22:46:41+00:00",
-    "last_updated_time": "2026-07-02T22:46:41+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/videos/c04yxq2dldpo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   },
   {
     "event_id": "3e8cf5135da2",
