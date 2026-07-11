@@ -42,29 +42,15 @@
     "lang": "zh"
   },
   {
-    "event_id": "ea6b61a44139",
-    "title": "美國空襲伊朗、撤售油許可 川普：諒解備忘錄「已終結」",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-07-08T10:04:00+00:00",
-    "last_updated_time": "2026-07-08T10:04:00+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美國空襲伊朗、撤售油許可-川普：諒解備忘錄「已終結」/a-77869987?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "2392a8d47231",
-    "title": "英法加大拦截力度 俄影子油轮避开英吉利海峡",
+    "title": "保密多日后官宣：美国将向德国出售战斧巡航导弹",
     "location": "中东地区",
     "first_seen_time": "2026-07-05T16:00:00+00:00",
-    "last_updated_time": "2026-07-05T16:00:00+00:00",
+    "last_updated_time": "2026-07-10T10:40:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 76,
-    "source_count": 1,
+    "source_count": 2,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110236",
     "lang": "zh"

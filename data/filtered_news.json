@@ -8,18 +8,18 @@
     "lang": "zh",
     "relevance_score": 100,
     "entity_hits": [
-      "科威特",
-      "伊朗",
-      "美伊",
       "美軍",
-      "巴林"
+      "巴林",
+      "美伊",
+      "伊朗",
+      "科威特"
     ],
     "action_hits": [
-      "空襲",
-      "停火",
-      "報復",
+      "停火協議",
       "無人機",
-      "停火協議"
+      "報復",
+      "停火",
+      "空襲"
     ]
   },
   {
@@ -32,35 +32,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "伊朗",
-      "美伊",
-      "中央司令部"
+      "中央司令部",
+      "美伊"
     ],
     "action_hits": [
-      "死亡",
       "打擊",
-      "空襲"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美國空襲伊朗、撤售油許可 川普：諒解備忘錄「已終結」",
-    "link": "https://www.dw.com/zh/美國空襲伊朗、撤售油許可-川普：諒解備忘錄「已終結」/a-77869987?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 8 Jul 2026 10:04:00 GMT",
-    "summary": "美軍週二對伊朗發動新一波空襲，指控德黑蘭攻擊霍爾木茲海峽3艘商船，並撤銷允許伊朗出口石油的許可證。此前，霍爾木茲海峽有3艘油輪遭不明飛彈擊中，使原本脆弱的停火局勢進一步承受壓力。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "油輪",
-      "伊朗",
-      "霍爾木茲",
-      "美軍",
-      "海峽",
-      "德黑蘭"
-    ],
-    "action_hits": [
-      "停火",
       "空襲",
-      "油輪"
+      "死亡"
     ]
   },
   {
@@ -82,6 +60,24 @@
     ]
   },
   {
+    "source": "德国之声",
+    "title": "保密多日后官宣：美国将向德国出售战斧巡航导弹",
+    "link": "https://www.dw.com/zh/保密多日后官宣：美国将向德国出售战斧巡航导弹/a-77902884?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Fri, 10 Jul 2026 10:40:00 GMT",
+    "summary": "美国总统特朗普曾拒绝在德国部署战斧式巡航导弹。但柏林在幕后与华盛顿继续谈判，并在刚刚结束的北约峰会期间，与美方就购买战斧导弹达成一致。",
+    "lang": "zh",
+    "relevance_score": 72,
+    "entity_hits": [
+      "北约"
+    ],
+    "action_hits": [
+      "部署",
+      "导弹",
+      "谈判",
+      "巡航导弹"
+    ]
+  },
+  {
     "source": "FT中文网",
     "title": "油价下降，中国加紧从中东采购",
     "link": "https://www.ftchinese.com/story/001110249",
@@ -90,9 +86,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "油价",
       "中东",
-      "沙特"
+      "沙特",
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -111,8 +107,8 @@
       "美伊"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -129,10 +125,10 @@
       "iran"
     ],
     "action_hits": [
-      "tanker",
       "strike",
-      "attack",
-      "missile"
+      "tanker",
+      "missile",
+      "attack"
     ]
   },
   {
@@ -149,8 +145,8 @@
       "iran"
     ],
     "action_hits": [
-      "tanker",
       "strike",
+      "tanker",
       "attack",
       "launch"
     ]
@@ -164,9 +160,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "nato",
+      "iran",
       "tehran",
-      "iran"
+      "nato"
     ],
     "action_hits": [
       "strike"
@@ -181,12 +177,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "killed",
       "attack",
+      "killed",
       "ceasefire"
     ]
   },
@@ -216,12 +212,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "iran"
+      "iran",
+      "israel"
     ],
     "action_hits": [
-      "killed",
-      "attack"
+      "attack",
+      "killed"
     ]
   }
 ]
