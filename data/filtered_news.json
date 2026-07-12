@@ -1,44 +1,21 @@
 [
   {
     "source": "德国之声",
-    "title": "美伊衝突升級 伊朗再襲巴林、科威特等美軍基地",
-    "link": "https://www.dw.com/zh/美伊衝突升級-伊朗再襲巴林、科威特等美軍基地/a-77883211?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 9 Jul 2026 05:29:00 GMT",
-    "summary": "美軍再度空襲伊朗，伊朗則連續兩天以飛彈和無人機攻擊設有美軍基地的科威特及巴林，並揚言若華府再次動武，將擴大報復。此前，川普稱他認為美伊停火協議已經結束。",
+    "title": "特朗普威胁若遭暗杀将“摧毁伊朗” 称千枚导弹已待发",
+    "link": "https://www.dw.com/zh/特朗普威胁若遭暗杀将-摧毁伊朗-称千枚导弹已待发/a-77915557?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 11 Jul 2026 09:26:00 GMT",
+    "summary": "哈梅内伊葬礼期间，其子发表声明誓言为父复仇。特朗普则在社交媒体威胁，若企图暗杀自己，美国将“彻底摧毁”伊朗，并表示已有“1000枚导弹”瞄准该国。与此同时美国官员表示，华盛顿希望德黑兰公开承诺停止袭击霍尔木兹海峡过往船只，以使谈判取得进展。",
     "lang": "zh",
-    "relevance_score": 100,
+    "relevance_score": 80,
     "entity_hits": [
-      "美軍",
-      "巴林",
-      "美伊",
-      "伊朗",
-      "科威特"
+      "德黑兰",
+      "霍尔木兹",
+      "海峡",
+      "伊朗"
     ],
     "action_hits": [
-      "停火協議",
-      "無人機",
-      "報復",
-      "停火",
-      "空襲"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "哈梅內伊下葬之際，美伊互相發動攻擊",
-    "link": "https://www.bbc.com/zhongwen/articles/ckg8x8z317po/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 10 Jul 2026 04:46:09 GMT",
-    "summary": "美國中央司令部表示，在最新一輪空襲中打擊了90個伊朗目標；伊朗衛生部則表示，自週二以來已有14人死亡。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "伊朗",
-      "中央司令部",
-      "美伊"
-    ],
-    "action_hits": [
-      "打擊",
-      "空襲",
-      "死亡"
+      "导弹",
+      "谈判"
     ]
   },
   {
@@ -54,9 +31,9 @@
       "海峡"
     ],
     "action_hits": [
+      "拦截",
       "制裁",
-      "油轮",
-      "拦截"
+      "油轮"
     ]
   },
   {
@@ -71,10 +48,10 @@
       "北约"
     ],
     "action_hits": [
-      "部署",
       "导弹",
-      "谈判",
-      "巡航导弹"
+      "巡航导弹",
+      "部署",
+      "谈判"
     ]
   },
   {
@@ -86,9 +63,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "中东",
       "沙特",
-      "油价"
+      "油价",
+      "中东"
     ],
     "action_hits": [
       "油价"
@@ -103,12 +80,12 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "伊朗",
-      "美伊"
+      "美伊",
+      "伊朗"
     ],
     "action_hits": [
-      "停火协议",
-      "停火"
+      "停火",
+      "停火协议"
     ]
   },
   {
@@ -120,14 +97,14 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "hormuz",
       "strait",
+      "hormuz",
       "iran"
     ],
     "action_hits": [
-      "strike",
       "tanker",
       "missile",
+      "strike",
       "attack"
     ]
   },
@@ -140,15 +117,34 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "hormuz",
       "strait",
+      "hormuz",
       "iran"
     ],
     "action_hits": [
-      "strike",
       "tanker",
-      "attack",
-      "launch"
+      "launch",
+      "strike",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
+    "link": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 12 Jul 2026 04:17:07 GMT",
+    "summary": "The strikes follow an attack on a Cyrpus-flagged vessel travelling through the critical waterway.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "strait",
+      "hormuz",
+      "iran"
+    ],
+    "action_hits": [
+      "launch",
+      "strike",
+      "attack"
     ]
   },
   {
@@ -177,13 +173,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
+      "ceasefire",
       "attack",
-      "killed",
-      "ceasefire"
+      "killed"
     ]
   },
   {
@@ -195,8 +191,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
       "strait",
+      "hormuz",
       "iran"
     ],
     "action_hits": [
@@ -212,12 +208,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "israel"
+      "israel",
+      "iran"
     ],
     "action_hits": [
-      "attack",
-      "killed"
+      "killed",
+      "attack"
     ]
   }
 ]

@@ -68,7 +68,7 @@
         76.3,
         76.01
       ],
-      "updated": "2026-07-11T04:17:54.992721"
+      "updated": "2026-07-12T04:29:10.098763"
     },
     "wti": {
       "current": 71.41000366210938,
@@ -138,12 +138,12 @@
         72.08,
         71.41
       ],
-      "updated": "2026-07-11T04:17:55.064850"
+      "updated": "2026-07-12T04:29:10.274341"
     },
     "gold": {
-      "current": 4104.10009765625,
-      "day_change_pct": -0.64,
-      "war_change_pct": -13.46,
+      "current": 4113.7001953125,
+      "day_change_pct": -0.41,
+      "war_change_pct": -13.26,
       "dates": [
         "05/28",
         "05/29",
@@ -206,14 +206,14 @@
         4145.3,
         4070.9,
         4130.6,
-        4104.1
+        4113.7
       ],
-      "updated": "2026-07-11T04:17:55.136647"
+      "updated": "2026-07-12T04:29:10.437912"
     },
     "usd_cny": {
-      "current": 6.773099899291992,
-      "day_change_pct": -0.28,
-      "war_change_pct": -0.85,
+      "current": 6.76669979095459,
+      "day_change_pct": -0.37,
+      "war_change_pct": -0.95,
       "dates": [
         "06/02",
         "06/03",
@@ -244,7 +244,7 @@
         "07/08",
         "07/09",
         "07/10",
-        "07/11"
+        "07/12"
       ],
       "prices": [
         6.76,
@@ -278,7 +278,7 @@
         6.79,
         6.77
       ],
-      "updated": "2026-07-11T04:17:55.225647"
+      "updated": "2026-07-12T04:29:10.676136"
     },
     "nat_gas": {
       "current": 2.940000057220459,
@@ -348,7 +348,7 @@
         3.01,
         2.94
       ],
-      "updated": "2026-07-11T04:17:55.294979"
+      "updated": "2026-07-12T04:29:10.883582"
     }
   },
   "stocks": {
@@ -478,44 +478,21 @@
   "news": [
     {
       "source": "德国之声",
-      "title": "美伊衝突升級 伊朗再襲巴林、科威特等美軍基地",
-      "link": "https://www.dw.com/zh/美伊衝突升級-伊朗再襲巴林、科威特等美軍基地/a-77883211?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 9 Jul 2026 05:29:00 GMT",
-      "summary": "美軍再度空襲伊朗，伊朗則連續兩天以飛彈和無人機攻擊設有美軍基地的科威特及巴林，並揚言若華府再次動武，將擴大報復。此前，川普稱他認為美伊停火協議已經結束。",
+      "title": "特朗普威胁若遭暗杀将“摧毁伊朗” 称千枚导弹已待发",
+      "link": "https://www.dw.com/zh/特朗普威胁若遭暗杀将-摧毁伊朗-称千枚导弹已待发/a-77915557?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 11 Jul 2026 09:26:00 GMT",
+      "summary": "哈梅内伊葬礼期间，其子发表声明誓言为父复仇。特朗普则在社交媒体威胁，若企图暗杀自己，美国将“彻底摧毁”伊朗，并表示已有“1000枚导弹”瞄准该国。与此同时美国官员表示，华盛顿希望德黑兰公开承诺停止袭击霍尔木兹海峡过往船只，以使谈判取得进展。",
       "lang": "zh",
-      "relevance_score": 100,
+      "relevance_score": 80,
       "entity_hits": [
-        "美軍",
-        "巴林",
-        "美伊",
-        "伊朗",
-        "科威特"
+        "德黑兰",
+        "霍尔木兹",
+        "海峡",
+        "伊朗"
       ],
       "action_hits": [
-        "停火協議",
-        "無人機",
-        "報復",
-        "停火",
-        "空襲"
-      ]
-    },
-    {
-      "source": "BBC中文",
-      "title": "哈梅內伊下葬之際，美伊互相發動攻擊",
-      "link": "https://www.bbc.com/zhongwen/articles/ckg8x8z317po/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 10 Jul 2026 04:46:09 GMT",
-      "summary": "美國中央司令部表示，在最新一輪空襲中打擊了90個伊朗目標；伊朗衛生部則表示，自週二以來已有14人死亡。",
-      "lang": "zh",
-      "relevance_score": 90,
-      "entity_hits": [
-        "伊朗",
-        "中央司令部",
-        "美伊"
-      ],
-      "action_hits": [
-        "打擊",
-        "空襲",
-        "死亡"
+        "导弹",
+        "谈判"
       ]
     },
     {
@@ -531,9 +508,9 @@
         "海峡"
       ],
       "action_hits": [
+        "拦截",
         "制裁",
-        "油轮",
-        "拦截"
+        "油轮"
       ]
     },
     {
@@ -548,10 +525,10 @@
         "北约"
       ],
       "action_hits": [
-        "部署",
         "导弹",
-        "谈判",
-        "巡航导弹"
+        "巡航导弹",
+        "部署",
+        "谈判"
       ]
     },
     {
@@ -563,9 +540,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "中东",
         "沙特",
-        "油价"
+        "油价",
+        "中东"
       ],
       "action_hits": [
         "油价"
@@ -580,12 +557,12 @@
       "lang": "zh",
       "relevance_score": 67,
       "entity_hits": [
-        "伊朗",
-        "美伊"
+        "美伊",
+        "伊朗"
       ],
       "action_hits": [
-        "停火协议",
-        "停火"
+        "停火",
+        "停火协议"
       ]
     },
     {
@@ -597,14 +574,14 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "hormuz",
         "strait",
+        "hormuz",
         "iran"
       ],
       "action_hits": [
-        "strike",
         "tanker",
         "missile",
+        "strike",
         "attack"
       ]
     },
@@ -617,15 +594,34 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "hormuz",
         "strait",
+        "hormuz",
         "iran"
       ],
       "action_hits": [
-        "strike",
         "tanker",
-        "attack",
-        "launch"
+        "launch",
+        "strike",
+        "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
+      "link": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 12 Jul 2026 04:17:07 GMT",
+      "summary": "The strikes follow an attack on a Cyrpus-flagged vessel travelling through the critical waterway.",
+      "lang": "en",
+      "relevance_score": 90,
+      "entity_hits": [
+        "strait",
+        "hormuz",
+        "iran"
+      ],
+      "action_hits": [
+        "launch",
+        "strike",
+        "attack"
       ]
     },
     {
@@ -654,13 +650,13 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
+        "ceasefire",
         "attack",
-        "killed",
-        "ceasefire"
+        "killed"
       ]
     },
     {
@@ -672,8 +668,8 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "hormuz",
         "strait",
+        "hormuz",
         "iran"
       ],
       "action_hits": [
@@ -689,56 +685,42 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "iran",
-        "israel"
+        "israel",
+        "iran"
       ],
       "action_hits": [
-        "attack",
-        "killed"
+        "killed",
+        "attack"
       ]
     }
   ],
   "event_states": [
     {
-      "event_id": "349072308537",
-      "title": "美伊衝突升級 伊朗再襲巴林、科威特等美軍基地",
-      "location": "伊朗",
-      "first_seen_time": "2026-07-09T05:29:00+00:00",
-      "last_updated_time": "2026-07-09T05:29:00+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 100,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美伊衝突升級-伊朗再襲巴林、科威特等美軍基地/a-77883211?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
       "event_id": "5c9c980b589b",
-      "title": "US and Iran trade strikes after tankers hit in Strait of Hormuz",
+      "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
       "location": "霍尔木兹海峡",
       "first_seen_time": "2026-07-08T08:11:50+00:00",
-      "last_updated_time": "2026-07-08T08:11:50+00:00",
+      "last_updated_time": "2026-07-12T04:17:07+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 100,
-      "source_count": 2,
+      "source_count": 3,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
-      "event_id": "ecaf3c334bea",
-      "title": "哈梅內伊下葬之際，美伊互相發動攻擊",
-      "location": "伊朗",
-      "first_seen_time": "2026-07-10T04:46:09+00:00",
-      "last_updated_time": "2026-07-10T04:46:09+00:00",
+      "event_id": "6250ca50547d",
+      "title": "特朗普威胁若遭暗杀将“摧毁伊朗” 称千枚导弹已待发",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-07-11T09:26:00+00:00",
+      "last_updated_time": "2026-07-11T09:26:00+00:00",
       "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 90,
+      "trend": "improving",
+      "confidence": 80,
       "source_count": 2,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/ckg8x8z317po/trad?at_medium=RSS&at_campaign=rss",
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/特朗普威胁若遭暗杀将-摧毁伊朗-称千枚导弹已待发/a-77915557?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -770,20 +752,6 @@
       "lang": "zh"
     },
     {
-      "event_id": "772750b2d9f6",
-      "title": "Trump threatens more strikes on Iran as Tehran warns of 'fearless' response",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-07-08T18:05:31+00:00",
-      "last_updated_time": "2026-07-08T18:05:31+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "8f1c2cd655c0",
       "title": "Headteacher among four killed in deadliest Israeli attack on Lebanon since latest ceasefire",
       "location": "以色列",
@@ -810,12 +778,39 @@
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/videos/c04yxq2dldpo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
+    },
+    {
+      "event_id": "f6a812b28669",
+      "title": "中国PPI指数大幅上涨",
+      "location": "伊朗",
+      "first_seen_time": "2026-07-08T16:00:00+00:00",
+      "last_updated_time": "2026-07-08T16:00:00+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 67,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110267",
+      "lang": "zh"
+    },
+    {
+      "event_id": "3e8cf5135da2",
+      "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
+      "location": "伊朗",
+      "first_seen_time": "2026-07-05T17:58:01+00:00",
+      "last_updated_time": "2026-07-05T17:58:01+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 60,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/12",
         "6/13",
         "6/14",
         "6/15",
@@ -844,7 +839,8 @@
         "7/8",
         "7/9",
         "7/10",
-        "7/11"
+        "7/11",
+        "7/12"
       ],
       "transits": [
         0,
@@ -934,34 +930,27 @@
         21,
         69
       ],
-      "date_label": "7月11日"
+      "date_label": "7月12日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-11",
+      "hormuz_last_date": "2026-07-12",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 120,
+      "vlcc_stale_days": 121,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-11"
+      "routes_date": "2026-07-12"
     }
   },
   "meta": {
-    "report_date": "2026.07.11",
-    "report_date_cn": "2026年07月11日",
-    "war_day": 134,
+    "report_date": "2026.07.12",
+    "report_date_cn": "2026年07月12日",
+    "war_day": 135,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-11T12:18:28.221265+08:00",
-    "generated_at_cn": "2026-07-11 12:18:28 北京时间"
+    "generated_at": "2026-07-12T12:29:44.540122+08:00",
+    "generated_at_cn": "2026-07-12 12:29:44 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-13",
-      "brent": 102.25,
-      "wti": 104.91000366210938,
-      "gold": 4735.0,
-      "usd_cny": 6.832099914550781
-    },
     {
       "date": "2026-04-14",
       "brent": 98.13999938964844,
@@ -1584,6 +1573,13 @@
       "wti": 71.41000366210938,
       "gold": 4104.10009765625,
       "usd_cny": 6.773099899291992
+    },
+    {
+      "date": "2026-07-12",
+      "brent": 76.01000213623047,
+      "wti": 71.41000366210938,
+      "gold": 4113.7001953125,
+      "usd_cny": 6.76669979095459
     }
   ]
 }
