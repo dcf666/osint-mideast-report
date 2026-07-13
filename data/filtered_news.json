@@ -1,6 +1,25 @@
 [
   {
     "source": "德国之声",
+    "title": "遭美空袭 伊朗再关霍尔木兹海峡并袭击海湾多国",
+    "link": "https://www.dw.com/zh/遭美空袭-伊朗再关霍尔木兹海峡并袭击海湾多国/a-77923510?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sun, 12 Jul 2026 12:24:00 GMT",
+    "summary": "美军再次大规模空袭伊朗，称打击约140个军事目标，以回应伊朗袭击霍尔木兹海峡一艘商船。伊朗随后再次宣布关闭该海峡，并向多个海湾国家发动袭击。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "霍尔木兹",
+      "海峡",
+      "美军",
+      "伊朗"
+    ],
+    "action_hits": [
+      "空袭",
+      "打击"
+    ]
+  },
+  {
+    "source": "德国之声",
     "title": "特朗普威胁若遭暗杀将“摧毁伊朗” 称千枚导弹已待发",
     "link": "https://www.dw.com/zh/特朗普威胁若遭暗杀将-摧毁伊朗-称千枚导弹已待发/a-77915557?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Sat, 11 Jul 2026 09:26:00 GMT",
@@ -14,8 +33,8 @@
       "伊朗"
     ],
     "action_hits": [
-      "导弹",
-      "谈判"
+      "谈判",
+      "导弹"
     ]
   },
   {
@@ -27,31 +46,13 @@
     "lang": "zh",
     "relevance_score": 76,
     "entity_hits": [
-      "油轮",
-      "海峡"
-    ],
-    "action_hits": [
-      "拦截",
-      "制裁",
+      "海峡",
       "油轮"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "保密多日后官宣：美国将向德国出售战斧巡航导弹",
-    "link": "https://www.dw.com/zh/保密多日后官宣：美国将向德国出售战斧巡航导弹/a-77902884?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 10 Jul 2026 10:40:00 GMT",
-    "summary": "美国总统特朗普曾拒绝在德国部署战斧式巡航导弹。但柏林在幕后与华盛顿继续谈判，并在刚刚结束的北约峰会期间，与美方就购买战斧导弹达成一致。",
-    "lang": "zh",
-    "relevance_score": 72,
-    "entity_hits": [
-      "北约"
     ],
     "action_hits": [
-      "导弹",
-      "巡航导弹",
-      "部署",
-      "谈判"
+      "制裁",
+      "油轮",
+      "拦截"
     ]
   },
   {
@@ -64,8 +65,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "沙特",
-      "油价",
-      "中东"
+      "中东",
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -84,8 +85,8 @@
       "伊朗"
     ],
     "action_hits": [
-      "停火",
-      "停火协议"
+      "停火协议",
+      "停火"
     ]
   },
   {
@@ -98,13 +99,13 @@
     "relevance_score": 100,
     "entity_hits": [
       "strait",
-      "hormuz",
-      "iran"
+      "iran",
+      "hormuz"
     ],
     "action_hits": [
-      "tanker",
       "missile",
       "strike",
+      "tanker",
       "attack"
     ]
   },
@@ -118,32 +119,32 @@
     "relevance_score": 100,
     "entity_hits": [
       "strait",
-      "hormuz",
-      "iran"
+      "iran",
+      "hormuz"
     ],
     "action_hits": [
-      "tanker",
-      "launch",
       "strike",
-      "attack"
+      "launch",
+      "attack",
+      "tanker"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
+    "title": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
     "link": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 12 Jul 2026 04:17:07 GMT",
-    "summary": "The strikes follow an attack on a Cyrpus-flagged vessel travelling through the critical waterway.",
+    "published": "Sun, 12 Jul 2026 22:17:40 GMT",
+    "summary": "Iranian forces earlier said the Strait was closed and launched wide-ranging attacks at US allies and bases in the region.",
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
       "strait",
-      "hormuz",
-      "iran"
+      "iran",
+      "hormuz"
     ],
     "action_hits": [
-      "launch",
       "strike",
+      "launch",
       "attack"
     ]
   },
@@ -156,9 +157,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "nato",
       "iran",
-      "tehran",
-      "nato"
+      "tehran"
     ],
     "action_hits": [
       "strike"
@@ -177,9 +178,9 @@
       "lebanon"
     ],
     "action_hits": [
-      "ceasefire",
+      "killed",
       "attack",
-      "killed"
+      "ceasefire"
     ]
   },
   {
@@ -192,8 +193,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "strait",
-      "hormuz",
-      "iran"
+      "iran",
+      "hormuz"
     ],
     "action_hits": [
       "ceasefire"
