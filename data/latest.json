@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 79.12999725341797,
-      "day_change_pct": 4.1,
-      "war_change_pct": -20.36,
+      "current": 83.30000305175781,
+      "day_change_pct": 9.59,
+      "war_change_pct": -12.12,
       "dates": [
         "05/29",
         "06/01",
@@ -66,14 +66,14 @@
         78.02,
         76.3,
         76.01,
-        79.13
+        83.3
       ],
-      "updated": "2026-07-13T04:34:49.720405"
+      "updated": "2026-07-14T04:07:57.060330"
     },
     "wti": {
-      "current": 74.31999969482422,
-      "day_change_pct": 4.08,
-      "war_change_pct": -24.99,
+      "current": 78.13999938964844,
+      "day_change_pct": 9.42,
+      "war_change_pct": -14.4,
       "dates": [
         "05/29",
         "06/01",
@@ -136,14 +136,14 @@
         73.52,
         72.08,
         71.41,
-        74.32
+        78.14
       ],
-      "updated": "2026-07-13T04:34:49.818422"
+      "updated": "2026-07-14T04:07:57.240074"
     },
     "gold": {
-      "current": 4065.300048828125,
-      "day_change_pct": -0.95,
-      "war_change_pct": -14.28,
+      "current": 3997.0,
+      "day_change_pct": -2.61,
+      "war_change_pct": -17.16,
       "dates": [
         "05/29",
         "06/01",
@@ -206,16 +206,15 @@
         4070.9,
         4130.6,
         4104.1,
-        4065.3
+        3997.0
       ],
-      "updated": "2026-07-13T04:34:49.905967"
+      "updated": "2026-07-14T04:07:57.443590"
     },
     "usd_cny": {
-      "current": 6.783199787139893,
-      "day_change_pct": -0.13,
-      "war_change_pct": -0.65,
+      "current": 6.781000137329102,
+      "day_change_pct": 0.06,
+      "war_change_pct": -0.72,
       "dates": [
-        "06/02",
         "06/03",
         "06/04",
         "06/05",
@@ -244,10 +243,10 @@
         "07/08",
         "07/09",
         "07/10",
-        "07/13"
+        "07/13",
+        "07/14"
       ],
       "prices": [
-        6.76,
         6.76,
         6.77,
         6.77,
@@ -276,14 +275,15 @@
         6.79,
         6.8,
         6.79,
+        6.78,
         6.78
       ],
-      "updated": "2026-07-13T04:34:50.015481"
+      "updated": "2026-07-14T04:07:57.637141"
     },
     "nat_gas": {
-      "current": 2.9019999504089355,
-      "day_change_pct": -1.29,
-      "war_change_pct": 10.47,
+      "current": 2.8970000743865967,
+      "day_change_pct": -1.46,
+      "war_change_pct": 11.47,
       "dates": [
         "05/29",
         "06/01",
@@ -348,22 +348,25 @@
         2.94,
         2.9
       ],
-      "updated": "2026-07-13T04:34:50.107913"
+      "updated": "2026-07-14T04:07:57.797646"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 14.99,
-      "change_pct": -3.1,
-      "high": 15.56,
-      "low": 14.8,
-      "volume": 595062
+      "price": 14.62,
+      "change_pct": -1.42,
+      "high": 14.88,
+      "low": 14.43,
+      "volume": 595716
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 14.74,
+      "change_pct": -4.04,
+      "high": 15.28,
+      "low": 14.67,
+      "volume": 453997
     },
     "601975": {
       "name": "招商南油",
@@ -488,10 +491,10 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "霍尔木兹",
+        "伊朗",
         "海峡",
-        "美军",
-        "伊朗"
+        "霍尔木兹",
+        "美军"
       ],
       "action_hits": [
         "空袭",
@@ -507,10 +510,10 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "德黑兰",
-        "霍尔木兹",
+        "伊朗",
         "海峡",
-        "伊朗"
+        "霍尔木兹",
+        "德黑兰"
       ],
       "action_hits": [
         "谈判",
@@ -519,20 +522,19 @@
     },
     {
       "source": "FT中文网",
-      "title": "英法加大拦截力度 俄影子油轮避开英吉利海峡",
-      "link": "https://www.ftchinese.com/story/001110236",
-      "published": "Sun, 05 Jul 2026 16:00:00 GMT",
-      "summary": "船舶追踪数据显示，五艘曾靠泊俄罗斯最大石油装载港的受制裁油轮，上周五在北大西洋绕开英国航行，而不走英吉利海峡这一捷径。",
+      "title": "特朗普宣布恢复对伊朗封锁并接管霍尔木兹海峡",
+      "link": "https://www.ftchinese.com/story/001110303",
+      "published": "Mon, 13 Jul 2026 16:00:00 GMT",
+      "summary": "美国总统称，美国将成为该海峡的“守护者”，并对途经霍尔木兹海峡的海运货物征收20%的费用。他还宣布恢复对伊朗的海上封锁。",
       "lang": "zh",
-      "relevance_score": 76,
+      "relevance_score": 70,
       "entity_hits": [
+        "伊朗",
         "海峡",
-        "油轮"
+        "霍尔木兹"
       ],
       "action_hits": [
-        "制裁",
-        "油轮",
-        "拦截"
+        "封锁"
       ]
     },
     {
@@ -544,9 +546,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "沙特",
+        "油价",
         "中东",
-        "油价"
+        "沙特"
       ],
       "action_hits": [
         "油价"
@@ -561,12 +563,34 @@
       "lang": "zh",
       "relevance_score": 67,
       "entity_hits": [
-        "美伊",
-        "伊朗"
+        "伊朗",
+        "美伊"
       ],
       "action_hits": [
         "停火协议",
         "停火"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
+      "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 14 Jul 2026 04:05:13 GMT",
+      "summary": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the Strait of Hormuz.",
+      "lang": "en",
+      "relevance_score": 100,
+      "entity_hits": [
+        "uae",
+        "iran",
+        "strait",
+        "hormuz"
+      ],
+      "action_hits": [
+        "attack",
+        "launch",
+        "blockade",
+        "tanker",
+        "strike"
       ]
     },
     {
@@ -578,15 +602,15 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "strait",
         "iran",
+        "strait",
         "hormuz"
       ],
       "action_hits": [
-        "missile",
-        "strike",
         "tanker",
-        "attack"
+        "attack",
+        "missile",
+        "strike"
       ]
     },
     {
@@ -598,15 +622,15 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "strait",
         "iran",
+        "strait",
         "hormuz"
       ],
       "action_hits": [
-        "strike",
         "launch",
+        "tanker",
         "attack",
-        "tanker"
+        "strike"
       ]
     },
     {
@@ -618,13 +642,69 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
         "iran",
+        "strait",
         "hormuz"
       ],
       "action_hits": [
-        "strike",
         "launch",
+        "attack",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US and Iran trade attacks as Khamenei is buried",
+      "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 10 Jul 2026 04:18:14 GMT",
+      "summary": "Centcom says it hit 90 Iranian targets in the latest round of strikes, with the Iranian health ministry saying 14 people were killed since Tuesday.",
+      "lang": "en",
+      "relevance_score": 77,
+      "entity_hits": [
+        "centcom",
+        "iran"
+      ],
+      "action_hits": [
+        "killed",
+        "attack",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
+      "link": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Jul 2026 15:16:09 GMT",
+      "summary": "Within hours of the latest US attacks, Iran said it had struck US military assets in Kuwait, Jordan, Bahrain and Oman.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "oman",
+        "iran",
+        "strait",
+        "jordan",
+        "bahrain",
+        "hormuz",
+        "kuwait"
+      ],
+      "action_hits": [
+        "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
+      "link": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 11 Jul 2026 16:55:57 GMT",
+      "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "iran",
+        "strait",
+        "hormuz"
+      ],
+      "action_hits": [
         "attack"
       ]
     },
@@ -638,79 +718,41 @@
       "relevance_score": 70,
       "entity_hits": [
         "nato",
-        "iran",
-        "tehran"
-      ],
-      "action_hits": [
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Headteacher among four killed in deadliest Israeli attack on Lebanon since latest ceasefire",
-      "link": "https://www.bbc.co.uk/news/articles/crlwwwyy70do?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 06 Jul 2026 17:44:57 GMT",
-      "summary": "Three women and one man were travelling in a car after visiting their family home, Lebanese state media reported.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "israel",
-        "lebanon"
-      ],
-      "action_hits": [
-        "killed",
-        "attack",
-        "ceasefire"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "BBC reports from the Strait of Hormuz during fragile ceasefire",
-      "link": "https://www.bbc.co.uk/news/videos/c04yxq2dldpo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 02 Jul 2026 22:46:41 GMT",
-      "summary": "Dozens of boats are still anchored in the Strait, while ordinary Iranians try to continue to their lives.",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "strait",
-        "iran",
-        "hormuz"
-      ],
-      "action_hits": [
-        "ceasefire"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
-      "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 05 Jul 2026 17:58:01 GMT",
-      "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the outset of the US-Israel war with Iran.",
-      "lang": "en",
-      "relevance_score": 60,
-      "entity_hits": [
-        "israel",
+        "tehran",
         "iran"
       ],
       "action_hits": [
-        "killed",
-        "attack"
+        "strike"
       ]
     }
   ],
   "event_states": [
     {
       "event_id": "db3268ac3614",
-      "title": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
+      "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
       "location": "霍尔木兹海峡",
       "first_seen_time": "2026-07-12T12:24:00+00:00",
-      "last_updated_time": "2026-07-12T22:17:40+00:00",
+      "last_updated_time": "2026-07-13T15:16:09+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 100,
-      "source_count": 4,
+      "source_count": 6,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/遭美空袭-伊朗再关霍尔木兹海峡并袭击海湾多国/a-77923510?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "ab2f305e3085",
+      "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-07-13T16:00:00+00:00",
+      "last_updated_time": "2026-07-14T04:05:13+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "improving",
+      "confidence": 100,
+      "source_count": 2,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110303",
       "lang": "zh"
     },
     {
@@ -728,18 +770,18 @@
       "lang": "zh"
     },
     {
-      "event_id": "2392a8d47231",
-      "title": "英法加大拦截力度 俄影子油轮避开英吉利海峡",
-      "location": "中东地区",
-      "first_seen_time": "2026-07-05T16:00:00+00:00",
-      "last_updated_time": "2026-07-05T16:00:00+00:00",
+      "event_id": "31a0576e50be",
+      "title": "US and Iran trade attacks as Khamenei is buried",
+      "location": "伊朗",
+      "first_seen_time": "2026-07-10T04:18:14+00:00",
+      "last_updated_time": "2026-07-10T04:18:14+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
-      "confidence": 76,
+      "confidence": 77,
       "source_count": 1,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110236",
-      "lang": "zh"
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "1a69b983e5cd",
@@ -756,34 +798,6 @@
       "lang": "zh"
     },
     {
-      "event_id": "8f1c2cd655c0",
-      "title": "Headteacher among four killed in deadliest Israeli attack on Lebanon since latest ceasefire",
-      "location": "以色列",
-      "first_seen_time": "2026-07-06T17:44:57+00:00",
-      "last_updated_time": "2026-07-06T17:44:57+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/crlwwwyy70do?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "6c03eae694c7",
-      "title": "BBC reports from the Strait of Hormuz during fragile ceasefire",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-07-02T22:46:41+00:00",
-      "last_updated_time": "2026-07-02T22:46:41+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/videos/c04yxq2dldpo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "f6a812b28669",
       "title": "中国PPI指数大幅上涨",
       "location": "伊朗",
@@ -796,26 +810,11 @@
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001110267",
       "lang": "zh"
-    },
-    {
-      "event_id": "3e8cf5135da2",
-      "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
-      "location": "伊朗",
-      "first_seen_time": "2026-07-05T17:58:01+00:00",
-      "last_updated_time": "2026-07-05T17:58:01+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 60,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/14",
         "6/15",
         "6/16",
         "6/17",
@@ -844,7 +843,8 @@
         "7/10",
         "7/11",
         "7/12",
-        "7/13"
+        "7/13",
+        "7/14"
       ],
       "transits": [
         0,
@@ -934,34 +934,27 @@
         21,
         69
       ],
-      "date_label": "7月13日"
+      "date_label": "7月14日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-13",
+      "hormuz_last_date": "2026-07-14",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 122,
+      "vlcc_stale_days": 123,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-13"
+      "routes_date": "2026-07-14"
     }
   },
   "meta": {
-    "report_date": "2026.07.13",
-    "report_date_cn": "2026年07月13日",
-    "war_day": 136,
+    "report_date": "2026.07.14",
+    "report_date_cn": "2026年07月14日",
+    "war_day": 137,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-13T12:35:21.610154+08:00",
-    "generated_at_cn": "2026-07-13 12:35:21 北京时间"
+    "generated_at": "2026-07-14T12:08:32.252589+08:00",
+    "generated_at_cn": "2026-07-14 12:08:32 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-15",
-      "brent": 95.04000091552734,
-      "wti": 90.94999694824219,
-      "gold": 4845.10009765625,
-      "usd_cny": 6.816299915313721
-    },
     {
       "date": "2026-04-16",
       "brent": 95.0999984741211,
@@ -1584,6 +1577,13 @@
       "wti": 74.31999969482422,
       "gold": 4065.300048828125,
       "usd_cny": 6.783199787139893
+    },
+    {
+      "date": "2026-07-14",
+      "brent": 83.30000305175781,
+      "wti": 78.13999938964844,
+      "gold": 3997.0,
+      "usd_cny": 6.781000137329102
     }
   ]
 }

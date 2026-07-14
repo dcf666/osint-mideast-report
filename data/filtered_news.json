@@ -8,10 +8,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍尔木兹",
+      "伊朗",
       "海峡",
-      "美军",
-      "伊朗"
+      "霍尔木兹",
+      "美军"
     ],
     "action_hits": [
       "空袭",
@@ -27,10 +27,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "德黑兰",
-      "霍尔木兹",
+      "伊朗",
       "海峡",
-      "伊朗"
+      "霍尔木兹",
+      "德黑兰"
     ],
     "action_hits": [
       "谈判",
@@ -39,20 +39,19 @@
   },
   {
     "source": "FT中文网",
-    "title": "英法加大拦截力度 俄影子油轮避开英吉利海峡",
-    "link": "https://www.ftchinese.com/story/001110236",
-    "published": "Sun, 05 Jul 2026 16:00:00 GMT",
-    "summary": "船舶追踪数据显示，五艘曾靠泊俄罗斯最大石油装载港的受制裁油轮，上周五在北大西洋绕开英国航行，而不走英吉利海峡这一捷径。",
+    "title": "特朗普宣布恢复对伊朗封锁并接管霍尔木兹海峡",
+    "link": "https://www.ftchinese.com/story/001110303",
+    "published": "Mon, 13 Jul 2026 16:00:00 GMT",
+    "summary": "美国总统称，美国将成为该海峡的“守护者”，并对途经霍尔木兹海峡的海运货物征收20%的费用。他还宣布恢复对伊朗的海上封锁。",
     "lang": "zh",
-    "relevance_score": 76,
+    "relevance_score": 70,
     "entity_hits": [
+      "伊朗",
       "海峡",
-      "油轮"
+      "霍尔木兹"
     ],
     "action_hits": [
-      "制裁",
-      "油轮",
-      "拦截"
+      "封锁"
     ]
   },
   {
@@ -64,9 +63,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "沙特",
+      "油价",
       "中东",
-      "油价"
+      "沙特"
     ],
     "action_hits": [
       "油价"
@@ -81,12 +80,34 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "美伊",
-      "伊朗"
+      "伊朗",
+      "美伊"
     ],
     "action_hits": [
       "停火协议",
       "停火"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
+    "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 14 Jul 2026 04:05:13 GMT",
+    "summary": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the Strait of Hormuz.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "uae",
+      "iran",
+      "strait",
+      "hormuz"
+    ],
+    "action_hits": [
+      "attack",
+      "launch",
+      "blockade",
+      "tanker",
+      "strike"
     ]
   },
   {
@@ -98,15 +119,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "strait",
       "iran",
+      "strait",
       "hormuz"
     ],
     "action_hits": [
-      "missile",
-      "strike",
       "tanker",
-      "attack"
+      "attack",
+      "missile",
+      "strike"
     ]
   },
   {
@@ -118,15 +139,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "strait",
       "iran",
+      "strait",
       "hormuz"
     ],
     "action_hits": [
-      "strike",
       "launch",
+      "tanker",
       "attack",
-      "tanker"
+      "strike"
     ]
   },
   {
@@ -138,13 +159,69 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "strait",
       "iran",
+      "strait",
       "hormuz"
     ],
     "action_hits": [
-      "strike",
       "launch",
+      "attack",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US and Iran trade attacks as Khamenei is buried",
+    "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 10 Jul 2026 04:18:14 GMT",
+    "summary": "Centcom says it hit 90 Iranian targets in the latest round of strikes, with the Iranian health ministry saying 14 people were killed since Tuesday.",
+    "lang": "en",
+    "relevance_score": 77,
+    "entity_hits": [
+      "centcom",
+      "iran"
+    ],
+    "action_hits": [
+      "killed",
+      "attack",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
+    "link": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 13 Jul 2026 15:16:09 GMT",
+    "summary": "Within hours of the latest US attacks, Iran said it had struck US military assets in Kuwait, Jordan, Bahrain and Oman.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "oman",
+      "iran",
+      "strait",
+      "jordan",
+      "bahrain",
+      "hormuz",
+      "kuwait"
+    ],
+    "action_hits": [
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
+    "link": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 11 Jul 2026 16:55:57 GMT",
+    "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "iran",
+      "strait",
+      "hormuz"
+    ],
+    "action_hits": [
       "attack"
     ]
   },
@@ -158,63 +235,11 @@
     "relevance_score": 70,
     "entity_hits": [
       "nato",
-      "iran",
-      "tehran"
-    ],
-    "action_hits": [
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Headteacher among four killed in deadliest Israeli attack on Lebanon since latest ceasefire",
-    "link": "https://www.bbc.co.uk/news/articles/crlwwwyy70do?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 06 Jul 2026 17:44:57 GMT",
-    "summary": "Three women and one man were travelling in a car after visiting their family home, Lebanese state media reported.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "israel",
-      "lebanon"
-    ],
-    "action_hits": [
-      "killed",
-      "attack",
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "BBC reports from the Strait of Hormuz during fragile ceasefire",
-    "link": "https://www.bbc.co.uk/news/videos/c04yxq2dldpo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 02 Jul 2026 22:46:41 GMT",
-    "summary": "Dozens of boats are still anchored in the Strait, while ordinary Iranians try to continue to their lives.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "strait",
-      "iran",
-      "hormuz"
-    ],
-    "action_hits": [
-      "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
-    "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 05 Jul 2026 17:58:01 GMT",
-    "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the outset of the US-Israel war with Iran.",
-    "lang": "en",
-    "relevance_score": 60,
-    "entity_hits": [
-      "israel",
+      "tehran",
       "iran"
     ],
     "action_hits": [
-      "killed",
-      "attack"
+      "strike"
     ]
   }
 ]

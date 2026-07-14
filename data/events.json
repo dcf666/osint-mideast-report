@@ -1,16 +1,30 @@
 [
   {
     "event_id": "db3268ac3614",
-    "title": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
+    "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-07-12T12:24:00+00:00",
-    "last_updated_time": "2026-07-12T22:17:40+00:00",
+    "last_updated_time": "2026-07-13T15:16:09+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 100,
-    "source_count": 4,
+    "source_count": 6,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/遭美空袭-伊朗再关霍尔木兹海峡并袭击海湾多国/a-77923510?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "ab2f305e3085",
+    "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-07-13T16:00:00+00:00",
+    "last_updated_time": "2026-07-14T04:05:13+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "improving",
+    "confidence": 100,
+    "source_count": 2,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110303",
     "lang": "zh"
   },
   {
@@ -28,18 +42,18 @@
     "lang": "zh"
   },
   {
-    "event_id": "2392a8d47231",
-    "title": "英法加大拦截力度 俄影子油轮避开英吉利海峡",
-    "location": "中东地区",
-    "first_seen_time": "2026-07-05T16:00:00+00:00",
-    "last_updated_time": "2026-07-05T16:00:00+00:00",
+    "event_id": "31a0576e50be",
+    "title": "US and Iran trade attacks as Khamenei is buried",
+    "location": "伊朗",
+    "first_seen_time": "2026-07-10T04:18:14+00:00",
+    "last_updated_time": "2026-07-10T04:18:14+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 76,
+    "confidence": 77,
     "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110236",
-    "lang": "zh"
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "1a69b983e5cd",
@@ -56,34 +70,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "8f1c2cd655c0",
-    "title": "Headteacher among four killed in deadliest Israeli attack on Lebanon since latest ceasefire",
-    "location": "以色列",
-    "first_seen_time": "2026-07-06T17:44:57+00:00",
-    "last_updated_time": "2026-07-06T17:44:57+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/crlwwwyy70do?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "6c03eae694c7",
-    "title": "BBC reports from the Strait of Hormuz during fragile ceasefire",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-02T22:46:41+00:00",
-    "last_updated_time": "2026-07-02T22:46:41+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/videos/c04yxq2dldpo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "f6a812b28669",
     "title": "中国PPI指数大幅上涨",
     "location": "伊朗",
@@ -96,19 +82,5 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110267",
     "lang": "zh"
-  },
-  {
-    "event_id": "3e8cf5135da2",
-    "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
-    "location": "伊朗",
-    "first_seen_time": "2026-07-05T17:58:01+00:00",
-    "last_updated_time": "2026-07-05T17:58:01+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 60,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   }
 ]
