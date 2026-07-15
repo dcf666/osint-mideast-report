@@ -1,6 +1,28 @@
 [
   {
     "source": "德国之声",
+    "title": "川普將恢復封鎖伊朗海運 稱美國是「霍爾木茲海峽守護者」",
+    "link": "https://www.dw.com/zh/川普將恢復封鎖伊朗海運-稱美國是「霍爾木茲海峽守護者」/a-77943217?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Tue, 14 Jul 2026 04:26:00 GMT",
+    "summary": "美軍連續三天空襲伊朗，美國總統川普13日宣布將恢復封鎖伊朗海運，並對所有通過該航道的貨物收取通行費。伊朗則以飛彈及無人機反擊美軍設施，並在霍爾木茲海峽攻擊兩艘油輪。",
+    "lang": "zh",
+    "relevance_score": 100,
+    "entity_hits": [
+      "油輪",
+      "霍爾木茲",
+      "美軍",
+      "伊朗",
+      "海峽"
+    ],
+    "action_hits": [
+      "封鎖",
+      "空襲",
+      "無人機",
+      "油輪"
+    ]
+  },
+  {
+    "source": "德国之声",
     "title": "遭美空袭 伊朗再关霍尔木兹海峡并袭击海湾多国",
     "link": "https://www.dw.com/zh/遭美空袭-伊朗再关霍尔木兹海峡并袭击海湾多国/a-77923510?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Sun, 12 Jul 2026 12:24:00 GMT",
@@ -8,10 +30,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
       "海峡",
-      "霍尔木兹",
-      "美军"
+      "美军",
+      "伊朗",
+      "霍尔木兹"
     ],
     "action_hits": [
       "空袭",
@@ -27,14 +49,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
       "海峡",
-      "霍尔木兹",
-      "德黑兰"
+      "德黑兰",
+      "伊朗",
+      "霍尔木兹"
     ],
     "action_hits": [
-      "谈判",
-      "导弹"
+      "导弹",
+      "谈判"
     ]
   },
   {
@@ -46,29 +68,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "海峡",
+      "伊朗",
       "霍尔木兹"
     ],
     "action_hits": [
       "封锁"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "油价下降，中国加紧从中东采购",
-    "link": "https://www.ftchinese.com/story/001110249",
-    "published": "Mon, 06 Jul 2026 16:00:00 GMT",
-    "summary": "沙特阿美目前给亚洲买家打的折扣，是自2020年6月以来力度最大的，分析师认为此举将促使中国加大采购。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "油价",
-      "中东",
-      "沙特"
-    ],
-    "action_hits": [
-      "油价"
     ]
   },
   {
@@ -80,8 +85,8 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "伊朗",
-      "美伊"
+      "美伊",
+      "伊朗"
     ],
     "action_hits": [
       "停火协议",
@@ -92,62 +97,43 @@
     "source": "BBC中东",
     "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
     "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 14 Jul 2026 04:05:13 GMT",
+    "published": "Tue, 14 Jul 2026 04:50:48 GMT",
     "summary": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the Strait of Hormuz.",
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "hormuz",
       "uae",
-      "iran",
       "strait",
-      "hormuz"
+      "iran"
     ],
     "action_hits": [
-      "attack",
       "launch",
       "blockade",
-      "tanker",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US and Iran trade strikes after tankers hit in Strait of Hormuz",
-    "link": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 08 Jul 2026 08:11:50 GMT",
-    "summary": "The US military says it hit missile sites and command centres while Iran says it attacked US bases.",
-    "lang": "en",
-    "relevance_score": 100,
-    "entity_hits": [
-      "iran",
-      "strait",
-      "hormuz"
-    ],
-    "action_hits": [
-      "tanker",
       "attack",
-      "missile",
+      "tanker",
       "strike"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "US strikes target Iranian military boats",
-    "link": "https://www.bbc.co.uk/news/videos/cn94nqzwpxwo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 08 Jul 2026 05:42:37 GMT",
-    "summary": "The US has launched the strikes on Iran in response to attacks on three oil tankers in the Strait of Hormuz.",
+    "title": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
+    "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 14 Jul 2026 10:02:43 GMT",
+    "summary": "The Iran-backed Houthis blame Saudi Arabia for the attack in Yemen's capital and say they targeted Abha airport in response.",
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "iran",
-      "strait",
-      "hormuz"
+      "yemen",
+      "houthi",
+      "saudi",
+      "iran"
     ],
     "action_hits": [
       "launch",
-      "tanker",
       "attack",
-      "strike"
+      "strike",
+      "missile"
     ]
   },
   {
@@ -159,9 +145,9 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
+      "hormuz",
       "strait",
-      "hormuz"
+      "iran"
     ],
     "action_hits": [
       "launch",
@@ -197,12 +183,12 @@
     "relevance_score": 70,
     "entity_hits": [
       "oman",
-      "iran",
-      "strait",
-      "jordan",
       "bahrain",
+      "jordan",
       "hormuz",
-      "kuwait"
+      "strait",
+      "kuwait",
+      "iran"
     ],
     "action_hits": [
       "attack"
@@ -217,9 +203,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
+      "hormuz",
       "strait",
-      "hormuz"
+      "iran"
     ],
     "action_hits": [
       "attack"
@@ -239,6 +225,23 @@
       "iran"
     ],
     "action_hits": [
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli strike on police post in north Gaza kills seven, officials say",
+    "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 14 Jul 2026 17:13:27 GMT",
+    "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "hamas",
+      "israel"
+    ],
+    "action_hits": [
+      "killed",
       "strike"
     ]
   }

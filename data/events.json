@@ -1,16 +1,16 @@
 [
   {
-    "event_id": "db3268ac3614",
-    "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
+    "event_id": "37d6616212a4",
+    "title": "川普將恢復封鎖伊朗海運 稱美國是「霍爾木茲海峽守護者」",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-12T12:24:00+00:00",
-    "last_updated_time": "2026-07-13T15:16:09+00:00",
+    "first_seen_time": "2026-07-14T04:26:00+00:00",
+    "last_updated_time": "2026-07-14T04:26:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 100,
-    "source_count": 6,
+    "source_count": 5,
     "source": "德国之声",
-    "link": "https://www.dw.com/zh/遭美空袭-伊朗再关霍尔木兹海峡并袭击海湾多国/a-77923510?maca=chi-rss-chi-all-1127-xml-mrss",
+    "link": "https://www.dw.com/zh/川普將恢復封鎖伊朗海運-稱美國是「霍爾木茲海峽守護者」/a-77943217?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -18,7 +18,7 @@
     "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-07-13T16:00:00+00:00",
-    "last_updated_time": "2026-07-14T04:05:13+00:00",
+    "last_updated_time": "2026-07-14T04:50:48+00:00",
     "current_status": "shipping_disrupted",
     "trend": "improving",
     "confidence": 100,
@@ -26,6 +26,20 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110303",
     "lang": "zh"
+  },
+  {
+    "event_id": "3ab2e7fe62cd",
+    "title": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
+    "location": "伊朗",
+    "first_seen_time": "2026-07-14T10:02:43+00:00",
+    "last_updated_time": "2026-07-14T10:02:43+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 100,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "6250ca50547d",
@@ -42,34 +56,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "31a0576e50be",
-    "title": "US and Iran trade attacks as Khamenei is buried",
-    "location": "伊朗",
-    "first_seen_time": "2026-07-10T04:18:14+00:00",
-    "last_updated_time": "2026-07-10T04:18:14+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 77,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "1a69b983e5cd",
-    "title": "油价下降，中国加紧从中东采购",
-    "location": "沙特阿拉伯",
-    "first_seen_time": "2026-07-06T16:00:00+00:00",
-    "last_updated_time": "2026-07-06T16:00:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110249",
-    "lang": "zh"
-  },
-  {
     "event_id": "f6a812b28669",
     "title": "中国PPI指数大幅上涨",
     "location": "伊朗",
@@ -82,5 +68,19 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110267",
     "lang": "zh"
+  },
+  {
+    "event_id": "ffaab3b8c36d",
+    "title": "Israeli strike on police post in north Gaza kills seven, officials say",
+    "location": "以色列",
+    "first_seen_time": "2026-07-14T17:13:27+00:00",
+    "last_updated_time": "2026-07-14T17:13:27+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   }
 ]
