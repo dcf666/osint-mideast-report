@@ -36,38 +36,24 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 100,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
-    "event_id": "6250ca50547d",
-    "title": "特朗普威胁若遭暗杀将“摧毁伊朗” 称千枚导弹已待发",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-07-11T09:26:00+00:00",
-    "last_updated_time": "2026-07-11T09:26:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 2,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/特朗普威胁若遭暗杀将-摧毁伊朗-称千枚导弹已待发/a-77915557?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
-    "event_id": "f6a812b28669",
-    "title": "中国PPI指数大幅上涨",
-    "location": "伊朗",
-    "first_seen_time": "2026-07-08T16:00:00+00:00",
-    "last_updated_time": "2026-07-08T16:00:00+00:00",
+    "event_id": "46aee9d55f47",
+    "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-07-14T19:13:49+00:00",
+    "last_updated_time": "2026-07-14T19:13:49+00:00",
     "current_status": "ceasefire",
     "trend": "improving",
-    "confidence": 67,
+    "confidence": 70,
     "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110267",
-    "lang": "zh"
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "ffaab3b8c36d",
@@ -81,6 +67,20 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "4b3c3d8a687a",
+    "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-07-16T04:06:11+00:00",
+    "last_updated_time": "2026-07-16T04:06:11+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 65,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

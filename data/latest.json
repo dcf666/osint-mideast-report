@@ -1,151 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 84.7300033569336,
-      "day_change_pct": 1.72,
-      "war_change_pct": -10.74,
+      "current": 84.79000091552734,
+      "day_change_pct": -0.19,
+      "war_change_pct": -14.69,
       "dates": [
-        "06/01",
-        "06/02",
-        "06/03",
-        "06/04",
-        "06/05",
-        "06/08",
-        "06/09",
-        "06/10",
-        "06/11",
-        "06/12",
-        "06/15",
-        "06/16",
-        "06/17",
-        "06/18",
-        "06/22",
-        "06/23",
-        "06/24",
-        "06/25",
-        "06/26",
-        "06/29",
-        "06/30",
-        "07/01",
-        "07/02",
-        "07/06",
-        "07/07",
-        "07/08",
-        "07/09",
-        "07/10",
-        "07/13",
-        "07/14"
-      ],
-      "prices": [
-        94.98,
-        96.0,
-        97.81,
-        95.03,
-        93.09,
-        94.25,
-        91.45,
-        93.1,
-        90.38,
-        87.33,
-        83.17,
-        78.96,
-        79.55,
-        79.85,
-        77.9,
-        77.08,
-        73.74,
-        75.26,
-        71.99,
-        73.15,
-        72.92,
-        71.57,
-        71.8,
-        71.99,
-        74.16,
-        78.02,
-        76.3,
-        76.01,
-        83.3,
-        84.73
-      ],
-      "updated": "2026-07-15T04:10:03.899894"
-    },
-    "wti": {
-      "current": 79.33999633789062,
-      "day_change_pct": 1.54,
-      "war_change_pct": -13.09,
-      "dates": [
-        "06/01",
-        "06/02",
-        "06/03",
-        "06/04",
-        "06/05",
-        "06/08",
-        "06/09",
-        "06/10",
-        "06/11",
-        "06/12",
-        "06/15",
-        "06/16",
-        "06/17",
-        "06/18",
-        "06/22",
-        "06/23",
-        "06/24",
-        "06/25",
-        "06/26",
-        "06/29",
-        "06/30",
-        "07/01",
-        "07/02",
-        "07/06",
-        "07/07",
-        "07/08",
-        "07/09",
-        "07/10",
-        "07/13",
-        "07/14"
-      ],
-      "prices": [
-        92.16,
-        93.76,
-        96.02,
-        93.04,
-        90.54,
-        91.3,
-        88.2,
-        90.03,
-        87.71,
-        84.88,
-        80.75,
-        76.05,
-        76.79,
-        76.6,
-        74.82,
-        73.21,
-        70.34,
-        71.92,
-        69.23,
-        70.75,
-        69.5,
-        68.58,
-        68.69,
-        68.55,
-        70.44,
-        73.52,
-        72.08,
-        71.41,
-        78.14,
-        79.34
-      ],
-      "updated": "2026-07-15T04:10:04.132643"
-    },
-    "gold": {
-      "current": 4036.5,
-      "day_change_pct": -0.61,
-      "war_change_pct": -15.91,
-      "dates": [
-        "06/02",
         "06/03",
         "06/04",
         "06/05",
@@ -174,10 +33,150 @@
         "07/10",
         "07/13",
         "07/14",
-        "07/15"
+        "07/15",
+        "07/16"
       ],
       "prices": [
-        4489.1,
+        97.81,
+        95.03,
+        93.09,
+        94.25,
+        91.45,
+        93.1,
+        90.38,
+        87.33,
+        83.17,
+        78.96,
+        79.55,
+        79.85,
+        77.9,
+        77.08,
+        73.74,
+        75.26,
+        71.99,
+        73.15,
+        72.92,
+        71.57,
+        71.8,
+        71.99,
+        74.16,
+        78.02,
+        76.3,
+        76.01,
+        83.3,
+        84.73,
+        84.95,
+        84.79
+      ],
+      "updated": "2026-07-16T04:13:28.938094"
+    },
+    "wti": {
+      "current": 79.58999633789062,
+      "day_change_pct": -0.01,
+      "war_change_pct": -15.95,
+      "dates": [
+        "06/03",
+        "06/04",
+        "06/05",
+        "06/08",
+        "06/09",
+        "06/10",
+        "06/11",
+        "06/12",
+        "06/15",
+        "06/16",
+        "06/17",
+        "06/18",
+        "06/22",
+        "06/23",
+        "06/24",
+        "06/25",
+        "06/26",
+        "06/29",
+        "06/30",
+        "07/01",
+        "07/02",
+        "07/06",
+        "07/07",
+        "07/08",
+        "07/09",
+        "07/10",
+        "07/13",
+        "07/14",
+        "07/15",
+        "07/16"
+      ],
+      "prices": [
+        96.02,
+        93.04,
+        90.54,
+        91.3,
+        88.2,
+        90.03,
+        87.71,
+        84.88,
+        80.75,
+        76.05,
+        76.79,
+        76.6,
+        74.82,
+        73.21,
+        70.34,
+        71.92,
+        69.23,
+        70.75,
+        69.5,
+        68.58,
+        68.69,
+        68.55,
+        70.44,
+        73.52,
+        72.08,
+        71.41,
+        78.14,
+        79.34,
+        79.6,
+        79.59
+      ],
+      "updated": "2026-07-16T04:13:29.008270"
+    },
+    "gold": {
+      "current": 4040.60009765625,
+      "day_change_pct": -0.08,
+      "war_change_pct": -15.56,
+      "dates": [
+        "06/03",
+        "06/04",
+        "06/05",
+        "06/08",
+        "06/09",
+        "06/10",
+        "06/11",
+        "06/12",
+        "06/15",
+        "06/16",
+        "06/17",
+        "06/18",
+        "06/22",
+        "06/23",
+        "06/24",
+        "06/25",
+        "06/26",
+        "06/29",
+        "06/30",
+        "07/01",
+        "07/02",
+        "07/06",
+        "07/07",
+        "07/08",
+        "07/09",
+        "07/10",
+        "07/13",
+        "07/14",
+        "07/15",
+        "07/16"
+      ],
+      "prices": [
         4436.7,
         4475.8,
         4337.1,
@@ -206,16 +205,16 @@
         4104.1,
         3997.0,
         4061.1,
-        4036.5
+        4044.0,
+        4040.6
       ],
-      "updated": "2026-07-15T04:10:04.417681"
+      "updated": "2026-07-16T04:13:29.078592"
     },
     "usd_cny": {
-      "current": 6.768400192260742,
-      "day_change_pct": -0.16,
-      "war_change_pct": -0.69,
+      "current": 6.765500068664551,
+      "day_change_pct": -0.07,
+      "war_change_pct": -0.77,
       "dates": [
-        "06/04",
         "06/05",
         "06/08",
         "06/09",
@@ -244,7 +243,8 @@
         "07/10",
         "07/13",
         "07/14",
-        "07/15"
+        "07/15",
+        "07/16"
       ],
       "prices": [
         6.77,
@@ -252,7 +252,6 @@
         6.77,
         6.77,
         6.77,
-        6.77,
         6.78,
         6.77,
         6.76,
@@ -276,17 +275,16 @@
         6.79,
         6.78,
         6.78,
+        6.77,
         6.77
       ],
-      "updated": "2026-07-15T04:10:04.730841"
+      "updated": "2026-07-16T04:13:29.153668"
     },
     "nat_gas": {
-      "current": 2.9040000438690186,
-      "day_change_pct": 0.24,
-      "war_change_pct": 11.26,
+      "current": 2.9070000648498535,
+      "day_change_pct": -0.58,
+      "war_change_pct": 9.82,
       "dates": [
-        "06/01",
-        "06/02",
         "06/03",
         "06/04",
         "06/05",
@@ -314,11 +312,11 @@
         "07/09",
         "07/10",
         "07/13",
-        "07/14"
+        "07/14",
+        "07/15",
+        "07/16"
       ],
       "prices": [
-        3.18,
-        3.17,
         3.21,
         3.34,
         3.23,
@@ -346,9 +344,11 @@
         3.01,
         2.94,
         2.9,
-        2.9
+        2.9,
+        2.92,
+        2.91
       ],
-      "updated": "2026-07-15T04:10:05.018566"
+      "updated": "2026-07-16T04:13:29.247777"
     }
   },
   "stocks": {
@@ -485,16 +485,16 @@
       "lang": "zh",
       "relevance_score": 100,
       "entity_hits": [
-        "油輪",
-        "霍爾木茲",
         "美軍",
         "伊朗",
+        "油輪",
+        "霍爾木茲",
         "海峽"
       ],
       "action_hits": [
-        "封鎖",
         "空襲",
         "無人機",
+        "封鎖",
         "油輪"
       ]
     },
@@ -507,33 +507,14 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
+        "霍尔木兹",
         "海峡",
         "美军",
-        "伊朗",
-        "霍尔木兹"
+        "伊朗"
       ],
       "action_hits": [
         "空袭",
         "打击"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "特朗普威胁若遭暗杀将“摧毁伊朗” 称千枚导弹已待发",
-      "link": "https://www.dw.com/zh/特朗普威胁若遭暗杀将-摧毁伊朗-称千枚导弹已待发/a-77915557?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 11 Jul 2026 09:26:00 GMT",
-      "summary": "哈梅内伊葬礼期间，其子发表声明誓言为父复仇。特朗普则在社交媒体威胁，若企图暗杀自己，美国将“彻底摧毁”伊朗，并表示已有“1000枚导弹”瞄准该国。与此同时美国官员表示，华盛顿希望德黑兰公开承诺停止袭击霍尔木兹海峡过往船只，以使谈判取得进展。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "海峡",
-        "德黑兰",
-        "伊朗",
-        "霍尔木兹"
-      ],
-      "action_hits": [
-        "导弹",
-        "谈判"
       ]
     },
     {
@@ -545,29 +526,12 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
+        "霍尔木兹",
         "海峡",
-        "伊朗",
-        "霍尔木兹"
-      ],
-      "action_hits": [
-        "封锁"
-      ]
-    },
-    {
-      "source": "FT中文网",
-      "title": "中国PPI指数大幅上涨",
-      "link": "https://www.ftchinese.com/story/001110267",
-      "published": "Wed, 08 Jul 2026 16:00:00 GMT",
-      "summary": "在伊朗战争造成的干扰下，中国工业生产者出厂价格连续第4个月上涨，而眼下美伊停火协议正陷入不确定状态。",
-      "lang": "zh",
-      "relevance_score": 67,
-      "entity_hits": [
-        "美伊",
         "伊朗"
       ],
       "action_hits": [
-        "停火协议",
-        "停火"
+        "封锁"
       ]
     },
     {
@@ -579,17 +543,17 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "hormuz",
         "uae",
+        "hormuz",
         "strait",
         "iran"
       ],
       "action_hits": [
-        "launch",
-        "blockade",
         "attack",
+        "strike",
+        "launch",
         "tanker",
-        "strike"
+        "blockade"
       ]
     },
     {
@@ -601,16 +565,16 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "yemen",
-        "houthi",
         "saudi",
+        "houthi",
+        "yemen",
         "iran"
       ],
       "action_hits": [
         "launch",
         "attack",
-        "strike",
-        "missile"
+        "missile",
+        "strike"
       ]
     },
     {
@@ -634,20 +598,19 @@
     },
     {
       "source": "BBC中东",
-      "title": "US and Iran trade attacks as Khamenei is buried",
-      "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 10 Jul 2026 04:18:14 GMT",
-      "summary": "Centcom says it hit 90 Iranian targets in the latest round of strikes, with the Iranian health ministry saying 14 people were killed since Tuesday.",
+      "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
+      "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 14 Jul 2026 19:13:49 GMT",
+      "summary": "Control of the waterway has become a key point of contention between the US and Iran, as a ceasefire deal falters.",
       "lang": "en",
-      "relevance_score": 77,
+      "relevance_score": 70,
       "entity_hits": [
-        "centcom",
+        "hormuz",
+        "strait",
         "iran"
       ],
       "action_hits": [
-        "killed",
-        "attack",
-        "strike"
+        "ceasefire"
       ]
     },
     {
@@ -659,13 +622,13 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "oman",
-        "bahrain",
         "jordan",
-        "hormuz",
+        "oman",
+        "iran",
         "strait",
-        "kuwait",
-        "iran"
+        "bahrain",
+        "hormuz",
+        "kuwait"
       ],
       "action_hits": [
         "attack"
@@ -690,23 +653,6 @@
     },
     {
       "source": "BBC中东",
-      "title": "Trump threatens more strikes on Iran as Tehran warns of 'fearless' response",
-      "link": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 08 Jul 2026 18:05:31 GMT",
-      "summary": "Speaking at a Nato summit, the president says the US will \"probably\" strike Iran again but added that \"anything that happens will be over quickly\".",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "nato",
-        "tehran",
-        "iran"
-      ],
-      "action_hits": [
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
       "title": "Israeli strike on police post in north Gaza kills seven, officials say",
       "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 14 Jul 2026 17:13:27 GMT",
@@ -714,11 +660,28 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "hamas",
-        "israel"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
         "killed",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
+      "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 16 Jul 2026 04:06:11 GMT",
+      "summary": "US President Donald Trump says he is yet to decide whether or not he will \"finish off\" Iran.",
+      "lang": "en",
+      "relevance_score": 65,
+      "entity_hits": [
+        "tehran",
+        "iran"
+      ],
+      "action_hits": [
+        "launch",
         "strike"
       ]
     }
@@ -761,38 +724,24 @@
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 100,
-      "source_count": 2,
+      "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
-      "event_id": "6250ca50547d",
-      "title": "特朗普威胁若遭暗杀将“摧毁伊朗” 称千枚导弹已待发",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-07-11T09:26:00+00:00",
-      "last_updated_time": "2026-07-11T09:26:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "improving",
-      "confidence": 80,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/特朗普威胁若遭暗杀将-摧毁伊朗-称千枚导弹已待发/a-77915557?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "f6a812b28669",
-      "title": "中国PPI指数大幅上涨",
-      "location": "伊朗",
-      "first_seen_time": "2026-07-08T16:00:00+00:00",
-      "last_updated_time": "2026-07-08T16:00:00+00:00",
+      "event_id": "46aee9d55f47",
+      "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-07-14T19:13:49+00:00",
+      "last_updated_time": "2026-07-14T19:13:49+00:00",
       "current_status": "ceasefire",
       "trend": "improving",
-      "confidence": 67,
+      "confidence": 70,
       "source_count": 1,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110267",
-      "lang": "zh"
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "ffaab3b8c36d",
@@ -807,12 +756,25 @@
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
       "lang": "en"
+    },
+    {
+      "event_id": "4b3c3d8a687a",
+      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-07-16T04:06:11+00:00",
+      "last_updated_time": "2026-07-16T04:06:11+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 65,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/16",
         "6/17",
         "6/18",
         "6/19",
@@ -841,7 +803,8 @@
         "7/12",
         "7/13",
         "7/14",
-        "7/15"
+        "7/15",
+        "7/16"
       ],
       "transits": [
         0,
@@ -931,34 +894,27 @@
         21,
         69
       ],
-      "date_label": "7月15日"
+      "date_label": "7月16日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-15",
+      "hormuz_last_date": "2026-07-16",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 124,
+      "vlcc_stale_days": 125,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-15"
+      "routes_date": "2026-07-16"
     }
   },
   "meta": {
-    "report_date": "2026.07.15",
-    "report_date_cn": "2026年07月15日",
-    "war_day": 138,
+    "report_date": "2026.07.16",
+    "report_date_cn": "2026年07月16日",
+    "war_day": 139,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-15T12:10:39.523567+08:00",
-    "generated_at_cn": "2026-07-15 12:10:39 北京时间"
+    "generated_at": "2026-07-16T12:14:01.602902+08:00",
+    "generated_at_cn": "2026-07-16 12:14:01 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-17",
-      "brent": 98.1500015258789,
-      "wti": 89.79000091552734,
-      "gold": 4815.0,
-      "usd_cny": 6.824100017547607
-    },
     {
       "date": "2026-04-18",
       "brent": 91.87000274658203,
@@ -1581,6 +1537,13 @@
       "wti": 79.33999633789062,
       "gold": 4036.5,
       "usd_cny": 6.768400192260742
+    },
+    {
+      "date": "2026-07-16",
+      "brent": 84.79000091552734,
+      "wti": 79.58999633789062,
+      "gold": 4040.60009765625,
+      "usd_cny": 6.765500068664551
     }
   ]
 }
