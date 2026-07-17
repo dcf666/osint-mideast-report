@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "37d6616212a4",
-    "title": "川普將恢復封鎖伊朗海運 稱美國是「霍爾木茲海峽守護者」",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-14T04:26:00+00:00",
-    "last_updated_time": "2026-07-14T04:26:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 100,
-    "source_count": 5,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/川普將恢復封鎖伊朗海運-稱美國是「霍爾木茲海峽守護者」/a-77943217?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "ab2f305e3085",
     "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
     "location": "霍尔木兹海峡",
@@ -39,6 +25,34 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "f8f2c735785a",
+    "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-07-12T22:17:40+00:00",
+    "last_updated_time": "2026-07-13T15:16:09+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "aab43dc7bfa6",
+    "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
+    "location": "伊朗·哈尔克岛",
+    "first_seen_time": "2026-07-16T12:09:26+00:00",
+    "last_updated_time": "2026-07-16T12:09:26+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 85,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {

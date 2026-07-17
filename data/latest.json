@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 84.79000091552734,
-      "day_change_pct": -0.19,
-      "war_change_pct": -14.69,
+      "current": 85.02999877929688,
+      "day_change_pct": 0.95,
+      "war_change_pct": -5.92,
       "dates": [
-        "06/03",
         "06/04",
         "06/05",
         "06/08",
@@ -34,10 +33,10 @@
         "07/13",
         "07/14",
         "07/15",
-        "07/16"
+        "07/16",
+        "07/17"
       ],
       "prices": [
-        97.81,
         95.03,
         93.09,
         94.25,
@@ -66,16 +65,16 @@
         83.3,
         84.73,
         84.95,
-        84.79
+        84.23,
+        85.03
       ],
-      "updated": "2026-07-16T04:13:28.938094"
+      "updated": "2026-07-17T04:12:38.476224"
     },
     "wti": {
-      "current": 79.58999633789062,
-      "day_change_pct": -0.01,
-      "war_change_pct": -15.95,
+      "current": 79.16000366210938,
+      "day_change_pct": 0.27,
+      "war_change_pct": -5.59,
       "dates": [
-        "06/03",
         "06/04",
         "06/05",
         "06/08",
@@ -104,10 +103,10 @@
         "07/13",
         "07/14",
         "07/15",
-        "07/16"
+        "07/16",
+        "07/17"
       ],
       "prices": [
-        96.02,
         93.04,
         90.54,
         91.3,
@@ -136,16 +135,16 @@
         78.14,
         79.34,
         79.6,
-        79.59
+        78.95,
+        79.16
       ],
-      "updated": "2026-07-16T04:13:29.008270"
+      "updated": "2026-07-17T04:12:38.747616"
     },
     "gold": {
-      "current": 4040.60009765625,
-      "day_change_pct": -0.08,
-      "war_change_pct": -15.56,
+      "current": 3993.60009765625,
+      "day_change_pct": 0.2,
+      "war_change_pct": -17.79,
       "dates": [
-        "06/03",
         "06/04",
         "06/05",
         "06/08",
@@ -174,10 +173,10 @@
         "07/13",
         "07/14",
         "07/15",
-        "07/16"
+        "07/16",
+        "07/17"
       ],
       "prices": [
-        4436.7,
         4475.8,
         4337.1,
         4335.9,
@@ -206,16 +205,16 @@
         3997.0,
         4061.1,
         4044.0,
-        4040.6
+        3985.6,
+        3993.6
       ],
-      "updated": "2026-07-16T04:13:29.078592"
+      "updated": "2026-07-17T04:12:38.986376"
     },
     "usd_cny": {
-      "current": 6.765500068664551,
-      "day_change_pct": -0.07,
-      "war_change_pct": -0.77,
+      "current": 6.774099826812744,
+      "day_change_pct": 0.09,
+      "war_change_pct": -0.69,
       "dates": [
-        "06/05",
         "06/08",
         "06/09",
         "06/10",
@@ -244,14 +243,14 @@
         "07/13",
         "07/14",
         "07/15",
-        "07/16"
+        "07/16",
+        "07/17"
       ],
       "prices": [
         6.77,
         6.77,
         6.77,
         6.77,
-        6.77,
         6.78,
         6.77,
         6.76,
@@ -275,17 +274,17 @@
         6.79,
         6.78,
         6.78,
+        6.77,
         6.77,
         6.77
       ],
-      "updated": "2026-07-16T04:13:29.153668"
+      "updated": "2026-07-17T04:12:39.325693"
     },
     "nat_gas": {
-      "current": 2.9070000648498535,
-      "day_change_pct": -0.58,
-      "war_change_pct": 9.82,
+      "current": 2.861999988555908,
+      "day_change_pct": 0.14,
+      "war_change_pct": 7.03,
       "dates": [
-        "06/03",
         "06/04",
         "06/05",
         "06/08",
@@ -314,10 +313,10 @@
         "07/13",
         "07/14",
         "07/15",
-        "07/16"
+        "07/16",
+        "07/17"
       ],
       "prices": [
-        3.21,
         3.34,
         3.23,
         3.15,
@@ -346,21 +345,28 @@
         2.9,
         2.9,
         2.92,
-        2.91
+        2.86,
+        2.86
       ],
-      "updated": "2026-07-16T04:13:29.247777"
+      "updated": "2026-07-17T04:12:39.600247"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 14.08,
+      "change_pct": -0.56,
+      "high": 14.34,
+      "low": 13.88,
+      "volume": 583170
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 14.36,
+      "change_pct": -1.37,
+      "high": 14.68,
+      "low": 14.26,
+      "volume": 325311
     },
     "601975": {
       "name": "招商南油",
@@ -477,47 +483,6 @@
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "川普將恢復封鎖伊朗海運 稱美國是「霍爾木茲海峽守護者」",
-      "link": "https://www.dw.com/zh/川普將恢復封鎖伊朗海運-稱美國是「霍爾木茲海峽守護者」/a-77943217?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Tue, 14 Jul 2026 04:26:00 GMT",
-      "summary": "美軍連續三天空襲伊朗，美國總統川普13日宣布將恢復封鎖伊朗海運，並對所有通過該航道的貨物收取通行費。伊朗則以飛彈及無人機反擊美軍設施，並在霍爾木茲海峽攻擊兩艘油輪。",
-      "lang": "zh",
-      "relevance_score": 100,
-      "entity_hits": [
-        "美軍",
-        "伊朗",
-        "油輪",
-        "霍爾木茲",
-        "海峽"
-      ],
-      "action_hits": [
-        "空襲",
-        "無人機",
-        "封鎖",
-        "油輪"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "遭美空袭 伊朗再关霍尔木兹海峡并袭击海湾多国",
-      "link": "https://www.dw.com/zh/遭美空袭-伊朗再关霍尔木兹海峡并袭击海湾多国/a-77923510?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sun, 12 Jul 2026 12:24:00 GMT",
-      "summary": "美军再次大规模空袭伊朗，称打击约140个军事目标，以回应伊朗袭击霍尔木兹海峡一艘商船。伊朗随后再次宣布关闭该海峡，并向多个海湾国家发动袭击。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "霍尔木兹",
-        "海峡",
-        "美军",
-        "伊朗"
-      ],
-      "action_hits": [
-        "空袭",
-        "打击"
-      ]
-    },
-    {
       "source": "FT中文网",
       "title": "特朗普宣布恢复对伊朗封锁并接管霍尔木兹海峡",
       "link": "https://www.ftchinese.com/story/001110303",
@@ -527,8 +492,8 @@
       "relevance_score": 70,
       "entity_hits": [
         "霍尔木兹",
-        "海峡",
-        "伊朗"
+        "伊朗",
+        "海峡"
       ],
       "action_hits": [
         "封锁"
@@ -543,17 +508,17 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "uae",
         "hormuz",
-        "strait",
-        "iran"
+        "uae",
+        "iran",
+        "strait"
       ],
       "action_hits": [
-        "attack",
         "strike",
-        "launch",
+        "blockade",
         "tanker",
-        "blockade"
+        "attack",
+        "launch"
       ]
     },
     {
@@ -565,16 +530,16 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "saudi",
-        "houthi",
         "yemen",
-        "iran"
+        "houthi",
+        "iran",
+        "saudi"
       ],
       "action_hits": [
         "launch",
-        "attack",
         "missile",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -587,13 +552,32 @@
       "relevance_score": 90,
       "entity_hits": [
         "hormuz",
-        "strait",
-        "iran"
+        "iran",
+        "strait"
       ],
       "action_hits": [
         "launch",
-        "attack",
-        "strike"
+        "strike",
+        "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
+      "link": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 16 Jul 2026 12:09:26 GMT",
+      "summary": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+      "lang": "en",
+      "relevance_score": 85,
+      "entity_hits": [
+        "iran",
+        "kharg"
+      ],
+      "action_hits": [
+        "tanker",
+        "missile",
+        "strike",
+        "blockade"
       ]
     },
     {
@@ -606,8 +590,8 @@
       "relevance_score": 70,
       "entity_hits": [
         "hormuz",
-        "strait",
-        "iran"
+        "iran",
+        "strait"
       ],
       "action_hits": [
         "ceasefire"
@@ -622,30 +606,13 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "jordan",
-        "oman",
+        "hormuz",
         "iran",
-        "strait",
+        "oman",
         "bahrain",
-        "hormuz",
-        "kuwait"
-      ],
-      "action_hits": [
-        "attack"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
-      "link": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 11 Jul 2026 16:55:57 GMT",
-      "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
-      "lang": "en",
-      "relevance_score": 70,
-      "entity_hits": [
-        "hormuz",
+        "kuwait",
         "strait",
-        "iran"
+        "jordan"
       ],
       "action_hits": [
         "attack"
@@ -660,12 +627,12 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
-        "killed",
-        "strike"
+        "strike",
+        "killed"
       ]
     },
     {
@@ -677,8 +644,8 @@
       "lang": "en",
       "relevance_score": 65,
       "entity_hits": [
-        "tehran",
-        "iran"
+        "iran",
+        "tehran"
       ],
       "action_hits": [
         "launch",
@@ -687,20 +654,6 @@
     }
   ],
   "event_states": [
-    {
-      "event_id": "37d6616212a4",
-      "title": "川普將恢復封鎖伊朗海運 稱美國是「霍爾木茲海峽守護者」",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-07-14T04:26:00+00:00",
-      "last_updated_time": "2026-07-14T04:26:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 100,
-      "source_count": 5,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/川普將恢復封鎖伊朗海運-稱美國是「霍爾木茲海峽守護者」/a-77943217?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
     {
       "event_id": "ab2f305e3085",
       "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
@@ -727,6 +680,34 @@
       "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "f8f2c735785a",
+      "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-07-12T22:17:40+00:00",
+      "last_updated_time": "2026-07-13T15:16:09+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "aab43dc7bfa6",
+      "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
+      "location": "伊朗·哈尔克岛",
+      "first_seen_time": "2026-07-16T12:09:26+00:00",
+      "last_updated_time": "2026-07-16T12:09:26+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 85,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -775,7 +756,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/17",
         "6/18",
         "6/19",
         "6/20",
@@ -804,7 +784,8 @@
         "7/13",
         "7/14",
         "7/15",
-        "7/16"
+        "7/16",
+        "7/17"
       ],
       "transits": [
         0,
@@ -894,34 +875,27 @@
         21,
         69
       ],
-      "date_label": "7月16日"
+      "date_label": "7月17日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-16",
+      "hormuz_last_date": "2026-07-17",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 125,
+      "vlcc_stale_days": 126,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-16"
+      "routes_date": "2026-07-17"
     }
   },
   "meta": {
-    "report_date": "2026.07.16",
-    "report_date_cn": "2026年07月16日",
-    "war_day": 139,
+    "report_date": "2026.07.17",
+    "report_date_cn": "2026年07月17日",
+    "war_day": 140,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-16T12:14:01.602902+08:00",
-    "generated_at_cn": "2026-07-16 12:14:01 北京时间"
+    "generated_at": "2026-07-17T12:13:08.004554+08:00",
+    "generated_at_cn": "2026-07-17 12:13:08 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-18",
-      "brent": 91.87000274658203,
-      "wti": 84.0,
-      "gold": 4849.39990234375,
-      "usd_cny": 6.816400051116943
-    },
     {
       "date": "2026-04-19",
       "brent": 90.37999725341797,
@@ -1544,6 +1518,13 @@
       "wti": 79.58999633789062,
       "gold": 4040.60009765625,
       "usd_cny": 6.765500068664551
+    },
+    {
+      "date": "2026-07-17",
+      "brent": 85.02999877929688,
+      "wti": 79.16000366210938,
+      "gold": 3993.60009765625,
+      "usd_cny": 6.774099826812744
     }
   ]
 }

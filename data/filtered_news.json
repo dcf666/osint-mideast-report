@@ -1,46 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "川普將恢復封鎖伊朗海運 稱美國是「霍爾木茲海峽守護者」",
-    "link": "https://www.dw.com/zh/川普將恢復封鎖伊朗海運-稱美國是「霍爾木茲海峽守護者」/a-77943217?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Tue, 14 Jul 2026 04:26:00 GMT",
-    "summary": "美軍連續三天空襲伊朗，美國總統川普13日宣布將恢復封鎖伊朗海運，並對所有通過該航道的貨物收取通行費。伊朗則以飛彈及無人機反擊美軍設施，並在霍爾木茲海峽攻擊兩艘油輪。",
-    "lang": "zh",
-    "relevance_score": 100,
-    "entity_hits": [
-      "美軍",
-      "伊朗",
-      "油輪",
-      "霍爾木茲",
-      "海峽"
-    ],
-    "action_hits": [
-      "空襲",
-      "無人機",
-      "封鎖",
-      "油輪"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "遭美空袭 伊朗再关霍尔木兹海峡并袭击海湾多国",
-    "link": "https://www.dw.com/zh/遭美空袭-伊朗再关霍尔木兹海峡并袭击海湾多国/a-77923510?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sun, 12 Jul 2026 12:24:00 GMT",
-    "summary": "美军再次大规模空袭伊朗，称打击约140个军事目标，以回应伊朗袭击霍尔木兹海峡一艘商船。伊朗随后再次宣布关闭该海峡，并向多个海湾国家发动袭击。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "霍尔木兹",
-      "海峡",
-      "美军",
-      "伊朗"
-    ],
-    "action_hits": [
-      "空袭",
-      "打击"
-    ]
-  },
-  {
     "source": "FT中文网",
     "title": "特朗普宣布恢复对伊朗封锁并接管霍尔木兹海峡",
     "link": "https://www.ftchinese.com/story/001110303",
@@ -50,8 +9,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "霍尔木兹",
-      "海峡",
-      "伊朗"
+      "伊朗",
+      "海峡"
     ],
     "action_hits": [
       "封锁"
@@ -66,17 +25,17 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "uae",
       "hormuz",
-      "strait",
-      "iran"
+      "uae",
+      "iran",
+      "strait"
     ],
     "action_hits": [
-      "attack",
       "strike",
-      "launch",
+      "blockade",
       "tanker",
-      "blockade"
+      "attack",
+      "launch"
     ]
   },
   {
@@ -88,16 +47,16 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "saudi",
-      "houthi",
       "yemen",
-      "iran"
+      "houthi",
+      "iran",
+      "saudi"
     ],
     "action_hits": [
       "launch",
-      "attack",
       "missile",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -110,13 +69,32 @@
     "relevance_score": 90,
     "entity_hits": [
       "hormuz",
-      "strait",
-      "iran"
+      "iran",
+      "strait"
     ],
     "action_hits": [
       "launch",
-      "attack",
-      "strike"
+      "strike",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
+    "link": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 16 Jul 2026 12:09:26 GMT",
+    "summary": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+    "lang": "en",
+    "relevance_score": 85,
+    "entity_hits": [
+      "iran",
+      "kharg"
+    ],
+    "action_hits": [
+      "tanker",
+      "missile",
+      "strike",
+      "blockade"
     ]
   },
   {
@@ -129,8 +107,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "hormuz",
-      "strait",
-      "iran"
+      "iran",
+      "strait"
     ],
     "action_hits": [
       "ceasefire"
@@ -145,30 +123,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "jordan",
-      "oman",
+      "hormuz",
       "iran",
-      "strait",
+      "oman",
       "bahrain",
-      "hormuz",
-      "kuwait"
-    ],
-    "action_hits": [
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
-    "link": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 11 Jul 2026 16:55:57 GMT",
-    "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "hormuz",
+      "kuwait",
       "strait",
-      "iran"
+      "jordan"
     ],
     "action_hits": [
       "attack"
@@ -183,12 +144,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -200,8 +161,8 @@
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "tehran",
-      "iran"
+      "iran",
+      "tehran"
     ],
     "action_hits": [
       "launch",
