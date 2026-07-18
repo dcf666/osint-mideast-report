@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 85.02999877929688,
-      "day_change_pct": 0.95,
-      "war_change_pct": -5.92,
+      "current": 88.0999984741211,
+      "day_change_pct": 4.59,
+      "war_change_pct": -7.73,
       "dates": [
         "06/04",
         "06/05",
@@ -66,14 +66,14 @@
         84.73,
         84.95,
         84.23,
-        85.03
+        88.1
       ],
-      "updated": "2026-07-17T04:12:38.476224"
+      "updated": "2026-07-18T04:05:10.970566"
     },
     "wti": {
-      "current": 79.16000366210938,
-      "day_change_pct": 0.27,
-      "war_change_pct": -5.59,
+      "current": 82.48999786376953,
+      "day_change_pct": 4.48,
+      "war_change_pct": -7.95,
       "dates": [
         "06/04",
         "06/05",
@@ -136,14 +136,14 @@
         79.34,
         79.6,
         78.95,
-        79.16
+        82.49
       ],
-      "updated": "2026-07-17T04:12:38.747616"
+      "updated": "2026-07-18T04:05:11.042128"
     },
     "gold": {
-      "current": 3993.60009765625,
-      "day_change_pct": 0.2,
-      "war_change_pct": -17.79,
+      "current": 4012.699951171875,
+      "day_change_pct": 0.68,
+      "war_change_pct": -16.52,
       "dates": [
         "06/04",
         "06/05",
@@ -206,16 +206,15 @@
         4061.1,
         4044.0,
         3985.6,
-        3993.6
+        4012.7
       ],
-      "updated": "2026-07-17T04:12:38.986376"
+      "updated": "2026-07-18T04:05:11.117666"
     },
     "usd_cny": {
-      "current": 6.774099826812744,
-      "day_change_pct": 0.09,
-      "war_change_pct": -0.69,
+      "current": 6.776800155639648,
+      "day_change_pct": 0.06,
+      "war_change_pct": -0.65,
       "dates": [
-        "06/08",
         "06/09",
         "06/10",
         "06/11",
@@ -244,13 +243,13 @@
         "07/14",
         "07/15",
         "07/16",
-        "07/17"
+        "07/17",
+        "07/18"
       ],
       "prices": [
         6.77,
         6.77,
         6.77,
-        6.77,
         6.78,
         6.77,
         6.76,
@@ -276,14 +275,15 @@
         6.78,
         6.77,
         6.77,
-        6.77
+        6.77,
+        6.78
       ],
-      "updated": "2026-07-17T04:12:39.325693"
+      "updated": "2026-07-18T04:05:11.198556"
     },
     "nat_gas": {
-      "current": 2.861999988555908,
-      "day_change_pct": 0.14,
-      "war_change_pct": 7.03,
+      "current": 2.9110000133514404,
+      "day_change_pct": 1.85,
+      "war_change_pct": 8.26,
       "dates": [
         "06/04",
         "06/05",
@@ -346,27 +346,27 @@
         2.9,
         2.92,
         2.86,
-        2.86
+        2.91
       ],
-      "updated": "2026-07-17T04:12:39.600247"
+      "updated": "2026-07-18T04:05:11.273963"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 14.08,
-      "change_pct": -0.56,
+      "price": 13.91,
+      "change_pct": -1.77,
       "high": 14.34,
-      "low": 13.88,
-      "volume": 583170
+      "low": 13.81,
+      "volume": 1009076
     },
     "600026": {
       "name": "中远海能",
-      "price": 14.36,
-      "change_pct": -1.37,
+      "price": 14.21,
+      "change_pct": -2.4,
       "high": 14.68,
-      "low": 14.26,
-      "volume": 325311
+      "low": 14.06,
+      "volume": 571802
     },
     "601975": {
       "name": "招商南油",
@@ -491,9 +491,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "霍尔木兹",
+        "海峡",
         "伊朗",
-        "海峡"
+        "霍尔木兹"
       ],
       "action_hits": [
         "封锁"
@@ -508,17 +508,17 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
+        "iran",
         "hormuz",
         "uae",
-        "iran",
         "strait"
       ],
       "action_hits": [
-        "strike",
-        "blockade",
-        "tanker",
         "attack",
-        "launch"
+        "tanker",
+        "launch",
+        "blockade",
+        "strike"
       ]
     },
     {
@@ -530,35 +530,16 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
+        "saudi",
         "yemen",
         "houthi",
-        "iran",
-        "saudi"
+        "iran"
       ],
       "action_hits": [
-        "launch",
         "missile",
         "strike",
-        "attack"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
-      "link": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 12 Jul 2026 22:17:40 GMT",
-      "summary": "Iranian forces earlier said the Strait was closed and launched wide-ranging attacks at US allies and bases in the region.",
-      "lang": "en",
-      "relevance_score": 90,
-      "entity_hits": [
-        "hormuz",
-        "iran",
-        "strait"
-      ],
-      "action_hits": [
-        "launch",
-        "strike",
-        "attack"
+        "attack",
+        "launch"
       ]
     },
     {
@@ -570,14 +551,31 @@
       "lang": "en",
       "relevance_score": 85,
       "entity_hits": [
-        "iran",
-        "kharg"
+        "kharg",
+        "iran"
       ],
       "action_hits": [
-        "tanker",
-        "missile",
+        "blockade",
         "strike",
-        "blockade"
+        "tanker",
+        "missile"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US strikes hit Iran for seventh consecutive night",
+      "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 18 Jul 2026 03:02:01 GMT",
+      "summary": "The US command says it is conducting more strikes to degrade Iran's armed forces, as Iran reports explosions near the Strait of Hormuz.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "iran",
+        "hormuz",
+        "strait"
+      ],
+      "action_hits": [
+        "strike"
       ]
     },
     {
@@ -589,8 +587,8 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "hormuz",
         "iran",
+        "hormuz",
         "strait"
       ],
       "action_hits": [
@@ -606,13 +604,13 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "jordan",
         "hormuz",
-        "iran",
+        "strait",
         "oman",
         "bahrain",
         "kuwait",
-        "strait",
-        "jordan"
+        "iran"
       ],
       "action_hits": [
         "attack"
@@ -627,8 +625,8 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "hamas",
-        "israel"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
         "strike",
@@ -644,12 +642,12 @@
       "lang": "en",
       "relevance_score": 65,
       "entity_hits": [
-        "iran",
-        "tehran"
+        "tehran",
+        "iran"
       ],
       "action_hits": [
-        "launch",
-        "strike"
+        "strike",
+        "launch"
       ]
     }
   ],
@@ -683,20 +681,6 @@
       "lang": "en"
     },
     {
-      "event_id": "f8f2c735785a",
-      "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-07-12T22:17:40+00:00",
-      "last_updated_time": "2026-07-13T15:16:09+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 90,
-      "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "aab43dc7bfa6",
       "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
       "location": "伊朗·哈尔克岛",
@@ -708,6 +692,20 @@
       "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "645619d635c3",
+      "title": "US strikes hit Iran for seventh consecutive night",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-07-18T03:02:01+00:00",
+      "last_updated_time": "2026-07-18T03:02:01+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -756,7 +754,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/18",
         "6/19",
         "6/20",
         "6/21",
@@ -785,7 +782,8 @@
         "7/14",
         "7/15",
         "7/16",
-        "7/17"
+        "7/17",
+        "7/18"
       ],
       "transits": [
         0,
@@ -875,34 +873,27 @@
         21,
         69
       ],
-      "date_label": "7月17日"
+      "date_label": "7月18日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-17",
+      "hormuz_last_date": "2026-07-18",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 126,
+      "vlcc_stale_days": 127,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-17"
+      "routes_date": "2026-07-18"
     }
   },
   "meta": {
-    "report_date": "2026.07.17",
-    "report_date_cn": "2026年07月17日",
-    "war_day": 140,
+    "report_date": "2026.07.18",
+    "report_date_cn": "2026年07月18日",
+    "war_day": 141,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-17T12:13:08.004554+08:00",
-    "generated_at_cn": "2026-07-17 12:13:08 北京时间"
+    "generated_at": "2026-07-18T12:05:47.163940+08:00",
+    "generated_at_cn": "2026-07-18 12:05:47 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-19",
-      "brent": 90.37999725341797,
-      "wti": 82.58999633789062,
-      "gold": 4879.60009765625,
-      "usd_cny": 6.816400051116943
-    },
     {
       "date": "2026-04-20",
       "brent": 90.37999725341797,
@@ -1525,6 +1516,13 @@
       "wti": 79.16000366210938,
       "gold": 3993.60009765625,
       "usd_cny": 6.774099826812744
+    },
+    {
+      "date": "2026-07-18",
+      "brent": 88.0999984741211,
+      "wti": 82.48999786376953,
+      "gold": 4012.699951171875,
+      "usd_cny": 6.776800155639648
     }
   ]
 }

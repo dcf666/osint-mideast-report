@@ -28,20 +28,6 @@
     "lang": "en"
   },
   {
-    "event_id": "f8f2c735785a",
-    "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-12T22:17:40+00:00",
-    "last_updated_time": "2026-07-13T15:16:09+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "aab43dc7bfa6",
     "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
     "location": "伊朗·哈尔克岛",
@@ -53,6 +39,20 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "645619d635c3",
+    "title": "US strikes hit Iran for seventh consecutive night",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-07-18T03:02:01+00:00",
+    "last_updated_time": "2026-07-18T03:02:01+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
