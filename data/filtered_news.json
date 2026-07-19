@@ -1,5 +1,25 @@
 [
   {
+    "source": "德国之声",
+    "title": "美国空袭持续 伊朗:再不收手就“全面反攻”",
+    "link": "https://www.dw.com/zh/美国空袭持续-伊朗-再不收手就-全面反攻/a-78018295?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 18 Jul 2026 10:05:00 GMT",
+    "summary": "美军对伊朗的空袭已经连续7天，伊朗谴责美国对民用基础设施的打击构成了战争罪行。与此同时，伊朗也加大了对中东邻国境内美军目标的袭击力度。霍尔木兹海峡的自由通行短期内希望渺茫。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "海峡",
+      "伊朗",
+      "中东",
+      "霍尔木兹",
+      "美军"
+    ],
+    "action_hits": [
+      "打击",
+      "空袭"
+    ]
+  },
+  {
     "source": "FT中文网",
     "title": "特朗普宣布恢复对伊朗封锁并接管霍尔木兹海峡",
     "link": "https://www.ftchinese.com/story/001110303",
@@ -8,12 +28,32 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峡",
       "伊朗",
+      "海峡",
       "霍尔木兹"
     ],
     "action_hits": [
       "封锁"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Two US troops killed and one missing after Iranian attack in Jordan",
+    "link": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 19 Jul 2026 00:18:47 GMT",
+    "summary": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "jordan",
+      "tehran",
+      "iran"
+    ],
+    "action_hits": [
+      "killed",
+      "attack",
+      "strike",
+      "escalat"
     ]
   },
   {
@@ -25,17 +65,17 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "strait",
       "iran",
       "hormuz",
-      "uae",
-      "strait"
+      "uae"
     ],
     "action_hits": [
-      "attack",
-      "tanker",
+      "strike",
       "launch",
+      "tanker",
       "blockade",
-      "strike"
+      "attack"
     ]
   },
   {
@@ -53,9 +93,9 @@
       "iran"
     ],
     "action_hits": [
+      "attack",
       "missile",
       "strike",
-      "attack",
       "launch"
     ]
   },
@@ -68,31 +108,14 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
-      "kharg",
-      "iran"
+      "iran",
+      "kharg"
     ],
     "action_hits": [
       "blockade",
       "strike",
-      "tanker",
-      "missile"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US strikes hit Iran for seventh consecutive night",
-    "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 18 Jul 2026 03:02:01 GMT",
-    "summary": "The US command says it is conducting more strikes to degrade Iran's armed forces, as Iran reports explosions near the Strait of Hormuz.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "iran",
-      "hormuz",
-      "strait"
-    ],
-    "action_hits": [
-      "strike"
+      "missile",
+      "tanker"
     ]
   },
   {
@@ -104,33 +127,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "strait",
       "iran",
-      "hormuz",
-      "strait"
+      "hormuz"
     ],
     "action_hits": [
       "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
-    "link": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 13 Jul 2026 15:16:09 GMT",
-    "summary": "Within hours of the latest US attacks, Iran said it had struck US military assets in Kuwait, Jordan, Bahrain and Oman.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "jordan",
-      "hormuz",
-      "strait",
-      "oman",
-      "bahrain",
-      "kuwait",
-      "iran"
-    ],
-    "action_hits": [
-      "attack"
     ]
   },
   {
@@ -142,12 +144,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -163,8 +165,25 @@
       "iran"
     ],
     "action_hits": [
+      "launch",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US strikes hit Iran for seventh consecutive night",
+    "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 18 Jul 2026 17:44:56 GMT",
+    "summary": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit.",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "kuwait",
+      "iran"
+    ],
+    "action_hits": [
       "strike",
-      "launch"
+      "retaliat"
     ]
   }
 ]

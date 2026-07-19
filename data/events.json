@@ -14,15 +14,29 @@
     "lang": "zh"
   },
   {
+    "event_id": "e6dcc935cd00",
+    "title": "Two US troops killed and one missing after Iranian attack in Jordan",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-07-19T00:18:47+00:00",
+    "last_updated_time": "2026-07-19T00:18:47+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 100,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "3ab2e7fe62cd",
-    "title": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
+    "title": "US strikes hit Iran for seventh consecutive night",
     "location": "伊朗",
     "first_seen_time": "2026-07-14T10:02:43+00:00",
-    "last_updated_time": "2026-07-14T10:02:43+00:00",
+    "last_updated_time": "2026-07-18T17:44:56+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 100,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -42,18 +56,18 @@
     "lang": "en"
   },
   {
-    "event_id": "645619d635c3",
-    "title": "US strikes hit Iran for seventh consecutive night",
+    "event_id": "7f0381980e68",
+    "title": "美国空袭持续 伊朗:再不收手就“全面反攻”",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-18T03:02:01+00:00",
-    "last_updated_time": "2026-07-18T03:02:01+00:00",
+    "first_seen_time": "2026-07-18T10:05:00+00:00",
+    "last_updated_time": "2026-07-18T10:05:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 70,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "confidence": 80,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美国空袭持续-伊朗-再不收手就-全面反攻/a-78018295?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
   },
   {
     "event_id": "46aee9d55f47",
