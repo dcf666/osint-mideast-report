@@ -8,52 +8,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峡",
       "伊朗",
-      "中东",
+      "美军",
+      "海峡",
       "霍尔木兹",
-      "美军"
+      "中东"
     ],
     "action_hits": [
-      "打击",
-      "空袭"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "特朗普宣布恢复对伊朗封锁并接管霍尔木兹海峡",
-    "link": "https://www.ftchinese.com/story/001110303",
-    "published": "Mon, 13 Jul 2026 16:00:00 GMT",
-    "summary": "美国总统称，美国将成为该海峡的“守护者”，并对途经霍尔木兹海峡的海运货物征收20%的费用。他还宣布恢复对伊朗的海上封锁。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "伊朗",
-      "海峡",
-      "霍尔木兹"
-    ],
-    "action_hits": [
-      "封锁"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Two US troops killed and one missing after Iranian attack in Jordan",
-    "link": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 19 Jul 2026 00:18:47 GMT",
-    "summary": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
-    "lang": "en",
-    "relevance_score": 100,
-    "entity_hits": [
-      "jordan",
-      "tehran",
-      "iran"
-    ],
-    "action_hits": [
-      "killed",
-      "attack",
-      "strike",
-      "escalat"
+      "空袭",
+      "打击"
     ]
   },
   {
@@ -65,16 +28,16 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "uae",
       "strait",
       "iran",
-      "hormuz",
-      "uae"
+      "hormuz"
     ],
     "action_hits": [
-      "strike",
-      "launch",
-      "tanker",
       "blockade",
+      "strike",
+      "tanker",
+      "launch",
       "attack"
     ]
   },
@@ -87,16 +50,16 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "saudi",
-      "yemen",
       "houthi",
-      "iran"
+      "iran",
+      "saudi",
+      "yemen"
     ],
     "action_hits": [
-      "attack",
-      "missile",
+      "launch",
       "strike",
-      "launch"
+      "missile",
+      "attack"
     ]
   },
   {
@@ -113,9 +76,27 @@
     ],
     "action_hits": [
       "blockade",
+      "tanker",
       "strike",
-      "missile",
-      "tanker"
+      "missile"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US soldier killed and one injured after Iranian attack in Iraq",
+    "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 19 Jul 2026 19:45:12 GMT",
+    "summary": "The US military reports another death a day after two of its soldiers were killed in Jordan.",
+    "lang": "en",
+    "relevance_score": 75,
+    "entity_hits": [
+      "iraq",
+      "iran",
+      "jordan"
+    ],
+    "action_hits": [
+      "killed",
+      "attack"
     ]
   },
   {
@@ -144,8 +125,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
       "killed",
@@ -161,8 +142,8 @@
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "tehran",
-      "iran"
+      "iran",
+      "tehran"
     ],
     "action_hits": [
       "launch",
@@ -178,12 +159,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "kuwait",
-      "iran"
+      "iran",
+      "kuwait"
     ],
     "action_hits": [
-      "strike",
-      "retaliat"
+      "retaliat",
+      "strike"
     ]
   }
 ]

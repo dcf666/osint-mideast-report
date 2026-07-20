@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 88.0999984741211,
-      "day_change_pct": 4.59,
-      "war_change_pct": -7.73,
+      "current": 90.37000274658203,
+      "day_change_pct": 2.58,
+      "war_change_pct": -5.35,
       "dates": [
-        "06/04",
         "06/05",
         "06/08",
         "06/09",
@@ -34,10 +33,10 @@
         "07/14",
         "07/15",
         "07/16",
-        "07/17"
+        "07/17",
+        "07/20"
       ],
       "prices": [
-        95.03,
         93.09,
         94.25,
         91.45,
@@ -66,16 +65,16 @@
         84.73,
         84.95,
         84.23,
-        88.1
+        88.1,
+        90.37
       ],
-      "updated": "2026-07-19T04:25:42.516399"
+      "updated": "2026-07-20T04:40:40.687035"
     },
     "wti": {
-      "current": 81.77999877929688,
-      "day_change_pct": 3.58,
-      "war_change_pct": -8.74,
+      "current": 83.66999816894531,
+      "day_change_pct": 1.43,
+      "war_change_pct": -6.63,
       "dates": [
-        "06/04",
         "06/05",
         "06/08",
         "06/09",
@@ -104,10 +103,10 @@
         "07/14",
         "07/15",
         "07/16",
-        "07/17"
+        "07/17",
+        "07/20"
       ],
       "prices": [
-        93.04,
         90.54,
         91.3,
         88.2,
@@ -136,16 +135,16 @@
         79.34,
         79.6,
         78.95,
-        81.78
+        82.49,
+        83.67
       ],
-      "updated": "2026-07-19T04:25:42.593680"
+      "updated": "2026-07-20T04:40:40.964976"
     },
     "gold": {
-      "current": 4018.800048828125,
-      "day_change_pct": 0.83,
-      "war_change_pct": -16.39,
+      "current": 4028.0,
+      "day_change_pct": 0.38,
+      "war_change_pct": -16.2,
       "dates": [
-        "06/04",
         "06/05",
         "06/08",
         "06/09",
@@ -174,10 +173,10 @@
         "07/14",
         "07/15",
         "07/16",
-        "07/17"
+        "07/17",
+        "07/20"
       ],
       "prices": [
-        4475.8,
         4337.1,
         4335.9,
         4260.0,
@@ -206,14 +205,15 @@
         4061.1,
         4044.0,
         3985.6,
-        4018.8
+        4012.7,
+        4028.0
       ],
-      "updated": "2026-07-19T04:25:42.677556"
+      "updated": "2026-07-20T04:40:41.219704"
     },
     "usd_cny": {
-      "current": 6.776800155639648,
-      "day_change_pct": 0.06,
-      "war_change_pct": -0.65,
+      "current": 6.770599842071533,
+      "day_change_pct": -0.03,
+      "war_change_pct": -0.68,
       "dates": [
         "06/09",
         "06/10",
@@ -244,7 +244,7 @@
         "07/15",
         "07/16",
         "07/17",
-        "07/19"
+        "07/20"
       ],
       "prices": [
         6.77,
@@ -276,16 +276,15 @@
         6.77,
         6.77,
         6.77,
-        6.78
+        6.77
       ],
-      "updated": "2026-07-19T04:25:42.753891"
+      "updated": "2026-07-20T04:40:41.493354"
     },
     "nat_gas": {
-      "current": 2.9110000133514404,
-      "day_change_pct": 1.85,
-      "war_change_pct": 8.26,
+      "current": 2.880000114440918,
+      "day_change_pct": -1.06,
+      "war_change_pct": 7.1,
       "dates": [
-        "06/04",
         "06/05",
         "06/08",
         "06/09",
@@ -314,10 +313,10 @@
         "07/14",
         "07/15",
         "07/16",
-        "07/17"
+        "07/17",
+        "07/20"
       ],
       "prices": [
-        3.34,
         3.23,
         3.15,
         3.14,
@@ -346,136 +345,189 @@
         2.9,
         2.92,
         2.86,
-        2.91
+        2.91,
+        2.88
       ],
-      "updated": "2026-07-19T04:25:42.831786"
+      "updated": "2026-07-20T04:40:41.725567"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 13.91,
-      "change_pct": -1.77,
-      "high": 14.34,
-      "low": 13.81,
-      "volume": 1009076
+      "price": 14.26,
+      "change_pct": 2.52,
+      "high": 14.32,
+      "low": 13.86,
+      "volume": 660332
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 14.75,
+      "change_pct": 3.8,
+      "high": 14.86,
+      "low": 14.23,
+      "volume": 452789
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 3.4,
+      "change_pct": 3.66,
+      "high": 3.41,
+      "low": 3.3,
+      "volume": 1357627
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 31.87,
+      "change_pct": 10.01,
+      "high": 31.87,
+      "low": 29.51,
+      "volume": 820057
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 10.89,
+      "change_pct": 5.83,
+      "high": 10.9,
+      "low": 10.36,
+      "volume": 2086516
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.19,
+      "change_pct": 3.18,
+      "high": 5.2,
+      "low": 5.04,
+      "volume": 2870827
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 19.51,
+      "change_pct": 9.98,
+      "high": 19.51,
+      "low": 18.43,
+      "volume": 227880
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 2.75,
+      "change_pct": 7.42,
+      "high": 2.78,
+      "low": 2.62,
+      "volume": 2103009
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 12.23,
+      "change_pct": 5.7,
+      "high": 12.27,
+      "low": 11.76,
+      "volume": 296230
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 117.95,
+      "change_pct": 0.43,
+      "high": 120.98,
+      "low": 114.08,
+      "volume": 145163
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 16.93,
+      "change_pct": 3.8,
+      "high": 16.97,
+      "low": 16.3,
+      "volume": 60981
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.57,
+      "change_pct": 5.69,
+      "high": 5.57,
+      "low": 5.37,
+      "volume": 922794
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 14.79,
+      "change_pct": 1.72,
+      "high": 14.83,
+      "low": 14.51,
+      "volume": 675834
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 41.98,
+      "change_pct": 4.4,
+      "high": 42.27,
+      "low": 40.5,
+      "volume": 182215
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 32.95,
+      "change_pct": 1.92,
+      "high": 33.86,
+      "low": 32.68,
+      "volume": 241491
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 32.77,
+      "change_pct": 2.47,
+      "high": 32.97,
+      "low": 32.1,
+      "volume": 553802
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 24.39,
+      "change_pct": 2.65,
+      "high": 24.44,
+      "low": 23.54,
+      "volume": 441896
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 32.88,
+      "change_pct": 3.59,
+      "high": 33.2,
+      "low": 30.93,
+      "volume": 401026
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 19.63,
+      "change_pct": 2.99,
+      "high": 19.83,
+      "low": 19.0,
+      "volume": 552903
     },
     "601088": {
       "name": "中国神华",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 45.11,
+      "change_pct": 2.64,
+      "high": 45.15,
+      "low": 43.73,
+      "volume": 289834
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 1.99
     },
     "石油": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -0.52
     },
     "军工": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 3.35
     },
     "黄金": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 1.4
     }
   },
   "news": [
@@ -488,52 +540,15 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峡",
         "伊朗",
-        "中东",
+        "美军",
+        "海峡",
         "霍尔木兹",
-        "美军"
+        "中东"
       ],
       "action_hits": [
-        "打击",
-        "空袭"
-      ]
-    },
-    {
-      "source": "FT中文网",
-      "title": "特朗普宣布恢复对伊朗封锁并接管霍尔木兹海峡",
-      "link": "https://www.ftchinese.com/story/001110303",
-      "published": "Mon, 13 Jul 2026 16:00:00 GMT",
-      "summary": "美国总统称，美国将成为该海峡的“守护者”，并对途经霍尔木兹海峡的海运货物征收20%的费用。他还宣布恢复对伊朗的海上封锁。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "伊朗",
-        "海峡",
-        "霍尔木兹"
-      ],
-      "action_hits": [
-        "封锁"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Two US troops killed and one missing after Iranian attack in Jordan",
-      "link": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 19 Jul 2026 00:18:47 GMT",
-      "summary": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
-      "lang": "en",
-      "relevance_score": 100,
-      "entity_hits": [
-        "jordan",
-        "tehran",
-        "iran"
-      ],
-      "action_hits": [
-        "killed",
-        "attack",
-        "strike",
-        "escalat"
+        "空袭",
+        "打击"
       ]
     },
     {
@@ -545,16 +560,16 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
+        "uae",
         "strait",
         "iran",
-        "hormuz",
-        "uae"
+        "hormuz"
       ],
       "action_hits": [
-        "strike",
-        "launch",
-        "tanker",
         "blockade",
+        "strike",
+        "tanker",
+        "launch",
         "attack"
       ]
     },
@@ -567,16 +582,16 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "saudi",
-        "yemen",
         "houthi",
-        "iran"
+        "iran",
+        "saudi",
+        "yemen"
       ],
       "action_hits": [
-        "attack",
-        "missile",
+        "launch",
         "strike",
-        "launch"
+        "missile",
+        "attack"
       ]
     },
     {
@@ -593,9 +608,27 @@
       ],
       "action_hits": [
         "blockade",
+        "tanker",
         "strike",
-        "missile",
-        "tanker"
+        "missile"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US soldier killed and one injured after Iranian attack in Iraq",
+      "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 19 Jul 2026 19:45:12 GMT",
+      "summary": "The US military reports another death a day after two of its soldiers were killed in Jordan.",
+      "lang": "en",
+      "relevance_score": 75,
+      "entity_hits": [
+        "iraq",
+        "iran",
+        "jordan"
+      ],
+      "action_hits": [
+        "killed",
+        "attack"
       ]
     },
     {
@@ -624,8 +657,8 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "hamas",
-        "israel"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
         "killed",
@@ -641,8 +674,8 @@
       "lang": "en",
       "relevance_score": 65,
       "entity_hits": [
-        "tehran",
-        "iran"
+        "iran",
+        "tehran"
       ],
       "action_hits": [
         "launch",
@@ -658,54 +691,40 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "kuwait",
-        "iran"
+        "iran",
+        "kuwait"
       ],
       "action_hits": [
-        "strike",
-        "retaliat"
+        "retaliat",
+        "strike"
       ]
     }
   ],
   "event_states": [
     {
-      "event_id": "ab2f305e3085",
+      "event_id": "68c9e3100f30",
       "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-07-13T16:00:00+00:00",
+      "first_seen_time": "2026-07-14T04:50:48+00:00",
       "last_updated_time": "2026-07-14T04:50:48+00:00",
       "current_status": "shipping_disrupted",
-      "trend": "improving",
-      "confidence": 100,
-      "source_count": 2,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110303",
-      "lang": "zh"
-    },
-    {
-      "event_id": "e6dcc935cd00",
-      "title": "Two US troops killed and one missing after Iranian attack in Jordan",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-07-19T00:18:47+00:00",
-      "last_updated_time": "2026-07-19T00:18:47+00:00",
-      "current_status": "escalating",
-      "trend": "worsening",
+      "trend": "stable",
       "confidence": 100,
       "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
       "event_id": "3ab2e7fe62cd",
-      "title": "US strikes hit Iran for seventh consecutive night",
+      "title": "US soldier killed and one injured after Iranian attack in Iraq",
       "location": "伊朗",
       "first_seen_time": "2026-07-14T10:02:43+00:00",
-      "last_updated_time": "2026-07-18T17:44:56+00:00",
+      "last_updated_time": "2026-07-19T19:45:12+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 100,
-      "source_count": 2,
+      "source_count": 3,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
@@ -784,7 +803,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/20",
         "6/21",
         "6/22",
         "6/23",
@@ -813,7 +831,8 @@
         "7/16",
         "7/17",
         "7/18",
-        "7/19"
+        "7/19",
+        "7/20"
       ],
       "transits": [
         0,
@@ -903,34 +922,27 @@
         21,
         69
       ],
-      "date_label": "7月19日"
+      "date_label": "7月20日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-19",
+      "hormuz_last_date": "2026-07-20",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 128,
+      "vlcc_stale_days": 129,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-19"
+      "routes_date": "2026-07-20"
     }
   },
   "meta": {
-    "report_date": "2026.07.19",
-    "report_date_cn": "2026年07月19日",
-    "war_day": 142,
+    "report_date": "2026.07.20",
+    "report_date_cn": "2026年07月20日",
+    "war_day": 143,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-19T12:26:19.907515+08:00",
-    "generated_at_cn": "2026-07-19 12:26:19 北京时间"
+    "generated_at": "2026-07-20T12:41:31.495351+08:00",
+    "generated_at_cn": "2026-07-20 12:41:31 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-21",
-      "brent": 95.4800033569336,
-      "wti": 86.55999755859375,
-      "gold": 4816.5,
-      "usd_cny": 6.814700126647949
-    },
     {
       "date": "2026-04-22",
       "brent": 98.4800033569336,
@@ -1553,6 +1565,13 @@
       "wti": 81.77999877929688,
       "gold": 4018.800048828125,
       "usd_cny": 6.776800155639648
+    },
+    {
+      "date": "2026-07-20",
+      "brent": 90.37000274658203,
+      "wti": 83.66999816894531,
+      "gold": 4028.0,
+      "usd_cny": 6.770599842071533
     }
   ]
 }
