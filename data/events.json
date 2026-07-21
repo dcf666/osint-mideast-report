@@ -1,31 +1,17 @@
 [
   {
-    "event_id": "68c9e3100f30",
-    "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
+    "event_id": "7f0381980e68",
+    "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-14T04:50:48+00:00",
-    "last_updated_time": "2026-07-14T04:50:48+00:00",
-    "current_status": "shipping_disrupted",
-    "trend": "stable",
-    "confidence": 100,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "3ab2e7fe62cd",
-    "title": "US soldier killed and one injured after Iranian attack in Iraq",
-    "location": "伊朗",
-    "first_seen_time": "2026-07-14T10:02:43+00:00",
-    "last_updated_time": "2026-07-19T19:45:12+00:00",
+    "first_seen_time": "2026-07-18T10:05:00+00:00",
+    "last_updated_time": "2026-07-21T02:41:28+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 100,
-    "source_count": 3,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美国空袭持续-伊朗-再不收手就-全面反攻/a-78018295?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
   },
   {
     "event_id": "aab43dc7bfa6",
@@ -42,18 +28,46 @@
     "lang": "en"
   },
   {
-    "event_id": "7f0381980e68",
-    "title": "美国空袭持续 伊朗:再不收手就“全面反攻”",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-18T10:05:00+00:00",
-    "last_updated_time": "2026-07-18T10:05:00+00:00",
-    "current_status": "active_conflict",
+    "event_id": "42b302160e4f",
+    "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
+    "location": "也门",
+    "first_seen_time": "2026-07-20T21:30:19+00:00",
+    "last_updated_time": "2026-07-20T21:30:19+00:00",
+    "current_status": "shipping_disrupted",
     "trend": "stable",
     "confidence": 80,
     "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美国空袭持续-伊朗-再不收手就-全面反攻/a-78018295?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "efb93bec209c",
+    "title": "Hamas names Khalil al-Hayya as new overall leader",
+    "location": "以色列",
+    "first_seen_time": "2026-07-20T14:02:31+00:00",
+    "last_updated_time": "2026-07-20T14:02:31+00:00",
+    "current_status": "active_conflict",
+    "trend": "improving",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "9ae02f401e15",
+    "title": "US soldier killed and one injured after Iranian attack in Iraq",
+    "location": "伊朗",
+    "first_seen_time": "2026-07-19T19:45:12+00:00",
+    "last_updated_time": "2026-07-19T19:45:12+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 75,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "46aee9d55f47",
@@ -67,20 +81,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "ffaab3b8c36d",
-    "title": "Israeli strike on police post in north Gaza kills seven, officials say",
-    "location": "以色列",
-    "first_seen_time": "2026-07-14T17:13:27+00:00",
-    "last_updated_time": "2026-07-14T17:13:27+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {

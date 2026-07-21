@@ -9,10 +9,10 @@
     "relevance_score": 80,
     "entity_hits": [
       "伊朗",
+      "中东",
       "美军",
       "海峡",
-      "霍尔木兹",
-      "中东"
+      "霍尔木兹"
     ],
     "action_hits": [
       "空袭",
@@ -21,45 +21,22 @@
   },
   {
     "source": "BBC中东",
-    "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
-    "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 14 Jul 2026 04:50:48 GMT",
-    "summary": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the Strait of Hormuz.",
+    "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+    "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 21 Jul 2026 02:41:28 GMT",
+    "summary": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "uae",
-      "strait",
       "iran",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
-      "blockade",
       "strike",
-      "tanker",
       "launch",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
-    "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 14 Jul 2026 10:02:43 GMT",
-    "summary": "The Iran-backed Houthis blame Saudi Arabia for the attack in Yemen's capital and say they targeted Abha airport in response.",
-    "lang": "en",
-    "relevance_score": 100,
-    "entity_hits": [
-      "houthi",
-      "iran",
-      "saudi",
-      "yemen"
-    ],
-    "action_hits": [
-      "launch",
-      "strike",
-      "missile",
-      "attack"
+      "attack",
+      "retaliat"
     ]
   },
   {
@@ -75,10 +52,46 @@
       "kharg"
     ],
     "action_hits": [
-      "blockade",
-      "tanker",
+      "missile",
       "strike",
-      "missile"
+      "tanker",
+      "blockade"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
+    "link": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 20 Jul 2026 21:30:19 GMT",
+    "summary": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "saudi",
+      "houthi",
+      "yemen"
+    ],
+    "action_hits": [
+      "blockade",
+      "embargo"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Hamas names Khalil al-Hayya as new overall leader",
+    "link": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 20 Jul 2026 14:02:31 GMT",
+    "summary": "The Palestinian armed group's Qatar-based chief negotiator replaces Yahya Sinwar, who was killed by Israeli forces in Gaza in 2024.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "qatar",
+      "hamas",
+      "israel"
+    ],
+    "action_hits": [
+      "killed",
+      "negotiat"
     ]
   },
   {
@@ -90,8 +103,8 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "iraq",
       "iran",
+      "iraq",
       "jordan"
     ],
     "action_hits": [
@@ -108,29 +121,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
       "iran",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
       "ceasefire"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israeli strike on police post in north Gaza kills seven, officials say",
-    "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 14 Jul 2026 17:13:27 GMT",
-    "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "israel",
-      "hamas"
-    ],
-    "action_hits": [
-      "killed",
-      "strike"
     ]
   },
   {
@@ -146,8 +142,8 @@
       "tehran"
     ],
     "action_hits": [
-      "launch",
-      "strike"
+      "strike",
+      "launch"
     ]
   },
   {
@@ -163,8 +159,8 @@
       "kuwait"
     ],
     "action_hits": [
-      "retaliat",
-      "strike"
+      "strike",
+      "retaliat"
     ]
   }
 ]
