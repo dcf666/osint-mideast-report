@@ -1,17 +1,17 @@
 [
   {
-    "event_id": "7f0381980e68",
+    "event_id": "da8b009de050",
     "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-18T10:05:00+00:00",
-    "last_updated_time": "2026-07-21T02:41:28+00:00",
+    "first_seen_time": "2026-07-21T16:10:56+00:00",
+    "last_updated_time": "2026-07-21T16:10:56+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 100,
-    "source_count": 2,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美国空袭持续-伊朗-再不收手就-全面反攻/a-78018295?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
+    "confidence": 90,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "aab43dc7bfa6",
@@ -43,14 +43,14 @@
   },
   {
     "event_id": "efb93bec209c",
-    "title": "Hamas names Khalil al-Hayya as new overall leader",
+    "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
     "location": "以色列",
     "first_seen_time": "2026-07-20T14:02:31+00:00",
-    "last_updated_time": "2026-07-20T14:02:31+00:00",
+    "last_updated_time": "2026-07-21T15:54:11+00:00",
     "current_status": "active_conflict",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -67,20 +67,6 @@
     "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "46aee9d55f47",
-    "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-14T19:13:49+00:00",
-    "last_updated_time": "2026-07-14T19:13:49+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {

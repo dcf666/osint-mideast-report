@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 88.38999938964844,
-      "day_change_pct": -0.93,
-      "war_change_pct": -10.25,
+      "current": 92.08999633789062,
+      "day_change_pct": 1.19,
+      "war_change_pct": -9.64,
       "dates": [
-        "06/08",
         "06/09",
         "06/10",
         "06/11",
@@ -34,10 +33,10 @@
         "07/16",
         "07/17",
         "07/20",
-        "07/21"
+        "07/21",
+        "07/22"
       ],
       "prices": [
-        94.25,
         91.45,
         93.1,
         90.38,
@@ -66,16 +65,16 @@
         84.23,
         88.1,
         89.22,
-        88.39
+        91.01,
+        92.09
       ],
-      "updated": "2026-07-21T04:19:38.705409"
+      "updated": "2026-07-22T04:21:17.161822"
     },
     "wti": {
-      "current": 82.05999755859375,
-      "day_change_pct": -1.41,
-      "war_change_pct": -10.93,
+      "current": 85.29000091552734,
+      "day_change_pct": 0.45,
+      "war_change_pct": -8.25,
       "dates": [
-        "06/08",
         "06/09",
         "06/10",
         "06/11",
@@ -104,10 +103,10 @@
         "07/16",
         "07/17",
         "07/20",
-        "07/21"
+        "07/21",
+        "07/22"
       ],
       "prices": [
-        91.3,
         88.2,
         90.03,
         87.71,
@@ -136,16 +135,16 @@
         78.95,
         82.49,
         83.23,
-        82.06
+        84.91,
+        85.29
       ],
-      "updated": "2026-07-21T04:19:39.060762"
+      "updated": "2026-07-22T04:21:17.412670"
     },
     "gold": {
-      "current": 4054.10009765625,
-      "day_change_pct": 1.09,
-      "war_change_pct": -13.71,
+      "current": 4132.0,
+      "day_change_pct": 1.5,
+      "war_change_pct": -12.69,
       "dates": [
-        "06/08",
         "06/09",
         "06/10",
         "06/11",
@@ -174,10 +173,10 @@
         "07/16",
         "07/17",
         "07/20",
-        "07/21"
+        "07/21",
+        "07/22"
       ],
       "prices": [
-        4335.9,
         4260.0,
         4108.2,
         4090.3,
@@ -206,16 +205,16 @@
         3985.6,
         4012.7,
         4010.3,
-        4054.1
+        4071.1,
+        4132.0
       ],
-      "updated": "2026-07-21T04:19:39.520933"
+      "updated": "2026-07-22T04:21:17.738367"
     },
     "usd_cny": {
-      "current": 6.76609992980957,
-      "day_change_pct": -0.09,
-      "war_change_pct": -0.75,
+      "current": 6.7617998123168945,
+      "day_change_pct": -0.16,
+      "war_change_pct": -0.87,
       "dates": [
-        "06/10",
         "06/11",
         "06/12",
         "06/15",
@@ -244,11 +243,11 @@
         "07/16",
         "07/17",
         "07/20",
-        "07/21"
+        "07/21",
+        "07/22"
       ],
       "prices": [
         6.77,
-        6.77,
         6.78,
         6.77,
         6.76,
@@ -276,16 +275,16 @@
         6.77,
         6.77,
         6.77,
-        6.77
+        6.77,
+        6.76
       ],
-      "updated": "2026-07-21T04:19:39.852632"
+      "updated": "2026-07-22T04:21:18.022568"
     },
     "nat_gas": {
-      "current": 2.8559999465942383,
-      "day_change_pct": -0.14,
-      "war_change_pct": 5.9,
+      "current": 2.878000020980835,
+      "day_change_pct": 0.45,
+      "war_change_pct": 5.73,
       "dates": [
-        "06/08",
         "06/09",
         "06/10",
         "06/11",
@@ -314,10 +313,10 @@
         "07/16",
         "07/17",
         "07/20",
-        "07/21"
+        "07/21",
+        "07/22"
       ],
       "prices": [
-        3.15,
         3.14,
         3.18,
         3.09,
@@ -346,35 +345,27 @@
         2.86,
         2.91,
         2.86,
-        2.86
+        2.87,
+        2.88
       ],
-      "updated": "2026-07-21T04:19:40.143507"
+      "updated": "2026-07-22T04:21:18.329896"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 14.3,
-      "change_pct": 0.07,
-      "high": 14.33,
-      "low": 13.86,
-      "volume": 610183
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600026": {
       "name": "中远海能",
-      "price": 14.71,
-      "change_pct": 1.31,
-      "high": 14.72,
-      "low": 14.15,
-      "volume": 453205
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601975": {
       "name": "招商南油",
-      "price": 3.4,
-      "change_pct": 0.59,
-      "high": 3.4,
-      "low": 3.31,
-      "volume": 1246996
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600938": {
       "name": "中国海油",
@@ -384,7 +375,7 @@
     "601857": {
       "name": "中国石油",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600028": {
       "name": "中国石化",
@@ -486,42 +477,23 @@
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "美国空袭持续 伊朗:再不收手就“全面反攻”",
-      "link": "https://www.dw.com/zh/美国空袭持续-伊朗-再不收手就-全面反攻/a-78018295?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 18 Jul 2026 10:05:00 GMT",
-      "summary": "美军对伊朗的空袭已经连续7天，伊朗谴责美国对民用基础设施的打击构成了战争罪行。与此同时，伊朗也加大了对中东邻国境内美军目标的袭击力度。霍尔木兹海峡的自由通行短期内希望渺茫。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "伊朗",
-        "中东",
-        "美军",
-        "海峡",
-        "霍尔木兹"
-      ],
-      "action_hits": [
-        "空袭",
-        "打击"
-      ]
-    },
-    {
       "source": "BBC中东",
       "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
       "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 21 Jul 2026 02:41:28 GMT",
-      "summary": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
+      "published": "Tue, 21 Jul 2026 16:10:56 GMT",
+      "summary": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
       "lang": "en",
-      "relevance_score": 100,
+      "relevance_score": 90,
       "entity_hits": [
+        "jordan",
         "iran",
-        "hormuz",
-        "strait"
+        "strait",
+        "bahrain",
+        "hormuz"
       ],
       "action_hits": [
-        "strike",
         "launch",
-        "attack",
+        "strike",
         "retaliat"
       ]
     },
@@ -538,10 +510,10 @@
         "kharg"
       ],
       "action_hits": [
-        "missile",
+        "blockade",
         "strike",
-        "tanker",
-        "blockade"
+        "missile",
+        "tanker"
       ]
     },
     {
@@ -553,9 +525,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "saudi",
+        "yemen",
         "houthi",
-        "yemen"
+        "saudi"
       ],
       "action_hits": [
         "blockade",
@@ -571,13 +543,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "qatar",
+        "israel",
         "hamas",
-        "israel"
+        "qatar"
       ],
       "action_hits": [
-        "killed",
-        "negotiat"
+        "negotiat",
+        "killed"
       ]
     },
     {
@@ -589,9 +561,9 @@
       "lang": "en",
       "relevance_score": 75,
       "entity_hits": [
-        "iran",
+        "jordan",
         "iraq",
-        "jordan"
+        "iran"
       ],
       "action_hits": [
         "killed",
@@ -600,19 +572,19 @@
     },
     {
       "source": "BBC中东",
-      "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
-      "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 14 Jul 2026 19:13:49 GMT",
-      "summary": "Control of the waterway has become a key point of contention between the US and Iran, as a ceasefire deal falters.",
+      "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
+      "link": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 21 Jul 2026 15:54:11 GMT",
+      "summary": "Firas al-Masri, his wife and their four children died in one attack, which the Israeli military says targeted a Hamas operative.",
       "lang": "en",
-      "relevance_score": 70,
+      "relevance_score": 67,
       "entity_hits": [
-        "iran",
-        "hormuz",
-        "strait"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
-        "ceasefire"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -624,12 +596,12 @@
       "lang": "en",
       "relevance_score": 65,
       "entity_hits": [
-        "iran",
-        "tehran"
+        "tehran",
+        "iran"
       ],
       "action_hits": [
-        "strike",
-        "launch"
+        "launch",
+        "strike"
       ]
     },
     {
@@ -641,8 +613,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "iran",
-        "kuwait"
+        "kuwait",
+        "iran"
       ],
       "action_hits": [
         "strike",
@@ -652,18 +624,18 @@
   ],
   "event_states": [
     {
-      "event_id": "7f0381980e68",
+      "event_id": "da8b009de050",
       "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-07-18T10:05:00+00:00",
-      "last_updated_time": "2026-07-21T02:41:28+00:00",
+      "first_seen_time": "2026-07-21T16:10:56+00:00",
+      "last_updated_time": "2026-07-21T16:10:56+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
-      "confidence": 100,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美国空袭持续-伊朗-再不收手就-全面反攻/a-78018295?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
+      "confidence": 90,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "aab43dc7bfa6",
@@ -695,14 +667,14 @@
     },
     {
       "event_id": "efb93bec209c",
-      "title": "Hamas names Khalil al-Hayya as new overall leader",
+      "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
       "location": "以色列",
       "first_seen_time": "2026-07-20T14:02:31+00:00",
-      "last_updated_time": "2026-07-20T14:02:31+00:00",
+      "last_updated_time": "2026-07-21T15:54:11+00:00",
       "current_status": "active_conflict",
       "trend": "improving",
       "confidence": 80,
-      "source_count": 1,
+      "source_count": 2,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
@@ -719,20 +691,6 @@
       "source_count": 2,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "46aee9d55f47",
-      "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-07-14T19:13:49+00:00",
-      "last_updated_time": "2026-07-14T19:13:49+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -753,7 +711,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/22",
         "6/23",
         "6/24",
         "6/25",
@@ -782,7 +739,8 @@
         "7/18",
         "7/19",
         "7/20",
-        "7/21"
+        "7/21",
+        "7/22"
       ],
       "transits": [
         0,
@@ -872,34 +830,27 @@
         21,
         69
       ],
-      "date_label": "7月21日"
+      "date_label": "7月22日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-21",
+      "hormuz_last_date": "2026-07-22",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 130,
+      "vlcc_stale_days": 131,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-21"
+      "routes_date": "2026-07-22"
     }
   },
   "meta": {
-    "report_date": "2026.07.21",
-    "report_date_cn": "2026年07月21日",
-    "war_day": 144,
+    "report_date": "2026.07.22",
+    "report_date_cn": "2026年07月22日",
+    "war_day": 145,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-21T12:20:11.919144+08:00",
-    "generated_at_cn": "2026-07-21 12:20:11 北京时间"
+    "generated_at": "2026-07-22T12:22:29.584225+08:00",
+    "generated_at_cn": "2026-07-22 12:22:29 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-23",
-      "brent": 103.19999694824219,
-      "wti": 94.44999694824219,
-      "gold": 4718.2998046875,
-      "usd_cny": 6.831500053405762
-    },
     {
       "date": "2026-04-24",
       "brent": 106.05999755859375,
@@ -1522,6 +1473,13 @@
       "wti": 82.05999755859375,
       "gold": 4054.10009765625,
       "usd_cny": 6.76609992980957
+    },
+    {
+      "date": "2026-07-22",
+      "brent": 92.08999633789062,
+      "wti": 85.29000091552734,
+      "gold": 4132.0,
+      "usd_cny": 6.7617998123168945
     }
   ]
 }
