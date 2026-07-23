@@ -1,5 +1,23 @@
 [
   {
+    "source": "德国之声",
+    "title": "美连续11晚对伊空袭 美防长称伊朗战争已耗375亿美元",
+    "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 22 Jul 2026 12:08:00 GMT",
+    "summary": "美国国防部长赫格塞思表示，美国针对伊朗的军事行动迄今已耗费375亿美元，呼吁国会批准更多战争经费。与此同时，美军已连续第11晚对伊朗发动打击。另有消息称，巴基斯坦在斡旋伊朗谈判后向美寻求100亿美元外汇稳定融资。",
+    "lang": "zh",
+    "relevance_score": 77,
+    "entity_hits": [
+      "伊朗",
+      "美军"
+    ],
+    "action_hits": [
+      "谈判",
+      "空袭",
+      "打击"
+    ]
+  },
+  {
     "source": "BBC中东",
     "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
     "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
@@ -9,15 +27,15 @@
     "relevance_score": 90,
     "entity_hits": [
       "jordan",
+      "bahrain",
       "iran",
       "strait",
-      "bahrain",
       "hormuz"
     ],
     "action_hits": [
       "launch",
-      "strike",
-      "retaliat"
+      "retaliat",
+      "strike"
     ]
   },
   {
@@ -29,14 +47,14 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
-      "iran",
-      "kharg"
+      "kharg",
+      "iran"
     ],
     "action_hits": [
       "blockade",
       "strike",
-      "missile",
-      "tanker"
+      "tanker",
+      "missile"
     ]
   },
   {
@@ -48,9 +66,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "yemen",
       "houthi",
-      "saudi"
+      "saudi",
+      "yemen"
     ],
     "action_hits": [
       "blockade",
@@ -66,8 +84,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "israel",
       "hamas",
+      "israel",
       "qatar"
     ],
     "action_hits": [
@@ -84,13 +102,47 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "jordan",
       "iraq",
+      "jordan",
       "iran"
     ],
     "action_hits": [
-      "killed",
+      "attack",
+      "killed"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+    "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 22 Jul 2026 22:17:54 GMT",
+    "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "strait",
+      "iran",
+      "hormuz"
+    ],
+    "action_hits": [
       "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Tankers make sharp U-turns after Houthi shipping threat",
+    "link": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 22 Jul 2026 14:42:49 GMT",
+    "summary": "All of the ships were travelling to or from Saudi ports before changing course, ship-tracking data shows.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "houthi",
+      "saudi"
+    ],
+    "action_hits": [
+      "shipping",
+      "tanker"
     ]
   },
   {
@@ -106,42 +158,8 @@
       "hamas"
     ],
     "action_hits": [
-      "strike",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-    "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 16 Jul 2026 04:06:11 GMT",
-    "summary": "US President Donald Trump says he is yet to decide whether or not he will \"finish off\" Iran.",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "tehran",
-      "iran"
-    ],
-    "action_hits": [
-      "launch",
+      "attack",
       "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US strikes hit Iran for seventh consecutive night",
-    "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 18 Jul 2026 17:44:56 GMT",
-    "summary": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit.",
-    "lang": "en",
-    "relevance_score": 60,
-    "entity_hits": [
-      "kuwait",
-      "iran"
-    ],
-    "action_hits": [
-      "strike",
-      "retaliat"
     ]
   }
 ]

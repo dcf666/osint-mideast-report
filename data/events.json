@@ -1,14 +1,14 @@
 [
   {
     "event_id": "da8b009de050",
-    "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+    "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-07-21T16:10:56+00:00",
-    "last_updated_time": "2026-07-21T16:10:56+00:00",
+    "last_updated_time": "2026-07-22T22:17:54+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -56,31 +56,31 @@
     "lang": "en"
   },
   {
-    "event_id": "9ae02f401e15",
-    "title": "US soldier killed and one injured after Iranian attack in Iraq",
+    "event_id": "2f82e4859a7d",
+    "title": "美连续11晚对伊空袭 美防长称伊朗战争已耗375亿美元",
     "location": "伊朗",
-    "first_seen_time": "2026-07-19T19:45:12+00:00",
-    "last_updated_time": "2026-07-19T19:45:12+00:00",
+    "first_seen_time": "2026-07-22T12:08:00+00:00",
+    "last_updated_time": "2026-07-22T12:08:00+00:00",
     "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 75,
+    "trend": "improving",
+    "confidence": 77,
     "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
   },
   {
-    "event_id": "4b3c3d8a687a",
-    "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-07-16T04:06:11+00:00",
-    "last_updated_time": "2026-07-16T04:06:11+00:00",
+    "event_id": "718345444220",
+    "title": "Tankers make sharp U-turns after Houthi shipping threat",
+    "location": "沙特阿拉伯",
+    "first_seen_time": "2026-07-22T14:42:49+00:00",
+    "last_updated_time": "2026-07-22T14:42:49+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 65,
+    "confidence": 67,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

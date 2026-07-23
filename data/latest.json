@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 92.08999633789062,
-      "day_change_pct": 1.19,
-      "war_change_pct": -9.64,
+      "current": 96.18000030517578,
+      "day_change_pct": 2.24,
+      "war_change_pct": -8.46,
       "dates": [
-        "06/09",
         "06/10",
         "06/11",
         "06/12",
@@ -34,10 +33,10 @@
         "07/17",
         "07/20",
         "07/21",
-        "07/22"
+        "07/22",
+        "07/23"
       ],
       "prices": [
-        91.45,
         93.1,
         90.38,
         87.33,
@@ -66,16 +65,16 @@
         88.1,
         89.22,
         91.01,
-        92.09
+        94.07,
+        96.18
       ],
-      "updated": "2026-07-22T04:21:17.161822"
+      "updated": "2026-07-23T04:20:18.184485"
     },
     "wti": {
-      "current": 85.29000091552734,
-      "day_change_pct": 0.45,
-      "war_change_pct": -8.25,
+      "current": 88.33999633789062,
+      "day_change_pct": 1.74,
+      "war_change_pct": -7.84,
       "dates": [
-        "06/09",
         "06/10",
         "06/11",
         "06/12",
@@ -104,10 +103,10 @@
         "07/17",
         "07/20",
         "07/21",
-        "07/22"
+        "07/22",
+        "07/23"
       ],
       "prices": [
-        88.2,
         90.03,
         87.71,
         84.88,
@@ -136,16 +135,16 @@
         82.49,
         83.23,
         84.91,
-        85.29
+        86.83,
+        88.34
       ],
-      "updated": "2026-07-22T04:21:17.412670"
+      "updated": "2026-07-23T04:20:18.352343"
     },
     "gold": {
-      "current": 4132.0,
-      "day_change_pct": 1.5,
-      "war_change_pct": -12.69,
+      "current": 4127.7001953125,
+      "day_change_pct": -0.46,
+      "war_change_pct": -12.27,
       "dates": [
-        "06/09",
         "06/10",
         "06/11",
         "06/12",
@@ -174,10 +173,10 @@
         "07/17",
         "07/20",
         "07/21",
-        "07/22"
+        "07/22",
+        "07/23"
       ],
       "prices": [
-        4260.0,
         4108.2,
         4090.3,
         4215.0,
@@ -206,16 +205,16 @@
         4012.7,
         4010.3,
         4071.1,
-        4132.0
+        4146.9,
+        4127.7
       ],
-      "updated": "2026-07-22T04:21:17.738367"
+      "updated": "2026-07-23T04:20:18.523618"
     },
     "usd_cny": {
-      "current": 6.7617998123168945,
-      "day_change_pct": -0.16,
-      "war_change_pct": -0.87,
+      "current": 6.767399787902832,
+      "day_change_pct": 0.03,
+      "war_change_pct": -0.83,
       "dates": [
-        "06/11",
         "06/12",
         "06/15",
         "06/16",
@@ -244,10 +243,10 @@
         "07/17",
         "07/20",
         "07/21",
-        "07/22"
+        "07/22",
+        "07/23"
       ],
       "prices": [
-        6.77,
         6.78,
         6.77,
         6.76,
@@ -276,16 +275,16 @@
         6.77,
         6.77,
         6.77,
-        6.76
+        6.77,
+        6.77
       ],
-      "updated": "2026-07-22T04:21:18.022568"
+      "updated": "2026-07-23T04:20:18.769004"
     },
     "nat_gas": {
-      "current": 2.878000020980835,
-      "day_change_pct": 0.45,
-      "war_change_pct": 5.73,
+      "current": 2.9609999656677246,
+      "day_change_pct": 1.23,
+      "war_change_pct": 13.27,
       "dates": [
-        "06/09",
         "06/10",
         "06/11",
         "06/12",
@@ -314,10 +313,10 @@
         "07/17",
         "07/20",
         "07/21",
-        "07/22"
+        "07/22",
+        "07/23"
       ],
       "prices": [
-        3.14,
         3.18,
         3.09,
         3.12,
@@ -346,136 +345,210 @@
         2.91,
         2.86,
         2.87,
-        2.88
+        2.92,
+        2.96
       ],
-      "updated": "2026-07-22T04:21:18.329896"
+      "updated": "2026-07-23T04:20:18.938213"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 15.51,
+      "change_pct": -1.59,
+      "high": 15.73,
+      "low": 14.97,
+      "volume": 742168
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 15.71,
+      "change_pct": 0.32,
+      "high": 15.87,
+      "low": 15.2,
+      "volume": 424346
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 3.57,
+      "change_pct": -0.28,
+      "high": 3.65,
+      "low": 3.47,
+      "volume": 1329906
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 33.1,
+      "change_pct": 2.19,
+      "high": 33.3,
+      "low": 32.4,
+      "volume": 591388
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 10.9,
+      "change_pct": -0.18,
+      "high": 11.02,
+      "low": 10.73,
+      "volume": 985936
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.2,
+      "change_pct": 0.39,
+      "high": 5.23,
+      "low": 5.16,
+      "volume": 1399135
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 23.47,
+      "change_pct": 9.98,
+      "high": 23.47,
+      "low": 22.67,
+      "volume": 126176
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 2.63,
+      "change_pct": 1.15,
+      "high": 2.67,
+      "low": 2.56,
+      "volume": 1641838
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 12.59,
+      "change_pct": 1.7,
+      "high": 12.61,
+      "low": 12.29,
+      "volume": 209803
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 135.11,
+      "change_pct": 10.0,
+      "high": 135.11,
+      "low": 135.11,
+      "volume": 24397
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.38,
+      "change_pct": 1.7,
+      "high": 17.45,
+      "low": 17.1,
+      "volume": 41581
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.78,
+      "change_pct": 3.03,
+      "high": 5.8,
+      "low": 5.59,
+      "volume": 942844
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 15.18,
+      "change_pct": 0.26,
+      "high": 15.23,
+      "low": 14.97,
+      "volume": 573444
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 43.14,
+      "change_pct": 0.94,
+      "high": 43.26,
+      "low": 42.3,
+      "volume": 102396
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 34.79,
+      "change_pct": 2.56,
+      "high": 35.23,
+      "low": 33.95,
+      "volume": 204558
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 33.42,
+      "change_pct": 1.21,
+      "high": 33.62,
+      "low": 32.68,
+      "volume": 644621
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 27.79,
+      "change_pct": 1.42,
+      "high": 28.09,
+      "low": 27.0,
+      "volume": 785979
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 39.52,
+      "change_pct": 3.4,
+      "high": 40.78,
+      "low": 37.22,
+      "volume": 829968
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 22.82,
+      "change_pct": 3.21,
+      "high": 23.17,
+      "low": 21.91,
+      "volume": 817594
     },
     "601088": {
       "name": "中国神华",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 45.49,
+      "change_pct": 0.11,
+      "high": 45.7,
+      "low": 44.67,
+      "volume": 211858
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 0.45
     },
     "石油": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 2.85
     },
     "军工": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -1.08
     },
     "黄金": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 0.38
     }
   },
   "news": [
+    {
+      "source": "德国之声",
+      "title": "美连续11晚对伊空袭 美防长称伊朗战争已耗375亿美元",
+      "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 22 Jul 2026 12:08:00 GMT",
+      "summary": "美国国防部长赫格塞思表示，美国针对伊朗的军事行动迄今已耗费375亿美元，呼吁国会批准更多战争经费。与此同时，美军已连续第11晚对伊朗发动打击。另有消息称，巴基斯坦在斡旋伊朗谈判后向美寻求100亿美元外汇稳定融资。",
+      "lang": "zh",
+      "relevance_score": 77,
+      "entity_hits": [
+        "伊朗",
+        "美军"
+      ],
+      "action_hits": [
+        "谈判",
+        "空袭",
+        "打击"
+      ]
+    },
     {
       "source": "BBC中东",
       "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
@@ -486,15 +559,15 @@
       "relevance_score": 90,
       "entity_hits": [
         "jordan",
+        "bahrain",
         "iran",
         "strait",
-        "bahrain",
         "hormuz"
       ],
       "action_hits": [
         "launch",
-        "strike",
-        "retaliat"
+        "retaliat",
+        "strike"
       ]
     },
     {
@@ -506,14 +579,14 @@
       "lang": "en",
       "relevance_score": 85,
       "entity_hits": [
-        "iran",
-        "kharg"
+        "kharg",
+        "iran"
       ],
       "action_hits": [
         "blockade",
         "strike",
-        "missile",
-        "tanker"
+        "tanker",
+        "missile"
       ]
     },
     {
@@ -525,9 +598,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "yemen",
         "houthi",
-        "saudi"
+        "saudi",
+        "yemen"
       ],
       "action_hits": [
         "blockade",
@@ -543,8 +616,8 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "israel",
         "hamas",
+        "israel",
         "qatar"
       ],
       "action_hits": [
@@ -561,13 +634,47 @@
       "lang": "en",
       "relevance_score": 75,
       "entity_hits": [
-        "jordan",
         "iraq",
+        "jordan",
         "iran"
       ],
       "action_hits": [
-        "killed",
+        "attack",
+        "killed"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+      "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 22 Jul 2026 22:17:54 GMT",
+      "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "strait",
+        "iran",
+        "hormuz"
+      ],
+      "action_hits": [
         "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Tankers make sharp U-turns after Houthi shipping threat",
+      "link": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 22 Jul 2026 14:42:49 GMT",
+      "summary": "All of the ships were travelling to or from Saudi ports before changing course, ship-tracking data shows.",
+      "lang": "en",
+      "relevance_score": 67,
+      "entity_hits": [
+        "houthi",
+        "saudi"
+      ],
+      "action_hits": [
+        "shipping",
+        "tanker"
       ]
     },
     {
@@ -583,56 +690,22 @@
         "hamas"
       ],
       "action_hits": [
-        "strike",
-        "attack"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-      "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 16 Jul 2026 04:06:11 GMT",
-      "summary": "US President Donald Trump says he is yet to decide whether or not he will \"finish off\" Iran.",
-      "lang": "en",
-      "relevance_score": 65,
-      "entity_hits": [
-        "tehran",
-        "iran"
-      ],
-      "action_hits": [
-        "launch",
+        "attack",
         "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US strikes hit Iran for seventh consecutive night",
-      "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 18 Jul 2026 17:44:56 GMT",
-      "summary": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit.",
-      "lang": "en",
-      "relevance_score": 60,
-      "entity_hits": [
-        "kuwait",
-        "iran"
-      ],
-      "action_hits": [
-        "strike",
-        "retaliat"
       ]
     }
   ],
   "event_states": [
     {
       "event_id": "da8b009de050",
-      "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
       "location": "霍尔木兹海峡",
       "first_seen_time": "2026-07-21T16:10:56+00:00",
-      "last_updated_time": "2026-07-21T16:10:56+00:00",
+      "last_updated_time": "2026-07-22T22:17:54+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 90,
-      "source_count": 1,
+      "source_count": 2,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
       "lang": "en"
@@ -680,38 +753,37 @@
       "lang": "en"
     },
     {
-      "event_id": "9ae02f401e15",
-      "title": "US soldier killed and one injured after Iranian attack in Iraq",
+      "event_id": "2f82e4859a7d",
+      "title": "美连续11晚对伊空袭 美防长称伊朗战争已耗375亿美元",
       "location": "伊朗",
-      "first_seen_time": "2026-07-19T19:45:12+00:00",
-      "last_updated_time": "2026-07-19T19:45:12+00:00",
+      "first_seen_time": "2026-07-22T12:08:00+00:00",
+      "last_updated_time": "2026-07-22T12:08:00+00:00",
       "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 75,
+      "trend": "improving",
+      "confidence": 77,
       "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
     },
     {
-      "event_id": "4b3c3d8a687a",
-      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-07-16T04:06:11+00:00",
-      "last_updated_time": "2026-07-16T04:06:11+00:00",
+      "event_id": "718345444220",
+      "title": "Tankers make sharp U-turns after Houthi shipping threat",
+      "location": "沙特阿拉伯",
+      "first_seen_time": "2026-07-22T14:42:49+00:00",
+      "last_updated_time": "2026-07-22T14:42:49+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
-      "confidence": 65,
+      "confidence": 67,
       "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/23",
         "6/24",
         "6/25",
         "6/26",
@@ -740,7 +812,8 @@
         "7/19",
         "7/20",
         "7/21",
-        "7/22"
+        "7/22",
+        "7/23"
       ],
       "transits": [
         0,
@@ -830,34 +903,27 @@
         21,
         69
       ],
-      "date_label": "7月22日"
+      "date_label": "7月23日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-22",
+      "hormuz_last_date": "2026-07-23",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 131,
+      "vlcc_stale_days": 132,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-22"
+      "routes_date": "2026-07-23"
     }
   },
   "meta": {
-    "report_date": "2026.07.22",
-    "report_date_cn": "2026年07月22日",
-    "war_day": 145,
+    "report_date": "2026.07.23",
+    "report_date_cn": "2026年07月23日",
+    "war_day": 146,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-22T12:22:29.584225+08:00",
-    "generated_at_cn": "2026-07-22 12:22:29 北京时间"
+    "generated_at": "2026-07-23T12:21:16.021437+08:00",
+    "generated_at_cn": "2026-07-23 12:21:16 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-24",
-      "brent": 106.05999755859375,
-      "wti": 96.56999969482422,
-      "gold": 4689.2001953125,
-      "usd_cny": 6.83519983291626
-    },
     {
       "date": "2026-04-25",
       "brent": 99.77999877929688,
@@ -1480,6 +1546,13 @@
       "wti": 85.29000091552734,
       "gold": 4132.0,
       "usd_cny": 6.7617998123168945
+    },
+    {
+      "date": "2026-07-23",
+      "brent": 96.18000030517578,
+      "wti": 88.33999633789062,
+      "gold": 4127.7001953125,
+      "usd_cny": 6.767399787902832
     }
   ]
 }
