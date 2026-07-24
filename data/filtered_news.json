@@ -1,5 +1,50 @@
 [
   {
+    "source": "FT中文网",
+    "title": "红海再起冲突 油价重返每桶100美元高位",
+    "link": "https://www.ftchinese.com/story/001110417",
+    "published": "Thu, 23 Jul 2026 16:00:00 GMT",
+    "summary": "也门胡塞武装称其已袭击两艘在红海航行的沙特油轮。人们担心该组织会与伊朗协调行动，封锁曼德海峡，对能源市场构成进一步的压力。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "油轮",
+      "曼德海峡",
+      "油价",
+      "也门",
+      "胡塞",
+      "沙特",
+      "海峡",
+      "红海",
+      "伊朗"
+    ],
+    "action_hits": [
+      "油轮",
+      "封锁",
+      "油价"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "曼德海峽：胡塞武裝的威脅會否觸發紅海航運危機？",
+    "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 24 Jul 2026 00:03:29 GMT",
+    "summary": "全球約12%的海運石油貿易經過曼德海峽。隨着霍爾木茲海峽（荷莫茲海峽）實際上已被關閉，伊朗的盟友正威脅透過封鎖這條中東第二關鍵海上航道，進一步擾亂全球貿易。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "伊朗",
+      "海峽",
+      "霍爾木茲",
+      "胡塞",
+      "紅海"
+    ],
+    "action_hits": [
+      "封鎖",
+      "航運"
+    ]
+  },
+  {
     "source": "德国之声",
     "title": "美连续11晚对伊空袭 美防长称伊朗战争已耗375亿美元",
     "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -8,13 +53,54 @@
     "lang": "zh",
     "relevance_score": 77,
     "entity_hits": [
-      "伊朗",
-      "美军"
+      "美军",
+      "伊朗"
     ],
     "action_hits": [
-      "谈判",
       "空袭",
+      "谈判",
       "打击"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
+    "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 23 Jul 2026 16:50:59 GMT",
+    "summary": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "yemen",
+      "iran",
+      "saudi",
+      "houthi"
+    ],
+    "action_hits": [
+      "attack",
+      "strike",
+      "embargo",
+      "tanker",
+      "launch"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Oil prices hit $100 for the first time since May",
+    "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 23 Jul 2026 15:31:00 GMT",
+    "summary": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "oil price",
+      "brent crude",
+      "middle east"
+    ],
+    "action_hits": [
+      "escalat",
+      "oil price",
+      "crude"
     ]
   },
   {
@@ -26,35 +112,16 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "jordan",
       "bahrain",
       "iran",
       "strait",
+      "jordan",
       "hormuz"
     ],
     "action_hits": [
-      "launch",
       "retaliat",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
-    "link": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 16 Jul 2026 12:09:26 GMT",
-    "summary": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
-    "lang": "en",
-    "relevance_score": 85,
-    "entity_hits": [
-      "kharg",
-      "iran"
-    ],
-    "action_hits": [
-      "blockade",
       "strike",
-      "tanker",
-      "missile"
+      "launch"
     ]
   },
   {
@@ -66,9 +133,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "houthi",
+      "yemen",
       "saudi",
-      "yemen"
+      "houthi"
     ],
     "action_hits": [
       "blockade",
@@ -84,31 +151,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "qatar",
       "hamas",
-      "israel",
-      "qatar"
+      "israel"
     ],
     "action_hits": [
-      "negotiat",
-      "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US soldier killed and one injured after Iranian attack in Iraq",
-    "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 19 Jul 2026 19:45:12 GMT",
-    "summary": "The US military reports another death a day after two of its soldiers were killed in Jordan.",
-    "lang": "en",
-    "relevance_score": 75,
-    "entity_hits": [
-      "iraq",
-      "jordan",
-      "iran"
-    ],
-    "action_hits": [
-      "attack",
-      "killed"
+      "killed",
+      "negotiat"
     ]
   },
   {
@@ -121,28 +170,11 @@
     "relevance_score": 70,
     "entity_hits": [
       "strait",
-      "iran",
-      "hormuz"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Tankers make sharp U-turns after Houthi shipping threat",
-    "link": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 22 Jul 2026 14:42:49 GMT",
-    "summary": "All of the ships were travelling to or from Saudi ports before changing course, ship-tracking data shows.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "houthi",
-      "saudi"
-    ],
-    "action_hits": [
-      "shipping",
-      "tanker"
     ]
   },
   {
@@ -154,12 +186,29 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iranian drone strikes warehouse in Kuwait",
+    "link": "https://www.bbc.co.uk/news/videos/cvg7g2v1j9do?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 16 Jul 2026 10:17:50 GMT",
+    "summary": "Verified video shows an Iranian drone hitting a warehouse in Kuwait",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "iran",
+      "kuwait"
+    ],
+    "action_hits": [
+      "strike",
+      "drone"
     ]
   }
 ]

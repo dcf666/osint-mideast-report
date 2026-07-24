@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 96.18000030517578,
-      "day_change_pct": 2.24,
-      "war_change_pct": -8.46,
+      "current": 100.47000122070312,
+      "day_change_pct": -0.22,
+      "war_change_pct": -4.61,
       "dates": [
-        "06/10",
         "06/11",
         "06/12",
         "06/15",
@@ -34,10 +33,10 @@
         "07/20",
         "07/21",
         "07/22",
-        "07/23"
+        "07/23",
+        "07/24"
       ],
       "prices": [
-        93.1,
         90.38,
         87.33,
         83.17,
@@ -66,16 +65,16 @@
         89.22,
         91.01,
         94.07,
-        96.18
+        100.69,
+        100.47
       ],
-      "updated": "2026-07-23T04:20:18.184485"
+      "updated": "2026-07-24T04:20:04.779144"
     },
     "wti": {
-      "current": 88.33999633789062,
-      "day_change_pct": 1.74,
-      "war_change_pct": -7.84,
+      "current": 91.69000244140625,
+      "day_change_pct": -0.54,
+      "war_change_pct": -2.87,
       "dates": [
-        "06/10",
         "06/11",
         "06/12",
         "06/15",
@@ -104,10 +103,10 @@
         "07/20",
         "07/21",
         "07/22",
-        "07/23"
+        "07/23",
+        "07/24"
       ],
       "prices": [
-        90.03,
         87.71,
         84.88,
         80.75,
@@ -136,16 +135,16 @@
         83.23,
         84.91,
         86.83,
-        88.34
+        92.19,
+        91.69
       ],
-      "updated": "2026-07-23T04:20:18.352343"
+      "updated": "2026-07-24T04:20:04.998246"
     },
     "gold": {
-      "current": 4127.7001953125,
-      "day_change_pct": -0.46,
-      "war_change_pct": -12.27,
+      "current": 4031.5,
+      "day_change_pct": -0.37,
+      "war_change_pct": -14.63,
       "dates": [
-        "06/10",
         "06/11",
         "06/12",
         "06/15",
@@ -174,10 +173,10 @@
         "07/20",
         "07/21",
         "07/22",
-        "07/23"
+        "07/23",
+        "07/24"
       ],
       "prices": [
-        4108.2,
         4090.3,
         4215.0,
         4328.0,
@@ -206,16 +205,16 @@
         4010.3,
         4071.1,
         4146.9,
-        4127.7
+        4046.6,
+        4031.5
       ],
-      "updated": "2026-07-23T04:20:18.523618"
+      "updated": "2026-07-24T04:20:05.223226"
     },
     "usd_cny": {
-      "current": 6.767399787902832,
-      "day_change_pct": 0.03,
-      "war_change_pct": -0.83,
+      "current": 6.775199890136719,
+      "day_change_pct": 0.04,
+      "war_change_pct": -0.74,
       "dates": [
-        "06/12",
         "06/15",
         "06/16",
         "06/17",
@@ -244,10 +243,10 @@
         "07/20",
         "07/21",
         "07/22",
-        "07/23"
+        "07/23",
+        "07/24"
       ],
       "prices": [
-        6.78,
         6.77,
         6.76,
         6.76,
@@ -276,16 +275,16 @@
         6.77,
         6.77,
         6.77,
-        6.77
+        6.77,
+        6.78
       ],
-      "updated": "2026-07-23T04:20:18.769004"
+      "updated": "2026-07-24T04:20:05.459084"
     },
     "nat_gas": {
-      "current": 2.9609999656677246,
-      "day_change_pct": 1.23,
-      "war_change_pct": 13.27,
+      "current": 2.931999921798706,
+      "day_change_pct": 0.55,
+      "war_change_pct": 16.21,
       "dates": [
-        "06/10",
         "06/11",
         "06/12",
         "06/15",
@@ -314,10 +313,10 @@
         "07/20",
         "07/21",
         "07/22",
-        "07/23"
+        "07/23",
+        "07/24"
       ],
       "prices": [
-        3.18,
         3.09,
         3.12,
         3.15,
@@ -346,191 +345,191 @@
         2.86,
         2.87,
         2.92,
-        2.96
+        2.92,
+        2.93
       ],
-      "updated": "2026-07-23T04:20:18.938213"
+      "updated": "2026-07-24T04:20:05.687903"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 15.51,
-      "change_pct": -1.59,
-      "high": 15.73,
-      "low": 14.97,
-      "volume": 742168
+      "price": 15.92,
+      "change_pct": 0.32,
+      "high": 16.25,
+      "low": 15.73,
+      "volume": 674558
     },
     "600026": {
       "name": "中远海能",
-      "price": 15.71,
-      "change_pct": 0.32,
-      "high": 15.87,
-      "low": 15.2,
-      "volume": 424346
+      "price": 15.83,
+      "change_pct": -1.12,
+      "high": 16.4,
+      "low": 15.71,
+      "volume": 497824
     },
     "601975": {
       "name": "招商南油",
-      "price": 3.57,
-      "change_pct": -0.28,
-      "high": 3.65,
-      "low": 3.47,
-      "volume": 1329906
+      "price": 3.59,
+      "change_pct": -1.37,
+      "high": 3.7,
+      "low": 3.55,
+      "volume": 1081775
     },
     "600938": {
       "name": "中国海油",
-      "price": 33.1,
-      "change_pct": 2.19,
-      "high": 33.3,
-      "low": 32.4,
-      "volume": 591388
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601857": {
       "name": "中国石油",
-      "price": 10.9,
-      "change_pct": -0.18,
-      "high": 11.02,
-      "low": 10.73,
-      "volume": 985936
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.2,
-      "change_pct": 0.39,
-      "high": 5.23,
-      "low": 5.16,
-      "volume": 1399135
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "603619": {
       "name": "中曼石油",
-      "price": 23.47,
-      "change_pct": 9.98,
-      "high": 23.47,
-      "low": 22.67,
-      "volume": 126176
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600759": {
       "name": "洲际油气",
-      "price": 2.63,
-      "change_pct": 1.15,
-      "high": 2.67,
-      "low": 2.56,
-      "volume": 1641838
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601808": {
       "name": "中海油服",
-      "price": 12.59,
-      "change_pct": 1.7,
-      "high": 12.61,
-      "low": 12.29,
-      "volume": 209803
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 135.11,
-      "change_pct": 10.0,
-      "high": 135.11,
-      "low": 135.11,
-      "volume": 24397
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600803": {
       "name": "新奥股份",
-      "price": 17.38,
-      "change_pct": 1.7,
-      "high": 17.45,
-      "low": 17.1,
-      "volume": 41581
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600256": {
       "name": "广汇能源",
-      "price": 5.78,
-      "change_pct": 3.03,
-      "high": 5.8,
-      "low": 5.59,
-      "volume": 942844
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601919": {
       "name": "中远海控",
-      "price": 15.18,
-      "change_pct": 0.26,
-      "high": 15.23,
-      "low": 14.97,
-      "volume": 573444
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 43.14,
-      "change_pct": 0.94,
-      "high": 43.26,
-      "low": 42.3,
-      "volume": 102396
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600893": {
       "name": "航发动力",
-      "price": 34.79,
-      "change_pct": 2.56,
-      "high": 35.23,
-      "low": 33.95,
-      "volume": 204558
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600150": {
       "name": "中国船舶",
-      "price": 33.42,
-      "change_pct": 1.21,
-      "high": 33.62,
-      "low": 32.68,
-      "volume": 644621
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600547": {
       "name": "山东黄金",
-      "price": 27.79,
-      "change_pct": 1.42,
-      "high": 28.09,
-      "low": 27.0,
-      "volume": 785979
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 39.52,
-      "change_pct": 3.4,
-      "high": 40.78,
-      "low": 37.22,
-      "volume": 829968
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 22.82,
-      "change_pct": 3.21,
-      "high": 23.17,
-      "low": 21.91,
-      "volume": 817594
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601088": {
       "name": "中国神华",
-      "price": 45.49,
-      "change_pct": 0.11,
-      "high": 45.7,
-      "low": 44.67,
-      "volume": 211858
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": 0.45
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "天然气": {
-      "change_pct": 2.85
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "军工": {
-      "change_pct": -1.08
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "黄金": {
-      "change_pct": 0.38
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "news": [
+    {
+      "source": "FT中文网",
+      "title": "红海再起冲突 油价重返每桶100美元高位",
+      "link": "https://www.ftchinese.com/story/001110417",
+      "published": "Thu, 23 Jul 2026 16:00:00 GMT",
+      "summary": "也门胡塞武装称其已袭击两艘在红海航行的沙特油轮。人们担心该组织会与伊朗协调行动，封锁曼德海峡，对能源市场构成进一步的压力。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "油轮",
+        "曼德海峡",
+        "油价",
+        "也门",
+        "胡塞",
+        "沙特",
+        "海峡",
+        "红海",
+        "伊朗"
+      ],
+      "action_hits": [
+        "油轮",
+        "封锁",
+        "油价"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "曼德海峽：胡塞武裝的威脅會否觸發紅海航運危機？",
+      "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 24 Jul 2026 00:03:29 GMT",
+      "summary": "全球約12%的海運石油貿易經過曼德海峽。隨着霍爾木茲海峽（荷莫茲海峽）實際上已被關閉，伊朗的盟友正威脅透過封鎖這條中東第二關鍵海上航道，進一步擾亂全球貿易。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "伊朗",
+        "海峽",
+        "霍爾木茲",
+        "胡塞",
+        "紅海"
+      ],
+      "action_hits": [
+        "封鎖",
+        "航運"
+      ]
+    },
     {
       "source": "德国之声",
       "title": "美连续11晚对伊空袭 美防长称伊朗战争已耗375亿美元",
@@ -540,13 +539,54 @@
       "lang": "zh",
       "relevance_score": 77,
       "entity_hits": [
-        "伊朗",
-        "美军"
+        "美军",
+        "伊朗"
       ],
       "action_hits": [
-        "谈判",
         "空袭",
+        "谈判",
         "打击"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
+      "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 23 Jul 2026 16:50:59 GMT",
+      "summary": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
+      "lang": "en",
+      "relevance_score": 100,
+      "entity_hits": [
+        "yemen",
+        "iran",
+        "saudi",
+        "houthi"
+      ],
+      "action_hits": [
+        "attack",
+        "strike",
+        "embargo",
+        "tanker",
+        "launch"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Oil prices hit $100 for the first time since May",
+      "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 23 Jul 2026 15:31:00 GMT",
+      "summary": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
+      "lang": "en",
+      "relevance_score": 90,
+      "entity_hits": [
+        "oil price",
+        "brent crude",
+        "middle east"
+      ],
+      "action_hits": [
+        "escalat",
+        "oil price",
+        "crude"
       ]
     },
     {
@@ -558,35 +598,16 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "jordan",
         "bahrain",
         "iran",
         "strait",
+        "jordan",
         "hormuz"
       ],
       "action_hits": [
-        "launch",
         "retaliat",
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
-      "link": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 16 Jul 2026 12:09:26 GMT",
-      "summary": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
-      "lang": "en",
-      "relevance_score": 85,
-      "entity_hits": [
-        "kharg",
-        "iran"
-      ],
-      "action_hits": [
-        "blockade",
         "strike",
-        "tanker",
-        "missile"
+        "launch"
       ]
     },
     {
@@ -598,9 +619,9 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "houthi",
+        "yemen",
         "saudi",
-        "yemen"
+        "houthi"
       ],
       "action_hits": [
         "blockade",
@@ -616,31 +637,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
+        "qatar",
         "hamas",
-        "israel",
-        "qatar"
+        "israel"
       ],
       "action_hits": [
-        "negotiat",
-        "killed"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US soldier killed and one injured after Iranian attack in Iraq",
-      "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 19 Jul 2026 19:45:12 GMT",
-      "summary": "The US military reports another death a day after two of its soldiers were killed in Jordan.",
-      "lang": "en",
-      "relevance_score": 75,
-      "entity_hits": [
-        "iraq",
-        "jordan",
-        "iran"
-      ],
-      "action_hits": [
-        "attack",
-        "killed"
+        "killed",
+        "negotiat"
       ]
     },
     {
@@ -653,28 +656,11 @@
       "relevance_score": 70,
       "entity_hits": [
         "strait",
-        "iran",
-        "hormuz"
+        "hormuz",
+        "iran"
       ],
       "action_hits": [
         "attack"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Tankers make sharp U-turns after Houthi shipping threat",
-      "link": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 22 Jul 2026 14:42:49 GMT",
-      "summary": "All of the ships were travelling to or from Saudi ports before changing course, ship-tracking data shows.",
-      "lang": "en",
-      "relevance_score": 67,
-      "entity_hits": [
-        "houthi",
-        "saudi"
-      ],
-      "action_hits": [
-        "shipping",
-        "tanker"
       ]
     },
     {
@@ -686,42 +672,87 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
-        "attack",
-        "strike"
+        "strike",
+        "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iranian drone strikes warehouse in Kuwait",
+      "link": "https://www.bbc.co.uk/news/videos/cvg7g2v1j9do?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 16 Jul 2026 10:17:50 GMT",
+      "summary": "Verified video shows an Iranian drone hitting a warehouse in Kuwait",
+      "lang": "en",
+      "relevance_score": 60,
+      "entity_hits": [
+        "iran",
+        "kuwait"
+      ],
+      "action_hits": [
+        "strike",
+        "drone"
       ]
     }
   ],
   "event_states": [
     {
-      "event_id": "da8b009de050",
-      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+      "event_id": "2f82e4859a7d",
+      "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
+      "location": "伊朗",
+      "first_seen_time": "2026-07-22T12:08:00+00:00",
+      "last_updated_time": "2026-07-23T16:50:59+00:00",
+      "current_status": "active_conflict",
+      "trend": "improving",
+      "confidence": 100,
+      "source_count": 3,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "943c9d6ef3b1",
+      "title": "红海再起冲突 油价重返每桶100美元高位",
+      "location": "红海",
+      "first_seen_time": "2026-07-23T16:00:00+00:00",
+      "last_updated_time": "2026-07-23T16:00:00+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110417",
+      "lang": "zh"
+    },
+    {
+      "event_id": "9b7cd6aec885",
+      "title": "曼德海峽：胡塞武裝的威脅會否觸發紅海航運危機？",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-07-21T16:10:56+00:00",
-      "last_updated_time": "2026-07-22T22:17:54+00:00",
+      "first_seen_time": "2026-07-24T00:03:29+00:00",
+      "last_updated_time": "2026-07-24T00:03:29+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 90,
-      "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
+      "source_count": 3,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
+      "lang": "zh"
     },
     {
-      "event_id": "aab43dc7bfa6",
-      "title": "US strikes oil tanker with missiles as it enforces new Iran blockade",
-      "location": "伊朗·哈尔克岛",
-      "first_seen_time": "2026-07-16T12:09:26+00:00",
-      "last_updated_time": "2026-07-16T12:09:26+00:00",
-      "current_status": "shipping_disrupted",
-      "trend": "stable",
-      "confidence": 85,
+      "event_id": "fe79304acfb9",
+      "title": "Oil prices hit $100 for the first time since May",
+      "location": "中东地区",
+      "first_seen_time": "2026-07-23T15:31:00+00:00",
+      "last_updated_time": "2026-07-23T15:31:00+00:00",
+      "current_status": "escalating",
+      "trend": "worsening",
+      "confidence": 90,
       "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -751,40 +782,11 @@
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
-    },
-    {
-      "event_id": "2f82e4859a7d",
-      "title": "美连续11晚对伊空袭 美防长称伊朗战争已耗375亿美元",
-      "location": "伊朗",
-      "first_seen_time": "2026-07-22T12:08:00+00:00",
-      "last_updated_time": "2026-07-22T12:08:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "improving",
-      "confidence": 77,
-      "source_count": 2,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "718345444220",
-      "title": "Tankers make sharp U-turns after Houthi shipping threat",
-      "location": "沙特阿拉伯",
-      "first_seen_time": "2026-07-22T14:42:49+00:00",
-      "last_updated_time": "2026-07-22T14:42:49+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 67,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/24",
         "6/25",
         "6/26",
         "6/27",
@@ -813,7 +815,8 @@
         "7/20",
         "7/21",
         "7/22",
-        "7/23"
+        "7/23",
+        "7/24"
       ],
       "transits": [
         0,
@@ -903,34 +906,27 @@
         21,
         69
       ],
-      "date_label": "7月23日"
+      "date_label": "7月24日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-23",
+      "hormuz_last_date": "2026-07-24",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 132,
+      "vlcc_stale_days": 133,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-23"
+      "routes_date": "2026-07-24"
     }
   },
   "meta": {
-    "report_date": "2026.07.23",
-    "report_date_cn": "2026年07月23日",
-    "war_day": 146,
+    "report_date": "2026.07.24",
+    "report_date_cn": "2026年07月24日",
+    "war_day": 147,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-23T12:21:16.021437+08:00",
-    "generated_at_cn": "2026-07-23 12:21:16 北京时间"
+    "generated_at": "2026-07-24T12:20:41.186365+08:00",
+    "generated_at_cn": "2026-07-24 12:20:41 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-25",
-      "brent": 99.77999877929688,
-      "wti": 94.87999725341797,
-      "gold": 4725.39990234375,
-      "usd_cny": 6.835400104522705
-    },
     {
       "date": "2026-04-26",
       "brent": 99.12999725341797,
@@ -1553,6 +1549,13 @@
       "wti": 88.33999633789062,
       "gold": 4127.7001953125,
       "usd_cny": 6.767399787902832
+    },
+    {
+      "date": "2026-07-24",
+      "brent": 100.47000122070312,
+      "wti": 91.69000244140625,
+      "gold": 4031.5,
+      "usd_cny": 6.775199890136719
     }
   ]
 }
