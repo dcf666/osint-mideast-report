@@ -1,30 +1,5 @@
 [
   {
-    "source": "FT中文网",
-    "title": "红海再起冲突 油价重返每桶100美元高位",
-    "link": "https://www.ftchinese.com/story/001110417",
-    "published": "Thu, 23 Jul 2026 16:00:00 GMT",
-    "summary": "也门胡塞武装称其已袭击两艘在红海航行的沙特油轮。人们担心该组织会与伊朗协调行动，封锁曼德海峡，对能源市场构成进一步的压力。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "油轮",
-      "曼德海峡",
-      "油价",
-      "也门",
-      "胡塞",
-      "沙特",
-      "海峡",
-      "红海",
-      "伊朗"
-    ],
-    "action_hits": [
-      "油轮",
-      "封锁",
-      "油价"
-    ]
-  },
-  {
     "source": "BBC中文",
     "title": "曼德海峽：胡塞武裝的威脅會否觸發紅海航運危機？",
     "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
@@ -36,12 +11,12 @@
       "伊朗",
       "海峽",
       "霍爾木茲",
-      "胡塞",
-      "紅海"
+      "紅海",
+      "胡塞"
     ],
     "action_hits": [
-      "封鎖",
-      "航運"
+      "航運",
+      "封鎖"
     ]
   },
   {
@@ -53,13 +28,13 @@
     "lang": "zh",
     "relevance_score": 77,
     "entity_hits": [
-      "美军",
-      "伊朗"
+      "伊朗",
+      "美军"
     ],
     "action_hits": [
-      "空袭",
       "谈判",
-      "打击"
+      "打击",
+      "空袭"
     ]
   },
   {
@@ -71,17 +46,17 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "yemen",
       "iran",
-      "saudi",
-      "houthi"
+      "houthi",
+      "yemen",
+      "saudi"
     ],
     "action_hits": [
       "attack",
       "strike",
-      "embargo",
       "tanker",
-      "launch"
+      "launch",
+      "embargo"
     ]
   },
   {
@@ -93,71 +68,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "oil price",
+      "middle east",
       "brent crude",
-      "middle east"
+      "oil price"
     ],
     "action_hits": [
-      "escalat",
+      "crude",
       "oil price",
-      "crude"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-    "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 21 Jul 2026 16:10:56 GMT",
-    "summary": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "bahrain",
-      "iran",
-      "strait",
-      "jordan",
-      "hormuz"
-    ],
-    "action_hits": [
-      "retaliat",
-      "strike",
-      "launch"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
-    "link": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 20 Jul 2026 21:30:19 GMT",
-    "summary": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "yemen",
-      "saudi",
-      "houthi"
-    ],
-    "action_hits": [
-      "blockade",
-      "embargo"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Hamas names Khalil al-Hayya as new overall leader",
-    "link": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 20 Jul 2026 14:02:31 GMT",
-    "summary": "The Palestinian armed group's Qatar-based chief negotiator replaces Yahya Sinwar, who was killed by Israeli forces in Gaza in 2024.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "qatar",
-      "hamas",
-      "israel"
-    ],
-    "action_hits": [
-      "killed",
-      "negotiat"
+      "escalat"
     ]
   },
   {
@@ -169,12 +87,29 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "iran",
       "strait",
-      "hormuz",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
       "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Watch: The clash between US and Iran for control of the Strait of Hormuz",
+    "link": "https://www.bbc.co.uk/news/videos/cx2425dmpl3o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 14 Jul 2026 21:13:12 GMT",
+    "summary": "The BBC's Barbara Plett Usher examines the latest tensions over the key international shipping channel.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "iran",
+      "strait",
+      "hormuz"
+    ],
+    "action_hits": [
+      "shipping"
     ]
   },
   {
@@ -190,8 +125,8 @@
       "israel"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -207,8 +142,8 @@
       "kuwait"
     ],
     "action_hits": [
-      "strike",
-      "drone"
+      "drone",
+      "strike"
     ]
   }
 ]

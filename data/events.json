@@ -14,34 +14,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "943c9d6ef3b1",
-    "title": "红海再起冲突 油价重返每桶100美元高位",
-    "location": "红海",
-    "first_seen_time": "2026-07-23T16:00:00+00:00",
-    "last_updated_time": "2026-07-23T16:00:00+00:00",
-    "current_status": "shipping_disrupted",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110417",
-    "lang": "zh"
-  },
-  {
-    "event_id": "9b7cd6aec885",
-    "title": "曼德海峽：胡塞武裝的威脅會否觸發紅海航運危機？",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-07-24T00:03:29+00:00",
-    "last_updated_time": "2026-07-24T00:03:29+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 3,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
-    "lang": "zh"
-  },
-  {
     "event_id": "fe79304acfb9",
     "title": "Oil prices hit $100 for the first time since May",
     "location": "中东地区",
@@ -56,31 +28,31 @@
     "lang": "en"
   },
   {
-    "event_id": "42b302160e4f",
-    "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
-    "location": "也门",
-    "first_seen_time": "2026-07-20T21:30:19+00:00",
-    "last_updated_time": "2026-07-20T21:30:19+00:00",
-    "current_status": "shipping_disrupted",
+    "event_id": "9b7cd6aec885",
+    "title": "曼德海峽：胡塞武裝的威脅會否觸發紅海航運危機？",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-07-24T00:03:29+00:00",
+    "last_updated_time": "2026-07-24T00:03:29+00:00",
+    "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source_count": 3,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
   },
   {
-    "event_id": "efb93bec209c",
+    "event_id": "52d98c60c01e",
     "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
     "location": "以色列",
-    "first_seen_time": "2026-07-20T14:02:31+00:00",
+    "first_seen_time": "2026-07-21T15:54:11+00:00",
     "last_updated_time": "2026-07-21T15:54:11+00:00",
     "current_status": "active_conflict",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 2,
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]
