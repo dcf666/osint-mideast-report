@@ -1,5 +1,30 @@
 [
   {
+    "source": "FT中文网",
+    "title": "红海再起冲突 油价重返每桶100美元高位",
+    "link": "https://www.ftchinese.com/story/001110417",
+    "published": "Thu, 23 Jul 2026 16:00:00 GMT",
+    "summary": "也门胡塞武装称其已袭击两艘在红海航行的沙特油轮。人们担心该组织会与伊朗协调行动，封锁曼德海峡，对能源市场构成进一步的压力。",
+    "lang": "zh",
+    "relevance_score": 90,
+    "entity_hits": [
+      "油轮",
+      "也门",
+      "曼德海峡",
+      "红海",
+      "海峡",
+      "伊朗",
+      "沙特",
+      "油价",
+      "胡塞"
+    ],
+    "action_hits": [
+      "油轮",
+      "封锁",
+      "油价"
+    ]
+  },
+  {
     "source": "BBC中文",
     "title": "曼德海峽：胡塞武裝的威脅會否觸發紅海航運危機？",
     "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
@@ -8,33 +33,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
-      "海峽",
       "霍爾木茲",
-      "紅海",
-      "胡塞"
-    ],
-    "action_hits": [
-      "航運",
-      "封鎖"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美连续11晚对伊空袭 美防长称伊朗战争已耗375亿美元",
-    "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 22 Jul 2026 12:08:00 GMT",
-    "summary": "美国国防部长赫格塞思表示，美国针对伊朗的军事行动迄今已耗费375亿美元，呼吁国会批准更多战争经费。与此同时，美军已连续第11晚对伊朗发动打击。另有消息称，巴基斯坦在斡旋伊朗谈判后向美寻求100亿美元外汇稳定融资。",
-    "lang": "zh",
-    "relevance_score": 77,
-    "entity_hits": [
+      "海峽",
       "伊朗",
-      "美军"
+      "胡塞",
+      "紅海"
     ],
     "action_hits": [
-      "谈判",
-      "打击",
-      "空袭"
+      "封鎖",
+      "航運"
     ]
   },
   {
@@ -48,15 +55,15 @@
     "entity_hits": [
       "iran",
       "houthi",
-      "yemen",
-      "saudi"
+      "saudi",
+      "yemen"
     ],
     "action_hits": [
-      "attack",
       "strike",
       "tanker",
       "launch",
-      "embargo"
+      "embargo",
+      "attack"
     ]
   },
   {
@@ -73,9 +80,9 @@
       "oil price"
     ],
     "action_hits": [
-      "crude",
+      "escalat",
       "oil price",
-      "escalat"
+      "crude"
     ]
   },
   {
@@ -125,8 +132,8 @@
       "israel"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -138,12 +145,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "kuwait"
+      "kuwait",
+      "iran"
     ],
     "action_hits": [
-      "drone",
-      "strike"
+      "strike",
+      "drone"
     ]
   }
 ]

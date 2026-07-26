@@ -68,7 +68,7 @@
         100.69,
         96.78
       ],
-      "updated": "2026-07-25T04:16:05.129601"
+      "updated": "2026-07-26T04:31:36.282925"
     },
     "wti": {
       "current": 89.30999755859375,
@@ -138,12 +138,12 @@
         92.19,
         89.31
       ],
-      "updated": "2026-07-25T04:16:05.210490"
+      "updated": "2026-07-26T04:31:36.377397"
     },
     "gold": {
-      "current": 4067.60009765625,
-      "day_change_pct": 0.52,
-      "war_change_pct": -13.0,
+      "current": 4070.800048828125,
+      "day_change_pct": 0.6,
+      "war_change_pct": -12.93,
       "dates": [
         "06/11",
         "06/12",
@@ -206,9 +206,9 @@
         4071.1,
         4146.9,
         4046.6,
-        4067.6
+        4070.8
       ],
-      "updated": "2026-07-25T04:16:05.289919"
+      "updated": "2026-07-26T04:31:36.471953"
     },
     "usd_cny": {
       "current": 6.7718000411987305,
@@ -244,7 +244,7 @@
         "07/22",
         "07/23",
         "07/24",
-        "07/25"
+        "07/26"
       ],
       "prices": [
         6.76,
@@ -278,12 +278,12 @@
         6.77,
         6.77
       ],
-      "updated": "2026-07-25T04:16:05.381847"
+      "updated": "2026-07-26T04:31:36.572021"
     },
     "nat_gas": {
-      "current": 2.871000051498413,
-      "day_change_pct": -1.54,
-      "war_change_pct": 12.59,
+      "current": 2.888000011444092,
+      "day_change_pct": -0.96,
+      "war_change_pct": 13.25,
       "dates": [
         "06/11",
         "06/12",
@@ -346,9 +346,9 @@
         2.87,
         2.92,
         2.92,
-        2.87
+        2.89
       ],
-      "updated": "2026-07-25T04:16:05.464510"
+      "updated": "2026-07-26T04:31:36.666487"
     }
   },
   "stocks": {
@@ -371,15 +371,12 @@
     "601975": {
       "name": "招商南油",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600938": {
       "name": "中国海油",
-      "price": 31.91,
-      "change_pct": -3.27,
-      "high": 33.83,
-      "low": 31.81,
-      "volume": 1010791
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601857": {
       "name": "中国石油",
@@ -409,7 +406,7 @@
     "002353": {
       "name": "杰瑞股份",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600803": {
       "name": "新奥股份",
@@ -465,7 +462,7 @@
   "sectors": {
     "航运": {
       "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "石油": {
       "change_pct": null,
@@ -486,6 +483,31 @@
   },
   "news": [
     {
+      "source": "FT中文网",
+      "title": "红海再起冲突 油价重返每桶100美元高位",
+      "link": "https://www.ftchinese.com/story/001110417",
+      "published": "Thu, 23 Jul 2026 16:00:00 GMT",
+      "summary": "也门胡塞武装称其已袭击两艘在红海航行的沙特油轮。人们担心该组织会与伊朗协调行动，封锁曼德海峡，对能源市场构成进一步的压力。",
+      "lang": "zh",
+      "relevance_score": 90,
+      "entity_hits": [
+        "油轮",
+        "也门",
+        "曼德海峡",
+        "红海",
+        "海峡",
+        "伊朗",
+        "沙特",
+        "油价",
+        "胡塞"
+      ],
+      "action_hits": [
+        "油轮",
+        "封锁",
+        "油价"
+      ]
+    },
+    {
       "source": "BBC中文",
       "title": "曼德海峽：胡塞武裝的威脅會否觸發紅海航運危機？",
       "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
@@ -494,33 +516,15 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "伊朗",
-        "海峽",
         "霍爾木茲",
-        "紅海",
-        "胡塞"
-      ],
-      "action_hits": [
-        "航運",
-        "封鎖"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "美连续11晚对伊空袭 美防长称伊朗战争已耗375亿美元",
-      "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 22 Jul 2026 12:08:00 GMT",
-      "summary": "美国国防部长赫格塞思表示，美国针对伊朗的军事行动迄今已耗费375亿美元，呼吁国会批准更多战争经费。与此同时，美军已连续第11晚对伊朗发动打击。另有消息称，巴基斯坦在斡旋伊朗谈判后向美寻求100亿美元外汇稳定融资。",
-      "lang": "zh",
-      "relevance_score": 77,
-      "entity_hits": [
+        "海峽",
         "伊朗",
-        "美军"
+        "胡塞",
+        "紅海"
       ],
       "action_hits": [
-        "谈判",
-        "打击",
-        "空袭"
+        "封鎖",
+        "航運"
       ]
     },
     {
@@ -534,15 +538,15 @@
       "entity_hits": [
         "iran",
         "houthi",
-        "yemen",
-        "saudi"
+        "saudi",
+        "yemen"
       ],
       "action_hits": [
-        "attack",
         "strike",
         "tanker",
         "launch",
-        "embargo"
+        "embargo",
+        "attack"
       ]
     },
     {
@@ -559,9 +563,9 @@
         "oil price"
       ],
       "action_hits": [
-        "crude",
+        "escalat",
         "oil price",
-        "escalat"
+        "crude"
       ]
     },
     {
@@ -611,8 +615,8 @@
         "israel"
       ],
       "action_hits": [
-        "attack",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -624,28 +628,42 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "iran",
-        "kuwait"
+        "kuwait",
+        "iran"
       ],
       "action_hits": [
-        "drone",
-        "strike"
+        "strike",
+        "drone"
       ]
     }
   ],
   "event_states": [
     {
-      "event_id": "2f82e4859a7d",
+      "event_id": "6951a1444037",
       "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
       "location": "伊朗",
-      "first_seen_time": "2026-07-22T12:08:00+00:00",
+      "first_seen_time": "2026-07-23T16:50:59+00:00",
       "last_updated_time": "2026-07-23T16:50:59+00:00",
       "current_status": "active_conflict",
-      "trend": "improving",
+      "trend": "stable",
       "confidence": 100,
-      "source_count": 3,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美连续11晚对伊空袭-美防长称伊朗战争已耗375亿美元/a-78069118?maca=chi-rss-chi-all-1127-xml-mrss",
+      "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "943c9d6ef3b1",
+      "title": "红海再起冲突 油价重返每桶100美元高位",
+      "location": "红海",
+      "first_seen_time": "2026-07-23T16:00:00+00:00",
+      "last_updated_time": "2026-07-23T16:00:00+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110417",
       "lang": "zh"
     },
     {
@@ -694,7 +712,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/26",
         "6/27",
         "6/28",
         "6/29",
@@ -723,7 +740,8 @@
         "7/22",
         "7/23",
         "7/24",
-        "7/25"
+        "7/25",
+        "7/26"
       ],
       "transits": [
         0,
@@ -813,34 +831,27 @@
         21,
         69
       ],
-      "date_label": "7月25日"
+      "date_label": "7月26日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-25",
+      "hormuz_last_date": "2026-07-26",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 134,
+      "vlcc_stale_days": 135,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-25"
+      "routes_date": "2026-07-26"
     }
   },
   "meta": {
-    "report_date": "2026.07.25",
-    "report_date_cn": "2026年07月25日",
-    "war_day": 148,
+    "report_date": "2026.07.26",
+    "report_date_cn": "2026年07月26日",
+    "war_day": 149,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-25T12:17:00.668436+08:00",
-    "generated_at_cn": "2026-07-25 12:17:00 北京时间"
+    "generated_at": "2026-07-26T12:32:36.627748+08:00",
+    "generated_at_cn": "2026-07-26 12:32:36 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-27",
-      "brent": 100.38999938964844,
-      "wti": 95.30999755859375,
-      "gold": 4742.60009765625,
-      "usd_cny": 6.827300071716309
-    },
     {
       "date": "2026-04-28",
       "brent": 102.62999725341797,
@@ -1462,6 +1473,13 @@
       "brent": 96.77999877929688,
       "wti": 89.30999755859375,
       "gold": 4067.60009765625,
+      "usd_cny": 6.7718000411987305
+    },
+    {
+      "date": "2026-07-26",
+      "brent": 96.77999877929688,
+      "wti": 89.30999755859375,
+      "gold": 4070.800048828125,
       "usd_cny": 6.7718000411987305
     }
   ]
