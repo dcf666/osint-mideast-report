@@ -8,20 +8,20 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
+      "红海",
+      "曼德海峡",
+      "胡塞",
+      "海峡",
+      "油价",
       "油轮",
       "也门",
-      "曼德海峡",
-      "红海",
-      "海峡",
       "伊朗",
-      "沙特",
-      "油价",
-      "胡塞"
+      "沙特"
     ],
     "action_hits": [
+      "油价",
       "油轮",
-      "封锁",
-      "油价"
+      "封锁"
     ]
   },
   {
@@ -34,14 +34,14 @@
     "relevance_score": 80,
     "entity_hits": [
       "霍爾木茲",
-      "海峽",
-      "伊朗",
       "胡塞",
-      "紅海"
+      "伊朗",
+      "紅海",
+      "海峽"
     ],
     "action_hits": [
-      "封鎖",
-      "航運"
+      "航運",
+      "封鎖"
     ]
   },
   {
@@ -55,15 +55,15 @@
     "entity_hits": [
       "iran",
       "houthi",
-      "saudi",
-      "yemen"
+      "yemen",
+      "saudi"
     ],
     "action_hits": [
-      "strike",
       "tanker",
       "launch",
+      "attack",
       "embargo",
-      "attack"
+      "strike"
     ]
   },
   {
@@ -75,14 +75,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "oil price",
       "middle east",
-      "brent crude",
-      "oil price"
+      "brent crude"
     ],
     "action_hits": [
-      "escalat",
+      "crude",
       "oil price",
-      "crude"
+      "escalat"
     ]
   },
   {
@@ -95,8 +95,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "strait",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
       "attack"
@@ -112,8 +112,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "strait",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
       "shipping"
@@ -132,8 +132,8 @@
       "israel"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -145,12 +145,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "kuwait",
-      "iran"
+      "iran",
+      "kuwait"
     ],
     "action_hits": [
-      "strike",
-      "drone"
+      "drone",
+      "strike"
     ]
   }
 ]
