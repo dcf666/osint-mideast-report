@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 92.2699966430664,
-      "day_change_pct": -4.66,
-      "war_change_pct": -14.75,
+      "current": 87.2300033569336,
+      "day_change_pct": -1.28,
+      "war_change_pct": -21.6,
       "dates": [
-        "06/12",
         "06/15",
         "06/16",
         "06/17",
@@ -34,10 +33,10 @@
         "07/22",
         "07/23",
         "07/24",
-        "07/27"
+        "07/27",
+        "07/28"
       ],
       "prices": [
-        87.33,
         83.17,
         78.96,
         79.55,
@@ -66,16 +65,16 @@
         94.07,
         100.69,
         96.78,
-        92.27
+        88.36,
+        87.23
       ],
-      "updated": "2026-07-27T04:42:00.538667"
+      "updated": "2026-07-28T04:15:12.704661"
     },
     "wti": {
-      "current": 84.81999969482422,
-      "day_change_pct": -5.03,
-      "war_change_pct": -11.99,
+      "current": 81.58000183105469,
+      "day_change_pct": -1.25,
+      "war_change_pct": -18.36,
       "dates": [
-        "06/12",
         "06/15",
         "06/16",
         "06/17",
@@ -104,10 +103,10 @@
         "07/22",
         "07/23",
         "07/24",
-        "07/27"
+        "07/27",
+        "07/28"
       ],
       "prices": [
-        84.88,
         80.75,
         76.05,
         76.79,
@@ -136,16 +135,16 @@
         86.83,
         92.19,
         89.31,
-        84.82
+        82.61,
+        81.58
       ],
-      "updated": "2026-07-27T04:42:00.674343"
+      "updated": "2026-07-28T04:15:12.785300"
     },
     "gold": {
-      "current": 4092.199951171875,
-      "day_change_pct": 0.6,
-      "war_change_pct": -12.47,
+      "current": 4047.800048828125,
+      "day_change_pct": -0.66,
+      "war_change_pct": -11.84,
       "dates": [
-        "06/12",
         "06/15",
         "06/16",
         "06/17",
@@ -174,10 +173,10 @@
         "07/22",
         "07/23",
         "07/24",
-        "07/27"
+        "07/27",
+        "07/28"
       ],
       "prices": [
-        4215.0,
         4328.0,
         4330.9,
         4358.9,
@@ -206,16 +205,16 @@
         4146.9,
         4046.6,
         4067.6,
-        4092.2
+        4074.5,
+        4047.8
       ],
-      "updated": "2026-07-27T04:42:00.814141"
+      "updated": "2026-07-28T04:15:12.872179"
     },
     "usd_cny": {
-      "current": 6.76800012588501,
+      "current": 6.7667999267578125,
       "day_change_pct": -0.07,
-      "war_change_pct": -0.99,
+      "war_change_pct": -0.82,
       "dates": [
-        "06/16",
         "06/17",
         "06/18",
         "06/19",
@@ -244,12 +243,12 @@
         "07/22",
         "07/23",
         "07/24",
-        "07/27"
+        "07/27",
+        "07/28"
       ],
       "prices": [
         6.76,
         6.76,
-        6.76,
         6.77,
         6.77,
         6.77,
@@ -268,6 +267,7 @@
         6.79,
         6.78,
         6.78,
+        6.77,
         6.77,
         6.77,
         6.77,
@@ -278,14 +278,13 @@
         6.77,
         6.77
       ],
-      "updated": "2026-07-27T04:42:00.967583"
+      "updated": "2026-07-28T04:15:12.963069"
     },
     "nat_gas": {
-      "current": 2.812000036239624,
-      "day_change_pct": -2.06,
-      "war_change_pct": 10.27,
+      "current": 2.763000011444092,
+      "day_change_pct": -0.14,
+      "war_change_pct": 7.97,
       "dates": [
-        "06/12",
         "06/15",
         "06/16",
         "06/17",
@@ -314,10 +313,10 @@
         "07/22",
         "07/23",
         "07/24",
-        "07/27"
+        "07/27",
+        "07/28"
       ],
       "prices": [
-        3.12,
         3.15,
         3.24,
         3.14,
@@ -346,27 +345,28 @@
         2.92,
         2.92,
         2.87,
-        2.81
+        2.77,
+        2.76
       ],
-      "updated": "2026-07-27T04:42:01.104792"
+      "updated": "2026-07-28T04:15:13.054469"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 15.74,
-      "change_pct": 0.25,
-      "high": 16.05,
-      "low": 15.28,
-      "volume": 513167
+      "price": 15.47,
+      "change_pct": -2.7,
+      "high": 15.86,
+      "low": 15.34,
+      "volume": 410231
     },
     "600026": {
       "name": "中远海能",
-      "price": 15.77,
-      "change_pct": 1.41,
-      "high": 15.89,
-      "low": 15.3,
-      "volume": 375422
+      "price": 15.55,
+      "change_pct": -2.45,
+      "high": 15.85,
+      "low": 15.41,
+      "volume": 249473
     },
     "601975": {
       "name": "招商南油",
@@ -491,15 +491,15 @@
       "lang": "zh",
       "relevance_score": 90,
       "entity_hits": [
-        "红海",
-        "曼德海峡",
-        "胡塞",
-        "海峡",
-        "油价",
         "油轮",
+        "胡塞",
+        "沙特",
+        "油价",
+        "曼德海峡",
+        "红海",
         "也门",
-        "伊朗",
-        "沙特"
+        "海峡",
+        "伊朗"
       ],
       "action_hits": [
         "油价",
@@ -516,15 +516,35 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "霍爾木茲",
         "胡塞",
+        "霍爾木茲",
+        "海峽",
         "伊朗",
-        "紅海",
-        "海峽"
+        "紅海"
       ],
       "action_hits": [
-        "航運",
-        "封鎖"
+        "封鎖",
+        "航運"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+      "link": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 25 Jul 2026 06:34:40 GMT",
+      "summary": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
+      "lang": "en",
+      "relevance_score": 100,
+      "entity_hits": [
+        "iran",
+        "saudi",
+        "houthi"
+      ],
+      "action_hits": [
+        "tanker",
+        "blockade",
+        "missile",
+        "attack"
       ]
     },
     {
@@ -537,16 +557,16 @@
       "relevance_score": 100,
       "entity_hits": [
         "iran",
-        "houthi",
+        "saudi",
         "yemen",
-        "saudi"
+        "houthi"
       ],
       "action_hits": [
         "tanker",
         "launch",
-        "attack",
+        "strike",
         "embargo",
-        "strike"
+        "attack"
       ]
     },
     {
@@ -559,8 +579,8 @@
       "relevance_score": 90,
       "entity_hits": [
         "oil price",
-        "middle east",
-        "brent crude"
+        "brent crude",
+        "middle east"
       ],
       "action_hits": [
         "crude",
@@ -577,9 +597,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "strait",
         "iran",
-        "hormuz",
-        "strait"
+        "hormuz"
       ],
       "action_hits": [
         "attack"
@@ -594,29 +614,12 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "strait",
         "iran",
-        "hormuz",
-        "strait"
+        "hormuz"
       ],
       "action_hits": [
         "shipping"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
-      "link": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 21 Jul 2026 15:54:11 GMT",
-      "summary": "Firas al-Masri, his wife and their four children died in one attack, which the Israeli military says targeted a Hamas operative.",
-      "lang": "en",
-      "relevance_score": 67,
-      "entity_hits": [
-        "hamas",
-        "israel"
-      ],
-      "action_hits": [
-        "attack",
-        "strike"
       ]
     },
     {
@@ -628,16 +631,30 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "iran",
-        "kuwait"
+        "kuwait",
+        "iran"
       ],
       "action_hits": [
-        "drone",
-        "strike"
+        "strike",
+        "drone"
       ]
     }
   ],
   "event_states": [
+    {
+      "event_id": "857796332af4",
+      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+      "location": "伊朗",
+      "first_seen_time": "2026-07-25T06:34:40+00:00",
+      "last_updated_time": "2026-07-25T06:34:40+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 100,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
     {
       "event_id": "6951a1444037",
       "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
@@ -693,26 +710,11 @@
       "source": "BBC中文",
       "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
-    },
-    {
-      "event_id": "52d98c60c01e",
-      "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
-      "location": "以色列",
-      "first_seen_time": "2026-07-21T15:54:11+00:00",
-      "last_updated_time": "2026-07-21T15:54:11+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 67,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "6/28",
         "6/29",
         "6/30",
         "7/1",
@@ -741,7 +743,8 @@
         "7/24",
         "7/25",
         "7/26",
-        "7/27"
+        "7/27",
+        "7/28"
       ],
       "transits": [
         0,
@@ -831,34 +834,27 @@
         21,
         69
       ],
-      "date_label": "7月27日"
+      "date_label": "7月28日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-27",
+      "hormuz_last_date": "2026-07-28",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 136,
+      "vlcc_stale_days": 137,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-27"
+      "routes_date": "2026-07-28"
     }
   },
   "meta": {
-    "report_date": "2026.07.27",
-    "report_date_cn": "2026年07月27日",
-    "war_day": 150,
+    "report_date": "2026.07.28",
+    "report_date_cn": "2026年07月28日",
+    "war_day": 151,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-27T12:42:33.465520+08:00",
-    "generated_at_cn": "2026-07-27 12:42:33 北京时间"
+    "generated_at": "2026-07-28T12:15:48.530153+08:00",
+    "generated_at_cn": "2026-07-28 12:15:48 北京时间"
   },
   "history": [
-    {
-      "date": "2026-04-29",
-      "brent": 104.12000274658203,
-      "wti": 99.36000061035156,
-      "gold": 4613.7998046875,
-      "usd_cny": 6.835299968719482
-    },
     {
       "date": "2026-04-30",
       "brent": 113.56999969482422,
@@ -1481,6 +1477,13 @@
       "wti": 84.81999969482422,
       "gold": 4092.199951171875,
       "usd_cny": 6.76800012588501
+    },
+    {
+      "date": "2026-07-28",
+      "brent": 87.2300033569336,
+      "wti": 81.58000183105469,
+      "gold": 4047.800048828125,
+      "usd_cny": 6.7667999267578125
     }
   ]
 }

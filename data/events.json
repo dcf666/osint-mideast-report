@@ -1,5 +1,19 @@
 [
   {
+    "event_id": "857796332af4",
+    "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+    "location": "伊朗",
+    "first_seen_time": "2026-07-25T06:34:40+00:00",
+    "last_updated_time": "2026-07-25T06:34:40+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 100,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "6951a1444037",
     "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
     "location": "伊朗",
@@ -54,19 +68,5 @@
     "source": "BBC中文",
     "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
-  },
-  {
-    "event_id": "52d98c60c01e",
-    "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
-    "location": "以色列",
-    "first_seen_time": "2026-07-21T15:54:11+00:00",
-    "last_updated_time": "2026-07-21T15:54:11+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   }
 ]

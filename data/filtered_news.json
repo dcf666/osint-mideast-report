@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "红海",
-      "曼德海峡",
-      "胡塞",
-      "海峡",
-      "油价",
       "油轮",
+      "胡塞",
+      "沙特",
+      "油价",
+      "曼德海峡",
+      "红海",
       "也门",
-      "伊朗",
-      "沙特"
+      "海峡",
+      "伊朗"
     ],
     "action_hits": [
       "油价",
@@ -33,15 +33,35 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍爾木茲",
       "胡塞",
+      "霍爾木茲",
+      "海峽",
       "伊朗",
-      "紅海",
-      "海峽"
+      "紅海"
     ],
     "action_hits": [
-      "航運",
-      "封鎖"
+      "封鎖",
+      "航運"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+    "link": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 25 Jul 2026 06:34:40 GMT",
+    "summary": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "iran",
+      "saudi",
+      "houthi"
+    ],
+    "action_hits": [
+      "tanker",
+      "blockade",
+      "missile",
+      "attack"
     ]
   },
   {
@@ -54,16 +74,16 @@
     "relevance_score": 100,
     "entity_hits": [
       "iran",
-      "houthi",
+      "saudi",
       "yemen",
-      "saudi"
+      "houthi"
     ],
     "action_hits": [
       "tanker",
       "launch",
-      "attack",
+      "strike",
       "embargo",
-      "strike"
+      "attack"
     ]
   },
   {
@@ -76,8 +96,8 @@
     "relevance_score": 90,
     "entity_hits": [
       "oil price",
-      "middle east",
-      "brent crude"
+      "brent crude",
+      "middle east"
     ],
     "action_hits": [
       "crude",
@@ -94,9 +114,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "strait",
       "iran",
-      "hormuz",
-      "strait"
+      "hormuz"
     ],
     "action_hits": [
       "attack"
@@ -111,29 +131,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "strait",
       "iran",
-      "hormuz",
-      "strait"
+      "hormuz"
     ],
     "action_hits": [
       "shipping"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
-    "link": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 21 Jul 2026 15:54:11 GMT",
-    "summary": "Firas al-Masri, his wife and their four children died in one attack, which the Israeli military says targeted a Hamas operative.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "hamas",
-      "israel"
-    ],
-    "action_hits": [
-      "attack",
-      "strike"
     ]
   },
   {
@@ -145,12 +148,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "kuwait"
+      "kuwait",
+      "iran"
     ],
     "action_hits": [
-      "drone",
-      "strike"
+      "strike",
+      "drone"
     ]
   }
 ]
