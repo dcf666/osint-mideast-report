@@ -8,20 +8,20 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "油轮",
-      "胡塞",
       "沙特",
-      "油价",
-      "曼德海峡",
       "红海",
       "也门",
       "海峡",
-      "伊朗"
+      "伊朗",
+      "胡塞",
+      "曼德海峡",
+      "油价",
+      "油轮"
     ],
     "action_hits": [
+      "封锁",
       "油价",
-      "油轮",
-      "封锁"
+      "油轮"
     ]
   },
   {
@@ -33,15 +33,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "胡塞",
-      "霍爾木茲",
       "海峽",
+      "紅海",
+      "胡塞",
       "伊朗",
-      "紅海"
+      "霍爾木茲"
     ],
     "action_hits": [
-      "封鎖",
-      "航運"
+      "航運",
+      "封鎖"
     ]
   },
   {
@@ -53,15 +53,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "iran",
       "saudi",
+      "iran",
       "houthi"
     ],
     "action_hits": [
-      "tanker",
       "blockade",
+      "attack",
       "missile",
-      "attack"
+      "tanker"
     ]
   },
   {
@@ -73,17 +73,17 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "iran",
-      "saudi",
       "yemen",
+      "saudi",
+      "iran",
       "houthi"
     ],
     "action_hits": [
-      "tanker",
       "launch",
+      "tanker",
       "strike",
-      "embargo",
-      "attack"
+      "attack",
+      "embargo"
     ]
   },
   {
@@ -96,12 +96,12 @@
     "relevance_score": 90,
     "entity_hits": [
       "oil price",
-      "brent crude",
-      "middle east"
+      "middle east",
+      "brent crude"
     ],
     "action_hits": [
-      "crude",
       "oil price",
+      "crude",
       "escalat"
     ]
   },
@@ -114,8 +114,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
       "iran",
+      "strait",
       "hormuz"
     ],
     "action_hits": [
@@ -131,8 +131,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
       "iran",
+      "strait",
       "hormuz"
     ],
     "action_hits": [
@@ -148,12 +148,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "kuwait",
-      "iran"
+      "iran",
+      "kuwait"
     ],
     "action_hits": [
-      "strike",
-      "drone"
+      "drone",
+      "strike"
     ]
   }
 ]
