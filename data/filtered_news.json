@@ -8,40 +8,41 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "沙特",
-      "红海",
-      "也门",
-      "海峡",
-      "伊朗",
       "胡塞",
+      "伊朗",
       "曼德海峡",
       "油价",
-      "油轮"
+      "也门",
+      "海峡",
+      "油轮",
+      "红海",
+      "沙特"
     ],
     "action_hits": [
-      "封锁",
       "油价",
+      "封锁",
       "油轮"
     ]
   },
   {
-    "source": "BBC中文",
-    "title": "曼德海峽：胡塞武裝的威脅會否觸發紅海航運危機？",
-    "link": "https://www.bbc.com/zhongwen/articles/c4g63djrgy8o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 24 Jul 2026 00:03:29 GMT",
-    "summary": "全球約12%的海運石油貿易經過曼德海峽。隨着霍爾木茲海峽（荷莫茲海峽）實際上已被關閉，伊朗的盟友正威脅透過封鎖這條中東第二關鍵海上航道，進一步擾亂全球貿易。",
+    "source": "德国之声",
+    "title": "消息人士：中国与胡塞武装举行直接会谈",
+    "link": "https://www.dw.com/zh/消息人士：中国与胡塞武装举行直接会谈/a-78159239?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 29 Jul 2026 11:14:00 GMT",
+    "summary": "路透社引述六位知情人士的消息称，中国已与也门胡塞武装举行直接会谈，以确保其油轮在红海南部航行时免受攻击。此前，这支亲伊朗的民兵组织曾誓言要封锁通往沙特港口的航道。",
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峽",
-      "紅海",
       "胡塞",
       "伊朗",
-      "霍爾木茲"
+      "也门",
+      "油轮",
+      "红海",
+      "沙特"
     ],
     "action_hits": [
-      "航運",
-      "封鎖"
+      "封锁",
+      "油轮"
     ]
   },
   {
@@ -58,32 +59,10 @@
       "houthi"
     ],
     "action_hits": [
-      "blockade",
       "attack",
+      "blockade",
       "missile",
       "tanker"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
-    "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 23 Jul 2026 16:50:59 GMT",
-    "summary": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
-    "lang": "en",
-    "relevance_score": 100,
-    "entity_hits": [
-      "yemen",
-      "saudi",
-      "iran",
-      "houthi"
-    ],
-    "action_hits": [
-      "launch",
-      "tanker",
-      "strike",
-      "attack",
-      "embargo"
     ]
   },
   {
@@ -95,65 +74,50 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "brent crude",
       "oil price",
-      "middle east",
-      "brent crude"
+      "middle east"
     ],
     "action_hits": [
       "oil price",
-      "crude",
-      "escalat"
+      "escalat",
+      "crude"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
-    "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 22 Jul 2026 22:17:54 GMT",
-    "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
+    "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
+    "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 29 Jul 2026 13:48:41 GMT",
+    "summary": "US Central Command says proxy groups launched attacks against US bases and Saudi energy infrastructure.",
     "lang": "en",
-    "relevance_score": 70,
+    "relevance_score": 85,
     "entity_hits": [
+      "iraq",
       "iran",
-      "strait",
-      "hormuz"
+      "saudi"
     ],
     "action_hits": [
-      "attack"
+      "attack",
+      "strike",
+      "launch"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Watch: The clash between US and Iran for control of the Strait of Hormuz",
-    "link": "https://www.bbc.co.uk/news/videos/cx2425dmpl3o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 14 Jul 2026 21:13:12 GMT",
-    "summary": "The BBC's Barbara Plett Usher examines the latest tensions over the key international shipping channel.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "iran",
-      "strait",
-      "hormuz"
-    ],
-    "action_hits": [
-      "shipping"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iranian drone strikes warehouse in Kuwait",
-    "link": "https://www.bbc.co.uk/news/videos/cvg7g2v1j9do?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 16 Jul 2026 10:17:50 GMT",
-    "summary": "Verified video shows an Iranian drone hitting a warehouse in Kuwait",
+    "title": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
+    "link": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 29 Jul 2026 18:41:31 GMT",
+    "summary": "The kingdom faces a choice of whether to keep hitting back as a deterrent or to try to de-escalate the situation.",
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "kuwait"
+      "saudi",
+      "iran"
     ],
     "action_hits": [
-      "drone",
-      "strike"
+      "escalat",
+      "de-escalat"
     ]
   }
 ]
