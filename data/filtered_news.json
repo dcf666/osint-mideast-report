@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 90,
     "entity_hits": [
-      "胡塞",
-      "伊朗",
+      "沙特",
       "曼德海峡",
-      "油价",
       "也门",
+      "红海",
+      "油价",
+      "胡塞",
       "海峡",
       "油轮",
-      "红海",
-      "沙特"
+      "伊朗"
     ],
     "action_hits": [
       "油价",
@@ -33,12 +33,12 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "沙特",
+      "也门",
+      "红海",
       "胡塞",
       "伊朗",
-      "也门",
-      "油轮",
-      "红海",
-      "沙特"
+      "油轮"
     ],
     "action_hits": [
       "封锁",
@@ -46,42 +46,38 @@
     ]
   },
   {
-    "source": "BBC中东",
-    "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-    "link": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 25 Jul 2026 06:34:40 GMT",
-    "summary": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-    "lang": "en",
-    "relevance_score": 100,
+    "source": "德国之声",
+    "title": "北约成员国领空再遭侵犯  波兰境内留下巨大弹坑",
+    "link": "https://www.dw.com/zh/北约成员国领空再遭侵犯-波兰境内留下巨大弹坑/a-78179513?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Thu, 30 Jul 2026 14:23:00 GMT",
+    "summary": "俄罗斯连夜对邻国乌克兰发动大规模轰炸期间，一枚很可能是俄罗斯发射的导弹在波兰境内撞击出一个直径达10米的弹坑。俄罗斯的战机、无人机和导弹已多次侵犯多个北约成员国的领空。",
+    "lang": "zh",
+    "relevance_score": 72,
     "entity_hits": [
-      "saudi",
-      "iran",
-      "houthi"
+      "北约"
     ],
     "action_hits": [
-      "attack",
-      "blockade",
-      "missile",
-      "tanker"
+      "无人机",
+      "轰炸",
+      "导弹",
+      "发射"
     ]
   },
   {
-    "source": "BBC中东",
-    "title": "Oil prices hit $100 for the first time since May",
-    "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 23 Jul 2026 15:31:00 GMT",
-    "summary": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
-    "lang": "en",
-    "relevance_score": 90,
+    "source": "德国之声",
+    "title": "伊朗将从中国获得便携式防空导弹系统？",
+    "link": "https://www.dw.com/zh/伊朗将从中国获得便携式防空导弹系统？/a-78178795?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Thu, 30 Jul 2026 13:50:00 GMT",
+    "summary": "路透社独家报道称伊朗已同香港一家公司签署了合同，购买数百套防空导弹系统。对此，特朗普总统表示，习近平曾向他保证过不会介入美伊战争。不过，类似的报道已不是第一次。",
+    "lang": "zh",
+    "relevance_score": 67,
     "entity_hits": [
-      "brent crude",
-      "oil price",
-      "middle east"
+      "美伊",
+      "伊朗"
     ],
     "action_hits": [
-      "oil price",
-      "escalat",
-      "crude"
+      "防空",
+      "导弹"
     ]
   },
   {
@@ -93,14 +89,32 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
-      "iraq",
       "iran",
-      "saudi"
+      "saudi",
+      "iraq"
     ],
     "action_hits": [
+      "launch",
       "attack",
-      "strike",
-      "launch"
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+    "link": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 30 Jul 2026 10:49:14 GMT",
+    "summary": "After a short period of relative calm when hostilities were paused, both sides have now restarted missile attacks.",
+    "lang": "en",
+    "relevance_score": 65,
+    "entity_hits": [
+      "iran"
+    ],
+    "action_hits": [
+      "launch",
+      "missile",
+      "attack",
+      "strike"
     ]
   },
   {
@@ -112,12 +126,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "saudi",
-      "iran"
+      "iran",
+      "saudi"
     ],
     "action_hits": [
-      "escalat",
-      "de-escalat"
+      "de-escalat",
+      "escalat"
     ]
   }
 ]
