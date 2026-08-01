@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 89.02999877929688,
-      "day_change_pct": -1.88,
-      "war_change_pct": -21.91,
+      "current": 90.12000274658203,
+      "day_change_pct": 1.22,
+      "war_change_pct": -16.69,
       "dates": [
-        "06/17",
         "06/18",
         "06/22",
         "06/23",
@@ -34,10 +33,10 @@
         "07/27",
         "07/28",
         "07/29",
-        "07/30"
+        "07/30",
+        "07/31"
       ],
       "prices": [
-        79.55,
         79.85,
         77.9,
         77.08,
@@ -66,14 +65,15 @@
         88.36,
         84.09,
         90.74,
-        89.03
+        89.03,
+        90.12
       ],
-      "updated": "2026-07-31T04:28:09.154561"
+      "updated": "2026-08-01T04:24:52.481702"
     },
     "wti": {
-      "current": 82.16999816894531,
-      "day_change_pct": -1.7,
-      "war_change_pct": -21.79,
+      "current": 84.66999816894531,
+      "day_change_pct": 1.29,
+      "war_change_pct": -16.94,
       "dates": [
         "06/18",
         "06/22",
@@ -136,14 +136,14 @@
         79.26,
         84.46,
         83.59,
-        82.17
+        84.67
       ],
-      "updated": "2026-07-31T04:28:09.224672"
+      "updated": "2026-08-01T04:24:52.739460"
     },
     "gold": {
-      "current": 4134.5,
-      "day_change_pct": 0.84,
-      "war_change_pct": -10.41,
+      "current": 4049.10009765625,
+      "day_change_pct": -1.24,
+      "war_change_pct": -12.54,
       "dates": [
         "06/18",
         "06/22",
@@ -206,16 +206,15 @@
         4036.3,
         4034.7,
         4100.1,
-        4134.5
+        4049.1
       ],
-      "updated": "2026-07-31T04:28:09.284048"
+      "updated": "2026-08-01T04:24:52.996911"
     },
     "usd_cny": {
-      "current": 6.736499786376953,
-      "day_change_pct": -0.44,
-      "war_change_pct": -1.48,
+      "current": 6.750500202178955,
+      "day_change_pct": -0.07,
+      "war_change_pct": -1.27,
       "dates": [
-        "06/22",
         "06/23",
         "06/24",
         "06/25",
@@ -244,11 +243,11 @@
         "07/28",
         "07/29",
         "07/30",
-        "07/31"
+        "07/31",
+        "08/01"
       ],
       "prices": [
         6.77,
-        6.77,
         6.79,
         6.79,
         6.79,
@@ -276,14 +275,15 @@
         6.77,
         6.77,
         6.77,
-        6.74
+        6.76,
+        6.75
       ],
-      "updated": "2026-07-31T04:28:09.456767"
+      "updated": "2026-08-01T04:24:53.315745"
     },
     "nat_gas": {
-      "current": 2.7690000534057617,
-      "day_change_pct": 0.4,
-      "war_change_pct": 0.07,
+      "current": 2.746999979019165,
+      "day_change_pct": -0.4,
+      "war_change_pct": -1.19,
       "dates": [
         "06/18",
         "06/22",
@@ -346,27 +346,27 @@
         2.66,
         2.72,
         2.76,
-        2.77
+        2.75
       ],
-      "updated": "2026-07-31T04:28:09.524065"
+      "updated": "2026-08-01T04:24:53.586830"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 16.68,
-      "change_pct": 1.28,
-      "high": 16.9,
+      "price": 16.79,
+      "change_pct": 1.94,
+      "high": 16.96,
       "low": 15.88,
-      "volume": 658354
+      "volume": 944905
     },
     "600026": {
       "name": "中远海能",
-      "price": 16.73,
-      "change_pct": -0.71,
-      "high": 16.91,
+      "price": 16.87,
+      "change_pct": 0.12,
+      "high": 16.98,
       "low": 16.24,
-      "volume": 363683
+      "volume": 547867
     },
     "601975": {
       "name": "招商南油",
@@ -400,11 +400,8 @@
     },
     "601808": {
       "name": "中海油服",
-      "price": 12.53,
-      "change_pct": -1.26,
-      "high": 12.68,
-      "low": 12.32,
-      "volume": 143473
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "002353": {
       "name": "杰瑞股份",
@@ -486,52 +483,6 @@
   },
   "news": [
     {
-      "source": "FT中文网",
-      "title": "红海再起冲突 油价重返每桶100美元高位",
-      "link": "https://www.ftchinese.com/story/001110417",
-      "published": "Thu, 23 Jul 2026 16:00:00 GMT",
-      "summary": "也门胡塞武装称其已袭击两艘在红海航行的沙特油轮。人们担心该组织会与伊朗协调行动，封锁曼德海峡，对能源市场构成进一步的压力。",
-      "lang": "zh",
-      "relevance_score": 90,
-      "entity_hits": [
-        "沙特",
-        "曼德海峡",
-        "也门",
-        "红海",
-        "油价",
-        "胡塞",
-        "海峡",
-        "油轮",
-        "伊朗"
-      ],
-      "action_hits": [
-        "油价",
-        "封锁",
-        "油轮"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "消息人士：中国与胡塞武装举行直接会谈",
-      "link": "https://www.dw.com/zh/消息人士：中国与胡塞武装举行直接会谈/a-78159239?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Wed, 29 Jul 2026 11:14:00 GMT",
-      "summary": "路透社引述六位知情人士的消息称，中国已与也门胡塞武装举行直接会谈，以确保其油轮在红海南部航行时免受攻击。此前，这支亲伊朗的民兵组织曾誓言要封锁通往沙特港口的航道。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "沙特",
-        "也门",
-        "红海",
-        "胡塞",
-        "伊朗",
-        "油轮"
-      ],
-      "action_hits": [
-        "封锁",
-        "油轮"
-      ]
-    },
-    {
       "source": "德国之声",
       "title": "北约成员国领空再遭侵犯  波兰境内留下巨大弹坑",
       "link": "https://www.dw.com/zh/北约成员国领空再遭侵犯-波兰境内留下巨大弹坑/a-78179513?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -543,10 +494,10 @@
         "北约"
       ],
       "action_hits": [
-        "无人机",
+        "发射",
         "轰炸",
         "导弹",
-        "发射"
+        "无人机"
       ]
     },
     {
@@ -558,8 +509,8 @@
       "lang": "zh",
       "relevance_score": 67,
       "entity_hits": [
-        "美伊",
-        "伊朗"
+        "伊朗",
+        "美伊"
       ],
       "action_hits": [
         "防空",
@@ -575,14 +526,14 @@
       "lang": "en",
       "relevance_score": 85,
       "entity_hits": [
-        "iran",
         "saudi",
+        "iran",
         "iraq"
       ],
       "action_hits": [
+        "strike",
         "launch",
-        "attack",
-        "strike"
+        "attack"
       ]
     },
     {
@@ -597,10 +548,10 @@
         "iran"
       ],
       "action_hits": [
+        "strike",
         "launch",
         "missile",
-        "attack",
-        "strike"
+        "attack"
       ]
     },
     {
@@ -612,8 +563,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "iran",
-        "saudi"
+        "saudi",
+        "iran"
       ],
       "action_hits": [
         "de-escalat",
@@ -622,20 +573,6 @@
     }
   ],
   "event_states": [
-    {
-      "event_id": "943c9d6ef3b1",
-      "title": "消息人士：中国与胡塞武装举行直接会谈",
-      "location": "红海",
-      "first_seen_time": "2026-07-23T16:00:00+00:00",
-      "last_updated_time": "2026-07-29T11:14:00+00:00",
-      "current_status": "shipping_disrupted",
-      "trend": "stable",
-      "confidence": 90,
-      "source_count": 2,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110417",
-      "lang": "zh"
-    },
     {
       "event_id": "cb4d91c919ee",
       "title": "伊朗将从中国获得便携式防空导弹系统？",
@@ -696,7 +633,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/2",
         "7/3",
         "7/4",
         "7/5",
@@ -725,7 +661,8 @@
         "7/28",
         "7/29",
         "7/30",
-        "7/31"
+        "7/31",
+        "8/1"
       ],
       "transits": [
         0,
@@ -815,34 +752,27 @@
         21,
         69
       ],
-      "date_label": "7月31日"
+      "date_label": "8月1日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-07-31",
+      "hormuz_last_date": "2026-08-01",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 140,
+      "vlcc_stale_days": 141,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-07-31"
+      "routes_date": "2026-08-01"
     }
   },
   "meta": {
-    "report_date": "2026.07.31",
-    "report_date_cn": "2026年07月31日",
-    "war_day": 154,
+    "report_date": "2026.08.01",
+    "report_date_cn": "2026年08月01日",
+    "war_day": 155,
     "war_start": "2026-02-28",
-    "generated_at": "2026-07-31T12:28:46.542415+08:00",
-    "generated_at_cn": "2026-07-31 12:28:46 北京时间"
+    "generated_at": "2026-08-01T12:25:45.478879+08:00",
+    "generated_at_cn": "2026-08-01 12:25:45 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-03",
-      "brent": 108.16999816894531,
-      "wti": 101.94000244140625,
-      "gold": 4644.5,
-      "usd_cny": 6.827099800109863
-    },
     {
       "date": "2026-05-04",
       "brent": 108.25,
@@ -1465,6 +1395,13 @@
       "wti": 82.16999816894531,
       "gold": 4134.5,
       "usd_cny": 6.736499786376953
+    },
+    {
+      "date": "2026-08-01",
+      "brent": 90.12000274658203,
+      "wti": 84.66999816894531,
+      "gold": 4049.10009765625,
+      "usd_cny": 6.750500202178955
     }
   ]
 }

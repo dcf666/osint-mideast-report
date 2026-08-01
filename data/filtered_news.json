@@ -1,51 +1,5 @@
 [
   {
-    "source": "FT中文网",
-    "title": "红海再起冲突 油价重返每桶100美元高位",
-    "link": "https://www.ftchinese.com/story/001110417",
-    "published": "Thu, 23 Jul 2026 16:00:00 GMT",
-    "summary": "也门胡塞武装称其已袭击两艘在红海航行的沙特油轮。人们担心该组织会与伊朗协调行动，封锁曼德海峡，对能源市场构成进一步的压力。",
-    "lang": "zh",
-    "relevance_score": 90,
-    "entity_hits": [
-      "沙特",
-      "曼德海峡",
-      "也门",
-      "红海",
-      "油价",
-      "胡塞",
-      "海峡",
-      "油轮",
-      "伊朗"
-    ],
-    "action_hits": [
-      "油价",
-      "封锁",
-      "油轮"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "消息人士：中国与胡塞武装举行直接会谈",
-    "link": "https://www.dw.com/zh/消息人士：中国与胡塞武装举行直接会谈/a-78159239?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 29 Jul 2026 11:14:00 GMT",
-    "summary": "路透社引述六位知情人士的消息称，中国已与也门胡塞武装举行直接会谈，以确保其油轮在红海南部航行时免受攻击。此前，这支亲伊朗的民兵组织曾誓言要封锁通往沙特港口的航道。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "沙特",
-      "也门",
-      "红海",
-      "胡塞",
-      "伊朗",
-      "油轮"
-    ],
-    "action_hits": [
-      "封锁",
-      "油轮"
-    ]
-  },
-  {
     "source": "德国之声",
     "title": "北约成员国领空再遭侵犯  波兰境内留下巨大弹坑",
     "link": "https://www.dw.com/zh/北约成员国领空再遭侵犯-波兰境内留下巨大弹坑/a-78179513?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -57,10 +11,10 @@
       "北约"
     ],
     "action_hits": [
-      "无人机",
+      "发射",
       "轰炸",
       "导弹",
-      "发射"
+      "无人机"
     ]
   },
   {
@@ -72,8 +26,8 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "美伊",
-      "伊朗"
+      "伊朗",
+      "美伊"
     ],
     "action_hits": [
       "防空",
@@ -89,14 +43,14 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
-      "iran",
       "saudi",
+      "iran",
       "iraq"
     ],
     "action_hits": [
+      "strike",
       "launch",
-      "attack",
-      "strike"
+      "attack"
     ]
   },
   {
@@ -111,10 +65,10 @@
       "iran"
     ],
     "action_hits": [
+      "strike",
       "launch",
       "missile",
-      "attack",
-      "strike"
+      "attack"
     ]
   },
   {
@@ -126,8 +80,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "saudi"
+      "saudi",
+      "iran"
     ],
     "action_hits": [
       "de-escalat",
