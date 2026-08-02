@@ -1,20 +1,27 @@
 [
   {
-    "source": "德国之声",
-    "title": "北约成员国领空再遭侵犯  波兰境内留下巨大弹坑",
-    "link": "https://www.dw.com/zh/北约成员国领空再遭侵犯-波兰境内留下巨大弹坑/a-78179513?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 30 Jul 2026 14:23:00 GMT",
-    "summary": "俄罗斯连夜对邻国乌克兰发动大规模轰炸期间，一枚很可能是俄罗斯发射的导弹在波兰境内撞击出一个直径达10米的弹坑。俄罗斯的战机、无人机和导弹已多次侵犯多个北约成员国的领空。",
+    "source": "FT中文网",
+    "title": "红海再起冲突 油价重返每桶100美元高位",
+    "link": "https://www.ftchinese.com/story/001110417",
+    "published": "Thu, 23 Jul 2026 16:00:00 GMT",
+    "summary": "也门胡塞武装称其已袭击两艘在红海航行的沙特油轮。人们担心该组织会与伊朗协调行动，封锁曼德海峡，对能源市场构成进一步的压力。",
     "lang": "zh",
-    "relevance_score": 72,
+    "relevance_score": 90,
     "entity_hits": [
-      "北约"
+      "也门",
+      "油价",
+      "沙特",
+      "伊朗",
+      "胡塞",
+      "红海",
+      "海峡",
+      "油轮",
+      "曼德海峡"
     ],
     "action_hits": [
-      "发射",
-      "轰炸",
-      "导弹",
-      "无人机"
+      "油价",
+      "油轮",
+      "封锁"
     ]
   },
   {
@@ -26,8 +33,8 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "伊朗",
-      "美伊"
+      "美伊",
+      "伊朗"
     ],
     "action_hits": [
       "防空",
@@ -43,14 +50,14 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
-      "saudi",
       "iran",
-      "iraq"
+      "iraq",
+      "saudi"
     ],
     "action_hits": [
+      "attack",
       "strike",
-      "launch",
-      "attack"
+      "launch"
     ]
   },
   {
@@ -65,10 +72,10 @@
       "iran"
     ],
     "action_hits": [
+      "attack",
       "strike",
       "launch",
-      "missile",
-      "attack"
+      "missile"
     ]
   },
   {
@@ -80,12 +87,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "saudi",
-      "iran"
+      "iran",
+      "saudi"
     ],
     "action_hits": [
-      "de-escalat",
-      "escalat"
+      "escalat",
+      "de-escalat"
     ]
   }
 ]

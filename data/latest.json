@@ -3,7 +3,7 @@
     "brent": {
       "current": 90.12000274658203,
       "day_change_pct": 1.22,
-      "war_change_pct": -16.69,
+      "war_change_pct": -21.25,
       "dates": [
         "06/18",
         "06/22",
@@ -68,12 +68,12 @@
         89.03,
         90.12
       ],
-      "updated": "2026-08-01T04:24:52.481702"
+      "updated": "2026-08-02T04:28:09.139166"
     },
     "wti": {
       "current": 84.66999816894531,
       "day_change_pct": 1.29,
-      "war_change_pct": -16.94,
+      "war_change_pct": -20.44,
       "dates": [
         "06/18",
         "06/22",
@@ -138,12 +138,12 @@
         83.59,
         84.67
       ],
-      "updated": "2026-08-01T04:24:52.739460"
+      "updated": "2026-08-02T04:28:09.431150"
     },
     "gold": {
-      "current": 4049.10009765625,
-      "day_change_pct": -1.24,
-      "war_change_pct": -12.54,
+      "current": 4107.0,
+      "day_change_pct": 0.17,
+      "war_change_pct": -9.13,
       "dates": [
         "06/18",
         "06/22",
@@ -206,9 +206,9 @@
         4036.3,
         4034.7,
         4100.1,
-        4049.1
+        4107.0
       ],
-      "updated": "2026-08-01T04:24:52.996911"
+      "updated": "2026-08-02T04:28:09.721288"
     },
     "usd_cny": {
       "current": 6.750500202178955,
@@ -244,7 +244,7 @@
         "07/29",
         "07/30",
         "07/31",
-        "08/01"
+        "08/02"
       ],
       "prices": [
         6.77,
@@ -278,12 +278,12 @@
         6.76,
         6.75
       ],
-      "updated": "2026-08-01T04:24:53.315745"
+      "updated": "2026-08-02T04:28:10.090182"
     },
     "nat_gas": {
       "current": 2.746999979019165,
       "day_change_pct": -0.4,
-      "war_change_pct": -1.19,
+      "war_change_pct": -4.19,
       "dates": [
         "06/18",
         "06/22",
@@ -348,25 +348,19 @@
         2.76,
         2.75
       ],
-      "updated": "2026-08-01T04:24:53.586830"
+      "updated": "2026-08-02T04:28:10.302246"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 16.79,
-      "change_pct": 1.94,
-      "high": 16.96,
-      "low": 15.88,
-      "volume": 944905
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600026": {
       "name": "中远海能",
-      "price": 16.87,
-      "change_pct": 0.12,
-      "high": 16.98,
-      "low": 16.24,
-      "volume": 547867
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601975": {
       "name": "招商南油",
@@ -483,21 +477,28 @@
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "北约成员国领空再遭侵犯  波兰境内留下巨大弹坑",
-      "link": "https://www.dw.com/zh/北约成员国领空再遭侵犯-波兰境内留下巨大弹坑/a-78179513?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 30 Jul 2026 14:23:00 GMT",
-      "summary": "俄罗斯连夜对邻国乌克兰发动大规模轰炸期间，一枚很可能是俄罗斯发射的导弹在波兰境内撞击出一个直径达10米的弹坑。俄罗斯的战机、无人机和导弹已多次侵犯多个北约成员国的领空。",
+      "source": "FT中文网",
+      "title": "红海再起冲突 油价重返每桶100美元高位",
+      "link": "https://www.ftchinese.com/story/001110417",
+      "published": "Thu, 23 Jul 2026 16:00:00 GMT",
+      "summary": "也门胡塞武装称其已袭击两艘在红海航行的沙特油轮。人们担心该组织会与伊朗协调行动，封锁曼德海峡，对能源市场构成进一步的压力。",
       "lang": "zh",
-      "relevance_score": 72,
+      "relevance_score": 90,
       "entity_hits": [
-        "北约"
+        "也门",
+        "油价",
+        "沙特",
+        "伊朗",
+        "胡塞",
+        "红海",
+        "海峡",
+        "油轮",
+        "曼德海峡"
       ],
       "action_hits": [
-        "发射",
-        "轰炸",
-        "导弹",
-        "无人机"
+        "油价",
+        "油轮",
+        "封锁"
       ]
     },
     {
@@ -509,8 +510,8 @@
       "lang": "zh",
       "relevance_score": 67,
       "entity_hits": [
-        "伊朗",
-        "美伊"
+        "美伊",
+        "伊朗"
       ],
       "action_hits": [
         "防空",
@@ -526,14 +527,14 @@
       "lang": "en",
       "relevance_score": 85,
       "entity_hits": [
-        "saudi",
         "iran",
-        "iraq"
+        "iraq",
+        "saudi"
       ],
       "action_hits": [
+        "attack",
         "strike",
-        "launch",
-        "attack"
+        "launch"
       ]
     },
     {
@@ -548,10 +549,10 @@
         "iran"
       ],
       "action_hits": [
+        "attack",
         "strike",
         "launch",
-        "missile",
-        "attack"
+        "missile"
       ]
     },
     {
@@ -563,16 +564,30 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "saudi",
-        "iran"
+        "iran",
+        "saudi"
       ],
       "action_hits": [
-        "de-escalat",
-        "escalat"
+        "escalat",
+        "de-escalat"
       ]
     }
   ],
   "event_states": [
+    {
+      "event_id": "943c9d6ef3b1",
+      "title": "红海再起冲突 油价重返每桶100美元高位",
+      "location": "红海",
+      "first_seen_time": "2026-07-23T16:00:00+00:00",
+      "last_updated_time": "2026-07-23T16:00:00+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110417",
+      "lang": "zh"
+    },
     {
       "event_id": "cb4d91c919ee",
       "title": "伊朗将从中国获得便携式防空导弹系统？",
@@ -585,20 +600,6 @@
       "source_count": 2,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/伊朗将从中国获得便携式防空导弹系统？/a-78178795?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "c7e070f6ff4f",
-      "title": "北约成员国领空再遭侵犯  波兰境内留下巨大弹坑",
-      "location": "中东地区",
-      "first_seen_time": "2026-07-30T14:23:00+00:00",
-      "last_updated_time": "2026-07-30T14:23:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 72,
-      "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/北约成员国领空再遭侵犯-波兰境内留下巨大弹坑/a-78179513?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -633,7 +634,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/3",
         "7/4",
         "7/5",
         "7/6",
@@ -662,7 +662,8 @@
         "7/29",
         "7/30",
         "7/31",
-        "8/1"
+        "8/1",
+        "8/2"
       ],
       "transits": [
         0,
@@ -752,34 +753,27 @@
         21,
         69
       ],
-      "date_label": "8月1日"
+      "date_label": "8月2日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-01",
+      "hormuz_last_date": "2026-08-02",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 141,
+      "vlcc_stale_days": 142,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-01"
+      "routes_date": "2026-08-02"
     }
   },
   "meta": {
-    "report_date": "2026.08.01",
-    "report_date_cn": "2026年08月01日",
-    "war_day": 155,
+    "report_date": "2026.08.02",
+    "report_date_cn": "2026年08月02日",
+    "war_day": 156,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-01T12:25:45.478879+08:00",
-    "generated_at_cn": "2026-08-01 12:25:45 北京时间"
+    "generated_at": "2026-08-02T12:28:38.837429+08:00",
+    "generated_at_cn": "2026-08-02 12:28:38 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-04",
-      "brent": 108.25,
-      "wti": 101.7300033569336,
-      "gold": 4621.5,
-      "usd_cny": 6.827099800109863
-    },
     {
       "date": "2026-05-05",
       "brent": 113.22000122070312,
@@ -1401,6 +1395,13 @@
       "brent": 90.12000274658203,
       "wti": 84.66999816894531,
       "gold": 4049.10009765625,
+      "usd_cny": 6.750500202178955
+    },
+    {
+      "date": "2026-08-02",
+      "brent": 90.12000274658203,
+      "wti": 84.66999816894531,
+      "gold": 4107.0,
       "usd_cny": 6.750500202178955
     }
   ]

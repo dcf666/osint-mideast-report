@@ -1,5 +1,19 @@
 [
   {
+    "event_id": "943c9d6ef3b1",
+    "title": "红海再起冲突 油价重返每桶100美元高位",
+    "location": "红海",
+    "first_seen_time": "2026-07-23T16:00:00+00:00",
+    "last_updated_time": "2026-07-23T16:00:00+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110417",
+    "lang": "zh"
+  },
+  {
     "event_id": "cb4d91c919ee",
     "title": "伊朗将从中国获得便携式防空导弹系统？",
     "location": "伊朗",
@@ -11,20 +25,6 @@
     "source_count": 2,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/伊朗将从中国获得便携式防空导弹系统？/a-78178795?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
-    "event_id": "c7e070f6ff4f",
-    "title": "北约成员国领空再遭侵犯  波兰境内留下巨大弹坑",
-    "location": "中东地区",
-    "first_seen_time": "2026-07-30T14:23:00+00:00",
-    "last_updated_time": "2026-07-30T14:23:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 72,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/北约成员国领空再遭侵犯-波兰境内留下巨大弹坑/a-78179513?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
