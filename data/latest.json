@@ -1,79 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 90.12000274658203,
-      "day_change_pct": 1.22,
-      "war_change_pct": -21.25,
-      "dates": [
-        "06/18",
-        "06/22",
-        "06/23",
-        "06/24",
-        "06/25",
-        "06/26",
-        "06/29",
-        "06/30",
-        "07/01",
-        "07/02",
-        "07/06",
-        "07/07",
-        "07/08",
-        "07/09",
-        "07/10",
-        "07/13",
-        "07/14",
-        "07/15",
-        "07/16",
-        "07/17",
-        "07/20",
-        "07/21",
-        "07/22",
-        "07/23",
-        "07/24",
-        "07/27",
-        "07/28",
-        "07/29",
-        "07/30",
-        "07/31"
-      ],
-      "prices": [
-        79.85,
-        77.9,
-        77.08,
-        73.74,
-        75.26,
-        71.99,
-        73.15,
-        72.92,
-        71.57,
-        71.8,
-        71.99,
-        74.16,
-        78.02,
-        76.3,
-        76.01,
-        83.3,
-        84.73,
-        84.95,
-        84.23,
-        88.1,
-        89.22,
-        91.01,
-        94.07,
-        100.69,
-        96.78,
-        88.36,
-        84.09,
-        90.74,
-        89.03,
-        90.12
-      ],
-      "updated": "2026-08-03T04:35:04.962670"
-    },
-    "wti": {
-      "current": 79.68000030517578,
-      "day_change_pct": -5.89,
-      "war_change_pct": -25.13,
+      "current": 84.98999786376953,
+      "day_change_pct": -5.69,
+      "war_change_pct": -25.73,
       "dates": [
         "06/22",
         "06/23",
@@ -104,7 +34,77 @@
         "07/29",
         "07/30",
         "07/31",
-        "08/03"
+        "08/04"
+      ],
+      "prices": [
+        77.9,
+        77.08,
+        73.74,
+        75.26,
+        71.99,
+        73.15,
+        72.92,
+        71.57,
+        71.8,
+        71.99,
+        74.16,
+        78.02,
+        76.3,
+        76.01,
+        83.3,
+        84.73,
+        84.95,
+        84.23,
+        88.1,
+        89.22,
+        91.01,
+        94.07,
+        100.69,
+        96.78,
+        88.36,
+        84.09,
+        90.74,
+        89.03,
+        90.12,
+        84.99
+      ],
+      "updated": "2026-08-04T04:17:58.617545"
+    },
+    "wti": {
+      "current": 81.16999816894531,
+      "day_change_pct": -4.13,
+      "war_change_pct": -23.73,
+      "dates": [
+        "06/22",
+        "06/23",
+        "06/24",
+        "06/25",
+        "06/26",
+        "06/29",
+        "06/30",
+        "07/01",
+        "07/02",
+        "07/06",
+        "07/07",
+        "07/08",
+        "07/09",
+        "07/10",
+        "07/13",
+        "07/14",
+        "07/15",
+        "07/16",
+        "07/17",
+        "07/20",
+        "07/21",
+        "07/22",
+        "07/23",
+        "07/24",
+        "07/27",
+        "07/28",
+        "07/29",
+        "07/30",
+        "07/31",
+        "08/04"
       ],
       "prices": [
         74.82,
@@ -136,14 +136,14 @@
         84.46,
         83.59,
         84.67,
-        79.68
+        81.17
       ],
-      "updated": "2026-08-03T04:35:05.072687"
+      "updated": "2026-08-04T04:17:58.708925"
     },
     "gold": {
-      "current": 4124.0,
-      "day_change_pct": 1.85,
-      "war_change_pct": -8.75,
+      "current": 4109.0,
+      "day_change_pct": 1.48,
+      "war_change_pct": -9.08,
       "dates": [
         "06/22",
         "06/23",
@@ -174,7 +174,7 @@
         "07/29",
         "07/30",
         "07/31",
-        "08/03"
+        "08/04"
       ],
       "prices": [
         4181.9,
@@ -206,16 +206,15 @@
         4034.7,
         4100.1,
         4049.1,
-        4124.0
+        4109.0
       ],
-      "updated": "2026-08-03T04:35:05.167046"
+      "updated": "2026-08-04T04:17:58.799962"
     },
     "usd_cny": {
-      "current": 6.752600193023682,
-      "day_change_pct": -0.04,
-      "war_change_pct": -1.1,
+      "current": 6.755199909210205,
+      "day_change_pct": 0.06,
+      "war_change_pct": -1.06,
       "dates": [
-        "06/23",
         "06/24",
         "06/25",
         "06/26",
@@ -244,10 +243,10 @@
         "07/29",
         "07/30",
         "07/31",
-        "08/03"
+        "08/03",
+        "08/04"
       ],
       "prices": [
-        6.77,
         6.79,
         6.79,
         6.79,
@@ -276,14 +275,15 @@
         6.77,
         6.77,
         6.76,
-        6.75
+        6.75,
+        6.76
       ],
-      "updated": "2026-08-03T04:35:05.271390"
+      "updated": "2026-08-04T04:17:58.964564"
     },
     "nat_gas": {
-      "current": 2.759000062942505,
-      "day_change_pct": 0.44,
-      "war_change_pct": -3.77,
+      "current": 2.7679998874664307,
+      "day_change_pct": 0.76,
+      "war_change_pct": -3.45,
       "dates": [
         "06/22",
         "06/23",
@@ -314,7 +314,7 @@
         "07/29",
         "07/30",
         "07/31",
-        "08/03"
+        "08/04"
       ],
       "prices": [
         3.25,
@@ -346,21 +346,27 @@
         2.72,
         2.76,
         2.75,
-        2.76
+        2.77
       ],
-      "updated": "2026-08-03T04:35:05.365873"
+      "updated": "2026-08-04T04:17:59.062253"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.18,
+      "change_pct": 0.88,
+      "high": 17.7,
+      "low": 16.99,
+      "volume": 651897
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.12,
+      "change_pct": 0.65,
+      "high": 17.48,
+      "low": 16.95,
+      "volume": 322435
     },
     "601975": {
       "name": "招商南油",
@@ -374,8 +380,11 @@
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 10.84,
+      "change_pct": -1.9,
+      "high": 11.02,
+      "low": 10.83,
+      "volume": 745725
     },
     "600028": {
       "name": "中国石化",
@@ -409,8 +418,11 @@
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.42,
+      "change_pct": 0.18,
+      "high": 5.46,
+      "low": 5.35,
+      "volume": 526179
     },
     "601919": {
       "name": "中远海控",
@@ -477,23 +489,6 @@
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "伊朗将从中国获得便携式防空导弹系统？",
-      "link": "https://www.dw.com/zh/伊朗将从中国获得便携式防空导弹系统？/a-78178795?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Thu, 30 Jul 2026 13:50:00 GMT",
-      "summary": "路透社独家报道称伊朗已同香港一家公司签署了合同，购买数百套防空导弹系统。对此，特朗普总统表示，习近平曾向他保证过不会介入美伊战争。不过，类似的报道已不是第一次。",
-      "lang": "zh",
-      "relevance_score": 67,
-      "entity_hits": [
-        "美伊",
-        "伊朗"
-      ],
-      "action_hits": [
-        "导弹",
-        "防空"
-      ]
-    },
-    {
       "source": "BBC中东",
       "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
       "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
@@ -503,13 +498,31 @@
       "relevance_score": 85,
       "entity_hits": [
         "saudi",
-        "iran",
-        "iraq"
+        "iraq",
+        "iran"
       ],
       "action_hits": [
-        "strike",
+        "attack",
         "launch",
-        "attack"
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
+      "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 03 Aug 2026 15:57:27 GMT",
+      "summary": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
+      "lang": "en",
+      "relevance_score": 73,
+      "entity_hits": [
+        "middle east",
+        "iran"
+      ],
+      "action_hits": [
+        "tanker",
+        "attack",
+        "shipping"
       ]
     },
     {
@@ -521,8 +534,8 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
         "strike",
@@ -542,8 +555,8 @@
         "iran"
       ],
       "action_hits": [
-        "strike",
-        "attack"
+        "attack",
+        "strike"
       ]
     },
     {
@@ -559,25 +572,25 @@
         "iran"
       ],
       "action_hits": [
-        "de-escalat",
-        "escalat"
+        "escalat",
+        "de-escalat"
       ]
     }
   ],
   "event_states": [
     {
-      "event_id": "cb4d91c919ee",
-      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "event_id": "cc79b9c6bdab",
+      "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
       "location": "伊朗",
-      "first_seen_time": "2026-07-30T13:50:00+00:00",
-      "last_updated_time": "2026-08-02T11:12:00+00:00",
+      "first_seen_time": "2026-07-29T13:48:41+00:00",
+      "last_updated_time": "2026-08-03T15:57:27+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 85,
       "source_count": 3,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/伊朗将从中国获得便携式防空导弹系统？/a-78178795?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "d28776025a6f",
@@ -611,7 +624,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/5",
         "7/6",
         "7/7",
         "7/8",
@@ -640,7 +652,8 @@
         "7/31",
         "8/1",
         "8/2",
-        "8/3"
+        "8/3",
+        "8/4"
       ],
       "transits": [
         0,
@@ -730,34 +743,27 @@
         21,
         69
       ],
-      "date_label": "8月3日"
+      "date_label": "8月4日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-03",
+      "hormuz_last_date": "2026-08-04",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 143,
+      "vlcc_stale_days": 144,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-03"
+      "routes_date": "2026-08-04"
     }
   },
   "meta": {
-    "report_date": "2026.08.03",
-    "report_date_cn": "2026年08月03日",
-    "war_day": 157,
+    "report_date": "2026.08.04",
+    "report_date_cn": "2026年08月04日",
+    "war_day": 158,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-03T12:35:33.475998+08:00",
-    "generated_at_cn": "2026-08-03 12:35:33 北京时间"
+    "generated_at": "2026-08-04T12:18:30.087917+08:00",
+    "generated_at_cn": "2026-08-04 12:18:30 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-06",
-      "brent": 108.05000305175781,
-      "wti": 100.5,
-      "gold": 4656.2001953125,
-      "usd_cny": 6.817699909210205
-    },
     {
       "date": "2026-05-07",
       "brent": 101.91999816894531,
@@ -1380,6 +1386,13 @@
       "wti": 79.68000030517578,
       "gold": 4124.0,
       "usd_cny": 6.752600193023682
+    },
+    {
+      "date": "2026-08-04",
+      "brent": 84.98999786376953,
+      "wti": 81.16999816894531,
+      "gold": 4109.0,
+      "usd_cny": 6.755199909210205
     }
   ]
 }

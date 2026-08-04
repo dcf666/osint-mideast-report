@@ -1,22 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "伊朗将从中国获得便携式防空导弹系统？",
-    "link": "https://www.dw.com/zh/伊朗将从中国获得便携式防空导弹系统？/a-78178795?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Thu, 30 Jul 2026 13:50:00 GMT",
-    "summary": "路透社独家报道称伊朗已同香港一家公司签署了合同，购买数百套防空导弹系统。对此，特朗普总统表示，习近平曾向他保证过不会介入美伊战争。不过，类似的报道已不是第一次。",
-    "lang": "zh",
-    "relevance_score": 67,
-    "entity_hits": [
-      "美伊",
-      "伊朗"
-    ],
-    "action_hits": [
-      "导弹",
-      "防空"
-    ]
-  },
-  {
     "source": "BBC中东",
     "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
     "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
@@ -26,13 +9,31 @@
     "relevance_score": 85,
     "entity_hits": [
       "saudi",
-      "iran",
-      "iraq"
+      "iraq",
+      "iran"
     ],
     "action_hits": [
-      "strike",
+      "attack",
       "launch",
-      "attack"
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
+    "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 03 Aug 2026 15:57:27 GMT",
+    "summary": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
+    "lang": "en",
+    "relevance_score": 73,
+    "entity_hits": [
+      "middle east",
+      "iran"
+    ],
+    "action_hits": [
+      "tanker",
+      "attack",
+      "shipping"
     ]
   },
   {
@@ -44,8 +45,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
       "strike",
@@ -65,8 +66,8 @@
       "iran"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -82,8 +83,8 @@
       "iran"
     ],
     "action_hits": [
-      "de-escalat",
-      "escalat"
+      "escalat",
+      "de-escalat"
     ]
   }
 ]

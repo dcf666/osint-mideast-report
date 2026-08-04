@@ -1,17 +1,17 @@
 [
   {
-    "event_id": "cb4d91c919ee",
-    "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+    "event_id": "cc79b9c6bdab",
+    "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
     "location": "伊朗",
-    "first_seen_time": "2026-07-30T13:50:00+00:00",
-    "last_updated_time": "2026-08-02T11:12:00+00:00",
+    "first_seen_time": "2026-07-29T13:48:41+00:00",
+    "last_updated_time": "2026-08-03T15:57:27+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 85,
     "source_count": 3,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/伊朗将从中国获得便携式防空导弹系统？/a-78178795?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "d28776025a6f",
