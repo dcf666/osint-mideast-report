@@ -14,6 +14,34 @@
     "lang": "en"
   },
   {
+    "event_id": "4ad7ba1c28b3",
+    "title": "「中東油輪受威脅程度已達伊朗戰爭爆發以來最高水平」",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-08-04T11:43:49+00:00",
+    "last_updated_time": "2026-08-04T11:43:49+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "520a9a0c9c59",
+    "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-08-04T16:00:00+00:00",
+    "last_updated_time": "2026-08-05T03:44:30+00:00",
+    "current_status": "partially_restored",
+    "trend": "improving",
+    "confidence": 80,
+    "source_count": 2,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110525",
+    "lang": "zh"
+  },
+  {
     "event_id": "d28776025a6f",
     "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
     "location": "以色列",

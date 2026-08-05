@@ -1,5 +1,44 @@
 [
   {
+    "source": "BBC中文",
+    "title": "「中東油輪受威脅程度已達伊朗戰爭爆發以來最高水平」",
+    "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 04 Aug 2026 11:43:49 GMT",
+    "summary": "多艘船隻在紅海遭到襲擊——自伊朗封鎖霍爾木茲海峽後，一些油輪一直使用這條替代水道。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "油輪",
+      "伊朗",
+      "霍爾木茲",
+      "紅海",
+      "海峽"
+    ],
+    "action_hits": [
+      "封鎖",
+      "油輪"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "美财长：霍尔木兹海峡即将重新开放",
+    "link": "https://www.ftchinese.com/story/001110525",
+    "published": "Tue, 04 Aug 2026 16:00:00 GMT",
+    "summary": "贝森特周二称，与伊朗的谈判仍在进行中，有可能“在今天或明天达成协议”。据悉伊朗与阿曼已商定管理海峡航运的临时安排。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "伊朗",
+      "海峡",
+      "阿曼",
+      "霍尔木兹"
+    ],
+    "action_hits": [
+      "航运",
+      "谈判"
+    ]
+  },
+  {
     "source": "BBC中东",
     "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
     "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
@@ -9,12 +48,12 @@
     "relevance_score": 85,
     "entity_hits": [
       "saudi",
-      "iraq",
-      "iran"
+      "iran",
+      "iraq"
     ],
     "action_hits": [
-      "attack",
       "launch",
+      "attack",
       "strike"
     ]
   },
@@ -27,13 +66,31 @@
     "lang": "en",
     "relevance_score": 73,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "iran",
+      "middle east"
     ],
     "action_hits": [
-      "tanker",
       "attack",
-      "shipping"
+      "shipping",
+      "tanker"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+    "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 05 Aug 2026 03:44:30 GMT",
+    "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "iran",
+      "strait",
+      "hormuz",
+      "oil price"
+    ],
+    "action_hits": [
+      "oil price"
     ]
   },
   {
@@ -45,12 +102,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -62,8 +119,8 @@
     "lang": "en",
     "relevance_score": 63,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "iran",
+      "middle east"
     ],
     "action_hits": [
       "attack",
@@ -79,8 +136,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "saudi",
-      "iran"
+      "iran",
+      "saudi"
     ],
     "action_hits": [
       "escalat",
