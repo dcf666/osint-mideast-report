@@ -8,11 +8,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "油輪",
-      "伊朗",
-      "霍爾木茲",
       "紅海",
-      "海峽"
+      "油輪",
+      "海峽",
+      "伊朗",
+      "霍爾木茲"
     ],
     "action_hits": [
       "封鎖",
@@ -28,14 +28,34 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
       "海峡",
+      "伊朗",
       "阿曼",
       "霍尔木兹"
     ],
     "action_hits": [
       "航运",
       "谈判"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel strikes south Lebanon after first evacuation warning in weeks",
+    "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 05 Aug 2026 20:03:36 GMT",
+    "summary": "Lebanon's health ministry says one person was killed in the strikes, which the Israeli military says were a response to a Hezbollah ceasefire violation.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "lebanon",
+      "israel",
+      "hezbollah"
+    ],
+    "action_hits": [
+      "strike",
+      "killed",
+      "ceasefire",
+      "evacuat"
     ]
   },
   {
@@ -52,9 +72,9 @@
       "iraq"
     ],
     "action_hits": [
+      "strike",
       "launch",
-      "attack",
-      "strike"
+      "attack"
     ]
   },
   {
@@ -70,27 +90,9 @@
       "middle east"
     ],
     "action_hits": [
-      "attack",
+      "tanker",
       "shipping",
-      "tanker"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
-    "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 05 Aug 2026 03:44:30 GMT",
-    "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "iran",
-      "strait",
-      "hormuz",
-      "oil price"
-    ],
-    "action_hits": [
-      "oil price"
+      "attack"
     ]
   },
   {
@@ -102,12 +104,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -123,8 +125,8 @@
       "middle east"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -136,8 +138,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "saudi"
+      "saudi",
+      "iran"
     ],
     "action_hits": [
       "escalat",

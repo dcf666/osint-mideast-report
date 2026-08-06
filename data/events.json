@@ -1,5 +1,19 @@
 [
   {
+    "event_id": "ec4ee074ca55",
+    "title": "Israel strikes south Lebanon after first evacuation warning in weeks",
+    "location": "以色列",
+    "first_seen_time": "2026-08-05T20:03:36+00:00",
+    "last_updated_time": "2026-08-05T20:03:36+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 100,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "cc79b9c6bdab",
     "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
     "location": "伊朗",
@@ -29,14 +43,14 @@
   },
   {
     "event_id": "520a9a0c9c59",
-    "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+    "title": "美财长：霍尔木兹海峡即将重新开放",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-08-04T16:00:00+00:00",
-    "last_updated_time": "2026-08-05T03:44:30+00:00",
+    "last_updated_time": "2026-08-04T16:00:00+00:00",
     "current_status": "partially_restored",
     "trend": "improving",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 1,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110525",
     "lang": "zh"
