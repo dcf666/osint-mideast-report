@@ -8,11 +8,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "紅海",
-      "油輪",
-      "海峽",
       "伊朗",
-      "霍爾木茲"
+      "海峽",
+      "油輪",
+      "霍爾木茲",
+      "紅海"
     ],
     "action_hits": [
       "封鎖",
@@ -28,53 +28,34 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峡",
       "伊朗",
+      "霍尔木兹",
       "阿曼",
-      "霍尔木兹"
+      "海峡"
     ],
     "action_hits": [
-      "航运",
-      "谈判"
+      "谈判",
+      "航运"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Israel strikes south Lebanon after first evacuation warning in weeks",
-    "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 05 Aug 2026 20:03:36 GMT",
-    "summary": "Lebanon's health ministry says one person was killed in the strikes, which the Israeli military says were a response to a Hezbollah ceasefire violation.",
+    "title": "Houthi attacks reportedly kill at least 30 Yemeni government forces",
+    "link": "https://www.bbc.co.uk/news/articles/ckgdmdr0lmgo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 06 Aug 2026 22:41:09 GMT",
+    "summary": "The Houthis say they launched missiles and drones at \"Saudi military build-ups\" in the central provinces of Marib and Hadramawt.",
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "lebanon",
-      "israel",
-      "hezbollah"
-    ],
-    "action_hits": [
-      "strike",
-      "killed",
-      "ceasefire",
-      "evacuat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
-    "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 29 Jul 2026 13:48:41 GMT",
-    "summary": "US Central Command says proxy groups launched attacks against US bases and Saudi energy infrastructure.",
-    "lang": "en",
-    "relevance_score": 85,
-    "entity_hits": [
+      "yemen",
       "saudi",
-      "iran",
-      "iraq"
+      "houthi"
     ],
     "action_hits": [
-      "strike",
-      "launch",
-      "attack"
+      "attack",
+      "drone",
+      "missile",
+      "launch"
     ]
   },
   {
@@ -86,13 +67,13 @@
     "lang": "en",
     "relevance_score": 73,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
-      "tanker",
+      "attack",
       "shipping",
-      "attack"
+      "tanker"
     ]
   },
   {
@@ -108,8 +89,8 @@
       "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -121,12 +102,29 @@
     "lang": "en",
     "relevance_score": 63,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel strikes south Lebanon after two soldiers killed by explosion",
+    "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 06 Aug 2026 14:51:47 GMT",
+    "summary": "Lebanese authorities says one person was killed in the strikes, which came after the first Israeli military fatalities in Lebanon in more than a month.",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "lebanon",
+      "israel"
+    ],
+    "action_hits": [
+      "killed",
+      "strike"
     ]
   },
   {

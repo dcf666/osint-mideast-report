@@ -1,9 +1,21 @@
 {
   "markets": {
     "brent": {
-      "current": 79.20999908447266,
-      "day_change_pct": -0.3,
-      "war_change_pct": -21.78,
+      "current": 83.45999908447266,
+      "day_change_pct": 0,
+      "war_change_pct": 0.0,
+      "dates": [
+        "08/06"
+      ],
+      "prices": [
+        83.46
+      ],
+      "updated": "2026-08-07T03:54:03.496744"
+    },
+    "wti": {
+      "current": 78.0199966430664,
+      "day_change_pct": 3.72,
+      "war_change_pct": -17.94,
       "dates": [
         "06/25",
         "06/26",
@@ -37,78 +49,6 @@
         "08/06"
       ],
       "prices": [
-        75.26,
-        71.99,
-        73.15,
-        72.92,
-        71.57,
-        71.8,
-        71.99,
-        74.16,
-        78.02,
-        76.3,
-        76.01,
-        83.3,
-        84.73,
-        84.95,
-        84.23,
-        88.1,
-        89.22,
-        91.01,
-        94.07,
-        100.69,
-        96.78,
-        88.36,
-        84.09,
-        90.74,
-        89.03,
-        90.12,
-        83.77,
-        79.36,
-        79.45,
-        79.21
-      ],
-      "updated": "2026-08-06T04:18:44.598449"
-    },
-    "wti": {
-      "current": 74.83000183105469,
-      "day_change_pct": -6.86,
-      "war_change_pct": -21.3,
-      "dates": [
-        "06/23",
-        "06/24",
-        "06/25",
-        "06/26",
-        "06/29",
-        "06/30",
-        "07/01",
-        "07/02",
-        "07/06",
-        "07/07",
-        "07/08",
-        "07/09",
-        "07/10",
-        "07/13",
-        "07/14",
-        "07/15",
-        "07/16",
-        "07/17",
-        "07/20",
-        "07/21",
-        "07/22",
-        "07/23",
-        "07/24",
-        "07/27",
-        "07/28",
-        "07/29",
-        "07/30",
-        "07/31",
-        "08/03",
-        "08/06"
-      ],
-      "prices": [
-        73.21,
-        70.34,
         71.92,
         69.23,
         70.75,
@@ -136,17 +76,17 @@
         83.59,
         84.67,
         80.34,
-        74.83
+        75.77,
+        75.22,
+        78.02
       ],
-      "updated": "2026-08-06T04:18:44.750742"
+      "updated": "2026-08-07T03:54:03.599021"
     },
     "gold": {
-      "current": 4326.10009765625,
-      "day_change_pct": 7.25,
-      "war_change_pct": -7.6,
+      "current": 4319.89990234375,
+      "day_change_pct": 1.75,
+      "war_change_pct": -7.73,
       "dates": [
-        "06/23",
-        "06/24",
         "06/25",
         "06/26",
         "06/29",
@@ -174,11 +114,11 @@
         "07/30",
         "07/31",
         "08/03",
+        "08/04",
+        "08/05",
         "08/06"
       ],
       "prices": [
-        4129.9,
-        3990.3,
         4030.5,
         4078.7,
         4022.3,
@@ -206,16 +146,17 @@
         4100.1,
         4049.1,
         4033.7,
-        4326.1
+        4095.4,
+        4245.8,
+        4319.9
       ],
-      "updated": "2026-08-06T04:18:44.906107"
+      "updated": "2026-08-07T03:54:03.704948"
     },
     "usd_cny": {
-      "current": 6.747499942779541,
-      "day_change_pct": -0.08,
-      "war_change_pct": -1.21,
+      "current": 6.746300220489502,
+      "day_change_pct": -0.05,
+      "war_change_pct": -0.95,
       "dates": [
-        "06/26",
         "06/29",
         "06/30",
         "07/01",
@@ -244,10 +185,10 @@
         "08/03",
         "08/04",
         "08/05",
-        "08/06"
+        "08/06",
+        "08/07"
       ],
       "prices": [
-        6.79,
         6.8,
         6.79,
         6.79,
@@ -276,17 +217,16 @@
         6.75,
         6.75,
         6.75,
+        6.75,
         6.75
       ],
-      "updated": "2026-08-06T04:18:45.052343"
+      "updated": "2026-08-07T03:54:03.816411"
     },
     "nat_gas": {
-      "current": 2.6740000247955322,
-      "day_change_pct": -3.85,
-      "war_change_pct": -2.05,
+      "current": 2.630000114440918,
+      "day_change_pct": -2.16,
+      "war_change_pct": -3.66,
       "dates": [
-        "06/23",
-        "06/24",
         "06/25",
         "06/26",
         "06/29",
@@ -314,11 +254,11 @@
         "07/30",
         "07/31",
         "08/03",
+        "08/04",
+        "08/05",
         "08/06"
       ],
       "prices": [
-        3.15,
-        3.22,
         3.34,
         3.23,
         3.18,
@@ -346,26 +286,34 @@
         2.76,
         2.75,
         2.78,
-        2.67
+        2.68,
+        2.69,
+        2.63
       ],
-      "updated": "2026-08-06T04:18:45.181844"
+      "updated": "2026-08-07T03:54:03.921128"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.71,
+      "change_pct": 1.43,
+      "high": 17.88,
+      "low": 17.56,
+      "volume": 299535
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 3.74,
+      "change_pct": 0.27,
+      "high": 3.79,
+      "low": 3.72,
+      "volume": 941555
     },
     "600938": {
       "name": "中国海油",
@@ -375,7 +323,7 @@
     "601857": {
       "name": "中国石油",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600028": {
       "name": "中国石化",
@@ -405,7 +353,7 @@
     "600803": {
       "name": "新奥股份",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600256": {
       "name": "广汇能源",
@@ -445,7 +393,7 @@
     "600489": {
       "name": "中金黄金",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601088": {
       "name": "中国神华",
@@ -485,11 +433,11 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "紅海",
-        "油輪",
-        "海峽",
         "伊朗",
-        "霍爾木茲"
+        "海峽",
+        "油輪",
+        "霍爾木茲",
+        "紅海"
       ],
       "action_hits": [
         "封鎖",
@@ -505,53 +453,34 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峡",
         "伊朗",
+        "霍尔木兹",
         "阿曼",
-        "霍尔木兹"
+        "海峡"
       ],
       "action_hits": [
-        "航运",
-        "谈判"
+        "谈判",
+        "航运"
       ]
     },
     {
       "source": "BBC中东",
-      "title": "Israel strikes south Lebanon after first evacuation warning in weeks",
-      "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 05 Aug 2026 20:03:36 GMT",
-      "summary": "Lebanon's health ministry says one person was killed in the strikes, which the Israeli military says were a response to a Hezbollah ceasefire violation.",
+      "title": "Houthi attacks reportedly kill at least 30 Yemeni government forces",
+      "link": "https://www.bbc.co.uk/news/articles/ckgdmdr0lmgo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 06 Aug 2026 22:41:09 GMT",
+      "summary": "The Houthis say they launched missiles and drones at \"Saudi military build-ups\" in the central provinces of Marib and Hadramawt.",
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "lebanon",
-        "israel",
-        "hezbollah"
-      ],
-      "action_hits": [
-        "strike",
-        "killed",
-        "ceasefire",
-        "evacuat"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
-      "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 29 Jul 2026 13:48:41 GMT",
-      "summary": "US Central Command says proxy groups launched attacks against US bases and Saudi energy infrastructure.",
-      "lang": "en",
-      "relevance_score": 85,
-      "entity_hits": [
+        "yemen",
         "saudi",
-        "iran",
-        "iraq"
+        "houthi"
       ],
       "action_hits": [
-        "strike",
-        "launch",
-        "attack"
+        "attack",
+        "drone",
+        "missile",
+        "launch"
       ]
     },
     {
@@ -563,13 +492,13 @@
       "lang": "en",
       "relevance_score": 73,
       "entity_hits": [
-        "iran",
-        "middle east"
+        "middle east",
+        "iran"
       ],
       "action_hits": [
-        "tanker",
+        "attack",
         "shipping",
-        "attack"
+        "tanker"
       ]
     },
     {
@@ -585,8 +514,8 @@
         "israel"
       ],
       "action_hits": [
-        "strike",
-        "killed"
+        "killed",
+        "strike"
       ]
     },
     {
@@ -598,12 +527,29 @@
       "lang": "en",
       "relevance_score": 63,
       "entity_hits": [
-        "iran",
-        "middle east"
+        "middle east",
+        "iran"
       ],
       "action_hits": [
-        "strike",
-        "attack"
+        "attack",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israel strikes south Lebanon after two soldiers killed by explosion",
+      "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 06 Aug 2026 14:51:47 GMT",
+      "summary": "Lebanese authorities says one person was killed in the strikes, which came after the first Israeli military fatalities in Lebanon in more than a month.",
+      "lang": "en",
+      "relevance_score": 60,
+      "entity_hits": [
+        "lebanon",
+        "israel"
+      ],
+      "action_hits": [
+        "killed",
+        "strike"
       ]
     },
     {
@@ -626,31 +572,17 @@
   ],
   "event_states": [
     {
-      "event_id": "ec4ee074ca55",
-      "title": "Israel strikes south Lebanon after first evacuation warning in weeks",
-      "location": "以色列",
-      "first_seen_time": "2026-08-05T20:03:36+00:00",
-      "last_updated_time": "2026-08-05T20:03:36+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
+      "event_id": "2269e89a41a3",
+      "title": "Houthi attacks reportedly kill at least 30 Yemeni government forces",
+      "location": "也门",
+      "first_seen_time": "2026-08-06T22:41:09+00:00",
+      "last_updated_time": "2026-08-06T22:41:09+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
       "confidence": 100,
       "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "cc79b9c6bdab",
-      "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
-      "location": "伊朗",
-      "first_seen_time": "2026-07-29T13:48:41+00:00",
-      "last_updated_time": "2026-08-03T15:57:27+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 85,
-      "source_count": 3,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/ckgdmdr0lmgo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -682,15 +614,29 @@
       "lang": "zh"
     },
     {
+      "event_id": "c8aad6b63349",
+      "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
+      "location": "伊朗",
+      "first_seen_time": "2026-08-03T15:57:27+00:00",
+      "last_updated_time": "2026-08-03T15:57:27+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 73,
+      "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
       "event_id": "d28776025a6f",
-      "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+      "title": "Israel strikes south Lebanon after two soldiers killed by explosion",
       "location": "以色列",
       "first_seen_time": "2026-08-02T15:50:59+00:00",
-      "last_updated_time": "2026-08-02T15:50:59+00:00",
+      "last_updated_time": "2026-08-06T14:51:47+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 67,
-      "source_count": 1,
+      "source_count": 2,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
       "lang": "en"
@@ -713,7 +659,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/8",
         "7/9",
         "7/10",
         "7/11",
@@ -742,7 +687,8 @@
         "8/3",
         "8/4",
         "8/5",
-        "8/6"
+        "8/6",
+        "8/7"
       ],
       "transits": [
         0,
@@ -832,34 +778,27 @@
         21,
         69
       ],
-      "date_label": "8月6日"
+      "date_label": "8月7日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-06",
+      "hormuz_last_date": "2026-08-07",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 146,
+      "vlcc_stale_days": 147,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-06"
+      "routes_date": "2026-08-07"
     }
   },
   "meta": {
-    "report_date": "2026.08.06",
-    "report_date_cn": "2026年08月06日",
-    "war_day": 160,
+    "report_date": "2026.08.07",
+    "report_date_cn": "2026年08月07日",
+    "war_day": 161,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-06T12:20:05.703941+08:00",
-    "generated_at_cn": "2026-08-06 12:20:05 北京时间"
+    "generated_at": "2026-08-07T11:55:46.054646+08:00",
+    "generated_at_cn": "2026-08-07 11:55:46 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-09",
-      "brent": 101.29000091552734,
-      "wti": 95.41999816894531,
-      "gold": 4720.39990234375,
-      "usd_cny": 6.800000190734863
-    },
     {
       "date": "2026-05-10",
       "brent": 101.29000091552734,
@@ -1482,6 +1421,13 @@
       "wti": 74.83000183105469,
       "gold": 4326.10009765625,
       "usd_cny": 6.747499942779541
+    },
+    {
+      "date": "2026-08-07",
+      "brent": 83.45999908447266,
+      "wti": 78.0199966430664,
+      "gold": 4319.89990234375,
+      "usd_cny": 6.746300220489502
     }
   ]
 }
