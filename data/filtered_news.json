@@ -1,22 +1,20 @@
 [
   {
-    "source": "BBC中文",
-    "title": "「中東油輪受威脅程度已達伊朗戰爭爆發以來最高水平」",
-    "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 04 Aug 2026 11:43:49 GMT",
-    "summary": "多艘船隻在紅海遭到襲擊——自伊朗封鎖霍爾木茲海峽後，一些油輪一直使用這條替代水道。",
+    "source": "德国之声",
+    "title": "俄油轮阿曼搁浅 生态灾难一触即发",
+    "link": "https://www.dw.com/zh/俄油轮阿曼搁浅-生态灾难一触即发/a-78282518?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Fri, 7 Aug 2026 13:43:00 GMT",
+    "summary": "一艘载有11万吨原油的俄罗斯“影子舰队”油轮日前在阿曼附近敏感海域搁浅并持续泄漏。当地及环保组织已紧急呼吁转移货物，以防船体破裂引发数十年来最严重的海洋生态悲剧。",
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
-      "海峽",
-      "油輪",
-      "霍爾木茲",
-      "紅海"
+      "油轮",
+      "阿曼",
+      "原油"
     ],
     "action_hits": [
-      "封鎖",
-      "油輪"
+      "油轮",
+      "原油"
     ]
   },
   {
@@ -29,13 +27,30 @@
     "relevance_score": 80,
     "entity_hits": [
       "伊朗",
+      "海峡",
       "霍尔木兹",
-      "阿曼",
-      "海峡"
+      "阿曼"
     ],
     "action_hits": [
-      "谈判",
-      "航运"
+      "航运",
+      "谈判"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美军就要“弹尽炮绝”？",
+    "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Fri, 7 Aug 2026 09:46:00 GMT",
+    "summary": "路透社独家援引美军武库知情人士报道说，美国在新近的中东伊朗冲突中，已消耗大部分高精度远程导弹库存。该消息引发了外界对美军应对未来冲突准备状态的担忧。特朗普对此类表述表达“很生气”，并威胁“严惩传播这些言论的叛徒”。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "中东",
+      "伊朗",
+      "美军"
+    ],
+    "action_hits": [
+      "导弹"
     ]
   },
   {
@@ -48,14 +63,14 @@
     "relevance_score": 100,
     "entity_hits": [
       "yemen",
-      "saudi",
-      "houthi"
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
-      "attack",
-      "drone",
       "missile",
-      "launch"
+      "attack",
+      "launch",
+      "drone"
     ]
   },
   {
@@ -71,9 +86,9 @@
       "iran"
     ],
     "action_hits": [
-      "attack",
+      "tanker",
       "shipping",
-      "tanker"
+      "attack"
     ]
   },
   {
@@ -89,8 +104,8 @@
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -106,8 +121,8 @@
       "iran"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -123,8 +138,8 @@
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -140,8 +155,8 @@
       "iran"
     ],
     "action_hits": [
-      "escalat",
-      "de-escalat"
+      "de-escalat",
+      "escalat"
     ]
   }
 ]

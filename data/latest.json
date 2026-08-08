@@ -1,23 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 83.45999908447266,
-      "day_change_pct": 0,
-      "war_change_pct": 0.0,
+      "current": 82.2699966430664,
+      "day_change_pct": -0.27,
+      "war_change_pct": -17.78,
       "dates": [
-        "08/06"
-      ],
-      "prices": [
-        83.46
-      ],
-      "updated": "2026-08-07T03:54:03.496744"
-    },
-    "wti": {
-      "current": 78.0199966430664,
-      "day_change_pct": 3.72,
-      "war_change_pct": -17.94,
-      "dates": [
-        "06/25",
         "06/26",
         "06/29",
         "06/30",
@@ -46,10 +33,80 @@
         "08/03",
         "08/04",
         "08/05",
-        "08/06"
+        "08/06",
+        "08/07"
       ],
       "prices": [
-        71.92,
+        71.99,
+        73.15,
+        72.92,
+        71.57,
+        71.8,
+        71.99,
+        74.16,
+        78.02,
+        76.3,
+        76.01,
+        83.3,
+        84.73,
+        84.95,
+        84.23,
+        88.1,
+        89.22,
+        91.01,
+        94.07,
+        100.69,
+        96.78,
+        88.36,
+        84.09,
+        90.74,
+        89.03,
+        90.12,
+        83.77,
+        79.36,
+        79.45,
+        82.49,
+        82.27
+      ],
+      "updated": "2026-08-08T02:56:54.189735"
+    },
+    "wti": {
+      "current": 77.08000183105469,
+      "day_change_pct": -0.27,
+      "war_change_pct": -18.7,
+      "dates": [
+        "06/26",
+        "06/29",
+        "06/30",
+        "07/01",
+        "07/02",
+        "07/06",
+        "07/07",
+        "07/08",
+        "07/09",
+        "07/10",
+        "07/13",
+        "07/14",
+        "07/15",
+        "07/16",
+        "07/17",
+        "07/20",
+        "07/21",
+        "07/22",
+        "07/23",
+        "07/24",
+        "07/27",
+        "07/28",
+        "07/29",
+        "07/30",
+        "07/31",
+        "08/03",
+        "08/04",
+        "08/05",
+        "08/06",
+        "08/07"
+      ],
+      "prices": [
         69.23,
         70.75,
         69.5,
@@ -78,16 +135,16 @@
         80.34,
         75.77,
         75.22,
-        78.02
+        77.29,
+        77.08
       ],
-      "updated": "2026-08-07T03:54:03.599021"
+      "updated": "2026-08-08T02:56:54.278141"
     },
     "gold": {
-      "current": 4319.89990234375,
-      "day_change_pct": 1.75,
-      "war_change_pct": -7.73,
+      "current": 4401.2998046875,
+      "day_change_pct": 3.76,
+      "war_change_pct": -6.35,
       "dates": [
-        "06/25",
         "06/26",
         "06/29",
         "06/30",
@@ -116,10 +173,10 @@
         "08/03",
         "08/04",
         "08/05",
-        "08/06"
+        "08/06",
+        "08/07"
       ],
       "prices": [
-        4030.5,
         4078.7,
         4022.3,
         4022.9,
@@ -148,16 +205,16 @@
         4033.7,
         4095.4,
         4245.8,
-        4319.9
+        4242.0,
+        4401.3
       ],
-      "updated": "2026-08-07T03:54:03.704948"
+      "updated": "2026-08-08T02:56:54.362764"
     },
     "usd_cny": {
-      "current": 6.746300220489502,
-      "day_change_pct": -0.05,
-      "war_change_pct": -0.95,
+      "current": 6.737199783325195,
+      "day_change_pct": -0.17,
+      "war_change_pct": -1.08,
       "dates": [
-        "06/29",
         "06/30",
         "07/01",
         "07/02",
@@ -186,10 +243,10 @@
         "08/04",
         "08/05",
         "08/06",
-        "08/07"
+        "08/07",
+        "08/08"
       ],
       "prices": [
-        6.8,
         6.79,
         6.79,
         6.79,
@@ -218,16 +275,16 @@
         6.75,
         6.75,
         6.75,
-        6.75
+        6.75,
+        6.74
       ],
-      "updated": "2026-08-07T03:54:03.816411"
+      "updated": "2026-08-08T02:56:54.467765"
     },
     "nat_gas": {
-      "current": 2.630000114440918,
-      "day_change_pct": -2.16,
-      "war_change_pct": -3.66,
+      "current": 2.6710000038146973,
+      "day_change_pct": 1.17,
+      "war_change_pct": -3.54,
       "dates": [
-        "06/25",
         "06/26",
         "06/29",
         "06/30",
@@ -256,10 +313,10 @@
         "08/03",
         "08/04",
         "08/05",
-        "08/06"
+        "08/06",
+        "08/07"
       ],
       "prices": [
-        3.34,
         3.23,
         3.18,
         3.28,
@@ -288,32 +345,30 @@
         2.78,
         2.68,
         2.69,
-        2.63
+        2.64,
+        2.67
       ],
-      "updated": "2026-08-07T03:54:03.921128"
+      "updated": "2026-08-08T02:56:54.547359"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 17.98,
+      "change_pct": 0.56,
+      "high": 18.5,
+      "low": 17.9,
+      "volume": 792838
     },
     "600026": {
       "name": "中远海能",
-      "price": 17.71,
-      "change_pct": 1.43,
-      "high": 17.88,
-      "low": 17.56,
-      "volume": 299535
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601975": {
       "name": "招商南油",
-      "price": 3.74,
-      "change_pct": 0.27,
-      "high": 3.79,
-      "low": 3.72,
-      "volume": 941555
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600938": {
       "name": "中国海油",
@@ -323,7 +378,7 @@
     "601857": {
       "name": "中国石油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600028": {
       "name": "中国石化",
@@ -425,23 +480,21 @@
   },
   "news": [
     {
-      "source": "BBC中文",
-      "title": "「中東油輪受威脅程度已達伊朗戰爭爆發以來最高水平」",
-      "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/trad?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 04 Aug 2026 11:43:49 GMT",
-      "summary": "多艘船隻在紅海遭到襲擊——自伊朗封鎖霍爾木茲海峽後，一些油輪一直使用這條替代水道。",
+      "source": "德国之声",
+      "title": "俄油轮阿曼搁浅 生态灾难一触即发",
+      "link": "https://www.dw.com/zh/俄油轮阿曼搁浅-生态灾难一触即发/a-78282518?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 7 Aug 2026 13:43:00 GMT",
+      "summary": "一艘载有11万吨原油的俄罗斯“影子舰队”油轮日前在阿曼附近敏感海域搁浅并持续泄漏。当地及环保组织已紧急呼吁转移货物，以防船体破裂引发数十年来最严重的海洋生态悲剧。",
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "伊朗",
-        "海峽",
-        "油輪",
-        "霍爾木茲",
-        "紅海"
+        "油轮",
+        "阿曼",
+        "原油"
       ],
       "action_hits": [
-        "封鎖",
-        "油輪"
+        "油轮",
+        "原油"
       ]
     },
     {
@@ -454,13 +507,30 @@
       "relevance_score": 80,
       "entity_hits": [
         "伊朗",
+        "海峡",
         "霍尔木兹",
-        "阿曼",
-        "海峡"
+        "阿曼"
       ],
       "action_hits": [
-        "谈判",
-        "航运"
+        "航运",
+        "谈判"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "美军就要“弹尽炮绝”？",
+      "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 7 Aug 2026 09:46:00 GMT",
+      "summary": "路透社独家援引美军武库知情人士报道说，美国在新近的中东伊朗冲突中，已消耗大部分高精度远程导弹库存。该消息引发了外界对美军应对未来冲突准备状态的担忧。特朗普对此类表述表达“很生气”，并威胁“严惩传播这些言论的叛徒”。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "中东",
+        "伊朗",
+        "美军"
+      ],
+      "action_hits": [
+        "导弹"
       ]
     },
     {
@@ -473,14 +543,14 @@
       "relevance_score": 100,
       "entity_hits": [
         "yemen",
-        "saudi",
-        "houthi"
+        "houthi",
+        "saudi"
       ],
       "action_hits": [
-        "attack",
-        "drone",
         "missile",
-        "launch"
+        "attack",
+        "launch",
+        "drone"
       ]
     },
     {
@@ -496,9 +566,9 @@
         "iran"
       ],
       "action_hits": [
-        "attack",
+        "tanker",
         "shipping",
-        "tanker"
+        "attack"
       ]
     },
     {
@@ -514,8 +584,8 @@
         "israel"
       ],
       "action_hits": [
-        "killed",
-        "strike"
+        "strike",
+        "killed"
       ]
     },
     {
@@ -531,8 +601,8 @@
         "iran"
       ],
       "action_hits": [
-        "attack",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -548,8 +618,8 @@
         "israel"
       ],
       "action_hits": [
-        "killed",
-        "strike"
+        "strike",
+        "killed"
       ]
     },
     {
@@ -565,8 +635,8 @@
         "iran"
       ],
       "action_hits": [
-        "escalat",
-        "de-escalat"
+        "de-escalat",
+        "escalat"
       ]
     }
   ],
@@ -586,17 +656,17 @@
       "lang": "en"
     },
     {
-      "event_id": "4ad7ba1c28b3",
-      "title": "「中東油輪受威脅程度已達伊朗戰爭爆發以來最高水平」",
-      "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-08-04T11:43:49+00:00",
-      "last_updated_time": "2026-08-04T11:43:49+00:00",
+      "event_id": "52e3cded0b86",
+      "title": "俄油轮阿曼搁浅 生态灾难一触即发",
+      "location": "中东地区",
+      "first_seen_time": "2026-08-07T13:43:00+00:00",
+      "last_updated_time": "2026-08-07T13:43:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 80,
       "source_count": 1,
-      "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/trad?at_medium=RSS&at_campaign=rss",
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/俄油轮阿曼搁浅-生态灾难一触即发/a-78282518?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -614,18 +684,18 @@
       "lang": "zh"
     },
     {
-      "event_id": "c8aad6b63349",
-      "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
+      "event_id": "421fc0653d00",
+      "title": "美军就要“弹尽炮绝”？",
       "location": "伊朗",
-      "first_seen_time": "2026-08-03T15:57:27+00:00",
-      "last_updated_time": "2026-08-03T15:57:27+00:00",
+      "first_seen_time": "2026-08-07T09:46:00+00:00",
+      "last_updated_time": "2026-08-07T09:46:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 73,
-      "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
+      "source_count": 3,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
     },
     {
       "event_id": "d28776025a6f",
@@ -659,7 +729,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/9",
         "7/10",
         "7/11",
         "7/12",
@@ -688,7 +757,8 @@
         "8/4",
         "8/5",
         "8/6",
-        "8/7"
+        "8/7",
+        "8/8"
       ],
       "transits": [
         0,
@@ -778,34 +848,27 @@
         21,
         69
       ],
-      "date_label": "8月7日"
+      "date_label": "8月8日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-07",
+      "hormuz_last_date": "2026-08-08",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 147,
+      "vlcc_stale_days": 148,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-07"
+      "routes_date": "2026-08-08"
     }
   },
   "meta": {
-    "report_date": "2026.08.07",
-    "report_date_cn": "2026年08月07日",
-    "war_day": 161,
+    "report_date": "2026.08.08",
+    "report_date_cn": "2026年08月08日",
+    "war_day": 162,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-07T11:55:46.054646+08:00",
-    "generated_at_cn": "2026-08-07 11:55:46 北京时间"
+    "generated_at": "2026-08-08T10:57:29.958090+08:00",
+    "generated_at_cn": "2026-08-08 10:57:29 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-10",
-      "brent": 101.29000091552734,
-      "wti": 95.41999816894531,
-      "gold": 4730.7001953125,
-      "usd_cny": 6.800000190734863
-    },
     {
       "date": "2026-05-11",
       "brent": 105.72000122070312,
@@ -1428,6 +1491,13 @@
       "wti": 78.0199966430664,
       "gold": 4319.89990234375,
       "usd_cny": 6.746300220489502
+    },
+    {
+      "date": "2026-08-08",
+      "brent": 82.2699966430664,
+      "wti": 77.08000183105469,
+      "gold": 4401.2998046875,
+      "usd_cny": 6.737199783325195
     }
   ]
 }

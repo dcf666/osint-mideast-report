@@ -14,17 +14,17 @@
     "lang": "en"
   },
   {
-    "event_id": "4ad7ba1c28b3",
-    "title": "「中東油輪受威脅程度已達伊朗戰爭爆發以來最高水平」",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-08-04T11:43:49+00:00",
-    "last_updated_time": "2026-08-04T11:43:49+00:00",
+    "event_id": "52e3cded0b86",
+    "title": "俄油轮阿曼搁浅 生态灾难一触即发",
+    "location": "中东地区",
+    "first_seen_time": "2026-08-07T13:43:00+00:00",
+    "last_updated_time": "2026-08-07T13:43:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
     "source_count": 1,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/trad?at_medium=RSS&at_campaign=rss",
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/俄油轮阿曼搁浅-生态灾难一触即发/a-78282518?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -42,18 +42,18 @@
     "lang": "zh"
   },
   {
-    "event_id": "c8aad6b63349",
-    "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
+    "event_id": "421fc0653d00",
+    "title": "美军就要“弹尽炮绝”？",
     "location": "伊朗",
-    "first_seen_time": "2026-08-03T15:57:27+00:00",
-    "last_updated_time": "2026-08-03T15:57:27+00:00",
+    "first_seen_time": "2026-08-07T09:46:00+00:00",
+    "last_updated_time": "2026-08-07T09:46:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 73,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source_count": 3,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
   },
   {
     "event_id": "d28776025a6f",
