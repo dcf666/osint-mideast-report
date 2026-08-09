@@ -1,23 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "俄油轮阿曼搁浅 生态灾难一触即发",
-    "link": "https://www.dw.com/zh/俄油轮阿曼搁浅-生态灾难一触即发/a-78282518?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 7 Aug 2026 13:43:00 GMT",
-    "summary": "一艘载有11万吨原油的俄罗斯“影子舰队”油轮日前在阿曼附近敏感海域搁浅并持续泄漏。当地及环保组织已紧急呼吁转移货物，以防船体破裂引发数十年来最严重的海洋生态悲剧。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "油轮",
-      "阿曼",
-      "原油"
-    ],
-    "action_hits": [
-      "油轮",
-      "原油"
-    ]
-  },
-  {
     "source": "FT中文网",
     "title": "美财长：霍尔木兹海峡即将重新开放",
     "link": "https://www.ftchinese.com/story/001110525",
@@ -27,20 +9,39 @@
     "relevance_score": 80,
     "entity_hits": [
       "伊朗",
+      "阿曼",
       "海峡",
-      "霍尔木兹",
-      "阿曼"
+      "霍尔木兹"
     ],
     "action_hits": [
-      "航运",
-      "谈判"
+      "谈判",
+      "航运"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "封锁霍尔木兹海峡：伊朗博弈特朗普的风险",
+    "link": "https://www.dw.com/zh/封锁霍尔木兹海峡：伊朗博弈特朗普的风险/a-78288365?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 8 Aug 2026 10:45:00 GMT",
+    "summary": "伊朗领导层坚信，通过在霍尔木兹海峡施加军事压力，最终能迫使美国接受其对全球能源要道的控制权。德黑兰当局认为时间站在自己这一边，但从国内经济衰退到潜在的社会动荡，再到美军的反制威胁，这场逼迫特朗普让步的高风险博弈究竟藏着怎样的隐患？",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "伊朗",
+      "美军",
+      "霍尔木兹",
+      "德黑兰",
+      "海峡"
+    ],
+    "action_hits": [
+      "封锁"
     ]
   },
   {
     "source": "德国之声",
     "title": "美军就要“弹尽炮绝”？",
     "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 7 Aug 2026 09:46:00 GMT",
+    "published": "Sat, 8 Aug 2026 08:42:00 GMT",
     "summary": "路透社独家援引美军武库知情人士报道说，美国在新近的中东伊朗冲突中，已消耗大部分高精度远程导弹库存。该消息引发了外界对美军应对未来冲突准备状态的担忧。特朗普对此类表述表达“很生气”，并威胁“严惩传播这些言论的叛徒”。",
     "lang": "zh",
     "relevance_score": 70,
@@ -63,14 +64,14 @@
     "relevance_score": 100,
     "entity_hits": [
       "yemen",
-      "houthi",
-      "saudi"
+      "saudi",
+      "houthi"
     ],
     "action_hits": [
-      "missile",
-      "attack",
       "launch",
-      "drone"
+      "drone",
+      "missile",
+      "attack"
     ]
   },
   {
@@ -82,12 +83,12 @@
     "lang": "en",
     "relevance_score": 73,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "iran",
+      "middle east"
     ],
     "action_hits": [
-      "tanker",
       "shipping",
+      "tanker",
       "attack"
     ]
   },
@@ -100,12 +101,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -117,8 +118,8 @@
     "lang": "en",
     "relevance_score": 63,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "iran",
+      "middle east"
     ],
     "action_hits": [
       "strike",
@@ -134,12 +135,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {

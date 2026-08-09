@@ -14,20 +14,6 @@
     "lang": "en"
   },
   {
-    "event_id": "52e3cded0b86",
-    "title": "俄油轮阿曼搁浅 生态灾难一触即发",
-    "location": "中东地区",
-    "first_seen_time": "2026-08-07T13:43:00+00:00",
-    "last_updated_time": "2026-08-07T13:43:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/俄油轮阿曼搁浅-生态灾难一触即发/a-78282518?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "520a9a0c9c59",
     "title": "美财长：霍尔木兹海峡即将重新开放",
     "location": "霍尔木兹海峡",
@@ -45,14 +31,28 @@
     "event_id": "421fc0653d00",
     "title": "美军就要“弹尽炮绝”？",
     "location": "伊朗",
-    "first_seen_time": "2026-08-07T09:46:00+00:00",
-    "last_updated_time": "2026-08-07T09:46:00+00:00",
+    "first_seen_time": "2026-08-08T08:42:00+00:00",
+    "last_updated_time": "2026-08-08T08:42:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 73,
     "source_count": 3,
     "source": "德国之声",
     "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "9292a22e0706",
+    "title": "封锁霍尔木兹海峡：伊朗博弈特朗普的风险",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-08-08T10:45:00+00:00",
+    "last_updated_time": "2026-08-08T10:45:00+00:00",
+    "current_status": "shipping_disrupted",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/封锁霍尔木兹海峡：伊朗博弈特朗普的风险/a-78288365?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {

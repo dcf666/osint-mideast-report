@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 82.2699966430664,
-      "day_change_pct": -0.27,
-      "war_change_pct": -17.78,
+      "current": 83.55000305175781,
+      "day_change_pct": 1.29,
+      "war_change_pct": -17.51,
       "dates": [
         "06/26",
         "06/29",
@@ -66,14 +66,14 @@
         79.36,
         79.45,
         82.49,
-        82.27
+        83.55
       ],
-      "updated": "2026-08-08T02:56:54.189735"
+      "updated": "2026-08-09T03:03:59.272839"
     },
     "wti": {
-      "current": 77.08000183105469,
-      "day_change_pct": -0.27,
-      "war_change_pct": -18.7,
+      "current": 78.18000030517578,
+      "day_change_pct": 1.15,
+      "war_change_pct": -18.07,
       "dates": [
         "06/26",
         "06/29",
@@ -136,14 +136,14 @@
         75.77,
         75.22,
         77.29,
-        77.08
+        78.18
       ],
-      "updated": "2026-08-08T02:56:54.278141"
+      "updated": "2026-08-09T03:03:59.372604"
     },
     "gold": {
-      "current": 4401.2998046875,
-      "day_change_pct": 3.76,
-      "war_change_pct": -6.35,
+      "current": 4340.7001953125,
+      "day_change_pct": 2.33,
+      "war_change_pct": -8.04,
       "dates": [
         "06/26",
         "06/29",
@@ -206,9 +206,9 @@
         4095.4,
         4245.8,
         4242.0,
-        4401.3
+        4340.7
       ],
-      "updated": "2026-08-08T02:56:54.362764"
+      "updated": "2026-08-09T03:03:59.469496"
     },
     "usd_cny": {
       "current": 6.737199783325195,
@@ -244,7 +244,7 @@
         "08/05",
         "08/06",
         "08/07",
-        "08/08"
+        "08/09"
       ],
       "prices": [
         6.79,
@@ -278,12 +278,12 @@
         6.75,
         6.74
       ],
-      "updated": "2026-08-08T02:56:54.467765"
+      "updated": "2026-08-09T03:03:59.573439"
     },
     "nat_gas": {
-      "current": 2.6710000038146973,
-      "day_change_pct": 1.17,
-      "war_change_pct": -3.54,
+      "current": 2.6619999408721924,
+      "day_change_pct": 0.83,
+      "war_change_pct": -3.45,
       "dates": [
         "06/26",
         "06/29",
@@ -346,19 +346,16 @@
         2.68,
         2.69,
         2.64,
-        2.67
+        2.66
       ],
-      "updated": "2026-08-08T02:56:54.547359"
+      "updated": "2026-08-09T03:03:59.669615"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.98,
-      "change_pct": 0.56,
-      "high": 18.5,
-      "low": 17.9,
-      "volume": 792838
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600026": {
       "name": "中远海能",
@@ -480,24 +477,6 @@
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "俄油轮阿曼搁浅 生态灾难一触即发",
-      "link": "https://www.dw.com/zh/俄油轮阿曼搁浅-生态灾难一触即发/a-78282518?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 7 Aug 2026 13:43:00 GMT",
-      "summary": "一艘载有11万吨原油的俄罗斯“影子舰队”油轮日前在阿曼附近敏感海域搁浅并持续泄漏。当地及环保组织已紧急呼吁转移货物，以防船体破裂引发数十年来最严重的海洋生态悲剧。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "油轮",
-        "阿曼",
-        "原油"
-      ],
-      "action_hits": [
-        "油轮",
-        "原油"
-      ]
-    },
-    {
       "source": "FT中文网",
       "title": "美财长：霍尔木兹海峡即将重新开放",
       "link": "https://www.ftchinese.com/story/001110525",
@@ -507,20 +486,39 @@
       "relevance_score": 80,
       "entity_hits": [
         "伊朗",
+        "阿曼",
         "海峡",
-        "霍尔木兹",
-        "阿曼"
+        "霍尔木兹"
       ],
       "action_hits": [
-        "航运",
-        "谈判"
+        "谈判",
+        "航运"
+      ]
+    },
+    {
+      "source": "德国之声",
+      "title": "封锁霍尔木兹海峡：伊朗博弈特朗普的风险",
+      "link": "https://www.dw.com/zh/封锁霍尔木兹海峡：伊朗博弈特朗普的风险/a-78288365?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 8 Aug 2026 10:45:00 GMT",
+      "summary": "伊朗领导层坚信，通过在霍尔木兹海峡施加军事压力，最终能迫使美国接受其对全球能源要道的控制权。德黑兰当局认为时间站在自己这一边，但从国内经济衰退到潜在的社会动荡，再到美军的反制威胁，这场逼迫特朗普让步的高风险博弈究竟藏着怎样的隐患？",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "伊朗",
+        "美军",
+        "霍尔木兹",
+        "德黑兰",
+        "海峡"
+      ],
+      "action_hits": [
+        "封锁"
       ]
     },
     {
       "source": "德国之声",
       "title": "美军就要“弹尽炮绝”？",
       "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Fri, 7 Aug 2026 09:46:00 GMT",
+      "published": "Sat, 8 Aug 2026 08:42:00 GMT",
       "summary": "路透社独家援引美军武库知情人士报道说，美国在新近的中东伊朗冲突中，已消耗大部分高精度远程导弹库存。该消息引发了外界对美军应对未来冲突准备状态的担忧。特朗普对此类表述表达“很生气”，并威胁“严惩传播这些言论的叛徒”。",
       "lang": "zh",
       "relevance_score": 70,
@@ -543,14 +541,14 @@
       "relevance_score": 100,
       "entity_hits": [
         "yemen",
-        "houthi",
-        "saudi"
+        "saudi",
+        "houthi"
       ],
       "action_hits": [
-        "missile",
-        "attack",
         "launch",
-        "drone"
+        "drone",
+        "missile",
+        "attack"
       ]
     },
     {
@@ -562,12 +560,12 @@
       "lang": "en",
       "relevance_score": 73,
       "entity_hits": [
-        "middle east",
-        "iran"
+        "iran",
+        "middle east"
       ],
       "action_hits": [
-        "tanker",
         "shipping",
+        "tanker",
         "attack"
       ]
     },
@@ -580,12 +578,12 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "hamas",
-        "israel"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
-        "strike",
-        "killed"
+        "killed",
+        "strike"
       ]
     },
     {
@@ -597,8 +595,8 @@
       "lang": "en",
       "relevance_score": 63,
       "entity_hits": [
-        "middle east",
-        "iran"
+        "iran",
+        "middle east"
       ],
       "action_hits": [
         "strike",
@@ -614,12 +612,12 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "lebanon",
-        "israel"
+        "israel",
+        "lebanon"
       ],
       "action_hits": [
-        "strike",
-        "killed"
+        "killed",
+        "strike"
       ]
     },
     {
@@ -656,20 +654,6 @@
       "lang": "en"
     },
     {
-      "event_id": "52e3cded0b86",
-      "title": "俄油轮阿曼搁浅 生态灾难一触即发",
-      "location": "中东地区",
-      "first_seen_time": "2026-08-07T13:43:00+00:00",
-      "last_updated_time": "2026-08-07T13:43:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 80,
-      "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/俄油轮阿曼搁浅-生态灾难一触即发/a-78282518?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
       "event_id": "520a9a0c9c59",
       "title": "美财长：霍尔木兹海峡即将重新开放",
       "location": "霍尔木兹海峡",
@@ -687,14 +671,28 @@
       "event_id": "421fc0653d00",
       "title": "美军就要“弹尽炮绝”？",
       "location": "伊朗",
-      "first_seen_time": "2026-08-07T09:46:00+00:00",
-      "last_updated_time": "2026-08-07T09:46:00+00:00",
+      "first_seen_time": "2026-08-08T08:42:00+00:00",
+      "last_updated_time": "2026-08-08T08:42:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 73,
       "source_count": 3,
       "source": "德国之声",
       "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "9292a22e0706",
+      "title": "封锁霍尔木兹海峡：伊朗博弈特朗普的风险",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-08-08T10:45:00+00:00",
+      "last_updated_time": "2026-08-08T10:45:00+00:00",
+      "current_status": "shipping_disrupted",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/封锁霍尔木兹海峡：伊朗博弈特朗普的风险/a-78288365?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -729,7 +727,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/10",
         "7/11",
         "7/12",
         "7/13",
@@ -758,7 +755,8 @@
         "8/5",
         "8/6",
         "8/7",
-        "8/8"
+        "8/8",
+        "8/9"
       ],
       "transits": [
         0,
@@ -848,34 +846,27 @@
         21,
         69
       ],
-      "date_label": "8月8日"
+      "date_label": "8月9日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-08",
+      "hormuz_last_date": "2026-08-09",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 148,
+      "vlcc_stale_days": 149,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-08"
+      "routes_date": "2026-08-09"
     }
   },
   "meta": {
-    "report_date": "2026.08.08",
-    "report_date_cn": "2026年08月08日",
-    "war_day": 162,
+    "report_date": "2026.08.09",
+    "report_date_cn": "2026年08月09日",
+    "war_day": 163,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-08T10:57:29.958090+08:00",
-    "generated_at_cn": "2026-08-08 10:57:29 北京时间"
+    "generated_at": "2026-08-09T11:04:28.866551+08:00",
+    "generated_at_cn": "2026-08-09 11:04:28 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-11",
-      "brent": 105.72000122070312,
-      "wti": 100.0999984741211,
-      "gold": 4682.39990234375,
-      "usd_cny": 6.795300006866455
-    },
     {
       "date": "2026-05-12",
       "brent": 104.91000366210938,
@@ -1497,6 +1488,13 @@
       "brent": 82.2699966430664,
       "wti": 77.08000183105469,
       "gold": 4401.2998046875,
+      "usd_cny": 6.737199783325195
+    },
+    {
+      "date": "2026-08-09",
+      "brent": 83.55000305175781,
+      "wti": 78.18000030517578,
+      "gold": 4340.7001953125,
       "usd_cny": 6.737199783325195
     }
   ]
