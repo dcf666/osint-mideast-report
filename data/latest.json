@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 83.55000305175781,
-      "day_change_pct": 1.29,
-      "war_change_pct": -17.51,
+      "current": 84.29000091552734,
+      "day_change_pct": 0.89,
+      "war_change_pct": -19.12,
       "dates": [
-        "06/26",
         "06/29",
         "06/30",
         "07/01",
@@ -34,10 +33,10 @@
         "08/04",
         "08/05",
         "08/06",
-        "08/07"
+        "08/07",
+        "08/09"
       ],
       "prices": [
-        71.99,
         73.15,
         72.92,
         71.57,
@@ -66,16 +65,16 @@
         79.36,
         79.45,
         82.49,
-        83.55
+        83.55,
+        84.29
       ],
-      "updated": "2026-08-09T03:03:59.272839"
+      "updated": "2026-08-10T03:14:15.791746"
     },
     "wti": {
-      "current": 78.18000030517578,
-      "day_change_pct": 1.15,
-      "war_change_pct": -18.07,
+      "current": 78.66000366210938,
+      "day_change_pct": 0.61,
+      "war_change_pct": -19.79,
       "dates": [
-        "06/26",
         "06/29",
         "06/30",
         "07/01",
@@ -104,10 +103,10 @@
         "08/04",
         "08/05",
         "08/06",
-        "08/07"
+        "08/07",
+        "08/09"
       ],
       "prices": [
-        69.23,
         70.75,
         69.5,
         68.58,
@@ -136,16 +135,16 @@
         75.77,
         75.22,
         77.29,
-        78.18
+        78.18,
+        78.66
       ],
-      "updated": "2026-08-09T03:03:59.372604"
+      "updated": "2026-08-10T03:14:15.950041"
     },
     "gold": {
-      "current": 4340.7001953125,
-      "day_change_pct": 2.33,
-      "war_change_pct": -8.04,
+      "current": 4378.5,
+      "day_change_pct": 0.87,
+      "war_change_pct": -7.21,
       "dates": [
-        "06/26",
         "06/29",
         "06/30",
         "07/01",
@@ -174,10 +173,10 @@
         "08/04",
         "08/05",
         "08/06",
-        "08/07"
+        "08/07",
+        "08/09"
       ],
       "prices": [
-        4078.7,
         4022.3,
         4022.9,
         4068.3,
@@ -206,14 +205,15 @@
         4095.4,
         4245.8,
         4242.0,
-        4340.7
+        4340.7,
+        4378.5
       ],
-      "updated": "2026-08-09T03:03:59.469496"
+      "updated": "2026-08-10T03:14:16.024747"
     },
     "usd_cny": {
-      "current": 6.737199783325195,
-      "day_change_pct": -0.17,
-      "war_change_pct": -1.08,
+      "current": 6.746099948883057,
+      "day_change_pct": -0.04,
+      "war_change_pct": -0.8,
       "dates": [
         "06/30",
         "07/01",
@@ -244,7 +244,7 @@
         "08/05",
         "08/06",
         "08/07",
-        "08/09"
+        "08/10"
       ],
       "prices": [
         6.79,
@@ -276,16 +276,15 @@
         6.75,
         6.75,
         6.75,
-        6.74
+        6.75
       ],
-      "updated": "2026-08-09T03:03:59.573439"
+      "updated": "2026-08-10T03:14:16.111152"
     },
     "nat_gas": {
-      "current": 2.6619999408721924,
-      "day_change_pct": 0.83,
-      "war_change_pct": -3.45,
+      "current": 2.7309999465942383,
+      "day_change_pct": 2.59,
+      "war_change_pct": -6.15,
       "dates": [
-        "06/26",
         "06/29",
         "06/30",
         "07/01",
@@ -314,10 +313,10 @@
         "08/04",
         "08/05",
         "08/06",
-        "08/07"
+        "08/07",
+        "08/09"
       ],
       "prices": [
-        3.23,
         3.18,
         3.28,
         3.22,
@@ -346,9 +345,10 @@
         2.68,
         2.69,
         2.64,
-        2.66
+        2.66,
+        2.73
       ],
-      "updated": "2026-08-09T03:03:59.669615"
+      "updated": "2026-08-10T03:14:16.203980"
     }
   },
   "stocks": {
@@ -379,33 +379,51 @@
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.16,
+      "change_pct": 1.18,
+      "high": 5.17,
+      "low": 5.08,
+      "volume": 1141717
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 22.66,
+      "change_pct": 0.71,
+      "high": 23.06,
+      "low": 22.49,
+      "volume": 194078
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 2.32,
+      "change_pct": -0.43,
+      "high": 2.34,
+      "low": 2.31,
+      "volume": 554608
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 12.1,
+      "change_pct": 0.17,
+      "high": 12.26,
+      "low": 12.01,
+      "volume": 98360
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 142.79,
+      "change_pct": -1.61,
+      "high": 153.63,
+      "low": 141.0,
+      "volume": 82545
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.59,
+      "change_pct": 1.68,
+      "high": 17.64,
+      "low": 17.2,
+      "volume": 31482
     },
     "600256": {
       "name": "广汇能源",
@@ -486,13 +504,31 @@
       "relevance_score": 80,
       "entity_hits": [
         "伊朗",
-        "阿曼",
         "海峡",
-        "霍尔木兹"
+        "霍尔木兹",
+        "阿曼"
       ],
       "action_hits": [
         "谈判",
         "航运"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "霍爾木茲海峽：阿曼稱會談進展順利，伊朗則警告協議不會打通海峽",
+      "link": "https://www.bbc.com/zhongwen/articles/cy74j0rz54go/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 09 Aug 2026 04:27:09 GMT",
+      "summary": "雙方均表示，在就開闢一條穿越海峽的新航線進行談判方面取得了進展，但能否取得突破仍不明朗。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "霍爾木茲",
+        "伊朗",
+        "海峽",
+        "阿曼"
+      ],
+      "action_hits": [
+        "談判"
       ]
     },
     {
@@ -506,9 +542,9 @@
       "entity_hits": [
         "伊朗",
         "美军",
+        "海峡",
         "霍尔木兹",
-        "德黑兰",
-        "海峡"
+        "德黑兰"
       ],
       "action_hits": [
         "封锁"
@@ -523,8 +559,8 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "中东",
         "伊朗",
+        "中东",
         "美军"
       ],
       "action_hits": [
@@ -540,15 +576,15 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "yemen",
+        "houthi",
         "saudi",
-        "houthi"
+        "yemen"
       ],
       "action_hits": [
+        "attack",
         "launch",
         "drone",
-        "missile",
-        "attack"
+        "missile"
       ]
     },
     {
@@ -565,8 +601,8 @@
       ],
       "action_hits": [
         "shipping",
-        "tanker",
-        "attack"
+        "attack",
+        "tanker"
       ]
     },
     {
@@ -599,8 +635,8 @@
         "middle east"
       ],
       "action_hits": [
-        "strike",
-        "attack"
+        "attack",
+        "strike"
       ]
     },
     {
@@ -612,8 +648,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "israel",
-        "lebanon"
+        "lebanon",
+        "israel"
       ],
       "action_hits": [
         "killed",
@@ -629,8 +665,8 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "saudi",
-        "iran"
+        "iran",
+        "saudi"
       ],
       "action_hits": [
         "de-escalat",
@@ -682,6 +718,20 @@
       "lang": "zh"
     },
     {
+      "event_id": "d34de8ce49e3",
+      "title": "霍爾木茲海峽：阿曼稱會談進展順利，伊朗則警告協議不會打通海峽",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-08-09T04:27:09+00:00",
+      "last_updated_time": "2026-08-09T04:27:09+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/cy74j0rz54go/trad?at_medium=RSS&at_campaign=rss",
+      "lang": "zh"
+    },
+    {
       "event_id": "9292a22e0706",
       "title": "封锁霍尔木兹海峡：伊朗博弈特朗普的风险",
       "location": "伊朗·德黑兰",
@@ -727,7 +777,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/11",
         "7/12",
         "7/13",
         "7/14",
@@ -756,7 +805,8 @@
         "8/6",
         "8/7",
         "8/8",
-        "8/9"
+        "8/9",
+        "8/10"
       ],
       "transits": [
         0,
@@ -846,34 +896,27 @@
         21,
         69
       ],
-      "date_label": "8月9日"
+      "date_label": "8月10日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-09",
+      "hormuz_last_date": "2026-08-10",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 149,
+      "vlcc_stale_days": 150,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-09"
+      "routes_date": "2026-08-10"
     }
   },
   "meta": {
-    "report_date": "2026.08.09",
-    "report_date_cn": "2026年08月09日",
-    "war_day": 163,
+    "report_date": "2026.08.10",
+    "report_date_cn": "2026年08月10日",
+    "war_day": 164,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-09T11:04:28.866551+08:00",
-    "generated_at_cn": "2026-08-09 11:04:28 北京时间"
+    "generated_at": "2026-08-10T11:14:55.179519+08:00",
+    "generated_at_cn": "2026-08-10 11:14:55 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-12",
-      "brent": 104.91000366210938,
-      "wti": 98.9800033569336,
-      "gold": 4731.39990234375,
-      "usd_cny": 6.792699813842773
-    },
     {
       "date": "2026-05-13",
       "brent": 106.41000366210938,
@@ -1496,6 +1539,13 @@
       "wti": 78.18000030517578,
       "gold": 4340.7001953125,
       "usd_cny": 6.737199783325195
+    },
+    {
+      "date": "2026-08-10",
+      "brent": 84.29000091552734,
+      "wti": 78.66000366210938,
+      "gold": 4378.5,
+      "usd_cny": 6.746099948883057
     }
   ]
 }

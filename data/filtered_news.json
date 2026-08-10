@@ -9,13 +9,31 @@
     "relevance_score": 80,
     "entity_hits": [
       "伊朗",
-      "阿曼",
       "海峡",
-      "霍尔木兹"
+      "霍尔木兹",
+      "阿曼"
     ],
     "action_hits": [
       "谈判",
       "航运"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "霍爾木茲海峽：阿曼稱會談進展順利，伊朗則警告協議不會打通海峽",
+    "link": "https://www.bbc.com/zhongwen/articles/cy74j0rz54go/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 09 Aug 2026 04:27:09 GMT",
+    "summary": "雙方均表示，在就開闢一條穿越海峽的新航線進行談判方面取得了進展，但能否取得突破仍不明朗。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "霍爾木茲",
+      "伊朗",
+      "海峽",
+      "阿曼"
+    ],
+    "action_hits": [
+      "談判"
     ]
   },
   {
@@ -29,9 +47,9 @@
     "entity_hits": [
       "伊朗",
       "美军",
+      "海峡",
       "霍尔木兹",
-      "德黑兰",
-      "海峡"
+      "德黑兰"
     ],
     "action_hits": [
       "封锁"
@@ -46,8 +64,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "中东",
       "伊朗",
+      "中东",
       "美军"
     ],
     "action_hits": [
@@ -63,15 +81,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "yemen",
+      "houthi",
       "saudi",
-      "houthi"
+      "yemen"
     ],
     "action_hits": [
+      "attack",
       "launch",
       "drone",
-      "missile",
-      "attack"
+      "missile"
     ]
   },
   {
@@ -88,8 +106,8 @@
     ],
     "action_hits": [
       "shipping",
-      "tanker",
-      "attack"
+      "attack",
+      "tanker"
     ]
   },
   {
@@ -122,8 +140,8 @@
       "middle east"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -135,8 +153,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
       "killed",
@@ -152,8 +170,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "saudi",
-      "iran"
+      "iran",
+      "saudi"
     ],
     "action_hits": [
       "de-escalat",

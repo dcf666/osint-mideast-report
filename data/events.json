@@ -42,6 +42,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "d34de8ce49e3",
+    "title": "霍爾木茲海峽：阿曼稱會談進展順利，伊朗則警告協議不會打通海峽",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-08-09T04:27:09+00:00",
+    "last_updated_time": "2026-08-09T04:27:09+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/cy74j0rz54go/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
+  },
+  {
     "event_id": "9292a22e0706",
     "title": "封锁霍尔木兹海峡：伊朗博弈特朗普的风险",
     "location": "伊朗·德黑兰",
