@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 84.29000091552734,
-      "day_change_pct": 0.89,
-      "war_change_pct": -19.12,
+      "current": 87.97000122070312,
+      "day_change_pct": 5.29,
+      "war_change_pct": -15.58,
       "dates": [
         "06/29",
         "06/30",
@@ -34,7 +34,7 @@
         "08/05",
         "08/06",
         "08/07",
-        "08/09"
+        "08/10"
       ],
       "prices": [
         73.15,
@@ -66,14 +66,14 @@
         79.45,
         82.49,
         83.55,
-        84.29
+        87.97
       ],
-      "updated": "2026-08-10T03:14:15.791746"
+      "updated": "2026-08-11T03:06:18.143701"
     },
     "wti": {
-      "current": 78.66000366210938,
-      "day_change_pct": 0.61,
-      "war_change_pct": -19.79,
+      "current": 82.41000366210938,
+      "day_change_pct": 5.41,
+      "war_change_pct": -15.97,
       "dates": [
         "06/29",
         "06/30",
@@ -104,7 +104,7 @@
         "08/05",
         "08/06",
         "08/07",
-        "08/09"
+        "08/10"
       ],
       "prices": [
         70.75,
@@ -136,14 +136,14 @@
         75.22,
         77.29,
         78.18,
-        78.66
+        82.41
       ],
-      "updated": "2026-08-10T03:14:15.950041"
+      "updated": "2026-08-11T03:06:18.227605"
     },
     "gold": {
-      "current": 4378.5,
-      "day_change_pct": 0.87,
-      "war_change_pct": -7.21,
+      "current": 4471.89990234375,
+      "day_change_pct": 3.02,
+      "war_change_pct": -5.23,
       "dates": [
         "06/29",
         "06/30",
@@ -174,7 +174,7 @@
         "08/05",
         "08/06",
         "08/07",
-        "08/09"
+        "08/10"
       ],
       "prices": [
         4022.3,
@@ -206,16 +206,15 @@
         4245.8,
         4242.0,
         4340.7,
-        4378.5
+        4471.9
       ],
-      "updated": "2026-08-10T03:14:16.024747"
+      "updated": "2026-08-11T03:06:18.348811"
     },
     "usd_cny": {
-      "current": 6.746099948883057,
-      "day_change_pct": -0.04,
-      "war_change_pct": -0.8,
+      "current": 6.743599891662598,
+      "day_change_pct": -0.06,
+      "war_change_pct": -0.84,
       "dates": [
-        "06/30",
         "07/01",
         "07/02",
         "07/03",
@@ -244,10 +243,10 @@
         "08/05",
         "08/06",
         "08/07",
-        "08/10"
+        "08/10",
+        "08/11"
       ],
       "prices": [
-        6.79,
         6.79,
         6.79,
         6.79,
@@ -276,14 +275,15 @@
         6.75,
         6.75,
         6.75,
-        6.75
+        6.75,
+        6.74
       ],
-      "updated": "2026-08-10T03:14:16.111152"
+      "updated": "2026-08-11T03:06:18.444618"
     },
     "nat_gas": {
-      "current": 2.7309999465942383,
-      "day_change_pct": 2.59,
-      "war_change_pct": -6.15,
+      "current": 2.7720000743865967,
+      "day_change_pct": 4.13,
+      "war_change_pct": -4.74,
       "dates": [
         "06/29",
         "06/30",
@@ -314,7 +314,7 @@
         "08/05",
         "08/06",
         "08/07",
-        "08/09"
+        "08/10"
       ],
       "prices": [
         3.18,
@@ -346,84 +346,93 @@
         2.69,
         2.64,
         2.66,
-        2.73
+        2.77
       ],
-      "updated": "2026-08-10T03:14:16.203980"
+      "updated": "2026-08-11T03:06:18.537106"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.55,
+      "change_pct": -3.47,
+      "high": 18.28,
+      "low": 17.53,
+      "volume": 536575
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.16,
+      "change_pct": -2.83,
+      "high": 17.75,
+      "low": 17.12,
+      "volume": 362172
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 3.69,
+      "change_pct": -0.54,
+      "high": 3.8,
+      "low": 3.68,
+      "volume": 1161221
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 33.16,
+      "change_pct": 3.63,
+      "high": 33.65,
+      "low": 32.28,
+      "volume": 441570
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 11.06,
+      "change_pct": 1.94,
+      "high": 11.22,
+      "low": 10.95,
+      "volume": 719998
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.16,
-      "change_pct": 1.18,
-      "high": 5.17,
-      "low": 5.08,
-      "volume": 1141717
+      "price": 5.13,
+      "change_pct": 0.2,
+      "high": 5.21,
+      "low": 5.11,
+      "volume": 1349063
     },
     "603619": {
       "name": "中曼石油",
-      "price": 22.66,
-      "change_pct": 0.71,
-      "high": 23.06,
-      "low": 22.49,
-      "volume": 194078
+      "price": 23.36,
+      "change_pct": 1.65,
+      "high": 24.0,
+      "low": 23.0,
+      "volume": 369271
     },
     "600759": {
       "name": "洲际油气",
-      "price": 2.32,
-      "change_pct": -0.43,
-      "high": 2.34,
-      "low": 2.31,
-      "volume": 554608
+      "price": 2.5,
+      "change_pct": 7.3,
+      "high": 2.55,
+      "low": 2.35,
+      "volume": 1966529
     },
     "601808": {
       "name": "中海油服",
-      "price": 12.1,
-      "change_pct": 0.17,
-      "high": 12.26,
-      "low": 12.01,
-      "volume": 98360
+      "price": 12.2,
+      "change_pct": 0.66,
+      "high": 12.36,
+      "low": 12.12,
+      "volume": 140548
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 142.79,
-      "change_pct": -1.61,
-      "high": 153.63,
-      "low": 141.0,
-      "volume": 82545
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600803": {
       "name": "新奥股份",
-      "price": 17.59,
-      "change_pct": 1.68,
-      "high": 17.64,
-      "low": 17.2,
-      "volume": 31482
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600256": {
       "name": "广汇能源",
@@ -503,14 +512,32 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "伊朗",
         "海峡",
         "霍尔木兹",
-        "阿曼"
+        "阿曼",
+        "伊朗"
       ],
       "action_hits": [
         "谈判",
         "航运"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "想要開放霍爾木茲海峽 伊朗向特朗普提出的六個條件",
+      "link": "https://www.bbc.com/zhongwen/articles/cdrv28lg4y3o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 10 Aug 2026 06:37:01 GMT",
+      "summary": "伊朗和阿曼都表示，關於重新開放霍爾木茲海峽的談判進展「積極」，但現在伊朗已向美國提出了一系列要求。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "霍爾木茲",
+        "海峽",
+        "伊朗",
+        "阿曼"
+      ],
+      "action_hits": [
+        "談判"
       ]
     },
     {
@@ -523,31 +550,12 @@
       "relevance_score": 70,
       "entity_hits": [
         "霍爾木茲",
-        "伊朗",
         "海峽",
+        "伊朗",
         "阿曼"
       ],
       "action_hits": [
         "談判"
-      ]
-    },
-    {
-      "source": "德国之声",
-      "title": "封锁霍尔木兹海峡：伊朗博弈特朗普的风险",
-      "link": "https://www.dw.com/zh/封锁霍尔木兹海峡：伊朗博弈特朗普的风险/a-78288365?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 8 Aug 2026 10:45:00 GMT",
-      "summary": "伊朗领导层坚信，通过在霍尔木兹海峡施加军事压力，最终能迫使美国接受其对全球能源要道的控制权。德黑兰当局认为时间站在自己这一边，但从国内经济衰退到潜在的社会动荡，再到美军的反制威胁，这场逼迫特朗普让步的高风险博弈究竟藏着怎样的隐患？",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "伊朗",
-        "美军",
-        "海峡",
-        "霍尔木兹",
-        "德黑兰"
-      ],
-      "action_hits": [
-        "封锁"
       ]
     },
     {
@@ -559,9 +567,9 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
+        "美军",
         "伊朗",
-        "中东",
-        "美军"
+        "中东"
       ],
       "action_hits": [
         "导弹"
@@ -576,14 +584,14 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "houthi",
+        "yemen",
         "saudi",
-        "yemen"
+        "houthi"
       ],
       "action_hits": [
-        "attack",
         "launch",
         "drone",
+        "attack",
         "missile"
       ]
     },
@@ -600,9 +608,9 @@
         "middle east"
       ],
       "action_hits": [
-        "shipping",
         "attack",
-        "tanker"
+        "tanker",
+        "shipping"
       ]
     },
     {
@@ -614,8 +622,8 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
         "killed",
@@ -665,12 +673,12 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "iran",
-        "saudi"
+        "saudi",
+        "iran"
       ],
       "action_hits": [
-        "de-escalat",
-        "escalat"
+        "escalat",
+        "de-escalat"
       ]
     }
   ],
@@ -718,31 +726,17 @@
       "lang": "zh"
     },
     {
-      "event_id": "d34de8ce49e3",
-      "title": "霍爾木茲海峽：阿曼稱會談進展順利，伊朗則警告協議不會打通海峽",
+      "event_id": "e514634cc222",
+      "title": "想要開放霍爾木茲海峽 伊朗向特朗普提出的六個條件",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-08-09T04:27:09+00:00",
-      "last_updated_time": "2026-08-09T04:27:09+00:00",
+      "first_seen_time": "2026-08-10T06:37:01+00:00",
+      "last_updated_time": "2026-08-10T06:37:01+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 70,
-      "source_count": 1,
+      "source_count": 2,
       "source": "BBC中文",
-      "link": "https://www.bbc.com/zhongwen/articles/cy74j0rz54go/trad?at_medium=RSS&at_campaign=rss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "9292a22e0706",
-      "title": "封锁霍尔木兹海峡：伊朗博弈特朗普的风险",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-08-08T10:45:00+00:00",
-      "last_updated_time": "2026-08-08T10:45:00+00:00",
-      "current_status": "shipping_disrupted",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/封锁霍尔木兹海峡：伊朗博弈特朗普的风险/a-78288365?maca=chi-rss-chi-all-1127-xml-mrss",
+      "link": "https://www.bbc.com/zhongwen/articles/cdrv28lg4y3o/trad?at_medium=RSS&at_campaign=rss",
       "lang": "zh"
     },
     {
@@ -777,7 +771,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/12",
         "7/13",
         "7/14",
         "7/15",
@@ -806,7 +799,8 @@
         "8/7",
         "8/8",
         "8/9",
-        "8/10"
+        "8/10",
+        "8/11"
       ],
       "transits": [
         0,
@@ -896,34 +890,27 @@
         21,
         69
       ],
-      "date_label": "8月10日"
+      "date_label": "8月11日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-10",
+      "hormuz_last_date": "2026-08-11",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 150,
+      "vlcc_stale_days": 151,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-10"
+      "routes_date": "2026-08-11"
     }
   },
   "meta": {
-    "report_date": "2026.08.10",
-    "report_date_cn": "2026年08月10日",
-    "war_day": 164,
+    "report_date": "2026.08.11",
+    "report_date_cn": "2026年08月11日",
+    "war_day": 165,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-10T11:14:55.179519+08:00",
-    "generated_at_cn": "2026-08-10 11:14:55 北京时间"
+    "generated_at": "2026-08-11T11:07:05.160648+08:00",
+    "generated_at_cn": "2026-08-11 11:07:05 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-13",
-      "brent": 106.41000366210938,
-      "wti": 100.87999725341797,
-      "gold": 4707.0,
-      "usd_cny": 6.791200160980225
-    },
     {
       "date": "2026-05-14",
       "brent": 106.01000213623047,
@@ -1546,6 +1533,13 @@
       "wti": 78.66000366210938,
       "gold": 4378.5,
       "usd_cny": 6.746099948883057
+    },
+    {
+      "date": "2026-08-11",
+      "brent": 87.97000122070312,
+      "wti": 82.41000366210938,
+      "gold": 4471.89990234375,
+      "usd_cny": 6.743599891662598
     }
   ]
 }

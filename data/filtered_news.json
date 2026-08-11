@@ -8,14 +8,32 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
       "海峡",
       "霍尔木兹",
-      "阿曼"
+      "阿曼",
+      "伊朗"
     ],
     "action_hits": [
       "谈判",
       "航运"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "想要開放霍爾木茲海峽 伊朗向特朗普提出的六個條件",
+    "link": "https://www.bbc.com/zhongwen/articles/cdrv28lg4y3o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 10 Aug 2026 06:37:01 GMT",
+    "summary": "伊朗和阿曼都表示，關於重新開放霍爾木茲海峽的談判進展「積極」，但現在伊朗已向美國提出了一系列要求。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "霍爾木茲",
+      "海峽",
+      "伊朗",
+      "阿曼"
+    ],
+    "action_hits": [
+      "談判"
     ]
   },
   {
@@ -28,31 +46,12 @@
     "relevance_score": 70,
     "entity_hits": [
       "霍爾木茲",
-      "伊朗",
       "海峽",
+      "伊朗",
       "阿曼"
     ],
     "action_hits": [
       "談判"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "封锁霍尔木兹海峡：伊朗博弈特朗普的风险",
-    "link": "https://www.dw.com/zh/封锁霍尔木兹海峡：伊朗博弈特朗普的风险/a-78288365?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 8 Aug 2026 10:45:00 GMT",
-    "summary": "伊朗领导层坚信，通过在霍尔木兹海峡施加军事压力，最终能迫使美国接受其对全球能源要道的控制权。德黑兰当局认为时间站在自己这一边，但从国内经济衰退到潜在的社会动荡，再到美军的反制威胁，这场逼迫特朗普让步的高风险博弈究竟藏着怎样的隐患？",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "伊朗",
-      "美军",
-      "海峡",
-      "霍尔木兹",
-      "德黑兰"
-    ],
-    "action_hits": [
-      "封锁"
     ]
   },
   {
@@ -64,9 +63,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "美军",
       "伊朗",
-      "中东",
-      "美军"
+      "中东"
     ],
     "action_hits": [
       "导弹"
@@ -81,14 +80,14 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "houthi",
+      "yemen",
       "saudi",
-      "yemen"
+      "houthi"
     ],
     "action_hits": [
-      "attack",
       "launch",
       "drone",
+      "attack",
       "missile"
     ]
   },
@@ -105,9 +104,9 @@
       "middle east"
     ],
     "action_hits": [
-      "shipping",
       "attack",
-      "tanker"
+      "tanker",
+      "shipping"
     ]
   },
   {
@@ -119,8 +118,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
       "killed",
@@ -170,12 +169,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "saudi"
+      "saudi",
+      "iran"
     ],
     "action_hits": [
-      "de-escalat",
-      "escalat"
+      "escalat",
+      "de-escalat"
     ]
   }
 ]
