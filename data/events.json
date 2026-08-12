@@ -50,10 +50,24 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 70,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中文",
     "link": "https://www.bbc.com/zhongwen/articles/cdrv28lg4y3o/trad?at_medium=RSS&at_campaign=rss",
     "lang": "zh"
+  },
+  {
+    "event_id": "6352ef75e7c2",
+    "title": "Houthis reportedly kill six in first deadly attack since start of Iran war",
+    "location": "红海",
+    "first_seen_time": "2026-08-11T19:27:17+00:00",
+    "last_updated_time": "2026-08-11T19:27:17+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/ckg9wpmzmlno?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "d28776025a6f",

@@ -9,13 +9,13 @@
     "relevance_score": 80,
     "entity_hits": [
       "海峡",
-      "霍尔木兹",
       "阿曼",
+      "霍尔木兹",
       "伊朗"
     ],
     "action_hits": [
-      "谈判",
-      "航运"
+      "航运",
+      "谈判"
     ]
   },
   {
@@ -27,28 +27,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍爾木茲",
       "海峽",
-      "伊朗",
-      "阿曼"
-    ],
-    "action_hits": [
-      "談判"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "霍爾木茲海峽：阿曼稱會談進展順利，伊朗則警告協議不會打通海峽",
-    "link": "https://www.bbc.com/zhongwen/articles/cy74j0rz54go/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 09 Aug 2026 04:27:09 GMT",
-    "summary": "雙方均表示，在就開闢一條穿越海峽的新航線進行談判方面取得了進展，但能否取得突破仍不明朗。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
       "霍爾木茲",
-      "海峽",
-      "伊朗",
-      "阿曼"
+      "阿曼",
+      "伊朗"
     ],
     "action_hits": [
       "談判"
@@ -63,9 +45,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "中东",
       "美军",
-      "伊朗",
-      "中东"
+      "伊朗"
     ],
     "action_hits": [
       "导弹"
@@ -81,14 +63,14 @@
     "relevance_score": 100,
     "entity_hits": [
       "yemen",
-      "saudi",
-      "houthi"
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
-      "launch",
-      "drone",
       "attack",
-      "missile"
+      "launch",
+      "missile",
+      "drone"
     ]
   },
   {
@@ -100,13 +82,31 @@
     "lang": "en",
     "relevance_score": 73,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
       "attack",
-      "tanker",
-      "shipping"
+      "shipping",
+      "tanker"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Houthis reportedly kill six in first deadly attack since start of Iran war",
+    "link": "https://www.bbc.co.uk/news/articles/ckg9wpmzmlno?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 11 Aug 2026 19:27:17 GMT",
+    "summary": "Iran's proxy says it hit a ship with Saudi military equipment in the Red Sea, as tensions over the US-Iran war remain high.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "saudi",
+      "houthi",
+      "red sea",
+      "iran"
+    ],
+    "action_hits": [
+      "attack"
     ]
   },
   {
@@ -135,8 +135,8 @@
     "lang": "en",
     "relevance_score": 63,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
       "attack",
