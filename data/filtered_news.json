@@ -8,32 +8,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峡",
       "阿曼",
       "霍尔木兹",
-      "伊朗"
+      "伊朗",
+      "海峡"
     ],
     "action_hits": [
-      "航运",
-      "谈判"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "想要開放霍爾木茲海峽 伊朗向特朗普提出的六個條件",
-    "link": "https://www.bbc.com/zhongwen/articles/cdrv28lg4y3o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 10 Aug 2026 06:37:01 GMT",
-    "summary": "伊朗和阿曼都表示，關於重新開放霍爾木茲海峽的談判進展「積極」，但現在伊朗已向美國提出了一系列要求。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "海峽",
-      "霍爾木茲",
-      "阿曼",
-      "伊朗"
-    ],
-    "action_hits": [
-      "談判"
+      "谈判",
+      "航运"
     ]
   },
   {
@@ -63,12 +45,12 @@
     "relevance_score": 100,
     "entity_hits": [
       "yemen",
-      "houthi",
-      "saudi"
+      "saudi",
+      "houthi"
     ],
     "action_hits": [
-      "attack",
       "launch",
+      "attack",
       "missile",
       "drone"
     ]
@@ -101,8 +83,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "saudi",
-      "houthi",
       "red sea",
+      "houthi",
       "iran"
     ],
     "action_hits": [
@@ -122,8 +104,8 @@
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -156,8 +138,8 @@
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
