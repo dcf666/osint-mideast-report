@@ -9,13 +9,13 @@
     "relevance_score": 80,
     "entity_hits": [
       "阿曼",
+      "海峡",
       "霍尔木兹",
-      "伊朗",
-      "海峡"
+      "伊朗"
     ],
     "action_hits": [
-      "谈判",
-      "航运"
+      "航运",
+      "谈判"
     ]
   },
   {
@@ -44,15 +44,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "houthi",
       "yemen",
-      "saudi",
-      "houthi"
+      "saudi"
     ],
     "action_hits": [
+      "drone",
       "launch",
-      "attack",
       "missile",
-      "drone"
+      "attack"
     ]
   },
   {
@@ -68,9 +68,9 @@
       "iran"
     ],
     "action_hits": [
-      "attack",
+      "tanker",
       "shipping",
-      "tanker"
+      "attack"
     ]
   },
   {
@@ -82,9 +82,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
       "red sea",
       "houthi",
+      "saudi",
       "iran"
     ],
     "action_hits": [
@@ -100,8 +100,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
       "strike",
@@ -121,8 +121,8 @@
       "iran"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -134,8 +134,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "lebanon",
-      "israel"
+      "israel",
+      "lebanon"
     ],
     "action_hits": [
       "strike",
@@ -155,8 +155,8 @@
       "iran"
     ],
     "action_hits": [
-      "escalat",
-      "de-escalat"
+      "de-escalat",
+      "escalat"
     ]
   }
 ]
