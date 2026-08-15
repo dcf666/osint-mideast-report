@@ -1,24 +1,5 @@
 [
   {
-    "source": "FT中文网",
-    "title": "美财长：霍尔木兹海峡即将重新开放",
-    "link": "https://www.ftchinese.com/story/001110525",
-    "published": "Tue, 04 Aug 2026 16:00:00 GMT",
-    "summary": "贝森特周二称，与伊朗的谈判仍在进行中，有可能“在今天或明天达成协议”。据悉伊朗与阿曼已商定管理海峡航运的临时安排。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "阿曼",
-      "海峡",
-      "霍尔木兹",
-      "伊朗"
-    ],
-    "action_hits": [
-      "航运",
-      "谈判"
-    ]
-  },
-  {
     "source": "德国之声",
     "title": "美军就要“弹尽炮绝”？",
     "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
@@ -27,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "中东",
+      "伊朗",
       "美军",
-      "伊朗"
+      "中东"
     ],
     "action_hits": [
       "导弹"
@@ -44,15 +25,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "saudi",
       "houthi",
-      "yemen",
-      "saudi"
+      "yemen"
     ],
     "action_hits": [
-      "drone",
       "launch",
+      "attack",
       "missile",
-      "attack"
+      "drone"
     ]
   },
   {
@@ -64,13 +45,13 @@
     "lang": "en",
     "relevance_score": 73,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "iran",
+      "middle east"
     ],
     "action_hits": [
+      "attack",
       "tanker",
-      "shipping",
-      "attack"
+      "shipping"
     ]
   },
   {
@@ -82,10 +63,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "red sea",
-      "houthi",
       "saudi",
-      "iran"
+      "red sea",
+      "iran",
+      "houthi"
     ],
     "action_hits": [
       "attack"
@@ -100,12 +81,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -117,12 +98,12 @@
     "lang": "en",
     "relevance_score": 63,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "iran",
+      "middle east"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -134,12 +115,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "israel",
-      "lebanon"
+      "lebanon",
+      "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {

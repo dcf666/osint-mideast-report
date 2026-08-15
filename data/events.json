@@ -14,20 +14,6 @@
     "lang": "en"
   },
   {
-    "event_id": "520a9a0c9c59",
-    "title": "美财长：霍尔木兹海峡即将重新开放",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-08-04T16:00:00+00:00",
-    "last_updated_time": "2026-08-04T16:00:00+00:00",
-    "current_status": "partially_restored",
-    "trend": "improving",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110525",
-    "lang": "zh"
-  },
-  {
     "event_id": "421fc0653d00",
     "title": "美军就要“弹尽炮绝”？",
     "location": "伊朗",
