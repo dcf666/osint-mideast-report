@@ -14,6 +14,34 @@
     "lang": "en"
   },
   {
+    "event_id": "f7b3728d9972",
+    "title": "特朗普称将“很快”宣布霍尔木兹海峡为美国领土",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-08-15T15:07:00+00:00",
+    "last_updated_time": "2026-08-15T15:07:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/特朗普称将-很快-宣布霍尔木兹海峡为美国领土/a-78383780?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "e170327f05fc",
+    "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+    "location": "以色列",
+    "first_seen_time": "2026-08-15T20:21:14+00:00",
+    "last_updated_time": "2026-08-15T20:21:14+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 3,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "421fc0653d00",
     "title": "美军就要“弹尽炮绝”？",
     "location": "伊朗",
@@ -39,20 +67,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/ckg9wpmzmlno?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "d28776025a6f",
-    "title": "Israel strikes south Lebanon after two soldiers killed by explosion",
-    "location": "以色列",
-    "first_seen_time": "2026-08-02T15:50:59+00:00",
-    "last_updated_time": "2026-08-06T14:51:47+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {

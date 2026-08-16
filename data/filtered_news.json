@@ -1,6 +1,26 @@
 [
   {
     "source": "德国之声",
+    "title": "特朗普称将“很快”宣布霍尔木兹海峡为美国领土",
+    "link": "https://www.dw.com/zh/特朗普称将-很快-宣布霍尔木兹海峡为美国领土/a-78383780?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 15 Aug 2026 15:07:00 GMT",
+    "summary": "美国总统特朗普表示，击败伊朗后，他将宣布霍尔木兹海峡成为美国领土。他还呼吁美国民众接受不断上涨的汽油价格。自伊朗为回应美国和以色列的军事打击而关闭霍尔木兹海峡以来，油价持续飙升。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "伊朗",
+      "海峡",
+      "油价",
+      "以色列",
+      "霍尔木兹"
+    ],
+    "action_hits": [
+      "油价",
+      "打击"
+    ]
+  },
+  {
+    "source": "德国之声",
     "title": "美军就要“弹尽炮绝”？",
     "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
     "published": "Sat, 8 Aug 2026 08:42:00 GMT",
@@ -9,8 +29,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "伊朗",
-      "美军",
-      "中东"
+      "中东",
+      "美军"
     ],
     "action_hits": [
       "导弹"
@@ -26,14 +46,32 @@
     "relevance_score": 100,
     "entity_hits": [
       "saudi",
-      "houthi",
-      "yemen"
+      "yemen",
+      "houthi"
     ],
     "action_hits": [
-      "launch",
       "attack",
-      "missile",
-      "drone"
+      "drone",
+      "launch",
+      "missile"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+    "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 15 Aug 2026 20:21:14 GMT",
+    "summary": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as earlier action against its soldiers.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "lebanon",
+      "hezbollah",
+      "israel"
+    ],
+    "action_hits": [
+      "killed",
+      "strike"
     ]
   },
   {
@@ -45,13 +83,13 @@
     "lang": "en",
     "relevance_score": 73,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
       "attack",
-      "tanker",
-      "shipping"
+      "shipping",
+      "tanker"
     ]
   },
   {
@@ -63,10 +101,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
       "red sea",
-      "iran",
-      "houthi"
+      "houthi",
+      "saudi",
+      "iran"
     ],
     "action_hits": [
       "attack"
@@ -81,8 +119,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
       "killed",
@@ -98,8 +136,8 @@
     "lang": "en",
     "relevance_score": 63,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
       "attack",
@@ -136,8 +174,8 @@
       "iran"
     ],
     "action_hits": [
-      "de-escalat",
-      "escalat"
+      "escalat",
+      "de-escalat"
     ]
   }
 ]

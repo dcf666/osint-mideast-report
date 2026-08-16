@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 88.58999633789062,
-      "day_change_pct": 1.75,
-      "war_change_pct": -16.2,
+      "current": 88.5199966430664,
+      "day_change_pct": 1.67,
+      "war_change_pct": -18.98,
       "dates": [
         "07/06",
         "07/07",
@@ -66,14 +66,14 @@
         88.91,
         88.98,
         87.07,
-        88.59
+        88.52
       ],
-      "updated": "2026-08-15T02:15:31.275828"
+      "updated": "2026-08-16T02:22:43.339696"
     },
     "wti": {
       "current": 82.4000015258789,
       "day_change_pct": 1.42,
-      "war_change_pct": -18.55,
+      "war_change_pct": -21.84,
       "dates": [
         "07/06",
         "07/07",
@@ -138,12 +138,12 @@
         81.25,
         82.4
       ],
-      "updated": "2026-08-15T02:15:31.339897"
+      "updated": "2026-08-16T02:22:43.458948"
     },
     "gold": {
-      "current": 4432.0,
-      "day_change_pct": 1.57,
-      "war_change_pct": -5.26,
+      "current": 4380.39990234375,
+      "day_change_pct": 0.38,
+      "war_change_pct": -3.85,
       "dates": [
         "07/06",
         "07/07",
@@ -206,15 +206,16 @@
         4383.0,
         4408.9,
         4363.6,
-        4432.0
+        4380.4
       ],
-      "updated": "2026-08-15T02:15:31.404053"
+      "updated": "2026-08-16T02:22:43.573992"
     },
     "usd_cny": {
-      "current": 6.740699768066406,
-      "day_change_pct": -0.03,
-      "war_change_pct": -0.74,
+      "current": 6.7322001457214355,
+      "day_change_pct": -0.16,
+      "war_change_pct": -0.86,
       "dates": [
+        "07/06",
         "07/07",
         "07/08",
         "07/09",
@@ -243,10 +244,10 @@
         "08/11",
         "08/12",
         "08/13",
-        "08/14",
         "08/15"
       ],
       "prices": [
+        6.79,
         6.8,
         6.79,
         6.8,
@@ -275,15 +276,14 @@
         6.75,
         6.74,
         6.74,
-        6.74,
-        6.74
+        6.73
       ],
-      "updated": "2026-08-15T02:15:31.465379"
+      "updated": "2026-08-16T02:22:43.684365"
     },
     "nat_gas": {
-      "current": 2.7149999141693115,
-      "day_change_pct": -0.44,
-      "war_change_pct": -6.19,
+      "current": 2.7330000400543213,
+      "day_change_pct": 0.22,
+      "war_change_pct": -7.67,
       "dates": [
         "07/06",
         "07/07",
@@ -346,9 +346,9 @@
         2.77,
         2.8,
         2.73,
-        2.71
+        2.73
       ],
-      "updated": "2026-08-15T02:15:31.527921"
+      "updated": "2026-08-16T02:22:43.763983"
     }
   },
   "stocks": {
@@ -478,6 +478,26 @@
   "news": [
     {
       "source": "德国之声",
+      "title": "特朗普称将“很快”宣布霍尔木兹海峡为美国领土",
+      "link": "https://www.dw.com/zh/特朗普称将-很快-宣布霍尔木兹海峡为美国领土/a-78383780?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 15 Aug 2026 15:07:00 GMT",
+      "summary": "美国总统特朗普表示，击败伊朗后，他将宣布霍尔木兹海峡成为美国领土。他还呼吁美国民众接受不断上涨的汽油价格。自伊朗为回应美国和以色列的军事打击而关闭霍尔木兹海峡以来，油价持续飙升。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "伊朗",
+        "海峡",
+        "油价",
+        "以色列",
+        "霍尔木兹"
+      ],
+      "action_hits": [
+        "油价",
+        "打击"
+      ]
+    },
+    {
+      "source": "德国之声",
       "title": "美军就要“弹尽炮绝”？",
       "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
       "published": "Sat, 8 Aug 2026 08:42:00 GMT",
@@ -486,8 +506,8 @@
       "relevance_score": 70,
       "entity_hits": [
         "伊朗",
-        "美军",
-        "中东"
+        "中东",
+        "美军"
       ],
       "action_hits": [
         "导弹"
@@ -503,14 +523,32 @@
       "relevance_score": 100,
       "entity_hits": [
         "saudi",
-        "houthi",
-        "yemen"
+        "yemen",
+        "houthi"
       ],
       "action_hits": [
-        "launch",
         "attack",
-        "missile",
-        "drone"
+        "drone",
+        "launch",
+        "missile"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 15 Aug 2026 20:21:14 GMT",
+      "summary": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as earlier action against its soldiers.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "lebanon",
+        "hezbollah",
+        "israel"
+      ],
+      "action_hits": [
+        "killed",
+        "strike"
       ]
     },
     {
@@ -522,13 +560,13 @@
       "lang": "en",
       "relevance_score": 73,
       "entity_hits": [
-        "iran",
-        "middle east"
+        "middle east",
+        "iran"
       ],
       "action_hits": [
         "attack",
-        "tanker",
-        "shipping"
+        "shipping",
+        "tanker"
       ]
     },
     {
@@ -540,10 +578,10 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "saudi",
         "red sea",
-        "iran",
-        "houthi"
+        "houthi",
+        "saudi",
+        "iran"
       ],
       "action_hits": [
         "attack"
@@ -558,8 +596,8 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "hamas",
-        "israel"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
         "killed",
@@ -575,8 +613,8 @@
       "lang": "en",
       "relevance_score": 63,
       "entity_hits": [
-        "iran",
-        "middle east"
+        "middle east",
+        "iran"
       ],
       "action_hits": [
         "attack",
@@ -613,8 +651,8 @@
         "iran"
       ],
       "action_hits": [
-        "de-escalat",
-        "escalat"
+        "escalat",
+        "de-escalat"
       ]
     }
   ],
@@ -631,6 +669,34 @@
       "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/ckgdmdr0lmgo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "f7b3728d9972",
+      "title": "特朗普称将“很快”宣布霍尔木兹海峡为美国领土",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-08-15T15:07:00+00:00",
+      "last_updated_time": "2026-08-15T15:07:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 80,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/特朗普称将-很快-宣布霍尔木兹海峡为美国领土/a-78383780?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
+    {
+      "event_id": "e170327f05fc",
+      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "location": "以色列",
+      "first_seen_time": "2026-08-15T20:21:14+00:00",
+      "last_updated_time": "2026-08-15T20:21:14+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 80,
+      "source_count": 3,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -662,20 +728,6 @@
       "lang": "en"
     },
     {
-      "event_id": "d28776025a6f",
-      "title": "Israel strikes south Lebanon after two soldiers killed by explosion",
-      "location": "以色列",
-      "first_seen_time": "2026-08-02T15:50:59+00:00",
-      "last_updated_time": "2026-08-06T14:51:47+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 67,
-      "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "896102075029",
       "title": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
       "location": "伊朗",
@@ -693,7 +745,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/17",
         "7/18",
         "7/19",
         "7/20",
@@ -722,7 +773,8 @@
         "8/12",
         "8/13",
         "8/14",
-        "8/15"
+        "8/15",
+        "8/16"
       ],
       "transits": [
         0,
@@ -812,34 +864,27 @@
         21,
         69
       ],
-      "date_label": "8月15日"
+      "date_label": "8月16日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-15",
+      "hormuz_last_date": "2026-08-16",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 155,
+      "vlcc_stale_days": 156,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-15"
+      "routes_date": "2026-08-16"
     }
   },
   "meta": {
-    "report_date": "2026.08.15",
-    "report_date_cn": "2026年08月15日",
-    "war_day": 169,
+    "report_date": "2026.08.16",
+    "report_date_cn": "2026年08月16日",
+    "war_day": 170,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-15T10:15:59.202220+08:00",
-    "generated_at_cn": "2026-08-15 10:15:59 北京时间"
+    "generated_at": "2026-08-16T10:23:15.730791+08:00",
+    "generated_at_cn": "2026-08-16 10:23:15 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-18",
-      "brent": 111.19999694824219,
-      "wti": 103.12000274658203,
-      "gold": 4540.2998046875,
-      "usd_cny": 6.812300205230713
-    },
     {
       "date": "2026-05-19",
       "brent": 109.80000305175781,
@@ -1462,6 +1507,13 @@
       "wti": 82.4000015258789,
       "gold": 4432.0,
       "usd_cny": 6.740699768066406
+    },
+    {
+      "date": "2026-08-16",
+      "brent": 88.5199966430664,
+      "wti": 82.4000015258789,
+      "gold": 4380.39990234375,
+      "usd_cny": 6.7322001457214355
     }
   ]
 }
