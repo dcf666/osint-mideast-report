@@ -56,6 +56,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "9467c6cc6ac2",
+    "title": "美国人对特朗普治下的经济日益悲观",
+    "location": "中东地区",
+    "first_seen_time": "2026-08-16T16:00:00+00:00",
+    "last_updated_time": "2026-08-16T16:00:00+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110625",
+    "lang": "zh"
+  },
+  {
     "event_id": "6352ef75e7c2",
     "title": "Houthis reportedly kill six in first deadly attack since start of Iran war",
     "location": "红海",

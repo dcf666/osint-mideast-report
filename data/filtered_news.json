@@ -8,11 +8,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
-      "海峡",
-      "油价",
       "以色列",
-      "霍尔木兹"
+      "油价",
+      "霍尔木兹",
+      "伊朗",
+      "海峡"
     ],
     "action_hits": [
       "油价",
@@ -37,6 +37,23 @@
     ]
   },
   {
+    "source": "FT中文网",
+    "title": "美国人对特朗普治下的经济日益悲观",
+    "link": "https://www.ftchinese.com/story/001110625",
+    "published": "Sun, 16 Aug 2026 16:00:00 GMT",
+    "summary": "在美伊战争加剧生活负担危机、迫使美国人缩减支出的背景下，8月消费者信心指数大幅下降，高油价沉重打击老年和低收入人群。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "美伊",
+      "油价"
+    ],
+    "action_hits": [
+      "油价",
+      "打击"
+    ]
+  },
+  {
     "source": "BBC中东",
     "title": "Houthi attacks reportedly kill at least 30 Yemeni government forces",
     "link": "https://www.bbc.co.uk/news/articles/ckgdmdr0lmgo?at_medium=RSS&at_campaign=rss",
@@ -45,15 +62,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "saudi",
       "yemen",
+      "saudi",
       "houthi"
     ],
     "action_hits": [
-      "attack",
       "drone",
+      "missile",
       "launch",
-      "missile"
+      "attack"
     ]
   },
   {
@@ -66,12 +83,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "lebanon",
-      "hezbollah",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -87,9 +104,9 @@
       "iran"
     ],
     "action_hits": [
-      "attack",
       "shipping",
-      "tanker"
+      "tanker",
+      "attack"
     ]
   },
   {
@@ -101,10 +118,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "red sea",
-      "houthi",
       "saudi",
-      "iran"
+      "red sea",
+      "iran",
+      "houthi"
     ],
     "action_hits": [
       "attack"
@@ -119,12 +136,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -140,8 +157,8 @@
       "iran"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -157,8 +174,8 @@
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
