@@ -14,20 +14,6 @@
     "lang": "en"
   },
   {
-    "event_id": "f7b3728d9972",
-    "title": "特朗普称将“很快”宣布霍尔木兹海峡为美国领土",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-08-15T15:07:00+00:00",
-    "last_updated_time": "2026-08-15T15:07:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/特朗普称将-很快-宣布霍尔木兹海峡为美国领土/a-78383780?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "e170327f05fc",
     "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
     "location": "以色列",
@@ -42,17 +28,31 @@
     "lang": "en"
   },
   {
-    "event_id": "421fc0653d00",
-    "title": "美军就要“弹尽炮绝”？",
+    "event_id": "a936ad6b981c",
+    "title": "美军深陷伊朗冲突 撤走亚太最后一艘航母",
     "location": "伊朗",
-    "first_seen_time": "2026-08-08T08:42:00+00:00",
-    "last_updated_time": "2026-08-08T08:42:00+00:00",
+    "first_seen_time": "2026-08-17T10:23:00+00:00",
+    "last_updated_time": "2026-08-17T10:23:00+00:00",
     "current_status": "active_conflict",
-    "trend": "stable",
+    "trend": "worsening",
     "confidence": 73,
     "source_count": 3,
     "source": "德国之声",
-    "link": "https://www.dw.com/zh/美军就要-弹尽炮绝-？/a-78236361?maca=chi-rss-chi-all-1127-xml-mrss",
+    "link": "https://www.dw.com/zh/美军深陷伊朗冲突-撤走亚太最后一艘航母/a-78396103?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
+  },
+  {
+    "event_id": "b790d8e1472c",
+    "title": "特朗普威胁要轰炸传统盟友阿曼",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-08-17T16:00:00+00:00",
+    "last_updated_time": "2026-08-17T16:00:00+00:00",
+    "current_status": "partially_restored",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110641",
     "lang": "zh"
   },
   {
