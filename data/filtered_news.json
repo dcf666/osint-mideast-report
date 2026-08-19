@@ -26,9 +26,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
       "海峡",
       "伊朗",
+      "霍尔木兹",
       "阿曼"
     ],
     "action_hits": [
@@ -44,8 +44,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美伊",
-      "油价"
+      "油价",
+      "美伊"
     ],
     "action_hits": [
       "打击",
@@ -61,15 +61,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "saudi",
       "yemen",
-      "houthi"
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
-      "drone",
       "attack",
+      "launch",
       "missile",
-      "launch"
+      "drone"
     ]
   },
   {
@@ -81,8 +81,8 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "lebanon",
       "hezbollah",
+      "lebanon",
       "israel"
     ],
     "action_hits": [
@@ -99,8 +99,8 @@
     "lang": "en",
     "relevance_score": 73,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "iran",
+      "middle east"
     ],
     "action_hits": [
       "shipping",
@@ -117,8 +117,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "houthi",
+      "iran",
       "saudi",
       "red sea"
     ],
@@ -152,8 +152,8 @@
     "lang": "en",
     "relevance_score": 63,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "iran",
+      "middle east"
     ],
     "action_hits": [
       "attack",
