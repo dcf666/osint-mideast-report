@@ -8,10 +8,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美军",
-      "伊朗",
       "航母",
-      "中东"
+      "伊朗",
+      "中东",
+      "美军"
     ],
     "action_hits": [
       "部署"
@@ -26,10 +26,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峡",
+      "阿曼",
       "伊朗",
       "霍尔木兹",
-      "阿曼"
+      "海峡"
     ],
     "action_hits": [
       "轰炸"
@@ -44,8 +44,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "油价",
-      "美伊"
+      "美伊",
+      "油价"
     ],
     "action_hits": [
       "打击",
@@ -61,15 +61,34 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "yemen",
       "houthi",
-      "saudi"
+      "saudi",
+      "yemen"
     ],
     "action_hits": [
-      "attack",
+      "drone",
       "launch",
-      "missile",
-      "drone"
+      "attack",
+      "missile"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US condemns 'unnecessary escalation' after Israeli airstrikes on Syrian airbase",
+    "link": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 19 Aug 2026 00:48:16 GMT",
+    "summary": "Damascus called the attacks \"an unjustified act of aggression\" that imperilled regional security.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "damascus",
+      "syria",
+      "israel"
+    ],
+    "action_hits": [
+      "strike",
+      "attack",
+      "escalat"
     ]
   },
   {
@@ -81,13 +100,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hezbollah",
       "lebanon",
+      "hezbollah",
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -99,13 +118,13 @@
     "lang": "en",
     "relevance_score": 73,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
-      "shipping",
+      "tanker",
       "attack",
-      "tanker"
+      "shipping"
     ]
   },
   {
@@ -118,29 +137,12 @@
     "relevance_score": 70,
     "entity_hits": [
       "houthi",
-      "iran",
       "saudi",
+      "iran",
       "red sea"
     ],
     "action_hits": [
       "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
-    "link": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 02 Aug 2026 15:50:59 GMT",
-    "summary": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "hamas",
-      "israel"
-    ],
-    "action_hits": [
-      "killed",
-      "strike"
     ]
   },
   {
@@ -152,12 +154,12 @@
     "lang": "en",
     "relevance_score": 63,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -173,8 +175,8 @@
       "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -186,12 +188,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "saudi"
+      "saudi",
+      "iran"
     ],
     "action_hits": [
-      "escalat",
-      "de-escalat"
+      "de-escalat",
+      "escalat"
     ]
   }
 ]

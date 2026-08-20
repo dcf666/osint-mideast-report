@@ -14,6 +14,20 @@
     "lang": "en"
   },
   {
+    "event_id": "a3ebcb73e87f",
+    "title": "US condemns 'unnecessary escalation' after Israeli airstrikes on Syrian airbase",
+    "location": "以色列",
+    "first_seen_time": "2026-08-19T00:48:16+00:00",
+    "last_updated_time": "2026-08-19T00:48:16+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "e170327f05fc",
     "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
     "location": "以色列",
@@ -22,7 +36,7 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 3,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
