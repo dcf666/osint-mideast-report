@@ -8,10 +8,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "航母",
       "伊朗",
-      "中东",
-      "美军"
+      "航母",
+      "美军",
+      "中东"
     ],
     "action_hits": [
       "部署"
@@ -26,10 +26,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "阿曼",
       "伊朗",
+      "海峡",
       "霍尔木兹",
-      "海峡"
+      "阿曼"
     ],
     "action_hits": [
       "轰炸"
@@ -54,26 +54,6 @@
   },
   {
     "source": "BBC中东",
-    "title": "Houthi attacks reportedly kill at least 30 Yemeni government forces",
-    "link": "https://www.bbc.co.uk/news/articles/ckgdmdr0lmgo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 06 Aug 2026 22:41:09 GMT",
-    "summary": "The Houthis say they launched missiles and drones at \"Saudi military build-ups\" in the central provinces of Marib and Hadramawt.",
-    "lang": "en",
-    "relevance_score": 100,
-    "entity_hits": [
-      "houthi",
-      "saudi",
-      "yemen"
-    ],
-    "action_hits": [
-      "drone",
-      "launch",
-      "attack",
-      "missile"
-    ]
-  },
-  {
-    "source": "BBC中东",
     "title": "US condemns 'unnecessary escalation' after Israeli airstrikes on Syrian airbase",
     "link": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss",
     "published": "Wed, 19 Aug 2026 00:48:16 GMT",
@@ -81,14 +61,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "israel",
       "damascus",
-      "syria",
-      "israel"
+      "syria"
     ],
     "action_hits": [
       "strike",
-      "attack",
-      "escalat"
+      "escalat",
+      "attack"
     ]
   },
   {
@@ -101,30 +81,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "lebanon",
-      "hezbollah",
-      "israel"
+      "israel",
+      "hezbollah"
     ],
     "action_hits": [
       "strike",
       "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
-    "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 03 Aug 2026 15:57:27 GMT",
-    "summary": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
-    "lang": "en",
-    "relevance_score": 73,
-    "entity_hits": [
-      "middle east",
-      "iran"
-    ],
-    "action_hits": [
-      "tanker",
-      "attack",
-      "shipping"
     ]
   },
   {
@@ -138,45 +100,11 @@
     "entity_hits": [
       "houthi",
       "saudi",
-      "iran",
-      "red sea"
-    ],
-    "action_hits": [
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-    "link": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 02 Aug 2026 11:12:00 GMT",
-    "summary": "The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the \"perimeters\" of a deal had been agreed.",
-    "lang": "en",
-    "relevance_score": 63,
-    "entity_hits": [
-      "middle east",
+      "red sea",
       "iran"
     ],
     "action_hits": [
-      "strike",
       "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel strikes south Lebanon after two soldiers killed by explosion",
-    "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 06 Aug 2026 14:51:47 GMT",
-    "summary": "Lebanese authorities says one person was killed in the strikes, which came after the first Israeli military fatalities in Lebanon in more than a month.",
-    "lang": "en",
-    "relevance_score": 60,
-    "entity_hits": [
-      "lebanon",
-      "israel"
-    ],
-    "action_hits": [
-      "strike",
-      "killed"
     ]
   },
   {
@@ -192,8 +120,8 @@
       "iran"
     ],
     "action_hits": [
-      "de-escalat",
-      "escalat"
+      "escalat",
+      "de-escalat"
     ]
   }
 ]
