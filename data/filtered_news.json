@@ -8,10 +8,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
-      "航母",
       "美军",
-      "中东"
+      "航母",
+      "中东",
+      "伊朗"
     ],
     "action_hits": [
       "部署"
@@ -26,8 +26,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "伊朗",
       "海峡",
+      "伊朗",
       "霍尔木兹",
       "阿曼"
     ],
@@ -44,8 +44,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美伊",
-      "油价"
+      "油价",
+      "美伊"
     ],
     "action_hits": [
       "打击",
@@ -80,31 +80,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "lebanon",
       "israel",
-      "hezbollah"
+      "hezbollah",
+      "lebanon"
     ],
     "action_hits": [
       "strike",
       "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Houthis reportedly kill six in first deadly attack since start of Iran war",
-    "link": "https://www.bbc.co.uk/news/articles/ckg9wpmzmlno?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 11 Aug 2026 19:27:17 GMT",
-    "summary": "Iran's proxy says it hit a ship with Saudi military equipment in the Red Sea, as tensions over the US-Iran war remain high.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "houthi",
-      "saudi",
-      "red sea",
-      "iran"
-    ],
-    "action_hits": [
-      "attack"
     ]
   },
   {
@@ -116,8 +98,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "saudi",
-      "iran"
+      "iran",
+      "saudi"
     ],
     "action_hits": [
       "escalat",
