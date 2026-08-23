@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 93.87000274658203,
-      "day_change_pct": 0.1,
-      "war_change_pct": -8.49,
+      "current": 94.38999938964844,
+      "day_change_pct": 0.65,
+      "war_change_pct": -8.84,
       "dates": [
         "07/13",
         "07/14",
@@ -66,14 +66,14 @@
         91.02,
         91.62,
         93.78,
-        93.87
+        94.39
       ],
-      "updated": "2026-08-22T02:17:00.200045"
+      "updated": "2026-08-23T02:25:22.550274"
     },
     "wti": {
-      "current": 86.63999938964844,
-      "day_change_pct": -1.35,
-      "war_change_pct": -10.08,
+      "current": 87.05999755859375,
+      "day_change_pct": -0.88,
+      "war_change_pct": -9.88,
       "dates": [
         "07/13",
         "07/14",
@@ -136,14 +136,14 @@
         84.94,
         85.83,
         87.83,
-        86.64
+        87.06
       ],
-      "updated": "2026-08-22T02:17:00.304851"
+      "updated": "2026-08-23T02:25:22.687574"
     },
     "gold": {
-      "current": 4661.60009765625,
-      "day_change_pct": 3.22,
-      "war_change_pct": 2.68,
+      "current": 4624.10009765625,
+      "day_change_pct": 2.39,
+      "war_change_pct": 2.28,
       "dates": [
         "07/13",
         "07/14",
@@ -206,16 +206,15 @@
         4366.0,
         4489.4,
         4516.3,
-        4661.6
+        4624.1
       ],
-      "updated": "2026-08-22T02:17:00.412139"
+      "updated": "2026-08-23T02:25:22.792147"
     },
     "usd_cny": {
       "current": 6.7118000984191895,
-      "day_change_pct": -0.26,
+      "day_change_pct": -0.16,
       "war_change_pct": -1.3,
       "dates": [
-        "07/13",
         "07/14",
         "07/15",
         "07/16",
@@ -244,10 +243,10 @@
         "08/18",
         "08/19",
         "08/20",
-        "08/21"
+        "08/21",
+        "08/23"
       ],
       "prices": [
-        6.78,
         6.78,
         6.77,
         6.77,
@@ -276,14 +275,15 @@
         6.74,
         6.74,
         6.73,
+        6.72,
         6.71
       ],
-      "updated": "2026-08-22T02:17:00.523804"
+      "updated": "2026-08-23T02:25:22.900618"
     },
     "nat_gas": {
-      "current": 2.7980000972747803,
-      "day_change_pct": 2.38,
-      "war_change_pct": -7.29,
+      "current": 2.7730000019073486,
+      "day_change_pct": 1.46,
+      "war_change_pct": -4.61,
       "dates": [
         "07/13",
         "07/14",
@@ -346,9 +346,9 @@
         2.78,
         2.81,
         2.73,
-        2.8
+        2.77
       ],
-      "updated": "2026-08-22T02:17:00.627289"
+      "updated": "2026-08-23T02:25:23.004915"
     }
   },
   "stocks": {
@@ -370,13 +370,16 @@
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 3.97,
+      "change_pct": 5.31,
+      "high": 4.02,
+      "low": 3.75,
+      "volume": 2931888
     },
     "600938": {
       "name": "中国海油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601857": {
       "name": "中国石油",
@@ -483,24 +486,6 @@
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "美军深陷伊朗冲突 撤走亚太最后一艘航母",
-      "link": "https://www.dw.com/zh/美军深陷伊朗冲突-撤走亚太最后一艘航母/a-78396103?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Mon, 17 Aug 2026 10:23:00 GMT",
-      "summary": "为应对中东危机，美国军方不得不调走部署在亚太地区的最后一艘主力航母。这导致该地区进入美军航母战力的“空窗期”。同时美军部署在中东的航母内部已经爆发军人心理健康和物资危机。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "美军",
-        "航母",
-        "中东",
-        "伊朗"
-      ],
-      "action_hits": [
-        "部署"
-      ]
-    },
-    {
       "source": "FT中文网",
       "title": "特朗普威胁要轰炸传统盟友阿曼",
       "link": "https://www.ftchinese.com/story/001110641",
@@ -510,9 +495,9 @@
       "relevance_score": 70,
       "entity_hits": [
         "海峡",
-        "伊朗",
+        "阿曼",
         "霍尔木兹",
-        "阿曼"
+        "伊朗"
       ],
       "action_hits": [
         "轰炸"
@@ -531,8 +516,8 @@
         "美伊"
       ],
       "action_hits": [
-        "打击",
-        "油价"
+        "油价",
+        "打击"
       ]
     },
     {
@@ -544,13 +529,13 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "israel",
         "damascus",
+        "israel",
         "syria"
       ],
       "action_hits": [
-        "strike",
         "escalat",
+        "strike",
         "attack"
       ]
     },
@@ -563,13 +548,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
+        "lebanon",
         "israel",
-        "hezbollah",
-        "lebanon"
+        "hezbollah"
       ],
       "action_hits": [
-        "strike",
-        "killed"
+        "killed",
+        "strike"
       ]
     },
     {
@@ -581,12 +566,12 @@
       "lang": "en",
       "relevance_score": 60,
       "entity_hits": [
-        "iran",
-        "saudi"
+        "saudi",
+        "iran"
       ],
       "action_hits": [
-        "escalat",
-        "de-escalat"
+        "de-escalat",
+        "escalat"
       ]
     }
   ],
@@ -618,20 +603,6 @@
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
-    },
-    {
-      "event_id": "a936ad6b981c",
-      "title": "美军深陷伊朗冲突 撤走亚太最后一艘航母",
-      "location": "伊朗",
-      "first_seen_time": "2026-08-17T10:23:00+00:00",
-      "last_updated_time": "2026-08-17T10:23:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "worsening",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美军深陷伊朗冲突-撤走亚太最后一艘航母/a-78396103?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
     },
     {
       "event_id": "b790d8e1472c",
@@ -679,7 +650,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/24",
         "7/25",
         "7/26",
         "7/27",
@@ -708,7 +678,8 @@
         "8/19",
         "8/20",
         "8/21",
-        "8/22"
+        "8/22",
+        "8/23"
       ],
       "transits": [
         0,
@@ -798,34 +769,27 @@
         21,
         69
       ],
-      "date_label": "8月22日"
+      "date_label": "8月23日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-22",
+      "hormuz_last_date": "2026-08-23",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 162,
+      "vlcc_stale_days": 163,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-22"
+      "routes_date": "2026-08-23"
     }
   },
   "meta": {
-    "report_date": "2026.08.22",
-    "report_date_cn": "2026年08月22日",
-    "war_day": 176,
+    "report_date": "2026.08.23",
+    "report_date_cn": "2026年08月23日",
+    "war_day": 177,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-22T10:18:14.877101+08:00",
-    "generated_at_cn": "2026-08-22 10:18:14 北京时间"
+    "generated_at": "2026-08-23T10:26:00.809682+08:00",
+    "generated_at_cn": "2026-08-23 10:26:00 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-25",
-      "brent": 100.20999908447266,
-      "wti": 96.5999984741211,
-      "gold": 4523.2001953125,
-      "usd_cny": 6.780200004577637
-    },
     {
       "date": "2026-05-26",
       "brent": 95.48999786376953,
@@ -1447,6 +1411,13 @@
       "brent": 93.87000274658203,
       "wti": 86.63999938964844,
       "gold": 4661.60009765625,
+      "usd_cny": 6.7118000984191895
+    },
+    {
+      "date": "2026-08-23",
+      "brent": 94.38999938964844,
+      "wti": 87.05999755859375,
+      "gold": 4624.10009765625,
       "usd_cny": 6.7118000984191895
     }
   ]
