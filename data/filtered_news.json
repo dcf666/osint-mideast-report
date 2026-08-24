@@ -8,10 +8,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "海峡",
-      "阿曼",
       "霍尔木兹",
-      "伊朗"
+      "伊朗",
+      "阿曼",
+      "海峡"
     ],
     "action_hits": [
       "轰炸"
@@ -26,12 +26,29 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "油价",
-      "美伊"
+      "美伊",
+      "油价"
     ],
     "action_hits": [
       "油价",
       "打击"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "美国大使指责以色列空袭叙利亚意在助选",
+    "link": "https://www.ftchinese.com/story/001110690",
+    "published": "Sun, 23 Aug 2026 16:00:00 GMT",
+    "summary": "美国驻土耳其大使、叙利亚事务特使巴拉克称，以色列空袭叙利亚空军基地意在“诱使”土耳其卷入冲突，从而为秋季的以色列大选造势。",
+    "lang": "zh",
+    "relevance_score": 65,
+    "entity_hits": [
+      "以色列",
+      "叙利亚",
+      "土耳其"
+    ],
+    "action_hits": [
+      "空袭"
     ]
   },
   {
@@ -44,13 +61,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "damascus",
-      "israel",
-      "syria"
+      "syria",
+      "israel"
     ],
     "action_hits": [
-      "escalat",
       "strike",
-      "attack"
+      "attack",
+      "escalat"
     ]
   },
   {
@@ -63,12 +80,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "lebanon",
-      "israel",
-      "hezbollah"
+      "hezbollah",
+      "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -80,8 +97,8 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "saudi",
-      "iran"
+      "iran",
+      "saudi"
     ],
     "action_hits": [
       "de-escalat",

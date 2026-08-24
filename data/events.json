@@ -14,18 +14,18 @@
     "lang": "en"
   },
   {
-    "event_id": "e170327f05fc",
-    "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+    "event_id": "16a27507c78b",
+    "title": "美国大使指责以色列空袭叙利亚意在助选",
     "location": "以色列",
-    "first_seen_time": "2026-08-15T20:21:14+00:00",
-    "last_updated_time": "2026-08-15T20:21:14+00:00",
+    "first_seen_time": "2026-08-23T16:00:00+00:00",
+    "last_updated_time": "2026-08-23T16:00:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source_count": 2,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110690",
+    "lang": "zh"
   },
   {
     "event_id": "b790d8e1472c",
