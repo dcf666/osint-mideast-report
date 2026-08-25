@@ -1,5 +1,23 @@
 [
   {
+    "source": "德国之声",
+    "title": "美军深陷伊朗冲突 撤走亚太最后一艘航母",
+    "link": "https://www.dw.com/zh/美军深陷伊朗冲突-撤走亚太最后一艘航母/a-78396103?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 17 Aug 2026 10:23:00 GMT",
+    "summary": "为应对中东危机，美国军方不得不调走部署在亚太地区的最后一艘主力航母。这导致该地区进入美军航母战力的“空窗期”。同时美军部署在中东的航母内部已经爆发军人心理健康和物资危机。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "中东",
+      "航母",
+      "伊朗",
+      "美军"
+    ],
+    "action_hits": [
+      "部署"
+    ]
+  },
+  {
     "source": "FT中文网",
     "title": "特朗普威胁要轰炸传统盟友阿曼",
     "link": "https://www.ftchinese.com/story/001110641",
@@ -8,10 +26,10 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
-      "伊朗",
       "阿曼",
-      "海峡"
+      "伊朗",
+      "海峡",
+      "霍尔木兹"
     ],
     "action_hits": [
       "轰炸"
@@ -26,8 +44,8 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "美伊",
-      "油价"
+      "油价",
+      "美伊"
     ],
     "action_hits": [
       "油价",
@@ -43,9 +61,9 @@
     "lang": "zh",
     "relevance_score": 65,
     "entity_hits": [
-      "以色列",
+      "土耳其",
       "叙利亚",
-      "土耳其"
+      "以色列"
     ],
     "action_hits": [
       "空袭"
@@ -65,9 +83,9 @@
       "israel"
     ],
     "action_hits": [
-      "strike",
+      "escalat",
       "attack",
-      "escalat"
+      "strike"
     ]
   },
   {
@@ -80,12 +98,29 @@
     "relevance_score": 80,
     "entity_hits": [
       "lebanon",
-      "hezbollah",
+      "israel",
+      "hezbollah"
+    ],
+    "action_hits": [
+      "killed",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Syria says Israeli strike near Damascus violation of international law",
+    "link": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 22 Aug 2026 21:42:42 GMT",
+    "summary": "The latest incident comes days after reports emerged Israel had struck a military airbase close to the Turkish border.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "damascus",
+      "syria",
       "israel"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "strike"
     ]
   },
   {
@@ -97,12 +132,12 @@
     "lang": "en",
     "relevance_score": 60,
     "entity_hits": [
-      "iran",
-      "saudi"
+      "saudi",
+      "iran"
     ],
     "action_hits": [
-      "de-escalat",
-      "escalat"
+      "escalat",
+      "de-escalat"
     ]
   }
 ]

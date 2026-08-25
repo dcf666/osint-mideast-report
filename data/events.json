@@ -22,9 +22,23 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 3,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110690",
+    "lang": "zh"
+  },
+  {
+    "event_id": "a936ad6b981c",
+    "title": "美军深陷伊朗冲突 撤走亚太最后一艘航母",
+    "location": "伊朗",
+    "first_seen_time": "2026-08-17T10:23:00+00:00",
+    "last_updated_time": "2026-08-17T10:23:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "worsening",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美军深陷伊朗冲突-撤走亚太最后一艘航母/a-78396103?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
