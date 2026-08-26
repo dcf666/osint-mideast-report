@@ -1,219 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 92.79000091552734,
-      "day_change_pct": -1.7,
-      "war_change_pct": -6.82,
-      "dates": [
-        "07/14",
-        "07/15",
-        "07/16",
-        "07/17",
-        "07/20",
-        "07/21",
-        "07/22",
-        "07/23",
-        "07/24",
-        "07/27",
-        "07/28",
-        "07/29",
-        "07/30",
-        "07/31",
-        "08/03",
-        "08/04",
-        "08/05",
-        "08/06",
-        "08/07",
-        "08/10",
-        "08/11",
-        "08/12",
-        "08/13",
-        "08/14",
-        "08/17",
-        "08/18",
-        "08/19",
-        "08/20",
-        "08/21",
-        "08/24"
-      ],
-      "prices": [
-        84.73,
-        84.95,
-        84.23,
-        88.1,
-        89.22,
-        91.01,
-        94.07,
-        100.69,
-        96.78,
-        88.36,
-        84.09,
-        90.74,
-        89.03,
-        90.12,
-        83.77,
-        79.36,
-        79.45,
-        82.49,
-        83.55,
-        87.72,
-        88.91,
-        88.98,
-        87.07,
-        88.52,
-        90.87,
-        91.02,
-        91.62,
-        93.78,
-        94.39,
-        92.79
-      ],
-      "updated": "2026-08-25T02:20:10.763099"
-    },
-    "wti": {
-      "current": 85.6500015258789,
-      "day_change_pct": -1.62,
-      "war_change_pct": -8.78,
-      "dates": [
-        "07/14",
-        "07/15",
-        "07/16",
-        "07/17",
-        "07/20",
-        "07/21",
-        "07/22",
-        "07/23",
-        "07/24",
-        "07/27",
-        "07/28",
-        "07/29",
-        "07/30",
-        "07/31",
-        "08/03",
-        "08/04",
-        "08/05",
-        "08/06",
-        "08/07",
-        "08/10",
-        "08/11",
-        "08/12",
-        "08/13",
-        "08/14",
-        "08/17",
-        "08/18",
-        "08/19",
-        "08/20",
-        "08/21",
-        "08/24"
-      ],
-      "prices": [
-        79.34,
-        79.6,
-        78.95,
-        82.49,
-        83.23,
-        84.91,
-        86.83,
-        92.19,
-        89.31,
-        82.61,
-        79.26,
-        84.46,
-        83.59,
-        84.67,
-        80.34,
-        75.77,
-        75.22,
-        77.29,
-        78.18,
-        82.13,
-        83.2,
-        83.27,
-        81.25,
-        82.4,
-        84.5,
-        84.94,
-        85.83,
-        87.83,
-        87.06,
-        85.65
-      ],
-      "updated": "2026-08-25T02:20:10.985769"
-    },
-    "gold": {
-      "current": 4700.10009765625,
-      "day_change_pct": 1.64,
-      "war_change_pct": 4.44,
-      "dates": [
-        "07/14",
-        "07/15",
-        "07/16",
-        "07/17",
-        "07/20",
-        "07/21",
-        "07/22",
-        "07/23",
-        "07/24",
-        "07/27",
-        "07/28",
-        "07/29",
-        "07/30",
-        "07/31",
-        "08/03",
-        "08/04",
-        "08/05",
-        "08/06",
-        "08/07",
-        "08/10",
-        "08/11",
-        "08/12",
-        "08/13",
-        "08/14",
-        "08/17",
-        "08/18",
-        "08/19",
-        "08/20",
-        "08/21",
-        "08/24"
-      ],
-      "prices": [
-        4061.1,
-        4044.0,
-        3985.6,
-        4012.7,
-        4010.3,
-        4071.1,
-        4146.9,
-        4046.6,
-        4067.6,
-        4074.5,
-        4036.3,
-        4034.7,
-        4100.1,
-        4049.1,
-        4033.7,
-        4095.4,
-        4245.8,
-        4242.0,
-        4340.7,
-        4361.8,
-        4383.0,
-        4408.9,
-        4363.6,
-        4380.4,
-        4417.8,
-        4366.0,
-        4489.4,
-        4516.3,
-        4624.1,
-        4700.1
-      ],
-      "updated": "2026-08-25T02:20:11.208875"
-    },
-    "usd_cny": {
-      "current": 6.7230000495910645,
-      "day_change_pct": 0.03,
-      "war_change_pct": -1.05,
+      "current": 85.26000213623047,
+      "day_change_pct": -7.5,
+      "war_change_pct": -14.38,
       "dates": [
         "07/15",
         "07/16",
@@ -247,45 +37,44 @@
         "08/25"
       ],
       "prices": [
-        6.77,
-        6.77,
-        6.77,
-        6.77,
-        6.77,
-        6.77,
-        6.77,
-        6.77,
-        6.77,
-        6.77,
-        6.77,
-        6.77,
-        6.76,
-        6.75,
-        6.75,
-        6.75,
-        6.75,
-        6.75,
-        6.75,
-        6.75,
-        6.74,
-        6.74,
-        6.74,
-        6.74,
-        6.74,
-        6.74,
-        6.73,
-        6.72,
-        6.72,
-        6.72
+        84.95,
+        84.23,
+        88.1,
+        89.22,
+        91.01,
+        94.07,
+        100.69,
+        96.78,
+        88.36,
+        84.09,
+        90.74,
+        89.03,
+        90.12,
+        83.77,
+        79.36,
+        79.45,
+        82.49,
+        83.55,
+        87.72,
+        88.91,
+        88.98,
+        87.07,
+        88.52,
+        90.87,
+        91.02,
+        91.62,
+        93.78,
+        94.39,
+        92.17,
+        85.26
       ],
-      "updated": "2026-08-25T02:20:11.439788"
+      "updated": "2026-08-26T02:26:35.071723"
     },
-    "nat_gas": {
-      "current": 2.812999963760376,
-      "day_change_pct": 1.44,
-      "war_change_pct": -2.8,
+    "wti": {
+      "current": 80.37000274658203,
+      "day_change_pct": -5.46,
+      "war_change_pct": -14.4,
       "dates": [
-        "07/14",
         "07/15",
         "07/16",
         "07/17",
@@ -314,10 +103,220 @@
         "08/19",
         "08/20",
         "08/21",
-        "08/24"
+        "08/24",
+        "08/25"
       ],
       "prices": [
-        2.9,
+        79.6,
+        78.95,
+        82.49,
+        83.23,
+        84.91,
+        86.83,
+        92.19,
+        89.31,
+        82.61,
+        79.26,
+        84.46,
+        83.59,
+        84.67,
+        80.34,
+        75.77,
+        75.22,
+        77.29,
+        78.18,
+        82.13,
+        83.2,
+        83.27,
+        81.25,
+        82.4,
+        84.5,
+        84.94,
+        85.83,
+        87.83,
+        87.06,
+        85.01,
+        80.37
+      ],
+      "updated": "2026-08-26T02:26:35.268694"
+    },
+    "gold": {
+      "current": 4717.39990234375,
+      "day_change_pct": 1.65,
+      "war_change_pct": 4.82,
+      "dates": [
+        "07/15",
+        "07/16",
+        "07/17",
+        "07/20",
+        "07/21",
+        "07/22",
+        "07/23",
+        "07/24",
+        "07/27",
+        "07/28",
+        "07/29",
+        "07/30",
+        "07/31",
+        "08/03",
+        "08/04",
+        "08/05",
+        "08/06",
+        "08/07",
+        "08/10",
+        "08/11",
+        "08/12",
+        "08/13",
+        "08/14",
+        "08/17",
+        "08/18",
+        "08/19",
+        "08/20",
+        "08/21",
+        "08/24",
+        "08/25"
+      ],
+      "prices": [
+        4044.0,
+        3985.6,
+        4012.7,
+        4010.3,
+        4071.1,
+        4146.9,
+        4046.6,
+        4067.6,
+        4074.5,
+        4036.3,
+        4034.7,
+        4100.1,
+        4049.1,
+        4033.7,
+        4095.4,
+        4245.8,
+        4242.0,
+        4340.7,
+        4361.8,
+        4383.0,
+        4408.9,
+        4363.6,
+        4380.4,
+        4417.8,
+        4366.0,
+        4489.4,
+        4516.3,
+        4624.1,
+        4640.8,
+        4717.4
+      ],
+      "updated": "2026-08-26T02:26:35.459540"
+    },
+    "usd_cny": {
+      "current": 6.720399856567383,
+      "day_change_pct": -0.02,
+      "war_change_pct": -1.09,
+      "dates": [
+        "07/16",
+        "07/17",
+        "07/20",
+        "07/21",
+        "07/22",
+        "07/23",
+        "07/24",
+        "07/27",
+        "07/28",
+        "07/29",
+        "07/30",
+        "07/31",
+        "08/03",
+        "08/04",
+        "08/05",
+        "08/06",
+        "08/07",
+        "08/10",
+        "08/11",
+        "08/12",
+        "08/13",
+        "08/14",
+        "08/17",
+        "08/18",
+        "08/19",
+        "08/20",
+        "08/21",
+        "08/24",
+        "08/25",
+        "08/26"
+      ],
+      "prices": [
+        6.77,
+        6.77,
+        6.77,
+        6.77,
+        6.77,
+        6.77,
+        6.77,
+        6.77,
+        6.77,
+        6.77,
+        6.77,
+        6.76,
+        6.75,
+        6.75,
+        6.75,
+        6.75,
+        6.75,
+        6.75,
+        6.75,
+        6.74,
+        6.74,
+        6.74,
+        6.74,
+        6.74,
+        6.74,
+        6.73,
+        6.72,
+        6.72,
+        6.72,
+        6.72
+      ],
+      "updated": "2026-08-26T02:26:35.649334"
+    },
+    "nat_gas": {
+      "current": 2.8559999465942383,
+      "day_change_pct": 2.66,
+      "war_change_pct": -1.31,
+      "dates": [
+        "07/15",
+        "07/16",
+        "07/17",
+        "07/20",
+        "07/21",
+        "07/22",
+        "07/23",
+        "07/24",
+        "07/27",
+        "07/28",
+        "07/29",
+        "07/30",
+        "07/31",
+        "08/03",
+        "08/04",
+        "08/05",
+        "08/06",
+        "08/07",
+        "08/10",
+        "08/11",
+        "08/12",
+        "08/13",
+        "08/14",
+        "08/17",
+        "08/18",
+        "08/19",
+        "08/20",
+        "08/21",
+        "08/24",
+        "08/25"
+      ],
+      "prices": [
         2.92,
         2.86,
         2.91,
@@ -346,105 +345,109 @@
         2.81,
         2.73,
         2.77,
-        2.81
+        2.78,
+        2.86
       ],
-      "updated": "2026-08-25T02:20:11.668611"
+      "updated": "2026-08-26T02:26:35.839743"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 18.8,
+      "change_pct": -0.16,
+      "high": 18.98,
+      "low": 18.0,
+      "volume": 446478
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 18.96,
+      "change_pct": -0.42,
+      "high": 19.15,
+      "low": 18.47,
+      "volume": 244846
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 4.01,
+      "change_pct": -0.74,
+      "high": 4.07,
+      "low": 3.88,
+      "volume": 819119
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 32.91,
+      "change_pct": -1.79,
+      "high": 32.94,
+      "low": 32.23,
+      "volume": 268179
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.25,
-      "change_pct": 0.72,
-      "high": 11.3,
-      "low": 11.17,
-      "volume": 349434
+      "price": 11.12,
+      "change_pct": -0.63,
+      "high": 11.13,
+      "low": 10.82,
+      "volume": 441280
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.38,
-      "change_pct": 0.94,
-      "high": 5.4,
-      "low": 5.31,
-      "volume": 1383541
+      "price": 5.35,
+      "change_pct": -0.19,
+      "high": 5.36,
+      "low": 5.27,
+      "volume": 937645
     },
     "603619": {
       "name": "中曼石油",
-      "price": 23.55,
-      "change_pct": -0.08,
-      "high": 23.76,
-      "low": 23.23,
-      "volume": 130385
-    },
-    "600759": {
-      "name": "洲际油气",
-      "price": 2.68,
-      "change_pct": -0.74,
-      "high": 2.72,
-      "low": 2.62,
-      "volume": 832223
-    },
-    "601808": {
-      "name": "中海油服",
-      "price": 12.49,
-      "change_pct": 0.81,
-      "high": 12.5,
-      "low": 12.33,
-      "volume": 52971
-    },
-    "002353": {
-      "name": "杰瑞股份",
-      "price": 142.28,
-      "change_pct": -0.14,
-      "high": 143.26,
-      "low": 138.5,
-      "volume": 44467
-    },
-    "600803": {
-      "name": "新奥股份",
-      "price": 17.64,
-      "change_pct": 0.34,
-      "high": 17.85,
-      "low": 17.51,
-      "volume": 22482
-    },
-    "600256": {
-      "name": "广汇能源",
-      "price": 6.25,
-      "change_pct": 1.46,
-      "high": 6.3,
-      "low": 6.14,
-      "volume": 638632
-    },
-    "601919": {
-      "name": "中远海控",
       "price": null,
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
+    "600759": {
+      "name": "洲际油气",
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "601808": {
+      "name": "中海油服",
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "002353": {
+      "name": "杰瑞股份",
+      "price": 139.94,
+      "change_pct": -1.02,
+      "high": 143.77,
+      "low": 138.0,
+      "volume": 39543
+    },
+    "600803": {
+      "name": "新奥股份",
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "600256": {
+      "name": "广汇能源",
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "601919": {
+      "name": "中远海控",
+      "price": 16.98,
+      "change_pct": -0.53,
+      "high": 17.0,
+      "low": 16.58,
+      "volume": 591378
+    },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 44.35,
+      "change_pct": 0.07,
+      "high": 44.64,
+      "low": 44.09,
+      "volume": 31789
     },
     "600893": {
       "name": "航发动力",
@@ -453,78 +456,51 @@
     },
     "600150": {
       "name": "中国船舶",
-      "price": 33.76,
-      "change_pct": -0.12,
-      "high": 34.08,
-      "low": 33.58,
-      "volume": 158667
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600547": {
       "name": "山东黄金",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 47.13,
-      "change_pct": -3.36,
-      "high": 49.2,
-      "low": 46.0,
-      "volume": 487304
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 26.37,
-      "change_pct": -3.26,
-      "high": 27.45,
-      "low": 26.01,
-      "volume": 609500
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601088": {
       "name": "中国神华",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 47.41,
+      "change_pct": 0.51,
+      "high": 47.66,
+      "low": 46.68,
+      "volume": 92401
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 0.98
     },
     "石油": {
-      "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 1.95
     },
     "军工": {
-      "change_pct": 0.58
+      "change_pct": 0.32
     },
     "黄金": {
-      "change_pct": -0.06
+      "change_pct": 2.67
     }
   },
   "news": [
-    {
-      "source": "德国之声",
-      "title": "美军深陷伊朗冲突 撤走亚太最后一艘航母",
-      "link": "https://www.dw.com/zh/美军深陷伊朗冲突-撤走亚太最后一艘航母/a-78396103?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Mon, 17 Aug 2026 10:23:00 GMT",
-      "summary": "为应对中东危机，美国军方不得不调走部署在亚太地区的最后一艘主力航母。这导致该地区进入美军航母战力的“空窗期”。同时美军部署在中东的航母内部已经爆发军人心理健康和物资危机。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "中东",
-        "航母",
-        "伊朗",
-        "美军"
-      ],
-      "action_hits": [
-        "部署"
-      ]
-    },
     {
       "source": "FT中文网",
       "title": "特朗普威胁要轰炸传统盟友阿曼",
@@ -534,30 +510,13 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "阿曼",
-        "伊朗",
+        "霍尔木兹",
         "海峡",
-        "霍尔木兹"
+        "伊朗",
+        "阿曼"
       ],
       "action_hits": [
         "轰炸"
-      ]
-    },
-    {
-      "source": "FT中文网",
-      "title": "美国人对特朗普治下的经济日益悲观",
-      "link": "https://www.ftchinese.com/story/001110625",
-      "published": "Sun, 16 Aug 2026 16:00:00 GMT",
-      "summary": "在美伊战争加剧生活负担危机、迫使美国人缩减支出的背景下，8月消费者信心指数大幅下降，高油价沉重打击老年和低收入人群。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "油价",
-        "美伊"
-      ],
-      "action_hits": [
-        "油价",
-        "打击"
       ]
     },
     {
@@ -569,49 +528,12 @@
       "lang": "zh",
       "relevance_score": 65,
       "entity_hits": [
-        "土耳其",
         "叙利亚",
-        "以色列"
+        "以色列",
+        "土耳其"
       ],
       "action_hits": [
         "空袭"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US condemns 'unnecessary escalation' after Israeli airstrikes on Syrian airbase",
-      "link": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 19 Aug 2026 00:48:16 GMT",
-      "summary": "Damascus called the attacks \"an unjustified act of aggression\" that imperilled regional security.",
-      "lang": "en",
-      "relevance_score": 90,
-      "entity_hits": [
-        "damascus",
-        "syria",
-        "israel"
-      ],
-      "action_hits": [
-        "escalat",
-        "attack",
-        "strike"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 15 Aug 2026 20:21:14 GMT",
-      "summary": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as earlier action against its soldiers.",
-      "lang": "en",
-      "relevance_score": 80,
-      "entity_hits": [
-        "lebanon",
-        "israel",
-        "hezbollah"
-      ],
-      "action_hits": [
-        "killed",
-        "strike"
       ]
     },
     {
@@ -623,75 +545,16 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "damascus",
         "syria",
-        "israel"
+        "israel",
+        "damascus"
       ],
       "action_hits": [
         "strike"
       ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
-      "link": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 29 Jul 2026 18:41:31 GMT",
-      "summary": "The kingdom faces a choice of whether to keep hitting back as a deterrent or to try to de-escalate the situation.",
-      "lang": "en",
-      "relevance_score": 60,
-      "entity_hits": [
-        "saudi",
-        "iran"
-      ],
-      "action_hits": [
-        "escalat",
-        "de-escalat"
-      ]
     }
   ],
   "event_states": [
-    {
-      "event_id": "a3ebcb73e87f",
-      "title": "US condemns 'unnecessary escalation' after Israeli airstrikes on Syrian airbase",
-      "location": "以色列",
-      "first_seen_time": "2026-08-19T00:48:16+00:00",
-      "last_updated_time": "2026-08-19T00:48:16+00:00",
-      "current_status": "escalating",
-      "trend": "worsening",
-      "confidence": 90,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "16a27507c78b",
-      "title": "美国大使指责以色列空袭叙利亚意在助选",
-      "location": "以色列",
-      "first_seen_time": "2026-08-23T16:00:00+00:00",
-      "last_updated_time": "2026-08-23T16:00:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 80,
-      "source_count": 3,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110690",
-      "lang": "zh"
-    },
-    {
-      "event_id": "a936ad6b981c",
-      "title": "美军深陷伊朗冲突 撤走亚太最后一艘航母",
-      "location": "伊朗",
-      "first_seen_time": "2026-08-17T10:23:00+00:00",
-      "last_updated_time": "2026-08-17T10:23:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "worsening",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美军深陷伊朗冲突-撤走亚太最后一艘航母/a-78396103?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
     {
       "event_id": "b790d8e1472c",
       "title": "特朗普威胁要轰炸传统盟友阿曼",
@@ -707,38 +570,23 @@
       "lang": "zh"
     },
     {
-      "event_id": "9467c6cc6ac2",
-      "title": "美国人对特朗普治下的经济日益悲观",
-      "location": "中东地区",
-      "first_seen_time": "2026-08-16T16:00:00+00:00",
-      "last_updated_time": "2026-08-16T16:00:00+00:00",
-      "current_status": "escalating",
-      "trend": "worsening",
+      "event_id": "16a27507c78b",
+      "title": "美国大使指责以色列空袭叙利亚意在助选",
+      "location": "以色列",
+      "first_seen_time": "2026-08-23T16:00:00+00:00",
+      "last_updated_time": "2026-08-23T16:00:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
       "confidence": 70,
-      "source_count": 1,
+      "source_count": 2,
       "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110625",
+      "link": "https://www.ftchinese.com/story/001110690",
       "lang": "zh"
-    },
-    {
-      "event_id": "896102075029",
-      "title": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
-      "location": "伊朗",
-      "first_seen_time": "2026-07-29T18:41:31+00:00",
-      "last_updated_time": "2026-07-29T18:41:31+00:00",
-      "current_status": "escalating",
-      "trend": "worsening",
-      "confidence": 60,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/27",
         "7/28",
         "7/29",
         "7/30",
@@ -767,7 +615,8 @@
         "8/22",
         "8/23",
         "8/24",
-        "8/25"
+        "8/25",
+        "8/26"
       ],
       "transits": [
         0,
@@ -857,34 +706,27 @@
         21,
         69
       ],
-      "date_label": "8月25日"
+      "date_label": "8月26日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-25",
+      "hormuz_last_date": "2026-08-26",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 165,
+      "vlcc_stale_days": 166,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-25"
+      "routes_date": "2026-08-26"
     }
   },
   "meta": {
-    "report_date": "2026.08.25",
-    "report_date_cn": "2026年08月25日",
-    "war_day": 179,
+    "report_date": "2026.08.26",
+    "report_date_cn": "2026年08月26日",
+    "war_day": 180,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-25T10:22:30.288742+08:00",
-    "generated_at_cn": "2026-08-25 10:22:30 北京时间"
+    "generated_at": "2026-08-26T10:27:19.597561+08:00",
+    "generated_at_cn": "2026-08-26 10:27:19 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-28",
-      "brent": 95.62000274658203,
-      "wti": 92.08999633789062,
-      "gold": 4401.2001953125,
-      "usd_cny": 6.7845001220703125
-    },
     {
       "date": "2026-05-29",
       "brent": 91.72000122070312,
@@ -1507,6 +1349,13 @@
       "wti": 85.6500015258789,
       "gold": 4700.10009765625,
       "usd_cny": 6.7230000495910645
+    },
+    {
+      "date": "2026-08-26",
+      "brent": 85.26000213623047,
+      "wti": 80.37000274658203,
+      "gold": 4717.39990234375,
+      "usd_cny": 6.720399856567383
     }
   ]
 }

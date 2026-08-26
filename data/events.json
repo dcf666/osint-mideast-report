@@ -1,47 +1,5 @@
 [
   {
-    "event_id": "a3ebcb73e87f",
-    "title": "US condemns 'unnecessary escalation' after Israeli airstrikes on Syrian airbase",
-    "location": "以色列",
-    "first_seen_time": "2026-08-19T00:48:16+00:00",
-    "last_updated_time": "2026-08-19T00:48:16+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "16a27507c78b",
-    "title": "美国大使指责以色列空袭叙利亚意在助选",
-    "location": "以色列",
-    "first_seen_time": "2026-08-23T16:00:00+00:00",
-    "last_updated_time": "2026-08-23T16:00:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 3,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110690",
-    "lang": "zh"
-  },
-  {
-    "event_id": "a936ad6b981c",
-    "title": "美军深陷伊朗冲突 撤走亚太最后一艘航母",
-    "location": "伊朗",
-    "first_seen_time": "2026-08-17T10:23:00+00:00",
-    "last_updated_time": "2026-08-17T10:23:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "worsening",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美军深陷伊朗冲突-撤走亚太最后一艘航母/a-78396103?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
     "event_id": "b790d8e1472c",
     "title": "特朗普威胁要轰炸传统盟友阿曼",
     "location": "霍尔木兹海峡",
@@ -56,31 +14,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "9467c6cc6ac2",
-    "title": "美国人对特朗普治下的经济日益悲观",
-    "location": "中东地区",
-    "first_seen_time": "2026-08-16T16:00:00+00:00",
-    "last_updated_time": "2026-08-16T16:00:00+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
+    "event_id": "16a27507c78b",
+    "title": "美国大使指责以色列空袭叙利亚意在助选",
+    "location": "以色列",
+    "first_seen_time": "2026-08-23T16:00:00+00:00",
+    "last_updated_time": "2026-08-23T16:00:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
     "confidence": 70,
-    "source_count": 1,
+    "source_count": 2,
     "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110625",
+    "link": "https://www.ftchinese.com/story/001110690",
     "lang": "zh"
-  },
-  {
-    "event_id": "896102075029",
-    "title": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
-    "location": "伊朗",
-    "first_seen_time": "2026-07-29T18:41:31+00:00",
-    "last_updated_time": "2026-07-29T18:41:31+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
-    "confidence": 60,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   }
 ]
