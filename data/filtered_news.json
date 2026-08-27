@@ -1,20 +1,22 @@
 [
   {
     "source": "FT中文网",
-    "title": "特朗普威胁要轰炸传统盟友阿曼",
-    "link": "https://www.ftchinese.com/story/001110641",
-    "published": "Mon, 17 Aug 2026 16:00:00 GMT",
-    "summary": "美国总统威胁称，如果阿曼妨碍华盛顿方面与伊朗达成重新开放霍尔木兹海峡的协议，美国将轰炸这个海湾国家。",
+    "title": "丹麦船东：美伊战争接近乌克兰式僵局",
+    "link": "https://www.ftchinese.com/story/001110725",
+    "published": "Wed, 26 Aug 2026 16:00:00 GMT",
+    "summary": "托姆集团CEO认为市场低估了战争陷入长期僵局的风险。他称，海湾各国已开始扩充油轮船队，力求依靠数量破解伊朗对霍尔木兹海峡的封锁。",
     "lang": "zh",
-    "relevance_score": 70,
+    "relevance_score": 80,
     "entity_hits": [
       "霍尔木兹",
-      "海峡",
       "伊朗",
-      "阿曼"
+      "油轮",
+      "海峡",
+      "美伊"
     ],
     "action_hits": [
-      "轰炸"
+      "油轮",
+      "封锁"
     ]
   },
   {
@@ -26,29 +28,12 @@
     "lang": "zh",
     "relevance_score": 65,
     "entity_hits": [
-      "叙利亚",
+      "土耳其",
       "以色列",
-      "土耳其"
+      "叙利亚"
     ],
     "action_hits": [
       "空袭"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Syria says Israeli strike near Damascus violation of international law",
-    "link": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 22 Aug 2026 21:42:42 GMT",
-    "summary": "The latest incident comes days after reports emerged Israel had struck a military airbase close to the Turkish border.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "syria",
-      "israel",
-      "damascus"
-    ],
-    "action_hits": [
-      "strike"
     ]
   }
 ]

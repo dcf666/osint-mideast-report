@@ -1,16 +1,16 @@
 [
   {
-    "event_id": "b790d8e1472c",
-    "title": "特朗普威胁要轰炸传统盟友阿曼",
+    "event_id": "bcf603d05dd9",
+    "title": "丹麦船东：美伊战争接近乌克兰式僵局",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-08-17T16:00:00+00:00",
-    "last_updated_time": "2026-08-17T16:00:00+00:00",
-    "current_status": "partially_restored",
+    "first_seen_time": "2026-08-26T16:00:00+00:00",
+    "last_updated_time": "2026-08-26T16:00:00+00:00",
+    "current_status": "shipping_disrupted",
     "trend": "stable",
-    "confidence": 70,
+    "confidence": 80,
     "source_count": 1,
     "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110641",
+    "link": "https://www.ftchinese.com/story/001110725",
     "lang": "zh"
   },
   {
@@ -21,8 +21,8 @@
     "last_updated_time": "2026-08-23T16:00:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 70,
-    "source_count": 2,
+    "confidence": 65,
+    "source_count": 1,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110690",
     "lang": "zh"
