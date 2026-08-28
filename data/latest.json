@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 87.2300033569336,
-      "day_change_pct": -0.69,
-      "war_change_pct": -7.49,
+      "current": 87.86000061035156,
+      "day_change_pct": -2.05,
+      "war_change_pct": -6.24,
       "dates": [
-        "07/17",
         "07/20",
         "07/21",
         "07/22",
@@ -34,10 +33,10 @@
         "08/24",
         "08/25",
         "08/26",
-        "08/27"
+        "08/27",
+        "08/28"
       ],
       "prices": [
-        88.1,
         89.22,
         91.01,
         94.07,
@@ -66,16 +65,16 @@
         92.17,
         88.58,
         87.84,
-        87.23
+        89.7,
+        87.86
       ],
-      "updated": "2026-08-27T11:05:33.515959"
+      "updated": "2026-08-28T12:38:16.550024"
     },
     "wti": {
-      "current": 82.30000305175781,
-      "day_change_pct": 0.09,
-      "war_change_pct": -7.19,
+      "current": 82.79000091552734,
+      "day_change_pct": -0.89,
+      "war_change_pct": -6.87,
       "dates": [
-        "07/17",
         "07/20",
         "07/21",
         "07/22",
@@ -104,10 +103,10 @@
         "08/24",
         "08/25",
         "08/26",
-        "08/27"
+        "08/27",
+        "08/28"
       ],
       "prices": [
-        82.49,
         83.23,
         84.91,
         86.83,
@@ -136,16 +135,16 @@
         85.01,
         82.36,
         82.23,
-        82.3
+        83.53,
+        82.79
       ],
-      "updated": "2026-08-27T11:05:33.657427"
+      "updated": "2026-08-28T12:38:16.728123"
     },
     "gold": {
-      "current": 4641.7001953125,
-      "day_change_pct": 0.95,
-      "war_change_pct": 4.37,
+      "current": 4655.0,
+      "day_change_pct": 0.98,
+      "war_change_pct": 3.46,
       "dates": [
-        "07/17",
         "07/20",
         "07/21",
         "07/22",
@@ -174,10 +173,10 @@
         "08/24",
         "08/25",
         "08/26",
-        "08/27"
+        "08/27",
+        "08/28"
       ],
       "prices": [
-        4012.7,
         4010.3,
         4071.1,
         4146.9,
@@ -206,16 +205,16 @@
         4640.8,
         4638.1,
         4598.2,
-        4641.7
+        4609.7,
+        4655.0
       ],
-      "updated": "2026-08-27T11:05:33.794631"
+      "updated": "2026-08-28T12:38:16.906806"
     },
     "usd_cny": {
-      "current": 6.709499835968018,
-      "day_change_pct": -0.16,
-      "war_change_pct": -1.13,
+      "current": 6.720300197601318,
+      "day_change_pct": -0.03,
+      "war_change_pct": -0.86,
       "dates": [
-        "07/17",
         "07/20",
         "07/21",
         "07/22",
@@ -244,10 +243,10 @@
         "08/24",
         "08/25",
         "08/26",
-        "08/27"
+        "08/27",
+        "08/28"
       ],
       "prices": [
-        6.77,
         6.77,
         6.77,
         6.77,
@@ -276,16 +275,16 @@
         6.72,
         6.72,
         6.72,
-        6.71
+        6.72,
+        6.72
       ],
-      "updated": "2026-08-27T11:05:33.904688"
+      "updated": "2026-08-28T12:38:17.082781"
     },
     "nat_gas": {
-      "current": 2.8989999294281006,
-      "day_change_pct": 2.01,
-      "war_change_pct": -4.64,
+      "current": 2.8429999351501465,
+      "day_change_pct": -2.2,
+      "war_change_pct": -13.46,
       "dates": [
-        "07/17",
         "07/20",
         "07/21",
         "07/22",
@@ -314,10 +313,10 @@
         "08/24",
         "08/25",
         "08/26",
-        "08/27"
+        "08/27",
+        "08/28"
       ],
       "prices": [
-        2.91,
         2.86,
         2.87,
         2.92,
@@ -346,9 +345,10 @@
         2.78,
         2.77,
         2.84,
-        2.9
+        2.91,
+        2.84
       ],
-      "updated": "2026-08-27T11:05:34.013247"
+      "updated": "2026-08-28T12:38:17.261524"
     }
   },
   "stocks": {
@@ -485,10 +485,10 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "霍尔木兹",
         "伊朗",
-        "油轮",
         "海峡",
+        "油轮",
+        "霍尔木兹",
         "美伊"
       ],
       "action_hits": [
@@ -505,12 +505,29 @@
       "lang": "zh",
       "relevance_score": 65,
       "entity_hits": [
-        "土耳其",
         "以色列",
+        "土耳其",
         "叙利亚"
       ],
       "action_hits": [
         "空袭"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
+      "link": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 27 Aug 2026 14:17:24 GMT",
+      "summary": "Nickolay Mladenov warns that a collapse of last October's ceasefire would be \"a point of no return\" for the region.",
+      "lang": "en",
+      "relevance_score": 67,
+      "entity_hits": [
+        "hamas",
+        "israel"
+      ],
+      "action_hits": [
+        "ceasefire",
+        "strike"
       ]
     }
   ],
@@ -530,6 +547,20 @@
       "lang": "zh"
     },
     {
+      "event_id": "39a2c966be09",
+      "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
+      "location": "以色列",
+      "first_seen_time": "2026-08-27T14:17:24+00:00",
+      "last_updated_time": "2026-08-27T14:17:24+00:00",
+      "current_status": "ceasefire",
+      "trend": "improving",
+      "confidence": 67,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
       "event_id": "16a27507c78b",
       "title": "美国大使指责以色列空袭叙利亚意在助选",
       "location": "以色列",
@@ -547,7 +578,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/29",
         "7/30",
         "7/31",
         "8/1",
@@ -576,7 +606,8 @@
         "8/24",
         "8/25",
         "8/26",
-        "8/27"
+        "8/27",
+        "8/28"
       ],
       "transits": [
         0,
@@ -666,34 +697,27 @@
         21,
         69
       ],
-      "date_label": "8月27日"
+      "date_label": "8月28日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-27",
+      "hormuz_last_date": "2026-08-28",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 167,
+      "vlcc_stale_days": 168,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-27"
+      "routes_date": "2026-08-28"
     }
   },
   "meta": {
-    "report_date": "2026.08.27",
-    "report_date_cn": "2026年08月27日",
-    "war_day": 181,
+    "report_date": "2026.08.28",
+    "report_date_cn": "2026年08月28日",
+    "war_day": 182,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-27T19:06:08.028768+08:00",
-    "generated_at_cn": "2026-08-27 19:06:08 北京时间"
+    "generated_at": "2026-08-28T20:38:47.255562+08:00",
+    "generated_at_cn": "2026-08-28 20:38:47 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-30",
-      "brent": 92.05000305175781,
-      "wti": 87.36000061035156,
-      "gold": 4560.5,
-      "usd_cny": 6.765699863433838
-    },
     {
       "date": "2026-05-31",
       "brent": 91.12000274658203,
@@ -1316,6 +1340,13 @@
       "wti": 82.30000305175781,
       "gold": 4641.7001953125,
       "usd_cny": 6.709499835968018
+    },
+    {
+      "date": "2026-08-28",
+      "brent": 87.86000061035156,
+      "wti": 82.79000091552734,
+      "gold": 4655.0,
+      "usd_cny": 6.720300197601318
     }
   ]
 }

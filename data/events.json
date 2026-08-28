@@ -14,6 +14,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "39a2c966be09",
+    "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
+    "location": "以色列",
+    "first_seen_time": "2026-08-27T14:17:24+00:00",
+    "last_updated_time": "2026-08-27T14:17:24+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "16a27507c78b",
     "title": "美国大使指责以色列空袭叙利亚意在助选",
     "location": "以色列",

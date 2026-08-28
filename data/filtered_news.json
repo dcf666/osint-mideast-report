@@ -8,10 +8,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "霍尔木兹",
       "伊朗",
-      "油轮",
       "海峡",
+      "油轮",
+      "霍尔木兹",
       "美伊"
     ],
     "action_hits": [
@@ -28,12 +28,29 @@
     "lang": "zh",
     "relevance_score": 65,
     "entity_hits": [
-      "土耳其",
       "以色列",
+      "土耳其",
       "叙利亚"
     ],
     "action_hits": [
       "空袭"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
+    "link": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 27 Aug 2026 14:17:24 GMT",
+    "summary": "Nickolay Mladenov warns that a collapse of last October's ceasefire would be \"a point of no return\" for the region.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "hamas",
+      "israel"
+    ],
+    "action_hits": [
+      "ceasefire",
+      "strike"
     ]
   }
 ]
