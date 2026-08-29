@@ -14,6 +14,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "42e727a940f4",
+    "title": "US plans to cut off military aid to key Middle East ally, BBC told",
+    "location": "伊朗",
+    "first_seen_time": "2026-08-28T19:45:39+00:00",
+    "last_updated_time": "2026-08-28T19:45:39+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 68,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "39a2c966be09",
     "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
     "location": "以色列",

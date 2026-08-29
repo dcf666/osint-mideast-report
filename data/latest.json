@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 87.86000061035156,
-      "day_change_pct": -2.05,
-      "war_change_pct": -6.24,
+      "current": NaN,
+      "day_change_pct": NaN,
+      "war_change_pct": NaN,
       "dates": [
         "07/20",
         "07/21",
@@ -66,14 +66,14 @@
         88.58,
         87.84,
         89.7,
-        87.86
+        NaN
       ],
-      "updated": "2026-08-28T12:38:16.550024"
+      "updated": "2026-08-29T07:46:47.948170"
     },
     "wti": {
-      "current": 82.79000091552734,
-      "day_change_pct": -0.89,
-      "war_change_pct": -6.87,
+      "current": NaN,
+      "day_change_pct": NaN,
+      "war_change_pct": NaN,
       "dates": [
         "07/20",
         "07/21",
@@ -136,14 +136,14 @@
         82.36,
         82.23,
         83.53,
-        82.79
+        NaN
       ],
-      "updated": "2026-08-28T12:38:16.728123"
+      "updated": "2026-08-29T07:46:48.051606"
     },
     "gold": {
-      "current": 4655.0,
-      "day_change_pct": 0.98,
-      "war_change_pct": 3.46,
+      "current": NaN,
+      "day_change_pct": NaN,
+      "war_change_pct": NaN,
       "dates": [
         "07/20",
         "07/21",
@@ -206,16 +206,15 @@
         4638.1,
         4598.2,
         4609.7,
-        4655.0
+        NaN
       ],
-      "updated": "2026-08-28T12:38:16.906806"
+      "updated": "2026-08-29T07:46:48.161688"
     },
     "usd_cny": {
-      "current": 6.720300197601318,
+      "current": 6.7204999923706055,
       "day_change_pct": -0.03,
       "war_change_pct": -0.86,
       "dates": [
-        "07/20",
         "07/21",
         "07/22",
         "07/23",
@@ -244,10 +243,10 @@
         "08/25",
         "08/26",
         "08/27",
-        "08/28"
+        "08/28",
+        "08/29"
       ],
       "prices": [
-        6.77,
         6.77,
         6.77,
         6.77,
@@ -276,14 +275,15 @@
         6.72,
         6.72,
         6.72,
+        6.72,
         6.72
       ],
-      "updated": "2026-08-28T12:38:17.082781"
+      "updated": "2026-08-29T07:46:48.268032"
     },
     "nat_gas": {
-      "current": 2.8429999351501465,
-      "day_change_pct": -2.2,
-      "war_change_pct": -13.46,
+      "current": NaN,
+      "day_change_pct": NaN,
+      "war_change_pct": NaN,
       "dates": [
         "07/20",
         "07/21",
@@ -346,21 +346,27 @@
         2.77,
         2.84,
         2.91,
-        2.84
+        NaN
       ],
-      "updated": "2026-08-28T12:38:17.261524"
+      "updated": "2026-08-29T07:46:48.374097"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 18.98,
+      "change_pct": 1.93,
+      "high": 19.3,
+      "low": 18.82,
+      "volume": 864362
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 18.81,
+      "change_pct": 1.07,
+      "high": 19.1,
+      "low": 18.62,
+      "volume": 455298
     },
     "601975": {
       "name": "招商南油",
@@ -400,7 +406,7 @@
     "002353": {
       "name": "杰瑞股份",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600803": {
       "name": "新奥股份",
@@ -425,7 +431,7 @@
     "600893": {
       "name": "航发动力",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600150": {
       "name": "中国船舶",
@@ -445,7 +451,7 @@
     "600489": {
       "name": "中金黄金",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601088": {
       "name": "中国神华",
@@ -485,15 +491,15 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "伊朗",
-        "海峡",
-        "油轮",
         "霍尔木兹",
-        "美伊"
+        "油轮",
+        "美伊",
+        "海峡",
+        "伊朗"
       ],
       "action_hits": [
-        "油轮",
-        "封锁"
+        "封锁",
+        "油轮"
       ]
     },
     {
@@ -505,12 +511,29 @@
       "lang": "zh",
       "relevance_score": 65,
       "entity_hits": [
-        "以色列",
+        "叙利亚",
         "土耳其",
-        "叙利亚"
+        "以色列"
       ],
       "action_hits": [
         "空袭"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US plans to cut off military aid to key Middle East ally, BBC told",
+      "link": "https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 28 Aug 2026 19:45:39 GMT",
+      "summary": "Iraqi Kurdistan fears the Trump administration's plan will make the region more vulnerable to further attacks from Iran.",
+      "lang": "en",
+      "relevance_score": 68,
+      "entity_hits": [
+        "middle east",
+        "iran",
+        "iraq"
+      ],
+      "action_hits": [
+        "attack"
       ]
     },
     {
@@ -522,8 +545,8 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "hamas",
-        "israel"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
         "ceasefire",
@@ -545,6 +568,20 @@
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001110725",
       "lang": "zh"
+    },
+    {
+      "event_id": "42e727a940f4",
+      "title": "US plans to cut off military aid to key Middle East ally, BBC told",
+      "location": "伊朗",
+      "first_seen_time": "2026-08-28T19:45:39+00:00",
+      "last_updated_time": "2026-08-28T19:45:39+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 68,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "39a2c966be09",
@@ -578,7 +615,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/30",
         "7/31",
         "8/1",
         "8/2",
@@ -607,7 +643,8 @@
         "8/25",
         "8/26",
         "8/27",
-        "8/28"
+        "8/28",
+        "8/29"
       ],
       "transits": [
         0,
@@ -697,34 +734,27 @@
         21,
         69
       ],
-      "date_label": "8月28日"
+      "date_label": "8月29日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-28",
+      "hormuz_last_date": "2026-08-29",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 168,
+      "vlcc_stale_days": 169,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-28"
+      "routes_date": "2026-08-29"
     }
   },
   "meta": {
-    "report_date": "2026.08.28",
-    "report_date_cn": "2026年08月28日",
-    "war_day": 182,
+    "report_date": "2026.08.29",
+    "report_date_cn": "2026年08月29日",
+    "war_day": 183,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-28T20:38:47.255562+08:00",
-    "generated_at_cn": "2026-08-28 20:38:47 北京时间"
+    "generated_at": "2026-08-29T15:48:01.121373+08:00",
+    "generated_at_cn": "2026-08-29 15:48:01 北京时间"
   },
   "history": [
-    {
-      "date": "2026-05-31",
-      "brent": 91.12000274658203,
-      "wti": 87.36000061035156,
-      "gold": 4593.0,
-      "usd_cny": 6.765699863433838
-    },
     {
       "date": "2026-06-01",
       "brent": 93.26000213623047,
@@ -1347,6 +1377,13 @@
       "wti": 82.79000091552734,
       "gold": 4655.0,
       "usd_cny": 6.720300197601318
+    },
+    {
+      "date": "2026-08-29",
+      "brent": NaN,
+      "wti": NaN,
+      "gold": NaN,
+      "usd_cny": 6.7204999923706055
     }
   ]
 }

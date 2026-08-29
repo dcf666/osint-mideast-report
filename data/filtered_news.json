@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
-      "海峡",
-      "油轮",
       "霍尔木兹",
-      "美伊"
+      "油轮",
+      "美伊",
+      "海峡",
+      "伊朗"
     ],
     "action_hits": [
-      "油轮",
-      "封锁"
+      "封锁",
+      "油轮"
     ]
   },
   {
@@ -28,12 +28,29 @@
     "lang": "zh",
     "relevance_score": 65,
     "entity_hits": [
-      "以色列",
+      "叙利亚",
       "土耳其",
-      "叙利亚"
+      "以色列"
     ],
     "action_hits": [
       "空袭"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US plans to cut off military aid to key Middle East ally, BBC told",
+    "link": "https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 28 Aug 2026 19:45:39 GMT",
+    "summary": "Iraqi Kurdistan fears the Trump administration's plan will make the region more vulnerable to further attacks from Iran.",
+    "lang": "en",
+    "relevance_score": 68,
+    "entity_hits": [
+      "middle east",
+      "iran",
+      "iraq"
+    ],
+    "action_hits": [
+      "attack"
     ]
   },
   {
@@ -45,8 +62,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
       "ceasefire",
