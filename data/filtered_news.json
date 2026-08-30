@@ -8,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "美伊",
       "霍尔木兹",
       "油轮",
-      "美伊",
       "海峡",
       "伊朗"
     ],
@@ -45,9 +45,9 @@
     "lang": "en",
     "relevance_score": 68,
     "entity_hits": [
-      "middle east",
       "iran",
-      "iraq"
+      "iraq",
+      "middle east"
     ],
     "action_hits": [
       "attack"
@@ -62,12 +62,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "ceasefire",
-      "strike"
+      "strike",
+      "ceasefire"
     ]
   }
 ]

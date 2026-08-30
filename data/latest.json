@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": NaN,
-      "day_change_pct": NaN,
-      "war_change_pct": NaN,
+      "current": 88.0999984741211,
+      "day_change_pct": -1.78,
+      "war_change_pct": -7.24,
       "dates": [
         "07/20",
         "07/21",
@@ -66,14 +66,14 @@
         88.58,
         87.84,
         89.7,
-        NaN
+        88.1
       ],
-      "updated": "2026-08-29T07:46:47.948170"
+      "updated": "2026-08-30T06:25:09.316596"
     },
     "wti": {
-      "current": NaN,
-      "day_change_pct": NaN,
-      "war_change_pct": NaN,
+      "current": 83.4000015258789,
+      "day_change_pct": -0.16,
+      "war_change_pct": -9.51,
       "dates": [
         "07/20",
         "07/21",
@@ -136,14 +136,14 @@
         82.36,
         82.23,
         83.53,
-        NaN
+        83.4
       ],
-      "updated": "2026-08-29T07:46:48.051606"
+      "updated": "2026-08-30T06:25:09.493950"
     },
     "gold": {
-      "current": NaN,
-      "day_change_pct": NaN,
-      "war_change_pct": NaN,
+      "current": 4529.89990234375,
+      "day_change_pct": -1.73,
+      "war_change_pct": 1.22,
       "dates": [
         "07/20",
         "07/21",
@@ -206,9 +206,9 @@
         4638.1,
         4598.2,
         4609.7,
-        NaN
+        4529.9
       ],
-      "updated": "2026-08-29T07:46:48.161688"
+      "updated": "2026-08-30T06:25:09.668399"
     },
     "usd_cny": {
       "current": 6.7204999923706055,
@@ -244,7 +244,7 @@
         "08/26",
         "08/27",
         "08/28",
-        "08/29"
+        "08/30"
       ],
       "prices": [
         6.77,
@@ -278,12 +278,12 @@
         6.72,
         6.72
       ],
-      "updated": "2026-08-29T07:46:48.268032"
+      "updated": "2026-08-30T06:25:09.847257"
     },
     "nat_gas": {
-      "current": NaN,
-      "day_change_pct": NaN,
-      "war_change_pct": NaN,
+      "current": 2.888000011444092,
+      "day_change_pct": -0.65,
+      "war_change_pct": -9.15,
       "dates": [
         "07/20",
         "07/21",
@@ -346,9 +346,9 @@
         2.77,
         2.84,
         2.91,
-        NaN
+        2.89
       ],
-      "updated": "2026-08-29T07:46:48.374097"
+      "updated": "2026-08-30T06:25:10.021764"
     }
   },
   "stocks": {
@@ -362,11 +362,8 @@
     },
     "600026": {
       "name": "中远海能",
-      "price": 18.81,
-      "change_pct": 1.07,
-      "high": 19.1,
-      "low": 18.62,
-      "volume": 455298
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601975": {
       "name": "招商南油",
@@ -406,7 +403,7 @@
     "002353": {
       "name": "杰瑞股份",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600803": {
       "name": "新奥股份",
@@ -431,7 +428,7 @@
     "600893": {
       "name": "航发动力",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600150": {
       "name": "中国船舶",
@@ -451,7 +448,7 @@
     "600489": {
       "name": "中金黄金",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601088": {
       "name": "中国神华",
@@ -477,8 +474,7 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "黄金": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 0.03
     }
   },
   "news": [
@@ -491,9 +487,9 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
+        "美伊",
         "霍尔木兹",
         "油轮",
-        "美伊",
         "海峡",
         "伊朗"
       ],
@@ -528,9 +524,9 @@
       "lang": "en",
       "relevance_score": 68,
       "entity_hits": [
-        "middle east",
         "iran",
-        "iraq"
+        "iraq",
+        "middle east"
       ],
       "action_hits": [
         "attack"
@@ -545,12 +541,12 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
-        "ceasefire",
-        "strike"
+        "strike",
+        "ceasefire"
       ]
     }
   ],
@@ -615,7 +611,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "7/31",
         "8/1",
         "8/2",
         "8/3",
@@ -644,7 +639,8 @@
         "8/26",
         "8/27",
         "8/28",
-        "8/29"
+        "8/29",
+        "8/30"
       ],
       "transits": [
         0,
@@ -734,34 +730,27 @@
         21,
         69
       ],
-      "date_label": "8月29日"
+      "date_label": "8月30日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-08-29",
+      "hormuz_last_date": "2026-08-30",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 169,
+      "vlcc_stale_days": 170,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-08-29"
+      "routes_date": "2026-08-30"
     }
   },
   "meta": {
-    "report_date": "2026.08.29",
-    "report_date_cn": "2026年08月29日",
-    "war_day": 183,
+    "report_date": "2026.08.30",
+    "report_date_cn": "2026年08月30日",
+    "war_day": 184,
     "war_start": "2026-02-28",
-    "generated_at": "2026-08-29T15:48:01.121373+08:00",
-    "generated_at_cn": "2026-08-29 15:48:01 北京时间"
+    "generated_at": "2026-08-30T14:25:43.730627+08:00",
+    "generated_at_cn": "2026-08-30 14:25:43 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-01",
-      "brent": 93.26000213623047,
-      "wti": 89.75,
-      "gold": 4549.10009765625,
-      "usd_cny": 6.764699935913086
-    },
     {
       "date": "2026-06-02",
       "brent": 93.95999908447266,
@@ -1383,6 +1372,13 @@
       "brent": NaN,
       "wti": NaN,
       "gold": NaN,
+      "usd_cny": 6.7204999923706055
+    },
+    {
+      "date": "2026-08-30",
+      "brent": 88.0999984741211,
+      "wti": 83.4000015258789,
+      "gold": 4529.89990234375,
       "usd_cny": 6.7204999923706055
     }
   ]
