@@ -8,15 +8,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美伊",
-      "霍尔木兹",
-      "油轮",
       "海峡",
-      "伊朗"
+      "美伊",
+      "伊朗",
+      "霍尔木兹",
+      "油轮"
     ],
     "action_hits": [
-      "封锁",
-      "油轮"
+      "油轮",
+      "封锁"
     ]
   },
   {
@@ -28,9 +28,9 @@
     "lang": "zh",
     "relevance_score": 65,
     "entity_hits": [
+      "以色列",
       "叙利亚",
-      "土耳其",
-      "以色列"
+      "土耳其"
     ],
     "action_hits": [
       "空袭"
@@ -45,9 +45,9 @@
     "lang": "en",
     "relevance_score": 68,
     "entity_hits": [
-      "iran",
+      "middle east",
       "iraq",
-      "middle east"
+      "iran"
     ],
     "action_hits": [
       "attack"
@@ -62,12 +62,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
-      "strike",
-      "ceasefire"
+      "ceasefire",
+      "strike"
     ]
   }
 ]
