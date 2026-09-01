@@ -1,5 +1,19 @@
 [
   {
+    "event_id": "1d8aaab93d3a",
+    "title": "US and Iran trade strikes for first time in weeks",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-08-31T13:47:30+00:00",
+    "last_updated_time": "2026-08-31T13:47:30+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "bcf603d05dd9",
     "title": "丹麦船东：美伊战争接近乌克兰式僵局",
     "location": "霍尔木兹海峡",
