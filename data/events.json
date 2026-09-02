@@ -1,17 +1,17 @@
 [
   {
-    "event_id": "1d8aaab93d3a",
-    "title": "US and Iran trade strikes for first time in weeks",
+    "event_id": "10057577a83a",
+    "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-08-31T13:47:30+00:00",
-    "last_updated_time": "2026-08-31T13:47:30+00:00",
+    "first_seen_time": "2026-09-01T16:00:00+00:00",
+    "last_updated_time": "2026-09-01T16:00:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source_count": 2,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110773",
+    "lang": "zh"
   },
   {
     "event_id": "bcf603d05dd9",
@@ -28,17 +28,17 @@
     "lang": "zh"
   },
   {
-    "event_id": "42e727a940f4",
-    "title": "US plans to cut off military aid to key Middle East ally, BBC told",
+    "event_id": "6726a5bc273d",
+    "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
     "location": "伊朗",
-    "first_seen_time": "2026-08-28T19:45:39+00:00",
-    "last_updated_time": "2026-08-28T19:45:39+00:00",
+    "first_seen_time": "2026-09-02T05:12:07+00:00",
+    "last_updated_time": "2026-09-02T05:12:07+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 68,
-    "source_count": 1,
+    "confidence": 73,
+    "source_count": 2,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -54,19 +54,5 @@
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "16a27507c78b",
-    "title": "美国大使指责以色列空袭叙利亚意在助选",
-    "location": "以色列",
-    "first_seen_time": "2026-08-23T16:00:00+00:00",
-    "last_updated_time": "2026-08-23T16:00:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 65,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110690",
-    "lang": "zh"
   }
 ]

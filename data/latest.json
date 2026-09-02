@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 88.75,
-      "day_change_pct": -1.92,
-      "war_change_pct": -6.56,
+      "current": 95.30000305175781,
+      "day_change_pct": 0.69,
+      "war_change_pct": -0.73,
       "dates": [
-        "07/22",
         "07/23",
         "07/24",
         "07/27",
@@ -34,10 +33,10 @@
         "08/27",
         "08/28",
         "08/31",
-        "09/01"
+        "09/01",
+        "09/02"
       ],
       "prices": [
-        94.07,
         100.69,
         96.78,
         88.36,
@@ -66,16 +65,16 @@
         89.7,
         89.31,
         90.49,
-        88.75
+        94.65,
+        95.3
       ],
-      "updated": "2026-09-01T06:10:17.358162"
+      "updated": "2026-09-02T05:36:44.063492"
     },
     "wti": {
-      "current": 86.45999908447266,
-      "day_change_pct": 0.82,
-      "war_change_pct": -6.18,
+      "current": 90.48999786376953,
+      "day_change_pct": 0.3,
+      "war_change_pct": -3.49,
       "dates": [
-        "07/22",
         "07/23",
         "07/24",
         "07/27",
@@ -104,10 +103,10 @@
         "08/27",
         "08/28",
         "08/31",
-        "09/01"
+        "09/01",
+        "09/02"
       ],
       "prices": [
-        86.83,
         92.19,
         89.31,
         82.61,
@@ -136,16 +135,16 @@
         83.53,
         83.4,
         85.76,
-        86.46
+        90.22,
+        90.49
       ],
-      "updated": "2026-09-01T06:10:17.599318"
+      "updated": "2026-09-02T05:36:44.240272"
     },
     "gold": {
-      "current": 4487.89990234375,
-      "day_change_pct": 1.28,
-      "war_change_pct": 0.28,
+      "current": 4357.2001953125,
+      "day_change_pct": 0.21,
+      "war_change_pct": -2.94,
       "dates": [
-        "07/22",
         "07/23",
         "07/24",
         "07/27",
@@ -174,10 +173,10 @@
         "08/27",
         "08/28",
         "08/31",
-        "09/01"
+        "09/01",
+        "09/02"
       ],
       "prices": [
-        4146.9,
         4046.6,
         4067.6,
         4074.5,
@@ -206,16 +205,16 @@
         4609.7,
         4478.1,
         4431.1,
-        4487.9
+        4348.0,
+        4357.2
       ],
-      "updated": "2026-09-01T06:10:17.850477"
+      "updated": "2026-09-02T05:36:44.307975"
     },
     "usd_cny": {
-      "current": 6.719600200653076,
-      "day_change_pct": -0.1,
-      "war_change_pct": -0.69,
+      "current": 6.720900058746338,
+      "day_change_pct": -0.08,
+      "war_change_pct": -0.65,
       "dates": [
-        "07/22",
         "07/23",
         "07/24",
         "07/27",
@@ -244,10 +243,10 @@
         "08/27",
         "08/28",
         "08/31",
-        "09/01"
+        "09/01",
+        "09/02"
       ],
       "prices": [
-        6.77,
         6.77,
         6.77,
         6.77,
@@ -276,16 +275,16 @@
         6.72,
         6.72,
         6.73,
+        6.73,
         6.72
       ],
-      "updated": "2026-09-01T06:10:18.156153"
+      "updated": "2026-09-02T05:36:44.380603"
     },
     "nat_gas": {
-      "current": 2.930000066757202,
-      "day_change_pct": -0.17,
-      "war_change_pct": -7.83,
+      "current": 2.950000047683716,
+      "day_change_pct": 1.58,
+      "war_change_pct": -6.85,
       "dates": [
-        "07/22",
         "07/23",
         "07/24",
         "07/27",
@@ -314,10 +313,10 @@
         "08/27",
         "08/28",
         "08/31",
-        "09/01"
+        "09/01",
+        "09/02"
       ],
       "prices": [
-        2.92,
         2.92,
         2.87,
         2.77,
@@ -346,21 +345,25 @@
         2.91,
         2.89,
         2.93,
-        2.93
+        2.9,
+        2.95
       ],
-      "updated": "2026-09-01T06:10:18.427091"
+      "updated": "2026-09-02T05:36:44.446569"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.93,
+      "change_pct": -2.5,
+      "high": 18.7,
+      "low": 17.83,
+      "volume": 666254
     },
     "600026": {
       "name": "中远海能",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601975": {
       "name": "招商南油",
@@ -370,7 +373,7 @@
     "600938": {
       "name": "中国海油",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601857": {
       "name": "中国石油",
@@ -379,8 +382,11 @@
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.45,
+      "change_pct": -1.27,
+      "high": 5.62,
+      "low": 5.44,
+      "volume": 1896830
     },
     "603619": {
       "name": "中曼石油",
@@ -449,16 +455,16 @@
     },
     "601088": {
       "name": "中国神华",
-      "price": 48.76,
-      "change_pct": -0.04,
-      "high": 49.48,
-      "low": 48.4,
-      "volume": 257574
+      "price": 48.27,
+      "change_pct": -0.06,
+      "high": 49.05,
+      "low": 47.4,
+      "volume": 269331
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": 2.06
+      "change_pct": -0.23
     },
     "石油": {
       "change_pct": null,
@@ -469,13 +475,34 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "军工": {
-      "change_pct": 2.25
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "黄金": {
-      "change_pct": 1.19
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "news": [
+    {
+      "source": "FT中文网",
+      "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
+      "link": "https://www.ftchinese.com/story/001110773",
+      "published": "Tue, 01 Sep 2026 16:00:00 GMT",
+      "summary": "针对霍尔木兹海峡航运的袭击事件目前呈上升趋势，尽管美国声称其军方正在指引商船安全通过这一关键水道。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "油轮",
+        "霍尔木兹",
+        "海峡",
+        "沙特"
+      ],
+      "action_hits": [
+        "油轮",
+        "航运"
+      ]
+    },
     {
       "source": "FT中文网",
       "title": "丹麦船东：美伊战争接近乌克兰式僵局",
@@ -485,32 +512,15 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "美伊",
+        "油轮",
         "霍尔木兹",
         "伊朗",
         "海峡",
-        "油轮"
+        "美伊"
       ],
       "action_hits": [
         "封锁",
         "油轮"
-      ]
-    },
-    {
-      "source": "FT中文网",
-      "title": "美国大使指责以色列空袭叙利亚意在助选",
-      "link": "https://www.ftchinese.com/story/001110690",
-      "published": "Sun, 23 Aug 2026 16:00:00 GMT",
-      "summary": "美国驻土耳其大使、叙利亚事务特使巴拉克称，以色列空袭叙利亚空军基地意在“诱使”土耳其卷入冲突，从而为秋季的以色列大选造势。",
-      "lang": "zh",
-      "relevance_score": 65,
-      "entity_hits": [
-        "叙利亚",
-        "以色列",
-        "土耳其"
-      ],
-      "action_hits": [
-        "空袭"
       ]
     },
     {
@@ -523,13 +533,50 @@
       "relevance_score": 90,
       "entity_hits": [
         "iran",
-        "strait",
-        "hormuz"
+        "hormuz",
+        "strait"
       ],
       "action_hits": [
         "killed",
-        "strike",
-        "attack"
+        "attack",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "US and Iran trade strikes for first time in weeks",
+      "link": "https://www.bbc.co.uk/news/videos/cwyzw0el1lpo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 31 Aug 2026 15:50:00 GMT",
+      "summary": "Iran and the US have traded strikes after American forces attacked two rocket launchers on Larak Island in the Strait of Hormuz.",
+      "lang": "en",
+      "relevance_score": 90,
+      "entity_hits": [
+        "iran",
+        "hormuz",
+        "strait"
+      ],
+      "action_hits": [
+        "launch",
+        "attack",
+        "strike"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
+      "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 02 Sep 2026 05:12:07 GMT",
+      "summary": "The Iranian Red Crescent says a child was among those killed when shrapnel from a US strike hit a home. The US military says it is aware of the reports and it never targets civilians.",
+      "lang": "en",
+      "relevance_score": 73,
+      "entity_hits": [
+        "iran",
+        "middle east"
+      ],
+      "action_hits": [
+        "killed",
+        "attack",
+        "strike"
       ]
     },
     {
@@ -558,8 +605,8 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "hamas",
-        "israel"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
         "strike",
@@ -569,18 +616,18 @@
   ],
   "event_states": [
     {
-      "event_id": "1d8aaab93d3a",
-      "title": "US and Iran trade strikes for first time in weeks",
+      "event_id": "10057577a83a",
+      "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-08-31T13:47:30+00:00",
-      "last_updated_time": "2026-08-31T13:47:30+00:00",
+      "first_seen_time": "2026-09-01T16:00:00+00:00",
+      "last_updated_time": "2026-09-01T16:00:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 90,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
+      "source_count": 2,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110773",
+      "lang": "zh"
     },
     {
       "event_id": "bcf603d05dd9",
@@ -597,17 +644,17 @@
       "lang": "zh"
     },
     {
-      "event_id": "42e727a940f4",
-      "title": "US plans to cut off military aid to key Middle East ally, BBC told",
+      "event_id": "6726a5bc273d",
+      "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
       "location": "伊朗",
-      "first_seen_time": "2026-08-28T19:45:39+00:00",
-      "last_updated_time": "2026-08-28T19:45:39+00:00",
+      "first_seen_time": "2026-09-02T05:12:07+00:00",
+      "last_updated_time": "2026-09-02T05:12:07+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
-      "confidence": 68,
-      "source_count": 1,
+      "confidence": 73,
+      "source_count": 2,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -623,26 +670,11 @@
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
-    },
-    {
-      "event_id": "16a27507c78b",
-      "title": "美国大使指责以色列空袭叙利亚意在助选",
-      "location": "以色列",
-      "first_seen_time": "2026-08-23T16:00:00+00:00",
-      "last_updated_time": "2026-08-23T16:00:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 65,
-      "source_count": 1,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110690",
-      "lang": "zh"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/3",
         "8/4",
         "8/5",
         "8/6",
@@ -671,7 +703,8 @@
         "8/29",
         "8/30",
         "8/31",
-        "9/1"
+        "9/1",
+        "9/2"
       ],
       "transits": [
         0,
@@ -761,34 +794,27 @@
         21,
         69
       ],
-      "date_label": "9月1日"
+      "date_label": "9月2日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-01",
+      "hormuz_last_date": "2026-09-02",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 172,
+      "vlcc_stale_days": 173,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-01"
+      "routes_date": "2026-09-02"
     }
   },
   "meta": {
-    "report_date": "2026.09.01",
-    "report_date_cn": "2026年09月01日",
-    "war_day": 186,
+    "report_date": "2026.09.02",
+    "report_date_cn": "2026年09月02日",
+    "war_day": 187,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-01T14:10:50.494580+08:00",
-    "generated_at_cn": "2026-09-01 14:10:50 北京时间"
+    "generated_at": "2026-09-02T13:39:25.357214+08:00",
+    "generated_at_cn": "2026-09-02 13:39:25 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-04",
-      "brent": 97.16999816894531,
-      "wti": 95.37000274658203,
-      "gold": 4495.2998046875,
-      "usd_cny": 6.774799823760986
-    },
     {
       "date": "2026-06-05",
       "brent": 95.44999694824219,
@@ -1411,6 +1437,13 @@
       "wti": 86.45999908447266,
       "gold": 4487.89990234375,
       "usd_cny": 6.719600200653076
+    },
+    {
+      "date": "2026-09-02",
+      "brent": 95.30000305175781,
+      "wti": 90.48999786376953,
+      "gold": 4357.2001953125,
+      "usd_cny": 6.720900058746338
     }
   ]
 }

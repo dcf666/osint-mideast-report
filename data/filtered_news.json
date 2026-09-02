@@ -1,6 +1,25 @@
 [
   {
     "source": "FT中文网",
+    "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
+    "link": "https://www.ftchinese.com/story/001110773",
+    "published": "Tue, 01 Sep 2026 16:00:00 GMT",
+    "summary": "针对霍尔木兹海峡航运的袭击事件目前呈上升趋势，尽管美国声称其军方正在指引商船安全通过这一关键水道。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "油轮",
+      "霍尔木兹",
+      "海峡",
+      "沙特"
+    ],
+    "action_hits": [
+      "油轮",
+      "航运"
+    ]
+  },
+  {
+    "source": "FT中文网",
     "title": "丹麦船东：美伊战争接近乌克兰式僵局",
     "link": "https://www.ftchinese.com/story/001110725",
     "published": "Wed, 26 Aug 2026 16:00:00 GMT",
@@ -8,32 +27,15 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美伊",
+      "油轮",
       "霍尔木兹",
       "伊朗",
       "海峡",
-      "油轮"
+      "美伊"
     ],
     "action_hits": [
       "封锁",
       "油轮"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "美国大使指责以色列空袭叙利亚意在助选",
-    "link": "https://www.ftchinese.com/story/001110690",
-    "published": "Sun, 23 Aug 2026 16:00:00 GMT",
-    "summary": "美国驻土耳其大使、叙利亚事务特使巴拉克称，以色列空袭叙利亚空军基地意在“诱使”土耳其卷入冲突，从而为秋季的以色列大选造势。",
-    "lang": "zh",
-    "relevance_score": 65,
-    "entity_hits": [
-      "叙利亚",
-      "以色列",
-      "土耳其"
-    ],
-    "action_hits": [
-      "空袭"
     ]
   },
   {
@@ -46,13 +48,50 @@
     "relevance_score": 90,
     "entity_hits": [
       "iran",
-      "strait",
-      "hormuz"
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
       "killed",
-      "strike",
-      "attack"
+      "attack",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US and Iran trade strikes for first time in weeks",
+    "link": "https://www.bbc.co.uk/news/videos/cwyzw0el1lpo?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 31 Aug 2026 15:50:00 GMT",
+    "summary": "Iran and the US have traded strikes after American forces attacked two rocket launchers on Larak Island in the Strait of Hormuz.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "iran",
+      "hormuz",
+      "strait"
+    ],
+    "action_hits": [
+      "launch",
+      "attack",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
+    "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 02 Sep 2026 05:12:07 GMT",
+    "summary": "The Iranian Red Crescent says a child was among those killed when shrapnel from a US strike hit a home. The US military says it is aware of the reports and it never targets civilians.",
+    "lang": "en",
+    "relevance_score": 73,
+    "entity_hits": [
+      "iran",
+      "middle east"
+    ],
+    "action_hits": [
+      "killed",
+      "attack",
+      "strike"
     ]
   },
   {
@@ -81,8 +120,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
       "strike",
