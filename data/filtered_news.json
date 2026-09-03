@@ -1,5 +1,24 @@
 [
   {
+    "source": "德国之声",
+    "title": "美伊冲突再度升级 海湾多国受波及",
+    "link": "https://www.dw.com/zh/美伊冲突再度升级-海湾多国受波及/a-78765320?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 2 Sep 2026 13:59:00 GMT",
+    "summary": "美国对伊朗发动大规模空袭之后，中东局势再度升级。周三，在伊朗的一处婚礼受到轰炸后，德黑兰对美国在中东的多个军事基地发动了攻击。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "伊朗",
+      "美伊",
+      "德黑兰",
+      "中东"
+    ],
+    "action_hits": [
+      "轰炸",
+      "空袭"
+    ]
+  },
+  {
     "source": "FT中文网",
     "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
     "link": "https://www.ftchinese.com/story/001110773",
@@ -9,9 +28,9 @@
     "relevance_score": 80,
     "entity_hits": [
       "油轮",
-      "霍尔木兹",
+      "沙特",
       "海峡",
-      "沙特"
+      "霍尔木兹"
     ],
     "action_hits": [
       "油轮",
@@ -28,14 +47,34 @@
     "relevance_score": 80,
     "entity_hits": [
       "油轮",
-      "霍尔木兹",
-      "伊朗",
       "海峡",
-      "美伊"
+      "美伊",
+      "霍尔木兹",
+      "伊朗"
     ],
     "action_hits": [
-      "封锁",
-      "油轮"
+      "油轮",
+      "封锁"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
+    "link": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 02 Sep 2026 17:33:45 GMT",
+    "summary": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "strait",
+      "saudi",
+      "hormuz",
+      "iran"
+    ],
+    "action_hits": [
+      "killed",
+      "tanker",
+      "attack"
     ]
   },
   {
@@ -47,14 +86,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
+      "strait",
       "hormuz",
-      "strait"
+      "iran"
     ],
     "action_hits": [
       "killed",
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -66,32 +105,34 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
+      "strait",
       "hormuz",
-      "strait"
+      "iran"
     ],
     "action_hits": [
       "launch",
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
+    "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
     "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 02 Sep 2026 05:12:07 GMT",
-    "summary": "The Iranian Red Crescent says a child was among those killed when shrapnel from a US strike hit a home. The US military says it is aware of the reports and it never targets civilians.",
+    "published": "Wed, 02 Sep 2026 15:33:19 GMT",
+    "summary": "Iranian media reports two children were among those killed when shrapnel hit a home. Iran then launched missiles and drones at US targets in the Middle East.",
     "lang": "en",
-    "relevance_score": 73,
+    "relevance_score": 83,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
-      "killed",
-      "attack",
-      "strike"
+      "missile",
+      "launch",
+      "strike",
+      "drone",
+      "killed"
     ]
   },
   {
@@ -103,9 +144,9 @@
     "lang": "en",
     "relevance_score": 68,
     "entity_hits": [
-      "iran",
       "iraq",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
       "attack"

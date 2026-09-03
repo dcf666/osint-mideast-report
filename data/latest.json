@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 95.30000305175781,
-      "day_change_pct": 0.69,
-      "war_change_pct": -0.73,
+      "current": 94.69999694824219,
+      "day_change_pct": -0.97,
+      "war_change_pct": -3.18,
       "dates": [
-        "07/23",
         "07/24",
         "07/27",
         "07/28",
@@ -34,10 +33,10 @@
         "08/28",
         "08/31",
         "09/01",
-        "09/02"
+        "09/02",
+        "09/03"
       ],
       "prices": [
-        100.69,
         96.78,
         88.36,
         84.09,
@@ -66,16 +65,16 @@
         89.31,
         90.49,
         94.65,
-        95.3
+        95.63,
+        94.7
       ],
-      "updated": "2026-09-02T05:36:44.063492"
+      "updated": "2026-09-03T05:36:27.320995"
     },
     "wti": {
-      "current": 90.48999786376953,
-      "day_change_pct": 0.3,
-      "war_change_pct": -3.49,
+      "current": 90.30000305175781,
+      "day_change_pct": -0.78,
+      "war_change_pct": -5.96,
       "dates": [
-        "07/23",
         "07/24",
         "07/27",
         "07/28",
@@ -104,10 +103,10 @@
         "08/28",
         "08/31",
         "09/01",
-        "09/02"
+        "09/02",
+        "09/03"
       ],
       "prices": [
-        92.19,
         89.31,
         82.61,
         79.26,
@@ -136,16 +135,16 @@
         83.4,
         85.76,
         90.22,
-        90.49
+        91.01,
+        90.3
       ],
-      "updated": "2026-09-02T05:36:44.240272"
+      "updated": "2026-09-03T05:36:27.396446"
     },
     "gold": {
-      "current": 4357.2001953125,
-      "day_change_pct": 0.21,
-      "war_change_pct": -2.94,
+      "current": 4470.89990234375,
+      "day_change_pct": 2.4,
+      "war_change_pct": 0.77,
       "dates": [
-        "07/23",
         "07/24",
         "07/27",
         "07/28",
@@ -174,10 +173,10 @@
         "08/28",
         "08/31",
         "09/01",
-        "09/02"
+        "09/02",
+        "09/03"
       ],
       "prices": [
-        4046.6,
         4067.6,
         4074.5,
         4036.3,
@@ -206,16 +205,16 @@
         4478.1,
         4431.1,
         4348.0,
-        4357.2
+        4366.3,
+        4470.9
       ],
-      "updated": "2026-09-02T05:36:44.307975"
+      "updated": "2026-09-03T05:36:27.467901"
     },
     "usd_cny": {
-      "current": 6.720900058746338,
-      "day_change_pct": -0.08,
-      "war_change_pct": -0.65,
+      "current": 6.71750020980835,
+      "day_change_pct": -0.04,
+      "war_change_pct": -0.66,
       "dates": [
-        "07/23",
         "07/24",
         "07/27",
         "07/28",
@@ -244,10 +243,10 @@
         "08/28",
         "08/31",
         "09/01",
-        "09/02"
+        "09/02",
+        "09/03"
       ],
       "prices": [
-        6.77,
         6.77,
         6.77,
         6.77,
@@ -276,16 +275,16 @@
         6.72,
         6.73,
         6.73,
+        6.72,
         6.72
       ],
-      "updated": "2026-09-02T05:36:44.380603"
+      "updated": "2026-09-03T05:36:27.550619"
     },
     "nat_gas": {
-      "current": 2.950000047683716,
-      "day_change_pct": 1.58,
-      "war_change_pct": -6.85,
+      "current": 3.009000062942505,
+      "day_change_pct": 1.79,
+      "war_change_pct": -6.38,
       "dates": [
-        "07/23",
         "07/24",
         "07/27",
         "07/28",
@@ -314,10 +313,10 @@
         "08/28",
         "08/31",
         "09/01",
-        "09/02"
+        "09/02",
+        "09/03"
       ],
       "prices": [
-        2.92,
         2.87,
         2.77,
         2.66,
@@ -346,34 +345,41 @@
         2.89,
         2.93,
         2.9,
-        2.95
+        2.96,
+        3.01
       ],
-      "updated": "2026-09-02T05:36:44.446569"
+      "updated": "2026-09-03T05:36:27.622346"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.93,
-      "change_pct": -2.5,
-      "high": 18.7,
-      "low": 17.83,
-      "volume": 666254
+      "price": 19.12,
+      "change_pct": 7.36,
+      "high": 19.49,
+      "low": 18.16,
+      "volume": 1180317
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 20.06,
+      "change_pct": 7.33,
+      "high": 20.56,
+      "low": 18.9,
+      "volume": 971046
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 4.27,
+      "change_pct": 4.66,
+      "high": 4.39,
+      "low": 4.09,
+      "volume": 2092988
     },
     "600938": {
       "name": "中国海油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601857": {
       "name": "中国石油",
@@ -382,11 +388,8 @@
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.45,
-      "change_pct": -1.27,
-      "high": 5.62,
-      "low": 5.44,
-      "volume": 1896830
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "603619": {
       "name": "中曼石油",
@@ -400,8 +403,11 @@
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 12.52,
+      "change_pct": -1.26,
+      "high": 12.77,
+      "low": 12.51,
+      "volume": 91089
     },
     "002353": {
       "name": "杰瑞股份",
@@ -420,51 +426,70 @@
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 16.54,
+      "change_pct": 0.55,
+      "high": 16.77,
+      "low": 16.46,
+      "volume": 562114
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 48.01,
+      "change_pct": -0.19,
+      "high": 48.47,
+      "low": 47.27,
+      "volume": 129943
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 39.06,
+      "change_pct": 0.59,
+      "high": 39.48,
+      "low": 38.63,
+      "volume": 211206
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 34.3,
+      "change_pct": 1.09,
+      "high": 35.04,
+      "low": 34.1,
+      "volume": 815667
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 37.64,
+      "change_pct": -0.66,
+      "high": 38.61,
+      "low": 37.34,
+      "volume": 813185
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 46.57,
+      "change_pct": 1.75,
+      "high": 47.45,
+      "low": 45.88,
+      "volume": 459812
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 25.68,
+      "change_pct": 3.97,
+      "high": 26.0,
+      "low": 25.01,
+      "volume": 853191
     },
     "601088": {
       "name": "中国神华",
-      "price": 48.27,
-      "change_pct": -0.06,
-      "high": 49.05,
-      "low": 47.4,
-      "volume": 269331
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.23
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
       "change_pct": null,
@@ -485,6 +510,25 @@
   },
   "news": [
     {
+      "source": "德国之声",
+      "title": "美伊冲突再度升级 海湾多国受波及",
+      "link": "https://www.dw.com/zh/美伊冲突再度升级-海湾多国受波及/a-78765320?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Wed, 2 Sep 2026 13:59:00 GMT",
+      "summary": "美国对伊朗发动大规模空袭之后，中东局势再度升级。周三，在伊朗的一处婚礼受到轰炸后，德黑兰对美国在中东的多个军事基地发动了攻击。",
+      "lang": "zh",
+      "relevance_score": 80,
+      "entity_hits": [
+        "伊朗",
+        "美伊",
+        "德黑兰",
+        "中东"
+      ],
+      "action_hits": [
+        "轰炸",
+        "空袭"
+      ]
+    },
+    {
       "source": "FT中文网",
       "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
       "link": "https://www.ftchinese.com/story/001110773",
@@ -494,9 +538,9 @@
       "relevance_score": 80,
       "entity_hits": [
         "油轮",
-        "霍尔木兹",
+        "沙特",
         "海峡",
-        "沙特"
+        "霍尔木兹"
       ],
       "action_hits": [
         "油轮",
@@ -513,14 +557,34 @@
       "relevance_score": 80,
       "entity_hits": [
         "油轮",
-        "霍尔木兹",
-        "伊朗",
         "海峡",
-        "美伊"
+        "美伊",
+        "霍尔木兹",
+        "伊朗"
       ],
       "action_hits": [
-        "封锁",
-        "油轮"
+        "油轮",
+        "封锁"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
+      "link": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 02 Sep 2026 17:33:45 GMT",
+      "summary": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
+      "lang": "en",
+      "relevance_score": 90,
+      "entity_hits": [
+        "strait",
+        "saudi",
+        "hormuz",
+        "iran"
+      ],
+      "action_hits": [
+        "killed",
+        "tanker",
+        "attack"
       ]
     },
     {
@@ -532,14 +596,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "iran",
+        "strait",
         "hormuz",
-        "strait"
+        "iran"
       ],
       "action_hits": [
         "killed",
-        "attack",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -551,32 +615,34 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "iran",
+        "strait",
         "hormuz",
-        "strait"
+        "iran"
       ],
       "action_hits": [
         "launch",
-        "attack",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
       "source": "BBC中东",
-      "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
+      "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
       "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 02 Sep 2026 05:12:07 GMT",
-      "summary": "The Iranian Red Crescent says a child was among those killed when shrapnel from a US strike hit a home. The US military says it is aware of the reports and it never targets civilians.",
+      "published": "Wed, 02 Sep 2026 15:33:19 GMT",
+      "summary": "Iranian media reports two children were among those killed when shrapnel hit a home. Iran then launched missiles and drones at US targets in the Middle East.",
       "lang": "en",
-      "relevance_score": 73,
+      "relevance_score": 83,
       "entity_hits": [
-        "iran",
-        "middle east"
+        "middle east",
+        "iran"
       ],
       "action_hits": [
-        "killed",
-        "attack",
-        "strike"
+        "missile",
+        "launch",
+        "strike",
+        "drone",
+        "killed"
       ]
     },
     {
@@ -588,9 +654,9 @@
       "lang": "en",
       "relevance_score": 68,
       "entity_hits": [
-        "iran",
         "iraq",
-        "middle east"
+        "middle east",
+        "iran"
       ],
       "action_hits": [
         "attack"
@@ -617,16 +683,44 @@
   "event_states": [
     {
       "event_id": "10057577a83a",
-      "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
+      "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
       "location": "霍尔木兹海峡",
       "first_seen_time": "2026-09-01T16:00:00+00:00",
-      "last_updated_time": "2026-09-01T16:00:00+00:00",
+      "last_updated_time": "2026-09-02T17:33:45+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 90,
-      "source_count": 2,
+      "source_count": 3,
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001110773",
+      "lang": "zh"
+    },
+    {
+      "event_id": "1d39650a1237",
+      "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
+      "location": "伊朗",
+      "first_seen_time": "2026-09-02T15:33:19+00:00",
+      "last_updated_time": "2026-09-02T15:33:19+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 83,
+      "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "58b7973130ca",
+      "title": "美伊冲突再度升级 海湾多国受波及",
+      "location": "伊朗·德黑兰",
+      "first_seen_time": "2026-09-02T13:59:00+00:00",
+      "last_updated_time": "2026-09-02T13:59:00+00:00",
+      "current_status": "escalating",
+      "trend": "worsening",
+      "confidence": 80,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美伊冲突再度升级-海湾多国受波及/a-78765320?maca=chi-rss-chi-all-1127-xml-mrss",
       "lang": "zh"
     },
     {
@@ -642,20 +736,6 @@
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001110725",
       "lang": "zh"
-    },
-    {
-      "event_id": "6726a5bc273d",
-      "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
-      "location": "伊朗",
-      "first_seen_time": "2026-09-02T05:12:07+00:00",
-      "last_updated_time": "2026-09-02T05:12:07+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 73,
-      "source_count": 2,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
     },
     {
       "event_id": "39a2c966be09",
@@ -675,7 +755,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/4",
         "8/5",
         "8/6",
         "8/7",
@@ -704,7 +783,8 @@
         "8/30",
         "8/31",
         "9/1",
-        "9/2"
+        "9/2",
+        "9/3"
       ],
       "transits": [
         0,
@@ -794,34 +874,27 @@
         21,
         69
       ],
-      "date_label": "9月2日"
+      "date_label": "9月3日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-02",
+      "hormuz_last_date": "2026-09-03",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 173,
+      "vlcc_stale_days": 174,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-02"
+      "routes_date": "2026-09-03"
     }
   },
   "meta": {
-    "report_date": "2026.09.02",
-    "report_date_cn": "2026年09月02日",
-    "war_day": 187,
+    "report_date": "2026.09.03",
+    "report_date_cn": "2026年09月03日",
+    "war_day": 188,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-02T13:39:25.357214+08:00",
-    "generated_at_cn": "2026-09-02 13:39:25 北京时间"
+    "generated_at": "2026-09-03T13:37:21.923601+08:00",
+    "generated_at_cn": "2026-09-03 13:37:21 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-05",
-      "brent": 95.44999694824219,
-      "wti": 93.11000061035156,
-      "gold": 4473.2998046875,
-      "usd_cny": 6.773499965667725
-    },
     {
       "date": "2026-06-06",
       "brent": 93.08999633789062,
@@ -1444,6 +1517,13 @@
       "wti": 90.48999786376953,
       "gold": 4357.2001953125,
       "usd_cny": 6.720900058746338
+    },
+    {
+      "date": "2026-09-03",
+      "brent": 94.69999694824219,
+      "wti": 90.30000305175781,
+      "gold": 4470.89990234375,
+      "usd_cny": 6.71750020980835
     }
   ]
 }

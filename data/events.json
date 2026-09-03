@@ -1,16 +1,44 @@
 [
   {
     "event_id": "10057577a83a",
-    "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
+    "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
     "location": "霍尔木兹海峡",
     "first_seen_time": "2026-09-01T16:00:00+00:00",
-    "last_updated_time": "2026-09-01T16:00:00+00:00",
+    "last_updated_time": "2026-09-02T17:33:45+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 2,
+    "source_count": 3,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110773",
+    "lang": "zh"
+  },
+  {
+    "event_id": "1d39650a1237",
+    "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
+    "location": "伊朗",
+    "first_seen_time": "2026-09-02T15:33:19+00:00",
+    "last_updated_time": "2026-09-02T15:33:19+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 83,
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "58b7973130ca",
+    "title": "美伊冲突再度升级 海湾多国受波及",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-09-02T13:59:00+00:00",
+    "last_updated_time": "2026-09-02T13:59:00+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美伊冲突再度升级-海湾多国受波及/a-78765320?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
@@ -26,20 +54,6 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110725",
     "lang": "zh"
-  },
-  {
-    "event_id": "6726a5bc273d",
-    "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
-    "location": "伊朗",
-    "first_seen_time": "2026-09-02T05:12:07+00:00",
-    "last_updated_time": "2026-09-02T05:12:07+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 73,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   },
   {
     "event_id": "39a2c966be09",
