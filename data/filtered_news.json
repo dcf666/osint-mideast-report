@@ -8,10 +8,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "中东",
       "伊朗",
-      "美伊",
       "德黑兰",
-      "中东"
+      "美伊"
     ],
     "action_hits": [
       "轰炸",
@@ -27,10 +27,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "油轮",
-      "沙特",
       "海峡",
-      "霍尔木兹"
+      "霍尔木兹",
+      "油轮",
+      "沙特"
     ],
     "action_hits": [
       "油轮",
@@ -46,11 +46,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
+      "伊朗",
+      "霍尔木兹",
       "油轮",
       "海峡",
-      "美伊",
-      "霍尔木兹",
-      "伊朗"
+      "美伊"
     ],
     "action_hits": [
       "油轮",
@@ -66,15 +66,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "strait",
-      "saudi",
       "hormuz",
-      "iran"
+      "strait",
+      "iran",
+      "saudi"
     ],
     "action_hits": [
-      "killed",
       "tanker",
-      "attack"
+      "attack",
+      "killed"
     ]
   },
   {
@@ -86,14 +86,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "strait",
       "hormuz",
+      "strait",
       "iran"
     ],
     "action_hits": [
-      "killed",
       "strike",
-      "attack"
+      "attack",
+      "killed"
     ]
   },
   {
@@ -105,8 +105,8 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "strait",
       "hormuz",
+      "strait",
       "iran"
     ],
     "action_hits": [
@@ -129,44 +129,10 @@
     ],
     "action_hits": [
       "missile",
-      "launch",
-      "strike",
       "drone",
-      "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US plans to cut off military aid to key Middle East ally, BBC told",
-    "link": "https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 28 Aug 2026 19:45:39 GMT",
-    "summary": "Iraqi Kurdistan fears the Trump administration's plan will make the region more vulnerable to further attacks from Iran.",
-    "lang": "en",
-    "relevance_score": 68,
-    "entity_hits": [
-      "iraq",
-      "middle east",
-      "iran"
-    ],
-    "action_hits": [
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
-    "link": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 27 Aug 2026 14:17:24 GMT",
-    "summary": "Nickolay Mladenov warns that a collapse of last October's ceasefire would be \"a point of no return\" for the region.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "israel",
-      "hamas"
-    ],
-    "action_hits": [
       "strike",
-      "ceasefire"
+      "launch",
+      "killed"
     ]
   }
 ]

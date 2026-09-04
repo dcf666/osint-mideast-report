@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 94.69999694824219,
-      "day_change_pct": -0.97,
-      "war_change_pct": -3.18,
+      "current": 95.52999877929688,
+      "day_change_pct": -0.1,
+      "war_change_pct": 0.53,
       "dates": [
         "07/24",
         "07/27",
@@ -34,7 +34,7 @@
         "08/31",
         "09/01",
         "09/02",
-        "09/03"
+        "09/04"
       ],
       "prices": [
         96.78,
@@ -66,14 +66,14 @@
         90.49,
         94.65,
         95.63,
-        94.7
+        95.53
       ],
-      "updated": "2026-09-03T05:36:27.320995"
+      "updated": "2026-09-04T05:42:18.272348"
     },
     "wti": {
-      "current": 90.30000305175781,
-      "day_change_pct": -0.78,
-      "war_change_pct": -5.96,
+      "current": 91.48999786376953,
+      "day_change_pct": 0.53,
+      "war_change_pct": -1.67,
       "dates": [
         "07/24",
         "07/27",
@@ -104,7 +104,7 @@
         "08/31",
         "09/01",
         "09/02",
-        "09/03"
+        "09/04"
       ],
       "prices": [
         89.31,
@@ -136,14 +136,14 @@
         85.76,
         90.22,
         91.01,
-        90.3
+        91.49
       ],
-      "updated": "2026-09-03T05:36:27.396446"
+      "updated": "2026-09-04T05:42:18.492752"
     },
     "gold": {
-      "current": 4470.89990234375,
-      "day_change_pct": 2.4,
-      "war_change_pct": 0.77,
+      "current": 4518.7001953125,
+      "day_change_pct": 3.49,
+      "war_change_pct": 0.96,
       "dates": [
         "07/24",
         "07/27",
@@ -174,7 +174,7 @@
         "08/31",
         "09/01",
         "09/02",
-        "09/03"
+        "09/04"
       ],
       "prices": [
         4067.6,
@@ -206,16 +206,15 @@
         4431.1,
         4348.0,
         4366.3,
-        4470.9
+        4518.7
       ],
-      "updated": "2026-09-03T05:36:27.467901"
+      "updated": "2026-09-04T05:42:18.719471"
     },
     "usd_cny": {
-      "current": 6.71750020980835,
-      "day_change_pct": -0.04,
-      "war_change_pct": -0.66,
+      "current": 6.715199947357178,
+      "day_change_pct": -0.06,
+      "war_change_pct": -0.8,
       "dates": [
-        "07/24",
         "07/27",
         "07/28",
         "07/29",
@@ -244,10 +243,10 @@
         "08/31",
         "09/01",
         "09/02",
-        "09/03"
+        "09/03",
+        "09/04"
       ],
       "prices": [
-        6.77,
         6.77,
         6.77,
         6.77,
@@ -276,14 +275,15 @@
         6.73,
         6.73,
         6.72,
+        6.72,
         6.72
       ],
-      "updated": "2026-09-03T05:36:27.550619"
+      "updated": "2026-09-04T05:42:18.943081"
     },
     "nat_gas": {
-      "current": 3.009000062942505,
-      "day_change_pct": 1.79,
-      "war_change_pct": -6.38,
+      "current": 2.9240000247955322,
+      "day_change_pct": -1.08,
+      "war_change_pct": -12.35,
       "dates": [
         "07/24",
         "07/27",
@@ -314,7 +314,7 @@
         "08/31",
         "09/01",
         "09/02",
-        "09/03"
+        "09/04"
       ],
       "prices": [
         2.87,
@@ -346,35 +346,32 @@
         2.93,
         2.9,
         2.96,
-        3.01
+        2.92
       ],
-      "updated": "2026-09-03T05:36:27.622346"
+      "updated": "2026-09-04T05:42:19.223466"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 19.12,
-      "change_pct": 7.36,
-      "high": 19.49,
-      "low": 18.16,
-      "volume": 1180317
+      "price": 19.26,
+      "change_pct": -0.21,
+      "high": 19.9,
+      "low": 19.19,
+      "volume": 767104
     },
     "600026": {
       "name": "中远海能",
-      "price": 20.06,
-      "change_pct": 7.33,
-      "high": 20.56,
-      "low": 18.9,
-      "volume": 971046
+      "price": 20.46,
+      "change_pct": 0.64,
+      "high": 21.18,
+      "low": 20.23,
+      "volume": 733357
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.27,
-      "change_pct": 4.66,
-      "high": 4.39,
-      "low": 4.09,
-      "volume": 2092988
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600938": {
       "name": "中国海油",
@@ -403,11 +400,8 @@
     },
     "601808": {
       "name": "中海油服",
-      "price": 12.52,
-      "change_pct": -1.26,
-      "high": 12.77,
-      "low": 12.51,
-      "volume": 91089
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "002353": {
       "name": "杰瑞股份",
@@ -426,59 +420,38 @@
     },
     "601919": {
       "name": "中远海控",
-      "price": 16.54,
-      "change_pct": 0.55,
-      "high": 16.77,
-      "low": 16.46,
-      "volume": 562114
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 48.01,
-      "change_pct": -0.19,
-      "high": 48.47,
-      "low": 47.27,
-      "volume": 129943
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600893": {
       "name": "航发动力",
-      "price": 39.06,
-      "change_pct": 0.59,
-      "high": 39.48,
-      "low": 38.63,
-      "volume": 211206
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600150": {
       "name": "中国船舶",
-      "price": 34.3,
-      "change_pct": 1.09,
-      "high": 35.04,
-      "low": 34.1,
-      "volume": 815667
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600547": {
       "name": "山东黄金",
-      "price": 37.64,
-      "change_pct": -0.66,
-      "high": 38.61,
-      "low": 37.34,
-      "volume": 813185
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": 46.57,
-      "change_pct": 1.75,
-      "high": 47.45,
-      "low": 45.88,
-      "volume": 459812
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600489": {
       "name": "中金黄金",
-      "price": 25.68,
-      "change_pct": 3.97,
-      "high": 26.0,
-      "low": 25.01,
-      "volume": 853191
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601088": {
       "name": "中国神华",
@@ -496,16 +469,14 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "天然气": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -0.91
     },
     "军工": {
       "change_pct": null,
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "黄金": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 1.06
     }
   },
   "news": [
@@ -518,10 +489,10 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
+        "中东",
         "伊朗",
-        "美伊",
         "德黑兰",
-        "中东"
+        "美伊"
       ],
       "action_hits": [
         "轰炸",
@@ -537,10 +508,10 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "油轮",
-        "沙特",
         "海峡",
-        "霍尔木兹"
+        "霍尔木兹",
+        "油轮",
+        "沙特"
       ],
       "action_hits": [
         "油轮",
@@ -556,11 +527,11 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
+        "伊朗",
+        "霍尔木兹",
         "油轮",
         "海峡",
-        "美伊",
-        "霍尔木兹",
-        "伊朗"
+        "美伊"
       ],
       "action_hits": [
         "油轮",
@@ -576,15 +547,15 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
-        "saudi",
         "hormuz",
-        "iran"
+        "strait",
+        "iran",
+        "saudi"
       ],
       "action_hits": [
-        "killed",
         "tanker",
-        "attack"
+        "attack",
+        "killed"
       ]
     },
     {
@@ -596,14 +567,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
         "hormuz",
+        "strait",
         "iran"
       ],
       "action_hits": [
-        "killed",
         "strike",
-        "attack"
+        "attack",
+        "killed"
       ]
     },
     {
@@ -615,8 +586,8 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
         "hormuz",
+        "strait",
         "iran"
       ],
       "action_hits": [
@@ -639,44 +610,10 @@
       ],
       "action_hits": [
         "missile",
-        "launch",
-        "strike",
         "drone",
-        "killed"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "US plans to cut off military aid to key Middle East ally, BBC told",
-      "link": "https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 28 Aug 2026 19:45:39 GMT",
-      "summary": "Iraqi Kurdistan fears the Trump administration's plan will make the region more vulnerable to further attacks from Iran.",
-      "lang": "en",
-      "relevance_score": 68,
-      "entity_hits": [
-        "iraq",
-        "middle east",
-        "iran"
-      ],
-      "action_hits": [
-        "attack"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
-      "link": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 27 Aug 2026 14:17:24 GMT",
-      "summary": "Nickolay Mladenov warns that a collapse of last October's ceasefire would be \"a point of no return\" for the region.",
-      "lang": "en",
-      "relevance_score": 67,
-      "entity_hits": [
-        "israel",
-        "hamas"
-      ],
-      "action_hits": [
         "strike",
-        "ceasefire"
+        "launch",
+        "killed"
       ]
     }
   ],
@@ -704,7 +641,7 @@
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 83,
-      "source_count": 2,
+      "source_count": 1,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
@@ -736,26 +673,11 @@
       "source": "FT中文网",
       "link": "https://www.ftchinese.com/story/001110725",
       "lang": "zh"
-    },
-    {
-      "event_id": "39a2c966be09",
-      "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
-      "location": "以色列",
-      "first_seen_time": "2026-08-27T14:17:24+00:00",
-      "last_updated_time": "2026-08-27T14:17:24+00:00",
-      "current_status": "ceasefire",
-      "trend": "improving",
-      "confidence": 67,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/5",
         "8/6",
         "8/7",
         "8/8",
@@ -784,7 +706,8 @@
         "8/31",
         "9/1",
         "9/2",
-        "9/3"
+        "9/3",
+        "9/4"
       ],
       "transits": [
         0,
@@ -874,34 +797,27 @@
         21,
         69
       ],
-      "date_label": "9月3日"
+      "date_label": "9月4日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-03",
+      "hormuz_last_date": "2026-09-04",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 174,
+      "vlcc_stale_days": 175,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-03"
+      "routes_date": "2026-09-04"
     }
   },
   "meta": {
-    "report_date": "2026.09.03",
-    "report_date_cn": "2026年09月03日",
-    "war_day": 188,
+    "report_date": "2026.09.04",
+    "report_date_cn": "2026年09月04日",
+    "war_day": 189,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-03T13:37:21.923601+08:00",
-    "generated_at_cn": "2026-09-03 13:37:21 北京时间"
+    "generated_at": "2026-09-04T13:42:53.797054+08:00",
+    "generated_at_cn": "2026-09-04 13:42:53 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-06",
-      "brent": 93.08999633789062,
-      "wti": 90.54000091552734,
-      "gold": 4337.10009765625,
-      "usd_cny": 6.765999794006348
-    },
     {
       "date": "2026-06-07",
       "brent": 93.08999633789062,
@@ -1524,6 +1440,13 @@
       "wti": 90.30000305175781,
       "gold": 4470.89990234375,
       "usd_cny": 6.71750020980835
+    },
+    {
+      "date": "2026-09-04",
+      "brent": 95.52999877929688,
+      "wti": 91.48999786376953,
+      "gold": 4518.7001953125,
+      "usd_cny": 6.715199947357178
     }
   ]
 }
