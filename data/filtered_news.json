@@ -8,10 +8,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "中东",
       "伊朗",
+      "美伊",
       "德黑兰",
-      "美伊"
+      "中东"
     ],
     "action_hits": [
       "轰炸",
@@ -27,10 +27,10 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "海峡",
-      "霍尔木兹",
       "油轮",
-      "沙特"
+      "霍尔木兹",
+      "沙特",
+      "海峡"
     ],
     "action_hits": [
       "油轮",
@@ -46,11 +46,11 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "伊朗",
-      "霍尔木兹",
-      "油轮",
       "海峡",
-      "美伊"
+      "油轮",
+      "美伊",
+      "霍尔木兹",
+      "伊朗"
     ],
     "action_hits": [
       "油轮",
@@ -66,10 +66,10 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
+      "saudi",
       "strait",
-      "iran",
-      "saudi"
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
       "tanker",
@@ -86,13 +86,13 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
       "strait",
+      "hormuz",
       "iran"
     ],
     "action_hits": [
-      "strike",
       "attack",
+      "strike",
       "killed"
     ]
   },
@@ -105,14 +105,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "hormuz",
       "strait",
+      "hormuz",
       "iran"
     ],
     "action_hits": [
-      "launch",
+      "attack",
       "strike",
-      "attack"
+      "launch"
     ]
   },
   {
@@ -128,11 +128,11 @@
       "iran"
     ],
     "action_hits": [
-      "missile",
-      "drone",
       "strike",
+      "killed",
+      "missile",
       "launch",
-      "killed"
+      "drone"
     ]
   }
 ]
