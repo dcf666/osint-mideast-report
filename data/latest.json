@@ -3,7 +3,7 @@
     "brent": {
       "current": 96.27999877929688,
       "day_change_pct": 0.8,
-      "war_change_pct": 3.43,
+      "war_change_pct": 2.15,
       "dates": [
         "07/27",
         "07/28",
@@ -68,12 +68,12 @@
         95.52,
         96.28
       ],
-      "updated": "2026-09-05T05:31:00.452918"
+      "updated": "2026-09-06T05:44:03.546235"
     },
     "wti": {
       "current": 91.4800033569336,
       "day_change_pct": 0.2,
-      "war_change_pct": 1.04,
+      "war_change_pct": 0.2,
       "dates": [
         "07/27",
         "07/28",
@@ -138,12 +138,12 @@
         91.3,
         91.48
       ],
-      "updated": "2026-09-05T05:31:00.635978"
+      "updated": "2026-09-06T05:44:03.642026"
     },
     "gold": {
-      "current": 4429.7998046875,
-      "day_change_pct": -1.38,
-      "war_change_pct": 2.14,
+      "current": 4476.60009765625,
+      "day_change_pct": -0.34,
+      "war_change_pct": 3.25,
       "dates": [
         "07/27",
         "07/28",
@@ -206,9 +206,9 @@
         4348.0,
         4366.3,
         4491.7,
-        4429.8
+        4476.6
       ],
-      "updated": "2026-09-05T05:31:00.750826"
+      "updated": "2026-09-06T05:44:03.737953"
     },
     "usd_cny": {
       "current": 6.7108001708984375,
@@ -244,7 +244,7 @@
         "09/02",
         "09/03",
         "09/04",
-        "09/05"
+        "09/06"
       ],
       "prices": [
         6.77,
@@ -278,12 +278,12 @@
         6.72,
         6.71
       ],
-      "updated": "2026-09-05T05:31:00.922187"
+      "updated": "2026-09-06T05:44:03.837237"
     },
     "nat_gas": {
       "current": 2.9749999046325684,
       "day_change_pct": 2.13,
-      "war_change_pct": -7.87,
+      "war_change_pct": -5.47,
       "dates": [
         "07/27",
         "07/28",
@@ -348,7 +348,7 @@
         2.91,
         2.97
       ],
-      "updated": "2026-09-05T05:31:01.025322"
+      "updated": "2026-09-06T05:44:03.997782"
     }
   },
   "stocks": {
@@ -492,13 +492,13 @@
       "relevance_score": 80,
       "entity_hits": [
         "伊朗",
-        "美伊",
+        "中东",
         "德黑兰",
-        "中东"
+        "美伊"
       ],
       "action_hits": [
-        "轰炸",
-        "空袭"
+        "空袭",
+        "轰炸"
       ]
     },
     {
@@ -510,14 +510,14 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "油轮",
-        "霍尔木兹",
         "沙特",
-        "海峡"
+        "油轮",
+        "海峡",
+        "霍尔木兹"
       ],
       "action_hits": [
-        "油轮",
-        "航运"
+        "航运",
+        "油轮"
       ]
     },
     {
@@ -529,11 +529,11 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "海峡",
         "油轮",
         "美伊",
         "霍尔木兹",
-        "伊朗"
+        "伊朗",
+        "海峡"
       ],
       "action_hits": [
         "油轮",
@@ -549,15 +549,15 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "saudi",
-        "strait",
+        "iran",
         "hormuz",
-        "iran"
+        "saudi",
+        "strait"
       ],
       "action_hits": [
-        "tanker",
+        "killed",
         "attack",
-        "killed"
+        "tanker"
       ]
     },
     {
@@ -569,14 +569,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
+        "iran",
         "hormuz",
-        "iran"
+        "strait"
       ],
       "action_hits": [
+        "killed",
         "attack",
-        "strike",
-        "killed"
+        "strike"
       ]
     },
     {
@@ -588,14 +588,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "strait",
+        "iran",
         "hormuz",
-        "iran"
+        "strait"
       ],
       "action_hits": [
+        "launch",
         "attack",
-        "strike",
-        "launch"
+        "strike"
       ]
     },
     {
@@ -607,15 +607,15 @@
       "lang": "en",
       "relevance_score": 83,
       "entity_hits": [
-        "middle east",
-        "iran"
+        "iran",
+        "middle east"
       ],
       "action_hits": [
-        "strike",
-        "killed",
-        "missile",
         "launch",
-        "drone"
+        "drone",
+        "missile",
+        "killed",
+        "strike"
       ]
     }
   ],
@@ -680,7 +680,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/7",
         "8/8",
         "8/9",
         "8/10",
@@ -709,7 +708,8 @@
         "9/2",
         "9/3",
         "9/4",
-        "9/5"
+        "9/5",
+        "9/6"
       ],
       "transits": [
         0,
@@ -799,34 +799,27 @@
         21,
         69
       ],
-      "date_label": "9月5日"
+      "date_label": "9月6日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-05",
+      "hormuz_last_date": "2026-09-06",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 176,
+      "vlcc_stale_days": 177,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-05"
+      "routes_date": "2026-09-06"
     }
   },
   "meta": {
-    "report_date": "2026.09.05",
-    "report_date_cn": "2026年09月05日",
-    "war_day": 190,
+    "report_date": "2026.09.06",
+    "report_date_cn": "2026年09月06日",
+    "war_day": 191,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-05T13:31:34.742661+08:00",
-    "generated_at_cn": "2026-09-05 13:31:34 北京时间"
+    "generated_at": "2026-09-06T13:44:33.924381+08:00",
+    "generated_at_cn": "2026-09-06 13:44:33 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-08",
-      "brent": 97.55000305175781,
-      "wti": 94.68000030517578,
-      "gold": 4316.7001953125,
-      "usd_cny": 6.784599781036377
-    },
     {
       "date": "2026-06-09",
       "brent": 93.52999877929688,
@@ -1448,6 +1441,13 @@
       "brent": 96.27999877929688,
       "wti": 91.4800033569336,
       "gold": 4429.7998046875,
+      "usd_cny": 6.7108001708984375
+    },
+    {
+      "date": "2026-09-06",
+      "brent": 96.27999877929688,
+      "wti": 91.4800033569336,
+      "gold": 4476.60009765625,
       "usd_cny": 6.7108001708984375
     }
   ]
