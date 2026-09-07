@@ -1,24 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "美伊冲突再度升级 海湾多国受波及",
-    "link": "https://www.dw.com/zh/美伊冲突再度升级-海湾多国受波及/a-78765320?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 2 Sep 2026 13:59:00 GMT",
-    "summary": "美国对伊朗发动大规模空袭之后，中东局势再度升级。周三，在伊朗的一处婚礼受到轰炸后，德黑兰对美国在中东的多个军事基地发动了攻击。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "伊朗",
-      "中东",
-      "德黑兰",
-      "美伊"
-    ],
-    "action_hits": [
-      "空袭",
-      "轰炸"
-    ]
-  },
-  {
     "source": "FT中文网",
     "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
     "link": "https://www.ftchinese.com/story/001110773",
@@ -28,33 +9,13 @@
     "relevance_score": 80,
     "entity_hits": [
       "沙特",
-      "油轮",
       "海峡",
+      "油轮",
       "霍尔木兹"
     ],
     "action_hits": [
-      "航运",
-      "油轮"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "丹麦船东：美伊战争接近乌克兰式僵局",
-    "link": "https://www.ftchinese.com/story/001110725",
-    "published": "Wed, 26 Aug 2026 16:00:00 GMT",
-    "summary": "托姆集团CEO认为市场低估了战争陷入长期僵局的风险。他称，海湾各国已开始扩充油轮船队，力求依靠数量破解伊朗对霍尔木兹海峡的封锁。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
       "油轮",
-      "美伊",
-      "霍尔木兹",
-      "伊朗",
-      "海峡"
-    ],
-    "action_hits": [
-      "油轮",
-      "封锁"
+      "航运"
     ]
   },
   {
@@ -66,15 +27,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
       "hormuz",
-      "saudi",
-      "strait"
+      "strait",
+      "iran",
+      "saudi"
     ],
     "action_hits": [
+      "tanker",
       "killed",
-      "attack",
-      "tanker"
+      "attack"
     ]
   },
   {
@@ -86,14 +47,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
       "hormuz",
-      "strait"
+      "strait",
+      "iran"
     ],
     "action_hits": [
+      "strike",
       "killed",
-      "attack",
-      "strike"
+      "attack"
     ]
   },
   {
@@ -105,14 +66,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "iran",
       "hormuz",
-      "strait"
+      "strait",
+      "iran"
     ],
     "action_hits": [
+      "strike",
       "launch",
-      "attack",
-      "strike"
+      "attack"
     ]
   },
   {
@@ -124,15 +85,15 @@
     "lang": "en",
     "relevance_score": 83,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
       "launch",
       "drone",
+      "strike",
       "missile",
-      "killed",
-      "strike"
+      "killed"
     ]
   }
 ]
