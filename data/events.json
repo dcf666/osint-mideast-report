@@ -26,5 +26,19 @@
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "55d2e568851f",
+    "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-09-06T17:00:56+00:00",
+    "last_updated_time": "2026-09-06T17:00:56+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 65,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   }
 ]

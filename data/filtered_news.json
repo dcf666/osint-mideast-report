@@ -10,12 +10,12 @@
     "entity_hits": [
       "沙特",
       "海峡",
-      "油轮",
-      "霍尔木兹"
+      "霍尔木兹",
+      "油轮"
     ],
     "action_hits": [
-      "油轮",
-      "航运"
+      "航运",
+      "油轮"
     ]
   },
   {
@@ -28,33 +28,14 @@
     "relevance_score": 90,
     "entity_hits": [
       "hormuz",
-      "strait",
       "iran",
-      "saudi"
+      "saudi",
+      "strait"
     ],
     "action_hits": [
-      "tanker",
+      "attack",
       "killed",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US and Iran trade strikes for first time in weeks",
-    "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 31 Aug 2026 13:47:30 GMT",
-    "summary": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "hormuz",
-      "strait",
-      "iran"
-    ],
-    "action_hits": [
-      "strike",
-      "killed",
-      "attack"
+      "tanker"
     ]
   },
   {
@@ -67,13 +48,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "hormuz",
-      "strait",
-      "iran"
+      "iran",
+      "strait"
     ],
     "action_hits": [
       "strike",
-      "launch",
-      "attack"
+      "attack",
+      "launch"
     ]
   },
   {
@@ -85,15 +66,32 @@
     "lang": "en",
     "relevance_score": 83,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "iran",
+      "middle east"
     ],
     "action_hits": [
-      "launch",
       "drone",
+      "launch",
+      "killed",
       "strike",
-      "missile",
-      "killed"
+      "missile"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
+    "link": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 06 Sep 2026 17:00:56 GMT",
+    "summary": "The comments came a day after Washington said it had struck Iranian oil tankers in response to Tehran's attacks on US warships in the region.",
+    "lang": "en",
+    "relevance_score": 65,
+    "entity_hits": [
+      "iran",
+      "tehran"
+    ],
+    "action_hits": [
+      "attack",
+      "tanker"
     ]
   }
 ]
