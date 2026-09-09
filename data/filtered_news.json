@@ -9,13 +9,13 @@
     "relevance_score": 80,
     "entity_hits": [
       "沙特",
-      "海峡",
       "霍尔木兹",
+      "海峡",
       "油轮"
     ],
     "action_hits": [
-      "航运",
-      "油轮"
+      "油轮",
+      "航运"
     ]
   },
   {
@@ -28,14 +28,14 @@
     "relevance_score": 90,
     "entity_hits": [
       "hormuz",
-      "iran",
+      "strait",
       "saudi",
-      "strait"
+      "iran"
     ],
     "action_hits": [
+      "tanker",
       "attack",
-      "killed",
-      "tanker"
+      "killed"
     ]
   },
   {
@@ -48,13 +48,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "hormuz",
-      "iran",
-      "strait"
+      "strait",
+      "iran"
     ],
     "action_hits": [
-      "strike",
       "attack",
-      "launch"
+      "launch",
+      "strike"
     ]
   },
   {
@@ -66,15 +66,33 @@
     "lang": "en",
     "relevance_score": 83,
     "entity_hits": [
-      "iran",
-      "middle east"
+      "middle east",
+      "iran"
     ],
     "action_hits": [
       "drone",
+      "strike",
       "launch",
       "killed",
-      "strike",
       "missile"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
+    "link": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 08 Sep 2026 13:58:32 GMT",
+    "summary": "The Iran-backed Yemeni group's attacks have injured 73 people and caused fires at oil facilities, Saudi authorities say.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "yemen",
+      "houthi",
+      "saudi",
+      "iran"
+    ],
+    "action_hits": [
+      "attack"
     ]
   },
   {
@@ -86,12 +104,12 @@
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "iran",
-      "tehran"
+      "tehran",
+      "iran"
     ],
     "action_hits": [
-      "attack",
-      "tanker"
+      "tanker",
+      "attack"
     ]
   }
 ]
