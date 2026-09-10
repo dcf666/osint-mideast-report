@@ -8,53 +8,14 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "沙特",
       "霍尔木兹",
+      "沙特",
       "海峡",
       "油轮"
     ],
     "action_hits": [
-      "油轮",
-      "航运"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
-    "link": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 02 Sep 2026 17:33:45 GMT",
-    "summary": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "hormuz",
-      "strait",
-      "saudi",
-      "iran"
-    ],
-    "action_hits": [
-      "tanker",
-      "attack",
-      "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "US and Iran trade strikes for first time in weeks",
-    "link": "https://www.bbc.co.uk/news/videos/cwyzw0el1lpo?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 31 Aug 2026 15:50:00 GMT",
-    "summary": "Iran and the US have traded strikes after American forces attacked two rocket launchers on Larak Island in the Strait of Hormuz.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "hormuz",
-      "strait",
-      "iran"
-    ],
-    "action_hits": [
-      "attack",
-      "launch",
-      "strike"
+      "航运",
+      "油轮"
     ]
   },
   {
@@ -70,11 +31,28 @@
       "iran"
     ],
     "action_hits": [
-      "drone",
       "strike",
-      "launch",
+      "missile",
       "killed",
-      "missile"
+      "launch",
+      "drone"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran referred to UN Security Council for nuclear non-compliance",
+    "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 09 Sep 2026 20:22:51 GMT",
+    "summary": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "tehran",
+      "iran",
+      "israel"
+    ],
+    "action_hits": [
+      "strike"
     ]
   },
   {
@@ -86,10 +64,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
-      "houthi",
       "saudi",
-      "iran"
+      "houthi",
+      "iran",
+      "yemen"
     ],
     "action_hits": [
       "attack"
@@ -108,8 +86,8 @@
       "iran"
     ],
     "action_hits": [
-      "tanker",
-      "attack"
+      "attack",
+      "tanker"
     ]
   }
 ]

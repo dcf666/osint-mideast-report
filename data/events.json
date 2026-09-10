@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "10057577a83a",
-    "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-09-01T16:00:00+00:00",
-    "last_updated_time": "2026-09-02T17:33:45+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 3,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110773",
-    "lang": "zh"
-  },
-  {
     "event_id": "1d39650a1237",
     "title": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
     "location": "伊朗",
@@ -28,17 +14,31 @@
     "lang": "en"
   },
   {
-    "event_id": "55d2e568851f",
-    "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-09-06T17:00:56+00:00",
-    "last_updated_time": "2026-09-06T17:00:56+00:00",
+    "event_id": "10057577a83a",
+    "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-09-01T16:00:00+00:00",
+    "last_updated_time": "2026-09-01T16:00:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 65,
+    "confidence": 80,
     "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110773",
+    "lang": "zh"
+  },
+  {
+    "event_id": "3538175f591a",
+    "title": "Iran referred to UN Security Council for nuclear non-compliance",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-09-09T20:22:51+00:00",
+    "last_updated_time": "2026-09-09T20:22:51+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 2,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]
