@@ -1,41 +1,40 @@
 [
   {
-    "source": "FT中文网",
-    "title": "韩国、沙特油轮在霍尔木兹海峡遇袭",
-    "link": "https://www.ftchinese.com/story/001110773",
-    "published": "Tue, 01 Sep 2026 16:00:00 GMT",
-    "summary": "针对霍尔木兹海峡航运的袭击事件目前呈上升趋势，尽管美国声称其军方正在指引商船安全通过这一关键水道。",
-    "lang": "zh",
-    "relevance_score": 80,
+    "source": "BBC中东",
+    "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+    "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 09 Sep 2026 16:46:53 GMT",
+    "summary": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
+    "lang": "en",
+    "relevance_score": 90,
     "entity_hits": [
-      "霍尔木兹",
-      "沙特",
-      "海峡",
-      "油轮"
+      "brent crude",
+      "iran",
+      "houthi"
     ],
     "action_hits": [
-      "航运",
-      "油轮"
+      "strike",
+      "tanker",
+      "crude"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
-    "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 02 Sep 2026 15:33:19 GMT",
-    "summary": "Iranian media reports two children were among those killed when shrapnel hit a home. Iran then launched missiles and drones at US targets in the Middle East.",
+    "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+    "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 10 Sep 2026 18:15:47 GMT",
+    "summary": "Mokha's capture would bring the Iran-backed group closer to controlling the Bab al-Mandab Strait waterway, a key shipping route.",
     "lang": "en",
-    "relevance_score": 83,
+    "relevance_score": 70,
     "entity_hits": [
-      "middle east",
-      "iran"
+      "strait",
+      "yemen",
+      "red sea",
+      "iran",
+      "houthi"
     ],
     "action_hits": [
-      "strike",
-      "missile",
-      "killed",
-      "launch",
-      "drone"
+      "shipping"
     ]
   },
   {
@@ -48,46 +47,11 @@
     "relevance_score": 70,
     "entity_hits": [
       "tehran",
-      "iran",
-      "israel"
-    ],
-    "action_hits": [
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
-    "link": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 08 Sep 2026 13:58:32 GMT",
-    "summary": "The Iran-backed Yemeni group's attacks have injured 73 people and caused fires at oil facilities, Saudi authorities say.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "saudi",
-      "houthi",
-      "iran",
-      "yemen"
-    ],
-    "action_hits": [
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
-    "link": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 06 Sep 2026 17:00:56 GMT",
-    "summary": "The comments came a day after Washington said it had struck Iranian oil tankers in response to Tehran's attacks on US warships in the region.",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "tehran",
+      "israel",
       "iran"
     ],
     "action_hits": [
-      "attack",
-      "tanker"
+      "strike"
     ]
   }
 ]
