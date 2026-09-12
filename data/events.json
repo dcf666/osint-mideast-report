@@ -1,30 +1,30 @@
 [
   {
-    "event_id": "ceb00bfde311",
-    "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+    "event_id": "e055ccb6defe",
+    "title": "印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会",
     "location": "伊朗",
-    "first_seen_time": "2026-09-09T16:46:53+00:00",
-    "last_updated_time": "2026-09-09T16:46:53+00:00",
+    "first_seen_time": "2026-09-11T14:04:00+00:00",
+    "last_updated_time": "2026-09-11T14:04:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会/a-79236497?maca=chi-rss-chi-all-1127-xml-mrss",
+    "lang": "zh"
   },
   {
-    "event_id": "8fbbc8e6c37e",
-    "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+    "event_id": "9469e09f0d73",
+    "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
     "location": "红海",
-    "first_seen_time": "2026-09-10T18:15:47+00:00",
-    "last_updated_time": "2026-09-10T18:15:47+00:00",
+    "first_seen_time": "2026-09-11T22:17:45+00:00",
+    "last_updated_time": "2026-09-11T22:17:45+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 70,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {

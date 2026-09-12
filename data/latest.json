@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 106.29000091552734,
-      "day_change_pct": -1.25,
-      "war_change_pct": 17.6,
+      "current": 104.61000061035156,
+      "day_change_pct": -2.81,
+      "war_change_pct": 19.79,
       "dates": [
         "07/31",
         "08/03",
@@ -66,14 +66,14 @@
         97.92,
         101.21,
         107.63,
-        106.29
+        104.61
       ],
-      "updated": "2026-09-11T05:45:34.431368"
+      "updated": "2026-09-12T05:33:34.966723"
     },
     "wti": {
-      "current": 101.47000122070312,
-      "day_change_pct": -0.99,
-      "war_change_pct": 15.69,
+      "current": 100.05000305175781,
+      "day_change_pct": -2.37,
+      "war_change_pct": 17.87,
       "dates": [
         "07/31",
         "08/03",
@@ -136,14 +136,14 @@
         93.03,
         96.05,
         102.48,
-        101.47
+        100.05
       ],
-      "updated": "2026-09-11T05:45:34.519869"
+      "updated": "2026-09-12T05:33:35.239851"
     },
     "gold": {
-      "current": 4379.2001953125,
-      "day_change_pct": 0.34,
-      "war_change_pct": 7.06,
+      "current": 4366.2001953125,
+      "day_change_pct": 0.04,
+      "war_change_pct": 3.59,
       "dates": [
         "07/31",
         "08/03",
@@ -206,16 +206,15 @@
         4393.9,
         4416.0,
         4364.5,
-        4379.2
+        4366.2
       ],
-      "updated": "2026-09-11T05:45:34.604523"
+      "updated": "2026-09-12T05:33:35.481133"
     },
     "usd_cny": {
       "current": 6.707499980926514,
-      "day_change_pct": -0.04,
+      "day_change_pct": 0.02,
       "war_change_pct": -0.96,
       "dates": [
-        "08/03",
         "08/04",
         "08/05",
         "08/06",
@@ -244,7 +243,8 @@
         "09/08",
         "09/09",
         "09/10",
-        "09/11"
+        "09/11",
+        "09/12"
       ],
       "prices": [
         6.75,
@@ -253,7 +253,6 @@
         6.75,
         6.75,
         6.75,
-        6.75,
         6.74,
         6.74,
         6.74,
@@ -272,18 +271,19 @@
         6.72,
         6.72,
         6.72,
+        6.71,
         6.71,
         6.71,
         6.71,
         6.71,
         6.71
       ],
-      "updated": "2026-09-11T05:45:34.688955"
+      "updated": "2026-09-12T05:33:35.778444"
     },
     "nat_gas": {
-      "current": 2.818000078201294,
-      "day_change_pct": -0.56,
-      "war_change_pct": -8.71,
+      "current": 2.8310000896453857,
+      "day_change_pct": -0.11,
+      "war_change_pct": -9.26,
       "dates": [
         "07/31",
         "08/03",
@@ -346,9 +346,9 @@
         2.92,
         2.82,
         2.83,
-        2.82
+        2.83
       ],
-      "updated": "2026-09-11T05:45:34.771110"
+      "updated": "2026-09-12T05:33:36.045947"
     }
   },
   "stocks": {
@@ -379,11 +379,8 @@
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.53,
-      "change_pct": -0.54,
-      "high": 5.63,
-      "low": 5.5,
-      "volume": 1686945
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "603619": {
       "name": "中曼石油",
@@ -480,6 +477,23 @@
   },
   "news": [
     {
+      "source": "德国之声",
+      "title": "印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会",
+      "link": "https://www.dw.com/zh/印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会/a-79236497?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Fri, 11 Sep 2026 14:04:00 GMT",
+      "summary": "金砖峰会即将开幕之际，俄罗斯、伊朗领导人周五抵达印度。中国国家主席习近平将于周六抵达。中东以及乌克兰战争、全球贸易冲突以及原油问题预计将在为期两天的峰会议程上。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "原油",
+        "伊朗",
+        "中东"
+      ],
+      "action_hits": [
+        "原油"
+      ]
+    },
+    {
       "source": "BBC中东",
       "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
       "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
@@ -488,30 +502,29 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
+        "houthi",
         "brent crude",
-        "iran",
-        "houthi"
+        "iran"
       ],
       "action_hits": [
-        "strike",
         "tanker",
-        "crude"
+        "crude",
+        "strike"
       ]
     },
     {
       "source": "BBC中东",
-      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-      "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 10 Sep 2026 18:15:47 GMT",
-      "summary": "Mokha's capture would bring the Iran-backed group closer to controlling the Bab al-Mandab Strait waterway, a key shipping route.",
+      "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+      "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 11 Sep 2026 22:17:45 GMT",
+      "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "strait",
-        "yemen",
         "red sea",
-        "iran",
-        "houthi"
+        "houthi",
+        "yemen",
+        "iran"
       ],
       "action_hits": [
         "shipping"
@@ -537,31 +550,31 @@
   ],
   "event_states": [
     {
-      "event_id": "ceb00bfde311",
-      "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+      "event_id": "e055ccb6defe",
+      "title": "印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会",
       "location": "伊朗",
-      "first_seen_time": "2026-09-09T16:46:53+00:00",
-      "last_updated_time": "2026-09-09T16:46:53+00:00",
+      "first_seen_time": "2026-09-11T14:04:00+00:00",
+      "last_updated_time": "2026-09-11T14:04:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 90,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
+      "source_count": 2,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会/a-79236497?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
     },
     {
-      "event_id": "8fbbc8e6c37e",
-      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+      "event_id": "9469e09f0d73",
+      "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
       "location": "红海",
-      "first_seen_time": "2026-09-10T18:15:47+00:00",
-      "last_updated_time": "2026-09-10T18:15:47+00:00",
+      "first_seen_time": "2026-09-11T22:17:45+00:00",
+      "last_updated_time": "2026-09-11T22:17:45+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 70,
       "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -582,7 +595,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/13",
         "8/14",
         "8/15",
         "8/16",
@@ -611,7 +623,8 @@
         "9/8",
         "9/9",
         "9/10",
-        "9/11"
+        "9/11",
+        "9/12"
       ],
       "transits": [
         0,
@@ -701,34 +714,27 @@
         21,
         69
       ],
-      "date_label": "9月11日"
+      "date_label": "9月12日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-11",
+      "hormuz_last_date": "2026-09-12",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 182,
+      "vlcc_stale_days": 183,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-11"
+      "routes_date": "2026-09-12"
     }
   },
   "meta": {
-    "report_date": "2026.09.11",
-    "report_date_cn": "2026年09月11日",
-    "war_day": 196,
+    "report_date": "2026.09.12",
+    "report_date_cn": "2026年09月12日",
+    "war_day": 197,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-11T13:46:09.841323+08:00",
-    "generated_at_cn": "2026-09-11 13:46:09 北京时间"
+    "generated_at": "2026-09-12T13:34:06.538786+08:00",
+    "generated_at_cn": "2026-09-12 13:34:06 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-14",
-      "brent": 87.33000183105469,
-      "wti": 84.87999725341797,
-      "gold": 4238.7998046875,
-      "usd_cny": 6.7621002197265625
-    },
     {
       "date": "2026-06-15",
       "brent": 83.55999755859375,
@@ -1350,6 +1356,13 @@
       "brent": 106.29000091552734,
       "wti": 101.47000122070312,
       "gold": 4379.2001953125,
+      "usd_cny": 6.707499980926514
+    },
+    {
+      "date": "2026-09-12",
+      "brent": 104.61000061035156,
+      "wti": 100.05000305175781,
+      "gold": 4366.2001953125,
       "usd_cny": 6.707499980926514
     }
   ]

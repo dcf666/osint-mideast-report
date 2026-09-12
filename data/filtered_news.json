@@ -1,5 +1,22 @@
 [
   {
+    "source": "德国之声",
+    "title": "印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会",
+    "link": "https://www.dw.com/zh/印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会/a-79236497?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Fri, 11 Sep 2026 14:04:00 GMT",
+    "summary": "金砖峰会即将开幕之际，俄罗斯、伊朗领导人周五抵达印度。中国国家主席习近平将于周六抵达。中东以及乌克兰战争、全球贸易冲突以及原油问题预计将在为期两天的峰会议程上。",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "原油",
+      "伊朗",
+      "中东"
+    ],
+    "action_hits": [
+      "原油"
+    ]
+  },
+  {
     "source": "BBC中东",
     "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
     "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
@@ -8,30 +25,29 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "houthi",
       "brent crude",
-      "iran",
-      "houthi"
+      "iran"
     ],
     "action_hits": [
-      "strike",
       "tanker",
-      "crude"
+      "crude",
+      "strike"
     ]
   },
   {
     "source": "BBC中东",
-    "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-    "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 10 Sep 2026 18:15:47 GMT",
-    "summary": "Mokha's capture would bring the Iran-backed group closer to controlling the Bab al-Mandab Strait waterway, a key shipping route.",
+    "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 11 Sep 2026 22:17:45 GMT",
+    "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
-      "yemen",
       "red sea",
-      "iran",
-      "houthi"
+      "houthi",
+      "yemen",
+      "iran"
     ],
     "action_hits": [
       "shipping"
