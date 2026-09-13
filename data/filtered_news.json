@@ -8,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
+      "中东",
       "原油",
-      "伊朗",
-      "中东"
+      "伊朗"
     ],
     "action_hits": [
       "原油"
@@ -25,14 +25,33 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "houthi",
       "brent crude",
-      "iran"
+      "iran",
+      "houthi"
     ],
     "action_hits": [
-      "tanker",
       "crude",
-      "strike"
+      "strike",
+      "tanker"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+    "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 12 Sep 2026 12:15:50 GMT",
+    "summary": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
+    "lang": "en",
+    "relevance_score": 85,
+    "entity_hits": [
+      "saudi",
+      "iran",
+      "iraq"
+    ],
+    "action_hits": [
+      "attack",
+      "launch",
+      "drone"
     ]
   },
   {
@@ -45,9 +64,9 @@
     "relevance_score": 70,
     "entity_hits": [
       "red sea",
-      "houthi",
       "yemen",
-      "iran"
+      "iran",
+      "houthi"
     ],
     "action_hits": [
       "shipping"
@@ -62,8 +81,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "tehran",
       "israel",
+      "tehran",
       "iran"
     ],
     "action_hits": [
