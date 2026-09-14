@@ -1,22 +1,5 @@
 [
   {
-    "source": "德国之声",
-    "title": "印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会",
-    "link": "https://www.dw.com/zh/印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会/a-79236497?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Fri, 11 Sep 2026 14:04:00 GMT",
-    "summary": "金砖峰会即将开幕之际，俄罗斯、伊朗领导人周五抵达印度。中国国家主席习近平将于周六抵达。中东以及乌克兰战争、全球贸易冲突以及原油问题预计将在为期两天的峰会议程上。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "中东",
-      "原油",
-      "伊朗"
-    ],
-    "action_hits": [
-      "原油"
-    ]
-  },
-  {
     "source": "BBC中东",
     "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
     "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
@@ -26,13 +9,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "brent crude",
-      "iran",
-      "houthi"
+      "houthi",
+      "iran"
     ],
     "action_hits": [
+      "tanker",
       "crude",
-      "strike",
-      "tanker"
+      "strike"
     ]
   },
   {
@@ -44,14 +27,14 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
+      "iraq",
       "saudi",
-      "iran",
-      "iraq"
+      "iran"
     ],
     "action_hits": [
-      "attack",
       "launch",
-      "drone"
+      "drone",
+      "attack"
     ]
   },
   {
@@ -63,10 +46,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "red sea",
-      "yemen",
       "iran",
-      "houthi"
+      "yemen",
+      "houthi",
+      "red sea"
     ],
     "action_hits": [
       "shipping"
@@ -81,8 +64,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
       "tehran",
+      "israel",
       "iran"
     ],
     "action_hits": [

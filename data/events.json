@@ -1,17 +1,17 @@
 [
   {
-    "event_id": "e055ccb6defe",
+    "event_id": "ceb00bfde311",
     "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
     "location": "伊朗",
-    "first_seen_time": "2026-09-11T14:04:00+00:00",
+    "first_seen_time": "2026-09-09T16:46:53+00:00",
     "last_updated_time": "2026-09-12T12:15:50+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 3,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/印度欢迎俄罗斯、伊朗、中国领导人参加金砖峰会/a-79236497?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
+    "source_count": 2,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "9469e09f0d73",
