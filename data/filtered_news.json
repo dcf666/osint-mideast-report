@@ -1,25 +1,6 @@
 [
   {
     "source": "BBC中东",
-    "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-    "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 09 Sep 2026 16:46:53 GMT",
-    "summary": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "brent crude",
-      "houthi",
-      "iran"
-    ],
-    "action_hits": [
-      "tanker",
-      "crude",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
     "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
     "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
     "published": "Sat, 12 Sep 2026 12:15:50 GMT",
@@ -27,14 +8,14 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
-      "iraq",
       "saudi",
-      "iran"
+      "iran",
+      "iraq"
     ],
     "action_hits": [
-      "launch",
       "drone",
-      "attack"
+      "attack",
+      "launch"
     ]
   },
   {
@@ -46,10 +27,28 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "yemen",
-      "houthi",
-      "red sea"
+      "iran",
+      "red sea",
+      "houthi"
+    ],
+    "action_hits": [
+      "shipping"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Yemen's Houthis seize strategic Red Sea port of Mokha",
+    "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 11 Sep 2026 09:20:45 GMT",
+    "summary": "Mokha's capture brings the Iran-backed group closer to controlling a key international shipping route.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "yemen",
+      "iran",
+      "red sea",
+      "houthi"
     ],
     "action_hits": [
       "shipping"
@@ -64,9 +63,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "tehran",
+      "iran",
       "israel",
-      "iran"
+      "tehran"
     ],
     "action_hits": [
       "strike"

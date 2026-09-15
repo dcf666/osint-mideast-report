@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 106.77999877929688,
-      "day_change_pct": 2.07,
-      "war_change_pct": 28.39,
+      "current": 107.2300033569336,
+      "day_change_pct": 1.47,
+      "war_change_pct": 28.93,
       "dates": [
-        "08/03",
         "08/04",
         "08/05",
         "08/06",
@@ -34,10 +33,10 @@
         "09/09",
         "09/10",
         "09/11",
-        "09/14"
+        "09/14",
+        "09/15"
       ],
       "prices": [
-        83.77,
         79.36,
         79.45,
         82.49,
@@ -66,16 +65,16 @@
         101.21,
         107.63,
         104.61,
-        106.78
+        105.68,
+        107.23
       ],
-      "updated": "2026-09-14T05:59:42.652990"
+      "updated": "2026-09-15T06:00:02.729846"
     },
     "wti": {
-      "current": 102.2699966430664,
-      "day_change_pct": 2.22,
-      "war_change_pct": 26.65,
+      "current": 103.06999969482422,
+      "day_change_pct": 1.66,
+      "war_change_pct": 27.64,
       "dates": [
-        "08/03",
         "08/04",
         "08/05",
         "08/06",
@@ -104,10 +103,10 @@
         "09/09",
         "09/10",
         "09/11",
-        "09/14"
+        "09/14",
+        "09/15"
       ],
       "prices": [
-        80.34,
         75.77,
         75.22,
         77.29,
@@ -136,16 +135,16 @@
         96.05,
         102.48,
         100.05,
-        102.27
+        101.39,
+        103.07
       ],
-      "updated": "2026-09-14T05:59:42.720691"
+      "updated": "2026-09-15T06:00:02.800533"
     },
     "gold": {
-      "current": 4365.5,
-      "day_change_pct": -0.02,
-      "war_change_pct": 0.87,
+      "current": 4335.2001953125,
+      "day_change_pct": -0.38,
+      "war_change_pct": 0.17,
       "dates": [
-        "08/03",
         "08/04",
         "08/05",
         "08/06",
@@ -174,10 +173,10 @@
         "09/09",
         "09/10",
         "09/11",
-        "09/14"
+        "09/14",
+        "09/15"
       ],
       "prices": [
-        4033.7,
         4095.4,
         4245.8,
         4242.0,
@@ -205,17 +204,17 @@
         4393.9,
         4416.0,
         4364.5,
-        4366.2,
-        4365.5
+        4408.9,
+        4351.9,
+        4335.2
       ],
-      "updated": "2026-09-14T05:59:42.786917"
+      "updated": "2026-09-15T06:00:02.880328"
     },
     "usd_cny": {
-      "current": 6.704999923706055,
-      "day_change_pct": -0.02,
-      "war_change_pct": -0.9,
+      "current": 6.711100101470947,
+      "day_change_pct": 0.05,
+      "war_change_pct": -0.81,
       "dates": [
-        "08/04",
         "08/05",
         "08/06",
         "08/07",
@@ -244,7 +243,8 @@
         "09/09",
         "09/10",
         "09/11",
-        "09/14"
+        "09/14",
+        "09/15"
       ],
       "prices": [
         6.75,
@@ -252,7 +252,6 @@
         6.75,
         6.75,
         6.75,
-        6.75,
         6.74,
         6.74,
         6.74,
@@ -276,16 +275,16 @@
         6.71,
         6.71,
         6.71,
-        6.7
+        6.71,
+        6.71
       ],
-      "updated": "2026-09-14T05:59:42.857141"
+      "updated": "2026-09-15T06:00:02.961575"
     },
     "nat_gas": {
-      "current": 2.8889999389648438,
-      "day_change_pct": 2.05,
-      "war_change_pct": -8.2,
+      "current": 2.882999897003174,
+      "day_change_pct": -0.45,
+      "war_change_pct": -8.39,
       "dates": [
-        "08/03",
         "08/04",
         "08/05",
         "08/06",
@@ -314,10 +313,10 @@
         "09/09",
         "09/10",
         "09/11",
-        "09/14"
+        "09/14",
+        "09/15"
       ],
       "prices": [
-        2.78,
         2.68,
         2.69,
         2.64,
@@ -346,27 +345,25 @@
         2.82,
         2.83,
         2.83,
-        2.89
+        2.9,
+        2.88
       ],
-      "updated": "2026-09-14T05:59:42.922574"
+      "updated": "2026-09-15T06:00:03.033579"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 20.13,
-      "change_pct": 0.65,
-      "high": 21.52,
-      "low": 19.96,
-      "volume": 1808828
+      "price": 20.53,
+      "change_pct": 2.65,
+      "high": 21.2,
+      "low": 19.65,
+      "volume": 1437439
     },
     "600026": {
       "name": "中远海能",
-      "price": 21.01,
-      "change_pct": 0.72,
-      "high": 22.3,
-      "low": 20.77,
-      "volume": 771352
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601975": {
       "name": "招商南油",
@@ -462,42 +459,25 @@
   "sectors": {
     "航运": {
       "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "天然气": {
       "change_pct": null,
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "军工": {
-      "change_pct": -0.15
+      "change_pct": -0.58
     },
     "黄金": {
-      "change_pct": -0.45
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "news": [
-    {
-      "source": "BBC中东",
-      "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-      "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 09 Sep 2026 16:46:53 GMT",
-      "summary": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
-      "lang": "en",
-      "relevance_score": 90,
-      "entity_hits": [
-        "brent crude",
-        "houthi",
-        "iran"
-      ],
-      "action_hits": [
-        "tanker",
-        "crude",
-        "strike"
-      ]
-    },
     {
       "source": "BBC中东",
       "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
@@ -507,14 +487,14 @@
       "lang": "en",
       "relevance_score": 85,
       "entity_hits": [
-        "iraq",
         "saudi",
-        "iran"
+        "iran",
+        "iraq"
       ],
       "action_hits": [
-        "launch",
         "drone",
-        "attack"
+        "attack",
+        "launch"
       ]
     },
     {
@@ -526,10 +506,28 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "iran",
         "yemen",
-        "houthi",
-        "red sea"
+        "iran",
+        "red sea",
+        "houthi"
+      ],
+      "action_hits": [
+        "shipping"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Yemen's Houthis seize strategic Red Sea port of Mokha",
+      "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 11 Sep 2026 09:20:45 GMT",
+      "summary": "Mokha's capture brings the Iran-backed group closer to controlling a key international shipping route.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "yemen",
+        "iran",
+        "red sea",
+        "houthi"
       ],
       "action_hits": [
         "shipping"
@@ -544,9 +542,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "tehran",
+        "iran",
         "israel",
-        "iran"
+        "tehran"
       ],
       "action_hits": [
         "strike"
@@ -555,17 +553,17 @@
   ],
   "event_states": [
     {
-      "event_id": "ceb00bfde311",
+      "event_id": "da6245c59947",
       "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
       "location": "伊朗",
-      "first_seen_time": "2026-09-09T16:46:53+00:00",
+      "first_seen_time": "2026-09-12T12:15:50+00:00",
       "last_updated_time": "2026-09-12T12:15:50+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
-      "confidence": 90,
-      "source_count": 2,
+      "confidence": 85,
+      "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -577,7 +575,7 @@
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 70,
-      "source_count": 1,
+      "source_count": 2,
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
@@ -600,7 +598,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/16",
         "8/17",
         "8/18",
         "8/19",
@@ -629,7 +626,8 @@
         "9/11",
         "9/12",
         "9/13",
-        "9/14"
+        "9/14",
+        "9/15"
       ],
       "transits": [
         0,
@@ -719,34 +717,27 @@
         21,
         69
       ],
-      "date_label": "9月14日"
+      "date_label": "9月15日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-14",
+      "hormuz_last_date": "2026-09-15",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 185,
+      "vlcc_stale_days": 186,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-14"
+      "routes_date": "2026-09-15"
     }
   },
   "meta": {
-    "report_date": "2026.09.14",
-    "report_date_cn": "2026年09月14日",
-    "war_day": 199,
+    "report_date": "2026.09.15",
+    "report_date_cn": "2026年09月15日",
+    "war_day": 200,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-14T14:00:37.257842+08:00",
-    "generated_at_cn": "2026-09-14 14:00:37 北京时间"
+    "generated_at": "2026-09-15T14:00:40.597545+08:00",
+    "generated_at_cn": "2026-09-15 14:00:40 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-17",
-      "brent": 79.16999816894531,
-      "wti": 75.61000061035156,
-      "gold": 4359.60009765625,
-      "usd_cny": 6.755899906158447
-    },
     {
       "date": "2026-06-18",
       "brent": 78.41000366210938,
@@ -1369,6 +1360,13 @@
       "wti": 102.2699966430664,
       "gold": 4365.5,
       "usd_cny": 6.704999923706055
+    },
+    {
+      "date": "2026-09-15",
+      "brent": 107.2300033569336,
+      "wti": 103.06999969482422,
+      "gold": 4335.2001953125,
+      "usd_cny": 6.711100101470947
     }
   ]
 }
