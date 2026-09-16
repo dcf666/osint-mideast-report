@@ -1,6 +1,27 @@
 [
   {
     "source": "BBC中东",
+    "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+    "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 15 Sep 2026 16:13:41 GMT",
+    "summary": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
+    "lang": "en",
+    "relevance_score": 100,
+    "entity_hits": [
+      "hormuz",
+      "strait",
+      "oman",
+      "iran"
+    ],
+    "action_hits": [
+      "tanker",
+      "missile",
+      "attack",
+      "drone"
+    ]
+  },
+  {
+    "source": "BBC中东",
     "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
     "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
     "published": "Sat, 12 Sep 2026 12:15:50 GMT",
@@ -8,14 +29,14 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
-      "saudi",
       "iran",
+      "saudi",
       "iraq"
     ],
     "action_hits": [
-      "drone",
+      "launch",
       "attack",
-      "launch"
+      "drone"
     ]
   },
   {
@@ -27,10 +48,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
       "iran",
+      "houthi",
       "red sea",
-      "houthi"
+      "yemen"
     ],
     "action_hits": [
       "shipping"
@@ -45,30 +66,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
       "iran",
+      "houthi",
       "red sea",
-      "houthi"
+      "yemen"
     ],
     "action_hits": [
       "shipping"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iran referred to UN Security Council for nuclear non-compliance",
-    "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 09 Sep 2026 20:22:51 GMT",
-    "summary": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "iran",
-      "israel",
-      "tehran"
-    ],
-    "action_hits": [
-      "strike"
     ]
   }
 ]
