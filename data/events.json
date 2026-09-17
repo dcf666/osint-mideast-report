@@ -28,6 +28,20 @@
     "lang": "en"
   },
   {
+    "event_id": "e1c90d636369",
+    "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
+    "location": "也门",
+    "first_seen_time": "2026-09-16T08:36:17+00:00",
+    "last_updated_time": "2026-09-16T08:36:17+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "9469e09f0d73",
     "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
     "location": "红海",

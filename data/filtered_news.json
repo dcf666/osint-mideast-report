@@ -14,10 +14,10 @@
       "iran"
     ],
     "action_hits": [
-      "tanker",
-      "missile",
       "attack",
-      "drone"
+      "drone",
+      "tanker",
+      "missile"
     ]
   },
   {
@@ -29,13 +29,30 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
-      "iran",
       "saudi",
+      "iran",
       "iraq"
     ],
     "action_hits": [
-      "launch",
       "attack",
+      "launch",
+      "drone"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
+    "link": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 16 Sep 2026 08:36:17 GMT",
+    "summary": "The Houthis deny targeting the Islamic holy city after the Saudi-led coalition in Yemen accuses them of a \"disgraceful act\".",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "saudi",
+      "yemen",
+      "houthi"
+    ],
+    "action_hits": [
       "drone"
     ]
   },
@@ -48,10 +65,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
+      "yemen",
       "houthi",
-      "red sea",
-      "yemen"
+      "iran",
+      "red sea"
     ],
     "action_hits": [
       "shipping"
@@ -66,10 +83,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
+      "yemen",
       "houthi",
-      "red sea",
-      "yemen"
+      "iran",
+      "red sea"
     ],
     "action_hits": [
       "shipping"
