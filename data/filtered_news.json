@@ -8,15 +8,15 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "hormuz",
       "strait",
-      "oman",
-      "iran"
+      "hormuz",
+      "iran",
+      "oman"
     ],
     "action_hits": [
+      "tanker",
       "attack",
       "drone",
-      "tanker",
       "missile"
     ]
   },
@@ -29,9 +29,9 @@
     "lang": "en",
     "relevance_score": 85,
     "entity_hits": [
-      "saudi",
+      "iraq",
       "iran",
-      "iraq"
+      "saudi"
     ],
     "action_hits": [
       "attack",
@@ -48,48 +48,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
       "yemen",
-      "houthi"
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
       "drone"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 11 Sep 2026 22:17:45 GMT",
-    "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "yemen",
-      "houthi",
-      "iran",
-      "red sea"
-    ],
-    "action_hits": [
-      "shipping"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Yemen's Houthis seize strategic Red Sea port of Mokha",
-    "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 11 Sep 2026 09:20:45 GMT",
-    "summary": "Mokha's capture brings the Iran-backed group closer to controlling a key international shipping route.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "yemen",
-      "houthi",
-      "iran",
-      "red sea"
-    ],
-    "action_hits": [
-      "shipping"
     ]
   }
 ]

@@ -40,19 +40,5 @@
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "9469e09f0d73",
-    "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-    "location": "红海",
-    "first_seen_time": "2026-09-11T22:17:45+00:00",
-    "last_updated_time": "2026-09-11T22:17:45+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   }
 ]
