@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 103.66000366210938,
-      "day_change_pct": -1.11,
-      "war_change_pct": 29.82,
+      "current": 103.87000274658203,
+      "day_change_pct": -0.91,
+      "war_change_pct": 33.34,
       "dates": [
         "08/07",
         "08/10",
@@ -66,14 +66,14 @@
         108.75,
         105.83,
         104.82,
-        103.66
+        103.87
       ],
-      "updated": "2026-09-18T05:44:23.431370"
+      "updated": "2026-09-19T05:39:38.948635"
     },
     "wti": {
-      "current": 101.01000213623047,
-      "day_change_pct": -0.88,
-      "war_change_pct": 31.87,
+      "current": 100.30000305175781,
+      "day_change_pct": -1.58,
+      "war_change_pct": 34.06,
       "dates": [
         "08/07",
         "08/10",
@@ -136,14 +136,14 @@
         105.83,
         102.43,
         101.91,
-        101.01
+        100.3
       ],
-      "updated": "2026-09-18T05:44:23.499200"
+      "updated": "2026-09-19T05:39:39.084225"
     },
     "gold": {
-      "current": 4403.2001953125,
-      "day_change_pct": 0.08,
-      "war_change_pct": 3.7,
+      "current": 4424.89990234375,
+      "day_change_pct": 0.57,
+      "war_change_pct": 5.29,
       "dates": [
         "08/07",
         "08/10",
@@ -206,16 +206,15 @@
         4332.8,
         4387.5,
         4399.7,
-        4403.2
+        4424.9
       ],
-      "updated": "2026-09-18T05:44:23.642865"
+      "updated": "2026-09-19T05:39:39.228843"
     },
     "usd_cny": {
-      "current": 6.698400020599365,
-      "day_change_pct": -0.11,
-      "war_change_pct": -0.87,
+      "current": 6.697400093078613,
+      "day_change_pct": -0.15,
+      "war_change_pct": -0.88,
       "dates": [
-        "08/10",
         "08/11",
         "08/12",
         "08/13",
@@ -244,11 +243,11 @@
         "09/15",
         "09/16",
         "09/17",
-        "09/18"
+        "09/18",
+        "09/19"
       ],
       "prices": [
         6.75,
-        6.75,
         6.74,
         6.74,
         6.74,
@@ -267,6 +266,7 @@
         6.72,
         6.72,
         6.72,
+        6.71,
         6.71,
         6.71,
         6.71,
@@ -278,12 +278,12 @@
         6.71,
         6.7
       ],
-      "updated": "2026-09-18T05:44:23.789210"
+      "updated": "2026-09-19T05:39:39.372371"
     },
     "nat_gas": {
-      "current": 2.865999937057495,
-      "day_change_pct": -1.21,
-      "war_change_pct": -11.35,
+      "current": 2.9119999408721924,
+      "day_change_pct": 0.38,
+      "war_change_pct": -10.48,
       "dates": [
         "08/07",
         "08/10",
@@ -346,16 +346,19 @@
         2.92,
         2.89,
         2.9,
-        2.87
+        2.91
       ],
-      "updated": "2026-09-18T05:44:23.881651"
+      "updated": "2026-09-19T05:39:39.519137"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 22.36,
+      "change_pct": 2.33,
+      "high": 22.9,
+      "low": 21.0,
+      "volume": 2231581
     },
     "600026": {
       "name": "中远海能",
@@ -369,8 +372,11 @@
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 32.3,
+      "change_pct": -0.83,
+      "high": 32.75,
+      "low": 32.08,
+      "volume": 343203
     },
     "601857": {
       "name": "中国石油",
@@ -459,13 +465,16 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
-      "change_pct": null
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "天然气": {
-      "change_pct": 1.36
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "军工": {
-      "change_pct": 1.2
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "黄金": {
       "change_pct": null,
@@ -482,35 +491,16 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "strait",
-        "hormuz",
         "iran",
+        "hormuz",
+        "strait",
         "oman"
       ],
       "action_hits": [
-        "tanker",
-        "attack",
         "drone",
-        "missile"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-      "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 12 Sep 2026 12:15:50 GMT",
-      "summary": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
-      "lang": "en",
-      "relevance_score": 85,
-      "entity_hits": [
-        "iraq",
-        "iran",
-        "saudi"
-      ],
-      "action_hits": [
-        "attack",
-        "launch",
-        "drone"
+        "missile",
+        "tanker",
+        "attack"
       ]
     },
     {
@@ -522,9 +512,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "yemen",
+        "saudi",
         "houthi",
-        "saudi"
+        "yemen"
       ],
       "action_hits": [
         "drone"
@@ -547,20 +537,6 @@
       "lang": "en"
     },
     {
-      "event_id": "da6245c59947",
-      "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-      "location": "伊朗",
-      "first_seen_time": "2026-09-12T12:15:50+00:00",
-      "last_updated_time": "2026-09-12T12:15:50+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 85,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
       "event_id": "e1c90d636369",
       "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
       "location": "也门",
@@ -578,7 +554,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/20",
         "8/21",
         "8/22",
         "8/23",
@@ -607,7 +582,8 @@
         "9/15",
         "9/16",
         "9/17",
-        "9/18"
+        "9/18",
+        "9/19"
       ],
       "transits": [
         0,
@@ -697,34 +673,27 @@
         21,
         69
       ],
-      "date_label": "9月18日"
+      "date_label": "9月19日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-18",
+      "hormuz_last_date": "2026-09-19",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 189,
+      "vlcc_stale_days": 190,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-18"
+      "routes_date": "2026-09-19"
     }
   },
   "meta": {
-    "report_date": "2026.09.18",
-    "report_date_cn": "2026年09月18日",
-    "war_day": 203,
+    "report_date": "2026.09.19",
+    "report_date_cn": "2026年09月19日",
+    "war_day": 204,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-18T13:45:02.186869+08:00",
-    "generated_at_cn": "2026-09-18 13:45:02 北京时间"
+    "generated_at": "2026-09-19T13:40:09.700222+08:00",
+    "generated_at_cn": "2026-09-19 13:40:09 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-21",
-      "brent": 80.58999633789062,
-      "wti": 76.54000091552734,
-      "gold": 4172.89990234375,
-      "usd_cny": 6.764699935913086
-    },
     {
       "date": "2026-06-22",
       "brent": 79.36000061035156,
@@ -1347,6 +1316,13 @@
       "wti": 101.01000213623047,
       "gold": 4403.2001953125,
       "usd_cny": 6.698400020599365
+    },
+    {
+      "date": "2026-09-19",
+      "brent": 103.87000274658203,
+      "wti": 100.30000305175781,
+      "gold": 4424.89990234375,
+      "usd_cny": 6.697400093078613
     }
   ]
 }

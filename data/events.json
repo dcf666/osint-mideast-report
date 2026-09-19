@@ -14,20 +14,6 @@
     "lang": "en"
   },
   {
-    "event_id": "da6245c59947",
-    "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-    "location": "伊朗",
-    "first_seen_time": "2026-09-12T12:15:50+00:00",
-    "last_updated_time": "2026-09-12T12:15:50+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 85,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "e1c90d636369",
     "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
     "location": "也门",

@@ -8,35 +8,16 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "strait",
-      "hormuz",
       "iran",
+      "hormuz",
+      "strait",
       "oman"
     ],
     "action_hits": [
-      "tanker",
-      "attack",
       "drone",
-      "missile"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-    "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 12 Sep 2026 12:15:50 GMT",
-    "summary": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
-    "lang": "en",
-    "relevance_score": 85,
-    "entity_hits": [
-      "iraq",
-      "iran",
-      "saudi"
-    ],
-    "action_hits": [
-      "attack",
-      "launch",
-      "drone"
+      "missile",
+      "tanker",
+      "attack"
     ]
   },
   {
@@ -48,9 +29,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
+      "saudi",
       "houthi",
-      "saudi"
+      "yemen"
     ],
     "action_hits": [
       "drone"
