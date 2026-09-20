@@ -1,5 +1,22 @@
 [
   {
+    "source": "德国之声",
+    "title": "美军险登中国船 只因AI假报告惹祸",
+    "link": "https://www.dw.com/zh/美军险登中国船-只因ai假报告惹祸/a-79339041?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Sat, 19 Sep 2026 14:05:00 GMT",
+    "summary": "一份AI协助生成的情报报告出现严重误判，在中东紧张局势下险些引发美军对一艘中国船只的拦截行动。据披露，美军当时已展开实质部署，但在最后关头紧急叫停。究竟是什么原因导致AI误判？这起险些引爆直接冲突的乌龙事件背后，暴露出军事情报领域的哪些致命漏洞？",
+    "lang": "zh",
+    "relevance_score": 70,
+    "entity_hits": [
+      "中东",
+      "美军"
+    ],
+    "action_hits": [
+      "部署",
+      "拦截"
+    ]
+  },
+  {
     "source": "BBC中东",
     "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
     "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
@@ -8,16 +25,35 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "iran",
-      "hormuz",
       "strait",
-      "oman"
+      "hormuz",
+      "oman",
+      "iran"
     ],
     "action_hits": [
       "drone",
       "missile",
-      "tanker",
-      "attack"
+      "attack",
+      "tanker"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+    "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+    "published": "Sat, 19 Sep 2026 23:49:26 GMT",
+    "summary": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "riyadh",
+      "saudi",
+      "houthi"
+    ],
+    "action_hits": [
+      "strike",
+      "missile",
+      "ballistic"
     ]
   },
   {
@@ -29,9 +65,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "yemen",
       "saudi",
-      "houthi",
-      "yemen"
+      "houthi"
     ],
     "action_hits": [
       "drone"

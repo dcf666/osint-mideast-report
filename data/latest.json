@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 103.87000274658203,
-      "day_change_pct": -0.91,
-      "war_change_pct": 33.34,
+      "current": 99.29000091552734,
+      "day_change_pct": -5.28,
+      "war_change_pct": 27.46,
       "dates": [
         "08/07",
         "08/10",
@@ -66,14 +66,14 @@
         108.75,
         105.83,
         104.82,
-        103.87
+        99.29
       ],
-      "updated": "2026-09-19T05:39:38.948635"
+      "updated": "2026-09-20T05:58:13.907409"
     },
     "wti": {
-      "current": 100.30000305175781,
-      "day_change_pct": -1.58,
-      "war_change_pct": 34.06,
+      "current": 96.08000183105469,
+      "day_change_pct": -5.72,
+      "war_change_pct": 28.41,
       "dates": [
         "08/07",
         "08/10",
@@ -136,9 +136,9 @@
         105.83,
         102.43,
         101.91,
-        100.3
+        96.08
       ],
-      "updated": "2026-09-19T05:39:39.084225"
+      "updated": "2026-09-20T05:58:13.987739"
     },
     "gold": {
       "current": 4424.89990234375,
@@ -208,7 +208,7 @@
         4399.7,
         4424.9
       ],
-      "updated": "2026-09-19T05:39:39.228843"
+      "updated": "2026-09-20T05:58:14.060342"
     },
     "usd_cny": {
       "current": 6.697400093078613,
@@ -244,7 +244,7 @@
         "09/16",
         "09/17",
         "09/18",
-        "09/19"
+        "09/20"
       ],
       "prices": [
         6.75,
@@ -278,7 +278,7 @@
         6.71,
         6.7
       ],
-      "updated": "2026-09-19T05:39:39.372371"
+      "updated": "2026-09-20T05:58:14.140277"
     },
     "nat_gas": {
       "current": 2.9119999408721924,
@@ -348,7 +348,7 @@
         2.9,
         2.91
       ],
-      "updated": "2026-09-19T05:39:39.519137"
+      "updated": "2026-09-20T05:58:14.210987"
     }
   },
   "stocks": {
@@ -372,11 +372,8 @@
     },
     "600938": {
       "name": "中国海油",
-      "price": 32.3,
-      "change_pct": -0.83,
-      "high": 32.75,
-      "low": 32.08,
-      "volume": 343203
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601857": {
       "name": "中国石油",
@@ -483,6 +480,23 @@
   },
   "news": [
     {
+      "source": "德国之声",
+      "title": "美军险登中国船 只因AI假报告惹祸",
+      "link": "https://www.dw.com/zh/美军险登中国船-只因ai假报告惹祸/a-79339041?maca=chi-rss-chi-all-1127-xml-mrss",
+      "published": "Sat, 19 Sep 2026 14:05:00 GMT",
+      "summary": "一份AI协助生成的情报报告出现严重误判，在中东紧张局势下险些引发美军对一艘中国船只的拦截行动。据披露，美军当时已展开实质部署，但在最后关头紧急叫停。究竟是什么原因导致AI误判？这起险些引爆直接冲突的乌龙事件背后，暴露出军事情报领域的哪些致命漏洞？",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "中东",
+        "美军"
+      ],
+      "action_hits": [
+        "部署",
+        "拦截"
+      ]
+    },
+    {
       "source": "BBC中东",
       "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
       "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
@@ -491,16 +505,35 @@
       "lang": "en",
       "relevance_score": 100,
       "entity_hits": [
-        "iran",
-        "hormuz",
         "strait",
-        "oman"
+        "hormuz",
+        "oman",
+        "iran"
       ],
       "action_hits": [
         "drone",
         "missile",
-        "tanker",
-        "attack"
+        "attack",
+        "tanker"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+      "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 19 Sep 2026 23:49:26 GMT",
+      "summary": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
+      "lang": "en",
+      "relevance_score": 90,
+      "entity_hits": [
+        "riyadh",
+        "saudi",
+        "houthi"
+      ],
+      "action_hits": [
+        "strike",
+        "missile",
+        "ballistic"
       ]
     },
     {
@@ -512,9 +545,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "yemen",
         "saudi",
-        "houthi",
-        "yemen"
+        "houthi"
       ],
       "action_hits": [
         "drone"
@@ -537,6 +570,34 @@
       "lang": "en"
     },
     {
+      "event_id": "b540cc93e751",
+      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+      "location": "沙特阿拉伯",
+      "first_seen_time": "2026-09-19T23:49:26+00:00",
+      "last_updated_time": "2026-09-19T23:49:26+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 90,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "0ee8afb1273a",
+      "title": "美军险登中国船 只因AI假报告惹祸",
+      "location": "中东地区",
+      "first_seen_time": "2026-09-19T14:05:00+00:00",
+      "last_updated_time": "2026-09-19T14:05:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "德国之声",
+      "link": "https://www.dw.com/zh/美军险登中国船-只因ai假报告惹祸/a-79339041?maca=chi-rss-chi-all-1127-xml-mrss",
+      "lang": "zh"
+    },
+    {
       "event_id": "e1c90d636369",
       "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
       "location": "也门",
@@ -554,7 +615,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/21",
         "8/22",
         "8/23",
         "8/24",
@@ -583,7 +643,8 @@
         "9/16",
         "9/17",
         "9/18",
-        "9/19"
+        "9/19",
+        "9/20"
       ],
       "transits": [
         0,
@@ -673,34 +734,27 @@
         21,
         69
       ],
-      "date_label": "9月19日"
+      "date_label": "9月20日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-19",
+      "hormuz_last_date": "2026-09-20",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 190,
+      "vlcc_stale_days": 191,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-19"
+      "routes_date": "2026-09-20"
     }
   },
   "meta": {
-    "report_date": "2026.09.19",
-    "report_date_cn": "2026年09月19日",
-    "war_day": 204,
+    "report_date": "2026.09.20",
+    "report_date_cn": "2026年09月20日",
+    "war_day": 205,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-19T13:40:09.700222+08:00",
-    "generated_at_cn": "2026-09-19 13:40:09 北京时间"
+    "generated_at": "2026-09-20T13:58:49.874373+08:00",
+    "generated_at_cn": "2026-09-20 13:58:49 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-22",
-      "brent": 79.36000061035156,
-      "wti": 75.5999984741211,
-      "gold": 4214.7998046875,
-      "usd_cny": 6.770599842071533
-    },
     {
       "date": "2026-06-23",
       "brent": 78.0999984741211,
@@ -1321,6 +1375,13 @@
       "date": "2026-09-19",
       "brent": 103.87000274658203,
       "wti": 100.30000305175781,
+      "gold": 4424.89990234375,
+      "usd_cny": 6.697400093078613
+    },
+    {
+      "date": "2026-09-20",
+      "brent": 99.29000091552734,
+      "wti": 96.08000183105469,
       "gold": 4424.89990234375,
       "usd_cny": 6.697400093078613
     }
