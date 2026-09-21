@@ -8,12 +8,12 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "中东",
-      "美军"
+      "美军",
+      "中东"
     ],
     "action_hits": [
-      "部署",
-      "拦截"
+      "拦截",
+      "部署"
     ]
   },
   {
@@ -25,16 +25,16 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "strait",
       "hormuz",
-      "oman",
-      "iran"
+      "strait",
+      "iran",
+      "oman"
     ],
     "action_hits": [
+      "tanker",
       "drone",
-      "missile",
       "attack",
-      "tanker"
+      "missile"
     ]
   },
   {
@@ -47,8 +47,8 @@
     "relevance_score": 90,
     "entity_hits": [
       "riyadh",
-      "saudi",
-      "houthi"
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
       "strike",
@@ -65,9 +65,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
+      "houthi",
       "saudi",
-      "houthi"
+      "yemen"
     ],
     "action_hits": [
       "drone"
