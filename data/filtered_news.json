@@ -1,19 +1,18 @@
 [
   {
-    "source": "德国之声",
-    "title": "美军险登中国船 只因AI假报告惹祸",
-    "link": "https://www.dw.com/zh/美军险登中国船-只因ai假报告惹祸/a-79339041?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Sat, 19 Sep 2026 14:05:00 GMT",
-    "summary": "一份AI协助生成的情报报告出现严重误判，在中东紧张局势下险些引发美军对一艘中国船只的拦截行动。据披露，美军当时已展开实质部署，但在最后关头紧急叫停。究竟是什么原因导致AI误判？这起险些引爆直接冲突的乌龙事件背后，暴露出军事情报领域的哪些致命漏洞？",
+    "source": "FT中文网",
+    "title": "特朗普敦促泽连斯基停止袭击俄炼油厂",
+    "link": "https://www.ftchinese.com/story/001110955",
+    "published": "Mon, 21 Sep 2026 16:00:00 GMT",
+    "summary": "美国总统将全球柴油价格上涨归咎于俄乌战争，而非他发动的美伊冲突。据悉他向乌方传递的核心信息是“柴油、柴油、柴油”。",
     "lang": "zh",
-    "relevance_score": 70,
+    "relevance_score": 60,
     "entity_hits": [
-      "美军",
-      "中东"
+      "油价",
+      "美伊"
     ],
     "action_hits": [
-      "拦截",
-      "部署"
+      "油价"
     ]
   },
   {
@@ -26,15 +25,35 @@
     "relevance_score": 100,
     "entity_hits": [
       "hormuz",
-      "strait",
       "iran",
+      "strait",
       "oman"
     ],
     "action_hits": [
-      "tanker",
       "drone",
-      "attack",
-      "missile"
+      "tanker",
+      "missile",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 22 Sep 2026 05:16:07 GMT",
+    "summary": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "yemen",
+      "houthi",
+      "iran",
+      "saudi"
+    ],
+    "action_hits": [
+      "energy security",
+      "escalat",
+      "attack"
     ]
   },
   {
@@ -46,14 +65,32 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "riyadh",
       "houthi",
+      "riyadh",
       "saudi"
     ],
     "action_hits": [
+      "ballistic",
       "strike",
-      "missile",
-      "ballistic"
+      "missile"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+    "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 21 Sep 2026 14:14:16 GMT",
+    "summary": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "yemen",
+      "houthi",
+      "red sea",
+      "saudi"
+    ],
+    "action_hits": [
+      "escalat"
     ]
   },
   {
@@ -65,12 +102,29 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "yemen",
       "houthi",
-      "saudi",
-      "yemen"
+      "saudi"
     ],
     "action_hits": [
       "drone"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
+    "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 21 Sep 2026 10:00:31 GMT",
+    "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "yemen",
+      "houthi",
+      "strait"
+    ],
+    "action_hits": [
+      "refugee"
     ]
   }
 ]

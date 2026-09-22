@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 98.12999725341797,
-      "day_change_pct": -5.53,
-      "war_change_pct": 25.97,
+      "current": 97.68000030517578,
+      "day_change_pct": -2.65,
+      "war_change_pct": 25.39,
       "dates": [
-        "08/10",
         "08/11",
         "08/12",
         "08/13",
@@ -34,10 +33,10 @@
         "09/16",
         "09/17",
         "09/18",
-        "09/21"
+        "09/21",
+        "09/22"
       ],
       "prices": [
-        87.72,
         88.91,
         88.98,
         87.07,
@@ -66,16 +65,16 @@
         105.83,
         104.82,
         103.87,
-        98.13
+        100.34,
+        97.68
       ],
-      "updated": "2026-09-21T06:04:26.474570"
+      "updated": "2026-09-22T05:58:51.110709"
     },
     "wti": {
-      "current": 94.62999725341797,
-      "day_change_pct": -5.65,
-      "war_change_pct": 26.48,
+      "current": 93.55999755859375,
+      "day_change_pct": -2.32,
+      "war_change_pct": 25.05,
       "dates": [
-        "08/10",
         "08/11",
         "08/12",
         "08/13",
@@ -104,10 +103,10 @@
         "09/16",
         "09/17",
         "09/18",
-        "09/21"
+        "09/21",
+        "09/22"
       ],
       "prices": [
-        82.13,
         83.2,
         83.27,
         81.25,
@@ -136,16 +135,16 @@
         102.43,
         101.91,
         100.3,
-        94.63
+        95.78,
+        93.56
       ],
-      "updated": "2026-09-21T06:04:26.714257"
+      "updated": "2026-09-22T05:58:51.245921"
     },
     "gold": {
-      "current": 4392.10009765625,
-      "day_change_pct": -0.74,
-      "war_change_pct": 4.51,
+      "current": 4366.39990234375,
+      "day_change_pct": -0.4,
+      "war_change_pct": 3.9,
       "dates": [
-        "08/10",
         "08/11",
         "08/12",
         "08/13",
@@ -174,10 +173,10 @@
         "09/16",
         "09/17",
         "09/18",
-        "09/21"
+        "09/21",
+        "09/22"
       ],
       "prices": [
-        4419.7,
         4441.1,
         4467.5,
         4420.4,
@@ -206,16 +205,16 @@
         4387.5,
         4399.7,
         4424.9,
-        4392.1
+        4383.9,
+        4366.4
       ],
-      "updated": "2026-09-21T06:04:26.921657"
+      "updated": "2026-09-22T05:58:51.379238"
     },
     "usd_cny": {
-      "current": 6.695000171661377,
-      "day_change_pct": -0.18,
-      "war_change_pct": -1.09,
+      "current": 6.695700168609619,
+      "day_change_pct": -0.03,
+      "war_change_pct": -1.08,
       "dates": [
-        "08/11",
         "08/12",
         "08/13",
         "08/14",
@@ -244,10 +243,10 @@
         "09/16",
         "09/17",
         "09/18",
-        "09/21"
+        "09/21",
+        "09/22"
       ],
       "prices": [
-        6.75,
         6.74,
         6.74,
         6.74,
@@ -276,16 +275,16 @@
         6.71,
         6.71,
         6.71,
+        6.7,
         6.7
       ],
-      "updated": "2026-09-21T06:04:27.135864"
+      "updated": "2026-09-22T05:58:51.526118"
     },
     "nat_gas": {
-      "current": 2.88700008392334,
-      "day_change_pct": -0.86,
-      "war_change_pct": -11.25,
+      "current": 2.8459999561309814,
+      "day_change_pct": 0.35,
+      "war_change_pct": -12.51,
       "dates": [
-        "08/10",
         "08/11",
         "08/12",
         "08/13",
@@ -314,10 +313,10 @@
         "09/16",
         "09/17",
         "09/18",
-        "09/21"
+        "09/21",
+        "09/22"
       ],
       "prices": [
-        2.79,
         2.77,
         2.8,
         2.73,
@@ -346,166 +345,206 @@
         2.89,
         2.9,
         2.91,
-        2.89
+        2.84,
+        2.85
       ],
-      "updated": "2026-09-21T06:04:27.378697"
+      "updated": "2026-09-22T05:58:51.665167"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 22.91,
-      "change_pct": 2.46,
-      "high": 22.98,
-      "low": 21.92,
-      "volume": 1387704
+      "price": 21.5,
+      "change_pct": -6.15,
+      "high": 22.24,
+      "low": 21.15,
+      "volume": 1649407
     },
     "600026": {
       "name": "中远海能",
-      "price": 23.02,
-      "change_pct": 4.3,
-      "high": 23.08,
-      "low": 21.82,
-      "volume": 815150
+      "price": 21.82,
+      "change_pct": -4.8,
+      "high": 22.37,
+      "low": 21.38,
+      "volume": 776530
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.84,
-      "change_pct": 4.31,
-      "high": 4.86,
-      "low": 4.57,
-      "volume": 1765709
+      "price": 4.59,
+      "change_pct": -5.36,
+      "high": 4.76,
+      "low": 4.49,
+      "volume": 2378611
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 33.09,
+      "change_pct": -1.34,
+      "high": 33.26,
+      "low": 32.8,
+      "volume": 207218
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 10.8,
+      "change_pct": 1.22,
+      "high": 10.81,
+      "low": 10.51,
+      "volume": 860206
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.32,
+      "change_pct": 0.38,
+      "high": 5.32,
+      "low": 5.18,
+      "volume": 2281020
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 22.23,
+      "change_pct": 0.41,
+      "high": 22.32,
+      "low": 21.77,
+      "volume": 128843
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 2.37,
+      "change_pct": -0.42,
+      "high": 2.38,
+      "low": 2.35,
+      "volume": 476253
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 12.27,
+      "change_pct": -2.0,
+      "high": 12.48,
+      "low": 12.23,
+      "volume": 92245
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 120.01,
+      "change_pct": -3.76,
+      "high": 126.0,
+      "low": 119.77,
+      "volume": 112436
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 18.64,
+      "change_pct": -0.96,
+      "high": 19.01,
+      "low": 18.51,
+      "volume": 41919
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 7.01,
+      "change_pct": -0.85,
+      "high": 7.07,
+      "low": 6.81,
+      "volume": 1019031
     },
     "601919": {
       "name": "中远海控",
-      "price": 16.67,
-      "change_pct": 3.54,
-      "high": 16.69,
-      "low": 16.06,
-      "volume": 806298
+      "price": 16.59,
+      "change_pct": -0.72,
+      "high": 16.72,
+      "low": 16.39,
+      "volume": 535952
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 44.81,
-      "change_pct": 2.07,
-      "high": 45.69,
-      "low": 43.75,
-      "volume": 129957
+      "price": 44.59,
+      "change_pct": -0.91,
+      "high": 45.33,
+      "low": 44.25,
+      "volume": 86290
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 39.38,
+      "change_pct": -2.84,
+      "high": 40.98,
+      "low": 39.2,
+      "volume": 291901
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 40.32,
+      "change_pct": -1.71,
+      "high": 41.1,
+      "low": 39.78,
+      "volume": 836002
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 31.6,
+      "change_pct": -1.95,
+      "high": 32.27,
+      "low": 31.51,
+      "volume": 666517
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 42.63,
+      "change_pct": -0.77,
+      "high": 43.55,
+      "low": 42.6,
+      "volume": 245178
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 23.54,
+      "change_pct": -0.3,
+      "high": 23.8,
+      "low": 23.38,
+      "volume": 378006
     },
     "601088": {
       "name": "中国神华",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 47.42,
+      "change_pct": 1.32,
+      "high": 47.42,
+      "low": 46.15,
+      "volume": 175280
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -0.12
     },
     "石油": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "change_pct": 0.25
     },
     "军工": {
-      "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "change_pct": -0.19
     },
     "黄金": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 0.39
     }
   },
   "news": [
     {
-      "source": "德国之声",
-      "title": "美军险登中国船 只因AI假报告惹祸",
-      "link": "https://www.dw.com/zh/美军险登中国船-只因ai假报告惹祸/a-79339041?maca=chi-rss-chi-all-1127-xml-mrss",
-      "published": "Sat, 19 Sep 2026 14:05:00 GMT",
-      "summary": "一份AI协助生成的情报报告出现严重误判，在中东紧张局势下险些引发美军对一艘中国船只的拦截行动。据披露，美军当时已展开实质部署，但在最后关头紧急叫停。究竟是什么原因导致AI误判？这起险些引爆直接冲突的乌龙事件背后，暴露出军事情报领域的哪些致命漏洞？",
+      "source": "FT中文网",
+      "title": "特朗普敦促泽连斯基停止袭击俄炼油厂",
+      "link": "https://www.ftchinese.com/story/001110955",
+      "published": "Mon, 21 Sep 2026 16:00:00 GMT",
+      "summary": "美国总统将全球柴油价格上涨归咎于俄乌战争，而非他发动的美伊冲突。据悉他向乌方传递的核心信息是“柴油、柴油、柴油”。",
       "lang": "zh",
-      "relevance_score": 70,
+      "relevance_score": 60,
       "entity_hits": [
-        "美军",
-        "中东"
+        "油价",
+        "美伊"
       ],
       "action_hits": [
-        "拦截",
-        "部署"
+        "油价"
       ]
     },
     {
@@ -518,15 +557,35 @@
       "relevance_score": 100,
       "entity_hits": [
         "hormuz",
-        "strait",
         "iran",
+        "strait",
         "oman"
       ],
       "action_hits": [
-        "tanker",
         "drone",
-        "attack",
-        "missile"
+        "tanker",
+        "missile",
+        "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+      "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 22 Sep 2026 05:16:07 GMT",
+      "summary": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+      "lang": "en",
+      "relevance_score": 90,
+      "entity_hits": [
+        "yemen",
+        "houthi",
+        "iran",
+        "saudi"
+      ],
+      "action_hits": [
+        "energy security",
+        "escalat",
+        "attack"
       ]
     },
     {
@@ -538,14 +597,32 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "riyadh",
         "houthi",
+        "riyadh",
         "saudi"
       ],
       "action_hits": [
+        "ballistic",
         "strike",
-        "missile",
-        "ballistic"
+        "missile"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 21 Sep 2026 14:14:16 GMT",
+      "summary": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "yemen",
+        "houthi",
+        "red sea",
+        "saudi"
+      ],
+      "action_hits": [
+        "escalat"
       ]
     },
     {
@@ -557,12 +634,29 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "yemen",
         "houthi",
-        "saudi",
-        "yemen"
+        "saudi"
       ],
       "action_hits": [
         "drone"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
+      "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 21 Sep 2026 10:00:31 GMT",
+      "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "yemen",
+        "houthi",
+        "strait"
+      ],
+      "action_hits": [
+        "refugee"
       ]
     }
   ],
@@ -582,6 +676,20 @@
       "lang": "en"
     },
     {
+      "event_id": "320ab516bbd8",
+      "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+      "location": "伊朗",
+      "first_seen_time": "2026-09-22T05:16:07+00:00",
+      "last_updated_time": "2026-09-22T05:16:07+00:00",
+      "current_status": "escalating",
+      "trend": "worsening",
+      "confidence": 90,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
       "event_id": "b540cc93e751",
       "title": "Houthis say they targeted Saudi capital with ballistic missiles",
       "location": "沙特阿拉伯",
@@ -596,38 +704,51 @@
       "lang": "en"
     },
     {
-      "event_id": "0ee8afb1273a",
-      "title": "美军险登中国船 只因AI假报告惹祸",
-      "location": "中东地区",
-      "first_seen_time": "2026-09-19T14:05:00+00:00",
-      "last_updated_time": "2026-09-19T14:05:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 70,
-      "source_count": 1,
-      "source": "德国之声",
-      "link": "https://www.dw.com/zh/美军险登中国船-只因ai假报告惹祸/a-79339041?maca=chi-rss-chi-all-1127-xml-mrss",
-      "lang": "zh"
-    },
-    {
-      "event_id": "e1c90d636369",
-      "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
-      "location": "也门",
-      "first_seen_time": "2026-09-16T08:36:17+00:00",
-      "last_updated_time": "2026-09-16T08:36:17+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
+      "event_id": "fd34183a96a2",
+      "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+      "location": "红海",
+      "first_seen_time": "2026-09-21T14:14:16+00:00",
+      "last_updated_time": "2026-09-21T14:14:16+00:00",
+      "current_status": "escalating",
+      "trend": "worsening",
       "confidence": 70,
       "source_count": 1,
       "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "e1c90d636369",
+      "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
+      "location": "也门",
+      "first_seen_time": "2026-09-16T08:36:17+00:00",
+      "last_updated_time": "2026-09-21T10:00:31+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 2,
+      "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
+    },
+    {
+      "event_id": "7ace0f6f4a57",
+      "title": "特朗普敦促泽连斯基停止袭击俄炼油厂",
+      "location": "中东地区",
+      "first_seen_time": "2026-09-21T16:00:00+00:00",
+      "last_updated_time": "2026-09-21T16:00:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 60,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110955",
+      "lang": "zh"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/23",
         "8/24",
         "8/25",
         "8/26",
@@ -656,7 +777,8 @@
         "9/18",
         "9/19",
         "9/20",
-        "9/21"
+        "9/21",
+        "9/22"
       ],
       "transits": [
         0,
@@ -746,34 +868,27 @@
         21,
         69
       ],
-      "date_label": "9月21日"
+      "date_label": "9月22日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-21",
+      "hormuz_last_date": "2026-09-22",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 192,
+      "vlcc_stale_days": 193,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-21"
+      "routes_date": "2026-09-22"
     }
   },
   "meta": {
-    "report_date": "2026.09.21",
-    "report_date_cn": "2026年09月21日",
-    "war_day": 206,
+    "report_date": "2026.09.22",
+    "report_date_cn": "2026年09月22日",
+    "war_day": 207,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-21T14:05:40.878512+08:00",
-    "generated_at_cn": "2026-09-21 14:05:40 北京时间"
+    "generated_at": "2026-09-22T13:59:51.770778+08:00",
+    "generated_at_cn": "2026-09-22 13:59:51 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-24",
-      "brent": 76.81999969482422,
-      "wti": 73.0199966430664,
-      "gold": 4114.10009765625,
-      "usd_cny": 6.7870001792907715
-    },
     {
       "date": "2026-06-25",
       "brent": 72.4800033569336,
@@ -1396,6 +1511,13 @@
       "wti": 94.62999725341797,
       "gold": 4392.10009765625,
       "usd_cny": 6.695000171661377
+    },
+    {
+      "date": "2026-09-22",
+      "brent": 97.68000030517578,
+      "wti": 93.55999755859375,
+      "gold": 4366.39990234375,
+      "usd_cny": 6.695700168609619
     }
   ]
 }

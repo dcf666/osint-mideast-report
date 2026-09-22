@@ -14,6 +14,20 @@
     "lang": "en"
   },
   {
+    "event_id": "320ab516bbd8",
+    "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+    "location": "伊朗",
+    "first_seen_time": "2026-09-22T05:16:07+00:00",
+    "last_updated_time": "2026-09-22T05:16:07+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "b540cc93e751",
     "title": "Houthis say they targeted Saudi capital with ballistic missiles",
     "location": "沙特阿拉伯",
@@ -28,31 +42,45 @@
     "lang": "en"
   },
   {
-    "event_id": "0ee8afb1273a",
-    "title": "美军险登中国船 只因AI假报告惹祸",
-    "location": "中东地区",
-    "first_seen_time": "2026-09-19T14:05:00+00:00",
-    "last_updated_time": "2026-09-19T14:05:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美军险登中国船-只因ai假报告惹祸/a-79339041?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
-  },
-  {
-    "event_id": "e1c90d636369",
-    "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
-    "location": "也门",
-    "first_seen_time": "2026-09-16T08:36:17+00:00",
-    "last_updated_time": "2026-09-16T08:36:17+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
+    "event_id": "fd34183a96a2",
+    "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+    "location": "红海",
+    "first_seen_time": "2026-09-21T14:14:16+00:00",
+    "last_updated_time": "2026-09-21T14:14:16+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
     "confidence": 70,
     "source_count": 1,
     "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "e1c90d636369",
+    "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
+    "location": "也门",
+    "first_seen_time": "2026-09-16T08:36:17+00:00",
+    "last_updated_time": "2026-09-21T10:00:31+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 2,
+    "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "7ace0f6f4a57",
+    "title": "特朗普敦促泽连斯基停止袭击俄炼油厂",
+    "location": "中东地区",
+    "first_seen_time": "2026-09-21T16:00:00+00:00",
+    "last_updated_time": "2026-09-21T16:00:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 60,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110955",
+    "lang": "zh"
   }
 ]
