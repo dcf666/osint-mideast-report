@@ -1,6 +1,24 @@
 [
   {
     "source": "FT中文网",
+    "title": "油价跌回每桶98美元 沙特有望重启管道",
+    "link": "https://www.ftchinese.com/story/001110968",
+    "published": "Tue, 22 Sep 2026 16:00:00 GMT",
+    "summary": "此前油价一度飙升至每桶109.97美元，原因是在一系列无人机袭击破坏东西向输油管道后，沙特阿拉伯在近两周前关闭了该管道。",
+    "lang": "zh",
+    "relevance_score": 73,
+    "entity_hits": [
+      "沙特",
+      "油价"
+    ],
+    "action_hits": [
+      "重启",
+      "无人机",
+      "油价"
+    ]
+  },
+  {
+    "source": "FT中文网",
     "title": "特朗普敦促泽连斯基停止袭击俄炼油厂",
     "link": "https://www.ftchinese.com/story/001110955",
     "published": "Mon, 21 Sep 2026 16:00:00 GMT",
@@ -8,8 +26,8 @@
     "lang": "zh",
     "relevance_score": 60,
     "entity_hits": [
-      "油价",
-      "美伊"
+      "美伊",
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -24,36 +42,36 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
-      "hormuz",
-      "iran",
       "strait",
-      "oman"
+      "oman",
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
-      "drone",
-      "tanker",
       "missile",
-      "attack"
+      "attack",
+      "tanker",
+      "drone"
     ]
   },
   {
     "source": "BBC中东",
     "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
     "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 22 Sep 2026 05:16:07 GMT",
+    "published": "Tue, 22 Sep 2026 13:39:09 GMT",
     "summary": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
       "yemen",
       "houthi",
-      "iran",
-      "saudi"
+      "saudi",
+      "iran"
     ],
     "action_hits": [
       "energy security",
-      "escalat",
-      "attack"
+      "attack",
+      "escalat"
     ]
   },
   {
@@ -65,14 +83,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "houthi",
       "riyadh",
+      "houthi",
       "saudi"
     ],
     "action_hits": [
-      "ballistic",
+      "missile",
       "strike",
-      "missile"
+      "ballistic"
     ]
   },
   {
@@ -84,10 +102,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
-      "houthi",
+      "saudi",
       "red sea",
-      "saudi"
+      "houthi",
+      "yemen"
     ],
     "action_hits": [
       "escalat"
@@ -102,9 +120,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
       "houthi",
-      "saudi"
+      "saudi",
+      "yemen"
     ],
     "action_hits": [
       "drone"
@@ -119,9 +137,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
+      "strait",
       "houthi",
-      "strait"
+      "yemen"
     ],
     "action_hits": [
       "refugee"
