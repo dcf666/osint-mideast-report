@@ -12,9 +12,26 @@
       "油价"
     ],
     "action_hits": [
+      "油价",
       "重启",
-      "无人机",
-      "油价"
+      "无人机"
+    ]
+  },
+  {
+    "source": "BBC中文",
+    "title": "中國希望伊朗戰爭結束，但不是以特朗普想要的方式",
+    "link": "https://www.bbc.com/zhongwen/articles/cwp847n9n7m2o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 23 Sep 2026 22:52:14 GMT",
+    "summary": "分析人士指，北京可能推動德黑蘭重啟談判，但不太可能停止購買伊朗石油。",
+    "lang": "zh",
+    "relevance_score": 65,
+    "entity_hits": [
+      "德黑蘭",
+      "伊朗"
+    ],
+    "action_hits": [
+      "談判",
+      "重啟"
     ]
   },
   {
@@ -35,27 +52,6 @@
   },
   {
     "source": "BBC中东",
-    "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
-    "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 15 Sep 2026 16:13:41 GMT",
-    "summary": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
-    "lang": "en",
-    "relevance_score": 100,
-    "entity_hits": [
-      "strait",
-      "oman",
-      "hormuz",
-      "iran"
-    ],
-    "action_hits": [
-      "missile",
-      "attack",
-      "tanker",
-      "drone"
-    ]
-  },
-  {
-    "source": "BBC中东",
     "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
     "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
     "published": "Tue, 22 Sep 2026 13:39:09 GMT",
@@ -69,8 +65,8 @@
       "iran"
     ],
     "action_hits": [
-      "energy security",
       "attack",
+      "energy security",
       "escalat"
     ]
   },
@@ -83,13 +79,13 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "riyadh",
       "houthi",
+      "riyadh",
       "saudi"
     ],
     "action_hits": [
-      "missile",
       "strike",
+      "missile",
       "ballistic"
     ]
   },
@@ -102,30 +98,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
-      "red sea",
+      "yemen",
       "houthi",
-      "yemen"
+      "red sea",
+      "saudi"
     ],
     "action_hits": [
       "escalat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
-    "link": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 16 Sep 2026 08:36:17 GMT",
-    "summary": "The Houthis deny targeting the Islamic holy city after the Saudi-led coalition in Yemen accuses them of a \"disgraceful act\".",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "houthi",
-      "saudi",
-      "yemen"
-    ],
-    "action_hits": [
-      "drone"
     ]
   },
   {
@@ -137,9 +116,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "yemen",
       "strait",
-      "houthi",
-      "yemen"
+      "houthi"
     ],
     "action_hits": [
       "refugee"

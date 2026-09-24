@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "4827ceb40045",
-    "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-09-15T16:13:41+00:00",
-    "last_updated_time": "2026-09-15T16:13:41+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 100,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "2af1fee660a2",
     "title": "油价跌回每桶98美元 沙特有望重启管道",
     "location": "沙特阿拉伯",
@@ -56,18 +42,32 @@
     "lang": "en"
   },
   {
-    "event_id": "e1c90d636369",
+    "event_id": "ef03c2449335",
     "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
     "location": "也门",
-    "first_seen_time": "2026-09-16T08:36:17+00:00",
+    "first_seen_time": "2026-09-21T10:00:31+00:00",
     "last_updated_time": "2026-09-21T10:00:31+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 70,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "b0cef45f8677",
+    "title": "中國希望伊朗戰爭結束，但不是以特朗普想要的方式",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-09-23T22:52:14+00:00",
+    "last_updated_time": "2026-09-23T22:52:14+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 65,
+    "source_count": 1,
+    "source": "BBC中文",
+    "link": "https://www.bbc.com/zhongwen/articles/cwp847n9n7m2o/trad?at_medium=RSS&at_campaign=rss",
+    "lang": "zh"
   },
   {
     "event_id": "7ace0f6f4a57",
