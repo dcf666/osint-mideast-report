@@ -12,9 +12,9 @@
       "油价"
     ],
     "action_hits": [
-      "油价",
+      "无人机",
       "重启",
-      "无人机"
+      "油价"
     ]
   },
   {
@@ -30,8 +30,8 @@
       "伊朗"
     ],
     "action_hits": [
-      "談判",
-      "重啟"
+      "重啟",
+      "談判"
     ]
   },
   {
@@ -43,8 +43,8 @@
     "lang": "zh",
     "relevance_score": 60,
     "entity_hits": [
-      "美伊",
-      "油价"
+      "油价",
+      "美伊"
     ],
     "action_hits": [
       "油价"
@@ -59,15 +59,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "yemen",
       "houthi",
       "saudi",
-      "iran"
+      "iran",
+      "yemen"
     ],
     "action_hits": [
+      "escalat",
       "attack",
-      "energy security",
-      "escalat"
+      "energy security"
     ]
   },
   {
@@ -79,14 +79,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "houthi",
       "riyadh",
+      "houthi",
       "saudi"
     ],
     "action_hits": [
-      "strike",
       "missile",
-      "ballistic"
+      "ballistic",
+      "strike"
     ]
   },
   {
@@ -98,10 +98,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
+      "saudi",
       "houthi",
       "red sea",
-      "saudi"
+      "yemen"
     ],
     "action_hits": [
       "escalat"
@@ -116,9 +116,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
+      "houthi",
       "strait",
-      "houthi"
+      "yemen"
     ],
     "action_hits": [
       "refugee"
