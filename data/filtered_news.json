@@ -8,13 +8,13 @@
     "lang": "zh",
     "relevance_score": 73,
     "entity_hits": [
-      "油价",
-      "沙特"
+      "沙特",
+      "油价"
     ],
     "action_hits": [
-      "无人机",
       "重启",
-      "油价"
+      "油价",
+      "无人机"
     ]
   },
   {
@@ -30,8 +30,8 @@
       "伊朗"
     ],
     "action_hits": [
-      "談判",
-      "重啟"
+      "重啟",
+      "談判"
     ]
   },
   {
@@ -59,14 +59,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "yemen",
       "saudi",
+      "yemen",
       "iran",
       "houthi"
     ],
     "action_hits": [
-      "escalat",
       "energy security",
+      "escalat",
       "attack"
     ]
   },
@@ -80,13 +80,13 @@
     "relevance_score": 90,
     "entity_hits": [
       "riyadh",
-      "saudi",
-      "houthi"
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
+      "strike",
       "ballistic",
-      "missile",
-      "strike"
+      "missile"
     ]
   },
   {
@@ -98,9 +98,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
-      "saudi",
       "red sea",
+      "saudi",
+      "yemen",
       "houthi"
     ],
     "action_hits": [
@@ -116,9 +116,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "houthi",
       "strait",
-      "yemen",
-      "houthi"
+      "yemen"
     ],
     "action_hits": [
       "refugee"

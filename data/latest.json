@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 104.31999969482422,
-      "day_change_pct": -2.14,
-      "war_change_pct": 44.91,
+      "current": 97.44000244140625,
+      "day_change_pct": -8.59,
+      "war_change_pct": 33.21,
       "dates": [
         "08/14",
         "08/17",
@@ -66,14 +66,14 @@
         99.25,
         103.08,
         106.6,
-        104.32
+        97.44
       ],
-      "updated": "2026-09-26T06:00:23.948560"
+      "updated": "2026-09-27T06:27:53.773885"
     },
     "wti": {
       "current": 92.41000366210938,
       "day_change_pct": -2.33,
-      "war_change_pct": 33.48,
+      "war_change_pct": 30.61,
       "dates": [
         "08/14",
         "08/17",
@@ -138,12 +138,12 @@
         94.61,
         92.41
       ],
-      "updated": "2026-09-26T06:00:24.024069"
+      "updated": "2026-09-27T06:27:53.852976"
     },
     "gold": {
       "current": 4321.2001953125,
       "day_change_pct": 0.54,
-      "war_change_pct": 5.49,
+      "war_change_pct": 6.99,
       "dates": [
         "08/14",
         "08/17",
@@ -208,7 +208,7 @@
         4298.0,
         4321.2
       ],
-      "updated": "2026-09-26T06:00:24.095011"
+      "updated": "2026-09-27T06:27:53.923052"
     },
     "usd_cny": {
       "current": 6.712500095367432,
@@ -244,7 +244,7 @@
         "09/23",
         "09/24",
         "09/25",
-        "09/26"
+        "09/27"
       ],
       "prices": [
         6.74,
@@ -278,12 +278,12 @@
         6.71,
         6.71
       ],
-      "updated": "2026-09-26T06:00:24.171129"
+      "updated": "2026-09-27T06:27:53.994123"
     },
     "nat_gas": {
-      "current": 3.196000099182129,
-      "day_change_pct": -3.06,
-      "war_change_pct": -1.08,
+      "current": 3.2249999046325684,
+      "day_change_pct": -2.18,
+      "war_change_pct": 1.38,
       "dates": [
         "08/14",
         "08/17",
@@ -346,9 +346,9 @@
         2.96,
         3.02,
         3.3,
-        3.2
+        3.22
       ],
-      "updated": "2026-09-26T06:00:24.240619"
+      "updated": "2026-09-27T06:27:54.064586"
     }
   },
   "stocks": {
@@ -363,7 +363,7 @@
     "600026": {
       "name": "中远海能",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601975": {
       "name": "招商南油",
@@ -378,7 +378,7 @@
     "601857": {
       "name": "中国石油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600028": {
       "name": "中国石化",
@@ -488,13 +488,13 @@
       "lang": "zh",
       "relevance_score": 73,
       "entity_hits": [
-        "油价",
-        "沙特"
+        "沙特",
+        "油价"
       ],
       "action_hits": [
-        "无人机",
         "重启",
-        "油价"
+        "油价",
+        "无人机"
       ]
     },
     {
@@ -510,8 +510,8 @@
         "伊朗"
       ],
       "action_hits": [
-        "談判",
-        "重啟"
+        "重啟",
+        "談判"
       ]
     },
     {
@@ -539,14 +539,14 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "yemen",
         "saudi",
+        "yemen",
         "iran",
         "houthi"
       ],
       "action_hits": [
-        "escalat",
         "energy security",
+        "escalat",
         "attack"
       ]
     },
@@ -560,13 +560,13 @@
       "relevance_score": 90,
       "entity_hits": [
         "riyadh",
-        "saudi",
-        "houthi"
+        "houthi",
+        "saudi"
       ],
       "action_hits": [
+        "strike",
         "ballistic",
-        "missile",
-        "strike"
+        "missile"
       ]
     },
     {
@@ -578,9 +578,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "yemen",
-        "saudi",
         "red sea",
+        "saudi",
+        "yemen",
         "houthi"
       ],
       "action_hits": [
@@ -596,9 +596,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
+        "houthi",
         "strait",
-        "yemen",
-        "houthi"
+        "yemen"
       ],
       "action_hits": [
         "refugee"
@@ -694,7 +694,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/28",
         "8/29",
         "8/30",
         "8/31",
@@ -723,7 +722,8 @@
         "9/23",
         "9/24",
         "9/25",
-        "9/26"
+        "9/26",
+        "9/27"
       ],
       "transits": [
         0,
@@ -813,34 +813,27 @@
         21,
         69
       ],
-      "date_label": "9月26日"
+      "date_label": "9月27日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-26",
+      "hormuz_last_date": "2026-09-27",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 197,
+      "vlcc_stale_days": 198,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-26"
+      "routes_date": "2026-09-27"
     }
   },
   "meta": {
-    "report_date": "2026.09.26",
-    "report_date_cn": "2026年09月26日",
-    "war_day": 211,
+    "report_date": "2026.09.27",
+    "report_date_cn": "2026年09月27日",
+    "war_day": 212,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-26T14:02:10.661169+08:00",
-    "generated_at_cn": "2026-09-26 14:02:10 北京时间"
+    "generated_at": "2026-09-27T14:28:32.260785+08:00",
+    "generated_at_cn": "2026-09-27 14:28:32 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-29",
-      "brent": 73.33000183105469,
-      "wti": 70.12000274658203,
-      "gold": 4078.39990234375,
-      "usd_cny": 6.802999973297119
-    },
     {
       "date": "2026-06-30",
       "brent": 73.5999984741211,
@@ -1460,6 +1453,13 @@
     {
       "date": "2026-09-26",
       "brent": 104.31999969482422,
+      "wti": 92.41000366210938,
+      "gold": 4321.2001953125,
+      "usd_cny": 6.712500095367432
+    },
+    {
+      "date": "2026-09-27",
+      "brent": 97.44000244140625,
       "wti": 92.41000366210938,
       "gold": 4321.2001953125,
       "usd_cny": 6.712500095367432
