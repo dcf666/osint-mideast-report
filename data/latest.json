@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 97.44000244140625,
-      "day_change_pct": -8.59,
-      "war_change_pct": 33.21,
+      "current": 98.94999694824219,
+      "day_change_pct": -5.15,
+      "war_change_pct": 35.27,
       "dates": [
-        "08/14",
         "08/17",
         "08/18",
         "08/19",
@@ -34,10 +33,10 @@
         "09/22",
         "09/23",
         "09/24",
-        "09/25"
+        "09/25",
+        "09/28"
       ],
       "prices": [
-        88.52,
         90.87,
         91.02,
         91.62,
@@ -66,16 +65,16 @@
         99.25,
         103.08,
         106.6,
-        97.44
+        104.32,
+        98.95
       ],
-      "updated": "2026-09-27T06:27:53.773885"
+      "updated": "2026-09-28T06:35:44.374739"
     },
     "wti": {
-      "current": 92.41000366210938,
-      "day_change_pct": -2.33,
-      "war_change_pct": 30.61,
+      "current": 94.12000274658203,
+      "day_change_pct": 1.85,
+      "war_change_pct": 33.03,
       "dates": [
-        "08/14",
         "08/17",
         "08/18",
         "08/19",
@@ -104,10 +103,10 @@
         "09/22",
         "09/23",
         "09/24",
-        "09/25"
+        "09/25",
+        "09/28"
       ],
       "prices": [
-        82.4,
         84.5,
         84.94,
         85.83,
@@ -136,16 +135,16 @@
         94.59,
         92.16,
         94.61,
-        92.41
+        92.41,
+        94.12
       ],
-      "updated": "2026-09-27T06:27:53.852976"
+      "updated": "2026-09-28T06:35:44.489614"
     },
     "gold": {
-      "current": 4321.2001953125,
-      "day_change_pct": 0.54,
-      "war_change_pct": 6.99,
+      "current": 4205.7998046875,
+      "day_change_pct": -2.67,
+      "war_change_pct": 4.13,
       "dates": [
-        "08/14",
         "08/17",
         "08/18",
         "08/19",
@@ -174,10 +173,10 @@
         "09/22",
         "09/23",
         "09/24",
-        "09/25"
+        "09/25",
+        "09/28"
       ],
       "prices": [
-        4437.3,
         4473.7,
         4420.6,
         4545.3,
@@ -206,14 +205,15 @@
         4376.4,
         4318.4,
         4298.0,
-        4321.2
+        4321.2,
+        4205.8
       ],
-      "updated": "2026-09-27T06:27:53.923052"
+      "updated": "2026-09-28T06:35:44.613391"
     },
     "usd_cny": {
-      "current": 6.712500095367432,
-      "day_change_pct": 0.02,
-      "war_change_pct": -1.14,
+      "current": 6.713200092315674,
+      "day_change_pct": 0.03,
+      "war_change_pct": -1.25,
       "dates": [
         "08/18",
         "08/19",
@@ -244,7 +244,7 @@
         "09/23",
         "09/24",
         "09/25",
-        "09/27"
+        "09/28"
       ],
       "prices": [
         6.74,
@@ -278,14 +278,13 @@
         6.71,
         6.71
       ],
-      "updated": "2026-09-27T06:27:53.994123"
+      "updated": "2026-09-28T06:35:44.725802"
     },
     "nat_gas": {
-      "current": 3.2249999046325684,
-      "day_change_pct": -2.18,
-      "war_change_pct": 1.38,
+      "current": 3.11899995803833,
+      "day_change_pct": -2.41,
+      "war_change_pct": -1.95,
       "dates": [
-        "08/14",
         "08/17",
         "08/18",
         "08/19",
@@ -314,10 +313,10 @@
         "09/22",
         "09/23",
         "09/24",
-        "09/25"
+        "09/25",
+        "09/28"
       ],
       "prices": [
-        2.73,
         2.69,
         2.78,
         2.81,
@@ -346,44 +345,60 @@
         2.96,
         3.02,
         3.3,
-        3.22
+        3.2,
+        3.12
       ],
-      "updated": "2026-09-27T06:27:54.064586"
+      "updated": "2026-09-28T06:35:44.837624"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 20.93,
-      "change_pct": 0.72,
-      "high": 21.35,
-      "low": 20.78,
-      "volume": 1150085
+      "price": 20.72,
+      "change_pct": -1.0,
+      "high": 21.18,
+      "low": 20.44,
+      "volume": 803370
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 21.29,
+      "change_pct": -0.51,
+      "high": 21.85,
+      "low": 21.09,
+      "volume": 497213
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 4.52,
+      "change_pct": 1.12,
+      "high": 4.6,
+      "low": 4.39,
+      "volume": 1375853
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 33.52,
+      "change_pct": 2.2,
+      "high": 33.6,
+      "low": 32.42,
+      "volume": 372921
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 11.19,
+      "change_pct": 2.19,
+      "high": 11.22,
+      "low": 10.83,
+      "volume": 1417057
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.4,
+      "change_pct": 1.5,
+      "high": 5.42,
+      "low": 5.28,
+      "volume": 1983406
     },
     "603619": {
       "name": "中曼石油",
@@ -397,8 +412,11 @@
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 12.19,
+      "change_pct": 0.58,
+      "high": 12.21,
+      "low": 12.0,
+      "volume": 88637
     },
     "002353": {
       "name": "杰瑞股份",
@@ -470,12 +488,10 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "军工": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -0.04
     },
     "黄金": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -1.81
     }
   },
   "news": [
@@ -493,8 +509,25 @@
       ],
       "action_hits": [
         "重启",
-        "油价",
-        "无人机"
+        "无人机",
+        "油价"
+      ]
+    },
+    {
+      "source": "BBC中文",
+      "title": "中美峰會後 伊朗提出七天達成協議 被特朗普拒絕",
+      "link": "https://www.bbc.com/zhongwen/articles/cx5yln334jq5o/trad?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 28 Sep 2026 00:10:38 GMT",
+      "summary": "「我拒絕他們的協議，」特朗普週六表示，並補充美國已對該海峽擁有「完全控制權」，「大量石油」經此通行，導致全球油價大幅上漲，消費者燃料成本急升。",
+      "lang": "zh",
+      "relevance_score": 70,
+      "entity_hits": [
+        "伊朗",
+        "油價",
+        "海峽"
+      ],
+      "action_hits": [
+        "油價"
       ]
     },
     {
@@ -510,8 +543,8 @@
         "伊朗"
       ],
       "action_hits": [
-        "重啟",
-        "談判"
+        "談判",
+        "重啟"
       ]
     },
     {
@@ -523,8 +556,8 @@
       "lang": "zh",
       "relevance_score": 60,
       "entity_hits": [
-        "美伊",
-        "油价"
+        "油价",
+        "美伊"
       ],
       "action_hits": [
         "油价"
@@ -540,14 +573,14 @@
       "relevance_score": 90,
       "entity_hits": [
         "saudi",
-        "yemen",
         "iran",
+        "yemen",
         "houthi"
       ],
       "action_hits": [
         "energy security",
-        "escalat",
-        "attack"
+        "attack",
+        "escalat"
       ]
     },
     {
@@ -559,13 +592,13 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
+        "saudi",
         "riyadh",
-        "houthi",
-        "saudi"
+        "houthi"
       ],
       "action_hits": [
-        "strike",
         "ballistic",
+        "strike",
         "missile"
       ]
     },
@@ -578,8 +611,8 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "red sea",
         "saudi",
+        "red sea",
         "yemen",
         "houthi"
       ],
@@ -596,9 +629,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "houthi",
         "strait",
-        "yemen"
+        "yemen",
+        "houthi"
       ],
       "action_hits": [
         "refugee"
@@ -633,6 +666,20 @@
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
+    },
+    {
+      "event_id": "185086fae3c9",
+      "title": "中美峰會後 伊朗提出七天達成協議 被特朗普拒絕",
+      "location": "伊朗",
+      "first_seen_time": "2026-09-28T00:10:38+00:00",
+      "last_updated_time": "2026-09-28T00:10:38+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "BBC中文",
+      "link": "https://www.bbc.com/zhongwen/articles/cx5yln334jq5o/trad?at_medium=RSS&at_campaign=rss",
+      "lang": "zh"
     },
     {
       "event_id": "fd34183a96a2",
@@ -694,7 +741,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/29",
         "8/30",
         "8/31",
         "9/1",
@@ -723,7 +769,8 @@
         "9/24",
         "9/25",
         "9/26",
-        "9/27"
+        "9/27",
+        "9/28"
       ],
       "transits": [
         0,
@@ -813,34 +860,27 @@
         21,
         69
       ],
-      "date_label": "9月27日"
+      "date_label": "9月28日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-27",
+      "hormuz_last_date": "2026-09-28",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 198,
+      "vlcc_stale_days": 199,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-27"
+      "routes_date": "2026-09-28"
     }
   },
   "meta": {
-    "report_date": "2026.09.27",
-    "report_date_cn": "2026年09月27日",
-    "war_day": 212,
+    "report_date": "2026.09.28",
+    "report_date_cn": "2026年09月28日",
+    "war_day": 213,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-27T14:28:32.260785+08:00",
-    "generated_at_cn": "2026-09-27 14:28:32 北京时间"
+    "generated_at": "2026-09-28T14:36:38.241197+08:00",
+    "generated_at_cn": "2026-09-28 14:36:38 北京时间"
   },
   "history": [
-    {
-      "date": "2026-06-30",
-      "brent": 73.5999984741211,
-      "wti": 70.30000305175781,
-      "gold": 3988.39990234375,
-      "usd_cny": 6.782700061798096
-    },
     {
       "date": "2026-07-01",
       "brent": 73.16999816894531,
@@ -1463,6 +1503,13 @@
       "wti": 92.41000366210938,
       "gold": 4321.2001953125,
       "usd_cny": 6.712500095367432
+    },
+    {
+      "date": "2026-09-28",
+      "brent": 98.94999694824219,
+      "wti": 94.12000274658203,
+      "gold": 4205.7998046875,
+      "usd_cny": 6.713200092315674
     }
   ]
 }
