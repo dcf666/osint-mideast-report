@@ -12,8 +12,8 @@
       "油价"
     ],
     "action_hits": [
-      "重启",
       "无人机",
+      "重启",
       "油价"
     ]
   },
@@ -43,12 +43,12 @@
     "lang": "zh",
     "relevance_score": 65,
     "entity_hits": [
-      "德黑蘭",
-      "伊朗"
+      "伊朗",
+      "德黑蘭"
     ],
     "action_hits": [
-      "談判",
-      "重啟"
+      "重啟",
+      "談判"
     ]
   },
   {
@@ -60,8 +60,8 @@
     "lang": "zh",
     "relevance_score": 60,
     "entity_hits": [
-      "油价",
-      "美伊"
+      "美伊",
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -76,34 +76,15 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "saudi",
-      "iran",
       "yemen",
-      "houthi"
+      "iran",
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
-      "energy security",
+      "escalat",
       "attack",
-      "escalat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Houthis say they targeted Saudi capital with ballistic missiles",
-    "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
-    "published": "Sat, 19 Sep 2026 23:49:26 GMT",
-    "summary": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
-    "lang": "en",
-    "relevance_score": 90,
-    "entity_hits": [
-      "saudi",
-      "riyadh",
-      "houthi"
-    ],
-    "action_hits": [
-      "ballistic",
-      "strike",
-      "missile"
+      "energy security"
     ]
   },
   {
@@ -115,10 +96,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
-      "red sea",
       "yemen",
-      "houthi"
+      "red sea",
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
       "escalat"
@@ -133,9 +114,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
       "yemen",
-      "houthi"
+      "houthi",
+      "strait"
     ],
     "action_hits": [
       "refugee"

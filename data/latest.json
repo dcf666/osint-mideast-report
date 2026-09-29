@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 98.94999694824219,
-      "day_change_pct": -5.15,
-      "war_change_pct": 35.27,
+      "current": 99.45999908447266,
+      "day_change_pct": -5.53,
+      "war_change_pct": 35.97,
       "dates": [
-        "08/17",
         "08/18",
         "08/19",
         "08/20",
@@ -34,10 +33,10 @@
         "09/23",
         "09/24",
         "09/25",
-        "09/28"
+        "09/28",
+        "09/29"
       ],
       "prices": [
-        90.87,
         91.02,
         91.62,
         93.78,
@@ -66,16 +65,16 @@
         103.08,
         106.6,
         104.32,
-        98.95
+        105.28,
+        99.46
       ],
-      "updated": "2026-09-28T06:35:44.374739"
+      "updated": "2026-09-29T06:43:47.497993"
     },
     "wti": {
-      "current": 94.12000274658203,
-      "day_change_pct": 1.85,
-      "war_change_pct": 33.03,
+      "current": 93.97000122070312,
+      "day_change_pct": 1.48,
+      "war_change_pct": 32.82,
       "dates": [
-        "08/17",
         "08/18",
         "08/19",
         "08/20",
@@ -104,10 +103,10 @@
         "09/23",
         "09/24",
         "09/25",
-        "09/28"
+        "09/28",
+        "09/29"
       ],
       "prices": [
-        84.5,
         84.94,
         85.83,
         87.83,
@@ -136,14 +135,15 @@
         92.16,
         94.61,
         92.41,
-        94.12
+        92.6,
+        93.97
       ],
-      "updated": "2026-09-28T06:35:44.489614"
+      "updated": "2026-09-29T06:43:47.639662"
     },
     "gold": {
-      "current": 4205.7998046875,
-      "day_change_pct": -2.67,
-      "war_change_pct": 4.13,
+      "current": 4175.5,
+      "day_change_pct": -3.37,
+      "war_change_pct": 3.38,
       "dates": [
         "08/17",
         "08/18",
@@ -174,7 +174,7 @@
         "09/23",
         "09/24",
         "09/25",
-        "09/28"
+        "09/29"
       ],
       "prices": [
         4473.7,
@@ -206,16 +206,15 @@
         4318.4,
         4298.0,
         4321.2,
-        4205.8
+        4175.5
       ],
-      "updated": "2026-09-28T06:35:44.613391"
+      "updated": "2026-09-29T06:43:47.783377"
     },
     "usd_cny": {
-      "current": 6.713200092315674,
-      "day_change_pct": 0.03,
-      "war_change_pct": -1.25,
+      "current": 6.703999996185303,
+      "day_change_pct": -0.13,
+      "war_change_pct": -1.38,
       "dates": [
-        "08/18",
         "08/19",
         "08/20",
         "08/21",
@@ -244,11 +243,11 @@
         "09/23",
         "09/24",
         "09/25",
-        "09/28"
+        "09/28",
+        "09/29"
       ],
       "prices": [
         6.74,
-        6.74,
         6.73,
         6.72,
         6.72,
@@ -276,16 +275,16 @@
         6.7,
         6.71,
         6.71,
-        6.71
+        6.71,
+        6.7
       ],
-      "updated": "2026-09-28T06:35:44.725802"
+      "updated": "2026-09-29T06:43:47.927610"
     },
     "nat_gas": {
-      "current": 3.11899995803833,
-      "day_change_pct": -2.41,
-      "war_change_pct": -1.95,
+      "current": 3.122999906539917,
+      "day_change_pct": 4.1,
+      "war_change_pct": -1.82,
       "dates": [
-        "08/17",
         "08/18",
         "08/19",
         "08/20",
@@ -314,10 +313,10 @@
         "09/23",
         "09/24",
         "09/25",
-        "09/28"
+        "09/28",
+        "09/29"
       ],
       "prices": [
-        2.69,
         2.78,
         2.81,
         2.73,
@@ -346,59 +345,57 @@
         3.02,
         3.3,
         3.2,
+        3.0,
         3.12
       ],
-      "updated": "2026-09-28T06:35:44.837624"
+      "updated": "2026-09-29T06:43:48.069748"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 20.72,
-      "change_pct": -1.0,
-      "high": 21.18,
-      "low": 20.44,
-      "volume": 803370
+      "price": 19.95,
+      "change_pct": -3.39,
+      "high": 20.63,
+      "low": 19.78,
+      "volume": 991460
     },
     "600026": {
       "name": "中远海能",
-      "price": 21.29,
-      "change_pct": -0.51,
-      "high": 21.85,
-      "low": 21.09,
-      "volume": 497213
+      "price": 20.35,
+      "change_pct": -4.15,
+      "high": 21.23,
+      "low": 20.24,
+      "volume": 621304
     },
     "601975": {
       "name": "招商南油",
-      "price": 4.52,
-      "change_pct": 1.12,
-      "high": 4.6,
+      "price": 4.44,
+      "change_pct": -1.77,
+      "high": 4.53,
       "low": 4.39,
-      "volume": 1375853
+      "volume": 1142248
     },
     "600938": {
       "name": "中国海油",
-      "price": 33.52,
-      "change_pct": 2.2,
-      "high": 33.6,
-      "low": 32.42,
-      "volume": 372921
+      "price": 33.39,
+      "change_pct": -0.33,
+      "high": 33.76,
+      "low": 32.88,
+      "volume": 270819
     },
     "601857": {
       "name": "中国石油",
-      "price": 11.19,
-      "change_pct": 2.19,
-      "high": 11.22,
-      "low": 10.83,
-      "volume": 1417057
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.4,
-      "change_pct": 1.5,
+      "price": 5.3,
+      "change_pct": -2.03,
       "high": 5.42,
-      "low": 5.28,
-      "volume": 1983406
+      "low": 5.26,
+      "volume": 1859576
     },
     "603619": {
       "name": "中曼石油",
@@ -412,11 +409,8 @@
     },
     "601808": {
       "name": "中海油服",
-      "price": 12.19,
-      "change_pct": 0.58,
-      "high": 12.21,
-      "low": 12.0,
-      "volume": 88637
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "002353": {
       "name": "杰瑞股份",
@@ -488,10 +482,12 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "军工": {
-      "change_pct": -0.04
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "黄金": {
-      "change_pct": -1.81
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "news": [
@@ -508,8 +504,8 @@
         "油价"
       ],
       "action_hits": [
-        "重启",
         "无人机",
+        "重启",
         "油价"
       ]
     },
@@ -539,12 +535,12 @@
       "lang": "zh",
       "relevance_score": 65,
       "entity_hits": [
-        "德黑蘭",
-        "伊朗"
+        "伊朗",
+        "德黑蘭"
       ],
       "action_hits": [
-        "談判",
-        "重啟"
+        "重啟",
+        "談判"
       ]
     },
     {
@@ -556,8 +552,8 @@
       "lang": "zh",
       "relevance_score": 60,
       "entity_hits": [
-        "油价",
-        "美伊"
+        "美伊",
+        "油价"
       ],
       "action_hits": [
         "油价"
@@ -572,34 +568,15 @@
       "lang": "en",
       "relevance_score": 90,
       "entity_hits": [
-        "saudi",
-        "iran",
         "yemen",
-        "houthi"
+        "iran",
+        "houthi",
+        "saudi"
       ],
       "action_hits": [
-        "energy security",
+        "escalat",
         "attack",
-        "escalat"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
-      "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 19 Sep 2026 23:49:26 GMT",
-      "summary": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
-      "lang": "en",
-      "relevance_score": 90,
-      "entity_hits": [
-        "saudi",
-        "riyadh",
-        "houthi"
-      ],
-      "action_hits": [
-        "ballistic",
-        "strike",
-        "missile"
+        "energy security"
       ]
     },
     {
@@ -611,10 +588,10 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "saudi",
-        "red sea",
         "yemen",
-        "houthi"
+        "red sea",
+        "houthi",
+        "saudi"
       ],
       "action_hits": [
         "escalat"
@@ -629,9 +606,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "strait",
         "yemen",
-        "houthi"
+        "houthi",
+        "strait"
       ],
       "action_hits": [
         "refugee"
@@ -639,20 +616,6 @@
     }
   ],
   "event_states": [
-    {
-      "event_id": "2af1fee660a2",
-      "title": "油价跌回每桶98美元 沙特有望重启管道",
-      "location": "沙特阿拉伯",
-      "first_seen_time": "2026-09-22T16:00:00+00:00",
-      "last_updated_time": "2026-09-22T16:00:00+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 90,
-      "source_count": 2,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001110968",
-      "lang": "zh"
-    },
     {
       "event_id": "320ab516bbd8",
       "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
@@ -666,6 +629,20 @@
       "source": "BBC中东",
       "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
+    },
+    {
+      "event_id": "2af1fee660a2",
+      "title": "油价跌回每桶98美元 沙特有望重启管道",
+      "location": "沙特阿拉伯",
+      "first_seen_time": "2026-09-22T16:00:00+00:00",
+      "last_updated_time": "2026-09-22T16:00:00+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 73,
+      "source_count": 1,
+      "source": "FT中文网",
+      "link": "https://www.ftchinese.com/story/001110968",
+      "lang": "zh"
     },
     {
       "event_id": "185086fae3c9",
@@ -741,7 +718,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "8/30",
         "8/31",
         "9/1",
         "9/2",
@@ -770,7 +746,8 @@
         "9/25",
         "9/26",
         "9/27",
-        "9/28"
+        "9/28",
+        "9/29"
       ],
       "transits": [
         0,
@@ -860,34 +837,27 @@
         21,
         69
       ],
-      "date_label": "9月28日"
+      "date_label": "9月29日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-09-28",
+      "hormuz_last_date": "2026-09-29",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 199,
+      "vlcc_stale_days": 200,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-09-28"
+      "routes_date": "2026-09-29"
     }
   },
   "meta": {
-    "report_date": "2026.09.28",
-    "report_date_cn": "2026年09月28日",
-    "war_day": 213,
+    "report_date": "2026.09.29",
+    "report_date_cn": "2026年09月29日",
+    "war_day": 214,
     "war_start": "2026-02-28",
-    "generated_at": "2026-09-28T14:36:38.241197+08:00",
-    "generated_at_cn": "2026-09-28 14:36:38 北京时间"
+    "generated_at": "2026-09-29T14:44:31.347195+08:00",
+    "generated_at_cn": "2026-09-29 14:44:31 北京时间"
   },
   "history": [
-    {
-      "date": "2026-07-01",
-      "brent": 73.16999816894531,
-      "wti": 69.80999755859375,
-      "gold": 3990.199951171875,
-      "usd_cny": 6.779099941253662
-    },
     {
       "date": "2026-07-02",
       "brent": 70.83000183105469,
@@ -1510,6 +1480,13 @@
       "wti": 94.12000274658203,
       "gold": 4205.7998046875,
       "usd_cny": 6.713200092315674
+    },
+    {
+      "date": "2026-09-29",
+      "brent": 99.45999908447266,
+      "wti": 93.97000122070312,
+      "gold": 4175.5,
+      "usd_cny": 6.703999996185303
     }
   ]
 }

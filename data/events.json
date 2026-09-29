@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "2af1fee660a2",
-    "title": "油价跌回每桶98美元 沙特有望重启管道",
-    "location": "沙特阿拉伯",
-    "first_seen_time": "2026-09-22T16:00:00+00:00",
-    "last_updated_time": "2026-09-22T16:00:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 2,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110968",
-    "lang": "zh"
-  },
-  {
     "event_id": "320ab516bbd8",
     "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
     "location": "伊朗",
@@ -26,6 +12,20 @@
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "2af1fee660a2",
+    "title": "油价跌回每桶98美元 沙特有望重启管道",
+    "location": "沙特阿拉伯",
+    "first_seen_time": "2026-09-22T16:00:00+00:00",
+    "last_updated_time": "2026-09-22T16:00:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 73,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001110968",
+    "lang": "zh"
   },
   {
     "event_id": "185086fae3c9",
