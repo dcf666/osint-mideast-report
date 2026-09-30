@@ -12,26 +12,9 @@
       "油价"
     ],
     "action_hits": [
-      "无人机",
       "重启",
+      "无人机",
       "油价"
-    ]
-  },
-  {
-    "source": "BBC中文",
-    "title": "中美峰會後 伊朗提出七天達成協議 被特朗普拒絕",
-    "link": "https://www.bbc.com/zhongwen/articles/cx5yln334jq5o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 28 Sep 2026 00:10:38 GMT",
-    "summary": "「我拒絕他們的協議，」特朗普週六表示，並補充美國已對該海峽擁有「完全控制權」，「大量石油」經此通行，導致全球油價大幅上漲，消費者燃料成本急升。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "伊朗",
-      "油價",
-      "海峽"
-    ],
-    "action_hits": [
-      "油價"
     ]
   },
   {
@@ -43,8 +26,8 @@
     "lang": "zh",
     "relevance_score": 65,
     "entity_hits": [
-      "伊朗",
-      "德黑蘭"
+      "德黑蘭",
+      "伊朗"
     ],
     "action_hits": [
       "重啟",
@@ -77,14 +60,14 @@
     "relevance_score": 90,
     "entity_hits": [
       "yemen",
-      "iran",
       "houthi",
+      "iran",
       "saudi"
     ],
     "action_hits": [
       "escalat",
-      "attack",
-      "energy security"
+      "energy security",
+      "attack"
     ]
   },
   {
@@ -97,8 +80,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "yemen",
-      "red sea",
       "houthi",
+      "red sea",
       "saudi"
     ],
     "action_hits": [
@@ -115,8 +98,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "yemen",
-      "houthi",
-      "strait"
+      "strait",
+      "houthi"
     ],
     "action_hits": [
       "refugee"

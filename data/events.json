@@ -28,20 +28,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "185086fae3c9",
-    "title": "中美峰會後 伊朗提出七天達成協議 被特朗普拒絕",
-    "location": "伊朗",
-    "first_seen_time": "2026-09-28T00:10:38+00:00",
-    "last_updated_time": "2026-09-28T00:10:38+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/cx5yln334jq5o/trad?at_medium=RSS&at_campaign=rss",
-    "lang": "zh"
-  },
-  {
     "event_id": "fd34183a96a2",
     "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
     "location": "红海",
