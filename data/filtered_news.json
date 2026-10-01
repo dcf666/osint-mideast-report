@@ -13,25 +13,25 @@
     ],
     "action_hits": [
       "重启",
-      "无人机",
-      "油价"
+      "油价",
+      "无人机"
     ]
   },
   {
-    "source": "BBC中文",
-    "title": "中國希望伊朗戰爭結束，但不是以特朗普想要的方式",
-    "link": "https://www.bbc.com/zhongwen/articles/cwp847n9n7m2o/trad?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 23 Sep 2026 22:52:14 GMT",
-    "summary": "分析人士指，北京可能推動德黑蘭重啟談判，但不太可能停止購買伊朗石油。",
+    "source": "德国之声",
+    "title": "伊拉克告别美国驻军时代 伊朗欢呼胜利",
+    "link": "https://www.dw.com/zh/伊拉克告别美国驻军时代-伊朗欢呼胜利/a-79482821?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Wed, 30 Sep 2026 09:06:00 GMT",
+    "summary": "美国当前这轮驻军始于2014年，目的是打击极端组织“伊斯兰国”。主张美国军事力量彻底退出中东的伊朗，将此次撤军视为一项重要胜利，并对此表示欢迎。",
     "lang": "zh",
-    "relevance_score": 65,
+    "relevance_score": 68,
     "entity_hits": [
-      "德黑蘭",
+      "中东",
+      "伊拉克",
       "伊朗"
     ],
     "action_hits": [
-      "重啟",
-      "談判"
+      "打击"
     ]
   },
   {
@@ -52,21 +52,18 @@
   },
   {
     "source": "BBC中东",
-    "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
-    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 22 Sep 2026 13:39:09 GMT",
-    "summary": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+    "title": "Too early to say what motive for Dubai-Tel Aviv flight attack was, Israeli PM says",
+    "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 01 Oct 2026 06:42:43 GMT",
+    "summary": "A pilot who stabbed another pilot on an Israel-bound plane is under investigation in Saudi Arabia, Benjamin Netanyahu says.",
     "lang": "en",
-    "relevance_score": 90,
+    "relevance_score": 70,
     "entity_hits": [
-      "yemen",
-      "houthi",
-      "iran",
+      "dubai",
+      "israel",
       "saudi"
     ],
     "action_hits": [
-      "escalat",
-      "energy security",
       "attack"
     ]
   },
@@ -79,30 +76,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
-      "houthi",
       "red sea",
-      "saudi"
+      "houthi",
+      "saudi",
+      "yemen"
     ],
     "action_hits": [
       "escalat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
-    "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 21 Sep 2026 10:00:31 GMT",
-    "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "yemen",
-      "strait",
-      "houthi"
-    ],
-    "action_hits": [
-      "refugee"
     ]
   }
 ]

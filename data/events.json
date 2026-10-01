@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "320ab516bbd8",
-    "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
-    "location": "伊朗",
-    "first_seen_time": "2026-09-22T13:39:09+00:00",
-    "last_updated_time": "2026-09-22T13:39:09+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
-    "confidence": 90,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "2af1fee660a2",
     "title": "油价跌回每桶98美元 沙特有望重启管道",
     "location": "沙特阿拉伯",
@@ -26,6 +12,20 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001110968",
     "lang": "zh"
+  },
+  {
+    "event_id": "eaa253484568",
+    "title": "Too early to say what motive for Dubai-Tel Aviv flight attack was, Israeli PM says",
+    "location": "阿联酋·迪拜",
+    "first_seen_time": "2026-10-01T06:42:43+00:00",
+    "last_updated_time": "2026-10-01T06:42:43+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "fd34183a96a2",
@@ -42,31 +42,17 @@
     "lang": "en"
   },
   {
-    "event_id": "ef03c2449335",
-    "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
-    "location": "也门",
-    "first_seen_time": "2026-09-21T10:00:31+00:00",
-    "last_updated_time": "2026-09-21T10:00:31+00:00",
+    "event_id": "a3a76440748e",
+    "title": "伊拉克告别美国驻军时代 伊朗欢呼胜利",
+    "location": "伊朗",
+    "first_seen_time": "2026-09-30T09:06:00+00:00",
+    "last_updated_time": "2026-09-30T09:06:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 70,
+    "confidence": 68,
     "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "b0cef45f8677",
-    "title": "中國希望伊朗戰爭結束，但不是以特朗普想要的方式",
-    "location": "伊朗·德黑兰",
-    "first_seen_time": "2026-09-23T22:52:14+00:00",
-    "last_updated_time": "2026-09-23T22:52:14+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 65,
-    "source_count": 1,
-    "source": "BBC中文",
-    "link": "https://www.bbc.com/zhongwen/articles/cwp847n9n7m2o/trad?at_medium=RSS&at_campaign=rss",
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/伊拉克告别美国驻军时代-伊朗欢呼胜利/a-79482821?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   },
   {
