@@ -43,8 +43,8 @@
     "lang": "zh",
     "relevance_score": 60,
     "entity_hits": [
-      "美伊",
-      "油价"
+      "油价",
+      "美伊"
     ],
     "action_hits": [
       "油价"
@@ -52,15 +52,16 @@
   },
   {
     "source": "BBC中东",
-    "title": "Too early to say what motive for Dubai-Tel Aviv flight attack was, Israeli PM says",
+    "title": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
     "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 01 Oct 2026 06:42:43 GMT",
-    "summary": "A pilot who stabbed another pilot on an Israel-bound plane is under investigation in Saudi Arabia, Benjamin Netanyahu says.",
+    "published": "Thu, 01 Oct 2026 11:26:46 GMT",
+    "summary": "A pilot who stabbed another pilot on an Israel-bound plane is being investigated in Saudi Arabia, Benjamin Netanyahu says.",
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "dubai",
       "israel",
+      "dubai",
+      "iran",
       "saudi"
     ],
     "action_hits": [
@@ -77,9 +78,9 @@
     "relevance_score": 70,
     "entity_hits": [
       "red sea",
-      "houthi",
+      "yemen",
       "saudi",
-      "yemen"
+      "houthi"
     ],
     "action_hits": [
       "escalat"
