@@ -8,30 +8,13 @@
     "lang": "zh",
     "relevance_score": 73,
     "entity_hits": [
-      "沙特",
-      "油价"
-    ],
-    "action_hits": [
-      "重启",
       "油价",
-      "无人机"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "伊拉克告别美国驻军时代 伊朗欢呼胜利",
-    "link": "https://www.dw.com/zh/伊拉克告别美国驻军时代-伊朗欢呼胜利/a-79482821?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Wed, 30 Sep 2026 09:06:00 GMT",
-    "summary": "美国当前这轮驻军始于2014年，目的是打击极端组织“伊斯兰国”。主张美国军事力量彻底退出中东的伊朗，将此次撤军视为一项重要胜利，并对此表示欢迎。",
-    "lang": "zh",
-    "relevance_score": 68,
-    "entity_hits": [
-      "中东",
-      "伊拉克",
-      "伊朗"
+      "沙特"
     ],
     "action_hits": [
-      "打击"
+      "油价",
+      "重启",
+      "无人机"
     ]
   },
   {
@@ -59,10 +42,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
-      "dubai",
+      "saudi",
       "iran",
-      "saudi"
+      "dubai",
+      "israel"
     ],
     "action_hits": [
       "attack"
@@ -77,10 +60,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "red sea",
       "yemen",
-      "saudi",
-      "houthi"
+      "red sea",
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
       "escalat"
