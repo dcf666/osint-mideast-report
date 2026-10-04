@@ -68,7 +68,7 @@
         102.31,
         102.25
       ],
-      "updated": "2026-10-03T06:17:37.326508"
+      "updated": "2026-10-04T06:42:50.393623"
     },
     "wti": {
       "current": 91.11000061035156,
@@ -138,7 +138,7 @@
         92.87,
         91.11
       ],
-      "updated": "2026-10-03T06:17:37.397844"
+      "updated": "2026-10-04T06:42:50.525650"
     },
     "gold": {
       "current": 4162.2998046875,
@@ -208,7 +208,7 @@
         4202.3,
         4162.3
       ],
-      "updated": "2026-10-03T06:17:37.468627"
+      "updated": "2026-10-04T06:42:50.660692"
     },
     "usd_cny": {
       "current": 6.704800128936768,
@@ -244,7 +244,7 @@
         "09/30",
         "10/01",
         "10/02",
-        "10/03"
+        "10/04"
       ],
       "prices": [
         6.72,
@@ -278,7 +278,7 @@
         6.7,
         6.7
       ],
-      "updated": "2026-10-03T06:17:37.548370"
+      "updated": "2026-10-04T06:42:50.860888"
     },
     "nat_gas": {
       "current": 3.0350000858306885,
@@ -348,7 +348,7 @@
         2.97,
         3.04
       ],
-      "updated": "2026-10-03T06:17:37.651874"
+      "updated": "2026-10-04T06:42:50.992887"
     }
   },
   "stocks": {
@@ -362,8 +362,11 @@
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 20.56,
+      "change_pct": 1.43,
+      "high": 20.86,
+      "low": 20.21,
+      "volume": 446688
     },
     "601975": {
       "name": "招商南油",
@@ -402,8 +405,11 @@
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 110.22,
+      "change_pct": 0.4,
+      "high": 112.41,
+      "low": 109.0,
+      "volume": 83941
     },
     "600803": {
       "name": "新奥股份",
@@ -492,9 +498,9 @@
         "沙特"
       ],
       "action_hits": [
-        "油价",
         "重启",
-        "无人机"
+        "无人机",
+        "油价"
       ]
     },
     {
@@ -515,6 +521,41 @@
     },
     {
       "source": "BBC中东",
+      "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
+      "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 04 Oct 2026 04:57:20 GMT",
+      "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "uae",
+        "dubai",
+        "israel"
+      ],
+      "action_hits": [
+        "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
+      "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 02 Oct 2026 15:29:28 GMT",
+      "summary": "Experts say US military assistance, using shuttle tankers and pipelines bypassing the Strait of Hormuz mean exports have rebounded.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "hormuz",
+        "iran",
+        "strait",
+        "middle east"
+      ],
+      "action_hits": [
+        "tanker"
+      ]
+    },
+    {
+      "source": "BBC中东",
       "title": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
       "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
       "published": "Thu, 01 Oct 2026 11:26:46 GMT",
@@ -522,10 +563,10 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "saudi",
-        "iran",
         "dubai",
-        "israel"
+        "saudi",
+        "israel",
+        "iran"
       ],
       "action_hits": [
         "attack"
@@ -540,10 +581,10 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "yemen",
-        "red sea",
         "houthi",
-        "saudi"
+        "yemen",
+        "saudi",
+        "red sea"
       ],
       "action_hits": [
         "escalat"
@@ -566,17 +607,31 @@
       "lang": "zh"
     },
     {
-      "event_id": "a6e24a842d17",
-      "title": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
+      "event_id": "3ba6c5853e66",
+      "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
       "location": "阿联酋·迪拜",
-      "first_seen_time": "2026-10-01T11:26:46+00:00",
-      "last_updated_time": "2026-10-01T11:26:46+00:00",
+      "first_seen_time": "2026-10-04T04:57:20+00:00",
+      "last_updated_time": "2026-10-04T04:57:20+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 2,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "00b7e90d8030",
+      "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-10-02T15:29:28+00:00",
+      "last_updated_time": "2026-10-02T15:29:28+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 70,
       "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -611,7 +666,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "9/4",
         "9/5",
         "9/6",
         "9/7",
@@ -640,7 +694,8 @@
         "9/30",
         "10/1",
         "10/2",
-        "10/3"
+        "10/3",
+        "10/4"
       ],
       "transits": [
         0,
@@ -730,34 +785,27 @@
         21,
         69
       ],
-      "date_label": "10月3日"
+      "date_label": "10月4日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-10-03",
+      "hormuz_last_date": "2026-10-04",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 204,
+      "vlcc_stale_days": 205,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-10-03"
+      "routes_date": "2026-10-04"
     }
   },
   "meta": {
-    "report_date": "2026.10.03",
-    "report_date_cn": "2026年10月03日",
-    "war_day": 218,
+    "report_date": "2026.10.04",
+    "report_date_cn": "2026年10月04日",
+    "war_day": 219,
     "war_start": "2026-02-28",
-    "generated_at": "2026-10-03T14:18:33.225523+08:00",
-    "generated_at_cn": "2026-10-03 14:18:33 北京时间"
+    "generated_at": "2026-10-04T14:43:24.468830+08:00",
+    "generated_at_cn": "2026-10-04 14:43:24 北京时间"
   },
   "history": [
-    {
-      "date": "2026-07-06",
-      "brent": 72.12999725341797,
-      "wti": 68.69000244140625,
-      "gold": 4167.2998046875,
-      "usd_cny": 6.787499904632568
-    },
     {
       "date": "2026-07-07",
       "brent": 72.48999786376953,
@@ -1376,6 +1424,13 @@
     },
     {
       "date": "2026-10-03",
+      "brent": 102.25,
+      "wti": 91.11000061035156,
+      "gold": 4162.2998046875,
+      "usd_cny": 6.704800128936768
+    },
+    {
+      "date": "2026-10-04",
       "brent": 102.25,
       "wti": 91.11000061035156,
       "gold": 4162.2998046875,

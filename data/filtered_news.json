@@ -12,9 +12,9 @@
       "沙特"
     ],
     "action_hits": [
-      "油价",
       "重启",
-      "无人机"
+      "无人机",
+      "油价"
     ]
   },
   {
@@ -35,6 +35,41 @@
   },
   {
     "source": "BBC中东",
+    "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
+    "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 04 Oct 2026 04:57:20 GMT",
+    "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "uae",
+      "dubai",
+      "israel"
+    ],
+    "action_hits": [
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
+    "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 02 Oct 2026 15:29:28 GMT",
+    "summary": "Experts say US military assistance, using shuttle tankers and pipelines bypassing the Strait of Hormuz mean exports have rebounded.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "hormuz",
+      "iran",
+      "strait",
+      "middle east"
+    ],
+    "action_hits": [
+      "tanker"
+    ]
+  },
+  {
+    "source": "BBC中东",
     "title": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
     "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
     "published": "Thu, 01 Oct 2026 11:26:46 GMT",
@@ -42,10 +77,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
-      "iran",
       "dubai",
-      "israel"
+      "saudi",
+      "israel",
+      "iran"
     ],
     "action_hits": [
       "attack"
@@ -60,10 +95,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
-      "red sea",
       "houthi",
-      "saudi"
+      "yemen",
+      "saudi",
+      "red sea"
     ],
     "action_hits": [
       "escalat"
