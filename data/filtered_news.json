@@ -8,13 +8,13 @@
     "lang": "zh",
     "relevance_score": 73,
     "entity_hits": [
-      "油价",
-      "沙特"
+      "沙特",
+      "油价"
     ],
     "action_hits": [
-      "重启",
+      "油价",
       "无人机",
-      "油价"
+      "重启"
     ]
   },
   {
@@ -35,6 +35,23 @@
   },
   {
     "source": "BBC中东",
+    "title": "Yemen's government announces all-out war to reclaim land from Houthis",
+    "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 04 Oct 2026 16:51:30 GMT",
+    "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "saudi",
+      "yemen",
+      "houthi"
+    ],
+    "action_hits": [
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
     "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
     "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
     "published": "Sun, 04 Oct 2026 04:57:20 GMT",
@@ -42,9 +59,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "uae",
+      "israel",
       "dubai",
-      "israel"
+      "uae"
     ],
     "action_hits": [
       "attack"
@@ -59,31 +76,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
-      "iran",
+      "middle east",
       "strait",
-      "middle east"
-    ],
-    "action_hits": [
-      "tanker"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
-    "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 01 Oct 2026 11:26:46 GMT",
-    "summary": "A pilot who stabbed another pilot on an Israel-bound plane is being investigated in Saudi Arabia, Benjamin Netanyahu says.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "dubai",
-      "saudi",
-      "israel",
+      "hormuz",
       "iran"
     ],
     "action_hits": [
-      "attack"
+      "tanker"
     ]
   },
   {
@@ -95,10 +94,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "houthi",
-      "yemen",
       "saudi",
-      "red sea"
+      "red sea",
+      "yemen",
+      "houthi"
     ],
     "action_hits": [
       "escalat"
