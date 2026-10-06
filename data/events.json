@@ -70,17 +70,17 @@
     "lang": "en"
   },
   {
-    "event_id": "7ace0f6f4a57",
-    "title": "特朗普敦促泽连斯基停止袭击俄炼油厂",
+    "event_id": "29c59ec03a55",
+    "title": "美军从英国基地撤走轰炸机",
     "location": "中东地区",
-    "first_seen_time": "2026-09-21T16:00:00+00:00",
-    "last_updated_time": "2026-09-21T16:00:00+00:00",
+    "first_seen_time": "2026-10-05T13:58:00+00:00",
+    "last_updated_time": "2026-10-05T13:58:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 60,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110955",
+    "confidence": 64,
+    "source_count": 2,
+    "source": "德国之声",
+    "link": "https://www.dw.com/zh/美军从英国基地撤走轰炸机/a-79552460?maca=chi-rss-chi-all-1127-xml-mrss",
     "lang": "zh"
   }
 ]

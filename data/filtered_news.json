@@ -8,13 +8,29 @@
     "lang": "zh",
     "relevance_score": 73,
     "entity_hits": [
-      "沙特",
-      "油价"
+      "油价",
+      "沙特"
     ],
     "action_hits": [
-      "油价",
+      "重启",
       "无人机",
-      "重启"
+      "油价"
+    ]
+  },
+  {
+    "source": "德国之声",
+    "title": "美军从英国基地撤走轰炸机",
+    "link": "https://www.dw.com/zh/美军从英国基地撤走轰炸机/a-79552460?maca=chi-rss-chi-all-1127-xml-mrss",
+    "published": "Mon, 5 Oct 2026 13:58:00 GMT",
+    "summary": "一周前在英国费尔福德美军基地5人涉嫌筹备恐怖主义活动而被捕一事后，美五角大楼证实，美军已将英国该基地所有B-1型轰炸机撤回本土。",
+    "lang": "zh",
+    "relevance_score": 64,
+    "entity_hits": [
+      "五角大楼",
+      "美军"
+    ],
+    "action_hits": [
+      "轰炸"
     ]
   },
   {
@@ -26,8 +42,8 @@
     "lang": "zh",
     "relevance_score": 60,
     "entity_hits": [
-      "油价",
-      "美伊"
+      "美伊",
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -42,8 +58,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
       "yemen",
+      "saudi",
       "houthi"
     ],
     "action_hits": [
@@ -76,10 +92,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "middle east",
       "strait",
+      "iran",
       "hormuz",
-      "iran"
+      "middle east"
     ],
     "action_hits": [
       "tanker"
@@ -94,9 +110,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "yemen",
       "saudi",
       "red sea",
-      "yemen",
       "houthi"
     ],
     "action_hits": [
