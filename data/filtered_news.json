@@ -12,9 +12,9 @@
       "沙特"
     ],
     "action_hits": [
-      "重启",
+      "油价",
       "无人机",
-      "油价"
+      "重启"
     ]
   },
   {
@@ -26,8 +26,8 @@
     "lang": "zh",
     "relevance_score": 64,
     "entity_hits": [
-      "五角大楼",
-      "美军"
+      "美军",
+      "五角大楼"
     ],
     "action_hits": [
       "轰炸"
@@ -42,8 +42,8 @@
     "lang": "zh",
     "relevance_score": 60,
     "entity_hits": [
-      "美伊",
-      "油价"
+      "油价",
+      "美伊"
     ],
     "action_hits": [
       "油价"
@@ -58,9 +58,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
+      "houthi",
       "saudi",
-      "houthi"
+      "yemen"
     ],
     "action_hits": [
       "strike"
@@ -75,9 +75,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "uae",
       "israel",
-      "dubai",
-      "uae"
+      "dubai"
     ],
     "action_hits": [
       "attack"
@@ -92,10 +92,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
-      "iran",
       "hormuz",
-      "middle east"
+      "middle east",
+      "strait",
+      "iran"
     ],
     "action_hits": [
       "tanker"
@@ -110,10 +110,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "yemen",
+      "houthi",
       "saudi",
-      "red sea",
-      "houthi"
+      "yemen",
+      "red sea"
     ],
     "action_hits": [
       "escalat"
