@@ -12,41 +12,9 @@
       "沙特"
     ],
     "action_hits": [
+      "重启",
       "油价",
-      "无人机",
-      "重启"
-    ]
-  },
-  {
-    "source": "德国之声",
-    "title": "美军从英国基地撤走轰炸机",
-    "link": "https://www.dw.com/zh/美军从英国基地撤走轰炸机/a-79552460?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Mon, 5 Oct 2026 13:58:00 GMT",
-    "summary": "一周前在英国费尔福德美军基地5人涉嫌筹备恐怖主义活动而被捕一事后，美五角大楼证实，美军已将英国该基地所有B-1型轰炸机撤回本土。",
-    "lang": "zh",
-    "relevance_score": 64,
-    "entity_hits": [
-      "美军",
-      "五角大楼"
-    ],
-    "action_hits": [
-      "轰炸"
-    ]
-  },
-  {
-    "source": "FT中文网",
-    "title": "特朗普敦促泽连斯基停止袭击俄炼油厂",
-    "link": "https://www.ftchinese.com/story/001110955",
-    "published": "Mon, 21 Sep 2026 16:00:00 GMT",
-    "summary": "美国总统将全球柴油价格上涨归咎于俄乌战争，而非他发动的美伊冲突。据悉他向乌方传递的核心信息是“柴油、柴油、柴油”。",
-    "lang": "zh",
-    "relevance_score": 60,
-    "entity_hits": [
-      "油价",
-      "美伊"
-    ],
-    "action_hits": [
-      "油价"
+      "无人机"
     ]
   },
   {
@@ -58,29 +26,12 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "houthi",
       "saudi",
-      "yemen"
+      "yemen",
+      "houthi"
     ],
     "action_hits": [
       "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
-    "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 04 Oct 2026 04:57:20 GMT",
-    "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "uae",
-      "israel",
-      "dubai"
-    ],
-    "action_hits": [
-      "attack"
     ]
   },
   {
@@ -92,10 +43,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
       "middle east",
-      "strait",
-      "iran"
+      "iran",
+      "hormuz",
+      "strait"
     ],
     "action_hits": [
       "tanker"
@@ -110,13 +61,30 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "houthi",
       "saudi",
+      "red sea",
       "yemen",
-      "red sea"
+      "houthi"
     ],
     "action_hits": [
       "escalat"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Candles lit in memory of those killed in October 7 attacks",
+    "link": "https://www.bbc.co.uk/news/videos/cme8r9ke1n9yo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 07 Oct 2026 04:34:20 GMT",
+    "summary": "Israelis are marking three years since the Hamas-led attack on 7 October 2023.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "hamas",
+      "israel"
+    ],
+    "action_hits": [
+      "killed",
+      "attack"
     ]
   }
 ]

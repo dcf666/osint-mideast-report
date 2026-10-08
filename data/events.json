@@ -28,20 +28,6 @@
     "lang": "en"
   },
   {
-    "event_id": "3ba6c5853e66",
-    "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
-    "location": "阿联酋·迪拜",
-    "first_seen_time": "2026-10-04T04:57:20+00:00",
-    "last_updated_time": "2026-10-04T04:57:20+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "00b7e90d8030",
     "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
     "location": "霍尔木兹海峡",
@@ -70,17 +56,17 @@
     "lang": "en"
   },
   {
-    "event_id": "29c59ec03a55",
-    "title": "美军从英国基地撤走轰炸机",
-    "location": "中东地区",
-    "first_seen_time": "2026-10-05T13:58:00+00:00",
-    "last_updated_time": "2026-10-05T13:58:00+00:00",
+    "event_id": "f2c8ae80dbd5",
+    "title": "Candles lit in memory of those killed in October 7 attacks",
+    "location": "以色列",
+    "first_seen_time": "2026-10-07T04:34:20+00:00",
+    "last_updated_time": "2026-10-07T04:34:20+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 64,
-    "source_count": 2,
-    "source": "德国之声",
-    "link": "https://www.dw.com/zh/美军从英国基地撤走轰炸机/a-79552460?maca=chi-rss-chi-all-1127-xml-mrss",
-    "lang": "zh"
+    "confidence": 67,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/videos/cme8r9ke1n9yo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   }
 ]
