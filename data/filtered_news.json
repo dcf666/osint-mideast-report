@@ -1,20 +1,19 @@
 [
   {
     "source": "FT中文网",
-    "title": "油价跌回每桶98美元 沙特有望重启管道",
-    "link": "https://www.ftchinese.com/story/001110968",
-    "published": "Tue, 22 Sep 2026 16:00:00 GMT",
-    "summary": "此前油价一度飙升至每桶109.97美元，原因是在一系列无人机袭击破坏东西向输油管道后，沙特阿拉伯在近两周前关闭了该管道。",
+    "title": "沙特机场遭导弹袭击后百余航班取消",
+    "link": "https://www.ftchinese.com/story/001111054",
+    "published": "Thu, 08 Oct 2026 16:00:00 GMT",
+    "summary": "胡塞武装周四称其用弹道导弹袭击了哈立德国王国际机场。",
     "lang": "zh",
-    "relevance_score": 73,
+    "relevance_score": 67,
     "entity_hits": [
-      "油价",
+      "胡塞",
       "沙特"
     ],
     "action_hits": [
-      "重启",
-      "油价",
-      "无人机"
+      "弹道导弹",
+      "导弹"
     ]
   },
   {
@@ -43,10 +42,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "middle east",
       "iran",
-      "hormuz",
-      "strait"
+      "strait",
+      "middle east",
+      "hormuz"
     ],
     "action_hits": [
       "tanker"
@@ -61,8 +60,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
       "red sea",
+      "saudi",
       "yemen",
       "houthi"
     ],
@@ -79,12 +78,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
-      "killed",
-      "attack"
+      "attack",
+      "killed"
     ]
   }
 ]

@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "2af1fee660a2",
-    "title": "油价跌回每桶98美元 沙特有望重启管道",
-    "location": "沙特阿拉伯",
-    "first_seen_time": "2026-09-22T16:00:00+00:00",
-    "last_updated_time": "2026-09-22T16:00:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 73,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001110968",
-    "lang": "zh"
-  },
-  {
     "event_id": "4af7f896b6ef",
     "title": "Yemen's government announces all-out war to reclaim land from Houthis",
     "location": "也门",
@@ -54,6 +40,20 @@
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "1bee545d2231",
+    "title": "沙特机场遭导弹袭击后百余航班取消",
+    "location": "沙特阿拉伯",
+    "first_seen_time": "2026-10-08T16:00:00+00:00",
+    "last_updated_time": "2026-10-08T16:00:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001111054",
+    "lang": "zh"
   },
   {
     "event_id": "f2c8ae80dbd5",
