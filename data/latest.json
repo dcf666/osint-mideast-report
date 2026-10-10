@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 103.62999725341797,
-      "day_change_pct": -0.62,
-      "war_change_pct": 35.82,
+      "current": 104.72000122070312,
+      "day_change_pct": 0.42,
+      "war_change_pct": 37.77,
       "dates": [
         "08/28",
         "08/31",
@@ -66,14 +66,14 @@
         100.58,
         100.2,
         104.28,
-        103.63
+        104.72
       ],
-      "updated": "2026-10-09T07:16:20.462516"
+      "updated": "2026-10-10T06:53:42.639827"
     },
     "wti": {
-      "current": 91.04000091552734,
-      "day_change_pct": -0.49,
-      "war_change_pct": 26.3,
+      "current": 91.8499984741211,
+      "day_change_pct": 0.39,
+      "war_change_pct": 28.62,
       "dates": [
         "08/28",
         "08/31",
@@ -136,14 +136,14 @@
         89.44,
         88.28,
         91.49,
-        91.04
+        91.85
       ],
-      "updated": "2026-10-09T07:16:20.645429"
+      "updated": "2026-10-10T06:53:42.897914"
     },
     "gold": {
-      "current": 4220.39990234375,
-      "day_change_pct": 1.53,
-      "war_change_pct": 1.92,
+      "current": 4216.2998046875,
+      "day_change_pct": 1.43,
+      "war_change_pct": 2.49,
       "dates": [
         "08/28",
         "08/31",
@@ -206,16 +206,15 @@
         4187.1,
         4140.7,
         4157.0,
-        4220.4
+        4216.3
       ],
-      "updated": "2026-10-09T07:16:20.830126"
+      "updated": "2026-10-10T06:53:43.102723"
     },
     "usd_cny": {
-      "current": 6.684500217437744,
-      "day_change_pct": -0.3,
-      "war_change_pct": -1.73,
+      "current": 6.674300193786621,
+      "day_change_pct": -0.41,
+      "war_change_pct": -1.88,
       "dates": [
-        "08/31",
         "09/01",
         "09/02",
         "09/03",
@@ -244,11 +243,11 @@
         "10/06",
         "10/07",
         "10/08",
-        "10/09"
+        "10/09",
+        "10/10"
       ],
       "prices": [
         6.73,
-        6.73,
         6.72,
         6.72,
         6.72,
@@ -276,14 +275,15 @@
         6.7,
         6.7,
         6.7,
-        6.68
+        6.7,
+        6.67
       ],
-      "updated": "2026-10-09T07:16:21.015359"
+      "updated": "2026-10-10T06:53:43.306505"
     },
     "nat_gas": {
-      "current": 3.130000114440918,
-      "day_change_pct": -1.2,
-      "war_change_pct": 3.92,
+      "current": 3.2200000286102295,
+      "day_change_pct": 1.64,
+      "war_change_pct": 9.52,
       "dates": [
         "08/28",
         "08/31",
@@ -346,9 +346,9 @@
         3.11,
         3.2,
         3.17,
-        3.13
+        3.22
       ],
-      "updated": "2026-10-09T07:16:21.296672"
+      "updated": "2026-10-10T06:53:43.524955"
     }
   },
   "stocks": {
@@ -390,8 +390,11 @@
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 21.21,
+      "change_pct": -2.03,
+      "high": 21.7,
+      "low": 20.9,
+      "volume": 242070
     },
     "600759": {
       "name": "洲际油气",
@@ -491,8 +494,8 @@
       "lang": "zh",
       "relevance_score": 67,
       "entity_hits": [
-        "胡塞",
-        "沙特"
+        "沙特",
+        "胡塞"
       ],
       "action_hits": [
         "弹道导弹",
@@ -501,19 +504,24 @@
     },
     {
       "source": "BBC中东",
-      "title": "Yemen's government announces all-out war to reclaim land from Houthis",
-      "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 04 Oct 2026 16:51:30 GMT",
-      "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
+      "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+      "link": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 09 Oct 2026 13:50:25 GMT",
+      "summary": "The missile attacks come amid an escalation in fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government.",
       "lang": "en",
-      "relevance_score": 70,
+      "relevance_score": 100,
       "entity_hits": [
-        "saudi",
+        "riyadh",
         "yemen",
-        "houthi"
+        "iran",
+        "houthi",
+        "saudi"
       ],
       "action_hits": [
-        "strike"
+        "missile",
+        "attack",
+        "escalat",
+        "killed"
       ]
     },
     {
@@ -525,10 +533,10 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "iran",
-        "strait",
         "middle east",
-        "hormuz"
+        "hormuz",
+        "iran",
+        "strait"
       ],
       "action_hits": [
         "tanker"
@@ -543,10 +551,10 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "red sea",
         "saudi",
-        "yemen",
-        "houthi"
+        "houthi",
+        "red sea",
+        "yemen"
       ],
       "action_hits": [
         "escalat"
@@ -572,17 +580,17 @@
   ],
   "event_states": [
     {
-      "event_id": "4af7f896b6ef",
-      "title": "Yemen's government announces all-out war to reclaim land from Houthis",
-      "location": "也门",
-      "first_seen_time": "2026-10-04T16:51:30+00:00",
-      "last_updated_time": "2026-10-04T16:51:30+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 70,
+      "event_id": "b05ee56c1626",
+      "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+      "location": "伊朗",
+      "first_seen_time": "2026-10-09T13:50:25+00:00",
+      "last_updated_time": "2026-10-09T13:50:25+00:00",
+      "current_status": "escalating",
+      "trend": "worsening",
+      "confidence": 100,
       "source_count": 1,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -645,7 +653,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "9/10",
         "9/11",
         "9/12",
         "9/13",
@@ -674,7 +681,8 @@
         "10/6",
         "10/7",
         "10/8",
-        "10/9"
+        "10/9",
+        "10/10"
       ],
       "transits": [
         0,
@@ -764,34 +772,27 @@
         21,
         69
       ],
-      "date_label": "10月9日"
+      "date_label": "10月10日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-10-09",
+      "hormuz_last_date": "2026-10-10",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-03-13",
-      "vlcc_stale_days": 210,
+      "vlcc_stale_days": 211,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-10-09"
+      "routes_date": "2026-10-10"
     }
   },
   "meta": {
-    "report_date": "2026.10.09",
-    "report_date_cn": "2026年10月09日",
-    "war_day": 224,
+    "report_date": "2026.10.10",
+    "report_date_cn": "2026年10月10日",
+    "war_day": 225,
     "war_start": "2026-02-28",
-    "generated_at": "2026-10-09T15:17:08.699160+08:00",
-    "generated_at_cn": "2026-10-09 15:17:08 北京时间"
+    "generated_at": "2026-10-10T14:54:18.522720+08:00",
+    "generated_at_cn": "2026-10-10 14:54:18 北京时间"
   },
   "history": [
-    {
-      "date": "2026-07-12",
-      "brent": 76.01000213623047,
-      "wti": 71.41000366210938,
-      "gold": 4113.7001953125,
-      "usd_cny": 6.76669979095459
-    },
     {
       "date": "2026-07-13",
       "brent": 79.12999725341797,
@@ -1414,6 +1415,13 @@
       "wti": 91.04000091552734,
       "gold": 4220.39990234375,
       "usd_cny": 6.684500217437744
+    },
+    {
+      "date": "2026-10-10",
+      "brent": 104.72000122070312,
+      "wti": 91.8499984741211,
+      "gold": 4216.2998046875,
+      "usd_cny": 6.674300193786621
     }
   ]
 }

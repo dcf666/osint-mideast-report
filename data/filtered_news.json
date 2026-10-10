@@ -8,8 +8,8 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "胡塞",
-      "沙特"
+      "沙特",
+      "胡塞"
     ],
     "action_hits": [
       "弹道导弹",
@@ -18,19 +18,24 @@
   },
   {
     "source": "BBC中东",
-    "title": "Yemen's government announces all-out war to reclaim land from Houthis",
-    "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 04 Oct 2026 16:51:30 GMT",
-    "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
+    "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+    "link": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 09 Oct 2026 13:50:25 GMT",
+    "summary": "The missile attacks come amid an escalation in fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government.",
     "lang": "en",
-    "relevance_score": 70,
+    "relevance_score": 100,
     "entity_hits": [
-      "saudi",
+      "riyadh",
       "yemen",
-      "houthi"
+      "iran",
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
-      "strike"
+      "missile",
+      "attack",
+      "escalat",
+      "killed"
     ]
   },
   {
@@ -42,10 +47,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
-      "strait",
       "middle east",
-      "hormuz"
+      "hormuz",
+      "iran",
+      "strait"
     ],
     "action_hits": [
       "tanker"
@@ -60,10 +65,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "red sea",
       "saudi",
-      "yemen",
-      "houthi"
+      "houthi",
+      "red sea",
+      "yemen"
     ],
     "action_hits": [
       "escalat"

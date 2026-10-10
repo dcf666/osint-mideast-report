@@ -1,16 +1,16 @@
 [
   {
-    "event_id": "4af7f896b6ef",
-    "title": "Yemen's government announces all-out war to reclaim land from Houthis",
-    "location": "也门",
-    "first_seen_time": "2026-10-04T16:51:30+00:00",
-    "last_updated_time": "2026-10-04T16:51:30+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
+    "event_id": "b05ee56c1626",
+    "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+    "location": "伊朗",
+    "first_seen_time": "2026-10-09T13:50:25+00:00",
+    "last_updated_time": "2026-10-09T13:50:25+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 100,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
