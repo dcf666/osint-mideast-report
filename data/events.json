@@ -14,6 +14,20 @@
     "lang": "en"
   },
   {
+    "event_id": "2a21b4cd9f83",
+    "title": "Twelve killed and 300 injured in attack on airport in Saudi capital Riyadh",
+    "location": "也门",
+    "first_seen_time": "2026-10-11T06:49:47+00:00",
+    "last_updated_time": "2026-10-11T06:49:47+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "00b7e90d8030",
     "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
     "location": "霍尔木兹海峡",

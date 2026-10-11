@@ -8,12 +8,12 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "沙特",
-      "胡塞"
+      "胡塞",
+      "沙特"
     ],
     "action_hits": [
-      "弹道导弹",
-      "导弹"
+      "导弹",
+      "弹道导弹"
     ]
   },
   {
@@ -25,17 +25,37 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "saudi",
       "riyadh",
-      "yemen",
-      "iran",
       "houthi",
+      "yemen",
+      "iran"
+    ],
+    "action_hits": [
+      "attack",
+      "escalat",
+      "killed",
+      "missile"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Twelve killed and 300 injured in attack on airport in Saudi capital Riyadh",
+    "link": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 11 Oct 2026 06:49:47 GMT",
+    "summary": "Saturday's attack was the deadliest in Saudi Arabia since May 2015. US and Saudi officials are blaming Yemen's Houthis, who have yet to comment on the strike.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "riyadh",
+      "houthi",
+      "yemen",
       "saudi"
     ],
     "action_hits": [
-      "missile",
       "attack",
-      "escalat",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -47,8 +67,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "middle east",
       "hormuz",
+      "middle east",
       "iran",
       "strait"
     ],
@@ -65,10 +85,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
       "houthi",
       "red sea",
-      "yemen"
+      "yemen",
+      "saudi"
     ],
     "action_hits": [
       "escalat"
