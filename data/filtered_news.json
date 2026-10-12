@@ -12,8 +12,8 @@
       "沙特"
     ],
     "action_hits": [
-      "导弹",
-      "弹道导弹"
+      "弹道导弹",
+      "导弹"
     ]
   },
   {
@@ -25,31 +25,52 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "houthi",
       "saudi",
       "riyadh",
-      "houthi",
-      "yemen",
-      "iran"
+      "iran",
+      "yemen"
     ],
     "action_hits": [
       "attack",
-      "escalat",
+      "missile",
       "killed",
-      "missile"
+      "escalat"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+    "link": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 11 Oct 2026 22:45:58 GMT",
+    "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "houthi",
+      "saudi",
+      "riyadh",
+      "iran",
+      "yemen"
+    ],
+    "action_hits": [
+      "attack",
+      "killed",
+      "strike"
     ]
   },
   {
     "source": "BBC中东",
     "title": "Twelve killed and 300 injured in attack on airport in Saudi capital Riyadh",
     "link": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 11 Oct 2026 06:49:47 GMT",
+    "published": "Sun, 11 Oct 2026 08:41:30 GMT",
     "summary": "Saturday's attack was the deadliest in Saudi Arabia since May 2015. US and Saudi officials are blaming Yemen's Houthis, who have yet to comment on the strike.",
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
-      "riyadh",
-      "houthi",
       "yemen",
+      "houthi",
+      "riyadh",
       "saudi"
     ],
     "action_hits": [
@@ -67,10 +88,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
-      "middle east",
       "iran",
-      "strait"
+      "hormuz",
+      "strait",
+      "middle east"
     ],
     "action_hits": [
       "tanker"
@@ -85,10 +106,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "houthi",
-      "red sea",
+      "saudi",
       "yemen",
-      "saudi"
+      "houthi",
+      "red sea"
     ],
     "action_hits": [
       "escalat"

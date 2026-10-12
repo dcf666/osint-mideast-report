@@ -14,11 +14,25 @@
     "lang": "en"
   },
   {
+    "event_id": "d194b7740041",
+    "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+    "location": "伊朗",
+    "first_seen_time": "2026-10-11T22:45:58+00:00",
+    "last_updated_time": "2026-10-11T22:45:58+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 90,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "2a21b4cd9f83",
     "title": "Twelve killed and 300 injured in attack on airport in Saudi capital Riyadh",
     "location": "也门",
-    "first_seen_time": "2026-10-11T06:49:47+00:00",
-    "last_updated_time": "2026-10-11T06:49:47+00:00",
+    "first_seen_time": "2026-10-11T08:41:30+00:00",
+    "last_updated_time": "2026-10-11T08:41:30+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
