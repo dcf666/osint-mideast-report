@@ -15,14 +15,14 @@
   },
   {
     "event_id": "d194b7740041",
-    "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+    "title": "Why is it so hard to fight the Houthis?",
     "location": "伊朗",
     "first_seen_time": "2026-10-11T22:45:58+00:00",
-    "last_updated_time": "2026-10-11T22:45:58+00:00",
+    "last_updated_time": "2026-10-12T12:15:01+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -42,6 +42,20 @@
     "lang": "en"
   },
   {
+    "event_id": "70b05726336f",
+    "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+    "location": "沙特阿拉伯",
+    "first_seen_time": "2026-10-13T04:30:09+00:00",
+    "last_updated_time": "2026-10-13T04:30:09+00:00",
+    "current_status": "escalating",
+    "trend": "worsening",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "00b7e90d8030",
     "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
     "location": "霍尔木兹海峡",
@@ -53,6 +67,20 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "bb01e0dd654f",
+    "title": "Who are the Houthis and what do they want?",
+    "location": "红海",
+    "first_seen_time": "2026-10-13T06:38:32+00:00",
+    "last_updated_time": "2026-10-13T06:38:32+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cqy7z228kee3o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
@@ -82,19 +110,5 @@
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001111054",
     "lang": "zh"
-  },
-  {
-    "event_id": "f2c8ae80dbd5",
-    "title": "Candles lit in memory of those killed in October 7 attacks",
-    "location": "以色列",
-    "first_seen_time": "2026-10-07T04:34:20+00:00",
-    "last_updated_time": "2026-10-07T04:34:20+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/videos/cme8r9ke1n9yo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   }
 ]

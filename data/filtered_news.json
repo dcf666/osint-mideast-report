@@ -12,8 +12,8 @@
       "沙特"
     ],
     "action_hits": [
-      "弹道导弹",
-      "导弹"
+      "导弹",
+      "弹道导弹"
     ]
   },
   {
@@ -26,16 +26,16 @@
     "relevance_score": 100,
     "entity_hits": [
       "houthi",
-      "saudi",
-      "riyadh",
       "iran",
-      "yemen"
+      "yemen",
+      "saudi",
+      "riyadh"
     ],
     "action_hits": [
-      "attack",
+      "escalat",
       "missile",
       "killed",
-      "escalat"
+      "attack"
     ]
   },
   {
@@ -48,14 +48,14 @@
     "relevance_score": 90,
     "entity_hits": [
       "houthi",
-      "saudi",
-      "riyadh",
       "iran",
-      "yemen"
+      "yemen",
+      "saudi",
+      "riyadh"
     ],
     "action_hits": [
-      "attack",
       "killed",
+      "attack",
       "strike"
     ]
   },
@@ -70,13 +70,31 @@
     "entity_hits": [
       "yemen",
       "houthi",
-      "riyadh",
-      "saudi"
+      "saudi",
+      "riyadh"
     ],
     "action_hits": [
-      "attack",
       "killed",
+      "attack",
       "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+    "link": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 13 Oct 2026 04:30:09 GMT",
+    "summary": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "houthi",
+      "saudi",
+      "riyadh"
+    ],
+    "action_hits": [
+      "escalat",
+      "attack"
     ]
   },
   {
@@ -99,6 +117,25 @@
   },
   {
     "source": "BBC中东",
+    "title": "Who are the Houthis and what do they want?",
+    "link": "https://www.bbc.co.uk/news/articles/cqy7z228kee3o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 13 Oct 2026 06:38:32 GMT",
+    "summary": "Their fighting with pro-government forces over Yemen's Red Sea coast and attacks on Saudi Arabia has put the spotlight on the Iran-backed group.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "red sea",
+      "houthi",
+      "iran",
+      "yemen",
+      "saudi"
+    ],
+    "action_hits": [
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
     "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
     "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
     "published": "Mon, 21 Sep 2026 14:14:16 GMT",
@@ -106,10 +143,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
       "yemen",
+      "red sea",
       "houthi",
-      "red sea"
+      "saudi"
     ],
     "action_hits": [
       "escalat"
@@ -117,19 +154,19 @@
   },
   {
     "source": "BBC中东",
-    "title": "Candles lit in memory of those killed in October 7 attacks",
-    "link": "https://www.bbc.co.uk/news/videos/cme8r9ke1n9yo?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 07 Oct 2026 04:34:20 GMT",
-    "summary": "Israelis are marking three years since the Hamas-led attack on 7 October 2023.",
+    "title": "Why is it so hard to fight the Houthis?",
+    "link": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o?at_medium=RSS&at_campaign=rss",
+    "published": "Mon, 12 Oct 2026 12:15:01 GMT",
+    "summary": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand.",
     "lang": "en",
-    "relevance_score": 67,
+    "relevance_score": 70,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "iran",
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
-      "attack",
-      "killed"
+      "strike"
     ]
   }
 ]
