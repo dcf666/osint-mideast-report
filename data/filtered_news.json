@@ -10,8 +10,8 @@
     "entity_hits": [
       "海峡",
       "霍尔木兹",
-      "伊朗",
-      "沙特"
+      "沙特",
+      "伊朗"
     ],
     "action_hits": [
       "航运"
@@ -43,17 +43,36 @@
     "lang": "en",
     "relevance_score": 100,
     "entity_hits": [
+      "iran",
       "saudi",
       "riyadh",
+      "houthi",
+      "yemen"
+    ],
+    "action_hits": [
+      "killed",
+      "escalat",
+      "missile",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Houthi missile hits Aramco building after Saudi-led coalition strike on Yemen fuel depot",
+    "link": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 14 Oct 2026 12:26:13 GMT",
+    "summary": "The Saudi energy ministry says the Houthi attack caused a \"limited fire\" at Aramco's headquarters complex in Dhahran.",
+    "lang": "en",
+    "relevance_score": 90,
+    "entity_hits": [
+      "saudi",
       "yemen",
-      "iran",
       "houthi"
     ],
     "action_hits": [
+      "strike",
       "missile",
-      "attack",
-      "escalat",
-      "killed"
+      "attack"
     ]
   },
   {
@@ -65,16 +84,16 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "iran",
       "saudi",
       "riyadh",
-      "yemen",
-      "iran",
-      "houthi"
+      "houthi",
+      "yemen"
     ],
     "action_hits": [
-      "attack",
       "killed",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -87,33 +106,14 @@
     "relevance_score": 90,
     "entity_hits": [
       "saudi",
-      "houthi",
+      "yemen",
       "riyadh",
-      "yemen"
+      "houthi"
     ],
     "action_hits": [
-      "attack",
       "killed",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
-    "link": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 14 Oct 2026 04:20:17 GMT",
-    "summary": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "saudi",
-      "houthi",
-      "riyadh",
-      "yemen"
-    ],
-    "action_hits": [
-      "intercept",
-      "missile"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -126,12 +126,12 @@
     "relevance_score": 80,
     "entity_hits": [
       "saudi",
-      "houthi",
-      "riyadh"
+      "riyadh",
+      "houthi"
     ],
     "action_hits": [
-      "attack",
-      "escalat"
+      "escalat",
+      "attack"
     ]
   },
   {
@@ -143,10 +143,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
-      "hormuz",
       "middle east",
-      "strait"
+      "iran",
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "tanker"
@@ -161,11 +161,11 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
-      "yemen",
       "iran",
+      "saudi",
       "houthi",
-      "red sea"
+      "red sea",
+      "yemen"
     ],
     "action_hits": [
       "attack"
@@ -181,9 +181,9 @@
     "relevance_score": 70,
     "entity_hits": [
       "saudi",
-      "red sea",
+      "yemen",
       "houthi",
-      "yemen"
+      "red sea"
     ],
     "action_hits": [
       "escalat"
