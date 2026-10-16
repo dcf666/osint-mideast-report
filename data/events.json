@@ -1,24 +1,10 @@
 [
   {
-    "event_id": "b05ee56c1626",
-    "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
-    "location": "伊朗",
-    "first_seen_time": "2026-10-09T13:50:25+00:00",
-    "last_updated_time": "2026-10-09T13:50:25+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
-    "confidence": 100,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "6159e9ce2d83",
-    "title": "Houthi missile hits Aramco building after Saudi-led coalition strike on Yemen fuel depot",
+    "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
     "location": "也门",
     "first_seen_time": "2026-10-14T12:26:13+00:00",
-    "last_updated_time": "2026-10-14T12:26:13+00:00",
+    "last_updated_time": "2026-10-15T23:38:46+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
@@ -29,14 +15,14 @@
   },
   {
     "event_id": "d194b7740041",
-    "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+    "title": "Why is it so hard to fight the Houthis?",
     "location": "伊朗",
     "first_seen_time": "2026-10-11T22:45:58+00:00",
-    "last_updated_time": "2026-10-11T22:45:58+00:00",
+    "last_updated_time": "2026-10-12T12:15:01+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 90,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -56,18 +42,18 @@
     "lang": "en"
   },
   {
-    "event_id": "42eb0966218c",
-    "title": "海湾石油产量9月出现回升",
+    "event_id": "00b7e90d8030",
+    "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-10-13T16:00:00+00:00",
-    "last_updated_time": "2026-10-13T16:00:00+00:00",
+    "first_seen_time": "2026-10-02T15:29:28+00:00",
+    "last_updated_time": "2026-10-02T15:29:28+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 70,
-    "source_count": 2,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001111095",
-    "lang": "zh"
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
   },
   {
     "event_id": "bb01e0dd654f",
@@ -96,19 +82,5 @@
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "1bee545d2231",
-    "title": "沙特机场遭导弹袭击后百余航班取消",
-    "location": "沙特阿拉伯",
-    "first_seen_time": "2026-10-08T16:00:00+00:00",
-    "last_updated_time": "2026-10-08T16:00:00+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001111054",
-    "lang": "zh"
   }
 ]
