@@ -14,20 +14,6 @@
     "lang": "en"
   },
   {
-    "event_id": "d194b7740041",
-    "title": "Why is it so hard to fight the Houthis?",
-    "location": "伊朗",
-    "first_seen_time": "2026-10-11T22:45:58+00:00",
-    "last_updated_time": "2026-10-12T12:15:01+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 90,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "70b05726336f",
     "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
     "location": "沙特阿拉伯",
@@ -42,18 +28,18 @@
     "lang": "en"
   },
   {
-    "event_id": "00b7e90d8030",
-    "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
+    "event_id": "42eb0966218c",
+    "title": "海湾石油产量9月出现回升",
     "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-10-02T15:29:28+00:00",
-    "last_updated_time": "2026-10-02T15:29:28+00:00",
+    "first_seen_time": "2026-10-13T16:00:00+00:00",
+    "last_updated_time": "2026-10-13T16:00:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
+    "source_count": 2,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001111095",
+    "lang": "zh"
   },
   {
     "event_id": "bb01e0dd654f",
@@ -82,5 +68,33 @@
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
+  },
+  {
+    "event_id": "d9cc70cb4925",
+    "title": "Why is it so hard to fight the Houthis?",
+    "location": "伊朗",
+    "first_seen_time": "2026-10-12T12:15:01+00:00",
+    "last_updated_time": "2026-10-12T12:15:01+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "1bee545d2231",
+    "title": "沙特机场遭导弹袭击后百余航班取消",
+    "location": "沙特阿拉伯",
+    "first_seen_time": "2026-10-08T16:00:00+00:00",
+    "last_updated_time": "2026-10-08T16:00:00+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001111054",
+    "lang": "zh"
   }
 ]
