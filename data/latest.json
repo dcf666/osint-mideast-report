@@ -3,7 +3,7 @@
     "brent": {
       "current": 109.86000061035156,
       "day_change_pct": 3.72,
-      "war_change_pct": 24.7,
+      "war_change_pct": 23.13,
       "dates": [
         "09/04",
         "09/08",
@@ -68,12 +68,12 @@
         105.92,
         109.86
       ],
-      "updated": "2026-10-17T05:27:00.934094"
+      "updated": "2026-10-18T05:39:07.255582"
     },
     "wti": {
-      "current": 101.41000366210938,
-      "day_change_pct": 3.51,
-      "war_change_pct": 22.94,
+      "current": 99.0199966430664,
+      "day_change_pct": 1.07,
+      "war_change_pct": 18.97,
       "dates": [
         "09/04",
         "09/08",
@@ -136,14 +136,14 @@
         94.14,
         95.09,
         97.97,
-        101.41
+        99.02
       ],
-      "updated": "2026-10-17T05:27:01.074024"
+      "updated": "2026-10-18T05:39:07.373139"
     },
     "gold": {
       "current": 4181.10009765625,
       "day_change_pct": 0.26,
-      "war_change_pct": 4.04,
+      "war_change_pct": 4.11,
       "dates": [
         "09/04",
         "09/08",
@@ -208,7 +208,7 @@
         4170.1,
         4181.1
       ],
-      "updated": "2026-10-17T05:27:01.212747"
+      "updated": "2026-10-18T05:39:07.485331"
     },
     "usd_cny": {
       "current": 6.686200141906738,
@@ -244,7 +244,7 @@
         "10/14",
         "10/15",
         "10/16",
-        "10/17"
+        "10/18"
       ],
       "prices": [
         6.71,
@@ -278,12 +278,12 @@
         6.69,
         6.69
       ],
-      "updated": "2026-10-17T05:27:01.392670"
+      "updated": "2026-10-18T05:39:07.601784"
     },
     "nat_gas": {
       "current": 3.115999937057495,
       "day_change_pct": -3.71,
-      "war_change_pct": 7.04,
+      "war_change_pct": 8.95,
       "dates": [
         "09/04",
         "09/08",
@@ -348,7 +348,7 @@
         3.24,
         3.12
       ],
-      "updated": "2026-10-17T05:27:01.533589"
+      "updated": "2026-10-18T05:39:07.714190"
     }
   },
   "stocks": {
@@ -488,10 +488,10 @@
       "lang": "zh",
       "relevance_score": 70,
       "entity_hits": [
-        "沙特",
         "霍尔木兹",
+        "伊朗",
         "海峡",
-        "伊朗"
+        "沙特"
       ],
       "action_hits": [
         "航运"
@@ -506,8 +506,8 @@
       "lang": "zh",
       "relevance_score": 67,
       "entity_hits": [
-        "胡塞",
-        "沙特"
+        "沙特",
+        "胡塞"
       ],
       "action_hits": [
         "导弹",
@@ -524,13 +524,13 @@
       "relevance_score": 90,
       "entity_hits": [
         "saudi",
-        "yemen",
-        "houthi"
+        "houthi",
+        "yemen"
       ],
       "action_hits": [
+        "attack",
         "missile",
-        "strike",
-        "attack"
+        "strike"
       ]
     },
     {
@@ -543,12 +543,12 @@
       "relevance_score": 80,
       "entity_hits": [
         "saudi",
-        "riyadh",
-        "houthi"
+        "houthi",
+        "riyadh"
       ],
       "action_hits": [
-        "escalat",
-        "attack"
+        "attack",
+        "escalat"
       ]
     },
     {
@@ -560,13 +560,13 @@
       "lang": "en",
       "relevance_score": 77,
       "entity_hits": [
-        "yemen",
-        "houthi"
+        "houthi",
+        "yemen"
       ],
       "action_hits": [
-        "missile",
         "attack",
-        "ballistic"
+        "ballistic",
+        "missile"
       ]
     },
     {
@@ -578,10 +578,10 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "middle east",
-        "iran",
         "strait",
-        "hormuz"
+        "hormuz",
+        "iran",
+        "middle east"
       ],
       "action_hits": [
         "tanker"
@@ -596,11 +596,11 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "yemen",
-        "iran",
-        "saudi",
         "red sea",
-        "houthi"
+        "yemen",
+        "saudi",
+        "houthi",
+        "iran"
       ],
       "action_hits": [
         "attack"
@@ -616,8 +616,8 @@
       "relevance_score": 70,
       "entity_hits": [
         "saudi",
-        "yemen",
         "red sea",
+        "yemen",
         "houthi"
       ],
       "action_hits": [
@@ -634,8 +634,8 @@
       "relevance_score": 70,
       "entity_hits": [
         "saudi",
-        "iran",
-        "houthi"
+        "houthi",
+        "iran"
       ],
       "action_hits": [
         "strike"
@@ -745,7 +745,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "9/18",
         "9/19",
         "9/20",
         "9/21",
@@ -774,7 +773,8 @@
         "10/14",
         "10/15",
         "10/16",
-        "10/17"
+        "10/17",
+        "10/18"
       ],
       "transits": [
         0,
@@ -866,34 +866,27 @@
         21,
         69
       ],
-      "date_label": "10月17日"
+      "date_label": "10月18日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-10-17",
+      "hormuz_last_date": "2026-10-18",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-10-12",
-      "vlcc_stale_days": 5,
+      "vlcc_stale_days": 6,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-10-17"
+      "routes_date": "2026-10-18"
     }
   },
   "meta": {
-    "report_date": "2026.10.17",
-    "report_date_cn": "2026年10月17日",
-    "war_day": 232,
+    "report_date": "2026.10.18",
+    "report_date_cn": "2026年10月18日",
+    "war_day": 233,
     "war_start": "2026-02-28",
-    "generated_at": "2026-10-17T13:27:37.261709+08:00",
-    "generated_at_cn": "2026-10-17 13:27:37 北京时间"
+    "generated_at": "2026-10-18T13:39:37.909562+08:00",
+    "generated_at_cn": "2026-10-18 13:39:37 北京时间"
   },
   "history": [
-    {
-      "date": "2026-07-20",
-      "brent": 90.37000274658203,
-      "wti": 83.66999816894531,
-      "gold": 4028.0,
-      "usd_cny": 6.770599842071533
-    },
     {
       "date": "2026-07-21",
       "brent": 88.38999938964844,
@@ -1514,6 +1507,13 @@
       "date": "2026-10-17",
       "brent": 109.86000061035156,
       "wti": 101.41000366210938,
+      "gold": 4181.10009765625,
+      "usd_cny": 6.686200141906738
+    },
+    {
+      "date": "2026-10-18",
+      "brent": 109.86000061035156,
+      "wti": 99.0199966430664,
       "gold": 4181.10009765625,
       "usd_cny": 6.686200141906738
     }
