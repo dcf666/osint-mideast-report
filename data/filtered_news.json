@@ -9,8 +9,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "霍尔木兹",
-      "伊朗",
       "海峡",
+      "伊朗",
       "沙特"
     ],
     "action_hits": [
@@ -26,8 +26,8 @@
     "lang": "zh",
     "relevance_score": 67,
     "entity_hits": [
-      "沙特",
-      "胡塞"
+      "胡塞",
+      "沙特"
     ],
     "action_hits": [
       "导弹",
@@ -43,14 +43,14 @@
     "lang": "en",
     "relevance_score": 90,
     "entity_hits": [
+      "yemen",
       "saudi",
-      "houthi",
-      "yemen"
+      "houthi"
     ],
     "action_hits": [
-      "attack",
       "missile",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -62,9 +62,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "saudi",
+      "riyadh",
       "houthi",
-      "riyadh"
+      "saudi"
     ],
     "action_hits": [
       "attack",
@@ -80,13 +80,13 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "houthi",
-      "yemen"
+      "yemen",
+      "houthi"
     ],
     "action_hits": [
-      "attack",
       "ballistic",
-      "missile"
+      "missile",
+      "attack"
     ]
   },
   {
@@ -98,10 +98,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
-      "hormuz",
       "iran",
-      "middle east"
+      "middle east",
+      "strait",
+      "hormuz"
     ],
     "action_hits": [
       "tanker"
@@ -116,11 +116,11 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "red sea",
-      "yemen",
-      "saudi",
+      "iran",
       "houthi",
-      "iran"
+      "saudi",
+      "red sea",
+      "yemen"
     ],
     "action_hits": [
       "attack"
@@ -135,10 +135,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
-      "red sea",
+      "houthi",
       "yemen",
-      "houthi"
+      "saudi",
+      "red sea"
     ],
     "action_hits": [
       "escalat"
@@ -153,9 +153,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
+      "iran",
       "houthi",
-      "iran"
+      "saudi"
     ],
     "action_hits": [
       "strike"
