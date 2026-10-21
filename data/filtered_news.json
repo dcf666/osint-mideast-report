@@ -8,13 +8,31 @@
     "lang": "zh",
     "relevance_score": 70,
     "entity_hits": [
-      "霍尔木兹",
-      "沙特",
       "伊朗",
+      "沙特",
+      "霍尔木兹",
       "海峡"
     ],
     "action_hits": [
       "航运"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "UK to deploy jets to defend Saudi Arabia from Houthi attacks",
+    "link": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 20 Oct 2026 13:54:35 GMT",
+    "summary": "The UK announces it will provide additional defensive military support to Saudi Arabia as Houthi attacks escalate in the region.",
+    "lang": "en",
+    "relevance_score": 77,
+    "entity_hits": [
+      "saudi",
+      "houthi"
+    ],
+    "action_hits": [
+      "escalat",
+      "attack",
+      "deploy"
     ]
   },
   {
@@ -30,9 +48,9 @@
       "houthi"
     ],
     "action_hits": [
-      "missile",
       "attack",
-      "ballistic"
+      "ballistic",
+      "missile"
     ]
   },
   {
@@ -44,8 +62,8 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "strait",
+      "iran",
       "hormuz",
       "middle east"
     ],
@@ -62,11 +80,11 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "saudi",
       "red sea",
+      "saudi",
       "yemen",
-      "iran",
-      "houthi"
+      "houthi",
+      "iran"
     ],
     "action_hits": [
       "attack"
@@ -81,10 +99,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "red sea",
       "yemen",
-      "houthi",
       "saudi",
-      "red sea"
+      "houthi"
     ],
     "action_hits": [
       "escalat"
@@ -100,8 +118,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "houthi",
-      "saudi"
+      "saudi",
+      "houthi"
     ],
     "action_hits": [
       "strike"
@@ -109,10 +127,10 @@
   },
   {
     "source": "BBC中东",
-    "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+    "title": "Houthi missile strike on Yemen camp kills 73 security recruits, local authorities say",
     "link": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 19 Oct 2026 16:20:51 GMT",
-    "summary": "Three missiles hit a camp in government-controlled Shabwa province that officials say was being used as a training centre for new recruits.",
+    "published": "Tue, 20 Oct 2026 14:09:42 GMT",
+    "summary": "Three missiles hit a camp in government-controlled Shabwa province on Monday that was being used as a training centre, Yemen's army says.",
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
@@ -120,8 +138,8 @@
       "houthi"
     ],
     "action_hits": [
-      "missile",
-      "strike"
+      "strike",
+      "missile"
     ]
   }
 ]
