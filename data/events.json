@@ -1,16 +1,16 @@
 [
   {
-    "event_id": "2fc44bba4115",
-    "title": "UK to deploy jets to defend Saudi Arabia from Houthi attacks",
+    "event_id": "682439b51aee",
+    "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
     "location": "沙特阿拉伯",
-    "first_seen_time": "2026-10-20T13:54:35+00:00",
-    "last_updated_time": "2026-10-20T13:54:35+00:00",
+    "first_seen_time": "2026-10-22T01:07:34+00:00",
+    "last_updated_time": "2026-10-22T01:07:34+00:00",
     "current_status": "escalating",
     "trend": "worsening",
     "confidence": 77,
-    "source_count": 1,
+    "source_count": 2,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {

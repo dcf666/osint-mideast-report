@@ -9,12 +9,30 @@
     "relevance_score": 70,
     "entity_hits": [
       "伊朗",
-      "沙特",
+      "海峡",
       "霍尔木兹",
-      "海峡"
+      "沙特"
     ],
     "action_hits": [
       "航运"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+    "link": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 22 Oct 2026 01:07:34 GMT",
+    "summary": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
+    "lang": "en",
+    "relevance_score": 77,
+    "entity_hits": [
+      "houthi",
+      "saudi"
+    ],
+    "action_hits": [
+      "strike",
+      "escalat",
+      "attack"
     ]
   },
   {
@@ -26,8 +44,8 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "saudi",
-      "houthi"
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
       "escalat",
@@ -44,13 +62,13 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "yemen",
-      "houthi"
+      "houthi",
+      "yemen"
     ],
     "action_hits": [
-      "attack",
       "ballistic",
-      "missile"
+      "missile",
+      "attack"
     ]
   },
   {
@@ -62,10 +80,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "strait",
-      "iran",
       "hormuz",
-      "middle east"
+      "middle east",
+      "strait",
+      "iran"
     ],
     "action_hits": [
       "tanker"
@@ -80,11 +98,11 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "red sea",
+      "iran",
       "saudi",
       "yemen",
-      "houthi",
-      "iran"
+      "red sea",
+      "houthi"
     ],
     "action_hits": [
       "attack"
@@ -99,10 +117,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "red sea",
-      "yemen",
       "saudi",
-      "houthi"
+      "houthi",
+      "yemen",
+      "red sea"
     ],
     "action_hits": [
       "escalat"
@@ -117,9 +135,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "houthi",
       "iran",
-      "saudi",
-      "houthi"
+      "saudi"
     ],
     "action_hits": [
       "strike"
@@ -134,8 +152,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "yemen",
-      "houthi"
+      "houthi",
+      "yemen"
     ],
     "action_hits": [
       "strike",
