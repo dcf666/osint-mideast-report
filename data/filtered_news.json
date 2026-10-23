@@ -9,12 +9,29 @@
     "relevance_score": 70,
     "entity_hits": [
       "伊朗",
-      "海峡",
       "霍尔木兹",
-      "沙特"
+      "沙特",
+      "海峡"
     ],
     "action_hits": [
       "航运"
+    ]
+  },
+  {
+    "source": "FT中文网",
+    "title": "伊朗战争爆发以来首次出台宽松政策，土耳其央行降息100基点",
+    "link": "https://www.ftchinese.com/story/001111174",
+    "published": "Thu, 22 Oct 2026 16:00:00 GMT",
+    "summary": "通胀放缓和消费者信心减弱为政策制定者带来放宽货币政策的空间，尽管油价高企仍对通胀构成上行风险。",
+    "lang": "zh",
+    "relevance_score": 68,
+    "entity_hits": [
+      "伊朗",
+      "油价",
+      "土耳其"
+    ],
+    "action_hits": [
+      "油价"
     ]
   },
   {
@@ -30,9 +47,9 @@
       "saudi"
     ],
     "action_hits": [
-      "strike",
+      "attack",
       "escalat",
-      "attack"
+      "strike"
     ]
   },
   {
@@ -48,27 +65,9 @@
       "saudi"
     ],
     "action_hits": [
-      "escalat",
+      "deploy",
       "attack",
-      "deploy"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-    "link": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 15 Oct 2026 23:38:46 GMT",
-    "summary": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace.",
-    "lang": "en",
-    "relevance_score": 77,
-    "entity_hits": [
-      "houthi",
-      "yemen"
-    ],
-    "action_hits": [
-      "ballistic",
-      "missile",
-      "attack"
+      "escalat"
     ]
   },
   {
@@ -80,50 +79,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hormuz",
+      "iran",
       "middle east",
       "strait",
-      "iran"
+      "hormuz"
     ],
     "action_hits": [
       "tanker"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Who are the Houthis and what do they want?",
-    "link": "https://www.bbc.co.uk/news/articles/cqy7z228kee3o?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 13 Oct 2026 06:38:32 GMT",
-    "summary": "Their fighting with pro-government forces over Yemen's Red Sea coast and attacks on Saudi Arabia has put the spotlight on the Iran-backed group.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "iran",
-      "saudi",
-      "yemen",
-      "red sea",
-      "houthi"
-    ],
-    "action_hits": [
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
-    "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 21 Sep 2026 14:14:16 GMT",
-    "summary": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "saudi",
-      "houthi",
-      "yemen",
-      "red sea"
-    ],
-    "action_hits": [
-      "escalat"
     ]
   },
   {
@@ -135,12 +97,29 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "houthi",
       "iran",
+      "houthi",
       "saudi"
     ],
     "action_hits": [
       "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+    "link": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 22 Oct 2026 13:46:33 GMT",
+    "summary": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "houthi",
+      "saudi"
+    ],
+    "action_hits": [
+      "attack",
+      "killed"
     ]
   },
   {
@@ -156,8 +135,8 @@
       "yemen"
     ],
     "action_hits": [
-      "strike",
-      "missile"
+      "missile",
+      "strike"
     ]
   }
 ]

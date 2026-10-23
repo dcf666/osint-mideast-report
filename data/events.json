@@ -14,20 +14,6 @@
     "lang": "en"
   },
   {
-    "event_id": "961692528bd8",
-    "title": "Houthi missile strike on Yemen camp kills 73 security recruits, local authorities say",
-    "location": "也门",
-    "first_seen_time": "2026-10-15T23:38:46+00:00",
-    "last_updated_time": "2026-10-20T14:09:42+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 77,
-    "source_count": 2,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "42eb0966218c",
     "title": "海湾石油产量9月出现回升",
     "location": "霍尔木兹海峡",
@@ -42,34 +28,6 @@
     "lang": "zh"
   },
   {
-    "event_id": "bb01e0dd654f",
-    "title": "Who are the Houthis and what do they want?",
-    "location": "红海",
-    "first_seen_time": "2026-10-13T06:38:32+00:00",
-    "last_updated_time": "2026-10-13T06:38:32+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cqy7z228kee3o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "fd34183a96a2",
-    "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
-    "location": "红海",
-    "first_seen_time": "2026-09-21T14:14:16+00:00",
-    "last_updated_time": "2026-09-21T14:14:16+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "d9cc70cb4925",
     "title": "Why is it so hard to fight the Houthis?",
     "location": "伊朗",
@@ -81,6 +39,48 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "610ad7b50474",
+    "title": "伊朗战争爆发以来首次出台宽松政策，土耳其央行降息100基点",
+    "location": "伊朗",
+    "first_seen_time": "2026-10-22T16:00:00+00:00",
+    "last_updated_time": "2026-10-22T16:00:00+00:00",
+    "current_status": "de_escalating",
+    "trend": "improving",
+    "confidence": 68,
+    "source_count": 1,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001111174",
+    "lang": "zh"
+  },
+  {
+    "event_id": "8a1ee00b4abd",
+    "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+    "location": "沙特阿拉伯",
+    "first_seen_time": "2026-10-22T13:46:33+00:00",
+    "last_updated_time": "2026-10-22T13:46:33+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "0cf5bedeacc3",
+    "title": "Houthi missile strike on Yemen camp kills 73 security recruits, local authorities say",
+    "location": "也门",
+    "first_seen_time": "2026-10-20T14:09:42+00:00",
+    "last_updated_time": "2026-10-20T14:09:42+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]
