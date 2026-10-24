@@ -1,24 +1,6 @@
 [
   {
     "source": "FT中文网",
-    "title": "海湾石油产量9月出现回升",
-    "link": "https://www.ftchinese.com/story/001111095",
-    "published": "Tue, 13 Oct 2026 16:00:00 GMT",
-    "summary": "沙特阿拉伯9月石油日产量达到伊朗战争爆发以来最高水平。但近期伊朗已增加对霍尔木兹海峡航运的袭击，危及这一复苏势头。",
-    "lang": "zh",
-    "relevance_score": 70,
-    "entity_hits": [
-      "伊朗",
-      "霍尔木兹",
-      "沙特",
-      "海峡"
-    ],
-    "action_hits": [
-      "航运"
-    ]
-  },
-  {
-    "source": "FT中文网",
     "title": "伊朗战争爆发以来首次出台宽松政策，土耳其央行降息100基点",
     "link": "https://www.ftchinese.com/story/001111174",
     "published": "Thu, 22 Oct 2026 16:00:00 GMT",
@@ -26,8 +8,8 @@
     "lang": "zh",
     "relevance_score": 68,
     "entity_hits": [
-      "伊朗",
       "油价",
+      "伊朗",
       "土耳其"
     ],
     "action_hits": [
@@ -47,9 +29,9 @@
       "saudi"
     ],
     "action_hits": [
+      "strike",
       "attack",
-      "escalat",
-      "strike"
+      "escalat"
     ]
   },
   {
@@ -65,8 +47,8 @@
       "saudi"
     ],
     "action_hits": [
-      "deploy",
       "attack",
+      "deploy",
       "escalat"
     ]
   },
@@ -79,10 +61,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
-      "middle east",
       "strait",
-      "hormuz"
+      "iran",
+      "hormuz",
+      "middle east"
     ],
     "action_hits": [
       "tanker"
@@ -97,9 +79,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "iran",
       "houthi",
-      "saudi"
+      "saudi",
+      "iran"
     ],
     "action_hits": [
       "strike"
@@ -131,12 +113,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "houthi",
-      "yemen"
+      "yemen",
+      "houthi"
     ],
     "action_hits": [
-      "missile",
-      "strike"
+      "strike",
+      "missile"
     ]
   }
 ]

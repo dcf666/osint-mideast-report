@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 113.88999938964844,
-      "day_change_pct": 0.64,
-      "war_change_pct": 13.11,
+      "current": 116.72000122070312,
+      "day_change_pct": 3.14,
+      "war_change_pct": 20.6,
       "dates": [
         "09/14",
         "09/15",
@@ -66,14 +66,14 @@
         108.79,
         108.82,
         113.17,
-        113.89
+        116.72
       ],
-      "updated": "2026-10-23T05:52:45.546894"
+      "updated": "2026-10-24T05:36:45.776387"
     },
     "wti": {
-      "current": 100.2300033569336,
-      "day_change_pct": 0.76,
-      "war_change_pct": 8.72,
+      "current": 103.2699966430664,
+      "day_change_pct": 3.82,
+      "war_change_pct": 15.63,
       "dates": [
         "09/14",
         "09/15",
@@ -136,14 +136,14 @@
         101.79,
         97.15,
         99.47,
-        100.23
+        103.27
       ],
-      "updated": "2026-10-23T05:52:45.652891"
+      "updated": "2026-10-24T05:36:45.889485"
     },
     "gold": {
-      "current": 4042.699951171875,
-      "day_change_pct": -0.44,
-      "war_change_pct": -0.19,
+      "current": 4007.89990234375,
+      "day_change_pct": -1.29,
+      "war_change_pct": -1.55,
       "dates": [
         "09/14",
         "09/15",
@@ -206,16 +206,15 @@
         4142.6,
         4150.0,
         4060.4,
-        4042.7
+        4007.9
       ],
-      "updated": "2026-10-23T05:52:45.760858"
+      "updated": "2026-10-24T05:36:46.004563"
     },
     "usd_cny": {
-      "current": 6.662300109863281,
-      "day_change_pct": -0.23,
-      "war_change_pct": -1.63,
+      "current": 6.670199871063232,
+      "day_change_pct": -0.12,
+      "war_change_pct": -1.51,
       "dates": [
-        "09/14",
         "09/15",
         "09/16",
         "09/17",
@@ -244,14 +243,14 @@
         "10/20",
         "10/21",
         "10/22",
-        "10/23"
+        "10/23",
+        "10/24"
       ],
       "prices": [
         6.71,
         6.71,
         6.71,
         6.71,
-        6.71,
         6.7,
         6.7,
         6.7,
@@ -276,14 +275,15 @@
         6.69,
         6.68,
         6.68,
-        6.66
+        6.68,
+        6.67
       ],
-      "updated": "2026-10-23T05:52:45.873391"
+      "updated": "2026-10-24T05:36:46.115387"
     },
     "nat_gas": {
-      "current": 2.7360000610351562,
-      "day_change_pct": -2.15,
-      "war_change_pct": -6.17,
+      "current": 2.640000104904175,
+      "day_change_pct": -5.58,
+      "war_change_pct": -8.05,
       "dates": [
         "09/14",
         "09/15",
@@ -346,19 +346,16 @@
         2.96,
         2.79,
         2.8,
-        2.74
+        2.64
       ],
-      "updated": "2026-10-23T05:52:45.984007"
+      "updated": "2026-10-24T05:36:46.227064"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 16.47,
-      "change_pct": 2.04,
-      "high": 16.68,
-      "low": 15.97,
-      "volume": 816508
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600026": {
       "name": "中远海能",
@@ -402,11 +399,8 @@
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 92.17,
-      "change_pct": 3.11,
-      "high": 93.65,
-      "low": 85.2,
-      "volume": 251021
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600803": {
       "name": "新奥股份",
@@ -425,27 +419,18 @@
     },
     "600760": {
       "name": "中航沈飞",
-      "price": 47.2,
-      "change_pct": 0.4,
-      "high": 47.5,
-      "low": 46.05,
-      "volume": 116531
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600893": {
       "name": "航发动力",
-      "price": 40.09,
-      "change_pct": 2.01,
-      "high": 40.42,
-      "low": 38.59,
-      "volume": 210325
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600150": {
       "name": "中国船舶",
-      "price": 34.78,
-      "change_pct": 2.08,
-      "high": 34.9,
-      "low": 33.66,
-      "volume": 698960
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600547": {
       "name": "山东黄金",
@@ -470,7 +455,8 @@
   },
   "sectors": {
     "航运": {
-      "change_pct": -0.48
+      "change_pct": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
       "change_pct": null,
@@ -492,24 +478,6 @@
   "news": [
     {
       "source": "FT中文网",
-      "title": "海湾石油产量9月出现回升",
-      "link": "https://www.ftchinese.com/story/001111095",
-      "published": "Tue, 13 Oct 2026 16:00:00 GMT",
-      "summary": "沙特阿拉伯9月石油日产量达到伊朗战争爆发以来最高水平。但近期伊朗已增加对霍尔木兹海峡航运的袭击，危及这一复苏势头。",
-      "lang": "zh",
-      "relevance_score": 70,
-      "entity_hits": [
-        "伊朗",
-        "霍尔木兹",
-        "沙特",
-        "海峡"
-      ],
-      "action_hits": [
-        "航运"
-      ]
-    },
-    {
-      "source": "FT中文网",
       "title": "伊朗战争爆发以来首次出台宽松政策，土耳其央行降息100基点",
       "link": "https://www.ftchinese.com/story/001111174",
       "published": "Thu, 22 Oct 2026 16:00:00 GMT",
@@ -517,8 +485,8 @@
       "lang": "zh",
       "relevance_score": 68,
       "entity_hits": [
-        "伊朗",
         "油价",
+        "伊朗",
         "土耳其"
       ],
       "action_hits": [
@@ -538,9 +506,9 @@
         "saudi"
       ],
       "action_hits": [
+        "strike",
         "attack",
-        "escalat",
-        "strike"
+        "escalat"
       ]
     },
     {
@@ -556,8 +524,8 @@
         "saudi"
       ],
       "action_hits": [
-        "deploy",
         "attack",
+        "deploy",
         "escalat"
       ]
     },
@@ -570,10 +538,10 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "iran",
-        "middle east",
         "strait",
-        "hormuz"
+        "iran",
+        "hormuz",
+        "middle east"
       ],
       "action_hits": [
         "tanker"
@@ -588,9 +556,9 @@
       "lang": "en",
       "relevance_score": 70,
       "entity_hits": [
-        "iran",
         "houthi",
-        "saudi"
+        "saudi",
+        "iran"
       ],
       "action_hits": [
         "strike"
@@ -622,12 +590,12 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "houthi",
-        "yemen"
+        "yemen",
+        "houthi"
       ],
       "action_hits": [
-        "missile",
-        "strike"
+        "strike",
+        "missile"
       ]
     }
   ],
@@ -647,18 +615,18 @@
       "lang": "en"
     },
     {
-      "event_id": "42eb0966218c",
-      "title": "海湾石油产量9月出现回升",
+      "event_id": "00b7e90d8030",
+      "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
       "location": "霍尔木兹海峡",
-      "first_seen_time": "2026-10-13T16:00:00+00:00",
-      "last_updated_time": "2026-10-13T16:00:00+00:00",
+      "first_seen_time": "2026-10-02T15:29:28+00:00",
+      "last_updated_time": "2026-10-02T15:29:28+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 70,
-      "source_count": 2,
-      "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001111095",
-      "lang": "zh"
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
     },
     {
       "event_id": "d9cc70cb4925",
@@ -720,7 +688,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "9/24",
         "9/25",
         "9/26",
         "9/27",
@@ -749,7 +716,8 @@
         "10/20",
         "10/21",
         "10/22",
-        "10/23"
+        "10/23",
+        "10/24"
       ],
       "transits": [
         0,
@@ -841,34 +809,27 @@
         21,
         69
       ],
-      "date_label": "10月23日"
+      "date_label": "10月24日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-10-23",
+      "hormuz_last_date": "2026-10-24",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-10-12",
-      "vlcc_stale_days": 11,
+      "vlcc_stale_days": 12,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-10-23"
+      "routes_date": "2026-10-24"
     }
   },
   "meta": {
-    "report_date": "2026.10.23",
-    "report_date_cn": "2026年10月23日",
-    "war_day": 238,
+    "report_date": "2026.10.24",
+    "report_date_cn": "2026年10月24日",
+    "war_day": 239,
     "war_start": "2026-02-28",
-    "generated_at": "2026-10-23T13:53:33.888896+08:00",
-    "generated_at_cn": "2026-10-23 13:53:33 北京时间"
+    "generated_at": "2026-10-24T13:37:13.415785+08:00",
+    "generated_at_cn": "2026-10-24 13:37:13 北京时间"
   },
   "history": [
-    {
-      "date": "2026-07-26",
-      "brent": 96.77999877929688,
-      "wti": 89.30999755859375,
-      "gold": 4070.800048828125,
-      "usd_cny": 6.7718000411987305
-    },
     {
       "date": "2026-07-27",
       "brent": 92.2699966430664,
@@ -1491,6 +1452,13 @@
       "wti": 100.2300033569336,
       "gold": 4042.699951171875,
       "usd_cny": 6.662300109863281
+    },
+    {
+      "date": "2026-10-24",
+      "brent": 116.72000122070312,
+      "wti": 103.2699966430664,
+      "gold": 4007.89990234375,
+      "usd_cny": 6.670199871063232
     }
   ]
 }
