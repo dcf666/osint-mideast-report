@@ -8,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 68,
     "entity_hits": [
-      "油价",
       "伊朗",
-      "土耳其"
+      "土耳其",
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -29,9 +29,9 @@
       "saudi"
     ],
     "action_hits": [
-      "strike",
+      "escalat",
       "attack",
-      "escalat"
+      "strike"
     ]
   },
   {
@@ -47,27 +47,9 @@
       "saudi"
     ],
     "action_hits": [
-      "attack",
+      "escalat",
       "deploy",
-      "escalat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
-    "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
-    "published": "Fri, 02 Oct 2026 15:29:28 GMT",
-    "summary": "Experts say US military assistance, using shuttle tankers and pipelines bypassing the Strait of Hormuz mean exports have rebounded.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "strait",
-      "iran",
-      "hormuz",
-      "middle east"
-    ],
-    "action_hits": [
-      "tanker"
+      "attack"
     ]
   },
   {
@@ -100,8 +82,8 @@
       "saudi"
     ],
     "action_hits": [
-      "attack",
-      "killed"
+      "killed",
+      "attack"
     ]
   },
   {
@@ -113,12 +95,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "yemen",
-      "houthi"
+      "houthi",
+      "yemen"
     ],
     "action_hits": [
-      "strike",
-      "missile"
+      "missile",
+      "strike"
     ]
   }
 ]

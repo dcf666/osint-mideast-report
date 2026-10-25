@@ -14,20 +14,6 @@
     "lang": "en"
   },
   {
-    "event_id": "00b7e90d8030",
-    "title": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-10-02T15:29:28+00:00",
-    "last_updated_time": "2026-10-02T15:29:28+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "d9cc70cb4925",
     "title": "Why is it so hard to fight the Houthis?",
     "location": "伊朗",
