@@ -9,8 +9,8 @@
     "relevance_score": 68,
     "entity_hits": [
       "伊朗",
-      "土耳其",
-      "油价"
+      "油价",
+      "土耳其"
     ],
     "action_hits": [
       "油价"
@@ -29,9 +29,9 @@
       "saudi"
     ],
     "action_hits": [
-      "escalat",
       "attack",
-      "strike"
+      "strike",
+      "escalat"
     ]
   },
   {
@@ -47,9 +47,9 @@
       "saudi"
     ],
     "action_hits": [
+      "attack",
       "escalat",
-      "deploy",
-      "attack"
+      "deploy"
     ]
   },
   {
@@ -61,9 +61,9 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "iran",
       "houthi",
-      "saudi",
-      "iran"
+      "saudi"
     ],
     "action_hits": [
       "strike"
@@ -99,8 +99,8 @@
       "yemen"
     ],
     "action_hits": [
-      "missile",
-      "strike"
+      "strike",
+      "missile"
     ]
   }
 ]
