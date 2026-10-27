@@ -8,7 +8,7 @@
     "current_status": "escalating",
     "trend": "worsening",
     "confidence": 77,
-    "source_count": 2,
+    "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
@@ -53,20 +53,6 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "0cf5bedeacc3",
-    "title": "Houthi missile strike on Yemen camp kills 73 security recruits, local authorities say",
-    "location": "也门",
-    "first_seen_time": "2026-10-20T14:09:42+00:00",
-    "last_updated_time": "2026-10-20T14:09:42+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   }
 ]

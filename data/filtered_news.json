@@ -9,8 +9,8 @@
     "relevance_score": 68,
     "entity_hits": [
       "伊朗",
-      "油价",
-      "土耳其"
+      "土耳其",
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -29,27 +29,9 @@
       "saudi"
     ],
     "action_hits": [
-      "attack",
-      "strike",
-      "escalat"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "UK to deploy jets to defend Saudi Arabia from Houthi attacks",
-    "link": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 20 Oct 2026 13:54:35 GMT",
-    "summary": "The UK announces it will provide additional defensive military support to Saudi Arabia as Houthi attacks escalate in the region.",
-    "lang": "en",
-    "relevance_score": 77,
-    "entity_hits": [
-      "houthi",
-      "saudi"
-    ],
-    "action_hits": [
-      "attack",
       "escalat",
-      "deploy"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -84,23 +66,6 @@
     "action_hits": [
       "killed",
       "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Houthi missile strike on Yemen camp kills 73 security recruits, local authorities say",
-    "link": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 20 Oct 2026 14:09:42 GMT",
-    "summary": "Three missiles hit a camp in government-controlled Shabwa province on Monday that was being used as a training centre, Yemen's army says.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "houthi",
-      "yemen"
-    ],
-    "action_hits": [
-      "strike",
-      "missile"
     ]
   }
 ]
