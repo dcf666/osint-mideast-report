@@ -8,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 68,
     "entity_hits": [
-      "伊朗",
+      "油价",
       "土耳其",
-      "油价"
+      "伊朗"
     ],
     "action_hits": [
       "油价"
@@ -18,20 +18,21 @@
   },
   {
     "source": "BBC中东",
-    "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
-    "link": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 22 Oct 2026 01:07:34 GMT",
-    "summary": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
+    "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+    "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 27 Oct 2026 02:40:17 GMT",
+    "summary": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said.",
     "lang": "en",
-    "relevance_score": 77,
+    "relevance_score": 80,
     "entity_hits": [
-      "houthi",
-      "saudi"
+      "jordan",
+      "syria"
     ],
     "action_hits": [
-      "escalat",
-      "attack",
-      "strike"
+      "killed",
+      "retaliat",
+      "strike",
+      "attack"
     ]
   },
   {
@@ -44,8 +45,8 @@
     "relevance_score": 70,
     "entity_hits": [
       "iran",
-      "houthi",
-      "saudi"
+      "saudi",
+      "houthi"
     ],
     "action_hits": [
       "strike"
@@ -60,8 +61,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "houthi",
-      "saudi"
+      "saudi",
+      "houthi"
     ],
     "action_hits": [
       "killed",

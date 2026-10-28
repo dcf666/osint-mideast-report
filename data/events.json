@@ -1,16 +1,16 @@
 [
   {
-    "event_id": "682439b51aee",
-    "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
-    "location": "沙特阿拉伯",
-    "first_seen_time": "2026-10-22T01:07:34+00:00",
-    "last_updated_time": "2026-10-22T01:07:34+00:00",
-    "current_status": "escalating",
-    "trend": "worsening",
-    "confidence": 77,
+    "event_id": "4847c6cf30bc",
+    "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+    "location": "中东地区",
+    "first_seen_time": "2026-10-27T02:40:17+00:00",
+    "last_updated_time": "2026-10-27T02:40:17+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
