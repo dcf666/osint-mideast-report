@@ -8,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 68,
     "entity_hits": [
+      "伊朗",
       "油价",
-      "土耳其",
-      "伊朗"
+      "土耳其"
     ],
     "action_hits": [
       "油价"
@@ -25,47 +25,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "jordan",
-      "syria"
+      "syria",
+      "jordan"
     ],
     "action_hits": [
       "killed",
-      "retaliat",
       "strike",
-      "attack"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Why is it so hard to fight the Houthis?",
-    "link": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o?at_medium=RSS&at_campaign=rss",
-    "published": "Mon, 12 Oct 2026 12:15:01 GMT",
-    "summary": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "iran",
-      "saudi",
-      "houthi"
-    ],
-    "action_hits": [
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-    "link": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-    "published": "Thu, 22 Oct 2026 13:46:33 GMT",
-    "summary": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "saudi",
-      "houthi"
-    ],
-    "action_hits": [
-      "killed",
+      "retaliat",
       "attack"
     ]
   }
