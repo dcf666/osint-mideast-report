@@ -9,8 +9,8 @@
     "relevance_score": 68,
     "entity_hits": [
       "伊朗",
-      "油价",
-      "土耳其"
+      "土耳其",
+      "油价"
     ],
     "action_hits": [
       "油价"
@@ -25,13 +25,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "syria",
-      "jordan"
+      "jordan",
+      "syria"
     ],
     "action_hits": [
       "killed",
-      "strike",
       "retaliat",
+      "strike",
       "attack"
     ]
   }
