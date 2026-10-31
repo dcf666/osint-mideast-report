@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 111.9800033569336,
-      "day_change_pct": -2.52,
-      "war_change_pct": 25.78,
+      "current": 117.63999938964844,
+      "day_change_pct": 2.4,
+      "war_change_pct": 30.54,
       "dates": [
         "09/21",
         "09/22",
@@ -66,14 +66,14 @@
         113.88,
         115.32,
         114.88,
-        111.98
+        117.64
       ],
-      "updated": "2026-10-30T06:56:40.372087"
+      "updated": "2026-10-31T06:51:11.856427"
     },
     "wti": {
-      "current": 102.94999694824219,
-      "day_change_pct": 0.93,
-      "war_change_pct": 23.16,
+      "current": 104.12000274658203,
+      "day_change_pct": 2.08,
+      "war_change_pct": 22.97,
       "dates": [
         "09/21",
         "09/22",
@@ -136,14 +136,14 @@
         99.9,
         102.78,
         102.0,
-        102.95
+        104.12
       ],
-      "updated": "2026-10-30T06:56:40.527469"
+      "updated": "2026-10-31T06:51:11.931640"
     },
     "gold": {
-      "current": 3993.5,
-      "day_change_pct": -0.94,
-      "war_change_pct": -2.6,
+      "current": 3898.89990234375,
+      "day_change_pct": -3.29,
+      "war_change_pct": -5.07,
       "dates": [
         "09/21",
         "09/22",
@@ -206,16 +206,15 @@
         4074.6,
         4051.6,
         4031.4,
-        3993.5
+        3898.9
       ],
-      "updated": "2026-10-30T06:56:40.684163"
+      "updated": "2026-10-31T06:51:12.007582"
     },
     "usd_cny": {
-      "current": 6.646599769592285,
-      "day_change_pct": -0.29,
-      "war_change_pct": -1.77,
+      "current": 6.6539998054504395,
+      "day_change_pct": -0.11,
+      "war_change_pct": -1.5,
       "dates": [
-        "09/21",
         "09/22",
         "09/23",
         "09/24",
@@ -244,12 +243,12 @@
         "10/27",
         "10/28",
         "10/29",
-        "10/30"
+        "10/30",
+        "10/31"
       ],
       "prices": [
         6.7,
         6.7,
-        6.7,
         6.71,
         6.71,
         6.71,
@@ -276,14 +275,15 @@
         6.67,
         6.67,
         6.67,
+        6.66,
         6.65
       ],
-      "updated": "2026-10-30T06:56:40.909187"
+      "updated": "2026-10-31T06:51:12.088985"
     },
     "nat_gas": {
-      "current": 2.8989999294281006,
-      "day_change_pct": -1.8,
-      "war_change_pct": 5.11,
+      "current": 2.8980000019073486,
+      "day_change_pct": -1.83,
+      "war_change_pct": 5.5,
       "dates": [
         "09/21",
         "09/22",
@@ -348,78 +348,54 @@
         2.95,
         2.9
       ],
-      "updated": "2026-10-30T06:56:41.064991"
+      "updated": "2026-10-31T06:51:12.165843"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 17.69,
-      "change_pct": 2.91,
-      "high": 17.92,
-      "low": 17.05,
-      "volume": 1138713
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600026": {
       "name": "中远海能",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601975": {
       "name": "招商南油",
-      "price": 3.72,
-      "change_pct": 1.64,
-      "high": 3.79,
-      "low": 3.62,
-      "volume": 1805618
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600938": {
       "name": "中国海油",
-      "price": 35.96,
-      "change_pct": 1.52,
-      "high": 36.04,
-      "low": 35.1,
-      "volume": 583545
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "601857": {
       "name": "中国石油",
-      "price": 13.81,
-      "change_pct": 0.88,
-      "high": 13.88,
-      "low": 13.51,
-      "volume": 1598719
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600028": {
       "name": "中国石化",
-      "price": 5.9,
-      "change_pct": 4.98,
-      "high": 5.92,
-      "low": 5.62,
-      "volume": 5269474
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "603619": {
       "name": "中曼石油",
-      "price": 20.78,
-      "change_pct": 3.43,
-      "high": 21.16,
-      "low": 20.0,
-      "volume": 242160
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "600759": {
       "name": "洲际油气",
-      "price": 2.21,
-      "change_pct": 4.25,
-      "high": 2.25,
-      "low": 2.08,
-      "volume": 1328201
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601808": {
       "name": "中海油服",
-      "price": 13.62,
-      "change_pct": -0.07,
-      "high": 13.92,
-      "low": 13.48,
-      "volume": 217240
+      "price": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "002353": {
       "name": "杰瑞股份",
@@ -474,13 +450,13 @@
     "601088": {
       "name": "中国神华",
       "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     }
   },
   "sectors": {
     "航运": {
       "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "石油": {
       "change_pct": null,
@@ -509,9 +485,9 @@
       "lang": "zh",
       "relevance_score": 68,
       "entity_hits": [
-        "伊朗",
+        "油价",
         "土耳其",
-        "油价"
+        "伊朗"
       ],
       "action_hits": [
         "油价"
@@ -526,14 +502,14 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "jordan",
-        "syria"
+        "syria",
+        "jordan"
       ],
       "action_hits": [
-        "killed",
-        "retaliat",
         "strike",
-        "attack"
+        "attack",
+        "retaliat",
+        "killed"
       ]
     }
   ],
@@ -570,7 +546,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "10/1",
         "10/2",
         "10/3",
         "10/4",
@@ -599,7 +574,8 @@
         "10/27",
         "10/28",
         "10/29",
-        "10/30"
+        "10/30",
+        "10/31"
       ],
       "transits": [
         0,
@@ -691,34 +667,27 @@
         21,
         69
       ],
-      "date_label": "10月30日"
+      "date_label": "10月31日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-10-30",
+      "hormuz_last_date": "2026-10-31",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-10-12",
-      "vlcc_stale_days": 18,
+      "vlcc_stale_days": 19,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-10-30"
+      "routes_date": "2026-10-31"
     }
   },
   "meta": {
-    "report_date": "2026.10.30",
-    "report_date_cn": "2026年10月30日",
-    "war_day": 245,
+    "report_date": "2026.10.31",
+    "report_date_cn": "2026年10月31日",
+    "war_day": 246,
     "war_start": "2026-02-28",
-    "generated_at": "2026-10-30T14:57:22.924596+08:00",
-    "generated_at_cn": "2026-10-30 14:57:22 北京时间"
+    "generated_at": "2026-10-31T14:54:58.052942+08:00",
+    "generated_at_cn": "2026-10-31 14:54:58 北京时间"
   },
   "history": [
-    {
-      "date": "2026-08-02",
-      "brent": 90.12000274658203,
-      "wti": 84.66999816894531,
-      "gold": 4107.0,
-      "usd_cny": 6.750500202178955
-    },
     {
       "date": "2026-08-03",
       "brent": 90.12000274658203,
@@ -1341,6 +1310,13 @@
       "wti": 102.94999694824219,
       "gold": 3993.5,
       "usd_cny": 6.646599769592285
+    },
+    {
+      "date": "2026-10-31",
+      "brent": 117.63999938964844,
+      "wti": 104.12000274658203,
+      "gold": 3898.89990234375,
+      "usd_cny": 6.6539998054504395
     }
   ]
 }
