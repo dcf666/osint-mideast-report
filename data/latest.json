@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 117.63999938964844,
-      "day_change_pct": 2.4,
-      "war_change_pct": 30.54,
+      "current": 113.43000030517578,
+      "day_change_pct": -1.26,
+      "war_change_pct": 35.41,
       "dates": [
         "09/21",
         "09/22",
@@ -66,14 +66,14 @@
         113.88,
         115.32,
         114.88,
-        117.64
+        113.43
       ],
-      "updated": "2026-10-31T06:51:11.856427"
+      "updated": "2026-11-01T07:17:40.206144"
     },
     "wti": {
       "current": 104.12000274658203,
       "day_change_pct": 2.08,
-      "war_change_pct": 22.97,
+      "war_change_pct": 29.6,
       "dates": [
         "09/21",
         "09/22",
@@ -138,12 +138,12 @@
         102.0,
         104.12
       ],
-      "updated": "2026-10-31T06:51:11.931640"
+      "updated": "2026-11-01T07:17:40.402498"
     },
     "gold": {
       "current": 3898.89990234375,
       "day_change_pct": -3.29,
-      "war_change_pct": -5.07,
+      "war_change_pct": -4.68,
       "dates": [
         "09/21",
         "09/22",
@@ -208,7 +208,7 @@
         4031.4,
         3898.9
       ],
-      "updated": "2026-10-31T06:51:12.007582"
+      "updated": "2026-11-01T07:17:40.588301"
     },
     "usd_cny": {
       "current": 6.6539998054504395,
@@ -244,7 +244,7 @@
         "10/28",
         "10/29",
         "10/30",
-        "10/31"
+        "11/01"
       ],
       "prices": [
         6.7,
@@ -278,12 +278,12 @@
         6.66,
         6.65
       ],
-      "updated": "2026-10-31T06:51:12.088985"
+      "updated": "2026-11-01T07:17:40.771177"
     },
     "nat_gas": {
       "current": 2.8980000019073486,
       "day_change_pct": -1.83,
-      "war_change_pct": 5.5,
+      "war_change_pct": 4.21,
       "dates": [
         "09/21",
         "09/22",
@@ -348,29 +348,38 @@
         2.95,
         2.9
       ],
-      "updated": "2026-10-31T06:51:12.165843"
+      "updated": "2026-11-01T07:17:40.951536"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 17.71,
+      "change_pct": 3.03,
+      "high": 17.92,
+      "low": 17.05,
+      "volume": 1149273
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 18.98,
+      "change_pct": 2.59,
+      "high": 19.48,
+      "low": 18.33,
+      "volume": 588071
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "price": 3.71,
+      "change_pct": 1.37,
+      "high": 3.79,
+      "low": 3.62,
+      "volume": 1818846
     },
     "600938": {
       "name": "中国海油",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "601857": {
       "name": "中国石油",
@@ -380,7 +389,7 @@
     "600028": {
       "name": "中国石化",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "603619": {
       "name": "中曼石油",
@@ -450,13 +459,13 @@
     "601088": {
       "name": "中国神华",
       "price": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "sectors": {
     "航运": {
       "change_pct": null,
-      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     "石油": {
       "change_pct": null,
@@ -485,9 +494,9 @@
       "lang": "zh",
       "relevance_score": 68,
       "entity_hits": [
-        "油价",
+        "伊朗",
         "土耳其",
-        "伊朗"
+        "油价"
       ],
       "action_hits": [
         "油价"
@@ -502,14 +511,14 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "syria",
-        "jordan"
+        "jordan",
+        "syria"
       ],
       "action_hits": [
-        "strike",
-        "attack",
+        "killed",
         "retaliat",
-        "killed"
+        "attack",
+        "strike"
       ]
     }
   ],
@@ -546,7 +555,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "10/2",
         "10/3",
         "10/4",
         "10/5",
@@ -575,7 +583,8 @@
         "10/28",
         "10/29",
         "10/30",
-        "10/31"
+        "10/31",
+        "11/1"
       ],
       "transits": [
         0,
@@ -667,34 +676,27 @@
         21,
         69
       ],
-      "date_label": "10月31日"
+      "date_label": "11月1日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-10-31",
+      "hormuz_last_date": "2026-11-01",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-10-12",
-      "vlcc_stale_days": 19,
+      "vlcc_stale_days": 20,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-10-31"
+      "routes_date": "2026-11-01"
     }
   },
   "meta": {
-    "report_date": "2026.10.31",
-    "report_date_cn": "2026年10月31日",
-    "war_day": 246,
+    "report_date": "2026.11.01",
+    "report_date_cn": "2026年11月01日",
+    "war_day": 247,
     "war_start": "2026-02-28",
-    "generated_at": "2026-10-31T14:54:58.052942+08:00",
-    "generated_at_cn": "2026-10-31 14:54:58 北京时间"
+    "generated_at": "2026-11-01T15:18:15.084896+08:00",
+    "generated_at_cn": "2026-11-01 15:18:15 北京时间"
   },
   "history": [
-    {
-      "date": "2026-08-03",
-      "brent": 90.12000274658203,
-      "wti": 79.68000030517578,
-      "gold": 4124.0,
-      "usd_cny": 6.752600193023682
-    },
     {
       "date": "2026-08-04",
       "brent": 84.98999786376953,
@@ -1314,6 +1316,13 @@
     {
       "date": "2026-10-31",
       "brent": 117.63999938964844,
+      "wti": 104.12000274658203,
+      "gold": 3898.89990234375,
+      "usd_cny": 6.6539998054504395
+    },
+    {
+      "date": "2026-11-01",
+      "brent": 113.43000030517578,
       "wti": 104.12000274658203,
       "gold": 3898.89990234375,
       "usd_cny": 6.6539998054504395
