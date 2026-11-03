@@ -1,22 +1,5 @@
 [
   {
-    "source": "FT中文网",
-    "title": "伊朗战争爆发以来首次出台宽松政策，土耳其央行降息100基点",
-    "link": "https://www.ftchinese.com/story/001111174",
-    "published": "Thu, 22 Oct 2026 16:00:00 GMT",
-    "summary": "通胀放缓和消费者信心减弱为政策制定者带来放宽货币政策的空间，尽管油价高企仍对通胀构成上行风险。",
-    "lang": "zh",
-    "relevance_score": 68,
-    "entity_hits": [
-      "土耳其",
-      "伊朗",
-      "油价"
-    ],
-    "action_hits": [
-      "油价"
-    ]
-  },
-  {
     "source": "BBC中东",
     "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
     "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
@@ -25,14 +8,14 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "jordan",
-      "syria"
+      "syria",
+      "jordan"
     ],
     "action_hits": [
       "attack",
-      "killed",
+      "retaliat",
       "strike",
-      "retaliat"
+      "killed"
     ]
   },
   {
@@ -44,12 +27,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   }
 ]
