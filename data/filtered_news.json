@@ -1,5 +1,23 @@
 [
   {
+    "source": "FT中文网",
+    "title": "油价周二延续跌势",
+    "link": "https://www.ftchinese.com/story/001111278",
+    "published": "Tue, 03 Nov 2026 16:00:00 GMT",
+    "summary": "布伦特原油在周一下跌近8%的基础上进一步下跌1.8%，至每桶102.84美元。此前有报道称美伊之间的外交努力取得进展。",
+    "lang": "zh",
+    "relevance_score": 80,
+    "entity_hits": [
+      "原油",
+      "油价",
+      "美伊"
+    ],
+    "action_hits": [
+      "原油",
+      "油价"
+    ]
+  },
+  {
     "source": "BBC中东",
     "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
     "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
@@ -12,10 +30,29 @@
       "jordan"
     ],
     "action_hits": [
-      "attack",
-      "retaliat",
       "strike",
-      "killed"
+      "killed",
+      "attack",
+      "retaliat"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
+    "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 04 Nov 2026 07:17:08 GMT",
+    "summary": "Iran's Islamic Revolutionary Guard Corps says the vessels had hit sea mines while trying to cross a prohibited route.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "irgc",
+      "IRGC",
+      "iran",
+      "strait",
+      "hormuz"
+    ],
+    "action_hits": [
+      "tanker"
     ]
   },
   {
@@ -27,8 +64,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
       "strike",

@@ -1,16 +1,30 @@
 [
   {
-    "event_id": "4847c6cf30bc",
-    "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+    "event_id": "5249b77155b1",
+    "title": "油价周二延续跌势",
     "location": "中东地区",
-    "first_seen_time": "2026-10-27T02:40:17+00:00",
-    "last_updated_time": "2026-10-27T02:40:17+00:00",
+    "first_seen_time": "2026-11-03T16:00:00+00:00",
+    "last_updated_time": "2026-11-03T16:00:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
+    "source_count": 2,
+    "source": "FT中文网",
+    "link": "https://www.ftchinese.com/story/001111278",
+    "lang": "zh"
+  },
+  {
+    "event_id": "25a6a00ac081",
+    "title": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-11-04T07:17:08+00:00",
+    "last_updated_time": "2026-11-04T07:17:08+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
     "source_count": 1,
     "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
