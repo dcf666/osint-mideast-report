@@ -8,24 +8,10 @@
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 2,
+    "source_count": 1,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001111278",
     "lang": "zh"
-  },
-  {
-    "event_id": "25a6a00ac081",
-    "title": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-11-04T07:17:08+00:00",
-    "last_updated_time": "2026-11-04T07:17:08+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 70,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   },
   {
     "event_id": "a35b0e944963",
