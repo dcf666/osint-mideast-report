@@ -8,13 +8,13 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "油价",
       "美伊",
-      "原油"
+      "原油",
+      "油价"
     ],
     "action_hits": [
-      "油价",
-      "原油"
+      "原油",
+      "油价"
     ]
   },
   {
@@ -26,8 +26,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
       "strike",
