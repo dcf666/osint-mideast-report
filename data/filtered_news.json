@@ -8,13 +8,31 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美伊",
+      "油价",
       "原油",
-      "油价"
+      "美伊"
     ],
     "action_hits": [
-      "原油",
-      "油价"
+      "油价",
+      "原油"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Houthis say at least 33 killed in Saudi air strike",
+    "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 08 Nov 2026 04:03:12 GMT",
+    "summary": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "houthi",
+      "saudi",
+      "yemen"
+    ],
+    "action_hits": [
+      "strike",
+      "killed"
     ]
   },
   {
@@ -26,8 +44,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "hamas",
-      "israel"
+      "israel",
+      "hamas"
     ],
     "action_hits": [
       "strike",

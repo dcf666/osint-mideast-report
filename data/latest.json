@@ -3,7 +3,7 @@
     "brent": {
       "current": 98.31999969482422,
       "day_change_pct": 0.03,
-      "war_change_pct": 17.68,
+      "war_change_pct": 12.08,
       "dates": [
         "09/28",
         "09/29",
@@ -68,12 +68,12 @@
         98.29,
         98.32
       ],
-      "updated": "2026-11-07T06:57:59.271150"
+      "updated": "2026-11-08T07:05:53.597158"
     },
     "wti": {
       "current": 90.83000183105469,
       "day_change_pct": 0.34,
-      "war_change_pct": 16.18,
+      "war_change_pct": 10.59,
       "dates": [
         "09/28",
         "09/29",
@@ -138,12 +138,12 @@
         90.52,
         90.83
       ],
-      "updated": "2026-11-07T06:57:59.425257"
+      "updated": "2026-11-08T07:05:53.701062"
     },
     "gold": {
       "current": 4074.89990234375,
       "day_change_pct": -0.94,
-      "war_change_pct": -7.38,
+      "war_change_pct": -7.8,
       "dates": [
         "09/28",
         "09/29",
@@ -208,7 +208,7 @@
         4113.5,
         4074.9
       ],
-      "updated": "2026-11-07T06:57:59.579517"
+      "updated": "2026-11-08T07:05:53.804279"
     },
     "usd_cny": {
       "current": 6.671000003814697,
@@ -244,7 +244,7 @@
         "11/04",
         "11/05",
         "11/06",
-        "11/07"
+        "11/08"
       ],
       "prices": [
         6.71,
@@ -278,12 +278,12 @@
         6.69,
         6.67
       ],
-      "updated": "2026-11-07T06:57:59.787047"
+      "updated": "2026-11-08T07:05:53.925827"
     },
     "nat_gas": {
       "current": 2.997999906539917,
       "day_change_pct": 1.73,
-      "war_change_pct": 12.62,
+      "war_change_pct": 7.3,
       "dates": [
         "09/28",
         "09/29",
@@ -348,7 +348,7 @@
         2.95,
         3.0
       ],
-      "updated": "2026-11-07T06:57:59.949095"
+      "updated": "2026-11-08T07:05:54.047183"
     }
   },
   "stocks": {
@@ -362,8 +362,11 @@
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.1,
+      "change_pct": -4.74,
+      "high": 17.59,
+      "low": 17.0,
+      "volume": 743011
     },
     "601975": {
       "name": "招商南油",
@@ -372,8 +375,11 @@
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 31.28,
+      "change_pct": 0.97,
+      "high": 31.48,
+      "low": 30.75,
+      "volume": 568756
     },
     "601857": {
       "name": "中国石油",
@@ -488,13 +494,31 @@
       "lang": "zh",
       "relevance_score": 80,
       "entity_hits": [
-        "美伊",
+        "油价",
         "原油",
-        "油价"
+        "美伊"
       ],
       "action_hits": [
-        "原油",
-        "油价"
+        "油价",
+        "原油"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Houthis say at least 33 killed in Saudi air strike",
+      "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 08 Nov 2026 04:03:12 GMT",
+      "summary": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "houthi",
+        "saudi",
+        "yemen"
+      ],
+      "action_hits": [
+        "strike",
+        "killed"
       ]
     },
     {
@@ -506,8 +530,8 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "hamas",
-        "israel"
+        "israel",
+        "hamas"
       ],
       "action_hits": [
         "strike",
@@ -531,6 +555,20 @@
       "lang": "zh"
     },
     {
+      "event_id": "53cc235170e0",
+      "title": "Houthis say at least 33 killed in Saudi air strike",
+      "location": "也门",
+      "first_seen_time": "2026-11-08T04:03:12+00:00",
+      "last_updated_time": "2026-11-08T04:03:12+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 80,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
       "event_id": "a35b0e944963",
       "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
       "location": "以色列",
@@ -548,7 +586,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "10/9",
         "10/10",
         "10/11",
         "10/12",
@@ -577,7 +614,8 @@
         "11/4",
         "11/5",
         "11/6",
-        "11/7"
+        "11/7",
+        "11/8"
       ],
       "transits": [
         0,
@@ -669,34 +707,27 @@
         21,
         69
       ],
-      "date_label": "11月7日"
+      "date_label": "11月8日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-11-07",
+      "hormuz_last_date": "2026-11-08",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-10-12",
-      "vlcc_stale_days": 26,
+      "vlcc_stale_days": 27,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-11-07"
+      "routes_date": "2026-11-08"
     }
   },
   "meta": {
-    "report_date": "2026.11.07",
-    "report_date_cn": "2026年11月07日",
-    "war_day": 253,
+    "report_date": "2026.11.08",
+    "report_date_cn": "2026年11月08日",
+    "war_day": 254,
     "war_start": "2026-02-28",
-    "generated_at": "2026-11-07T14:58:30.992523+08:00",
-    "generated_at_cn": "2026-11-07 14:58:30 北京时间"
+    "generated_at": "2026-11-08T15:06:34.069772+08:00",
+    "generated_at_cn": "2026-11-08 15:06:34 北京时间"
   },
   "history": [
-    {
-      "date": "2026-08-10",
-      "brent": 84.29000091552734,
-      "wti": 78.66000366210938,
-      "gold": 4378.5,
-      "usd_cny": 6.746099948883057
-    },
     {
       "date": "2026-08-11",
       "brent": 87.97000122070312,
@@ -1315,6 +1346,13 @@
     },
     {
       "date": "2026-11-07",
+      "brent": 98.31999969482422,
+      "wti": 90.83000183105469,
+      "gold": 4074.89990234375,
+      "usd_cny": 6.671000003814697
+    },
+    {
+      "date": "2026-11-08",
       "brent": 98.31999969482422,
       "wti": 90.83000183105469,
       "gold": 4074.89990234375,

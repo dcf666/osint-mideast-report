@@ -14,6 +14,20 @@
     "lang": "zh"
   },
   {
+    "event_id": "53cc235170e0",
+    "title": "Houthis say at least 33 killed in Saudi air strike",
+    "location": "也门",
+    "first_seen_time": "2026-11-08T04:03:12+00:00",
+    "last_updated_time": "2026-11-08T04:03:12+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "a35b0e944963",
     "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
     "location": "以色列",
