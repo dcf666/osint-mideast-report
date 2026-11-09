@@ -28,6 +28,20 @@
     "lang": "en"
   },
   {
+    "event_id": "f8b9c4b82ab3",
+    "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+    "location": "沙特阿拉伯",
+    "first_seen_time": "2026-11-08T21:37:36+00:00",
+    "last_updated_time": "2026-11-08T21:37:36+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "a35b0e944963",
     "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
     "location": "以色列",

@@ -26,13 +26,30 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "houthi",
       "saudi",
+      "houthi",
       "yemen"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+    "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 08 Nov 2026 21:37:36 GMT",
+    "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "saudi",
+      "houthi"
+    ],
+    "action_hits": [
+      "launch",
+      "strike"
     ]
   },
   {
@@ -48,8 +65,8 @@
       "hamas"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   }
 ]
