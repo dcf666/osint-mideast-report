@@ -8,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "油价",
+      "美伊",
       "原油",
-      "美伊"
+      "油价"
     ],
     "action_hits": [
       "油价",
@@ -31,8 +31,8 @@
       "yemen"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -48,25 +48,8 @@
       "houthi"
     ],
     "action_hits": [
-      "launch",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
-    "link": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 01 Nov 2026 17:06:32 GMT",
-    "summary": "Five officers from the Hamas-run police have been killed in Khan Younis and three people, including a child, killed in Gaza City, officials say.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "israel",
-      "hamas"
-    ],
-    "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "launch"
     ]
   }
 ]

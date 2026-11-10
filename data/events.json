@@ -40,19 +40,5 @@
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
     "lang": "en"
-  },
-  {
-    "event_id": "a35b0e944963",
-    "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
-    "location": "以色列",
-    "first_seen_time": "2026-11-01T17:06:32+00:00",
-    "last_updated_time": "2026-11-01T17:06:32+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   }
 ]
