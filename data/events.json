@@ -1,14 +1,14 @@
 [
   {
     "event_id": "5249b77155b1",
-    "title": "油价周二延续跌势",
+    "title": "美俄乌和谈首日：美方称已有“一些好主意”",
     "location": "中东地区",
     "first_seen_time": "2026-11-03T16:00:00+00:00",
-    "last_updated_time": "2026-11-03T16:00:00+00:00",
+    "last_updated_time": "2026-11-10T15:15:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
     "confidence": 80,
-    "source_count": 1,
+    "source_count": 2,
     "source": "FT中文网",
     "link": "https://www.ftchinese.com/story/001111278",
     "lang": "zh"
