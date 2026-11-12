@@ -8,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 80,
     "entity_hits": [
-      "美伊",
       "油价",
-      "原油"
+      "原油",
+      "美伊"
     ],
     "action_hits": [
       "油价",
@@ -42,13 +42,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "saudi",
+      "houthi",
       "yemen",
-      "houthi"
+      "saudi"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -60,8 +60,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "saudi",
-      "houthi"
+      "houthi",
+      "saudi"
     ],
     "action_hits": [
       "strike",
