@@ -9,28 +9,28 @@
     "relevance_score": 80,
     "entity_hits": [
       "油价",
-      "原油",
-      "美伊"
+      "美伊",
+      "原油"
     ],
     "action_hits": [
-      "油价",
-      "原油"
+      "原油",
+      "油价"
     ]
   },
   {
-    "source": "德国之声",
-    "title": "美俄乌和谈首日：美方称已有“一些好主意”",
-    "link": "https://www.dw.com/zh/美俄乌和谈首日：美方称已有-一些好主意/a-79910805?maca=chi-rss-chi-all-1127-xml-mrss",
-    "published": "Tue, 10 Nov 2026 15:15:00 GMT",
-    "summary": "美国、俄罗斯和乌克兰代表周二在阿布扎比举行今年2月以来首次三方会谈，首日谈判持续四小时。美方称有“一些好主意”弥合分歧。俄方要求乌克兰撤出四个州并放弃加入北约，乌方拒绝交出俄军未占领的领土。欧洲则反对借和谈重塑欧洲安全架构。",
+    "source": "FT中文网",
+    "title": "以军再度空袭加沙医院",
+    "link": "https://www.ftchinese.com/story/001111356",
+    "published": "Thu, 12 Nov 2026 16:00:00 GMT",
+    "summary": "当地卫生部门称6名遇难者包括一名医生、几名患者及陪同人员。以军称袭击目标是藏匿于纳赛尔医院的哈马斯汗尤尼斯旅指挥官及其他武装人员。",
     "lang": "zh",
-    "relevance_score": 62,
+    "relevance_score": 64,
     "entity_hits": [
-      "阿布扎比",
-      "北约"
+      "哈马斯",
+      "以军"
     ],
     "action_hits": [
-      "谈判"
+      "空袭"
     ]
   },
   {
@@ -42,13 +42,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "houthi",
       "yemen",
-      "saudi"
+      "saudi",
+      "houthi"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -60,8 +60,8 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "houthi",
-      "saudi"
+      "saudi",
+      "houthi"
     ],
     "action_hits": [
       "strike",
