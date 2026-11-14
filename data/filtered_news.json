@@ -1,24 +1,6 @@
 [
   {
     "source": "FT中文网",
-    "title": "油价周二延续跌势",
-    "link": "https://www.ftchinese.com/story/001111278",
-    "published": "Tue, 03 Nov 2026 16:00:00 GMT",
-    "summary": "布伦特原油在周一下跌近8%的基础上进一步下跌1.8%，至每桶102.84美元。此前有报道称美伊之间的外交努力取得进展。",
-    "lang": "zh",
-    "relevance_score": 80,
-    "entity_hits": [
-      "油价",
-      "美伊",
-      "原油"
-    ],
-    "action_hits": [
-      "原油",
-      "油价"
-    ]
-  },
-  {
-    "source": "FT中文网",
     "title": "以军再度空袭加沙医院",
     "link": "https://www.ftchinese.com/story/001111356",
     "published": "Thu, 12 Nov 2026 16:00:00 GMT",
@@ -31,41 +13,6 @@
     ],
     "action_hits": [
       "空袭"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Houthis say at least 33 killed in Saudi air strike",
-    "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 08 Nov 2026 04:03:12 GMT",
-    "summary": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "yemen",
-      "saudi",
-      "houthi"
-    ],
-    "action_hits": [
-      "strike",
-      "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-    "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 08 Nov 2026 21:37:36 GMT",
-    "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "saudi",
-      "houthi"
-    ],
-    "action_hits": [
-      "strike",
-      "launch"
     ]
   }
 ]

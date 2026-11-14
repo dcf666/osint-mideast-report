@@ -1,44 +1,16 @@
 [
   {
-    "event_id": "5249b77155b1",
+    "event_id": "16415adb186c",
     "title": "以军再度空袭加沙医院",
     "location": "中东地区",
-    "first_seen_time": "2026-11-03T16:00:00+00:00",
+    "first_seen_time": "2026-11-12T16:00:00+00:00",
     "last_updated_time": "2026-11-12T16:00:00+00:00",
     "current_status": "active_conflict",
     "trend": "stable",
-    "confidence": 80,
-    "source_count": 2,
+    "confidence": 64,
+    "source_count": 1,
     "source": "FT中文网",
-    "link": "https://www.ftchinese.com/story/001111278",
+    "link": "https://www.ftchinese.com/story/001111356",
     "lang": "zh"
-  },
-  {
-    "event_id": "53cc235170e0",
-    "title": "Houthis say at least 33 killed in Saudi air strike",
-    "location": "也门",
-    "first_seen_time": "2026-11-08T04:03:12+00:00",
-    "last_updated_time": "2026-11-08T04:03:12+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
-    "event_id": "f8b9c4b82ab3",
-    "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-    "location": "沙特阿拉伯",
-    "first_seen_time": "2026-11-08T21:37:36+00:00",
-    "last_updated_time": "2026-11-08T21:37:36+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
   }
 ]

@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 96.33999633789062,
-      "day_change_pct": 0.54,
-      "war_change_pct": 10.65,
+      "current": 95.83999633789062,
+      "day_change_pct": 0.02,
+      "war_change_pct": 8.27,
       "dates": [
         "10/05",
         "10/06",
@@ -66,14 +66,14 @@
         91.49,
         92.76,
         95.82,
-        96.34
+        95.84
       ],
-      "updated": "2026-11-13T07:43:51.410493"
+      "updated": "2026-11-14T07:29:54.471114"
     },
     "wti": {
-      "current": 88.83999633789062,
-      "day_change_pct": 0.11,
-      "war_change_pct": 9.34,
+      "current": 88.55999755859375,
+      "day_change_pct": -0.2,
+      "war_change_pct": 7.48,
       "dates": [
         "10/05",
         "10/06",
@@ -136,14 +136,14 @@
         86.04,
         86.53,
         88.74,
-        88.84
+        88.56
       ],
-      "updated": "2026-11-13T07:43:51.516479"
+      "updated": "2026-11-14T07:29:54.717660"
     },
     "gold": {
-      "current": 3898.5,
-      "day_change_pct": 0.34,
-      "war_change_pct": -11.81,
+      "current": 3886.300048828125,
+      "day_change_pct": 0.03,
+      "war_change_pct": -12.42,
       "dates": [
         "10/05",
         "10/06",
@@ -206,16 +206,15 @@
         4030.2,
         4000.5,
         3885.3,
-        3898.5
+        3886.3
       ],
-      "updated": "2026-11-13T07:43:51.626535"
+      "updated": "2026-11-14T07:29:54.826050"
     },
     "usd_cny": {
-      "current": 6.670199871063232,
-      "day_change_pct": -0.0,
-      "war_change_pct": -1.08,
+      "current": 6.671199798583984,
+      "day_change_pct": 0.01,
+      "war_change_pct": -1.06,
       "dates": [
-        "10/05",
         "10/06",
         "10/07",
         "10/08",
@@ -244,10 +243,10 @@
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/14"
       ],
       "prices": [
-        6.7,
         6.7,
         6.7,
         6.7,
@@ -276,14 +275,15 @@
         6.67,
         6.67,
         6.67,
+        6.67,
         6.67
       ],
-      "updated": "2026-11-13T07:43:51.745162"
+      "updated": "2026-11-14T07:29:54.939480"
     },
     "nat_gas": {
-      "current": 3.302999973297119,
-      "day_change_pct": -1.11,
-      "war_change_pct": 21.12,
+      "current": 3.2300000190734863,
+      "day_change_pct": -3.29,
+      "war_change_pct": 18.19,
       "dates": [
         "10/05",
         "10/06",
@@ -346,19 +346,16 @@
         3.3,
         3.21,
         3.34,
-        3.3
+        3.23
       ],
-      "updated": "2026-11-13T07:43:51.858531"
+      "updated": "2026-11-14T07:29:55.049074"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": 15.35,
-      "change_pct": -2.04,
-      "high": 15.97,
-      "low": 15.28,
-      "volume": 909879
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600026": {
       "name": "中远海能",
@@ -386,11 +383,8 @@
     },
     "601857": {
       "name": "中国石油",
-      "price": 12.39,
-      "change_pct": 2.99,
-      "high": 12.45,
-      "low": 12.03,
-      "volume": 1903999
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600028": {
       "name": "中国石化",
@@ -426,11 +420,8 @@
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": 73.83,
-      "change_pct": -9.75,
-      "high": 82.16,
-      "low": 73.67,
-      "volume": 367044
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600803": {
       "name": "新奥股份",
@@ -450,11 +441,8 @@
     },
     "601919": {
       "name": "中远海控",
-      "price": 17.03,
-      "change_pct": 0.89,
-      "high": 17.09,
-      "low": 16.82,
-      "volume": 655295
+      "price": null,
+      "error": "HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "600760": {
       "name": "中航沈飞",
@@ -533,24 +521,6 @@
   "news": [
     {
       "source": "FT中文网",
-      "title": "油价周二延续跌势",
-      "link": "https://www.ftchinese.com/story/001111278",
-      "published": "Tue, 03 Nov 2026 16:00:00 GMT",
-      "summary": "布伦特原油在周一下跌近8%的基础上进一步下跌1.8%，至每桶102.84美元。此前有报道称美伊之间的外交努力取得进展。",
-      "lang": "zh",
-      "relevance_score": 80,
-      "entity_hits": [
-        "油价",
-        "美伊",
-        "原油"
-      ],
-      "action_hits": [
-        "原油",
-        "油价"
-      ]
-    },
-    {
-      "source": "FT中文网",
       "title": "以军再度空袭加沙医院",
       "link": "https://www.ftchinese.com/story/001111356",
       "published": "Thu, 12 Nov 2026 16:00:00 GMT",
@@ -564,91 +534,27 @@
       "action_hits": [
         "空袭"
       ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Houthis say at least 33 killed in Saudi air strike",
-      "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 08 Nov 2026 04:03:12 GMT",
-      "summary": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-      "lang": "en",
-      "relevance_score": 80,
-      "entity_hits": [
-        "yemen",
-        "saudi",
-        "houthi"
-      ],
-      "action_hits": [
-        "strike",
-        "killed"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-      "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 08 Nov 2026 21:37:36 GMT",
-      "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
-      "lang": "en",
-      "relevance_score": 67,
-      "entity_hits": [
-        "saudi",
-        "houthi"
-      ],
-      "action_hits": [
-        "strike",
-        "launch"
-      ]
     }
   ],
   "event_states": [
     {
-      "event_id": "5249b77155b1",
+      "event_id": "16415adb186c",
       "title": "以军再度空袭加沙医院",
       "location": "中东地区",
-      "first_seen_time": "2026-11-03T16:00:00+00:00",
+      "first_seen_time": "2026-11-12T16:00:00+00:00",
       "last_updated_time": "2026-11-12T16:00:00+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
-      "confidence": 80,
-      "source_count": 2,
+      "confidence": 64,
+      "source_count": 1,
       "source": "FT中文网",
-      "link": "https://www.ftchinese.com/story/001111278",
+      "link": "https://www.ftchinese.com/story/001111356",
       "lang": "zh"
-    },
-    {
-      "event_id": "53cc235170e0",
-      "title": "Houthis say at least 33 killed in Saudi air strike",
-      "location": "也门",
-      "first_seen_time": "2026-11-08T04:03:12+00:00",
-      "last_updated_time": "2026-11-08T04:03:12+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 80,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "f8b9c4b82ab3",
-      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-      "location": "沙特阿拉伯",
-      "first_seen_time": "2026-11-08T21:37:36+00:00",
-      "last_updated_time": "2026-11-08T21:37:36+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 67,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
     }
   ],
   "shipping": {
     "hormuz": {
       "dates": [
-        "10/15",
         "10/16",
         "10/17",
         "10/18",
@@ -677,7 +583,8 @@
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/14"
       ],
       "transits": [
         0,
@@ -769,34 +676,27 @@
         21,
         69
       ],
-      "date_label": "11月13日"
+      "date_label": "11月14日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-11-13",
+      "hormuz_last_date": "2026-11-14",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-10-12",
-      "vlcc_stale_days": 32,
+      "vlcc_stale_days": 33,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-11-13"
+      "routes_date": "2026-11-14"
     }
   },
   "meta": {
-    "report_date": "2026.11.13",
-    "report_date_cn": "2026年11月13日",
-    "war_day": 259,
+    "report_date": "2026.11.14",
+    "report_date_cn": "2026年11月14日",
+    "war_day": 260,
     "war_start": "2026-02-28",
-    "generated_at": "2026-11-13T15:44:50.305674+08:00",
-    "generated_at_cn": "2026-11-13 15:44:50 北京时间"
+    "generated_at": "2026-11-14T15:31:59.358643+08:00",
+    "generated_at_cn": "2026-11-14 15:31:59 北京时间"
   },
   "history": [
-    {
-      "date": "2026-08-16",
-      "brent": 88.5199966430664,
-      "wti": 82.4000015258789,
-      "gold": 4380.39990234375,
-      "usd_cny": 6.7322001457214355
-    },
     {
       "date": "2026-08-17",
       "brent": 89.29000091552734,
@@ -1419,6 +1319,13 @@
       "wti": 88.83999633789062,
       "gold": 3898.5,
       "usd_cny": 6.670199871063232
+    },
+    {
+      "date": "2026-11-14",
+      "brent": 95.83999633789062,
+      "wti": 88.55999755859375,
+      "gold": 3886.300048828125,
+      "usd_cny": 6.671199798583984
     }
   ]
 }
