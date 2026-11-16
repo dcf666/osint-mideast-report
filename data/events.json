@@ -1,5 +1,33 @@
 [
   {
+    "event_id": "e2d5b63a386a",
+    "title": "Iran targets US military base in Bahrain with drone attack",
+    "location": "霍尔木兹海峡",
+    "first_seen_time": "2026-11-15T13:42:58+00:00",
+    "last_updated_time": "2026-11-15T13:42:58+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 80,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "7adfa1b02ad4",
+    "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+    "location": "以色列",
+    "first_seen_time": "2026-11-15T08:17:41+00:00",
+    "last_updated_time": "2026-11-15T08:17:41+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 70,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "16415adb186c",
     "title": "以军再度空袭加沙医院",
     "location": "中东地区",

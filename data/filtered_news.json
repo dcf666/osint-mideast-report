@@ -14,5 +14,42 @@
     "action_hits": [
       "空袭"
     ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Iran targets US military base in Bahrain with drone attack",
+    "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 15 Nov 2026 13:42:58 GMT",
+    "summary": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
+    "lang": "en",
+    "relevance_score": 80,
+    "entity_hits": [
+      "hormuz",
+      "strait",
+      "bahrain",
+      "iran"
+    ],
+    "action_hits": [
+      "drone",
+      "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+    "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+    "published": "Sun, 15 Nov 2026 08:17:41 GMT",
+    "summary": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
+    "lang": "en",
+    "relevance_score": 70,
+    "entity_hits": [
+      "israel",
+      "idf",
+      "hamas",
+      "IDF"
+    ],
+    "action_hits": [
+      "strike"
+    ]
   }
 ]

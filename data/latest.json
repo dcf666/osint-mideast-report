@@ -1,219 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 95.83999633789062,
-      "day_change_pct": 0.02,
-      "war_change_pct": 5.47,
-      "dates": [
-        "10/05",
-        "10/06",
-        "10/07",
-        "10/08",
-        "10/09",
-        "10/12",
-        "10/13",
-        "10/14",
-        "10/15",
-        "10/16",
-        "10/19",
-        "10/20",
-        "10/21",
-        "10/22",
-        "10/23",
-        "10/26",
-        "10/27",
-        "10/28",
-        "10/29",
-        "10/30",
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
-        "11/09",
-        "11/10",
-        "11/11",
-        "11/12",
-        "11/13"
-      ],
-      "prices": [
-        100.32,
-        100.58,
-        100.2,
-        104.28,
-        104.72,
-        106.65,
-        105.69,
-        106.06,
-        105.92,
-        109.86,
-        109.55,
-        108.79,
-        108.82,
-        113.17,
-        116.72,
-        115.81,
-        113.88,
-        115.32,
-        114.88,
-        117.64,
-        104.77,
-        103.6,
-        94.62,
-        98.29,
-        98.32,
-        92.57,
-        91.49,
-        92.76,
-        95.82,
-        95.84
-      ],
-      "updated": "2026-11-15T07:42:51.371609"
-    },
-    "wti": {
-      "current": 88.55999755859375,
-      "day_change_pct": -0.2,
-      "war_change_pct": 4.8,
-      "dates": [
-        "10/05",
-        "10/06",
-        "10/07",
-        "10/08",
-        "10/09",
-        "10/12",
-        "10/13",
-        "10/14",
-        "10/15",
-        "10/16",
-        "10/19",
-        "10/20",
-        "10/21",
-        "10/22",
-        "10/23",
-        "10/26",
-        "10/27",
-        "10/28",
-        "10/29",
-        "10/30",
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
-        "11/09",
-        "11/10",
-        "11/11",
-        "11/12",
-        "11/13"
-      ],
-      "prices": [
-        89.43,
-        89.44,
-        88.28,
-        91.49,
-        91.85,
-        93.74,
-        94.14,
-        95.09,
-        97.97,
-        101.41,
-        103.66,
-        101.79,
-        97.15,
-        99.47,
-        103.27,
-        101.76,
-        99.9,
-        102.78,
-        102.0,
-        104.12,
-        96.46,
-        96.09,
-        88.12,
-        90.52,
-        90.83,
-        86.85,
-        86.04,
-        86.53,
-        88.74,
-        88.56
-      ],
-      "updated": "2026-11-15T07:42:51.504153"
-    },
-    "gold": {
-      "current": 3886.300048828125,
-      "day_change_pct": 0.03,
-      "war_change_pct": -13.13,
-      "dates": [
-        "10/05",
-        "10/06",
-        "10/07",
-        "10/08",
-        "10/09",
-        "10/12",
-        "10/13",
-        "10/14",
-        "10/15",
-        "10/16",
-        "10/19",
-        "10/20",
-        "10/21",
-        "10/22",
-        "10/23",
-        "10/26",
-        "10/27",
-        "10/28",
-        "10/29",
-        "10/30",
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
-        "11/09",
-        "11/10",
-        "11/11",
-        "11/12",
-        "11/13"
-      ],
-      "prices": [
-        4156.8,
-        4187.1,
-        4140.7,
-        4157.0,
-        4216.3,
-        4190.6,
-        4177.3,
-        4107.9,
-        4170.1,
-        4181.1,
-        4160.1,
-        4142.6,
-        4150.0,
-        4060.4,
-        4007.9,
-        4038.4,
-        4074.6,
-        4051.6,
-        4031.4,
-        3898.9,
-        3969.6,
-        3940.4,
-        4073.0,
-        4113.5,
-        4074.9,
-        4114.5,
-        4030.2,
-        4000.5,
-        3885.3,
-        3886.3
-      ],
-      "updated": "2026-11-15T07:42:51.606604"
-    },
-    "usd_cny": {
-      "current": 6.671199798583984,
-      "day_change_pct": 0.01,
-      "war_change_pct": -1.06,
+      "current": 95.9000015258789,
+      "day_change_pct": 0.06,
+      "war_change_pct": 5.54,
       "dates": [
         "10/06",
         "10/07",
@@ -244,7 +34,217 @@
         "11/11",
         "11/12",
         "11/13",
-        "11/15"
+        "11/16"
+      ],
+      "prices": [
+        100.58,
+        100.2,
+        104.28,
+        104.72,
+        106.65,
+        105.69,
+        106.06,
+        105.92,
+        109.86,
+        109.55,
+        108.79,
+        108.82,
+        113.17,
+        116.72,
+        115.81,
+        113.88,
+        115.32,
+        114.88,
+        117.64,
+        104.77,
+        103.6,
+        94.62,
+        98.29,
+        98.32,
+        92.57,
+        91.49,
+        92.76,
+        95.82,
+        95.84,
+        95.9
+      ],
+      "updated": "2026-11-16T07:49:08.467109"
+    },
+    "wti": {
+      "current": 88.76000213623047,
+      "day_change_pct": 0.23,
+      "war_change_pct": 5.04,
+      "dates": [
+        "10/06",
+        "10/07",
+        "10/08",
+        "10/09",
+        "10/12",
+        "10/13",
+        "10/14",
+        "10/15",
+        "10/16",
+        "10/19",
+        "10/20",
+        "10/21",
+        "10/22",
+        "10/23",
+        "10/26",
+        "10/27",
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10",
+        "11/11",
+        "11/12",
+        "11/13",
+        "11/16"
+      ],
+      "prices": [
+        89.44,
+        88.28,
+        91.49,
+        91.85,
+        93.74,
+        94.14,
+        95.09,
+        97.97,
+        101.41,
+        103.66,
+        101.79,
+        97.15,
+        99.47,
+        103.27,
+        101.76,
+        99.9,
+        102.78,
+        102.0,
+        104.12,
+        96.46,
+        96.09,
+        88.12,
+        90.52,
+        90.83,
+        86.85,
+        86.04,
+        86.53,
+        88.74,
+        88.56,
+        88.76
+      ],
+      "updated": "2026-11-16T07:49:08.582602"
+    },
+    "gold": {
+      "current": 3859.39990234375,
+      "day_change_pct": -0.69,
+      "war_change_pct": -13.73,
+      "dates": [
+        "10/06",
+        "10/07",
+        "10/08",
+        "10/09",
+        "10/12",
+        "10/13",
+        "10/14",
+        "10/15",
+        "10/16",
+        "10/19",
+        "10/20",
+        "10/21",
+        "10/22",
+        "10/23",
+        "10/26",
+        "10/27",
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10",
+        "11/11",
+        "11/12",
+        "11/13",
+        "11/16"
+      ],
+      "prices": [
+        4187.1,
+        4140.7,
+        4157.0,
+        4216.3,
+        4190.6,
+        4177.3,
+        4107.9,
+        4170.1,
+        4181.1,
+        4160.1,
+        4142.6,
+        4150.0,
+        4060.4,
+        4007.9,
+        4038.4,
+        4074.6,
+        4051.6,
+        4031.4,
+        3898.9,
+        3969.6,
+        3940.4,
+        4073.0,
+        4113.5,
+        4074.9,
+        4114.5,
+        4030.2,
+        4000.5,
+        3885.3,
+        3886.3,
+        3859.4
+      ],
+      "updated": "2026-11-16T07:49:08.699109"
+    },
+    "usd_cny": {
+      "current": 6.668399810791016,
+      "day_change_pct": -0.03,
+      "war_change_pct": -1.1,
+      "dates": [
+        "10/06",
+        "10/07",
+        "10/08",
+        "10/09",
+        "10/12",
+        "10/13",
+        "10/14",
+        "10/15",
+        "10/16",
+        "10/19",
+        "10/20",
+        "10/21",
+        "10/22",
+        "10/23",
+        "10/26",
+        "10/27",
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10",
+        "11/11",
+        "11/12",
+        "11/13",
+        "11/16"
       ],
       "prices": [
         6.7,
@@ -278,14 +278,13 @@
         6.67,
         6.67
       ],
-      "updated": "2026-11-15T07:42:51.718536"
+      "updated": "2026-11-16T07:49:08.821723"
     },
     "nat_gas": {
-      "current": 3.2300000190734863,
-      "day_change_pct": -3.29,
-      "war_change_pct": 20.07,
+      "current": 3.124000072479248,
+      "day_change_pct": -3.28,
+      "war_change_pct": 16.13,
       "dates": [
-        "10/05",
         "10/06",
         "10/07",
         "10/08",
@@ -314,10 +313,10 @@
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16"
       ],
       "prices": [
-        3.07,
         3.11,
         3.2,
         3.17,
@@ -346,133 +345,189 @@
         3.3,
         3.21,
         3.34,
-        3.23
+        3.23,
+        3.12
       ],
-      "updated": "2026-11-15T07:42:51.824408"
+      "updated": "2026-11-16T07:49:08.935510"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 15.4,
+      "change_pct": 0.33,
+      "high": 15.81,
+      "low": 15.01,
+      "volume": 996756
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 16.54,
+      "change_pct": 1.22,
+      "high": 16.94,
+      "low": 16.07,
+      "volume": 493489
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 3.41,
+      "change_pct": -0.29,
+      "high": 3.46,
+      "low": 3.36,
+      "volume": 948209
     },
     "600938": {
       "name": "中国海油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 30.88,
+      "change_pct": 0.1,
+      "high": 30.93,
+      "low": 30.52,
+      "volume": 351220
     },
     "601857": {
       "name": "中国石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 12.47,
+      "change_pct": 0.65,
+      "high": 12.66,
+      "low": 12.35,
+      "volume": 1795704
     },
     "600028": {
       "name": "中国石化",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 5.84,
+      "change_pct": 1.92,
+      "high": 5.84,
+      "low": 5.69,
+      "volume": 2431892
     },
     "603619": {
       "name": "中曼石油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.87,
+      "change_pct": -3.41,
+      "high": 18.3,
+      "low": 17.64,
+      "volume": 149692
     },
     "600759": {
       "name": "洲际油气",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 2.06,
+      "change_pct": -4.63,
+      "high": 2.15,
+      "low": 2.05,
+      "volume": 862134
     },
     "601808": {
       "name": "中海油服",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 12.5,
+      "change_pct": 1.3,
+      "high": 12.52,
+      "low": 12.22,
+      "volume": 149056
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 70.8,
+      "change_pct": -4.1,
+      "high": 73.41,
+      "low": 70.18,
+      "volume": 252850
     },
     "600803": {
       "name": "新奥股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 21.84,
+      "change_pct": 3.75,
+      "high": 21.87,
+      "low": 20.93,
+      "volume": 115848
     },
     "600256": {
       "name": "广汇能源",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 6.52,
+      "change_pct": -0.15,
+      "high": 6.54,
+      "low": 6.32,
+      "volume": 1178762
     },
     "601919": {
       "name": "中远海控",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 17.25,
+      "change_pct": 1.29,
+      "high": 17.27,
+      "low": 16.83,
+      "volume": 807112
     },
     "600760": {
       "name": "中航沈飞",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 46.79,
+      "change_pct": -1.33,
+      "high": 47.37,
+      "low": 45.88,
+      "volume": 131149
     },
     "600893": {
       "name": "航发动力",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 35.15,
+      "change_pct": -6.27,
+      "high": 37.43,
+      "low": 34.46,
+      "volume": 380105
     },
     "600150": {
       "name": "中国船舶",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 34.14,
+      "change_pct": 0.09,
+      "high": 34.17,
+      "low": 33.55,
+      "volume": 451243
     },
     "600547": {
       "name": "山东黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 23.85,
+      "change_pct": -2.29,
+      "high": 24.67,
+      "low": 23.61,
+      "volume": 603988
     },
     "600988": {
       "name": "赤峰黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 34.65,
+      "change_pct": -1.03,
+      "high": 36.32,
+      "low": 33.64,
+      "volume": 428668
     },
     "600489": {
       "name": "中金黄金",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 18.85,
+      "change_pct": -1.98,
+      "high": 19.32,
+      "low": 18.62,
+      "volume": 606009
     },
     "601088": {
       "name": "中国神华",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 50.66,
+      "change_pct": 1.32,
+      "high": 50.9,
+      "low": 49.87,
+      "volume": 349584
     }
   },
   "sectors": {
     "航运": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 1.76
     },
     "石油": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": null
     },
     "天然气": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": -3.96
     },
     "军工": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 0.32
     },
     "黄金": {
-      "change_pct": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "change_pct": 0.36
     }
   },
   "news": [
@@ -491,9 +546,74 @@
       "action_hits": [
         "空袭"
       ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Iran targets US military base in Bahrain with drone attack",
+      "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 15 Nov 2026 13:42:58 GMT",
+      "summary": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
+      "lang": "en",
+      "relevance_score": 80,
+      "entity_hits": [
+        "hormuz",
+        "strait",
+        "bahrain",
+        "iran"
+      ],
+      "action_hits": [
+        "drone",
+        "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+      "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 15 Nov 2026 08:17:41 GMT",
+      "summary": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
+      "lang": "en",
+      "relevance_score": 70,
+      "entity_hits": [
+        "israel",
+        "idf",
+        "hamas",
+        "IDF"
+      ],
+      "action_hits": [
+        "strike"
+      ]
     }
   ],
   "event_states": [
+    {
+      "event_id": "e2d5b63a386a",
+      "title": "Iran targets US military base in Bahrain with drone attack",
+      "location": "霍尔木兹海峡",
+      "first_seen_time": "2026-11-15T13:42:58+00:00",
+      "last_updated_time": "2026-11-15T13:42:58+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 80,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
+    {
+      "event_id": "7adfa1b02ad4",
+      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+      "location": "以色列",
+      "first_seen_time": "2026-11-15T08:17:41+00:00",
+      "last_updated_time": "2026-11-15T08:17:41+00:00",
+      "current_status": "active_conflict",
+      "trend": "stable",
+      "confidence": 70,
+      "source_count": 1,
+      "source": "BBC中东",
+      "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+      "lang": "en"
+    },
     {
       "event_id": "16415adb186c",
       "title": "以军再度空袭加沙医院",
@@ -512,7 +632,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "10/17",
         "10/18",
         "10/19",
         "10/20",
@@ -541,7 +660,8 @@
         "11/12",
         "11/13",
         "11/14",
-        "11/15"
+        "11/15",
+        "11/16"
       ],
       "transits": [
         0,
@@ -633,34 +753,27 @@
         21,
         69
       ],
-      "date_label": "11月15日"
+      "date_label": "11月16日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-11-15",
+      "hormuz_last_date": "2026-11-16",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-10-12",
-      "vlcc_stale_days": 34,
+      "vlcc_stale_days": 35,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-11-15"
+      "routes_date": "2026-11-16"
     }
   },
   "meta": {
-    "report_date": "2026.11.15",
-    "report_date_cn": "2026年11月15日",
-    "war_day": 261,
+    "report_date": "2026.11.16",
+    "report_date_cn": "2026年11月16日",
+    "war_day": 262,
     "war_start": "2026-02-28",
-    "generated_at": "2026-11-15T15:43:39.681975+08:00",
-    "generated_at_cn": "2026-11-15 15:43:39 北京时间"
+    "generated_at": "2026-11-16T15:49:55.664153+08:00",
+    "generated_at_cn": "2026-11-16 15:49:55 北京时间"
   },
   "history": [
-    {
-      "date": "2026-08-18",
-      "brent": 91.16999816894531,
-      "wti": 85.0199966430664,
-      "gold": 4459.0,
-      "usd_cny": 6.743100166320801
-    },
     {
       "date": "2026-08-19",
       "brent": 91.94999694824219,
@@ -1283,6 +1396,13 @@
       "wti": 88.55999755859375,
       "gold": 3886.300048828125,
       "usd_cny": 6.671199798583984
+    },
+    {
+      "date": "2026-11-16",
+      "brent": 95.9000015258789,
+      "wti": 88.76000213623047,
+      "gold": 3859.39990234375,
+      "usd_cny": 6.668399810791016
     }
   ]
 }
