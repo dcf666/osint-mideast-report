@@ -28,6 +28,20 @@
     "lang": "en"
   },
   {
+    "event_id": "2326659c3bb3",
+    "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+    "location": "伊朗·德黑兰",
+    "first_seen_time": "2026-11-17T17:37:04+00:00",
+    "last_updated_time": "2026-11-17T17:37:04+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 65,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "16415adb186c",
     "title": "以军再度空袭加沙医院",
     "location": "中东地区",

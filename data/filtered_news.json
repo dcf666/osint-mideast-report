@@ -26,12 +26,12 @@
     "entity_hits": [
       "strait",
       "iran",
-      "bahrain",
-      "hormuz"
+      "hormuz",
+      "bahrain"
     ],
     "action_hits": [
-      "attack",
-      "drone"
+      "drone",
+      "attack"
     ]
   },
   {
@@ -43,13 +43,30 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "IDF",
-      "idf",
       "israel",
-      "hamas"
+      "hamas",
+      "idf",
+      "IDF"
     ],
     "action_hits": [
       "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+    "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 17 Nov 2026 17:37:04 GMT",
+    "summary": "Tehran rejects any suggestion it was plotting a so-called dirty bomb attack on the US capital as \"baseless\".",
+    "lang": "en",
+    "relevance_score": 65,
+    "entity_hits": [
+      "tehran",
+      "iran"
+    ],
+    "action_hits": [
+      "bomb",
+      "attack"
     ]
   }
 ]
