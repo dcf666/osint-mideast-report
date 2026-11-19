@@ -8,8 +8,8 @@
     "lang": "zh",
     "relevance_score": 64,
     "entity_hits": [
-      "哈马斯",
-      "以军"
+      "以军",
+      "哈马斯"
     ],
     "action_hits": [
       "空袭"
@@ -24,13 +24,31 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "strait",
-      "iran",
       "hormuz",
+      "iran",
+      "strait",
       "bahrain"
     ],
     "action_hits": [
-      "drone",
+      "attack",
+      "drone"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+    "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 18 Nov 2026 13:04:48 GMT",
+    "summary": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
+    "lang": "en",
+    "relevance_score": 75,
+    "entity_hits": [
+      "kuwait",
+      "iran",
+      "bahrain"
+    ],
+    "action_hits": [
+      "strike",
       "attack"
     ]
   },
@@ -43,13 +61,30 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "israel",
       "hamas",
+      "israel",
       "idf",
       "IDF"
     ],
     "action_hits": [
       "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+    "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 18 Nov 2026 22:34:56 GMT",
+    "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "israel",
+      "hamas"
+    ],
+    "action_hits": [
+      "launch",
+      "ceasefire"
     ]
   },
   {

@@ -14,6 +14,20 @@
     "lang": "en"
   },
   {
+    "event_id": "25cb0c5bfdaf",
+    "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+    "location": "伊朗",
+    "first_seen_time": "2026-11-18T13:04:48+00:00",
+    "last_updated_time": "2026-11-18T13:04:48+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 75,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
     "event_id": "7adfa1b02ad4",
     "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
     "location": "以色列",
@@ -25,6 +39,20 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "f8ba09a634da",
+    "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+    "location": "以色列",
+    "first_seen_time": "2026-11-18T22:34:56+00:00",
+    "last_updated_time": "2026-11-18T22:34:56+00:00",
+    "current_status": "ceasefire",
+    "trend": "improving",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
