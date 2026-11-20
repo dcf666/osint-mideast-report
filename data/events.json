@@ -42,20 +42,6 @@
     "lang": "en"
   },
   {
-    "event_id": "f8ba09a634da",
-    "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-    "location": "以色列",
-    "first_seen_time": "2026-11-18T22:34:56+00:00",
-    "last_updated_time": "2026-11-18T22:34:56+00:00",
-    "current_status": "ceasefire",
-    "trend": "improving",
-    "confidence": 67,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "2326659c3bb3",
     "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
     "location": "伊朗·德黑兰",

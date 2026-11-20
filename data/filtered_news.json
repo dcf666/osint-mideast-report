@@ -24,9 +24,9 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hormuz",
       "iran",
       "strait",
+      "hormuz",
       "bahrain"
     ],
     "action_hits": [
@@ -43,9 +43,9 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "kuwait",
       "iran",
-      "bahrain"
+      "bahrain",
+      "kuwait"
     ],
     "action_hits": [
       "strike",
@@ -61,30 +61,13 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
+      "idf",
       "hamas",
       "israel",
-      "idf",
       "IDF"
     ],
     "action_hits": [
       "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-    "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 18 Nov 2026 22:34:56 GMT",
-    "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-    "lang": "en",
-    "relevance_score": 67,
-    "entity_hits": [
-      "israel",
-      "hamas"
-    ],
-    "action_hits": [
-      "launch",
-      "ceasefire"
     ]
   },
   {
@@ -96,12 +79,12 @@
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "tehran",
-      "iran"
+      "iran",
+      "tehran"
     ],
     "action_hits": [
-      "bomb",
-      "attack"
+      "attack",
+      "bomb"
     ]
   }
 ]
