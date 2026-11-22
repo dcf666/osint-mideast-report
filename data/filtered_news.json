@@ -24,14 +24,14 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "hormuz",
-      "iran",
       "strait",
-      "bahrain"
+      "bahrain",
+      "hormuz",
+      "iran"
     ],
     "action_hits": [
-      "drone",
-      "attack"
+      "attack",
+      "drone"
     ]
   },
   {
@@ -44,12 +44,12 @@
     "relevance_score": 75,
     "entity_hits": [
       "kuwait",
-      "iran",
-      "bahrain"
+      "bahrain",
+      "iran"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
     ]
   },
   {
@@ -61,10 +61,10 @@
     "lang": "en",
     "relevance_score": 70,
     "entity_hits": [
-      "hamas",
-      "idf",
+      "IDF",
       "israel",
-      "IDF"
+      "hamas",
+      "idf"
     ],
     "action_hits": [
       "strike"
