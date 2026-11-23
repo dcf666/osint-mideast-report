@@ -8,8 +8,8 @@
     "lang": "zh",
     "relevance_score": 64,
     "entity_hits": [
-      "以军",
-      "哈马斯"
+      "哈马斯",
+      "以军"
     ],
     "action_hits": [
       "空袭"
@@ -24,10 +24,10 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
+      "iran",
       "strait",
-      "bahrain",
       "hormuz",
-      "iran"
+      "bahrain"
     ],
     "action_hits": [
       "attack",
@@ -44,29 +44,11 @@
     "relevance_score": 75,
     "entity_hits": [
       "kuwait",
-      "bahrain",
-      "iran"
+      "iran",
+      "bahrain"
     ],
     "action_hits": [
       "attack",
-      "strike"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-    "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 15 Nov 2026 08:17:41 GMT",
-    "summary": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
-    "lang": "en",
-    "relevance_score": 70,
-    "entity_hits": [
-      "IDF",
-      "israel",
-      "hamas",
-      "idf"
-    ],
-    "action_hits": [
       "strike"
     ]
   },
@@ -79,12 +61,12 @@
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "iran",
-      "tehran"
+      "tehran",
+      "iran"
     ],
     "action_hits": [
-      "bomb",
-      "attack"
+      "attack",
+      "bomb"
     ]
   }
 ]
