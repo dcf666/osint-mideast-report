@@ -8,30 +8,11 @@
     "lang": "zh",
     "relevance_score": 64,
     "entity_hits": [
-      "哈马斯",
-      "以军"
+      "以军",
+      "哈马斯"
     ],
     "action_hits": [
       "空袭"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Iran targets US military base in Bahrain with drone attack",
-    "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-    "published": "Sun, 15 Nov 2026 13:42:58 GMT",
-    "summary": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
-    "lang": "en",
-    "relevance_score": 80,
-    "entity_hits": [
-      "strait",
-      "bahrain",
-      "hormuz",
-      "iran"
-    ],
-    "action_hits": [
-      "drone",
-      "attack"
     ]
   },
   {
@@ -43,13 +24,30 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
-      "kuwait",
+      "iran",
       "bahrain",
-      "iran"
+      "kuwait"
     ],
     "action_hits": [
       "strike",
       "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+    "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+    "published": "Tue, 24 Nov 2026 15:35:53 GMT",
+    "summary": "Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "israel",
+      "hamas"
+    ],
+    "action_hits": [
+      "strike",
+      "killed"
     ]
   },
   {
@@ -61,12 +59,12 @@
     "lang": "en",
     "relevance_score": 65,
     "entity_hits": [
-      "tehran",
-      "iran"
+      "iran",
+      "tehran"
     ],
     "action_hits": [
-      "bomb",
-      "attack"
+      "attack",
+      "bomb"
     ]
   }
 ]

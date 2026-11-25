@@ -1,19 +1,5 @@
 [
   {
-    "event_id": "e2d5b63a386a",
-    "title": "Iran targets US military base in Bahrain with drone attack",
-    "location": "霍尔木兹海峡",
-    "first_seen_time": "2026-11-15T13:42:58+00:00",
-    "last_updated_time": "2026-11-15T13:42:58+00:00",
-    "current_status": "active_conflict",
-    "trend": "stable",
-    "confidence": 80,
-    "source_count": 1,
-    "source": "BBC中东",
-    "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-    "lang": "en"
-  },
-  {
     "event_id": "25cb0c5bfdaf",
     "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
     "location": "伊朗",
@@ -25,6 +11,20 @@
     "source_count": 1,
     "source": "BBC中东",
     "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+    "lang": "en"
+  },
+  {
+    "event_id": "a55d37dcbf43",
+    "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+    "location": "以色列",
+    "first_seen_time": "2026-11-24T15:35:53+00:00",
+    "last_updated_time": "2026-11-24T15:35:53+00:00",
+    "current_status": "active_conflict",
+    "trend": "stable",
+    "confidence": 67,
+    "source_count": 1,
+    "source": "BBC中东",
+    "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
     "lang": "en"
   },
   {
