@@ -1,11 +1,10 @@
 {
   "markets": {
     "brent": {
-      "current": 88.58000183105469,
-      "day_change_pct": -3.09,
-      "war_change_pct": 0.0,
+      "current": 89.9800033569336,
+      "day_change_pct": -4.89,
+      "war_change_pct": 2.44,
       "dates": [
-        "10/15",
         "10/16",
         "10/19",
         "10/20",
@@ -34,10 +33,10 @@
         "11/20",
         "11/23",
         "11/24",
-        "11/25"
+        "11/25",
+        "11/26"
       ],
       "prices": [
-        105.92,
         109.86,
         109.55,
         108.79,
@@ -66,16 +65,16 @@
         92.57,
         89.37,
         91.4,
-        88.58
+        94.61,
+        89.98
       ],
-      "updated": "2026-11-25T09:42:51.615118"
+      "updated": "2026-11-26T09:19:11.862877"
     },
     "wti": {
-      "current": 81.81999969482422,
-      "day_change_pct": -0.28,
-      "war_change_pct": -0.66,
+      "current": 83.37000274658203,
+      "day_change_pct": -0.37,
+      "war_change_pct": 1.39,
       "dates": [
-        "10/15",
         "10/16",
         "10/19",
         "10/20",
@@ -104,10 +103,10 @@
         "11/20",
         "11/23",
         "11/24",
-        "11/25"
+        "11/25",
+        "11/26"
       ],
       "prices": [
-        97.97,
         101.41,
         103.66,
         101.79,
@@ -136,16 +135,16 @@
         83.98,
         80.17,
         82.05,
-        81.82
+        83.68,
+        83.37
       ],
-      "updated": "2026-11-25T09:42:51.711950"
+      "updated": "2026-11-26T09:19:11.980359"
     },
     "gold": {
-      "current": 3552.5,
-      "day_change_pct": -0.26,
-      "war_change_pct": -24.33,
+      "current": 3601.0,
+      "day_change_pct": 1.84,
+      "war_change_pct": -22.61,
       "dates": [
-        "10/15",
         "10/16",
         "10/19",
         "10/20",
@@ -174,10 +173,10 @@
         "11/20",
         "11/23",
         "11/24",
-        "11/25"
+        "11/25",
+        "11/26"
       ],
       "prices": [
-        4170.1,
         4181.1,
         4160.1,
         4142.6,
@@ -206,16 +205,16 @@
         3515.4,
         3651.4,
         3561.9,
-        3552.5
+        3535.8,
+        3601.0
       ],
-      "updated": "2026-11-25T09:42:51.811390"
+      "updated": "2026-11-26T09:19:12.093824"
     },
     "usd_cny": {
-      "current": 6.66379976272583,
-      "day_change_pct": -0.01,
-      "war_change_pct": -0.86,
+      "current": 6.659599781036377,
+      "day_change_pct": -0.07,
+      "war_change_pct": -0.9,
       "dates": [
-        "10/15",
         "10/16",
         "10/19",
         "10/20",
@@ -244,10 +243,10 @@
         "11/20",
         "11/23",
         "11/24",
-        "11/25"
+        "11/25",
+        "11/26"
       ],
       "prices": [
-        6.69,
         6.69,
         6.69,
         6.69,
@@ -276,16 +275,16 @@
         6.67,
         6.68,
         6.66,
+        6.66,
         6.66
       ],
-      "updated": "2026-11-25T09:42:51.913378"
+      "updated": "2026-11-26T09:19:12.208074"
     },
     "nat_gas": {
-      "current": 3.625,
-      "day_change_pct": 9.09,
-      "war_change_pct": 30.87,
+      "current": 3.614000082015991,
+      "day_change_pct": 10.55,
+      "war_change_pct": 27.16,
       "dates": [
-        "10/15",
         "10/16",
         "10/19",
         "10/20",
@@ -314,10 +313,10 @@
         "11/20",
         "11/23",
         "11/24",
-        "11/25"
+        "11/25",
+        "11/26"
       ],
       "prices": [
-        3.24,
         3.12,
         3.06,
         2.96,
@@ -346,26 +345,36 @@
         3.41,
         3.18,
         3.32,
-        3.62
+        3.27,
+        3.61
       ],
-      "updated": "2026-11-25T09:42:52.016404"
+      "updated": "2026-11-26T09:19:12.324192"
     }
   },
   "stocks": {
     "601872": {
       "name": "招商轮船",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 15.42,
+      "change_pct": 0.85,
+      "high": 15.63,
+      "low": 15.19,
+      "volume": 636738
     },
     "600026": {
       "name": "中远海能",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 16.47,
+      "change_pct": 0.73,
+      "high": 16.68,
+      "low": 16.31,
+      "volume": 288976
     },
     "601975": {
       "name": "招商南油",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 3.57,
+      "change_pct": 0.28,
+      "high": 3.65,
+      "low": 3.53,
+      "volume": 1185150
     },
     "600938": {
       "name": "中国海油",
@@ -399,8 +408,11 @@
     },
     "002353": {
       "name": "杰瑞股份",
-      "price": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "price": 64.89,
+      "change_pct": 0.45,
+      "high": 66.38,
+      "low": 63.88,
+      "volume": 118854
     },
     "600803": {
       "name": "新奥股份",
@@ -485,8 +497,8 @@
       "lang": "zh",
       "relevance_score": 64,
       "entity_hits": [
-        "以军",
-        "哈马斯"
+        "哈马斯",
+        "以军"
       ],
       "action_hits": [
         "空袭"
@@ -501,13 +513,30 @@
       "lang": "en",
       "relevance_score": 75,
       "entity_hits": [
+        "kuwait",
         "iran",
-        "bahrain",
-        "kuwait"
+        "bahrain"
       ],
       "action_hits": [
         "strike",
         "attack"
+      ]
+    },
+    {
+      "source": "BBC中东",
+      "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
+      "link": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 14:06:13 GMT",
+      "summary": "Mohammed Abu al-Ouf, head of Hamas's internal security service in northern Gaza, was killed with his wife and two teenage daughters, doctors say.",
+      "lang": "en",
+      "relevance_score": 67,
+      "entity_hits": [
+        "israel",
+        "hamas"
+      ],
+      "action_hits": [
+        "strike",
+        "killed"
       ]
     },
     {
@@ -525,23 +554,6 @@
       "action_hits": [
         "strike",
         "killed"
-      ]
-    },
-    {
-      "source": "BBC中东",
-      "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-      "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Nov 2026 17:37:04 GMT",
-      "summary": "Tehran rejects any suggestion it was plotting a so-called dirty bomb attack on the US capital as \"baseless\".",
-      "lang": "en",
-      "relevance_score": 65,
-      "entity_hits": [
-        "iran",
-        "tehran"
-      ],
-      "action_hits": [
-        "attack",
-        "bomb"
       ]
     }
   ],
@@ -561,31 +573,17 @@
       "lang": "en"
     },
     {
-      "event_id": "a55d37dcbf43",
-      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "event_id": "60b86c58f726",
+      "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
       "location": "以色列",
-      "first_seen_time": "2026-11-24T15:35:53+00:00",
-      "last_updated_time": "2026-11-24T15:35:53+00:00",
+      "first_seen_time": "2026-11-25T14:06:13+00:00",
+      "last_updated_time": "2026-11-25T14:06:13+00:00",
       "current_status": "active_conflict",
       "trend": "stable",
       "confidence": 67,
-      "source_count": 1,
+      "source_count": 2,
       "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-      "lang": "en"
-    },
-    {
-      "event_id": "2326659c3bb3",
-      "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-      "location": "伊朗·德黑兰",
-      "first_seen_time": "2026-11-17T17:37:04+00:00",
-      "last_updated_time": "2026-11-17T17:37:04+00:00",
-      "current_status": "active_conflict",
-      "trend": "stable",
-      "confidence": 65,
-      "source_count": 1,
-      "source": "BBC中东",
-      "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
       "lang": "en"
     },
     {
@@ -606,7 +604,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "10/27",
         "10/28",
         "10/29",
         "10/30",
@@ -635,7 +632,8 @@
         "11/22",
         "11/23",
         "11/24",
-        "11/25"
+        "11/25",
+        "11/26"
       ],
       "transits": [
         0,
@@ -727,34 +725,27 @@
         21,
         69
       ],
-      "date_label": "11月25日"
+      "date_label": "11月26日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-11-25",
+      "hormuz_last_date": "2026-11-26",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-10-12",
-      "vlcc_stale_days": 44,
+      "vlcc_stale_days": 45,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-11-25"
+      "routes_date": "2026-11-26"
     }
   },
   "meta": {
-    "report_date": "2026.11.25",
-    "report_date_cn": "2026年11月25日",
-    "war_day": 271,
+    "report_date": "2026.11.26",
+    "report_date_cn": "2026年11月26日",
+    "war_day": 272,
     "war_start": "2026-02-28",
-    "generated_at": "2026-11-25T17:43:35.676299+08:00",
-    "generated_at_cn": "2026-11-25 17:43:35 北京时间"
+    "generated_at": "2026-11-26T17:19:44.574984+08:00",
+    "generated_at_cn": "2026-11-26 17:19:44 北京时间"
   },
   "history": [
-    {
-      "date": "2026-08-28",
-      "brent": 87.86000061035156,
-      "wti": 82.79000091552734,
-      "gold": 4655.0,
-      "usd_cny": 6.720300197601318
-    },
     {
       "date": "2026-08-29",
       "brent": NaN,
@@ -1377,6 +1368,13 @@
       "wti": 81.81999969482422,
       "gold": 3552.5,
       "usd_cny": 6.66379976272583
+    },
+    {
+      "date": "2026-11-26",
+      "brent": 89.9800033569336,
+      "wti": 83.37000274658203,
+      "gold": 3601.0,
+      "usd_cny": 6.659599781036377
     }
   ]
 }

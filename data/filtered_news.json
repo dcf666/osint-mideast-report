@@ -8,8 +8,8 @@
     "lang": "zh",
     "relevance_score": 64,
     "entity_hits": [
-      "以军",
-      "哈马斯"
+      "哈马斯",
+      "以军"
     ],
     "action_hits": [
       "空袭"
@@ -24,13 +24,30 @@
     "lang": "en",
     "relevance_score": 75,
     "entity_hits": [
+      "kuwait",
       "iran",
-      "bahrain",
-      "kuwait"
+      "bahrain"
     ],
     "action_hits": [
       "strike",
       "attack"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
+    "link": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
+    "published": "Wed, 25 Nov 2026 14:06:13 GMT",
+    "summary": "Mohammed Abu al-Ouf, head of Hamas's internal security service in northern Gaza, was killed with his wife and two teenage daughters, doctors say.",
+    "lang": "en",
+    "relevance_score": 67,
+    "entity_hits": [
+      "israel",
+      "hamas"
+    ],
+    "action_hits": [
+      "strike",
+      "killed"
     ]
   },
   {
@@ -48,23 +65,6 @@
     "action_hits": [
       "strike",
       "killed"
-    ]
-  },
-  {
-    "source": "BBC中东",
-    "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-    "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
-    "published": "Tue, 17 Nov 2026 17:37:04 GMT",
-    "summary": "Tehran rejects any suggestion it was plotting a so-called dirty bomb attack on the US capital as \"baseless\".",
-    "lang": "en",
-    "relevance_score": 65,
-    "entity_hits": [
-      "iran",
-      "tehran"
-    ],
-    "action_hits": [
-      "attack",
-      "bomb"
     ]
   }
 ]
