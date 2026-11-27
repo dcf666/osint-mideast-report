@@ -1,5 +1,24 @@
 [
   {
+    "source": "BBC中文",
+    "title": "失去伊朗石油供應，中國小型煉油廠如何應對？",
+    "link": "https://www.bbc.com/zhongwen/articles/c3qj5y7lwrn9o/trad?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 27 Nov 2026 03:35:06 GMT",
+    "summary": "美國對伊朗實施海上封鎖，迫使長期依賴廉價伊朗石油的中國獨立煉油廠轉向伊拉克等產油國，面臨成本上升和經營虧損的壓力。即使封鎖解除，伊朗能否重新贏得這些中國買家，仍取決於油價及美國的制裁政策。",
+    "lang": "zh",
+    "relevance_score": 88,
+    "entity_hits": [
+      "油價",
+      "伊朗",
+      "伊拉克"
+    ],
+    "action_hits": [
+      "油價",
+      "制裁",
+      "封鎖"
+    ]
+  },
+  {
     "source": "FT中文网",
     "title": "以军再度空袭加沙医院",
     "link": "https://www.ftchinese.com/story/001111356",
@@ -8,8 +27,8 @@
     "lang": "zh",
     "relevance_score": 64,
     "entity_hits": [
-      "哈马斯",
-      "以军"
+      "以军",
+      "哈马斯"
     ],
     "action_hits": [
       "空袭"
@@ -17,20 +36,38 @@
   },
   {
     "source": "BBC中东",
-    "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-    "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
-    "published": "Wed, 18 Nov 2026 13:04:48 GMT",
-    "summary": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
+    "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
+    "link": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss",
+    "published": "Fri, 27 Nov 2026 06:04:51 GMT",
+    "summary": "Despite the strikes, markets and restaurants in Riyadh remain busy as residents express trust in the government to protect them.",
     "lang": "en",
-    "relevance_score": 75,
+    "relevance_score": 80,
     "entity_hits": [
-      "kuwait",
-      "iran",
-      "bahrain"
+      "houthi",
+      "riyadh",
+      "saudi"
     ],
     "action_hits": [
-      "strike",
-      "attack"
+      "attack",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+    "link": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 26 Nov 2026 10:14:08 GMT",
+    "summary": "The killings are the latest from a series of near daily attacks by Israel against what it says are Hamas targets.",
+    "lang": "en",
+    "relevance_score": 77,
+    "entity_hits": [
+      "israel",
+      "hamas"
+    ],
+    "action_hits": [
+      "attack",
+      "killed",
+      "strike"
     ]
   },
   {
@@ -46,8 +83,8 @@
       "hamas"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
     ]
   },
   {
@@ -63,8 +100,25 @@
       "hamas"
     ],
     "action_hits": [
-      "strike",
-      "killed"
+      "killed",
+      "strike"
+    ]
+  },
+  {
+    "source": "BBC中东",
+    "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+    "link": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+    "published": "Thu, 26 Nov 2026 21:17:53 GMT",
+    "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+    "lang": "en",
+    "relevance_score": 60,
+    "entity_hits": [
+      "iran",
+      "kuwait"
+    ],
+    "action_hits": [
+      "killed",
+      "strike"
     ]
   }
 ]
