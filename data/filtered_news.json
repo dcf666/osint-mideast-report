@@ -8,9 +8,9 @@
     "lang": "zh",
     "relevance_score": 88,
     "entity_hits": [
-      "油價",
+      "伊拉克",
       "伊朗",
-      "伊拉克"
+      "油價"
     ],
     "action_hits": [
       "油價",
@@ -27,8 +27,8 @@
     "lang": "zh",
     "relevance_score": 64,
     "entity_hits": [
-      "以军",
-      "哈马斯"
+      "哈马斯",
+      "以军"
     ],
     "action_hits": [
       "空袭"
@@ -43,13 +43,13 @@
     "lang": "en",
     "relevance_score": 80,
     "entity_hits": [
-      "houthi",
+      "saudi",
       "riyadh",
-      "saudi"
+      "houthi"
     ],
     "action_hits": [
-      "attack",
-      "strike"
+      "strike",
+      "attack"
     ]
   },
   {
@@ -61,13 +61,13 @@
     "lang": "en",
     "relevance_score": 77,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
+      "strike",
       "attack",
-      "killed",
-      "strike"
+      "killed"
     ]
   },
   {
@@ -79,12 +79,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -96,12 +96,12 @@
     "lang": "en",
     "relevance_score": 67,
     "entity_hits": [
-      "israel",
-      "hamas"
+      "hamas",
+      "israel"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   },
   {
@@ -117,8 +117,8 @@
       "kuwait"
     ],
     "action_hits": [
-      "killed",
-      "strike"
+      "strike",
+      "killed"
     ]
   }
 ]

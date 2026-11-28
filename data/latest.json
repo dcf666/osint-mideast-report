@@ -1,9 +1,9 @@
 {
   "markets": {
     "brent": {
-      "current": 92.16000366210938,
-      "day_change_pct": -2.59,
-      "war_change_pct": 4.92,
+      "current": 95.44000244140625,
+      "day_change_pct": 0.88,
+      "war_change_pct": 6.86,
       "dates": [
         "10/16",
         "10/19",
@@ -66,14 +66,14 @@
         89.37,
         91.4,
         94.61,
-        92.16
+        95.44
       ],
-      "updated": "2026-11-27T09:33:40.884703"
+      "updated": "2026-11-28T08:47:20.964952"
     },
     "wti": {
-      "current": 85.62000274658203,
-      "day_change_pct": 2.32,
-      "war_change_pct": 4.12,
+      "current": 83.08000183105469,
+      "day_change_pct": -0.72,
+      "war_change_pct": -0.38,
       "dates": [
         "10/16",
         "10/19",
@@ -136,14 +136,14 @@
         80.17,
         82.05,
         83.68,
-        85.62
+        83.08
       ],
-      "updated": "2026-11-27T09:33:40.995059"
+      "updated": "2026-11-28T08:47:21.065452"
     },
     "gold": {
-      "current": 3708.0,
-      "day_change_pct": 4.87,
-      "war_change_pct": -20.31,
+      "current": 3639.60009765625,
+      "day_change_pct": 2.94,
+      "war_change_pct": -19.65,
       "dates": [
         "10/16",
         "10/19",
@@ -206,16 +206,15 @@
         3651.4,
         3561.9,
         3535.8,
-        3708.0
+        3639.6
       ],
-      "updated": "2026-11-27T09:33:41.108626"
+      "updated": "2026-11-28T08:47:21.163685"
     },
     "usd_cny": {
-      "current": 6.653900146484375,
+      "current": 6.654099941253662,
       "day_change_pct": -0.15,
       "war_change_pct": -1.02,
       "dates": [
-        "10/19",
         "10/20",
         "10/21",
         "10/22",
@@ -244,10 +243,10 @@
         "11/24",
         "11/25",
         "11/26",
-        "11/27"
+        "11/27",
+        "11/28"
       ],
       "prices": [
-        6.69,
         6.69,
         6.68,
         6.68,
@@ -276,14 +275,15 @@
         6.66,
         6.66,
         6.66,
+        6.66,
         6.65
       ],
-      "updated": "2026-11-27T09:33:41.213544"
+      "updated": "2026-11-28T08:47:21.268564"
     },
     "nat_gas": {
-      "current": 3.5840001106262207,
-      "day_change_pct": 9.64,
-      "war_change_pct": 26.11,
+      "current": 3.490999937057495,
+      "day_change_pct": 6.79,
+      "war_change_pct": 20.88,
       "dates": [
         "10/16",
         "10/19",
@@ -346,9 +346,9 @@
         3.18,
         3.32,
         3.27,
-        3.58
+        3.49
       ],
-      "updated": "2026-11-27T09:33:41.323603"
+      "updated": "2026-11-28T08:47:21.361200"
     }
   },
   "stocks": {
@@ -485,9 +485,9 @@
       "lang": "zh",
       "relevance_score": 88,
       "entity_hits": [
-        "油價",
+        "伊拉克",
         "伊朗",
-        "伊拉克"
+        "油價"
       ],
       "action_hits": [
         "油價",
@@ -504,8 +504,8 @@
       "lang": "zh",
       "relevance_score": 64,
       "entity_hits": [
-        "以军",
-        "哈马斯"
+        "哈马斯",
+        "以军"
       ],
       "action_hits": [
         "空袭"
@@ -520,13 +520,13 @@
       "lang": "en",
       "relevance_score": 80,
       "entity_hits": [
-        "houthi",
+        "saudi",
         "riyadh",
-        "saudi"
+        "houthi"
       ],
       "action_hits": [
-        "attack",
-        "strike"
+        "strike",
+        "attack"
       ]
     },
     {
@@ -538,13 +538,13 @@
       "lang": "en",
       "relevance_score": 77,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
+        "strike",
         "attack",
-        "killed",
-        "strike"
+        "killed"
       ]
     },
     {
@@ -556,12 +556,12 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
-        "killed",
-        "strike"
+        "strike",
+        "killed"
       ]
     },
     {
@@ -573,12 +573,12 @@
       "lang": "en",
       "relevance_score": 67,
       "entity_hits": [
-        "israel",
-        "hamas"
+        "hamas",
+        "israel"
       ],
       "action_hits": [
-        "killed",
-        "strike"
+        "strike",
+        "killed"
       ]
     },
     {
@@ -594,8 +594,8 @@
         "kuwait"
       ],
       "action_hits": [
-        "killed",
-        "strike"
+        "strike",
+        "killed"
       ]
     }
   ],
@@ -660,7 +660,6 @@
   "shipping": {
     "hormuz": {
       "dates": [
-        "10/29",
         "10/30",
         "10/31",
         "11/1",
@@ -689,7 +688,8 @@
         "11/24",
         "11/25",
         "11/26",
-        "11/27"
+        "11/27",
+        "11/28"
       ],
       "transits": [
         0,
@@ -781,34 +781,27 @@
         21,
         69
       ],
-      "date_label": "11月27日"
+      "date_label": "11月28日"
     },
     "freshness": {
-      "hormuz_last_date": "2026-11-27",
+      "hormuz_last_date": "2026-11-28",
       "hormuz_stale_days": 0,
       "hormuz_is_estimate": true,
       "vlcc_last_date": "2026-10-12",
-      "vlcc_stale_days": 46,
+      "vlcc_stale_days": 47,
       "vlcc_is_scraped": false,
-      "routes_date": "2026-11-27"
+      "routes_date": "2026-11-28"
     }
   },
   "meta": {
-    "report_date": "2026.11.27",
-    "report_date_cn": "2026年11月27日",
-    "war_day": 273,
+    "report_date": "2026.11.28",
+    "report_date_cn": "2026年11月28日",
+    "war_day": 274,
     "war_start": "2026-02-28",
-    "generated_at": "2026-11-27T17:34:22.030958+08:00",
-    "generated_at_cn": "2026-11-27 17:34:22 北京时间"
+    "generated_at": "2026-11-28T16:47:57.268551+08:00",
+    "generated_at_cn": "2026-11-28 16:47:57 北京时间"
   },
   "history": [
-    {
-      "date": "2026-08-30",
-      "brent": 88.0999984741211,
-      "wti": 83.4000015258789,
-      "gold": 4529.89990234375,
-      "usd_cny": 6.7204999923706055
-    },
     {
       "date": "2026-08-31",
       "brent": 90.62999725341797,
@@ -1431,6 +1424,13 @@
       "wti": 85.62000274658203,
       "gold": 3708.0,
       "usd_cny": 6.653900146484375
+    },
+    {
+      "date": "2026-11-28",
+      "brent": 95.44000244140625,
+      "wti": 83.08000183105469,
+      "gold": 3639.60009765625,
+      "usd_cny": 6.654099941253662
     }
   ]
 }
